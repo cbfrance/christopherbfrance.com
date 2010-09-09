@@ -12,24 +12,24 @@ data_sources:
 #   % rake deploy:rsync
 deploy:
   default:
-    dst: "mgutz_com:www/nanoc3_blog"
+    dst: "unthinkingly_com:/www/sties/unthinkingly2"
     options: ['-ave ssh', '--exclude=.DS_Store', '--exclude=*~']
 
 # domain to which this site is deployed
-base_url: http://nanoc-blog-kit.mgutz.com
+base_url: http://unthinkingly.com
 
 google_analytics:
-  domain: mgutz.com
-  site_id: UA-9655468-1
+  domain: unthinkingly.com
+  site_id: UA-3234234234234
 
 # currently used by logo
-site_name: nanoc3_blog
+site_name: unthinkingly
 
 # number of full featured posts to display on front
 featured_count: 0
 
 # number of excerpted posts to display on front
-excerpt_count: 6
+excerpt_count: 200
 
 # number of other articles to reference at bottom of each article
 other_articles_max: 3
