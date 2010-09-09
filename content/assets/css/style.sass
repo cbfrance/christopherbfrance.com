@@ -11,18 +11,13 @@ $logo_background_color: #e0115f
 $link_color: $heading_color
 $link_hover_color: #333
 $link_bg: white
-
 $tag_color: $link_color
-
 $border_color: #bbbbbb
-
-//// Mixins
 
 =sans
   font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif
 
 =serif
-  //font-family: "Lucida Grande",Helvetica,Arial,Verdana,sans-serif
   font-family: Georgia, Cambria, "Times New Roman", Times, serif
 
 =logo-font
@@ -47,10 +42,9 @@ body
   border-top: 2px solid #cccccc
   min-width: 800px
 
-#main
-  margin: auto
-  width: 720px
-  padding: 3em 0
+div#main
+  width: 90%
+  margin: 0 auto
 
 a
   border-bottom: solid 1px $link_color
@@ -128,7 +122,6 @@ pre
     a
       +sans
       color: $logo_color
-      background-color: $logo_background_color
       border: none
       +logo-font
       text-decoration: none
