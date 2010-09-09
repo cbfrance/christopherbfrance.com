@@ -1,0 +1,30 @@
+#!/usr/bin/ruby
+# statement of purpose 
+# When I want to start blogging, 
+# I `rake blog:startup` and it executes rake task:
+# start compass in a new terminal (small terminal in the bottom right)
+# start nanoc in a new terminal (different colored terminal in the bottom left)
+# open a new terminal for me to work in (different colored terminal in the top left)
+# Pull recent changes from remote origin.
+# Run tests, perhaps lauching a remote CI service (the same one used for production and dev)
+# update dev via git (capistrano?)
+
+# every night it builds with cron
+#15 * * * * cd git/projectname && /usr/bin/rake blog:startup
+
+require 'rake'
+
+
+
+namespace :blog do
+  desc "tasks for managing a nanoc-based blog with compass."
+  task :startup do 
+  `cd `
+  
+  end
+  
+  task :deploy do
+  end
+
+
+end
