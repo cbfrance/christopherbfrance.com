@@ -1,5 +1,5 @@
 //// Variables
-$base_color: #202020
+$base_color: #000
 $heading_color: $base_color
 $normal_color: #404040
 $passive_color: #606060
@@ -9,7 +9,7 @@ $logo_color: white
 $logo_background_color: #e0115f
 
 $link_color: $heading_color
-$link_hover_color: #e0115f
+$link_hover_color: #333
 $link_bg: white
 
 $tag_color: $link_color
@@ -53,7 +53,6 @@ body
   padding: 3em 0
 
 a
-  background-color: $link_bg
   border-bottom: solid 1px $link_color
   color: $link_color
   text-decoration: none
@@ -119,20 +118,13 @@ pre
   padding: 0.5em
 
 #header
-  //margin-bottom: 2em
+  margin-bottom: 2em
   overflow: auto
   .logo
-    -webkit-border-radius: 12px 0 0
-    -moz-border-radius: 12px 0 0
-    background-color: $logo_background_color
-    color: $logo_color
     float: left
     font-size: 30px
     +logo-font
     padding: 0 0.3em
-    bottom-margin: 0.7em
-    // css3 inset effect
-    //text-shadow: 0px -1px 1px #aaa
     a
       +sans
       color: $logo_color
@@ -141,9 +133,9 @@ pre
       +logo-font
       text-decoration: none
       &:link, &:visited
-        //color: #000 !important
+        color: #000 !important
       &:hover
-        //color: #000 !important
+        color: #000 !important
         border-bottom: solid 1px $logo_color
         text-decoration: none
   #nav
@@ -173,7 +165,7 @@ pre
   text-align: right
 
 #sticky
-  //border: 3px double #eee
+  border: 3px double #eee
   margin-bottom: 3.2em
   .body
     margin: auto
