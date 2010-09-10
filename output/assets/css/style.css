@@ -1,0 +1,195 @@
+* {
+  font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+  color: #404040; }
+
+body {
+  font-size: 16px;
+  border-top: 2px solid #cccccc;
+  min-width: 800px; }
+
+div#main {
+  width: 90%;
+  margin: 0 auto; }
+
+a {
+  border-bottom: solid 1px black;
+  color: black;
+  text-decoration: none;
+  margin: 2px; }
+  a:link, a:visited {
+    color: black; }
+  a:hover {
+    color: #333333;
+    text-decoration: none;
+    border-bottom: solid 1px #333333; }
+
+code, pre {
+  font-family: Monaco, Consolas, "Lucida Console", "Courier New", Courier, monospace;
+  color: #404040;
+  font-size: 13px; }
+
+blockquote, div, ol, p, pre, ul {
+  line-height: 1.5em;
+  margin-bottom: 1.5em; }
+
+h1, h2, h3, h4, h5 {
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+  color: black;
+  font-weight: normal; }
+  h1 a, h2 a, h3 a, h4 a, h5 a {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+    color: black !important;
+    text-decoration: none;
+    border-bottom: none; }
+    h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover {
+      color: #333333 !important; }
+
+h1 {
+  border-bottom: 1px solid #eeeeee;
+  font-size: 1.8em;
+  padding-bottom: 6px;
+  margin-bottom: 1em; }
+
+h2, h3 {
+  color: black;
+  margin: 1.5em 0 1em; }
+
+h2 {
+  font-size: 1.3em; }
+
+h3 {
+  font-size: 1.1em; }
+
+ol, ul {
+  padding-left: 30px; }
+  ol li, ul li {
+    line-height: 1.5em; }
+
+ul {
+  list-style-type: circle; }
+
+ol {
+  list-style-type: decimal; }
+
+pre {
+  background-color: #f8f8f8;
+  border-left: 3px double #bbbbbb;
+  padding: 0.5em; }
+
+#header {
+  margin-bottom: 2em;
+  overflow: auto; }
+  #header .logo {
+    float: left;
+    font-size: 30px;
+    font-family: baskerville, palatino, "palatino linotype", georgia, serif;
+    padding: 0 0.3em; }
+    #header .logo a {
+      font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+      color: white;
+      border: none;
+      font-family: baskerville, palatino, "palatino linotype", georgia, serif;
+      text-decoration: none; }
+      #header .logo a:link, #header .logo a:visited {
+        color: black !important; }
+      #header .logo a:hover {
+        color: black !important;
+        border-bottom: solid 1px white;
+        text-decoration: none; }
+  #header #nav {
+    float: right;
+    margin-top: 10px;
+    text-align: right; }
+    #header #nav ul li {
+      display: inline; }
+  #header .byline {
+    color: #606060; }
+
+#other-articles {
+  margin-top: 4em; }
+  #other-articles ul {
+    padding: 0;
+    list-style-type: none; }
+  #other-articles h3 {
+    margin: 0 0 0.5em; }
+  #other-articles .newer {
+    text-align: right;
+    float: right; }
+  #other-articles .older {
+    float: left; }
+
+#taglist {
+  font-size: 0.8em;
+  margin-top: 3em;
+  text-align: right; }
+
+#sticky {
+  border: 3px double #eeeeee;
+  margin-bottom: 3.2em; }
+  #sticky .body {
+    margin: auto;
+    text-align: center; }
+    #sticky .body p {
+      margin: 0;
+      line-height: 4em; }
+
+.archives .excerpt, .tag-page .excerpt {
+  font-size: 90%;
+  margin: 0; }
+  .archives .excerpt h2, .tag-page .excerpt h2 {
+    margin-top: 0; }
+.archives ul, .tag-page ul {
+  list-style-type: none;
+  padding-left: 0px; }
+
+.article, .excerpt, .featured {
+  margin-bottom: 2.5em; }
+
+table.colophon td:first-of-type {
+  width: 175px; }
+
+.article h1, .featured h1 {
+  margin-bottom: 0.25em; }
+
+.clear {
+  clear: both; }
+
+.excerpt {
+  margin-bottom: 1.5em; }
+  .excerpt h2 {
+    margin-bottom: 0.5em; }
+  .excerpt p {
+    margin-bottom: 0.5em; }
+
+.meta {
+  font-size: 13px; }
+  .meta ul {
+    margin: 0px;
+    padding-left: 0; }
+    .meta ul li {
+      color: #606060;
+      display: inline; }
+
+.passive {
+  color: #606060; }
+
+a.tag {
+  color: black !important;
+  padding: 0 0.1em 0; }
+  a.tag:hover {
+    color: #333333 !important; }
+
+.tags {
+  text-transform: lowercase; }
+
+.tags-page ul {
+  padding: 0;
+  list-style-type: none; }
+
+.screencast {
+  text-align: center;
+  border: 3px double #bbbbbb;
+  padding-top: 30px;
+  div-padding: 0;
+  div-margin-bottom: 0;
+  div-font-size: 0.5em !important; }

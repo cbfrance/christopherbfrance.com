@@ -1,0 +1,219 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>Getting Started With nanoc3_blog</title>
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type' />
+    <meta content='nanoc blog example, nanoc3 blog example, haml, nanoc3, sass' name='keywords' />
+    <meta content='Get started with nanoc3_blog' name='description' />
+    <link href='/assets/css/reset.css' rel='stylesheet' type='text/css' />
+    <link href='/assets/css/style.css' media='screen' rel='stylesheet' type='text/css' />
+  </head>
+  <body>
+    <div id='main'>
+      <div id='header'>
+        <div class='logo'>
+          <a href='/'>&laquo; unthinkingly</a>
+        </div>
+        <div id='nav'>
+          <ul>
+            <li><a href='/about.html'>about</a></li>
+            <li><a href='/archives.html'>archives</a></li>
+            <li><a href='/tags.html'>tags</a></li>
+            <li>
+              <a href='/atom.xml'>rss</a>
+            </li>
+            <li>
+              <a href='/license.html'>license</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class='clear'></div>
+      <div class='article'>
+        <h1>
+          Getting Started With nanoc3_blog
+        </h1>
+        <div class='meta'>
+          <ul class='tags'>
+            <li>Jan 15, 2010</li>
+            <li>
+              &middot;
+            </li>
+            <li>
+              <a href='/2010/01/15/getting_started_with_nanoc3_blog.html#disqus_thread'></a>
+            </li>
+            <li>&middot;</li>
+            <li>
+              <a class='tag' href='/tags/haml/'>
+                haml
+              </a>
+            </li>
+            <li>
+              <a class='tag' href='/tags/nanoc3/'>
+                nanoc3
+              </a>
+            </li>
+            <li>
+              <a class='tag' href='/tags/sass/'>
+                sass
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class='body'>
+          <h2>Prerequisites</h2>
+          
+          <p>Know how to use <code>terminal, Ruby, HAML, SASS</code> and <code>Markdown</code>.</p>
+          
+          <h2>Installation</h2>
+          
+          <p>From the command line</p>
+          
+          <pre><code>% gem install bundler&#x000A;% git clone git://github.com/mgutz/nanoc3_blog.git your_blog&#x000A;% cd your_blog&#x000A;% bundle install&#x000A;</code></pre>
+          
+          <h2>Previewing the Site</h2>
+          
+          <p>Compile the site</p>
+          
+          <pre><code># cleans output/ directory. `rm -rf output` works just as well&#x000A;% rake clean &#x000A;&#x000A;# compiles content/* and copies static/* to output/&#x000A;% nanoc compile&#x000A;&#x000A;# runs preview server and autocompile on page refresh&#x000A;% nanoc aco&#x000A;</code></pre>
+          
+          <p>Preview the site on <code>http://localhost:3000</code></p>
+          
+          <h2>Customizing Existing Content</h2>
+          
+          <p>Edit these two files:</p>
+          
+          <pre><code>content/about.md&#x000A;content/sticky.md # box content on front page&#x000A;</code></pre>
+          
+          <p>Delete articles to remove them from site. Then, recompile and restart server.</p>
+          
+          <p>To change the front page: <code>content/index.haml</code></p>
+          
+          <p>To change the site layout: <code>layouts/default.haml</code></p>
+          
+          <p>To style the site: <code>content/assets/style.sass</code></p>
+          
+          <h2>Adding Content</h2>
+          
+          <p>Edit the Markdown file created by running this command:</p>
+          
+          <pre><code># filename is written to console&#x000A;% rake create:article title='Hello world'&#x000A;</code></pre>
+          
+          <p>After compiling or refresh in preview mode, view your page from the front page, archives link and tags link
+          if you entered tags.</p>
+          
+          <h2>Configuration</h2>
+          
+          <p>Edit the configuration files:</p>
+          
+          <pre><code>config.yaml&#x000A;content/atom.xml.erb&#x000A;</code></pre>
+          
+          <h2>Deployment</h2>
+          
+          <p>Transfer <code>output/*</code> to your hosted web server. If use rsync, then
+          edit the settings in <code>config.yaml</code> and execute</p>
+          
+          <pre><code>% rake deploy:rsync&#x000A;</code></pre>
+        </div>
+      </div>
+      <div id='other-articles'>
+        <div class='older'>
+          <ul>
+            <li>
+              <h3>
+                <a href='/2010/01/14/markdown/test.html' title='Article example using Markdown syntax'>
+                  &laquo; Markdown Test
+                </a>
+              </h3>
+            </li>
+            <li>
+              <h3>
+                <a href='/2010/01/13/erb/markdown/test.html' title='Example using ERB, then Markdown'>
+                  &laquo; ERB Markdown Test
+                </a>
+              </h3>
+            </li>
+            <li>
+              <h3>
+                <a href='/2010/01/03/stylesheet_article.html' title='About different stylesheet processors'>
+                  &laquo; Stylesheet Article
+                </a>
+              </h3>
+            </li>
+          </ul>
+        </div>
+        <div class='newer'>
+          <ul>
+            <li>
+              <h3>
+                <a href='/posts/2010/1/what/could/possibly/go/wrong.html' title=''>
+                  What could possibly go wrong?  &raquo;
+                </a>
+              </h3>
+            </li>
+            <li>
+              <h3>
+                <a href='/posts/2010/3/recent/meedan/press.html' title=''>
+                  Recent Meedan press &raquo;
+                </a>
+              </h3>
+            </li>
+            <li>
+              <h3>
+                <a href='/posts/2010/4/dont/pitch/me.html' title=''>
+                  Don't pitch me. &raquo;
+                </a>
+              </h3>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class='clear'></div>
+      <div class='comments'>
+        <div id='disqus_thread'></div>
+        <script src='http://disqus.com/forums/nanoc3-blog/embed.js' type='text/javascript'></script>
+        <noscript>
+          <a href='http://disqus.com/forums/nanoc3-blog/?url=ref'>
+            View the discussion thread
+          </a>
+        </noscript>
+      </div>
+      <!-- / disqus adds too much visual crap -->
+      <style type='text/css'>
+        .dsq-dc-logo {
+          display: none !important; }
+      </style>
+      <div class='clear'></div>
+    </div>
+    <script type='text/javascript'>
+      //<![CDATA[
+        (function() {
+          var links = document.getElementsByTagName('a');
+          var query = '?';
+          for(var i = 0; i < links.length; i++) {
+            if(links[i].href.indexOf('#disqus_thread') >= 0) {
+              query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
+            }
+          }
+          document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/nanoc3-blog/get_num_replies.js' + query + '"></' + 'script>');
+        })();
+      //]]>
+    </script>
+    <script type='text/javascript'>
+      //<![CDATA[
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+      //]]>
+    </script>
+    <script type='text/javascript'>
+      //<![CDATA[
+        try {
+          var pageTracker = _gat._getTracker("UA-3234234234234");
+          pageTracker._setDomainName(".unthinkingly.com");
+          pageTracker._setAllowHash(false);
+          pageTracker._trackPageview();
+        } catch(err) {}
+      //]]>
+    </script>
+  </body>
+</html>
