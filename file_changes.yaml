@@ -152,9 +152,9 @@
   :created_at: 2009-05-07 09:17:50
   :digest: f128888e27c3556c6c8bfddb7fa439bc688539a4
 :"content/posts/2008/10/kermit-bonafide-trueblue-guarantee-your-money-back-visual-thinker.html": 
-  :updated_at: 2010-09-08 22:13:30 -07:00
+  :updated_at: 2011-05-08 04:04:37 -07:00
   :created_at: 2008-10-09 22:17:48
-  :digest: 52ca0c5b86b9b066d03eea71fb84d72992e204e6
+  :digest: da650204468efaf797916c97a83c482eabb2b076
 :"content/posts/2007/1/experimenting-with-ibms-many-eyes.html": 
   :updated_at: 2010-09-08 22:13:30 -07:00
   :created_at: 2007-01-28 18:06:44
@@ -200,9 +200,9 @@
   :created_at: 2006-12-17 18:57:53
   :digest: 00b7a9e35d22a63ddd8fc3f7ccdbbfd1bd786cfc
 :"content/posts/2008/11/eleventy-million-new-flickr-posts.html": 
-  :updated_at: 2010-09-08 22:13:30 -07:00
+  :updated_at: 2011-05-08 04:03:38 -07:00
   :created_at: 2008-11-13 05:38:01
-  :digest: 61c6789c52c7a78d5b2f57ca6efb1c22b551e79b
+  :digest: 16a2e827da2abca2e3038739b0afefd5beb30027
 :"content/posts/2004/2/some-rights-reserved-a-guide-to-the-creative-commons-license.html": 
   :updated_at: 2010-09-08 22:13:30 -07:00
   :created_at: 2004-02-13 18:15:21
@@ -596,9 +596,9 @@
   :created_at: 2008-02-10 22:16:22
   :digest: 3ab5db8db12254bf973cf64bd94959185a855c0e
 :"content/posts/2008/10/broken-infoviz-of-the-day.html": 
-  :updated_at: 2010-09-08 22:13:30 -07:00
+  :updated_at: 2011-05-08 04:05:31 -07:00
   :created_at: 2008-10-09 23:29:43
-  :digest: f8e09dda1c394db57a4cc1af3328be4592e70313
+  :digest: 644162fd0967144463c557affdce1da1b2ae1d2f
 :"content/posts/2006/1/mapping-bird-flu.html": 
   :updated_at: 2010-09-08 22:13:30 -07:00
   :created_at: 2006-01-09 20:52:14
@@ -887,63 +887,63 @@
   :updated_at: 2010-09-08 22:13:30 -07:00
   :created_at: 2005-03-30 07:53:00
   :digest: 299cb691734937d604c7367b52a2b56d36131e4d
-:"content/posts/2007/1/the-panopticon-now-with-an-improved-menu.html": 
-  :updated_at: 2010-09-08 22:13:30 -07:00
-  :created_at: 2007-01-20 22:26:32
-  :digest: 32f5175707e9e54e2572fd42ff7fb051fa9c1dbe
-:"content/posts/2006/1/where-does-your-favorite-organization-fit.html": 
-  :updated_at: 2011-03-29 20:04:27 -07:00
-  :created_at: 2006-01-23 20:03:28
-  :digest: 6ff2d6886e65027081005f041d5a5491e0a782bf
-:"content/posts/2008/4/command-line-metrics.html": 
-  :updated_at: 2010-09-08 22:13:30 -07:00
-  :created_at: 2008-04-11 08:40:30
-  :digest: a024fd5f730c646cb6e1e57dffd357aeeb5126f3
 :"content/posts/2010/3/recent-meedan-press.html": 
   :updated_at: 2010-09-08 23:12:35 -07:00
   :created_at: 2010-03-15 08:07:21
   :digest: 9c984b98b56f7bc22bc1669f525f8154005e54d3
-:"content/posts/2007/1/understanding-a-community-tag-the-history-of-nptech.html": 
+:"content/posts/2008/4/command-line-metrics.html": 
   :updated_at: 2010-09-08 22:13:30 -07:00
-  :created_at: 2007-01-11 00:08:06
-  :digest: e58386ea4c92a78fcab52031a32c2606e4795586
-:"content/posts/2008/5/the-three-simplest-and-most-effective-anti-spam-hacks-i-have-ever-seen.html": 
+  :created_at: 2008-04-11 08:40:30
+  :digest: a024fd5f730c646cb6e1e57dffd357aeeb5126f3
+:"content/posts/2006/1/where-does-your-favorite-organization-fit.html": 
+  :updated_at: 2011-03-29 20:04:27 -07:00
+  :created_at: 2006-01-23 20:03:28
+  :digest: 6ff2d6886e65027081005f041d5a5491e0a782bf
+:"content/posts/2007/1/the-panopticon-now-with-an-improved-menu.html": 
   :updated_at: 2010-09-08 22:13:30 -07:00
-  :created_at: 2008-05-28 22:18:08
-  :digest: 9dfbf446fa37a58ab39547794bda885c29c9c543
+  :created_at: 2007-01-20 22:26:32
+  :digest: 32f5175707e9e54e2572fd42ff7fb051fa9c1dbe
 :"content/posts/2005/8/godcasting.html": 
   :updated_at: 2010-09-08 22:13:30 -07:00
   :created_at: 2005-08-29 16:00:57
   :digest: 0aa8483c2e1a25ab61ab22ef7b9632e6d43a64cb
-:"content/posts/2009/9/how-much-do-you-trust-your-own-network.html": 
-  :updated_at: 2010-09-08 23:43:15 -07:00
-  :created_at: 2009-09-26 01:43:57
-  :digest: 63be4dae5f0a5393d790143efa5a26937a87f5c2
-:"content/posts/2005/12/updated-tactics-for-making-your-information-findable.html": 
+:"content/posts/2008/5/the-three-simplest-and-most-effective-anti-spam-hacks-i-have-ever-seen.html": 
   :updated_at: 2010-09-08 22:13:30 -07:00
-  :created_at: 2005-12-20 20:15:05
-  :digest: 84891adc51a2668b22f132b95b5bcf2c7bf0bbca
-:"content/2010/01-15-getting_started_with_nanoc3_blog.html.md": 
-  :updated_at: 2010-06-15 15:45:40 -07:00
-  :created_at: 2010/01/15
-  :digest: b83ea94d2919845a9f25c4a5b597ebdcbe660809
+  :created_at: 2008-05-28 22:18:08
+  :digest: 9dfbf446fa37a58ab39547794bda885c29c9c543
+:"content/posts/2007/1/understanding-a-community-tag-the-history-of-nptech.html": 
+  :updated_at: 2010-09-08 22:13:30 -07:00
+  :created_at: 2007-01-11 00:08:06
+  :digest: e58386ea4c92a78fcab52031a32c2606e4795586
 :"content/posts/2008/4/two-favorite-artists.html": 
   :updated_at: 2011-04-03 01:56:09 -07:00
   :created_at: 2008-04-11 07:27:14
   :digest: 89de5b9d34576895172dcdac937ed07258adb4cf
-:"content/posts/2006/1/what-a-relief-google-maps-for-mac.html": 
-  :updated_at: 2011-03-29 20:05:20 -07:00
-  :created_at: 2006-01-10 22:06:15
-  :digest: bf87daf0235471de9cc19d566467935ef29a95ab
-:"content/posts/2006/3/relatively-simple-rss-aggregation.html": 
-  :updated_at: 2011-03-29 20:29:08 -07:00
-  :created_at: 2006-03-20 01:00:43
-  :digest: 60fdfbb008bec79db2bb4ad79a2e4b40013ea0e9
-:"content/posts/2008/5/wherecamp-2008-notes-on-flickr.html": 
+:"content/2010/01-15-getting_started_with_nanoc3_blog.html.md": 
+  :updated_at: 2010-06-15 15:45:40 -07:00
+  :created_at: 2010/01/15
+  :digest: b83ea94d2919845a9f25c4a5b597ebdcbe660809
+:"content/posts/2005/12/updated-tactics-for-making-your-information-findable.html": 
   :updated_at: 2010-09-08 22:13:30 -07:00
-  :created_at: 2008-05-18 08:53:09
-  :digest: cf2db18c606148b15402b3afb8d0d83c01c6b950
+  :created_at: 2005-12-20 20:15:05
+  :digest: 84891adc51a2668b22f132b95b5bcf2c7bf0bbca
+:"content/posts/2009/9/how-much-do-you-trust-your-own-network.html": 
+  :updated_at: 2010-09-08 23:43:15 -07:00
+  :created_at: 2009-09-26 01:43:57
+  :digest: 63be4dae5f0a5393d790143efa5a26937a87f5c2
 :"content/posts/2004/12/is-open-source-software-ready.html": 
   :updated_at: 2010-09-08 22:13:30 -07:00
   :created_at: 2004-12-21 21:51:41
   :digest: 5332a061b0b84fa336bce37470c997039fbb473e
+:"content/posts/2008/5/wherecamp-2008-notes-on-flickr.html": 
+  :updated_at: 2010-09-08 22:13:30 -07:00
+  :created_at: 2008-05-18 08:53:09
+  :digest: cf2db18c606148b15402b3afb8d0d83c01c6b950
+:"content/posts/2006/3/relatively-simple-rss-aggregation.html": 
+  :updated_at: 2011-03-29 20:29:08 -07:00
+  :created_at: 2006-03-20 01:00:43
+  :digest: 60fdfbb008bec79db2bb4ad79a2e4b40013ea0e9
+:"content/posts/2006/1/what-a-relief-google-maps-for-mac.html": 
+  :updated_at: 2011-03-29 20:05:20 -07:00
+  :created_at: 2006-01-10 22:06:15
+  :digest: bf87daf0235471de9cc19d566467935ef29a95ab
