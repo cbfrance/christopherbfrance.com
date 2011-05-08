@@ -92,8 +92,12 @@ div#main {
   width: 90%;
   margin: 0 auto;
 }
+/* line 26, ../../../compass/src/style.scss */
+div#main div.article {
+  padding: 30px;
+}
 
-/* line 27, ../../../compass/src/style.scss */
+/* line 31, ../../../compass/src/style.scss */
 a {
   border-bottom: solid 1px black;
   color: black;
@@ -101,49 +105,49 @@ a {
   margin: 2px;
 }
 
-/* line 32, ../../../compass/src/style.scss */
+/* line 36, ../../../compass/src/style.scss */
 a:link, a:visited {
   color: black;
 }
 
-/* line 34, ../../../compass/src/style.scss */
+/* line 38, ../../../compass/src/style.scss */
 a:hover {
   color: #333333;
   text-decoration: none;
   border-bottom: solid 1px #333333;
 }
 
-/* line 39, ../../../compass/src/style.scss */
+/* line 43, ../../../compass/src/style.scss */
 code, pre {
   color: #404040;
   font-size: 13px;
 }
 
-/* line 43, ../../../compass/src/style.scss */
+/* line 47, ../../../compass/src/style.scss */
 blockquote, div, ol, p, pre, ul {
   line-height: 1.5em;
   margin-bottom: 1.5em;
 }
 
-/* line 48, ../../../compass/src/style.scss */
+/* line 52, ../../../compass/src/style.scss */
 h1, h2, h3, h4, h5 {
   color: black;
   font-weight: normal;
 }
 
-/* line 53, ../../../compass/src/style.scss */
+/* line 57, ../../../compass/src/style.scss */
 h1 a, h2 a, h3 a, h4 a, h5 a {
   color: black !important;
   text-decoration: none;
   border-bottom: none;
 }
 
-/* line 59, ../../../compass/src/style.scss */
+/* line 63, ../../../compass/src/style.scss */
 h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover {
   color: #333333 !important;
 }
 
-/* line 63, ../../../compass/src/style.scss */
+/* line 67, ../../../compass/src/style.scss */
 h1 {
   border-bottom: 1px solid #eeeeee;
   font-size: 1.8em;
@@ -151,143 +155,143 @@ h1 {
   margin-bottom: 1em;
 }
 
-/* line 70, ../../../compass/src/style.scss */
+/* line 74, ../../../compass/src/style.scss */
 h2, h3 {
   color: black;
   margin: 1.5em 0 1em;
 }
 
-/* line 74, ../../../compass/src/style.scss */
+/* line 78, ../../../compass/src/style.scss */
 h2 {
   font-size: 1.3em;
 }
 
-/* line 77, ../../../compass/src/style.scss */
+/* line 81, ../../../compass/src/style.scss */
 h3 {
   font-size: 1.1em;
 }
 
-/* line 80, ../../../compass/src/style.scss */
+/* line 84, ../../../compass/src/style.scss */
 ol, ul {
   padding-left: 30px;
 }
 
-/* line 82, ../../../compass/src/style.scss */
+/* line 86, ../../../compass/src/style.scss */
 ol li, ul li {
   line-height: 1.5em;
 }
 
-/* line 85, ../../../compass/src/style.scss */
+/* line 89, ../../../compass/src/style.scss */
 ul {
   list-style-type: circle;
 }
 
-/* line 88, ../../../compass/src/style.scss */
+/* line 92, ../../../compass/src/style.scss */
 ol {
   list-style-type: decimal;
 }
 
-/* line 91, ../../../compass/src/style.scss */
+/* line 95, ../../../compass/src/style.scss */
 pre {
   background-color: #f8f8f8;
   border-left: 3px double #bbbbbb;
   padding: 0.5em;
 }
 
-/* line 96, ../../../compass/src/style.scss */
+/* line 100, ../../../compass/src/style.scss */
 #header {
   margin-bottom: 2em;
   overflow: auto;
 }
 
-/* line 100, ../../../compass/src/style.scss */
+/* line 104, ../../../compass/src/style.scss */
 .logo {
   float: left;
   font-size: 30px;
   padding: 0 0.3em;
 }
-/* line 104, ../../../compass/src/style.scss */
+/* line 108, ../../../compass/src/style.scss */
 .logo a {
   color: white;
   border: none;
   text-decoration: none;
 }
-/* line 109, ../../../compass/src/style.scss */
+/* line 113, ../../../compass/src/style.scss */
 .logo a:link, .logo a:visited {
   color: black !important;
 }
-/* line 112, ../../../compass/src/style.scss */
+/* line 116, ../../../compass/src/style.scss */
 .logo a:hover {
   color: black !important;
   border-bottom: solid 1px white;
   text-decoration: none;
 }
 
-/* line 118, ../../../compass/src/style.scss */
+/* line 122, ../../../compass/src/style.scss */
 #nav {
   float: right;
   margin-top: 10px;
   text-align: right;
 }
 
-/* line 124, ../../../compass/src/style.scss */
+/* line 128, ../../../compass/src/style.scss */
 #header #nav ul li {
   display: inline;
 }
 
-/* line 128, ../../../compass/src/style.scss */
+/* line 132, ../../../compass/src/style.scss */
 #header .byline {
   color: #606060;
 }
 
-/* line 132, ../../../compass/src/style.scss */
+/* line 136, ../../../compass/src/style.scss */
 #other-articles {
   margin-top: 4em;
 }
-/* line 134, ../../../compass/src/style.scss */
+/* line 138, ../../../compass/src/style.scss */
 #other-articles ul {
   padding: 0;
   list-style-type: none;
 }
-/* line 138, ../../../compass/src/style.scss */
+/* line 142, ../../../compass/src/style.scss */
 #other-articles h3 {
   margin: 0 0 0.5em;
 }
-/* line 141, ../../../compass/src/style.scss */
+/* line 145, ../../../compass/src/style.scss */
 #other-articles .newer {
   text-align: right;
   float: right;
 }
-/* line 145, ../../../compass/src/style.scss */
+/* line 149, ../../../compass/src/style.scss */
 #other-articles .older {
   float: left;
 }
 
-/* line 150, ../../../compass/src/style.scss */
+/* line 154, ../../../compass/src/style.scss */
 #taglist {
   font-size: 0.8em;
   margin-top: 3em;
   text-align: right;
 }
 
-/* line 155, ../../../compass/src/style.scss */
+/* line 159, ../../../compass/src/style.scss */
 #sticky {
   border: 3px double #eeeeee;
   margin-bottom: 3.2em;
 }
 
-/* line 158, ../../../compass/src/style.scss */
+/* line 162, ../../../compass/src/style.scss */
 #sticky .body {
   margin: auto;
   text-align: center;
 }
-/* line 161, ../../../compass/src/style.scss */
+/* line 165, ../../../compass/src/style.scss */
 #sticky .body p {
   margin: 0;
   line-height: 4em;
 }
 
-/* line 169, ../../../compass/src/style.scss */
+/* line 173, ../../../compass/src/style.scss */
 .archives .excerpt {
   width: 600px;
   float: left;
@@ -295,23 +299,23 @@ pre {
   height: auto;
 }
 
-/* line 176, ../../../compass/src/style.scss */
+/* line 180, ../../../compass/src/style.scss */
 .archives ul, .tag-page ul {
   list-style-type: none;
   padding-left: 0px;
 }
 
-/* line 181, ../../../compass/src/style.scss */
+/* line 185, ../../../compass/src/style.scss */
 table.colophon td:first-of-type {
   width: 175px;
 }
 
-/* line 185, ../../../compass/src/style.scss */
+/* line 189, ../../../compass/src/style.scss */
 .clear {
   clear: both;
 }
 
-/* line 189, ../../../compass/src/style.scss */
+/* line 193, ../../../compass/src/style.scss */
 .excerpt {
   background: #fff;
   margin: 10px;
@@ -325,60 +329,60 @@ table.colophon td:first-of-type {
   -o-box-shadow: #888888;
   box-shadow: #888888;
 }
-/* line 198, ../../../compass/src/style.scss */
+/* line 202, ../../../compass/src/style.scss */
 .excerpt h2 {
   margin-bottom: 0.5em;
   width: 100%;
 }
-/* line 203, ../../../compass/src/style.scss */
+/* line 207, ../../../compass/src/style.scss */
 .excerpt p {
   margin-bottom: 0.5em;
 }
 
-/* line 209, ../../../compass/src/style.scss */
+/* line 213, ../../../compass/src/style.scss */
 .meta {
   font-size: 13px;
 }
-/* line 211, ../../../compass/src/style.scss */
+/* line 215, ../../../compass/src/style.scss */
 .meta ul {
   margin: 0px;
   padding-left: 0;
 }
 
-/* line 217, ../../../compass/src/style.scss */
+/* line 221, ../../../compass/src/style.scss */
 .meta ul li {
   color: #606060;
   display: inline;
 }
 
-/* line 222, ../../../compass/src/style.scss */
+/* line 226, ../../../compass/src/style.scss */
 .passive {
   color: #606060;
 }
 
-/* line 226, ../../../compass/src/style.scss */
+/* line 230, ../../../compass/src/style.scss */
 a.tag {
   color: black !important;
   padding: 0 0.1em 0;
 }
 
-/* line 231, ../../../compass/src/style.scss */
+/* line 235, ../../../compass/src/style.scss */
 a.tag:hover {
   color: #333333 !important;
 }
 
-/* line 235, ../../../compass/src/style.scss */
+/* line 239, ../../../compass/src/style.scss */
 .tags {
   text-transform: lowercase;
 }
 
-/* line 239, ../../../compass/src/style.scss */
+/* line 243, ../../../compass/src/style.scss */
 .tags-page ul {
   padding: 0;
   list-style-type: none;
 }
 
-/* line 245, ../../../compass/src/style.scss */
+/* line 249, ../../../compass/src/style.scss */
 div.article {
   background: #fff;
   -moz-box-shadow: #888888;

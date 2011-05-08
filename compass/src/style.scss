@@ -22,7 +22,11 @@ body {
 
 div#main {
   width: 90%;
-  margin: 0 auto; }
+  margin: 0 auto; 
+  div.article {
+    padding: 30px;
+  }
+}
 
 a {
   border-bottom: solid 1px black;
