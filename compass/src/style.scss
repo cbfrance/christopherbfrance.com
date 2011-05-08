@@ -9,6 +9,10 @@
 * {
   color: #404040; }
 
+h2 {
+  float: left;
+  clear: both;
+}
 body {
   font-size: 16px;
   border-top: 2px solid #cccccc;
@@ -159,10 +163,14 @@ pre {
       line-height: 4em; 
     }
   }
+  
 
-.archives .excerpt, .tag-page .excerpt {
-  font-size: 90%;
-  margin: 0; 
+
+.archives .excerpt {
+  width: 600px;
+  float: left;
+  clear: both;
+  height: auto;
   }  
 
 .archives ul, .tag-page ul {
@@ -189,6 +197,7 @@ table.colophon td:first-of-type {
   @include box-shadow(#888888);
   h2 {
     margin-bottom: 0.5em; 
+    width: 100%;
     }
 
   p {
@@ -231,3 +240,9 @@ a.tag:hover {
   padding: 0;
   list-style-type: none; 
   }
+  
+  
+div.article {
+  background: #fff;
+  @include box-shadow(#888888);
+}

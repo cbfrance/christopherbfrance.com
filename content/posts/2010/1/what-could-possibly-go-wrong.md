@@ -3,7 +3,7 @@ kind: article
 created_at: 2010-01-23 09:48:42
 title: "What could possibly go wrong? "
 excerpt: "What could possibly go wrong?  Thousands of volunteer hackers break ground on dozens of projects at a bunch of hastily organized unconferences promising to 'Save Haiti?'"
-tags: [crisiscamp, portland]
+tags: [crisiscamp, portland, crisis, civicengineer, hackers, hippies, haiti]
 modified_on: 2010-01-23 10:24:36
 status: publish
 ---

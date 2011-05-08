@@ -3,7 +3,7 @@ kind: article
 created_at: 2009-09-09 07:34:34
 title: ICCM 09, the Crisis Mapping Conference
 excerpt: "The conference is 'harnessing mobile platforms, computational linguistics, geospatial technologies, and visual analytics to power effective early warning for rapid response to complex humanitarian emergencies.'"
-tags: [crisismapping, geo, conference]
+tags: [crisismapping, geo, conference, crisis, ushahidi, cleveland]
 modified_on: 2009-09-11 12:17:36
 status: publish
 ---

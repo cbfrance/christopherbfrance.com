@@ -3,7 +3,7 @@ kind: article
 created_at: 2009-05-07 09:17:50
 title: Swift
 excerpt: "Our goal with Swift is to provide a crowdsourcing platform for data triage. Imagine something like Mechanical Turk used only for tagging news, photos, microblogging and videos."
-tags: [swift, meedan]
+tags: [swift, tagging, ux, design, presentation, meedan, ushahidi]
 modified_on: 2009-09-22 01:16:12
 status: publish
 ---

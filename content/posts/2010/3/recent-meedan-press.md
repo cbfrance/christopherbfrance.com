@@ -2,8 +2,8 @@
 kind: article
 created_at: 2010-03-15 08:07:21
 title: Recent Meedan press
-excerpt: "The system, which has been in development for more than three years, is based on advanced automatic translation technology developed by IBM and uses an international team of 30 translators and editors to find news and polish the language. ... With the potential for highly localised websites that cannot even be reached by outsiders, let alone understood, many have worried about the potential for a series of so-called 'splinternets' to evolve."
-tags: [meedan, meta]
+excerpt: "Coverage of Meedan in international press, most of it focused on our Machine Translation engine and our approach to community contributions."
+tags: [meedan, meta, press, london]
 modified_on: 2010-03-15 08:11:13
 status: publish
 ---
@@ -27,7 +27,7 @@ The London Guardian wrote a nice <a href="http://www.guardian.co.uk/media/2010/f
 
 The Guardian also as wrote a <a href="http://www.guardian.co.uk/technology/blog/2010/feb/22/meedan-machine-translation-mt">blog post</a> mentioning our Arabic-English <a href="http://blog.meedan.net/2009/11/07/meedan-releases-the-world’s-first-open-access-arabicenglish-translation-memory/">Open Translation Memory</a>. I appreciated this one because it at least mentioned our desire to move to WWL (away from a proprietary IBM backend which we have been loaned): 
 
-<blockquote>Meedan's data -- its 'translation memory' of over 3m words -- is available to other translators. Weyman says: "the translations that are done with the Transbrowser are part of our agreement with IBM that makes sure all those translations are open source." This isn't true of some other web-based translation services, which are open access but not open source data services. The 'translation memory' is important because having a corpus of texts in two languages allows you to apply statistical techniques to improve a translation engine.
+<blockquote>Meedan's data Ñ its 'translation memory' of over 3m words Ñ is available to other translators. Weyman says: "the translations that are done with the Transbrowser are part of our agreement with IBM that makes sure all those translations are open source." This isn't true of some other web-based translation services, which are open access but not open source data services. The 'translation memory' is important because having a corpus of texts in two languages allows you to apply statistical techniques to improve a translation engine.
 </blockquote>
 
  

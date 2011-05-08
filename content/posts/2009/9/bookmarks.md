@@ -3,7 +3,7 @@ kind: article
 created_at: 2009-09-29 04:31:24
 title: Bookmarks
 excerpt: "Here's my top tags from September 2009."
-tags: [tagging, meta]
+tags: [tagging, meta, delicious]
 modified_on: 2009-09-29 04:39:49
 status: publish
 ---

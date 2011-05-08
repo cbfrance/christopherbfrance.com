@@ -3,7 +3,7 @@ kind: article
 created_at: 2009-09-24 05:03:33
 title: The "Special Case" of NEED Magazine
 excerpt: "During the collapse of the journalism industry, I have rarely been surprised -- and only occasionally truly saddend -- by a newspaper going out of business."
-tags: [journalism, nonprofit]
+tags: [journalism, nonprofit, nptech, philanthropy, zuckerman]
 modified_on: 2009-09-24 07:53:38
 status: publish
 ---
@@ -14,7 +14,7 @@ It's not that I don't have empathy. I have worked briefly as a journalist, have 
 
 And still, I make a living with news. So, it's only with my teeth clenched that I can say, "we need this" and try to keep the longer view toward the 1500s, and the previous revolutions that fell out of Gutenberg's noodling with the press. Like Clay Shirky says. He's pretty blunt: 
 
-<blockquote>Round and round this goes, with the people committed to saving newspapers demanding to know “If the old model is broken, what will work in its place?” To which the answer is: Nothing. Nothing will work. There is no general model for newspapers to replace the one the internet just broke. <span class="attribution">Clay Shirky in <a href="http://www.shirky.com/weblog/2009/03/newspapers-and-thinking-the-unthinkable/">Thinking the Unthinkable</a></span></blockquote>
+<blockquote>Round and round this goes, with the people committed to saving newspapers demanding to know “f the old model is broken, what will work in its place? To which the answer is: Nothing. Nothing will work. There is no general model for newspapers to replace the one the internet just broke. <span class="attribution">Clay Shirky in <a href="http://www.shirky.com/weblog/2009/03/newspapers-and-thinking-the-unthinkable/">Thinking the Unthinkable</a></span></blockquote>
 
 I agree with Shirky that this is an inevitable collapse of the old school. And I agree that our best option is to work as creatively as possible to <em>get through it and find another way</em> to make meaning, to build understanding, to be journalists. 
 

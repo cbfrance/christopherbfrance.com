@@ -2,8 +2,8 @@
 kind: article
 created_at: 2010-04-01 19:12:10
 title: Don't pitch me.
-excerpt: "It's incredible to me that we have created a world in which this has to be pointed out: don't delude your closest supporters. It's indicative of the fact that developer culture has become the domain of hucksters and charlatans.  There is a deeply manipulative and delusional culture at work here, and let's be clear there is absolutely no room for it in nonprofit and humanitarian technology."
-tags: [rant, nptech, ict4d]
+excerpt: "There is a deeply manipulative and delusional culture at work [in Silicon Valley culture], and let's be clear there is absolutely no room for it in nonprofit and humanitarian technology."
+tags: [nptech, ict4d, doomedculture]
 modified_on: 2010-04-01 19:13:43
 status: publish
 ---

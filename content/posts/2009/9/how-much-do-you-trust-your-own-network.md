@@ -3,7 +3,7 @@ kind: article
 created_at: 2009-09-26 01:43:57
 title: How Much Do You Trust Your Own Network?
 excerpt: "We, as humans, are all multi-faceted. We speak to our parents differently than our coworkers. We lower our voices a bit in a crowded coffee shop. We stand up straighter when we give a presentation. And, again, these are not about secrecy or duplicity, but rather, indications of maturity, and a uniquely human sophistication."
-tags: [social, trust]
+tags: [social, trust, design, psychology, mentalhealth, identity, security]
 modified_on: 2009-09-26 01:48:31
 status: publish
 ---
