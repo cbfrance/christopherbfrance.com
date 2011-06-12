@@ -26,8 +26,7 @@ module TaggingExtra
 
   #Finds all the items having a specified tag.
   #By default the method search in all the site
-  #items. Alternatively, an item collection can
-  #be passed as second (optional) parameter, to
+      #be passed as second (optional) parameter, to
   #restrict the search in the collection.
   def items_with_tag(tag, items=nil)
     items = @items if items.nil?

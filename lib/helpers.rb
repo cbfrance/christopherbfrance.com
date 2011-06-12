@@ -5,6 +5,32 @@ require 'builder'
 require 'fileutils'
 require 'time'
 
+require 'rubygems'
+require 'nokogiri'
+# 
+# module Helpers
+#  # def blog_excerpt(item, read_more='<!--READMORE-->')
+#  #    post_dom = Nokogiri::HTML::DocumentFragment.parse(item.compiled_content)
+#  #    more_tag_found = false
+#  # 
+#  #    # process the rendered version of the page
+#  #    post_dom.css('*').each do |p, index|
+#  #      # we can use this if we bother to add the readmore tag
+#  #      if p.inner_html.match(read_more)
+#  #        p.inner_html = p.inner_html.gsub(Regexp.new("#{read_more}.*"), "&nbsp; <a href=\"#{item.identifier}\" title=\"#{item[:title]}\" class=\"read-more\">Read more...</a>")
+#  #        more_tag_found = true
+#  #        next
+#  #      end
+#  #      p.remove if more_tag_found
+#  #    end
+#  # 
+#  #    more_tag_found ? post_dom.to_s : item.compiled_content
+#  #  end
+#  
+#  
+# end
+# def excerpt
+  
 # Hyphens are converted to sub-directories in the output folder.
 #
 # If a file has two extensions like Rails naming conventions, then the first extension

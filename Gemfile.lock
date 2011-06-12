@@ -10,6 +10,7 @@ GEM
       nanoc3 (>= 3.1.7)
     nanoc3 (3.1.7)
       cri (>= 1.0.0)
+    nokogiri (1.4.4)
     rack (1.2.2)
     rake (0.8.7)
     rdiscount (1.6.8)
@@ -24,6 +25,7 @@ DEPENDENCIES
   haml
   mime-types
   nanoc
+  nokogiri
   rack
   rake
   rdiscount
