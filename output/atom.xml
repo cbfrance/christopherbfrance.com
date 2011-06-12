@@ -3,8 +3,8 @@
   <id>http://unthinkingly.com/</id>
   <title>unthinkingly.com feed</title>
   <updated>2010-04-02T02:12:10Z</updated>
-  <link rel="alternate" href="http://unthinkingly.com/"/>
-  <link rel="self" href="http://unthinkingly.com/atom.xml"/>
+  <link href="http://unthinkingly.com/" rel="alternate"/>
+  <link href="http://unthinkingly.com/atom.xml" rel="self"/>
   <author>
     <name>Chris Blow</name>
     <uri>http://unthinkingly.com</uri>
@@ -14,7 +14,7 @@
     <title type="html">Don't pitch me.</title>
     <published>2010-04-02T02:12:10Z</published>
     <updated>2010-09-09T06:14:43Z</updated>
-    <link rel="alternate" href="http://unthinkingly.com/posts/2010/4/dont/pitch/me.html"/>
+    <link href="http://unthinkingly.com/posts/2010/4/dont/pitch/me.html" rel="alternate"/>
     <content type="html">&lt;p&gt;Last week I read this article on ReadWriteWeb that advises a startup to "&lt;a href="http://www.readwriteweb.com/start/2010/03/give-it-to-them-straight-avoid-pitching-to-your-board.php"&gt;Give It to Them Straight: Avoid "Pitching" to Your Board&lt;/a&gt;." The article explains how it can be bad to exaggerate your product and cover up problems that you are experiencing in development:&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -32,14 +32,14 @@
 
 &lt;p&gt;It sounds unrealistic because, you get pitched everywhere. In software development the art of lying has become pervasive. Developers pitch their funders, their users, and anyone who will listen. And really developers are just &lt;strong&gt;pitching themselves&lt;/strong&gt;, delusional about what their products are capable of doing.&lt;/p&gt;
 </content>
-    <summary type="html">It's incredible to me that we have created a world in which this has to be pointed out: don't delude your closest supporters. It's indicative of the fact that developer culture has become the domain of hucksters and charlatans.  There is a deeply manipulative and delusional culture at work here, and let's be clear there is absolutely no room for it in nonprofit and humanitarian technology.</summary>
+    <summary type="html">There is a deeply manipulative and delusional culture at work [in Silicon Valley culture], and let's be clear there is absolutely no room for it in nonprofit and humanitarian technology.</summary>
   </entry>
   <entry>
     <id>tag:unthinkingly.com,2010-03-15:/posts/2010/3/recent/meedan/press.html</id>
     <title type="html">Recent Meedan press</title>
     <published>2010-03-15T15:07:21Z</published>
-    <updated>2010-09-09T06:14:39Z</updated>
-    <link rel="alternate" href="http://unthinkingly.com/posts/2010/3/recent/meedan/press.html"/>
+    <updated>2011-03-29T21:44:10Z</updated>
+    <link href="http://unthinkingly.com/posts/2010/3/recent/meedan/press.html" rel="alternate"/>
     <content type="html">&lt;p&gt;I've had a great time working at Meedan recently as Director of Miscellany. We recently rolled out an update of the site and took of the "beta" label (it was out of style anyway).&lt;/p&gt;
 
 &lt;p&gt;I was pleasantly surprised at the amount of interest generated -- turns out people are actually pretty interested in crowdsourced translation!&lt;/p&gt;
@@ -58,7 +58,7 @@
 
 &lt;p&gt;The Guardian also as wrote a &lt;a href="http://www.guardian.co.uk/technology/blog/2010/feb/22/meedan-machine-translation-mt"&gt;blog post&lt;/a&gt; mentioning our Arabic-English &lt;a href="http://blog.meedan.net/2009/11/07/meedan-releases-the-world&#8217;s-first-open-access-arabicenglish-translation-memory/"&gt;Open Translation Memory&lt;/a&gt;. I appreciated this one because it at least mentioned our desire to move to WWL (away from a proprietary IBM backend which we have been loaned):&lt;/p&gt;
 
-&lt;blockquote&gt;Meedan's data -- its 'translation memory' of over 3m words -- is available to other translators. Weyman says: "the translations that are done with the Transbrowser are part of our agreement with IBM that makes sure all those translations are open source." This isn't true of some other web-based translation services, which are open access but not open source data services. The 'translation memory' is important because having a corpus of texts in two languages allows you to apply statistical techniques to improve a translation engine.
+&lt;blockquote&gt;Meedan's data &#209; its 'translation memory' of over 3m words &#209; is available to other translators. Weyman says: "the translations that are done with the Transbrowser are part of our agreement with IBM that makes sure all those translations are open source." This isn't true of some other web-based translation services, which are open access but not open source data services. The 'translation memory' is important because having a corpus of texts in two languages allows you to apply statistical techniques to improve a translation engine.
 &lt;/blockquote&gt;
 
 
@@ -79,14 +79,14 @@ The point is to not hide the messiness of translation and keep the reminder that
 
 &lt;p&gt;Lastly a bit about Meedan appeared on BBC Arabic, in the &lt;a href="http://www.newstatesman.com/digital/2010/02/arabic-english-website-meedan"&gt;New Statesman&lt;/a&gt;, and &lt;a href="http://blogs.aljazeera.net/middle-east/2010/02/22/meedan-blurs-linguistic-lines"&gt;on Al Jazeera&lt;/a&gt;.&lt;/p&gt;
 </content>
-    <summary type="html">The system, which has been in development for more than three years, is based on advanced automatic translation technology developed by IBM and uses an international team of 30 translators and editors to find news and polish the language. ... With the potential for highly localised websites that cannot even be reached by outsiders, let alone understood, many have worried about the potential for a series of so-called 'splinternets' to evolve.</summary>
+    <summary type="html">Coverage of Meedan in international press, most of it focused on our Machine Translation engine and our approach to community contributions.</summary>
   </entry>
   <entry>
     <id>tag:unthinkingly.com,2010-01-23:/posts/2010/1/what/could/possibly/go/wrong.html</id>
     <title type="html">What could possibly go wrong? </title>
     <published>2010-01-23T17:48:42Z</published>
     <updated>2010-09-09T06:22:27Z</updated>
-    <link rel="alternate" href="http://unthinkingly.com/posts/2010/1/what/could/possibly/go/wrong.html"/>
+    <link href="http://unthinkingly.com/posts/2010/1/what/could/possibly/go/wrong.html" rel="alternate"/>
     <content type="html">&lt;p&gt;What could possibly go wrong?  Thousands of volunteer hackers break ground on dozens of projects at a bunch of hastily organized unconferences promising to &lt;em&gt;Save Haiti&lt;/em&gt;?&lt;/p&gt;
 
 &lt;p&gt;In a word: everything.&lt;/p&gt;
@@ -109,8 +109,8 @@ The point is to not hide the messiness of translation and keep the reminder that
     <id>tag:unthinkingly.com,2009-11-09:/posts/2009/11/slashtags/for/citizen/editors.html</id>
     <title type="html">"Slashtags" for citizen editors</title>
     <published>2009-11-09T17:06:29Z</published>
-    <updated>2010-09-09T06:52:18Z</updated>
-    <link rel="alternate" href="http://unthinkingly.com/posts/2009/11/slashtags/for/citizen/editors.html"/>
+    <updated>2011-04-03T08:26:25Z</updated>
+    <link href="http://unthinkingly.com/posts/2009/11/slashtags/for/citizen/editors.html" rel="alternate"/>
     <content type="html">Updated Nov 16, 2009: @chrismessina created a wiki for the Twitter syntax &lt;a href="http://microsyntax.pbworks.com/Slashtags"&gt;http://microsyntax.pbworks.com/Slashtags&lt;/a&gt;
 
 The NYT reported today on how the &lt;a href="http://twitter.com/#search?q=%23fthood"&gt;#fthood hashtag&lt;/a&gt; has failed: 
@@ -147,7 +147,7 @@ How long has the Twitter Stream account been up and running?
 
 (And oh yes there are &lt;a href="http://blog.meedan.net"&gt;many more criteria&lt;/a&gt;.)
 
-I think these are the good, basic questions that may not be answered by some organizations -- and their lists are thus quantifably worse, in the sense that they are less reliable, less meaningful, and probably noiser. So we can see that by following basic journalistic standards, your attention data becomes more valuable. Garbage in, garbage out, or, more positively, the system can be improved.
+I think these are the good, basic questions that may not be answered by some organizations -- and their lists are thus quantifiably worse, in the sense that they are less reliable, less meaningful, and probably noiser. So we can see that by following basic journalistic standards, your attention data becomes more valuable. Garbage in, garbage out, or, more positively, the system can be improved.
 
 For nonprofits, which typically do not have a &lt;strong&gt;microgram of energy to spare&lt;/strong&gt;, these kinds of tricks can be really helpful. 
 
@@ -157,7 +157,7 @@ A great example of this type of "attention data enhancement" is the #hastag, whi
 
 Chris Messina, one of the biggest advocates of #hashtags and other microsyntax, has just &lt;a href="http://factoryjoe.com/blog/2009/11/08/new-microsytax-for-twitter-three-pointers-and-the-slasher/"&gt;described a few extra bits of attribution&lt;/a&gt; using the "slasher." (I think we could just call it a "slashtag.")
 
-&lt;blockquote&gt;&#8220;Pointers&#8221; are short words with different intentions. A group of pointers should typically be prefixed by ONE slasher character. You can daisy-chain multiple pointer phrases together, padded on both sides with one whitespace character. There should be NO space following the slasher. Hashtags should be appended to the very end of a tweet, except when they are part of the content of the message itself and indicate some proper name or abbreviation. Normal words that would be part of the content of a tweet anyway SHOULD NOT be hashed.&lt;span class="attribution"&gt;"&lt;a href="http://factoryjoe.com/blog/2009/11/08/new-microsytax-for-twitter-three-pointers-and-the-slasher/"&gt;New microsyntax for Twitter: three pointers and the slasher&lt;/a&gt;"&lt;/span&gt;
+&lt;blockquote&gt;'Pointers' are short words with different intentions. A group of pointers should typically be prefixed by ONE slasher character. You can daisy-chain multiple pointer phrases together, padded on both sides with one whitespace character. There should be NO space following the slasher. Hashtags should be appended to the very end of a tweet, except when they are part of the content of the message itself and indicate some proper name or abbreviation. Normal words that would be part of the content of a tweet anyway SHOULD NOT be hashed.&lt;span class="attribution"&gt;"&lt;a href="http://factoryjoe.com/blog/2009/11/08/new-microsytax-for-twitter-three-pointers-and-the-slasher/"&gt;New microsyntax for Twitter: three pointers and the slasher&lt;/a&gt;"&lt;/span&gt;
 &lt;/blockquote&gt;
 
 Particularly I think &lt;strong&gt;using /by&lt;/strong&gt; is a great idea to reference an article or direct quote. 
@@ -221,7 +221,7 @@ but now I can tag it
 
 &lt;strong&gt;/by/chrismessina&lt;/strong&gt;
 
-Whis is still a pretty meaningless tag, but is at least prefixed meaningfully to mean "this content is by this person" as per chris' helpful article above.
+Which is still a pretty meaningless tag, but is at least prefixed meaningfully to mean "this content is by this person" as per chris' helpful article above.
 
 Also I can improve the previous technique of using the for_meedan shorthand
 
@@ -294,7 +294,7 @@ and &lt;a href="http://www.flickr.com/photos/unthinkingly/4088331717/"&gt;breaks
     <title type="html">Bookmarks</title>
     <published>2009-09-29T11:31:24Z</published>
     <updated>2010-09-09T06:50:48Z</updated>
-    <link rel="alternate" href="http://unthinkingly.com/posts/2009/9/bookmarks.html"/>
+    <link href="http://unthinkingly.com/posts/2009/9/bookmarks.html" rel="alternate"/>
     <content type="html">&lt;p&gt;I have been keeping track of things that are interesting on Delicious for some time now.&lt;/p&gt;
 
 &lt;p&gt;Here's my top tags from September 2009 in case you are interested in checking out &lt;a href="http://delicious.com/unthinkingly"&gt;my Delicious feed&lt;/a&gt;.&lt;/p&gt;
