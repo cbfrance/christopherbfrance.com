@@ -3,24 +3,12 @@
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 /* these to be removed. */
-/* line 1, ../../../compass/src/from_wp.scss */
-body {
-  font-family: georgia, times, serif;
-  background-attachment: fixed;
-  padding: 0;
-}
-
-/* line 7, ../../../compass/src/from_wp.scss */
-img {
-  display: block;
-}
-
-/* line 11, ../../../compass/src/from_wp.scss */
+/* line 3, ../../../compass/src/from_wp.scss */
 ul.bulleted li {
   list-style-type: disc!important;
 }
 
-/* line 15, ../../../compass/src/from_wp.scss */
+/* line 7, ../../../compass/src/from_wp.scss */
 div#admin_edit {
   font-size: 10px;
   width: 100px;
@@ -29,48 +17,47 @@ div#admin_edit {
   bottom: 0;
 }
 
-/* line 23, ../../../compass/src/from_wp.scss */
+/* line 15, ../../../compass/src/from_wp.scss */
 div.post {
   margin-top: 90px;
 }
+/* line 17, ../../../compass/src/from_wp.scss */
+div.post img {
+  display: block;
+}
 
-/* line 31, ../../../compass/src/from_wp.scss */
+/* line 23, ../../../compass/src/from_wp.scss */
 div.post ul, div.post ul li {
   margin: 0;
   padding: 0;
   list-style-type: none;
 }
 
-/* line 37, ../../../compass/src/from_wp.scss */
+/* line 29, ../../../compass/src/from_wp.scss */
 div.post ul img {
   margin: 0 0 10px 0;
   border: none;
   padding: 0;
 }
 
-/* line 43, ../../../compass/src/from_wp.scss */
-div.post li span.post-meta-key {
-  display: none;
-}
-
-/* line 47, ../../../compass/src/from_wp.scss */
+/* line 35, ../../../compass/src/from_wp.scss */
 h2 a {
   text-decoration: none;
 }
 
-/* line 50, ../../../compass/src/from_wp.scss */
+/* line 38, ../../../compass/src/from_wp.scss */
 h2 {
   font-weight: normal;
 }
 
-/* line 54, ../../../compass/src/from_wp.scss */
+/* line 42, ../../../compass/src/from_wp.scss */
 div.post h2 {
   font-family: helvetica, arial, sans-serif;
   border-bottom: 1px solid #c3c3c3;
   padding-bottom: 10px;
 }
 
-/* line 60, ../../../compass/src/from_wp.scss */
+/* line 48, ../../../compass/src/from_wp.scss */
 div#footer h2 {
   border-top: 7px solid #000;
   font-size: 40px;
@@ -78,39 +65,39 @@ div#footer h2 {
   padding: 20px 0 0 10px;
 }
 
-/* line 67, ../../../compass/src/from_wp.scss */
+/* line 55, ../../../compass/src/from_wp.scss */
 h1 a:link, h1 a:visited {
   color: #000;
   text-decoration: none;
 }
 
-/* line 71, ../../../compass/src/from_wp.scss */
+/* line 59, ../../../compass/src/from_wp.scss */
 h1 {
   font-weight: normal;
   font-size: 35px;
   margin-top: 50px;
 }
 
-/* line 77, ../../../compass/src/from_wp.scss */
+/* line 65, ../../../compass/src/from_wp.scss */
 div.single_post_wrap {
   background: #fff;
   padding: 40px;
 }
 
-/* line 82, ../../../compass/src/from_wp.scss */
+/* line 70, ../../../compass/src/from_wp.scss */
 div.single_post_wrap h1 {
   font-size: 30px;
   color: #c3c3c3;
   text-decoration: none;
 }
 
-/* line 88, ../../../compass/src/from_wp.scss */
+/* line 76, ../../../compass/src/from_wp.scss */
 #footer span.ampersand {
   font-family: baskerville, constantina, 'palatino linotype', georgia, serif;
   font-size: 55px;
 }
 
-/* line 93, ../../../compass/src/from_wp.scss */
+/* line 81, ../../../compass/src/from_wp.scss */
 #header span.by {
   font-family: baskerville, constantina, 'palatino linotype', georgia, serif;
   font-size: 20px;
@@ -119,7 +106,7 @@ div.single_post_wrap h1 {
   font-weight: normal;
 }
 
-/* line 101, ../../../compass/src/from_wp.scss */
+/* line 89, ../../../compass/src/from_wp.scss */
 body div.post {
   float: left;
   width: 230px;
@@ -133,7 +120,7 @@ body div.post {
   background: #f8f8f8;
 }
 
-/* line 114, ../../../compass/src/from_wp.scss */
+/* line 102, ../../../compass/src/from_wp.scss */
 body div.single_post_wrap div.post {
   float: left;
   width: 500px!important;
@@ -147,7 +134,7 @@ body div.single_post_wrap div.post {
   background: #fff;
 }
 
-/* line 128, ../../../compass/src/from_wp.scss */
+/* line 116, ../../../compass/src/from_wp.scss */
 div.single_post_wrap span.tags {
   display: block;
   height: 100%;
@@ -155,7 +142,7 @@ div.single_post_wrap span.tags {
   margin: 0px 0 60px 0;
 }
 
-/* line 135, ../../../compass/src/from_wp.scss */
+/* line 123, ../../../compass/src/from_wp.scss */
 div.single_post_wrap div.date {
   font-size: 14px;
   text-transform: uppercase;
@@ -165,23 +152,23 @@ div.single_post_wrap div.date {
   margin-top: 100px;
 }
 
-/* line 148, ../../../compass/src/from_wp.scss */
+/* line 136, ../../../compass/src/from_wp.scss */
 body div.post div.excerpt br {
   display: none;
 }
 
-/* line 152, ../../../compass/src/from_wp.scss */
+/* line 140, ../../../compass/src/from_wp.scss */
 div.post img {
   margin: 10px;
 }
 
-/* line 156, ../../../compass/src/from_wp.scss */
+/* line 144, ../../../compass/src/from_wp.scss */
 div#tags .wp-tag-cloud {
   list-style-type: none;
   padding: none;
 }
 
-/* line 161, ../../../compass/src/from_wp.scss */
+/* line 149, ../../../compass/src/from_wp.scss */
 div#tags {
   float: left;
   border: 1px solid #c3c3c3;
@@ -191,7 +178,7 @@ div#tags {
   background: #c3c3c3;
 }
 
-/* line 170, ../../../compass/src/from_wp.scss */
+/* line 158, ../../../compass/src/from_wp.scss */
 div#tags a {
   text-decoration: none;
   color: #8F8F8F;
@@ -204,20 +191,20 @@ div#tags a {
   color: #333;
 }
 
-/* line 181, ../../../compass/src/from_wp.scss */
+/* line 169, ../../../compass/src/from_wp.scss */
 div#tags a:hover {
   background: #333;
   color: #fff!important;
 }
 
-/* line 186, ../../../compass/src/from_wp.scss */
+/* line 174, ../../../compass/src/from_wp.scss */
 div#footer {
   background: #fff;
   clear: both;
   width: 100%!important;
 }
 
-/* line 192, ../../../compass/src/from_wp.scss */
+/* line 180, ../../../compass/src/from_wp.scss */
 div#footer h3 {
   text-transform: uppercase;
   font-size: 23px;
@@ -228,19 +215,19 @@ div#footer h3 {
   color: #333;
 }
 
-/* line 202, ../../../compass/src/from_wp.scss */
+/* line 190, ../../../compass/src/from_wp.scss */
 a img {
   border: 2px solid #999;
   margin: 10px;
 }
 
-/* line 206, ../../../compass/src/from_wp.scss */
+/* line 194, ../../../compass/src/from_wp.scss */
 a {
   color: #000;
   padding-left: 0;
 }
 
-/* line 211, ../../../compass/src/from_wp.scss */
+/* line 199, ../../../compass/src/from_wp.scss */
 div#content {
   width: 90%;
   background: #fff;
@@ -252,7 +239,7 @@ div#content {
   margin-bottom: 10px;
 }
 
-/* line 222, ../../../compass/src/from_wp.scss */
+/* line 210, ../../../compass/src/from_wp.scss */
 div#content div#nav {
   width: 900px;
   padding: 10px 0;
@@ -260,7 +247,7 @@ div#content div#nav {
   margin-bottom: 30px;
 }
 
-/* line 229, ../../../compass/src/from_wp.scss */
+/* line 217, ../../../compass/src/from_wp.scss */
 div#content div#nav a {
   color: #C6C6C6;
   text-decoration: none;
@@ -268,24 +255,24 @@ div#content div#nav a {
   margin-left: 5px;
 }
 
-/* line 236, ../../../compass/src/from_wp.scss */
+/* line 224, ../../../compass/src/from_wp.scss */
 div#content div#nav.home a.home {
   color: #333;
 }
 
-/* line 240, ../../../compass/src/from_wp.scss */
+/* line 228, ../../../compass/src/from_wp.scss */
 div#content div#nav a:hover {
   color: #333;
 }
 
-/* line 244, ../../../compass/src/from_wp.scss */
+/* line 232, ../../../compass/src/from_wp.scss */
 div.attribution h3 {
   margin: 0;
   padding: 0;
   text-align: right;
 }
 
-/* line 250, ../../../compass/src/from_wp.scss */
+/* line 238, ../../../compass/src/from_wp.scss */
 div.attribution, div.pagination {
   font-size: 0.8em;
   font-family: helvetica, sans-serif;
@@ -297,7 +284,7 @@ div.attribution, div.pagination {
   font-weight: bold;
 }
 
-/* line 261, ../../../compass/src/from_wp.scss */
+/* line 249, ../../../compass/src/from_wp.scss */
 div.pagination {
   width: 100%;
   border: none;
@@ -307,14 +294,14 @@ div.pagination {
   padding: 0;
 }
 
-/* line 270, ../../../compass/src/from_wp.scss */
+/* line 258, ../../../compass/src/from_wp.scss */
 div.pagination a {
   color: #c3c3c3;
   text-decoration: none;
   font-size: 20px;
 }
 
-/* line 276, ../../../compass/src/from_wp.scss */
+/* line 264, ../../../compass/src/from_wp.scss */
 .alignright, .alignleft {
   float: left;
   clear: none;
@@ -323,19 +310,19 @@ div.pagination a {
   padding: 10px;
 }
 
-/* line 284, ../../../compass/src/from_wp.scss */
+/* line 272, ../../../compass/src/from_wp.scss */
 .alignright {
   float: right;
 }
 
-/* line 287, ../../../compass/src/from_wp.scss */
+/* line 275, ../../../compass/src/from_wp.scss */
 div.metadata span.comments a {
   background-color: #DDD;
   padding: 5px;
   text-decoration: none;
 }
 
-/* line 292, ../../../compass/src/from_wp.scss */
+/* line 280, ../../../compass/src/from_wp.scss */
 div.metadata span.tags a {
   border: 1px solid #c3c3c3;
   padding: 5px;
@@ -346,7 +333,7 @@ div.metadata span.tags a {
   display: inline;
 }
 
-/* line 302, ../../../compass/src/from_wp.scss */
+/* line 290, ../../../compass/src/from_wp.scss */
 ul.post-categories a {
   padding: 2px 4px 0px;
   line-height: 1.6em;
@@ -361,53 +348,53 @@ ul.post-categories a {
   right: -5px;
 }
 
-/* line 316, ../../../compass/src/from_wp.scss */
+/* line 304, ../../../compass/src/from_wp.scss */
 div.Uncategorized ul.post-categories a {
   display: none;
 }
 
-/* line 317, ../../../compass/src/from_wp.scss */
+/* line 305, ../../../compass/src/from_wp.scss */
 div.sketches ul.post-categories a {
   background: #FFF350;
   color: #000;
 }
 
-/* line 318, ../../../compass/src/from_wp.scss */
+/* line 306, ../../../compass/src/from_wp.scss */
 div.mockups ul.post-categories a {
   background: #00FF9F;
   color: #000;
 }
 
-/* line 319, ../../../compass/src/from_wp.scss */
+/* line 307, ../../../compass/src/from_wp.scss */
 div.code ul.post-categories a {
   background: #FF87F0;
   color: #000;
 }
 
-/* line 320, ../../../compass/src/from_wp.scss */
+/* line 308, ../../../compass/src/from_wp.scss */
 div.videos ul.post-categories a {
   background: #00C2FF;
   color: #000;
 }
 
-/* line 321, ../../../compass/src/from_wp.scss */
+/* line 309, ../../../compass/src/from_wp.scss */
 div.presentation ul.post-categories a {
   background: #70ff4a;
   color: #000;
 }
 
-/* line 322, ../../../compass/src/from_wp.scss */
+/* line 310, ../../../compass/src/from_wp.scss */
 div.press ul.post-categories a {
   background: #00C2FF;
   color: #000;
 }
 
-/* line 325, ../../../compass/src/from_wp.scss */
+/* line 313, ../../../compass/src/from_wp.scss */
 div.metadata span.tags a:hover {
   text-decoration: underline;
 }
 
-/* line 329, ../../../compass/src/from_wp.scss */
+/* line 317, ../../../compass/src/from_wp.scss */
 div.metadata div.date {
   font-size: 14px;
   text-transform: uppercase;
@@ -416,33 +403,33 @@ div.metadata div.date {
   color: #c3c3c3;
 }
 
-/* line 336, ../../../compass/src/from_wp.scss */
+/* line 324, ../../../compass/src/from_wp.scss */
 div.metadata div.date {
   margin-top: 20px;
 }
 
-/* line 340, ../../../compass/src/from_wp.scss */
+/* line 328, ../../../compass/src/from_wp.scss */
 div.bottom {
   background: none!important;
   border: none!important;
 }
 
-/* line 345, ../../../compass/src/from_wp.scss */
+/* line 333, ../../../compass/src/from_wp.scss */
 .delicious-tags {
   font-family: helvetica, arial,sans-serif;
 }
 
-/* line 348, ../../../compass/src/from_wp.scss */
+/* line 336, ../../../compass/src/from_wp.scss */
 .delicious-tags a {
   text-decoration: none;
 }
 
-/* line 351, ../../../compass/src/from_wp.scss */
+/* line 339, ../../../compass/src/from_wp.scss */
 .delicious-tags a:hover {
   text-decoration: underline;
 }
 
-/* line 354, ../../../compass/src/from_wp.scss */
+/* line 342, ../../../compass/src/from_wp.scss */
 .delicious-tags ul {
   list-style-type: none;
   margin: 0;
@@ -450,7 +437,7 @@ div.bottom {
   text-align: justify;
 }
 
-/* line 360, ../../../compass/src/from_wp.scss */
+/* line 348, ../../../compass/src/from_wp.scss */
 .delicious-cloud li {
   display: inline;
   text-align: justify;
@@ -459,24 +446,24 @@ div.bottom {
   margin: 0;
 }
 
-/* line 367, ../../../compass/src/from_wp.scss */
+/* line 355, ../../../compass/src/from_wp.scss */
 .delicious-cloud .delicious-tag-count {
   padding-left: 0.2em;
   font-size: 13px;
 }
 
-/* line 371, ../../../compass/src/from_wp.scss */
+/* line 359, ../../../compass/src/from_wp.scss */
 .delicious-cloud li:before {
   content: "" !important;
 }
 
-/* line 375, ../../../compass/src/from_wp.scss */
+/* line 363, ../../../compass/src/from_wp.scss */
 div#comment-form textarea {
   width: 500px;
   height: 200px;
 }
 
-/* line 384, ../../../compass/src/from_wp.scss */
+/* line 372, ../../../compass/src/from_wp.scss */
 #wpcf label {
   clear: both;
   display: block;
@@ -484,7 +471,7 @@ div#comment-form textarea {
   width: 150px;
 }
 
-/* line 391, ../../../compass/src/from_wp.scss */
+/* line 379, ../../../compass/src/from_wp.scss */
 #wpcf input {
   float: left;
   width: 200px;
@@ -492,7 +479,7 @@ div#comment-form textarea {
   margin: 2px 5px 2px 0;
 }
 
-/* line 397, ../../../compass/src/from_wp.scss */
+/* line 385, ../../../compass/src/from_wp.scss */
 #wpcf textarea {
   width: 350px;
   height: 100px;
@@ -500,18 +487,18 @@ div#comment-form textarea {
   margin: 0 5px 10px 0;
 }
 
-/* line 403, ../../../compass/src/from_wp.scss */
+/* line 391, ../../../compass/src/from_wp.scss */
 #wpcf #contactsubmit {
   margin-left: 250px;
   width: 100px;
 }
 
-/* line 408, ../../../compass/src/from_wp.scss */
+/* line 396, ../../../compass/src/from_wp.scss */
 div.friendfeed, div.friendfeed div.feed {
   border: none!important;
 }
 
-/* line 411, ../../../compass/src/from_wp.scss */
+/* line 399, ../../../compass/src/from_wp.scss */
 div.friendfeed div.cluster {
   border-bottom: 1px solid #c3c3c3!important;
   padding: 5px!important;
@@ -520,7 +507,7 @@ div.friendfeed div.cluster {
   margin: 0 0 0 -35px !important;
 }
 
-/* line 419, ../../../compass/src/from_wp.scss */
+/* line 407, ../../../compass/src/from_wp.scss */
 div.friendfeed div.cluster div.info {
   width: 170px!important;
   position: absolute!important;
@@ -530,7 +517,7 @@ div.friendfeed div.cluster div.info {
   color: #fff!important;
 }
 
-/* line 428, ../../../compass/src/from_wp.scss */
+/* line 416, ../../../compass/src/from_wp.scss */
 div.friendfeed div.cluster div.info span.published {
   display: block!important;
   color: #333!important;
@@ -542,23 +529,23 @@ div.friendfeed div.cluster div.info span.published {
   font-weight: bold;
 }
 
-/* line 439, ../../../compass/src/from_wp.scss */
+/* line 427, ../../../compass/src/from_wp.scss */
 div.friendfeed div.cluster div.info a {
   /*the comment link*/
   display: none!important;
 }
 
-/* line 444, ../../../compass/src/from_wp.scss */
+/* line 432, ../../../compass/src/from_wp.scss */
 div.friendfeed div.cluster div.summary {
   display: none!important;
 }
 
-/* line 448, ../../../compass/src/from_wp.scss */
+/* line 436, ../../../compass/src/from_wp.scss */
 div.friendfeed div.cluster span.published {
   font-size: 15px!important;
 }
 
-/* line 452, ../../../compass/src/from_wp.scss */
+/* line 440, ../../../compass/src/from_wp.scss */
 div.friendfeed div.cluster div.title {
   font-size: 22px!important;
   font-family: helvetica, arial, sans-serif!important;
@@ -566,20 +553,20 @@ div.friendfeed div.cluster div.title {
   overflow: hidden;
 }
 
-/* line 459, ../../../compass/src/from_wp.scss */
+/* line 447, ../../../compass/src/from_wp.scss */
 div.friendfeed div.cluster div.title a {
   color: #333!important;
   text-decoration: none;
   overflow: hidden;
 }
 
-/* line 465, ../../../compass/src/from_wp.scss */
+/* line 453, ../../../compass/src/from_wp.scss */
 div.friendfeed div.cluster div.title a {
   color: #333!important;
   text-decoration: none;
 }
 
-/* line 17, /Users/chris/.rvm/gems/ruby-1.9.2-p0/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, ../../../../../.rvm/gems/ruby-1.9.2-p0/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -601,45 +588,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 20, /Users/chris/.rvm/gems/ruby-1.9.2-p0/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 20, ../../../../../.rvm/gems/ruby-1.9.2-p0/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 body {
   line-height: 1;
 }
 
-/* line 22, /Users/chris/.rvm/gems/ruby-1.9.2-p0/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../../.rvm/gems/ruby-1.9.2-p0/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 24, /Users/chris/.rvm/gems/ruby-1.9.2-p0/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../.rvm/gems/ruby-1.9.2-p0/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 26, /Users/chris/.rvm/gems/ruby-1.9.2-p0/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../.rvm/gems/ruby-1.9.2-p0/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 28, /Users/chris/.rvm/gems/ruby-1.9.2-p0/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../.rvm/gems/ruby-1.9.2-p0/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 101, /Users/chris/.rvm/gems/ruby-1.9.2-p0/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 101, ../../../../../.rvm/gems/ruby-1.9.2-p0/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 30, /Users/chris/.rvm/gems/ruby-1.9.2-p0/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../.rvm/gems/ruby-1.9.2-p0/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 115, /Users/chris/.rvm/gems/ruby-1.9.2-p0/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 115, ../../../../../.rvm/gems/ruby-1.9.2-p0/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;

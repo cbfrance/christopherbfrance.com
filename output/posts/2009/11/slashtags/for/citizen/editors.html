@@ -2,7 +2,7 @@
 <html>
   <head>
     <title>"Slashtags" for citizen editors</title>
-    <meta content='text/html; charset=iso-8859' http-equiv='Content-Type' />
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type' />
     <meta content=', hashtags, slashtags, tagging, meedan, nptech, collaboration, citizeneditors, twitter, microsyntax' name='keywords' />
     <meta content='I believe that there is an enormous potential to do citizen journalism better on the web, and that we need the leadership of people who are willing to help clean up the mess.' name='description' />
     <link href='/assets/css/reset.css' rel='stylesheet' type='text/css' />
@@ -30,9 +30,8 @@
       </div>
       <div class='clear'></div>
       <div class='article'>
-            <h1>
-              "Slashtags" for citizen editors
-            </h1>
+            <h1></h1>
+            "Slashtags" for citizen editors
             <div class='meta'>
               <ul class='tags'>
                 <li>Nov 09, 2009</li>
@@ -335,19 +334,19 @@
           </style>
       <div class='clear'></div>
     </div>
-    <script type='text/javascript'>
-          //<![CDATA[
-            (function() {
-              var links = document.getElementsByTagName('a');
-              var query = '?';
-              for(var i = 0; i < links.length; i++) {
-                if(links[i].href.indexOf('#disqus_thread') >= 0) {
-                  query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
-                }
-              }
-              document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/unthinkingly-blog/get_num_replies.js' + query + '"></' + 'script>');
-            })();
-          //]]>
-        </script>
   </body>
 </html>
+<script type='text/javascript'>
+      //<![CDATA[
+        (function() {
+          var links = document.getElementsByTagName('a');
+          var query = '?';
+          for(var i = 0; i < links.length; i++) {
+            if(links[i].href.indexOf('#disqus_thread') >= 0) {
+              query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
+            }
+          }
+          document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/unthinkingly-blog/get_num_replies.js' + query + '"></' + 'script>');
+        })();
+      //]]>
+    </script>
