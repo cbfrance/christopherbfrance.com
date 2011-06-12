@@ -7,8 +7,6 @@
       - if disqus_shortname 
         - @config[:include_disqus_js] = true
         %li
-          &middot;
-        %li
           %a(href="#{route_path(item)}#disqus_thread")
       - if item[:tags]
         %li &middot;
