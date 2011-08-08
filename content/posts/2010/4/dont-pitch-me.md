@@ -18,7 +18,7 @@ To which I must respond: no shit! We <strong>all</strong> hear bad news all the 
 
 It's incredible to me that we have created a world in which this has to be pointed out: <strong>don't delude your closest supporters</strong>. It's indicative of the fact that developer culture has become the domain of hucksters and charlatans.  There is a deeply manipulative and delusional culture at work here, and let's be clear <strong>there is absolutely no room for it in nonprofit and humanitarian technology</strong>. 
 
-Read the language around a tech conference like <a href="http://disrupt.techcrunch.com/blog/">TechCrunch Disrupt</a>, where hundreds of startups come to fetishize themselves as combatants on a "startup battlefield." From their own words, it sounds like an joyous exercise in self-delusion:  "It’ll be a little bit like pitching a top VC, except it will be done live on stage in front of thousands." 
+Read the language around a tech conference like <a href="http://disrupt.techcrunch.com/blog/">TechCrunch Disrupt</a>, where hundreds of startups come to fetishize themselves as combatants on a "startup battlefield." From their own words, it sounds like an joyous exercise in self-delusion:  "It'll be a little bit like pitching a top VC, except it will be done live on stage in front of thousands." 
 
 Is it so crazy to imagine a conference where we are all honest about what our software actually does, and they types of frustrating issues that we are facing in development? Then we could join hands and sing songs, I guess. 
 

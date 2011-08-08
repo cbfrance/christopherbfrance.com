@@ -2,7 +2,7 @@
 kind: article
 created_at: 2009-09-24 05:03:33
 title: The "Special Case" of NEED Magazine
-excerpt: "During the collapse of the journalism industry, I have rarely been surprised -- and only occasionally truly saddend -- by a newspaper going out of business."
+excerpt: "During the collapse of the journalism industry, I have rarely been surprised  and only occasionally truly saddend -- by a newspaper going out of business."
 tags: [journalism, nonprofit, nptech, philanthropy, zuckerman]
 modified_on: 2009-09-24 07:53:38
 status: publish
@@ -14,7 +14,7 @@ It's not that I don't have empathy. I have worked briefly as a journalist, have 
 
 And still, I make a living with news. So, it's only with my teeth clenched that I can say, "we need this" and try to keep the longer view toward the 1500s, and the previous revolutions that fell out of Gutenberg's noodling with the press. Like Clay Shirky says. He's pretty blunt: 
 
-<blockquote>Round and round this goes, with the people committed to saving newspapers demanding to know “f the old model is broken, what will work in its place? To which the answer is: Nothing. Nothing will work. There is no general model for newspapers to replace the one the internet just broke. <span class="attribution">Clay Shirky in <a href="http://www.shirky.com/weblog/2009/03/newspapers-and-thinking-the-unthinkable/">Thinking the Unthinkable</a></span></blockquote>
+<blockquote>Round and round this goes, with the people committed to saving newspapers demanding to know if the old model is broken, what will work in its place? To which the answer is: Nothing. Nothing will work. There is no general model for newspapers to replace the one the internet just broke. <span class="attribution">Clay Shirky in <a href="http://www.shirky.com/weblog/2009/03/newspapers-and-thinking-the-unthinkable/">Thinking the Unthinkable</a></span></blockquote>
 
 I agree with Shirky that this is an inevitable collapse of the old school. And I agree that our best option is to work as creatively as possible to <em>get through it and find another way</em> to make meaning, to build understanding, to be journalists. 
 
@@ -40,7 +40,7 @@ That is, this is not an issue of being kind, or being well-mannered and cultured
 
 As usual, Ethan Zuckerman writes about this best: 
 
-<blockquote>Understanding Iraqi attitudes towards a US occupying force and Shia/Sunni/Kurdish tensions better might have mitigated the disastrous invasion of Iraq. Understanding Chinese and Indian economic aspirations is probably a prerequisite to figuring out how to regulate carbon emissions while those nations embrace automobile ownership. And activists trying to change Chinese policy in Darfur would benefit from better understanding of Chinese pride, the concept of “face” and the power of nationalism. <span class="attribution">- Ethan Z. in <a href="http://www.ethanzuckerman.com/blog/2008/04/25/homophily-serendipity-xenophilia/">Homophily, serendipity, xenophilia</a></span></blockquote>
+<blockquote>Understanding Iraqi attitudes towards a US occupying force and Shia/Sunni/Kurdish tensions better might have mitigated the disastrous invasion of Iraq. Understanding Chinese and Indian economic aspirations is probably a prerequisite to figuring out how to regulate carbon emissions while those nations embrace automobile ownership. And activists trying to change Chinese policy in Darfur would benefit from better understanding of Chinese pride, the concept of ï¿½faceï¿½ and the power of nationalism. <span class="attribution">- Ethan Z. in <a href="http://www.ethanzuckerman.com/blog/2008/04/25/homophily-serendipity-xenophilia/">Homophily, serendipity, xenophilia</a></span></blockquote>
 
 ***
 
@@ -50,7 +50,7 @@ In 2006 <a href="http://unthinkingly.com/2006/12/05/need-magazine-debuts/">I not
 
 Here's their two-sentence angle on the world:
 
-<blockquote>NEED magazine is an artistic hope-filled publication focusing on life changing humanitarian efforts at home and abroad. … We are not out to save the world, but to tell the stories of, and assist, those who are.<span class="attribution"><a href="http://needmagazine.com">NEED Magazine</a></span></blockquote>
+<blockquote>NEED magazine is an artistic hope-filled publication focusing on life changing humanitarian efforts at home and abroad.  We are not out to save the world, but to tell the stories of, and assist, those who are.<span class="attribution"><a href="http://needmagazine.com">NEED Magazine</a></span></blockquote>
  
 
 <img class="align-right" src="http://blog.meedan.net/wp-content/uploads/premierecover1.jpg" alt="Need" title "Need magazine" />
@@ -82,7 +82,8 @@ Shirky again:
 <blockquote>For the next few decades, journalism will be made up of overlapping <strong>special cases</strong>. Many of these models will rely on amateurs as researchers and writers. Many of these models will rely on sponsorship or grants or endowments instead of revenues. Many of these models will rely on excitable 14 year olds distributing the results. <strong>Many of these models will fail</strong>. No one experiment is going to replace what we are now losing with the demise of news on paper, but over time, the collection of new experiments that do work might give us the journalism we need.
 </blockquote>
 
-***
+...
+
 This is not really about NEED or newspapers. It's about all of the amazing groups that are bringing empathy and challenging homophily on the web. For those of us in online news, we are all looking for the "special cases." 
 
 Meedan is exploring several special cases:
