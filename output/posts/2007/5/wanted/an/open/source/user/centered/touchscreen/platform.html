@@ -1,0 +1,198 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>Wanted: An open-source, user-centered touchscreen platform</title>
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type' />
+    <meta content=', touch, ui, baobab, linux, design, tablet' name='keywords' />
+    <meta content="Fundamentally I think that &lt;em&gt;touch&lt;/em&gt; is intimate and intuitive, and clearly touchable interfaces have incredible potential, especially for the folks that haven't been brow-beaten into adapting to 20th-century conventions of computer interfaces like the QWERTY keyboard." name='description' />
+    <link href='/assets/css/reset.css' rel='stylesheet' type='text/css' />
+    <link href='/assets/css/style.css' media='screen' rel='stylesheet' type='text/css' />
+  </head>
+  <body>
+    <div id='main'>
+      <div id='header'>
+        <div class='logo'>
+          <a href='/'>&laquo; unthinkingly</a>
+        </div>
+        <div id='nav'>
+          <ul>
+            <li><a href='/about.html'>about</a></li>
+            <li><a href='/archives.html'>archives</a></li>
+            <li><a href='/tags.html'>tags</a></li>
+            <li>
+              <a href='/atom.xml'>rss</a>
+            </li>
+            <li>
+              <a href='/license.html'>license</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class='clear'></div>
+      <div class='article'>
+            <h1></h1>
+            Wanted: An open-source, user-centered touchscreen platform
+            <div class='meta'>
+              <ul class='tags'>
+                <li>May 13, 2007</li>
+                <!-- disqus embed stuff was here -->
+                <li>&middot;</li>
+                <li>
+                  <a class='tag' href='/tags/baobab/'>
+                    baobab
+                  </a>
+                </li>
+                <li>
+                  <a class='tag' href='/tags/design/'>
+                    design
+                  </a>
+                </li>
+                <li>
+                  <a class='tag' href='/tags/linux/'>
+                    linux
+                  </a>
+                </li>
+                <li>
+                  <a class='tag' href='/tags/tablet/'>
+                    tablet
+                  </a>
+                </li>
+                <li>
+                  <a class='tag' href='/tags/touch/'>
+                    touch
+                  </a>
+                </li>
+                <li>
+                  <a class='tag' href='/tags/ui/'>
+                    ui
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class='body'>
+              There has been a lot of excitement recently around a couple of developments in touch screen interfaces:  First there was the <a href="http://www.youtube.com/watch?v=UcKqyn-gUbY&mode=related&search=">insane presentation at TED 2006</a>. Secondly, of course, the iPhone made everyone all hot in the pants for it's touchable goodness.
+              
+              <blockquote> In Malawi, the NGO <a href="http://www.baobabhealth.org/">Baobab Health Partnership </a>... adapted Linux to $100 touchscreen Internet appliances, then wrote a program for Opera to run in full-screen kiosk mode. The resulting terminal can easily manage the nationâ€™s health data and is scalable wherever a web connection can be made.<span class="attribution"><a href="http://www.vestaldesign.com/blog/2007/03/malawi-linux-the-fight-against-hiv.html">J. Goodman at Vestal</a></span></blockquote>
+              
+              Fundamentally I think that <em>touch</em> is intimate and intuitive, and clearly touchable interfaces have incredible potential, especially for the folks that haven't been brow-beaten into adapting to 20th-century conventions of computer interfaces like the QWERTY keyboard.
+              
+              (i.e., the billions of people that will be introduced to "desktop" computing the next decade. See the OLPC, <a href="http://wiki.laptop.org/wiki/Current_events">just launched for reals in Uruguay</a>.)
+              
+              So I'm excited about a new project at work that involves designing a web application for use with a touch screen interface. When I first heard about it from the client I was coffee-though-the-nose excited because I have been infatuated by a recent project I read about on Vestal: <a href="http://www.vestaldesign.com/blog/2007/03/malawi-linux-the-fight-against-hiv.html">Malawi, Linux, & The Fight Against HIV</a>. I knew immediately that I was going to rip off the idea. (In the best open source sense, of course.) 
+              
+              <a href='http://www.unthinkingly.com/wp-content/uploads/2007/05/touchscreen.png' title='Baobab clinic.'><img src='http://www.unthinkingly.com/wp-content/uploads/2007/05/touchscreen.png' alt='Baobab clinic.' /></a>Unfortunately the iOpener touchscreen used in the project is no longer for sale (it had a lovely $100-$200 price tag b/c it came with some money-making software -- there's a funny story about the <a href="http://www.wired.com/science/discoveries/news/2000/03/34977"> linux hack</a>), so I was hoping someone might have some idea about how to implement this as cheaply as possible. 
+              
+              A few criteria: 
+              <ul>
+              	<li>As open-source as possible</li>
+              
+              	<li>Durable</li>
+               
+              	<li>Replicable</li>
+              
+              	<li>Low Power</li>
+              	<li>Low CPU resources (The machine will be cheap, with flash memory, prob.)</li>
+              
+              	<li>Beautiful (in a Platonic way <grin>)</li>
+              </ul>
+              
+              
+              Basically I want to avoid wire splicing and flaky homegrown drivers in favor of something that is replicable and extremely flexible. I want to be able to develop a web application with an appropriate UI and let it rip. (Which will be greatly facilitated by the work of the Baobab programmers' "<a href="http://www.baobabhealth.org/2006/08/30/touchscreen-toolkit-documentation/">touchscreen toolkit</a>"). This might not be easy given the limitations of cheap machines.  
+                
+              So far I've got an<a href="http://www.wdlsystems.com/modperl/view_services.cgi?r=detail&prod_num=1EBOX23&aisle_id=799">EboxPC</a> in the office (a nice, fanless machine with CF and VESA mounts for the back of the monitor) with some form of embedded Linux (we've built a tiny Linux distro for our rural wireless network that might be usable if we can get the drivers to work with the touch screen). Looks like we can get screens for about $100 and then we'll have to put a touch screen on top. Regardless, this is still in the brainstorming phase, so that's all likely to go out the window.
+              
+              <strong>Anyway, what good is a touch screen like this? </strong>
+              
+              Well, combined with the right software, I think you can really leverage usability to do a hell of a lot:
+              
+              <ul>
+              	<li>Make a huge impact in developing world healthcare like Baobab has done. </li>
+              
+              	<li>Collect data easily from a kiosk at a disaster area.</li>
+              
+              	<li>Setup a database-driven check-in desk at your next nonprofit conference.  </li>
+              
+              	<li>Collect survey data remotely (anywhere in reach of the net).</li>
+              
+              	<li>Setup a small store without an incredibly expensive, proprietary POS system. </li>
+              
+              </ul>
+              
+              I think there are lots of possibilities given that the interface could just be so much more usable. Just looking into it briefly I found an <a href="http://www.cooperativegrocer.coop/cg2003/0503_anderson.html">open source POS system for use in cooperative markets</a>. Brilliant. This is software that could really benefit from an inexpensive stable touchscreen implementation.
+              
+              Does anyone have any experience or ideas? 
+              
+              I'll be posting my findings here, along with the software design considerations that I run into.
+            </div>
+          </div>
+      <div id='other-articles'>
+            <div class='older'>
+              <ul>
+                <li>
+                  <h3>
+                    <a href='/posts/2007/5/online/banking/overdue/leapfrogging/technology.html' title="Seems like Paypal is one of those 'leapfrogging' technologies that could help entire regions skip the process of developing a banking infrastructure, which apparently takes about 200 years of war (judging from how the West has done it).">
+                      &laquo; Online banking = overdue leapfrogging technology
+                    </a>
+                  </h3>
+                </li>
+                <li>
+                  <h3>
+                    <a href='/posts/2007/2/whos/linking/to/me/new/tools.html' title='It is a pretty basic trick to get an idea of people that are linking to your site.'>
+                      &laquo; Who's linking to our website? New tools.
+                    </a>
+                  </h3>
+                </li>
+                <li>
+                  <h3>
+                    <a href='/posts/2007/2/thinking/about/the/search/for/jim/gray.html' title=''>
+                      &laquo; Thinking About The Search for Jim Gray
+                    </a>
+                  </h3>
+                </li>
+              </ul>
+            </div>
+            <div class='newer'>
+              <ul>
+                <li>
+                  <h3>
+                    <a href='/posts/2007/6/genocide/vs/gadgets.html' title="I've never seen gadget hype reach the levels that have been achieved by the iPhone.">
+                      Genocide vs. Gadgets &raquo;
+                    </a>
+                  </h3>
+                </li>
+                <li>
+                  <h3>
+                    <a href='/posts/2007/6/the/joy/of/e/waste.html' title="Recently I've been really worked up about all these computers in the closet. It's a bunch of junk.">
+                      The Joy of e-waste &raquo;
+                    </a>
+                  </h3>
+                </li>
+                <li>
+                  <h3>
+                    <a href='/posts/2007/12/move/to/san/francisco/now.html' title="Since this seems to be the advice that I've been giving to pretty much all of the geek + activisty folks that I know, I figured it bears repeating here: Move to San Francisco.">
+                      Move to San Francisco. Now. &raquo;
+                    </a>
+                  </h3>
+                </li>
+              </ul>
+            </div>
+          </div>
+      <div class='clear'></div>
+      <div class='comments'>
+            <div id='disqus_thread'></div>
+            <script src='http://disqus.com/forums/unthinkingly-blog/embed.js' type='text/javascript'></script>
+            <noscript>
+              <a href='http://disqus.com/forums/unthinkingly-blog/?url=ref'>
+                View the discussion thread
+              </a>
+            </noscript>
+          </div>
+          <!-- / disqus adds too much visual crap -->
+          <style type='text/css'>
+            .dsq-dc-logo {
+              display: none !important; }
+          </style>
+      <div class='clear'></div>
+    </div>
+  </body>
+</html>

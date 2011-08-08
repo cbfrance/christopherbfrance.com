@@ -1,0 +1,153 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>Relatively Simple RSS Aggregation</title>
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type' />
+    <meta content=', rss, webdev, code' name='keywords' />
+    <meta content='I needed something that was simple, cached hourly, displayed various encodings well and worked with RSS and Atom formats. Most importantly, I wanted something I could install on my own server, and it needed to be community oriented (not designed for a single reader).' name='description' />
+    <link href='/assets/css/reset.css' rel='stylesheet' type='text/css' />
+    <link href='/assets/css/style.css' media='screen' rel='stylesheet' type='text/css' />
+  </head>
+  <body>
+    <div id='main'>
+      <div id='header'>
+        <div class='logo'>
+          <a href='/'>&laquo; unthinkingly</a>
+        </div>
+        <div id='nav'>
+          <ul>
+            <li><a href='/about.html'>about</a></li>
+            <li><a href='/archives.html'>archives</a></li>
+            <li><a href='/tags.html'>tags</a></li>
+            <li>
+              <a href='/atom.xml'>rss</a>
+            </li>
+            <li>
+              <a href='/license.html'>license</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class='clear'></div>
+      <div class='article'>
+            <h1></h1>
+            Relatively Simple RSS Aggregation
+            <div class='meta'>
+              <ul class='tags'>
+                <li>Mar 20, 2006</li>
+                <!-- disqus embed stuff was here -->
+                <li>&middot;</li>
+                <li>
+                  <a class='tag' href='/tags/code/'>
+                    code
+                  </a>
+                </li>
+                <li>
+                  <a class='tag' href='/tags/rss/'>
+                    rss
+                  </a>
+                </li>
+                <li>
+                  <a class='tag' href='/tags/webdev/'>
+                    webdev
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class='body'>
+              I recently posted about my need for a simpler RSS aggregator. 
+              
+              I worked through the massive list of <a href="http://en.wikipedia.org/wiki/List_of_news_aggregators">existing RSS aggregators</a> at wikipedia and couldn't reallly find something that did exactly what I wanted and worked. 
+              
+              I needed something that was simple, cached hourly, displayed various encodings well and worked with RSS and Atom formats. Most importantly, I wanted something I could install on my own server, and it needed to be community oriented (not designed for a single reader).
+              
+              Most of the existing solutions on the web are hosted by a third party, and are limited in the number of feeds that they can aggregate. 
+              
+              A robust, simple option for a thrid-party hosted aggregator is <a href="http://jade.mcli.dist.maricopa.edu/feed/">Feed2JS</a>, but if you want a bunch of feeds on your site you'll have to use a bit of javascript for each one. Multiple feeds get ugly fast, and if their server goes down, your scripts go down.  
+              
+              The best hosted solution I found was <a href="http://gregarius.net/">Gregarius</a>, which has a lovely community. I think that gregarious will take the cake sometime this year as aggregating catches on. For now, however, the plugins are pretty limited -- you are locked into a personal reader with "Read/Unread" tagging. (Which makes Gregarious a great replacement for a newsreader like Bloglines, but it's not good for a community aggregator where lots of people visit.)
+              
+              If I were a better person I'd just write a Gregarius plugin, but instead I've just reworked some of Feed2JS's code (which is in turn dependent on the Magpie RSS parser.)
+              
+              <strike>You can download it <a href="http://www.nonprofitdesign.org/downloads/simple-aggregator.zip">here</a>. </strike>
+              
+              It's a index.php file with an "admin" folder. Drop it on your server in an appropriate directory and you should have a page that displays 15 biofuels blogs. NOTE: if you don't know what php is or don't have ftp access to your server, just use <a href="http://jade.mcli.dist.maricopa.edu/feed/">Feed2JS</a> and insert their javascript into your page. 
+              
+              Otherwise edit the php file with the rss or atom feeds you want to include. It will probably need a little CSS to spice things up. You can send comments or questions about the script to chris(at)nonprofitdesign.org. I'll release another version sometime soon with better documentation and a prettier front end. 
+              
+              An example of the styled script in action is <a href="http://www.biofuels.coop/aggregator/">here</a> (at the <a href="http://www.biofuels.coop/">Piedmont Biofuels </a>website). 
+              
+              UPDATE: That page now uses <a href="http://simplepie.org/">simplepie</a>, which kicks ass.
+            </div>
+          </div>
+      <div id='other-articles'>
+            <div class='older'>
+              <ul>
+                <li>
+                  <h3>
+                    <a href='/posts/2006/3/getting/real/its/not/just/an/80s/catch/phrase.html' title="I mean, I love campfire and all, but you could've at least published with lulu">
+                      &laquo; Getting Real: It's Not Just an 80's Catch Phrase
+                    </a>
+                  </h3>
+                </li>
+                <li>
+                  <h3>
+                    <a href='/posts/2006/2/reliefweb/maps/for/humanitarian/crisis.html' title='I have a love for maps because they can be the most rich, yet easy-to-understand communication tools.'>
+                      &laquo; ReliefWeb Maps for Humanitarian Crisis
+                    </a>
+                  </h3>
+                </li>
+                <li>
+                  <h3>
+                    <a href='/posts/2006/2/free/computer/books/tutorials/and/lecture/notes.html' title="Most of the books here are just distributed online for free because they are older editions. They aren't using an Open license, except in the case of the many online tutorials that are linked here (which are typically carefully chosen, I found). ">
+                      &laquo; Power to the People: Free (as in Beer) O'Reilly Books and More
+                    </a>
+                  </h3>
+                </li>
+              </ul>
+            </div>
+            <div class='newer'>
+              <ul>
+                <li>
+                  <h3>
+                    <a href='/posts/2006/3/temporarily/offline.html' title="I have a wonderful new job (wrangling Linux servers) and am too busy learning to post at present. After I get through the stack of O'Reilly books on my desk I'll be back (and much better informed). ">
+                      Temporarily Offline &raquo;
+                    </a>
+                  </h3>
+                </li>
+                <li>
+                  <h3>
+                    <a href='/posts/2006/6/new/wi/fi/distance/record/279/km.html' title='They did it using a pair of Linksys WRT54Gs running DD-WRT and some recycled satellite dish antennas (no amplifiers!)'>
+                      New Wi-Fi distance record: 279 km! &raquo;
+                    </a>
+                  </h3>
+                </li>
+                <li>
+                  <h3>
+                    <a href='/posts/2006/6/hi/im/alive.html' title="I'm posting again after a couple months absence ...">
+                      Hi, I'm alive &raquo;
+                    </a>
+                  </h3>
+                </li>
+              </ul>
+            </div>
+          </div>
+      <div class='clear'></div>
+      <div class='comments'>
+            <div id='disqus_thread'></div>
+            <script src='http://disqus.com/forums/unthinkingly-blog/embed.js' type='text/javascript'></script>
+            <noscript>
+              <a href='http://disqus.com/forums/unthinkingly-blog/?url=ref'>
+                View the discussion thread
+              </a>
+            </noscript>
+          </div>
+          <!-- / disqus adds too much visual crap -->
+          <style type='text/css'>
+            .dsq-dc-logo {
+              display: none !important; }
+          </style>
+      <div class='clear'></div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,183 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>Understanding a community tag: the history of nptech</title>
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type' />
+    <meta content=', nptech, code, experiment, floksonomy, community, tags' name='keywords' />
+    <meta content='Recently there has been a lot of discussion among the nonprofit technology geeks about the use (and usefulness) of the tag nptech.' name='description' />
+    <link href='/assets/css/reset.css' rel='stylesheet' type='text/css' />
+    <link href='/assets/css/style.css' media='screen' rel='stylesheet' type='text/css' />
+  </head>
+  <body>
+    <div id='main'>
+      <div id='header'>
+        <div class='logo'>
+          <a href='/'>&laquo; unthinkingly</a>
+        </div>
+        <div id='nav'>
+          <ul>
+            <li><a href='/about.html'>about</a></li>
+            <li><a href='/archives.html'>archives</a></li>
+            <li><a href='/tags.html'>tags</a></li>
+            <li>
+              <a href='/atom.xml'>rss</a>
+            </li>
+            <li>
+              <a href='/license.html'>license</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class='clear'></div>
+      <div class='article'>
+            <h1></h1>
+            Understanding a community tag: the history of nptech
+            <div class='meta'>
+              <ul class='tags'>
+                <li>Jan 11, 2007</li>
+                <!-- disqus embed stuff was here -->
+                <li>&middot;</li>
+                <li>
+                  <a class='tag' href='/tags/code/'>
+                    code
+                  </a>
+                </li>
+                <li>
+                  <a class='tag' href='/tags/community/'>
+                    community
+                  </a>
+                </li>
+                <li>
+                  <a class='tag' href='/tags/experiment/'>
+                    experiment
+                  </a>
+                </li>
+                <li>
+                  <a class='tag' href='/tags/floksonomy/'>
+                    floksonomy
+                  </a>
+                </li>
+                <li>
+                  <a class='tag' href='/tags/nptech/'>
+                    nptech
+                  </a>
+                </li>
+                <li>
+                  <a class='tag' href='/tags/tags/'>
+                    tags
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class='body'>
+              Recently there has been a lot of discussion among the nonprofit technology geeks about the use (and usefulness) of the tag "nptech".
+              
+              <blockquote class="large"> When the nptech tag started one of the ideas was to gather enough data to look and see what words people were using to describe, say, open source (open source, floss, foss, open source software) and then use those words to inform a taxonomy. It's a taken a long time but I bet there's enough data in the nptech tag on a combination of bookmarking systems to do a little crunching and get at some of those commonly used terms. Sort of an emergent taxonomy... <span class="attribution"><a href="http://ext337.org/">Marnie Webb</a>,<br>nptech proto-tagger</span>
+              </blockquote> 
+              
+              The nptech tag (on <a href="http://del.icio.us/tag/nptech">del.icio.us</a>) dates back to December of 2004 and was created by a group of nonprofit technologists that were exploring the potential for social tagging in the community. While I have a "curmudgeonly" eye for Web2.0 gizmos, in addition to a deep distrust of technophilic "progress" ...  I think that the development of this tag is arguably the single largest reason for the current (thriving I think) state of what is commonly called the "nptech community." Which means a lot to me.
+              
+              (A great summary of the current conversation is at <a href="http://beth.typepad.com/beths_blog/2007/01/nptech_tag_disc.html">Beth Kanter's blog</a>.) 
+              
+              Opinions abound. Most of us seem to be worked up about the efficiency of the tag. On this note there has been a lot of interesting reaction to a post by <a href="http://digitaldiner.typepad.com/gavins_digital_diner/2006/12/return_to_benea.html">Gavin Clabaugh</a>, which was critical of folksonomies. Laura Quinn of Idealware largely <a href="http://www.idealware.org/blog/2006/10/taxonomy-is-dead-long-live-taxonomy.html">agrees</a> with Gavin. 
+              
+              In this context, it seems that generally the consensus has been that 1.) Taxonomies are harder to create than Folksonomies, but they are better in many contexts. And 2.) we need more data about how to make the nptech tag more useful as an "emergent taxonomy".
+              
+              So, in the spirit of improving the tag and promoting the nptech community, here's some data: 
+              
+              <ol>
+              <li>A plain text listing of every word that has been used on del.icio.us in association with nptech. <a href="http://unthinkingly.com/download/fulltext.xml.txt">fulltext.xml</a> </li>
+              <li>A sorted and ranked list of these tags. <a href="http://unthinkingly.com/download/nptech-tagged.txt">nptech-tagged.txt</a></li>
+              <li>All of the tags presented as <a href="http://www.unthinkingly.com/experiments/nptech/understanding_nptech.php">a scrollable tag-timeline</a>. </li>
+              <li>The script that I wrote to gather the data from delicious (in perl): <a href="http://unthinkingly.com/download/community-tag-robot.txt">community-tag-robot.txt</a>. (The code is also displayed below with syntax highlighting.)
+              </li> 
+              </ol>
+              
+              <a href="http://www.unthinkingly.com/experiments/nptech/understanding_nptech.php"><img src="/wp-content/uploads/nptech.gif" alt=" "/>
+              </a>
+              
+              <br class="clear" />
+              The script that I wrote crawls the pages of del.icio.us and pulls out all of the tags that were used to describe the same stuff tagged "nptech". This gives us an idea of how the tag has been used -- effectively describing the tagged links, if we assume taggers are using "synonym clouds". Del.icio.us has a "related tags" feature but it is lame (only 10 are listed), and judging from my initial review of the data it is pretty random.  (Not really sure if I broke some terms of use or not with my script, but it's *our* data, right? And besides, the script is very polite.)
+              
+              There are a lot of delicious mashupy-type things that show you tagging patterns, but these approaches seem somehow very passive, and not community-oriented. I mean, in general delicious is used very passively -- people want to be able *consume* more efficiently, not create some community in which greater action can be taken. Or it is just used for explicitly personal purposes, as a web-based bookmark service. 
+              
+              What I like so much about the nptech tag is that it was intentionally created to support and reflect a community (unlike, say, the tag "nintendo," which may very well support a community, but it is not active in a self-critical, dialogic way.) And certainly there is a beauty, I think, in using these hyper-technological tools (which have the ability to be very atomizing and consumerist) for the sake of doing things that are explicitly not-for-profit and mission-driven. 
+              
+              And personally I tend to agree with <a href="http://www.zenofnptech.org/2007/01/tagging_discuss.html">Michelle Murrain</a> that we need to be wary of an "expert" approach to developing our tags and community taxonomies. That line of thinking is what made me want to do this in the first place. (Likewise I need to point out how much I have really been thinking lately about stuff that I have been reading at Ulises Ali Majias' blog like <a href="http://ideant.typepad.com/ideant/2006/08/confinement_edu.html">this</a>.)
+              
+              Anyway, further experimentation (graphs/charts from excel would be easy using the text files, for instance) would be nice; please let me know if you are doing something interesting with the data. I'm hoping that this will help us, as a community, determine what we want to do with this tag now that we have been using it for more than two years. What patterns do you see in the data? What does the nptech tag mean for our community? I am not going to try to start doing any analysis here, now -- but I would really like to hear what people's reactions to the tag timeline are. 
+              
+              There are still a lot of holes in this data that I could answer with a bit more programming. (i.e., who has been using the tag?) Suggestions for extending the script are welcome. What do we want to know?
+            </div>
+          </div>
+      <div id='other-articles'>
+            <div class='older'>
+              <ul>
+                <li>
+                  <h3>
+                    <a href='/posts/2007/1/great/blog.html' title='This is such a fantastic blog that I had to point it out.  His description of our role (as consumers) in a technological world (online) is just refreshing.'>
+                      &laquo; Great Blog
+                    </a>
+                  </h3>
+                </li>
+                <li>
+                  <h3>
+                    <a href='/posts/2007/1/the/linux/desktop/in/2007.html' title=''>
+                      &laquo; The Linux Desktop in 2007
+                    </a>
+                  </h3>
+                </li>
+                <li>
+                  <h3>
+                    <a href='/posts/2007/1/tux/is/dead/ish.html' title='Alas, just before their 21st issue, they have just announced that they are closing down. '>
+                      &laquo; Tux is dead-ish
+                    </a>
+                  </h3>
+                </li>
+              </ul>
+            </div>
+            <div class='newer'>
+              <ul>
+                <li>
+                  <h3>
+                    <a href='/posts/2007/1/a/question/for/delicious.html' title='Are there 1000 of our entries missing?'>
+                      A question for del.icio.us &raquo;
+                    </a>
+                  </h3>
+                </li>
+                <li>
+                  <h3>
+                    <a href='/posts/2007/1/the/culture/of/open/networks/or/watch/what/you/tag.html' title='A reminder that we are trusting our attention data to the databases and algorithms of a corporation with no vested interest in the integrity or proper use of our data.'>
+                      The Culture of Open Networks, or: Watch What You Tag &raquo;
+                    </a>
+                  </h3>
+                </li>
+                <li>
+                  <h3>
+                    <a href='/posts/2007/1/the/panopticon/now/with/an/improved/menu.html' title='The overtone of pervasive surveillance makes me feel a bit ill.'>
+                      The Panopticon. Now With An Improved Menu! &raquo;
+                    </a>
+                  </h3>
+                </li>
+              </ul>
+            </div>
+          </div>
+      <div class='clear'></div>
+      <div class='comments'>
+            <div id='disqus_thread'></div>
+            <script src='http://disqus.com/forums/unthinkingly-blog/embed.js' type='text/javascript'></script>
+            <noscript>
+              <a href='http://disqus.com/forums/unthinkingly-blog/?url=ref'>
+                View the discussion thread
+              </a>
+            </noscript>
+          </div>
+          <!-- / disqus adds too much visual crap -->
+          <style type='text/css'>
+            .dsq-dc-logo {
+              display: none !important; }
+          </style>
+      <div class='clear'></div>
+    </div>
+  </body>
+</html>

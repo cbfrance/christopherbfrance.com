@@ -1,0 +1,147 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>Google Rankings and "Canonical" URLs (technical)</title>
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type' />
+    <meta content=', google, seo' name='keywords' />
+    <meta content="Finally some useful help from the 'celebrity engineer' Matt Cutts, one of the few people in the world that has had intimate relations with the Google Pagerank algorithm." name='description' />
+    <link href='/assets/css/reset.css' rel='stylesheet' type='text/css' />
+    <link href='/assets/css/style.css' media='screen' rel='stylesheet' type='text/css' />
+  </head>
+  <body>
+    <div id='main'>
+      <div id='header'>
+        <div class='logo'>
+          <a href='/'>&laquo; unthinkingly</a>
+        </div>
+        <div id='nav'>
+          <ul>
+            <li><a href='/about.html'>about</a></li>
+            <li><a href='/archives.html'>archives</a></li>
+            <li><a href='/tags.html'>tags</a></li>
+            <li>
+              <a href='/atom.xml'>rss</a>
+            </li>
+            <li>
+              <a href='/license.html'>license</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class='clear'></div>
+      <div class='article'>
+            <h1></h1>
+            Google Rankings and "Canonical" URLs (technical)
+            <div class='meta'>
+              <ul class='tags'>
+                <li>Jan 12, 2006</li>
+                <!-- disqus embed stuff was here -->
+                <li>&middot;</li>
+                <li>
+                  <a class='tag' href='/tags/google/'>
+                    google
+                  </a>
+                </li>
+                <li>
+                  <a class='tag' href='/tags/seo/'>
+                    seo
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class='body'>
+              Finally some useful help from the "celebrity engineer" Matt Cutts, one of the few people in the world that has had intimate relations with the Google Pagerank algorithm.  (EDIT: He also happens to use Wordpress, not Blogger. Hmmm.)
+              
+              This is a description of how to best reference your urls in order to ensure that Google understands them clearly. (the corresponding clarity, is designed -- clearly -- to increase your rank.) 
+              
+              From the <a href="http://www.mattcutts.com/blog/seo-advice-url-canonicalization/">blog </a>of Cutts: 
+              
+              <blockquote class="large">Q: What is a canonical url? Do you have to use such a weird word, anyway?
+              A: Sorry that it' a strange word; that's what we call it around Google. Canonicalization is the process of picking the best url when there are several choices, and it usually refers to home pages. For example, most people would consider these the same urls:
+              
+                  * www.example.com
+                  * www.example.com/
+                  * example.com
+                  * example.com/
+                  * www.example.com/index.html
+                  * example.com/home.asp
+              </blockquote>
+              
+              Roger Johannsen at <a href="http://www.456bereastreet.com/archive/200601/search_engines_and_canonical_urls/#comments">456 Berea St. </a>(web design) says he adds 
+              
+              <code>   1. RewriteCond %{HTTP_HOST} ^456bereastreet\.com [NC]&#x000A;   2. RewriteRule ^(.*) http://www.456bereastreet.com/$1 [R=301,L]</code>
+              
+              to his htaccess file in order to ensure that "www" is added to all requests for a page on his server. Great work. Great post. Thanks, Matt and Roger.
+            </div>
+          </div>
+      <div id='other-articles'>
+            <div class='older'>
+              <ul>
+                <li>
+                  <h3>
+                    <a href='/posts/2006/1/rip/the/committee/to/protect/bloggers.html' title='The Committee to Protect Bloggers is shutting down! '>
+                      &laquo; RIP: The Committee to Protect Bloggers(?)
+                    </a>
+                  </h3>
+                </li>
+                <li>
+                  <h3>
+                    <a href='/posts/2006/1/what/a/relief/google/maps/for/mac.html' title='Glad to see that little bit of criticism go so out of date so quickly. Now, Google, a Linux release, please.'>
+                      &laquo; What a Relief: Google Maps for Mac
+                    </a>
+                  </h3>
+                </li>
+                <li>
+                  <h3>
+                    <a href='/posts/2006/1/mapping/bird/flu.html' title='This is why the new breed of online maps are such wonderful tools for creating understanding: With a little technical work (and perhaps a lot of fact-checking), you can create simple yet information-rich presentation of a pandemic that is affecting millions.'>
+                      &laquo; Mapping Bird Flu
+                    </a>
+                  </h3>
+                </li>
+              </ul>
+            </div>
+            <div class='newer'>
+              <ul>
+                <li>
+                  <h3>
+                    <a href='/posts/2006/1/decolonizing/cyberspace.html' title='For some reasons, most Kiswahili bloggers are either poets or poetry lovers.'>
+                      "Decolonizing Cyberspace" &raquo;
+                    </a>
+                  </h3>
+                </li>
+                <li>
+                  <h3>
+                    <a href='/posts/2006/1/dont/make/me/think.html' title='There are very few web design books that have any currency after about 2 years. Very few.'>
+                      Don't Make Me Think &raquo;
+                    </a>
+                  </h3>
+                </li>
+                <li>
+                  <h3>
+                    <a href='/posts/2006/1/the/internet/is/a/war/weapon.html' title='In these matters of revolution, we have to be wired to win'>
+                      The Internet is a War Weapon &raquo;
+                    </a>
+                  </h3>
+                </li>
+              </ul>
+            </div>
+          </div>
+      <div class='clear'></div>
+      <div class='comments'>
+            <div id='disqus_thread'></div>
+            <script src='http://disqus.com/forums/unthinkingly-blog/embed.js' type='text/javascript'></script>
+            <noscript>
+              <a href='http://disqus.com/forums/unthinkingly-blog/?url=ref'>
+                View the discussion thread
+              </a>
+            </noscript>
+          </div>
+          <!-- / disqus adds too much visual crap -->
+          <style type='text/css'>
+            .dsq-dc-logo {
+              display: none !important; }
+          </style>
+      <div class='clear'></div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>http://unthinkingly.com/</id>
+  <title>unthinkingly.com feed</title>
+  <updated>2010-04-02T02:12:10Z</updated>
+  <link rel="alternate" href="http://unthinkingly.com/"/>
+  <link rel="self" href="http://unthinkingly.com/removed.atom.xml"/>
+  <author>
+    <name>Chris Blow</name>
+    <uri>http://unthinkingly.com</uri>
+  </author>
+  <entry>
+    <id>tag:unthinkingly.com,2010-04-01:/posts/2010/4/dont/pitch/me.html</id>
+    <title type="html">Don't pitch me.</title>
+    <published>2010-04-02T02:12:10Z</published>
+    <updated>2011-08-08T04:59:03Z</updated>
+    <link rel="alternate" href="http://unthinkingly.com/posts/2010/4/dont/pitch/me.html"/>
+    <content type="html">&lt;p&gt;Last week I read this article on ReadWriteWeb that advises a startup to "&lt;a href="http://www.readwriteweb.com/start/2010/03/give-it-to-them-straight-avoid-pitching-to-your-board.php"&gt;Give It to Them Straight: Avoid "Pitching" to Your Board&lt;/a&gt;." The article explains how it can be bad to exaggerate your product and cover up problems that you are experiencing in development:&lt;/p&gt;
+
+&lt;blockquote&gt;
+"VCs hear bad news all the time -- it is part of the startup process and part of the VC job description," says Hirshland. "Any VC worth his or her salt should respond to bad news, provided it is shared in a timely fashion, by helping the entrepreneur figure out the best way to respond rather than dwelling on what went wrong."
+&lt;/blockquote&gt;
+
+
+&lt;p&gt;To which I must respond: no shit! We &lt;strong&gt;all&lt;/strong&gt; hear bad news all the time. Get is straight, &lt;strong&gt;a "pitch" is a lie plus hubris&lt;/strong&gt;. None of us want to be lied to. Would it be that hard to just tell everyone on your project the truth about what your software does and how the development process is going?&lt;/p&gt;
+
+&lt;p&gt;It's incredible to me that we have created a world in which this has to be pointed out: &lt;strong&gt;don't delude your closest supporters&lt;/strong&gt;. It's indicative of the fact that developer culture has become the domain of hucksters and charlatans.  There is a deeply manipulative and delusional culture at work here, and let's be clear &lt;strong&gt;there is absolutely no room for it in nonprofit and humanitarian technology&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Read the language around a tech conference like &lt;a href="http://disrupt.techcrunch.com/blog/"&gt;TechCrunch Disrupt&lt;/a&gt;, where hundreds of startups come to fetishize themselves as combatants on a "startup battlefield." From their own words, it sounds like an joyous exercise in self-delusion:  "It'll be a little bit like pitching a top VC, except it will be done live on stage in front of thousands."&lt;/p&gt;
+
+&lt;p&gt;Is it so crazy to imagine a conference where we are all honest about what our software actually does, and they types of frustrating issues that we are facing in development? Then we could join hands and sing songs, I guess.&lt;/p&gt;
+
+&lt;p&gt;It sounds unrealistic because, you get pitched everywhere. In software development the art of lying has become pervasive. Developers pitch their funders, their users, and anyone who will listen. And really developers are just &lt;strong&gt;pitching themselves&lt;/strong&gt;, delusional about what their products are capable of doing.&lt;/p&gt;
+</content>
+    <summary type="html">There is a deeply manipulative and delusional culture at work [in Silicon Valley culture], and let's be clear there is absolutely no room for it in nonprofit and humanitarian technology.</summary>
+  </entry>
+  <entry>
+    <id>tag:unthinkingly.com,2010-03-15:/posts/2010/3/recent/meedan/press.html</id>
+    <title type="html">Recent Meedan press</title>
+    <published>2010-03-15T15:07:21Z</published>
+    <updated>2011-08-08T04:59:03Z</updated>
+    <link rel="alternate" href="http://unthinkingly.com/posts/2010/3/recent/meedan/press.html"/>
+    <content type="html">&lt;p&gt;I've had a great time working at Meedan recently as Director of Miscellany. We recently rolled out an update of the site and took of the "beta" label (it was out of style anyway).&lt;/p&gt;
+
+&lt;p&gt;I was pleasantly surprised at the amount of interest generated -- turns out people are actually pretty interested in crowdsourced translation!&lt;/p&gt;
+
+&lt;p&gt;We've got a lot of work ahead of us, but at least we are iterating live again now, and we have an incredibly supportive community getting our little nonprofit through the buggy spots.&lt;/p&gt;
+
+&lt;p&gt;Anyway, the recent press clippings:&lt;/p&gt;
+
+&lt;p&gt;The Economist discusses the human-machine "cyborg translation" approach in a &lt;a href="http://www.economist.com/search/displaystory.cfm?story_id=15582327"&gt;summary piece&lt;/a&gt; mentioning Meedan as well as our friends at Worldwide Lexicon and Global Voices.&lt;/p&gt;
+
+&lt;p&gt;The London Guardian wrote a nice &lt;a href="http://www.guardian.co.uk/media/2010/feb/21/translation-website-meedan-middle-east"&gt;article&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;The system, which has been in development for more than three years, is based on advanced automatic translation technology developed by IBM and uses an international team of 30 translators and editors to find news and polish the language. ... With the potential for highly localised websites that cannot even be reached by outsiders — let alone understood — many have worried about the potential for a series of so-called "splinternets" to evolve.
+&lt;/blockquote&gt;
+
+
+&lt;p&gt;The Guardian also as wrote a &lt;a href="http://www.guardian.co.uk/technology/blog/2010/feb/22/meedan-machine-translation-mt"&gt;blog post&lt;/a&gt; mentioning our Arabic-English &lt;a href="http://blog.meedan.net/2009/11/07/meedan-releases-the-world�s-first-open-access-arabicenglish-translation-memory/"&gt;Open Translation Memory&lt;/a&gt;. I appreciated this one because it at least mentioned our desire to move to WWL (away from a proprietary IBM backend which we have been loaned):&lt;/p&gt;
+
+&lt;blockquote&gt;Meedan's data � its 'translation memory' of over 3m words � is available to other translators. Weyman says: "the translations that are done with the Transbrowser are part of our agreement with IBM that makes sure all those translations are open source." This isn't true of some other web-based translation services, which are open access but not open source data services. The 'translation memory' is important because having a corpus of texts in two languages allows you to apply statistical techniques to improve a translation engine.
+&lt;/blockquote&gt;
+
+
+&lt;p&gt;Le Monde covered Meedan in French! Here's the &lt;a href="http://pisani.blog.lemonde.fr/2010/02/26/adressez-vous-aux-gens-dans-l�idiome-qu�ils-comprennent/"&gt;original French&lt;/a&gt; and the &lt;a href="http://translate.google.com/translate?js=y&amp;prev=_t&amp;hl=en&amp;ie=UTF-8&amp;layout=1&amp;eotf=1&amp;u=http://pisani.blog.lemonde.fr/2010/02/26/adressez-vous-aux-gens-dans-l�idiome-qu�ils-comprennent/&amp;sl=auto&amp;tl=en"&gt;translation&lt;/a&gt;.  (It's actually quite readable MT for a change -- French to English machine translation does not need humans nearly so much as Arabic to English.)&lt;/p&gt;
+
+&lt;p&gt;The &lt;a href="http://tech.slashdot.org/story/10/02/22/2038241/New-EnglishArabic-Translation-Site-Hopes-To-Promote-Citizen-Diplomacy"&gt;Slashdot discussion&lt;/a&gt; of Meedan is hilariously bad yet somehow deeply insightful as a document of the Slashdot community (they are mostly terrified that Meedan will cause WWIII -- hasn't happened yet, guys.) At least they properly crashed the site for a bit, truly Slashdotted! (Or maybe that's what I get for pretending to be a Postgres admin.)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://www.wired.com/epicenter/2010/02/arabic-english-diplomacy/"&gt;Wired ran a great article&lt;/a&gt; and even ventured to mention the interaction design:&lt;/p&gt;
+
+&lt;blockquote&gt;
+Meedan is not the first to make machine translation tools publicly usable -- Yahoo's Babel Fish has been around for years, and Google's Translate continues to improve and broaden its scope as the company uses its massive trove of search queries to tune its translation technology.
+
+Meedan takes a different tack, first using Machine Translation technology, and then letting translators fix and refine translations. The status of a translation is always apparent, and learning a lesson from Wikipedia, Meedan makes the history of each translation publicly and quickly available.
+
+The point is to not hide the messiness of translation and keep the reminder that this is a cross-cultural endeavor embedded in the site design.
+&lt;/blockquote&gt;
+
+
+&lt;p&gt;Lastly a bit about Meedan appeared on BBC Arabic, in the &lt;a href="http://www.newstatesman.com/digital/2010/02/arabic-english-website-meedan"&gt;New Statesman&lt;/a&gt;, and &lt;a href="http://blogs.aljazeera.net/middle-east/2010/02/22/meedan-blurs-linguistic-lines"&gt;on Al Jazeera&lt;/a&gt;.&lt;/p&gt;
+</content>
+    <summary type="html">Coverage of Meedan in international press, most of it focused on our Machine Translation engine and our approach to community contributions.</summary>
+  </entry>
+  <entry>
+    <id>tag:unthinkingly.com,2010-01-23:/posts/2010/1/what/could/possibly/go/wrong.html</id>
+    <title type="html">What could possibly go wrong? </title>
+    <published>2010-01-23T17:48:42Z</published>
+    <updated>2010-09-09T06:22:27Z</updated>
+    <link rel="alternate" href="http://unthinkingly.com/posts/2010/1/what/could/possibly/go/wrong.html"/>
+    <content type="html">&lt;p&gt;What could possibly go wrong?  Thousands of volunteer hackers break ground on dozens of projects at a bunch of hastily organized unconferences promising to &lt;em&gt;Save Haiti&lt;/em&gt;?&lt;/p&gt;
+
+&lt;p&gt;In a word: everything.&lt;/p&gt;
+
+&lt;p&gt;Tonight there are a number of people organizing some pretty intensive projects involving one of the most sensitive places in the world.&lt;/p&gt;
+
+&lt;p&gt;Let me tell you -- most of us have no idea what we are doing. Perhaps 5% of us have ever actually dealt directly in crisis response.  We are a bunch of dilettantes and armchair quarterbacks. We are normal people.&lt;/p&gt;
+
+&lt;p&gt;I'm co-organizing one of the "&lt;a href="http://crisiscamp.org"&gt;Crisis Camps&lt;/a&gt;" here in Portland, and after a few days of work on project I think many things could go wrong with our approach. God forgive us. We will easily rebuild code that already exists, accidentally step on someone's toes, and flub a would-be partnership. It's even likely that our community will waste this rare opportunity to work with the real relief effort. Perhaps we just still won't get our act together, or we'll have an ineffective way of putting people to meaningful work. In fact, it is possible that things could go &lt;em&gt;very&lt;/em&gt; wrong, far beyond wasted coding effort on a Saturday -- Just imagine the insanity that a few poorly trained volunteers could unleash with a simple list of phone numbers.&lt;/p&gt;
+
+&lt;p&gt;It is a responsibility we do not fully understand. As civic actors, we are struggling to participate and innovate remotely, with data. Very strange, that this is possible now: We can act, even from our cubicles, or in pajamas, to improve Haiti. Even though we haven't figured out all the interaction design yet, it's possible now. And the Man is starting to listen to us.&lt;/p&gt;
+
+&lt;p&gt;So, I will post screenshots of all the innovations later but for now, just before going to this event, I'm worried that we might flub our responsibilities in a way that could destroy lives and wreck a movement. It would not take much, to break rules that we did not even know existed yet.&lt;/p&gt;
+
+&lt;p&gt;Those who work as civic editors and engineers -- the crazy beautiful hackers and hippies and good people who are working at crisis camps all over the world tomorrow -- please remember that you are in a much larger ecosystem of response efforts and you bear a great deal of responsibility to &lt;em&gt;them all.&lt;/em&gt; Please be diligent and critical in your many response efforts. And check the mindset you bring to the new conversation about the digital response for Haiti. We have an enormous amount to learn.&lt;/p&gt;
+</content>
+    <summary type="html">What could possibly go wrong?  Thousands of volunteer hackers break ground on dozens of projects at a bunch of hastily organized unconferences promising to 'Save Haiti?'</summary>
+  </entry>
+  <entry>
+    <id>tag:unthinkingly.com,2009-11-09:/posts/2009/11/slashtags/for/citizen/editors.html</id>
+    <title type="html">'Slashtags' for citizen editors</title>
+    <published>2009-11-09T17:06:29Z</published>
+    <updated>2011-08-08T04:59:03Z</updated>
+    <link rel="alternate" href="http://unthinkingly.com/posts/2009/11/slashtags/for/citizen/editors.html"/>
+    <content type="html">Updated Nov 16, 2009: @chrismessina created a wiki for the Twitter syntax &lt;a href="http://microsyntax.pbworks.com/Slashtags"&gt;http://microsyntax.pbworks.com/Slashtags&lt;/a&gt;
+
+The NYT reported today on how the &lt;a href="http://twitter.com/#search?q=%23fthood"&gt;#fthood hashtag&lt;/a&gt; has failed: 
+
+&lt;blockquote&gt;Until lately, the main way to make sense of an urgent outpouring of tweets on a particular subject was to use text searches: look for the phrase 'Fort Hood,' for example, or maybe an agreed-upon label, '#fthood,' within tweets. Yet during events like the shootings on Thursday at Fort Hood that left 13 people dead, this method is useless. Hundreds of �relevant� tweets pop up every minute, most repeating the same news reports over and over again or expressing concern from far away.&lt;span class="attribution"&gt;"Refining the Twitter Explosion" on &lt;a href="http://www.nytimes.com/2009/11/09/business/09link.html"&gt;nyt.com&lt;/a&gt;&lt;/blockquote&gt;
+
+I believe that there is an enormous potential to do citizen journalism better on the web, and that we need the leadership of people who are willing to help clean up the mess. Unlike &lt;a href="http://www.techcrunch.com/2009/11/07/nsfw-after-fort-hood-another-example-of-how-citizen-journalists-cant-handle-the-truth/"&gt;some people&lt;/a&gt;, I do not think that the poor citizen journalism around #fthood is an indictment of citizen journalism -- rather I would say it points to the &lt;strong&gt;absence of citizen editors&lt;/strong&gt;.
+
+In the &lt;a href="http://blog.twittervotereport.com/"&gt;Vote Report&lt;/a&gt; and &lt;a href="http://swiftapp.org"&gt;Swift&lt;/a&gt; parlance, these are "Sweepers," the custodians working to clean the stream, validate claims, and generally insert some professionalism.
+
+Taken to their logical next step, you can see the emergence of volunteer "citizen editors," who appreciate journalistic rigor and take time to bring  signal to the noise in dozens of different ways.
+
+Recently around Meedan we have been talking a lot about using &lt;a href="http://delicious.com"&gt;Delicious&lt;/a&gt; and &lt;a href="http://twitter.com"&gt;Twitter&lt;/a&gt; tagging to more effectively manage our content across our many networks, and to bring more meaningful conversations to our users.
+
+This is the power of tags: they are impossible to contain in a single network.
+
+By relying on Delicious and other social bookmarking systems, we've been able to build our &lt;strong&gt;editorial backchannel into numerous social platforms&lt;/strong&gt;. Rather than being stuck with the limitations of some CMS, and have to copy everything out to our social network, we can use the social network and &lt;strong&gt;then bring it in&lt;/strong&gt; to our own domains.
+
+That's always a smart approach for nonprofits, because it builds your conversation in a meaningful, and searchable way. Metadata value (real usable value!) accumulates like interest in your bank account. And citizen editors are the people who are trying to make this system provide even more of a return, because fundamentally we want more people to &lt;strong&gt;care, understand and take action&lt;/strong&gt;.
+
+&lt;h3&gt;Twitter Lists Taken Seriously&lt;/h3&gt;
+
+So we've been looking into some of the existing pseudo-standards like the #hashtag, and looking for ways for improving our journalistic rigor. George &lt;a href="http://blog.meedan.net/2009/11/04/10-questions-for-establishing-credibility-on-twitter/"&gt;recently posted&lt;/a&gt; about using the new Twitter lists features to curate groups of sources for &lt;a href="http://twitter.com/meedan/iran-feed"&gt;our Iran Twitter feed&lt;/a&gt;: 
+
+Rather than treating our Twitter list as a gizmo, with shoddy maintenance and dubious output, what if we put some rigor into it by beginning with Journalism 101? 
+
+George, our lead editor, knows this stuff all too well: 
+
+&lt;blockquote&gt;
+What is the reported location of the Twitter Stream?
+Is the Twitter Stream using Farsi or a local language?
+How long has the Twitter Stream account been up and running?
+&lt;/blockquote&gt;
+
+(And oh yes there are &lt;a href="http://blog.meedan.net"&gt;many more criteria&lt;/a&gt;.)
+
+I think these are the good, basic questions that may not be answered by some organizations -- and their lists are thus quantifiably worse, in the sense that they are less reliable, less meaningful, and probably noiser. So we can see that by following basic journalistic standards, your attention data becomes more valuable. Garbage in, garbage out, or, more positively, the system can be improved.
+
+For nonprofits, which typically do not have a &lt;strong&gt;microgram of energy to spare&lt;/strong&gt;, these kinds of tricks can be really helpful. 
+
+&lt;h3&gt;#hashtags and /slashtags&lt;/h3&gt;
+
+A great example of this type of "attention data enhancement" is the #hastag, which clarifies the context of a short statement on twitter with a globally recognizable tagging syntax. (I'll spare us the debate around hashtags, but suffice it to say, they can be done better.)
+
+Chris Messina, one of the biggest advocates of #hashtags and other microsyntax, has just &lt;a href="http://factoryjoe.com/blog/2009/11/08/new-microsytax-for-twitter-three-pointers-and-the-slasher/"&gt;described a few extra bits of attribution&lt;/a&gt; using the "slasher." (I think we could just call it a "slashtag.")
+
+&lt;blockquote&gt;'Pointers' are short words with different intentions. A group of pointers should typically be prefixed by ONE slasher character. You can daisy-chain multiple pointer phrases together, padded on both sides with one whitespace character. There should be NO space following the slasher. Hashtags should be appended to the very end of a tweet, except when they are part of the content of the message itself and indicate some proper name or abbreviation. Normal words that would be part of the content of a tweet anyway SHOULD NOT be hashed.&lt;span class="attribution"&gt;"&lt;a href="http://factoryjoe.com/blog/2009/11/08/new-microsytax-for-twitter-three-pointers-and-the-slasher/"&gt;New microsyntax for Twitter: three pointers and the slasher&lt;/a&gt;"&lt;/span&gt;
+&lt;/blockquote&gt;
+
+Particularly I think &lt;strong&gt;using /by&lt;/strong&gt; is a great idea to reference an article or direct quote. 
+
+Using /by gives a very specific meaning to the username that follows it. It's intuitive enought that I don't think it even needs to be explained, you can just read it: 
+
+&lt;a href="http://www.flickr.com/photos/unthinkingly/4088475379/" title="by by unthinkingly, on Flickr"&gt;&lt;img src="http://farm3.static.flickr.com/2455/4088475379_cf90c0b1e5_o.jpg" width="623" height="268" alt="by" /&gt;&lt;/a&gt;
+
+Not beautiful, but very clear. 
+
+This is useful for when you need to be more precise — say, if you wanted to use your attention data &lt;strong&gt;in another application&lt;/strong&gt;.
+
+For us at Meedan, this is the direction we are headed, fast. We are working on developing a clear and simple standard for using tags on the delicious network. This standard will be something that &lt;strong&gt;our editorial team&lt;/strong&gt; (and &lt;strong&gt;anyone who cares to participate&lt;/strong&gt;) can use to route information to our hand-curated database. You don't have to leave the comfort of your own twitter client, or use any fancy tools -- just the simple, clear standards that we are figuring out. 
+
+We are already making great use of social bookmarks at meedan as a editorial backchannel. For example, you can see all of Meedan's Iraq sources on delicious, from our lead editor: 
+
+&lt;a href="http://delicious.com/gweyman/iraq_newspaper"&gt;http://delicious.com/gweyman/iraq_newspaper&lt;/a&gt;
+
+And everything that the Meedan user unthinkingly (me) has tagged as being generically "for meedan" (using an informal tag "for_meedan").
+
+&lt;a href="http://delicious.com/unthinkingly/for_meedan"&gt;http://delicious.com/unthinkingly/for_meedan&lt;/a&gt;
+
+Because George also uses this tag, we can get a nice community of practice working together. This page shows the shared pool: 
+
+&lt;a href="http://delicious.com/tag/for_meedan"&gt;http://delicious.com/tag/for_meedan&lt;/a&gt;
+
+So, as you can see, we are using underscores, which is a common tagging convention because it looks like a space. We're not so happy with this: it's simply not expressive enough. 
+
+(Even though you can do a lot with a single little shared tag like &lt;a href="http://unthinkingly.com/2007/01/10/understanding-a-community-tag-the-history-of-nptech/"&gt;#nptech&lt;/a&gt;.)
+
+A more robust tagging system, which I believe would be very compelling if it were well designed, would extend some of this syntax. The question is: &lt;strong&gt;how to extend the syntax without making it overwhelming?&lt;/strong&gt; 
+
+&lt;h3&gt;Setting some goals&lt;/h3&gt;
+
+I think that any tag needs to follow a standard that meets several critiera: 
+
+1.) it should read naturally when spoken out loud (no dots, equals signs, or weird abbreviations)
+2.) it should be as cross-network as possible (for now the syntax should not break on Twitter or Delicious) [1]
+3.) it should rely an aliases instead of strict taxonomies (tag first, fix it later)
+
+So what I'm talking about is extending the tag that George used to curate Iraqi newspapers,
+&lt;strong&gt;
+iraq_newspaper
+&lt;/strong&gt;
+to something like this:
+
+&lt;strong&gt;/newspaper/iraq&lt;/strong&gt;
+
+which I think has several advantages.
+
+1. of the tag in ways that make the taxonomy immediately clearer. Iraq is nested "inside" a type of source.
+2. It works on Twitter
+3. It works on Delicious
+4. It is still very short (adds only one character over the underscore)
+
+On delicious, spaces are not allowed, so I have started using two slashes. So where previously I might have tagged the article with a kind of meaningless tag:
+
+&lt;strong&gt;chrismessina&lt;/strong&gt;
+
+but now I can tag it
+
+&lt;strong&gt;/by/chrismessina&lt;/strong&gt;
+
+Which is still a pretty meaningless tag, but is at least prefixed meaningfully to mean "this content is by this person" as per chris' helpful article above.
+
+Also I can improve the previous technique of using the for_meedan shorthand
+
+from 
+
+&lt;strong&gt;for_meedan&lt;/strong&gt;
+
+to 
+
+&lt;strong&gt;/for/meedan&lt;/strong&gt;
+
+Which has the benefit of being equally readable, while obeying a more general rule of syntax.
+
+&lt;h3&gt;Machine tags are not what we want, we are not machines&lt;/h3&gt;
+
+By far the most complete standard that is being used to solve these problems is the machine tag. This tag uses a colon and an equals sign to indicate a much more specific (though not necessarily accurate) structure. The history is from the geo community, mostly for this: 
+
+&lt;strong&gt;geo:long=45.353452&lt;/strong&gt;
+
+These namespaced key value pairs are admirably used as the output of some web apps, but are quite intimidating for human input.
+
+Common opinion seems to be that they are too "&lt;a href="http://code.flickr.com/blog/2009/09/28/thats-maybe-a-bit-too-dorky-even-for-us/"&gt;dorky&lt;/a&gt;" to be usable at this point, considering especially that any good taxonomy is constantly in slight flux. (Though Flickr has made great use of them to kick of &lt;a href="http://code.flickr.com/blog/2009/09/28/thats-maybe-a-bit-too-dorky-even-for-us/"&gt;custom actions in their UI&lt;/a&gt;).
+
+Similarly, what might be called a "double tag" is an interesting simplification down to a context-less key value pair: 
+
+&lt;strong&gt;color=red&lt;/strong&gt;
+
+In fact this is what comprises almost all of the tags in &lt;a href="http://www.openstreetmap.org/"&gt;OSM&lt;/a&gt;, one of the most ambitious tagging innovations on the web. (I &lt;a href="http://www.slideshare.net/unthinkingly"&gt;have said before&lt;/a&gt; that tagging is the secret sauce that makes a crazy project like OSM work.)
+
+&lt;h3&gt;Finding a balance&lt;/h3&gt;
+
+Replace the equals sign in that last example, and you have slashtags, which I think are much better at communicating that "color" is a parent of the "red" value: 
+
+&lt;strong&gt;color/red&lt;/strong&gt;
+
+In this way, this "slashtag" or "slasher" approach, extended a with tiny bit of folksonomic conventions, could really strike the right balance between editorial simplicity and powerful machine-readablity. 
+
+&lt;h3&gt;Finding better editorial tools for realtime crises&lt;/h3&gt;
+
+I think that a better-defined tagging approach could really help make sense of critical, breaking news. 
+
+A wiki about hurricane Ida, for example, is probably not the right way to manage news about a critical event:
+
+&lt;a href="http://www.flickr.com/photos/unthinkingly/4089097932/" title="ida by unthinkingly, on Flickr"&gt;
+  &lt;img src="http://farm3.static.flickr.com/2712/4089097932_350f83174c.jpg" width="353" height="500" alt="ida" /&gt;
+&lt;/a&gt;
+
+Mediawiki makes me groan just looking at it. I'd much rather help update that information by tagging links into delicious, and knowing that someone is listening on the other end. This would motivate me to learn the emergent standards, follow a loose taxonomy, and generally try to be more &lt;strong&gt;articulate&lt;/strong&gt;.
+
+If we could react in realtime to create a more sophisticated picture of the news by expressing ourselves more clearly in the tagging interaction, I think we could ultimately make great strides in improving citizen journalism (even if all the idiots keep on tweeting, which, naturally, they will.)
+
+This is why the usability of a citizen editor tagging scheme is so critical -- it needs to be flexible enough (to handle hurricanes) but maintain a low barrier to participation (to cultivate citizen editors). The tagging approach has already proven itself in many trivial domains, now we need to step it up using our journalistic standards, and our shared interest in &lt;strong&gt;making sense of the news, particularly crises&lt;/strong&gt;.
+
+We are early in this strange&lt;strong&gt; distributed crisis data management effort&lt;/strong&gt;, but I think that some of the ideas proposed by Chris Messina, and the experiments of the OSM community go a really long way in this regard. Particularly the nestabilty and readability seem like great virtues of this tagging system. Overall the "slash" is a widely understood metaphor, used by all major operating systems to indicate travresing "down" or "up" a taxonomy.
+
+I'm going to transition some of my tagging habits accordingly, and see where it ends up!
+
+I would love to know what you think. Stop by the contact page or @unthinkingly on Twitter and let me know what you think.
+
+###
+
+[1] notice how it &lt;a href="http://www.flickr.com/photos/unthinkingly/4088326441/"&gt;breaks on gnolia.com&lt;/a&gt; 
+and &lt;a href="http://www.flickr.com/photos/unthinkingly/4088331717/"&gt;breaks on flickr.com&lt;/a&gt; Although it appears that Flickr preserves the slashes in the background, just doesn't display them on output.
+
+[2] On Twitter there is s a bit of a variation required if we are to follow existing patterns: 1.) I can omit the space, so I will, and 2.) You need to prefix a user's name with the @ sign, like &lt;strong&gt;/for @meedan &lt;/strong&gt; -- I think this is still quite readable, but the difference between networks might need to be cleared up. We could in fact collapse the twitter tags to &lt;strong&gt;/for/meedan&lt;/strong&gt; (ie: identical to the delicious tag) but this would probably break some automation in twitter clients that are expecting the @ prefix.</content>
+    <summary type="html">I believe that there is an enormous potential to do citizen journalism better on the web, and that we need the leadership of people who are willing to help clean up the mess.</summary>
+  </entry>
+  <entry>
+    <id>tag:unthinkingly.com,2009-09-29:/posts/2009/9/bookmarks.html</id>
+    <title type="html">Bookmarks</title>
+    <published>2009-09-29T11:31:24Z</published>
+    <updated>2011-08-08T04:59:03Z</updated>
+    <link rel="alternate" href="http://unthinkingly.com/posts/2009/9/bookmarks.html"/>
+    <content type="html">&lt;p&gt;I have been keeping track of things that are interesting on Delicious for some time now.&lt;/p&gt;
+
+&lt;p&gt;Here're my top tags from September 2009 in case you are interested in checking out &lt;a href="http://delicious.com/unthinkingly"&gt;my Delicious feed&lt;/a&gt;.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;design 425&lt;/li&gt;
+&lt;li&gt;development 174&lt;/li&gt;
+&lt;li&gt;ux 172&lt;/li&gt;
+&lt;li&gt;programming 166&lt;/li&gt;
+&lt;li&gt;opensource 149&lt;/li&gt;
+&lt;li&gt;ui 148&lt;/li&gt;
+&lt;li&gt;for_meedan 118&lt;/li&gt;
+&lt;li&gt;usability 114&lt;/li&gt;
+&lt;li&gt;journalism 96&lt;/li&gt;
+&lt;li&gt;mobile 95&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;I am working on several projects that use tags in slightly different ways, involving other specialized "social bookmarking" applications. I will post a note here when those feeds are ready! My current development activies (as a frontend coder and interaction designer) will be released over the course of 2008 at &lt;a href="http://meedan.net"&gt;http://meedan.net&lt;/a&gt; and &lt;a href="http://swiftapp.org"&gt;http://swiftapp.org&lt;/a&gt;.&lt;/p&gt;
+</content>
+    <summary type="html">Here're my top tags from September 2009.</summary>
+  </entry>
+</feed>
