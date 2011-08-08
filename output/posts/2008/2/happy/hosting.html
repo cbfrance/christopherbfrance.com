@@ -1,0 +1,136 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>Happy Hosting</title>
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type' />
+    <meta content=', ops, rimuhosting' name='keywords' />
+    <meta content="Their VPS plans are a reasonable deal, but, as always, the support is what is always most important when choosing a host unless it's a super small static site, in which case the big guys like mediatemple, dreamhost, bluehost are fine. (Oh and check wordpress.com if you need a free site.)" name='description' />
+    <link href='/assets/css/reset.css' rel='stylesheet' type='text/css' />
+    <link href='/assets/css/style.css' media='screen' rel='stylesheet' type='text/css' />
+  </head>
+  <body>
+    <div id='main'>
+      <div id='header'>
+        <div class='logo'>
+          <a href='/'>&laquo; unthinkingly</a>
+        </div>
+        <div id='nav'>
+          <ul>
+            <li><a href='/about.html'>about</a></li>
+            <li><a href='/archives.html'>archives</a></li>
+            <li><a href='/tags.html'>tags</a></li>
+            <li>
+              <a href='/atom.xml'>rss</a>
+            </li>
+            <li>
+              <a href='/license.html'>license</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class='clear'></div>
+      <div class='article'>
+            <h1></h1>
+            Happy Hosting
+            <div class='meta'>
+              <ul class='tags'>
+                <li>Feb 21, 2008</li>
+                <!-- disqus embed stuff was here -->
+                <li>&middot;</li>
+                <li>
+                  <a class='tag' href='/tags/ops/'>
+                    ops
+                  </a>
+                </li>
+                <li>
+                  <a class='tag' href='/tags/rimuhosting/'>
+                    rimuhosting
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class='body'>
+              If you need a professional application server, particularly for rails, I'm recommending <a href="http://rimuhosting.com/">Rimuhost</a> these days. 
+              
+              Their VPS plans are a reasonable deal, but, as always, the support is what is always most important when choosing a host unless it's a super small static site, in which case the big guys like mediatemple, dreamhost, bluehost are fine. (Oh and check wordpress.com if you need a free site.)
+              
+              Just now I've been getting really clear, friendly, (and super fast) support from Brandon at Rimuhost, and he showed me a great trick for removing a password from a ssl cert: 
+              
+              <code>&#x000A;cd /usr/local/apache2/conf/ssl && mv sitename.com.key sitename.com.key.with_password&#x000A;openssl rsa -in sitename.com.key.with_password -out sitename.com.key</code>
+              
+              Previously one of their techs was chatting to me well into the evening about a SQL issue I was having, free of charge, <em>after he got off of work</em>, just cause he was cool. and I love their VPS control panel, which lets you reboot, power down, and upgrade your RAM/HDD on the fly.
+              
+              If you need a development and production box, they will clone your production VPS (for free), in under an hour. Fastest demo box I've ever set up!
+            </div>
+          </div>
+      <div id='other-articles'>
+            <div class='older'>
+              <ul>
+                <li>
+                  <h3>
+                    <a href='/posts/2008/2/kestrel/update.html' title="We'll be gathering feedback about the initial concept and looking at some first drafts of first drafts. Basically, we're gabbing on the phone for a bit and I'm taking some notes. ">
+                      &laquo; Kestrel update.
+                    </a>
+                  </h3>
+                </li>
+                <li>
+                  <h3>
+                    <a href='/posts/2008/2/in/praise/of/shitty/programmers.html' title="It's OK, most of us are pretty mediocre.">
+                      &laquo; In Praise of Shitty Programmers
+                    </a>
+                  </h3>
+                </li>
+                <li>
+                  <h3>
+                    <a href='/posts/2008/2/sunday/afternoon/telly.html' title='Three videos for your Sunday afternoon enjoyment. (The first two are for the hippies, the last one is for the geeks.)'>
+                      &laquo; Sunday Afternoon Telly
+                    </a>
+                  </h3>
+                </li>
+              </ul>
+            </div>
+            <div class='newer'>
+              <ul>
+                <li>
+                  <h3>
+                    <a href='/posts/2008/3/the/future/of/money.html' title="In this context, I don't care about iPhones, I don't care about web apps; I'm talking about paying your rent via SMS. I'm talking about currencies and payment methods that aren't defined by a government or even a bank! ">
+                      The Future of Money &raquo;
+                    </a>
+                  </h3>
+                </li>
+                <li>
+                  <h3>
+                    <a href='/posts/2008/4/education/is/the/only/permanent/social/change.html' title="I've felt for a long time that education is the most important vehicle for social change. I mean, really how else does anything actually get done? You've got to have some kick ass teachers along the way, or you're gonna be a vegetable.">
+                      Education is the only permanent social change &raquo;
+                    </a>
+                  </h3>
+                </li>
+                <li>
+                  <h3>
+                    <a href='/posts/2008/4/two/favorite/artists.html' title='he was at his best when he was wearing his bathrobe, hunched waaay to low, and doing incredible interpretations of Bach ... and doing this awful singing thing ...'>
+                      Two favorite artists &raquo;
+                    </a>
+                  </h3>
+                </li>
+              </ul>
+            </div>
+          </div>
+      <div class='clear'></div>
+      <div class='comments'>
+            <div id='disqus_thread'></div>
+            <script src='http://disqus.com/forums/unthinkingly-blog/embed.js' type='text/javascript'></script>
+            <noscript>
+              <a href='http://disqus.com/forums/unthinkingly-blog/?url=ref'>
+                View the discussion thread
+              </a>
+            </noscript>
+          </div>
+          <!-- / disqus adds too much visual crap -->
+          <style type='text/css'>
+            .dsq-dc-logo {
+              display: none !important; }
+          </style>
+      <div class='clear'></div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,177 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>Who's linking to our website? New tools.</title>
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type' />
+    <meta content=', analytics, ops, metrics, evaluation, quantitative' name='keywords' />
+    <meta content='It is a pretty basic trick to get an idea of people that are linking to your site.' name='description' />
+    <link href='/assets/css/reset.css' rel='stylesheet' type='text/css' />
+    <link href='/assets/css/style.css' media='screen' rel='stylesheet' type='text/css' />
+  </head>
+  <body>
+    <div id='main'>
+      <div id='header'>
+        <div class='logo'>
+          <a href='/'>&laquo; unthinkingly</a>
+        </div>
+        <div id='nav'>
+          <ul>
+            <li><a href='/about.html'>about</a></li>
+            <li><a href='/archives.html'>archives</a></li>
+            <li><a href='/tags.html'>tags</a></li>
+            <li>
+              <a href='/atom.xml'>rss</a>
+            </li>
+            <li>
+              <a href='/license.html'>license</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class='clear'></div>
+      <div class='article'>
+            <h1></h1>
+            Who's linking to our website? New tools.
+            <div class='meta'>
+              <ul class='tags'>
+                <li>Feb 06, 2007</li>
+                <!-- disqus embed stuff was here -->
+                <li>&middot;</li>
+                <li>
+                  <a class='tag' href='/tags/analytics/'>
+                    analytics
+                  </a>
+                </li>
+                <li>
+                  <a class='tag' href='/tags/evaluation/'>
+                    evaluation
+                  </a>
+                </li>
+                <li>
+                  <a class='tag' href='/tags/metrics/'>
+                    metrics
+                  </a>
+                </li>
+                <li>
+                  <a class='tag' href='/tags/ops/'>
+                    ops
+                  </a>
+                </li>
+                <li>
+                  <a class='tag' href='/tags/quantitative/'>
+                    quantitative
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class='body'>
+              <span class="update">
+              <strong>6/25/07 UPDATE: I am obligated to point out that this little script has graduated from interesting to useless &mdash; thanks to the new <a href="http://www.google.com/analytics/#utm_source=en-ha-na-synsearch_brand&utm_medium=ha&utm_campaign=en&utm_term=google%20analytics">Google Analytics</a>, which is hands down the best tool for understanding web traffic. And it's bloody free. You probably knew this already. But, just in case, <a href="http://www.wildapricot.com/blogs/newsblog/archive/2007/06/21/how-to-use-google-analytics-to-track-your-top-blog-posts.aspx">here's a great new tutorial</a>. That is all. 
+              </strong></span>
+              
+              It is a pretty basic trick to get an idea of people that are linking to your site. Just google:
+              <code>&#x000A;link:http://mysite.com</code>
+              
+              But that is an extremely rudimentary technique for several reasons.
+              <ul>
+              	<li>You will probably get a bunch of *internal* links, which are pretty useless.</li>
+              	<li>You will not get a sense of the total number of links from each referrer â€” they are not tallied or ranked.</li>
+              	<li>You only get referrers for the individual page you type in, not your entire site. Which means that you are getting largely underreported numbers. (even http://www.yoursite.com is different from http://yoursite.com)</li>
+              </ul>
+              <blockquote>You asked, and we listened: We've extended our support for querying links to your site to much beyond the link: operator you might have used in the past. Now you can use webmaster tools to view a much larger sample of links to pages on your site that we found on the web. Unlike the link: operator, this data is much more comprehensive and can be classified, filtered, and downloaded. All you need to do is verify site ownership to see this information.<span class="attribution"> Peeyush, <a href="http://googlewebmastercentral.blogspot.com/">Google Webmaster Central Blog</a> </span></blockquote>
+              So yesterday I was super happy to discover via the trusty <a href="http://googlewebmastercentral.blogspot.com/">Google Webmaster Central Blog</a> that there is a new "links view" in the Webmaster Toolkit.
+              
+              The Webmaster Toolkit is a service from Google that you really should be using. It takes just a few minutes to get started and then you get lots of data, including the new link data. If you haven't already (and, uh, you run a website), <a href="https://www.google.com/webmasters/tools/siteoverview">check it out</a> and you will be happy to pick up a bunch of free statistics about your site. Notably, you can also create an XML sitemap (not a graphical HTML sitemap, though!) of your site to make sure google is indexing the whole thing. And you can test your robots.txt file (important for keeping those pictures of the last drunken staff party out of images.google.com).
+              
+              I did have a couple of problems with the data, though -- there still is no way to get a good ranking of your referrers, or a ranking of your most popular pages. Luckily, you can download the entire file and do whatever you want with it. (hooray for openness!)
+              
+              Since we have a bunch of clients I wanted to send this new data, I took the time to write a simple perl script. And I figured a few other people could use it.
+              
+              It's here:
+              
+              [syntax,unique_addresses.pl.txt,perl]
+              <h3>Instructions for unique_addresses.pl</h3>
+              <strong>Prerequisites: Using this script requires that you know how to execute file from the command line (and that you have perl installed). This will only work for Mac/Linux folks (requires perl and the *nix commands for sorting). ... If you are a progressive blogger or organization and can't get this to work, email me your stats and I will process them for you.</strong>
+              <ol>
+              	<li>Download your entire external links file from the webmaster toolkit.</li>
+              	<li>Use Excel or something to pull out that column of external links, and save this as something like "referrers.txt"</li>
+              	<li>Repeat the above for your "pages" column, but name it something like "pages.txt"</li>
+              	<li>Download script.</li>
+              	<li>Make it excutable in the same directory as your "pages.txt" and "referrers.txt" files</li>
+              	<li>Run "./unique_addresses.pl" and it will prompt you through the rest.</li>
+              </ol>
+              
+              <strong> Again, if you are working for a good cause but run into trouble, just email chris at blast dot com or leave a comment.</strong>
+            </div>
+          </div>
+      <div id='other-articles'>
+            <div class='older'>
+              <ul>
+                <li>
+                  <h3>
+                    <a href='/posts/2007/2/thinking/about/the/search/for/jim/gray.html' title=''>
+                      &laquo; Thinking About The Search for Jim Gray
+                    </a>
+                  </h3>
+                </li>
+                <li>
+                  <h3>
+                    <a href='/posts/2007/1/the/last/mile/wikipedia/launches.html' title='a 400,000+ article no-images version of the wikipedia '>
+                      &laquo; The last mile wikipedia launches
+                    </a>
+                  </h3>
+                </li>
+                <li>
+                  <h3>
+                    <a href='/posts/2007/1/experimenting/with/ibms/many/eyes.html' title='I experimented with the nptech data last weekend'>
+                      &laquo; Experimenting with IBM's "Many Eyes"
+                    </a>
+                  </h3>
+                </li>
+              </ul>
+            </div>
+            <div class='newer'>
+              <ul>
+                <li>
+                  <h3>
+                    <a href='/posts/2007/5/online/banking/overdue/leapfrogging/technology.html' title="Seems like Paypal is one of those 'leapfrogging' technologies that could help entire regions skip the process of developing a banking infrastructure, which apparently takes about 200 years of war (judging from how the West has done it).">
+                      Online banking = overdue leapfrogging technology &raquo;
+                    </a>
+                  </h3>
+                </li>
+                <li>
+                  <h3>
+                    <a href='/posts/2007/5/wanted/an/open/source/user/centered/touchscreen/platform.html' title="Fundamentally I think that &lt;em&gt;touch&lt;/em&gt; is intimate and intuitive, and clearly touchable interfaces have incredible potential, especially for the folks that haven't been brow-beaten into adapting to 20th-century conventions of computer interfaces like the QWERTY keyboard.">
+                      Wanted: An open-source, user-centered touchscreen platform &raquo;
+                    </a>
+                  </h3>
+                </li>
+                <li>
+                  <h3>
+                    <a href='/posts/2007/6/genocide/vs/gadgets.html' title="I've never seen gadget hype reach the levels that have been achieved by the iPhone.">
+                      Genocide vs. Gadgets &raquo;
+                    </a>
+                  </h3>
+                </li>
+              </ul>
+            </div>
+          </div>
+      <div class='clear'></div>
+      <div class='comments'>
+            <div id='disqus_thread'></div>
+            <script src='http://disqus.com/forums/unthinkingly-blog/embed.js' type='text/javascript'></script>
+            <noscript>
+              <a href='http://disqus.com/forums/unthinkingly-blog/?url=ref'>
+                View the discussion thread
+              </a>
+            </noscript>
+          </div>
+          <!-- / disqus adds too much visual crap -->
+          <style type='text/css'>
+            .dsq-dc-logo {
+              display: none !important; }
+          </style>
+      <div class='clear'></div>
+    </div>
+  </body>
+</html>

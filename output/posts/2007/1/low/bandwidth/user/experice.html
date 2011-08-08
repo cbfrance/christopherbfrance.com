@@ -1,0 +1,162 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>Low-Bandwidth user experience</title>
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type' />
+    <meta content=', loband, webdev, caching, code, rural, optimization' name='keywords' />
+    <meta content='I am thinking about how web developers can become more invested in the ultra-low-bandwidth user experience.' name='description' />
+    <link href='/assets/css/reset.css' rel='stylesheet' type='text/css' />
+    <link href='/assets/css/style.css' media='screen' rel='stylesheet' type='text/css' />
+  </head>
+  <body>
+    <div id='main'>
+      <div id='header'>
+        <div class='logo'>
+          <a href='/'>&laquo; unthinkingly</a>
+        </div>
+        <div id='nav'>
+          <ul>
+            <li><a href='/about.html'>about</a></li>
+            <li><a href='/archives.html'>archives</a></li>
+            <li><a href='/tags.html'>tags</a></li>
+            <li>
+              <a href='/atom.xml'>rss</a>
+            </li>
+            <li>
+              <a href='/license.html'>license</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class='clear'></div>
+      <div class='article'>
+            <h1></h1>
+            Low-Bandwidth user experience
+            <div class='meta'>
+              <ul class='tags'>
+                <li>Jan 05, 2007</li>
+                <!-- disqus embed stuff was here -->
+                <li>&middot;</li>
+                <li>
+                  <a class='tag' href='/tags/caching/'>
+                    caching
+                  </a>
+                </li>
+                <li>
+                  <a class='tag' href='/tags/code/'>
+                    code
+                  </a>
+                </li>
+                <li>
+                  <a class='tag' href='/tags/loband/'>
+                    loband
+                  </a>
+                </li>
+                <li>
+                  <a class='tag' href='/tags/optimization/'>
+                    optimization
+                  </a>
+                </li>
+                <li>
+                  <a class='tag' href='/tags/rural/'>
+                    rural
+                  </a>
+                </li>
+                <li>
+                  <a class='tag' href='/tags/webdev/'>
+                    webdev
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class='body'>
+              I make websites, and I manage a few web servers. Making sure that pages load quickly is a pretty fundamental part of my job. 
+              
+              Lately I have been thinking a lot about how much more important this concern is for people who are in low-bandwidth  environments (my house in rural NC), and especially in what you might call "ultra-low bandwith" places, where issues like cost or a lack of reliable power compound the issue by an order of magnitudes.
+              
+              I am thinking about how web developers can become more invested in the ultra-low-bandwidth user experience.  
+              
+              When it comes to bandwidth, international bloggers are <a href="http://www.globalvoicesonline.org/found/?cof=FORID%3A9&q=bandwidth&btnG=Search+%C2%BB&cx=000932313665553177304%3Adg67ra11mvs#1035">talking about something totally different</a> compared the "optimization" issues that web developers are fussing over. 
+              
+              For example, the <a href="http://www.ysearchblog.com/">Yahoo User Experience blog</a> has just posted a really interesting analysis of page load time optimization techniques. But it occurs to me that the audience that they are writing for is largely the elite of the internet -- they are trying to save a few tenths of a second. They are tuning a product, not really thinking about ultra-low-bandwidth situations. Which is fine, that's why they exist I guess. 
+              
+              I mean, It's web development 101 that you need to make you pages small. Load time is the number one element in usability. Even with that fancy DSL line, you appreciate pages that function in 1/10ths of a second instead of 2 or 3 seconds.  I'll take it. And I am glad that they Yahoo folks are doing this great research. 
+              
+              For example, the <a href="http://yuiblog.com/blog/2006/11/28/performance-research-part-1/">a November post</a> made me think about my techniques a bit differently -- they pointed out that having a low-weight page is nice, but the speed experience is much more greatly affected by the <strong>number</strong> of elements on the page. An understanding of <a href="http://rescomp.stanford.edu/~cheshire/rants/Latency.html">latency vs. bandwith</a> makes this point even clearer, once you consider it.
+              
+              Today they published an even more interesting look at the browser, focusing on the fact that browser caching appears to only be utilized in about 20% of browsers! As a developer there is no way to force a user's browser to cache data, which could easily reduce page load times by about 3x, depending on the content being served, mostly because of the point above: you save the most time by reducing the number of http requests altogether.
+              
+              For me this immediately made me think that this is a technique that should be built into any browser that gets used in a low-bandwidth environment ... but I bet that there are innumerable browsers installed in that do not take advantage of this feature, even where connections are extremely slow. Hopefully the browsers that ship with the $100 laptop (and its kind) with be caching as much as possible. ...
+            </div>
+          </div>
+      <div id='other-articles'>
+            <div class='older'>
+              <ul>
+                <li>
+                  <h3>
+                    <a href='/posts/2006/12/an/open/source/strike.html' title='Many Debian developers denounced the Dunc-Tank proposal.'>
+                      &laquo; An Open Source Strike?
+                    </a>
+                  </h3>
+                </li>
+                <li>
+                  <h3>
+                    <a href='/posts/2006/12/the/darfur/wall.html' title='a beautifully executed charity project that fills a very simple, traditional purpose'>
+                      &laquo; The Darfur Wall
+                    </a>
+                  </h3>
+                </li>
+                <li>
+                  <h3>
+                    <a href='/posts/2006/12/the/tools/we/use.html' title='appreciation to my favorite independent software artists'>
+                      &laquo; The tools we use
+                    </a>
+                  </h3>
+                </li>
+              </ul>
+            </div>
+            <div class='newer'>
+              <ul>
+                <li>
+                  <h3>
+                    <a href='/posts/2007/1/tux/is/dead/ish.html' title='Alas, just before their 21st issue, they have just announced that they are closing down. '>
+                      Tux is dead-ish &raquo;
+                    </a>
+                  </h3>
+                </li>
+                <li>
+                  <h3>
+                    <a href='/posts/2007/1/the/linux/desktop/in/2007.html' title=''>
+                      The Linux Desktop in 2007 &raquo;
+                    </a>
+                  </h3>
+                </li>
+                <li>
+                  <h3>
+                    <a href='/posts/2007/1/great/blog.html' title='This is such a fantastic blog that I had to point it out.  His description of our role (as consumers) in a technological world (online) is just refreshing.'>
+                      Great Blog &raquo;
+                    </a>
+                  </h3>
+                </li>
+              </ul>
+            </div>
+          </div>
+      <div class='clear'></div>
+      <div class='comments'>
+            <div id='disqus_thread'></div>
+            <script src='http://disqus.com/forums/unthinkingly-blog/embed.js' type='text/javascript'></script>
+            <noscript>
+              <a href='http://disqus.com/forums/unthinkingly-blog/?url=ref'>
+                View the discussion thread
+              </a>
+            </noscript>
+          </div>
+          <!-- / disqus adds too much visual crap -->
+          <style type='text/css'>
+            .dsq-dc-logo {
+              display: none !important; }
+          </style>
+      <div class='clear'></div>
+    </div>
+  </body>
+</html>

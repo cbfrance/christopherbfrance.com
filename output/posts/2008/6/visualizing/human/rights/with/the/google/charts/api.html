@@ -1,0 +1,152 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>Visualizing Human Rights with the Google Charts API</title>
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type' />
+    <meta content=', dataviz, programming, code' name='keywords' />
+    <meta content='There are plenty of libraries for managing the requests to the API, and, in some simple cases you can even code it by hand, since all of the code is simply passed through a query tag on an image url.' name='description' />
+    <link href='/assets/css/reset.css' rel='stylesheet' type='text/css' />
+    <link href='/assets/css/style.css' media='screen' rel='stylesheet' type='text/css' />
+  </head>
+  <body>
+    <div id='main'>
+      <div id='header'>
+        <div class='logo'>
+          <a href='/'>&laquo; unthinkingly</a>
+        </div>
+        <div id='nav'>
+          <ul>
+            <li><a href='/about.html'>about</a></li>
+            <li><a href='/archives.html'>archives</a></li>
+            <li><a href='/tags.html'>tags</a></li>
+            <li>
+              <a href='/atom.xml'>rss</a>
+            </li>
+            <li>
+              <a href='/license.html'>license</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class='clear'></div>
+      <div class='article'>
+            <h1></h1>
+            Visualizing Human Rights with the Google Charts API
+            <div class='meta'>
+              <ul class='tags'>
+                <li>Jun 20, 2008</li>
+                <!-- disqus embed stuff was here -->
+                <li>&middot;</li>
+                <li>
+                  <a class='tag' href='/tags/code/'>
+                    code
+                  </a>
+                </li>
+                <li>
+                  <a class='tag' href='/tags/dataviz/'>
+                    dataviz
+                  </a>
+                </li>
+                <li>
+                  <a class='tag' href='/tags/programming/'>
+                    programming
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class='body'>
+              Smartly presented information is a nonprofit's best friend. If you can't communicate the problem, no one is going to give a damn. <a href="http://whiteafrican.com/?p=1081">Hash's blog</a> just pointed me to some powerful charts Sokwanele mapping project , which I've mentioned <a href="http://unthinkingly.com/2008/04/11/zimbabwe-election-watch-map/">previously</a>. These charts are extremely important data to have in the public domain, and it's great that they 
+              appear well-executed and polished, with a high resolution of visual information. 
+              
+              <img src="/wp-content/uploads/charts.gif" title="google charts" alt="pretty charts, not so pretty data."/><h3 class="caption">Google Charts from Sokwanele and Mobile Researcher</h3>
+              
+              The charts at <a href="http://www.populi.net/mobileresearcher/">Mobile Researcher</a> also caught my eye recently (also pictured, at right and bottom). Turns out they were both made with Google Charts. I hadn't used it before, but I recognized their densely set labels and had some vague ideas that there was a Ruby wrapper. And I just thought that the Mobile Researcher charts were really beautiful. Turns out it's super easy. There are plenty of libraries for managing the requests to the API, and, in some simple cases you can even code it by hand, since all of the code is simply passed through a query tag on an image url. <blockquote class="small">What it does do is proved fodder for organizations inside and out to make an even stronger case against this repressive regime.
+              <span class="attribution">- Erik Hersman @ <a href="http://whiteafrican.com">whiteafrican.com</a></span></blockquote>But in most of the cases the data is hashed somehow with javascript, since urls can only be so long. Since I was working in a Rails  app, I used <a href="http://googlecharts.rubyforge.org/">a great ruby library</a> and was up and running very quickly. I wholeheartedly recommend them anytime you need simple, sharp graphics to illustrate your research. If you have a web app or with dynamic charts, it's a no-brainer, since generating images is relatively intensive memory-wise.
+              
+              All this is to say that something like this: 
+              
+               <code>< img src="http://chart.apis.google.com/chart?chd=t:6,2,6,4,2,4,7,3,4,2,3,4&#x000A;&chco=0077CC&chs=120x40&cht=ls" /></code>
+              
+              Turns into this: 
+              
+              <img src="/wp-content/uploads/spark.png" alt="sparkline" class="fullwidth"/>
+              
+              <br />
+              Or you can abstract the access to make it easier with a library like <a href="http://googlecharts.rubyforge.org/">this</a> with a method like this:
+              
+              <code>&#x000A;#usage&#x000A;google_pie('val1', 'val2', 'val3')&#x000A;#method&#x000A;def google_pie(*args)&#x000A;size = "250x100"&#x000A;url  = "http://chart.apis.google.com/chart?"&#x000A;return < img src=\"#{Gchart.pie_3d( :background => 'E9E7DD', :size => '300x80', :data => *args)} \" />&#x000A;end</code> 
+              
+              But the API of course is language neutral, and I am sure it would be just as easy in most any language. Oh, and it's free! (Though capped at <a href="http://code.google.com/apis/chart/">10k charts per day</a> ... which would be a good problem to have, I suppose.)
+            </div>
+          </div>
+      <div id='other-articles'>
+            <div class='older'>
+              <ul>
+                <li>
+                  <h3>
+                    <a href='/posts/2008/6/the/unevenly/distributed/future/visualized.html' title='This is really valuable data for thinking about how to influence the adoption of technology'>
+                      &laquo; The Unevenly Distributed Future (of Mobile Application Design), Visualized
+                    </a>
+                  </h3>
+                </li>
+                <li>
+                  <h3>
+                    <a href='/posts/2008/5/books/of/the/month/for/interface/geeks.html' title="It's been a good book month for interface geeks and IXD/UX people. ">
+                      &laquo; Book of the Month Club for Interface & Design Geeks
+                    </a>
+                  </h3>
+                </li>
+                <li>
+                  <h3>
+                    <a href='/posts/2008/5/the/future/is/all/android/all/open/source/and/underpants/and/ice/cream.html' title='Android, (not the just-barely-open iPhone) is the future of mobile development for the masses.'>
+                      &laquo; The Future is All Android, All Open Source. And Underpants. And Ice Cream.
+                    </a>
+                  </h3>
+                </li>
+              </ul>
+            </div>
+            <div class='newer'>
+              <ul>
+                <li>
+                  <h3>
+                    <a href='/posts/2008/6/thursday/morning/tv.html' title='Actually this is better than Thursday morning TV, which, in my hometown at least, was pretty weak. This stuff is amazing.'>
+                      Thursday Morning TV &raquo;
+                    </a>
+                  </h3>
+                </li>
+                <li>
+                  <h3>
+                    <a href='/posts/2008/8/mozilla/the/ap/aurora/concepts/and/open/source/ux/design.html' title="The real importance of the videos is not specific to any of the UI details; it's about what's happening at Mozilla, and the new inclusive approach they are taking to visual and experience design. ">
+                      Mozilla, The AP Aurora Concepts, and Open Source UX Design &raquo;
+                    </a>
+                  </h3>
+                </li>
+                <li>
+                  <h3>
+                    <a href='/posts/2008/8/build/your/own/search/experience/yahoo/boss/is/pretty/amazing.html' title='Turns out that, once you get beat badly by Google, you start to get really open. Nice. '>
+                      Build Your Own Search Experience: Yahoo BOSS is pretty amazing &raquo;
+                    </a>
+                  </h3>
+                </li>
+              </ul>
+            </div>
+          </div>
+      <div class='clear'></div>
+      <div class='comments'>
+            <div id='disqus_thread'></div>
+            <script src='http://disqus.com/forums/unthinkingly-blog/embed.js' type='text/javascript'></script>
+            <noscript>
+              <a href='http://disqus.com/forums/unthinkingly-blog/?url=ref'>
+                View the discussion thread
+              </a>
+            </noscript>
+          </div>
+          <!-- / disqus adds too much visual crap -->
+          <style type='text/css'>
+            .dsq-dc-logo {
+              display: none !important; }
+          </style>
+      <div class='clear'></div>
+    </div>
+  </body>
+</html>
