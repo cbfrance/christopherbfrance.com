@@ -2,7 +2,7 @@
 kind: article
 created_at: 2009-09-29 04:31:24
 title: Bookmarks
-excerpt: "Here's my top tags from September 2009."
+excerpt: "Here're my top tags from September 2009."
 tags: [tagging, meta, delicious]
 modified_on: 2009-09-29 04:39:49
 status: publish
@@ -10,7 +10,7 @@ status: publish
 
 I have been keeping track of things that are interesting on Delicious for some time now. 
 
-Here's my top tags from September 2009 in case you are interested in checking out <a href="http://delicious.com/unthinkingly">my Delicious feed</a>.
+Here're my top tags from September 2009 in case you are interested in checking out <a href="http://delicious.com/unthinkingly">my Delicious feed</a>.
 
 * design 425
 * development 174

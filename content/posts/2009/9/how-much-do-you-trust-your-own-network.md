@@ -14,7 +14,7 @@ When I left I was incredibly relieved. I could stop listening and start kicking 
 
 So, I took a break, moved away from the ever-intense San Francisco bubble, worked in Cambodia, wrote a bunch of code ... and now, hey look! I'm back on Twitter. But, just to confuse you, I've setup not one but <strong>two Twitter accounts</strong>: the old <a href="http://twitter.com/unthinkingly">@unthinkingly</a> is back for professional stuff, and now <a href="http://twitter.com/cgblow">@cgblow</a> for more private personal observations.
 
-Turns out, it's such a simple and healthy solution; I don't know why more people don't do it. It's not a complicated hack or anything, you just have to use a separate email account. (A tool like <a href="http://www.seesmic.com/" title="Seesmic · Build Your Community">Seesmic Desktop</a> lets you stay signed into both at the same time.)
+Turns out, it's such a simple and healthy solution; I don't know why more people don't do it. It's not a complicated hack or anything, you just have to use a separate email account. (A tool like <a href="http://www.seesmic.com/" title="Seesmic: Build Your Community">Seesmic Desktop</a> lets you stay signed into both at the same time.)
 
 Now, please don't misundersand me: I strongly believe in living a principled, genuine life. Naive as it sounds, I try to never ever say anything that I would not say to someone's face. Life is too hard that way. I'm an incompetent liar. I don't maintain multiple personalities -- I have a single, genuine and faceted personality. Just like most people I know.
 
