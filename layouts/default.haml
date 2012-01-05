@@ -49,10 +49,6 @@
             != link_unless_current "about"
             != link_unless_current "archives"
             != link_unless_current "tags"
-            %li
-              %a(href='/atom.xml') rss
-            %li
-              %a(href='/license.html') license
       .clear
 
       - if @item[:kind] == 'article'

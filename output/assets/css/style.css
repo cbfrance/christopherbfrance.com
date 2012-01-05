@@ -1,7 +1,3 @@
-/* Welcome to Compass.
- * In this file you should write your main styles. (or centralize your imports)
- * Import this file using the following HTML or equivalent:
- * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 /* these to be removed. */
 /* line 4, ../../../compass/src/from_wp.scss */
 ul.bulleted li {
@@ -469,7 +465,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /* line 2, ../../../compass/src/friendfeed.scss */
 div.friendfeed {
   border: none!important;
-  background: #cccccc !important;
+  background: white!important;
   font-size: 12px;
 }
 /* line 6, ../../../compass/src/friendfeed.scss */
@@ -477,12 +473,12 @@ div.friendfeed div.feed {
   border: none;
   background: yellow!important;
 }
-/* line 9, ../../../compass/src/friendfeed.scss */
+/* line 10, ../../../compass/src/friendfeed.scss */
 div.friendfeed div.feed div.cluster {
-  border-bottom: 1px solid #c3c3c3;
+  /*The clusters wrap both images and links in the delicious section*/
   padding: 5px;
   position: relative;
-  padding: 10px;
+  padding: 0px!important;
   background: white;
   float: left;
   margin: 5px;
@@ -512,11 +508,16 @@ div.friendfeed div.feed div.cluster div.body div.entry div.title {
 }
 /* line 32, ../../../compass/src/friendfeed.scss */
 div.friendfeed div.feed div.cluster div.body div.entry div.title a {
-  color: #333;
+  color: #c3c3c3;
   text-decoration: none;
   overflow: hidden;
 }
-/* line 41, ../../../compass/src/friendfeed.scss */
+/* line 39, ../../../compass/src/friendfeed.scss */
+div.friendfeed div.feed div.cluster div.body div.entry div.media .more {
+  display: none!important;
+  /*hide the garish more button*/
+}
+/* line 43, ../../../compass/src/friendfeed.scss */
 div.friendfeed div.feed div.cluster div.body div.entry div.info {
   width: 270px;
   position: absolute;
@@ -528,17 +529,17 @@ div.friendfeed div.feed div.cluster div.body div.entry div.info {
   display: none;
   /* hide the row */
 }
-/* line 51, ../../../compass/src/friendfeed.scss */
+/* line 53, ../../../compass/src/friendfeed.scss */
 div.friendfeed div.feed div.cluster div.body div.entry div.info a {
   display: none;
   /* hide the comment button */
 }
-/* line 54, ../../../compass/src/friendfeed.scss */
+/* line 56, ../../../compass/src/friendfeed.scss */
 div.friendfeed div.feed div.cluster div.body div.entry div.info img.icon {
   display: none!important;
   /*hide the icon*/
 }
-/* line 57, ../../../compass/src/friendfeed.scss */
+/* line 59, ../../../compass/src/friendfeed.scss */
 div.friendfeed div.feed div.cluster div.body div.entry div.info span.published {
   display: block;
   color: #333;
@@ -673,144 +674,148 @@ h1 {
   margin-bottom: 1em;
 }
 
-/* line 69, ../../../compass/src/typography.scss */
-h2 {
-  float: left;
-  clear: both;
-}
-
-/* line 74, ../../../compass/src/typography.scss */
+/* line 72, ../../../compass/src/typography.scss */
 h2, h3 {
   color: black;
   margin: 1.5em 0 1em;
 }
 
-/* line 79, ../../../compass/src/typography.scss */
+/* line 77, ../../../compass/src/typography.scss */
 h2 {
   font-size: 1.3em;
 }
 
-/* line 83, ../../../compass/src/typography.scss */
+/* line 81, ../../../compass/src/typography.scss */
 h3 {
   font-size: 1.1em;
 }
 
-/* line 16, ../../../compass/src/style.scss */
+/* line 11, ../../../compass/src/style.scss */
 * {
   color: #404040;
 }
 
-/* line 20, ../../../compass/src/style.scss */
+/* line 15, ../../../compass/src/style.scss */
 body {
   font-size: 16px;
   min-width: 800px;
-  background: #c3c3c3;
+  background: #f3f3f3;
 }
 
-/* line 26, ../../../compass/src/style.scss */
+/* line 21, ../../../compass/src/style.scss */
 div#main {
   width: 90%;
   margin: 0 auto;
 }
-/* line 29, ../../../compass/src/style.scss */
+/* line 24, ../../../compass/src/style.scss */
 div#main div.article {
   padding: 30px;
 }
 
-/* line 34, ../../../compass/src/style.scss */
+/* line 29, ../../../compass/src/style.scss */
 #header {
   margin-bottom: 2em;
   overflow: auto;
 }
 
-/* line 38, ../../../compass/src/style.scss */
+/* line 33, ../../../compass/src/style.scss */
 .logo {
   float: left;
   font-size: 30px;
-  padding: 0 0.3em;
+  padding: 10px 0.3em;
 }
-/* line 42, ../../../compass/src/style.scss */
+/* line 37, ../../../compass/src/style.scss */
 .logo a {
   color: white;
   border: none;
   text-decoration: none;
 }
-/* line 47, ../../../compass/src/style.scss */
+/* line 42, ../../../compass/src/style.scss */
 .logo a:link, .logo a:visited {
   color: black !important;
 }
-/* line 50, ../../../compass/src/style.scss */
+/* line 45, ../../../compass/src/style.scss */
 .logo a:hover {
   color: black !important;
   border-bottom: solid 1px white;
   text-decoration: none;
 }
 
-/* line 56, ../../../compass/src/style.scss */
+/* line 51, ../../../compass/src/style.scss */
 #nav {
   float: right;
   margin-top: 10px;
   text-align: right;
+  display: none;
+  /*hide the useless nav*/
 }
 
-/* line 62, ../../../compass/src/style.scss */
+/* line 58, ../../../compass/src/style.scss */
 #header #nav ul li {
   display: inline;
 }
 
-/* line 66, ../../../compass/src/style.scss */
+/* line 62, ../../../compass/src/style.scss */
 #header .byline {
   color: #606060;
 }
 
-/* line 70, ../../../compass/src/style.scss */
+/* line 66, ../../../compass/src/style.scss */
 #other-articles {
   margin-top: 4em;
 }
-/* line 72, ../../../compass/src/style.scss */
+/* line 68, ../../../compass/src/style.scss */
 #other-articles ul {
   padding: 0;
   list-style-type: none;
 }
-/* line 76, ../../../compass/src/style.scss */
+/* line 72, ../../../compass/src/style.scss */
 #other-articles h3 {
   margin: 0 0 0.5em;
 }
-/* line 79, ../../../compass/src/style.scss */
+/* line 75, ../../../compass/src/style.scss */
 #other-articles .newer {
   text-align: right;
   float: right;
 }
-/* line 83, ../../../compass/src/style.scss */
+/* line 79, ../../../compass/src/style.scss */
 #other-articles .older {
   float: left;
 }
 
-/* line 88, ../../../compass/src/style.scss */
+/* line 84, ../../../compass/src/style.scss */
 #taglist {
   font-size: 0.8em;
   margin-top: 3em;
   text-align: right;
 }
+/* line 88, ../../../compass/src/style.scss */
+#taglist a.tag {
+  text-decoration: none;
+}
+/* line 90, ../../../compass/src/style.scss */
+#taglist a.tag:hover {
+  background: #c3c3c3;
+}
 
-/* line 93, ../../../compass/src/style.scss */
+/* line 96, ../../../compass/src/style.scss */
 #sticky {
   border: 3px double #eeeeee;
   margin-bottom: 3.2em;
 }
 
-/* line 96, ../../../compass/src/style.scss */
+/* line 99, ../../../compass/src/style.scss */
 #sticky .body {
   margin: auto;
   text-align: center;
 }
-/* line 99, ../../../compass/src/style.scss */
+/* line 102, ../../../compass/src/style.scss */
 #sticky .body p {
   margin: 0;
   line-height: 4em;
 }
 
-/* line 107, ../../../compass/src/style.scss */
+/* line 110, ../../../compass/src/style.scss */
 .archives .excerpt {
   width: 600px;
   float: left;
@@ -818,23 +823,23 @@ div#main div.article {
   height: auto;
 }
 
-/* line 114, ../../../compass/src/style.scss */
+/* line 117, ../../../compass/src/style.scss */
 .archives ul, .tag-page ul {
   list-style-type: none;
   padding-left: 0px;
 }
 
-/* line 119, ../../../compass/src/style.scss */
+/* line 122, ../../../compass/src/style.scss */
 table.colophon td:first-of-type {
   width: 175px;
 }
 
-/* line 123, ../../../compass/src/style.scss */
+/* line 126, ../../../compass/src/style.scss */
 .clear {
   clear: both;
 }
 
-/* line 127, ../../../compass/src/style.scss */
+/* line 130, ../../../compass/src/style.scss */
 .excerpt {
   background: #fff;
   margin: 10px;
@@ -843,65 +848,65 @@ table.colophon td:first-of-type {
   float: left;
   height: 300px;
   overflow: hidden;
-  -moz-box-shadow: #888888;
-  -webkit-box-shadow: #888888;
-  -o-box-shadow: #888888;
-  box-shadow: #888888;
+  -moz-box-shadow: #333333;
+  -webkit-box-shadow: #333333;
+  -o-box-shadow: #333333;
+  box-shadow: #333333;
 }
-/* line 136, ../../../compass/src/style.scss */
+/* line 139, ../../../compass/src/style.scss */
 .excerpt h2 {
   margin-bottom: 0.5em;
   width: 100%;
 }
-/* line 141, ../../../compass/src/style.scss */
+/* line 144, ../../../compass/src/style.scss */
 .excerpt p {
   margin-bottom: 0.5em;
 }
 
-/* line 147, ../../../compass/src/style.scss */
+/* line 150, ../../../compass/src/style.scss */
 .meta {
   font-size: 13px;
 }
-/* line 149, ../../../compass/src/style.scss */
+/* line 152, ../../../compass/src/style.scss */
 .meta ul {
   margin: 0px;
   padding-left: 0;
 }
 
-/* line 155, ../../../compass/src/style.scss */
+/* line 158, ../../../compass/src/style.scss */
 .meta ul li {
   color: #606060;
   display: inline;
 }
 
-/* line 160, ../../../compass/src/style.scss */
+/* line 163, ../../../compass/src/style.scss */
 .passive {
   color: #606060;
 }
 
-/* line 164, ../../../compass/src/style.scss */
+/* line 167, ../../../compass/src/style.scss */
 a.tag {
   color: black !important;
   padding: 0 0.1em 0;
 }
 
-/* line 169, ../../../compass/src/style.scss */
+/* line 172, ../../../compass/src/style.scss */
 a.tag:hover {
   color: #333333 !important;
 }
 
-/* line 173, ../../../compass/src/style.scss */
+/* line 176, ../../../compass/src/style.scss */
 .tags {
   text-transform: lowercase;
 }
 
-/* line 177, ../../../compass/src/style.scss */
+/* line 180, ../../../compass/src/style.scss */
 .tags-page ul {
   padding: 0;
   list-style-type: none;
 }
 
-/* line 183, ../../../compass/src/style.scss */
+/* line 186, ../../../compass/src/style.scss */
 div.article {
   background: #fff;
   -moz-box-shadow: #888888;

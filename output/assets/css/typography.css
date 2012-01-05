@@ -80,24 +80,18 @@ h1 {
   margin-bottom: 1em;
 }
 
-/* line 69, ../../../compass/src/typography.scss */
-h2 {
-  float: left;
-  clear: both;
-}
-
-/* line 74, ../../../compass/src/typography.scss */
+/* line 72, ../../../compass/src/typography.scss */
 h2, h3 {
   color: black;
   margin: 1.5em 0 1em;
 }
 
-/* line 79, ../../../compass/src/typography.scss */
+/* line 77, ../../../compass/src/typography.scss */
 h2 {
   font-size: 1.3em;
 }
 
-/* line 83, ../../../compass/src/typography.scss */
+/* line 81, ../../../compass/src/typography.scss */
 h3 {
   font-size: 1.1em;
 }
