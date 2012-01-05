@@ -1,6 +1,0 @@
-User-agent: *
-Allow: /
-
-Disallow: /assets/
-
-Sitemap: http://unthinkingly.com/sitemap.xml

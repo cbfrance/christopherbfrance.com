@@ -1,0 +1,40 @@
+/* line 1, ../../../compass/src/delicious.scss */
+.delicious-tags {
+  font-family: helvetica, arial,sans-serif;
+  background: blue;
+}
+/* line 5, ../../../compass/src/delicious.scss */
+.delicious-tags a {
+  text-decoration: none;
+}
+/* line 8, ../../../compass/src/delicious.scss */
+.delicious-tags a:hover {
+  text-decoration: underline;
+}
+/* line 11, ../../../compass/src/delicious.scss */
+.delicious-tags ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: justify;
+}
+
+/* line 19, ../../../compass/src/delicious.scss */
+.delicious-cloud li {
+  display: inline;
+  text-align: justify;
+  background-image: none !important;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 26, ../../../compass/src/delicious.scss */
+.delicious-cloud .delicious-tag-count {
+  padding-left: 0.2em;
+  font-size: 13px;
+}
+
+/* line 30, ../../../compass/src/delicious.scss */
+.delicious-cloud li:before {
+  content: "" !important;
+}

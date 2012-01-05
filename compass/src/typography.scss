@@ -1,0 +1,85 @@
+ol, ul {
+  padding-left: 30px; 
+}
+
+ol li, ul li {
+  line-height: 1.5em; 
+}
+
+ul {
+  list-style-type: circle; 
+}
+
+ol {
+  list-style-type: decimal; 
+}
+
+pre {
+  background-color: #f8f8f8;
+  border-left: 3px double #bbbbbb;
+  padding: 0.5em; 
+}
+
+a {
+  color: black;
+  text-decoration: underline;
+  margin: 2px; 
+  &:link, &:visited {
+    color: black; 
+}
+  &:hover {
+    color: #333333;
+    text-decoration: none;
+    border-bottom: solid 1px #333333; 
+}
+}
+
+code, pre {
+  color: #404040;
+  font-size: 13px; 
+}
+
+blockquote, div, ol, p, pre, ul {
+  line-height: 1.5em;
+  margin-bottom: 1.5em; 
+}
+
+h1, h2, h3, h4, h5 {
+  color: black;
+  font-weight: normal; 
+}
+
+h1 a, h2 a, h3 a, h4 a, h5 a {
+  color: black !important;
+  text-decoration: none;
+  border-bottom: none; 
+}
+
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover {
+  color: #333333 !important; 
+}
+
+h1 {
+  border-bottom: 1px solid #eeeeee;
+  font-size: 1.8em;
+  padding-bottom: 6px;
+  margin-bottom: 1em; 
+}
+
+h2 {
+  float: left;
+  clear: both;
+}
+
+h2, h3 {
+  color: black;
+  margin: 1.5em 0 1em; 
+}
+
+h2 {
+  font-size: 1.3em; 
+}
+
+h3 {
+  font-size: 1.1em; 
+}

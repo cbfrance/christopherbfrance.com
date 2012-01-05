@@ -2,26 +2,26 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+$lightgray: #ccc;
  
 /* these to be removed. */
 @import "from_wp";
 @import "compass/reset";
 @import "compass/css3";
 @import "friendfeed";
+@import "delicious";
+@import "typography";
 
 * {
-  color: #404040; }
-
-h2 {
-  float: left;
-  clear: both;
+  color: #404040; 
 }
+
 body {
   font-size: 16px;
-  border-top: 2px solid #cccccc;
   min-width: 800px; 
   background: #c3c3c3;
-  }
+}
 
 div#main {
   width: 90%;
@@ -31,79 +31,10 @@ div#main {
   }
 }
 
-a {
-  border-bottom: solid 1px black;
-  color: black;
-  text-decoration: none;
-  margin: 2px; }
-  a:link, a:visited {
-    color: black; }
-  a:hover {
-    color: #333333;
-    text-decoration: none;
-    border-bottom: solid 1px #333333; }
-
-code, pre {
-  color: #404040;
-  font-size: 13px; }
-
-blockquote, div, ol, p, pre, ul {
-  line-height: 1.5em;
-  margin-bottom: 1.5em; 
-  }
-
-h1, h2, h3, h4, h5 {
-  color: black;
-  font-weight: normal; 
-  }
-
-h1 a, h2 a, h3 a, h4 a, h5 a {
-  color: black !important;
-  text-decoration: none;
-  border-bottom: none; 
-  }
-
-h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover {
-  color: #333333 !important; 
-  }
-
-h1 {
-  border-bottom: 1px solid #eeeeee;
-  font-size: 1.8em;
-  padding-bottom: 6px;
-  margin-bottom: 1em; 
-  }
-
-h2, h3 {
-  color: black;
-  margin: 1.5em 0 1em; }
-
-h2 {
-  font-size: 1.3em; }
-
-h3 {
-  font-size: 1.1em; }
-
-ol, ul {
-  padding-left: 30px; }
-  ol li, ul li {
-    line-height: 1.5em; }
-
-ul {
-  list-style-type: circle; }
-
-ol {
-  list-style-type: decimal; }
-
-pre {
-  background-color: #f8f8f8;
-  border-left: 3px double #bbbbbb;
-  padding: 0.5em; }
-
 #header {
   margin-bottom: 2em;
   overflow: auto; 
-  }
+}
   .logo {
     float: left;
     font-size: 30px;
@@ -112,47 +43,47 @@ pre {
       color: white;
       border: none;
       text-decoration: none; 
-    }
+  }
     a:link, a:visited {
       color: black !important; 
-      }
+    }
      a:hover {
         color: black !important;
         border-bottom: solid 1px white;
         text-decoration: none; 
-      }
     }
+  }
   #nav {
     float: right;
     margin-top: 10px;
     text-align: right; 
-  }
+}
   
 #header #nav ul li {
   display: inline; 
-  }
+}
 
 #header .byline {
   color: #606060; 
-  }
+}
 
 #other-articles {
   margin-top: 4em; 
   ul {
     padding: 0;
     list-style-type: none; 
-    }
+  }
   h3 {
     margin: 0 0 0.5em; 
-    }
+  }
   .newer {
     text-align: right;
     float: right; 
-    }
+  }
   .older {
     float: left; 
-    }
   }
+}
 
 #taglist {
   font-size: 0.8em;
@@ -168,8 +99,8 @@ pre {
     p {
       margin: 0;
       line-height: 4em; 
-    }
   }
+}
   
 
 
@@ -178,20 +109,20 @@ pre {
   float: left;
   clear: both;
   height: auto;
-  }  
+}  
 
 .archives ul, .tag-page ul {
   list-style-type: none;
   padding-left: 0px; 
-  }
+}
 
 table.colophon td:first-of-type {
   width: 175px; 
-  }
+}
 
 .clear {
   clear: both; 
-  }
+}
 
 .excerpt {
   background: #fff;
@@ -205,12 +136,12 @@ table.colophon td:first-of-type {
   h2 {
     margin-bottom: 0.5em; 
     width: 100%;
-    }
+  }
 
   p {
     margin-bottom: 0.5em; 
-    }
   }
+}
 
 
 .meta {
@@ -219,34 +150,34 @@ table.colophon td:first-of-type {
   margin: 0px;
   padding-left: 0; 
   }
-  }
+}
 
 .meta ul li {
   color: #606060;
   display: inline; 
-  }
+}
 
 .passive {
   color: #606060; 
-  }
+}
 
 a.tag {
   color: black !important;
   padding: 0 0.1em 0; 
-  }
+}
 
 a.tag:hover {
   color: #333333 !important; 
-  }
+}
 
 .tags {
   text-transform: lowercase; 
-  }
+}
 
 .tags-page ul {
   padding: 0;
   list-style-type: none; 
-  }
+}
   
   
 div.article {

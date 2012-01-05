@@ -1,0 +1,103 @@
+/* line 1, ../../../compass/src/typography.scss */
+ol, ul {
+  padding-left: 30px;
+}
+
+/* line 5, ../../../compass/src/typography.scss */
+ol li, ul li {
+  line-height: 1.5em;
+}
+
+/* line 9, ../../../compass/src/typography.scss */
+ul {
+  list-style-type: circle;
+}
+
+/* line 13, ../../../compass/src/typography.scss */
+ol {
+  list-style-type: decimal;
+}
+
+/* line 17, ../../../compass/src/typography.scss */
+pre {
+  background-color: #f8f8f8;
+  border-left: 3px double #bbbbbb;
+  padding: 0.5em;
+}
+
+/* line 23, ../../../compass/src/typography.scss */
+a {
+  color: black;
+  text-decoration: underline;
+  margin: 2px;
+}
+/* line 27, ../../../compass/src/typography.scss */
+a:link, a:visited {
+  color: black;
+}
+/* line 30, ../../../compass/src/typography.scss */
+a:hover {
+  color: #333333;
+  text-decoration: none;
+  border-bottom: solid 1px #333333;
+}
+
+/* line 37, ../../../compass/src/typography.scss */
+code, pre {
+  color: #404040;
+  font-size: 13px;
+}
+
+/* line 42, ../../../compass/src/typography.scss */
+blockquote, div, ol, p, pre, ul {
+  line-height: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+/* line 47, ../../../compass/src/typography.scss */
+h1, h2, h3, h4, h5 {
+  color: black;
+  font-weight: normal;
+}
+
+/* line 52, ../../../compass/src/typography.scss */
+h1 a, h2 a, h3 a, h4 a, h5 a {
+  color: black !important;
+  text-decoration: none;
+  border-bottom: none;
+}
+
+/* line 58, ../../../compass/src/typography.scss */
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover {
+  color: #333333 !important;
+}
+
+/* line 62, ../../../compass/src/typography.scss */
+h1 {
+  border-bottom: 1px solid #eeeeee;
+  font-size: 1.8em;
+  padding-bottom: 6px;
+  margin-bottom: 1em;
+}
+
+/* line 69, ../../../compass/src/typography.scss */
+h2 {
+  float: left;
+  clear: both;
+}
+
+/* line 74, ../../../compass/src/typography.scss */
+h2, h3 {
+  color: black;
+  margin: 1.5em 0 1em;
+}
+
+/* line 79, ../../../compass/src/typography.scss */
+h2 {
+  font-size: 1.3em;
+}
+
+/* line 83, ../../../compass/src/typography.scss */
+h3 {
+  font-size: 1.1em;
+}
