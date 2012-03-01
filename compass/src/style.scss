@@ -1,16 +1,9 @@
 $lightgray: #ccc;
  
 /* these to be removed. */
-@import "from_wp";
 @import "compass/reset";
 @import "compass/css3";
-@import "friendfeed";
-@import "delicious";
 @import "typography";
-
-* {
-  color: #404040; 
-}
 
 body {
   font-size: 16px;
@@ -30,29 +23,31 @@ div#main {
   margin-bottom: 2em;
   overflow: auto; 
 }
-  .logo {
-    float: left;
-    font-size: 30px;
-    padding: 10px 0.3em;
-    a {
-      color: white;
-      border: none;
+
+.logo {
+  float: left;
+  font-size: 30px;
+  padding: 30px 0.3em;
+  a {
+    color: white;
+    border: none;
+    text-decoration: none; 
+}
+  a:link, a:visited {
+    color: black !important; 
+  }
+   a:hover {
+      color: black !important;
+      border-bottom: solid 1px white;
       text-decoration: none; 
   }
-    a:link, a:visited {
-      color: black !important; 
-    }
-     a:hover {
-        color: black !important;
-        border-bottom: solid 1px white;
-        text-decoration: none; 
-    }
-  }
-  #nav {
-    float: right;
-    margin-top: 10px;
-    text-align: right; 
-    display: none; /*hide the useless nav*/
+}
+
+#nav {
+  float: right;
+  margin-top: 10px;
+  text-align: right; 
+  display: none; /*hide the useless nav*/
 }
   
 #header #nav ul li {
@@ -104,8 +99,6 @@ div#main {
       line-height: 4em; 
   }
 }
-  
-
 
 .archives .excerpt {
   width: 600px;

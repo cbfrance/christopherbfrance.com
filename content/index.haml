@@ -17,30 +17,20 @@ title: unthinkingly
 - sorted_articles[current_index, excerpt_count].each do |item|
   - oldest_item = item
   = render('_excerpt', :item => item) 
-                
--#= render('_other_articles_nav', :reference_item => oldest_item, :older_only => true)
+
+-# TODO not sure why this doesn't work
+-# render('_other_articles_nav', :reference_item => oldest_item, :older_only => true)
 
 #footer
   %h3
     %a{:href => "http://flickr.com/unthinkingly"} 
       flickr.com/unthinkingly
-
-  %script{:src => "http://friendfeed.com/embed/widget/unthinkingly?v=2&service=flickr&num=10&hide_logo=1&hide_comments_likes=1&hide_subscribe=1", :type => "text/javascript"}
-
-  %noscript
-    %a{ :href => "http://friendfeed.com/unthinkingly"}
-      %img{ :alt => "View my FriendFeed", :src => "http://friendfeed.com/embed/widget/unthinkingly?v=2&service=flickr&num=10&hide_logo=1&hide_comments_likes=1&hide_subscribe=1&format=png", :style => "border:0;"}/
-
   %h3
-    %a{ :href => "http://delicious.com/unthinkingly"} 
-      delicious.com/unthinkingly
-
-  %script{ :src => "http://friendfeed.com/embed/widget/unthinkingly?v=2&service=delicious&num=10&hide_logo=1&hide_comments_likes=1&hide_subscribe=1", :type => "text/javascript"}
-
-  %noscript
-    %a{ :href => "http://friendfeed.com/unthinkingly"}
-      %img{ :alt => "View my FriendFeed", :src => "http://friendfeed.com/embed/widget/unthinkingly?v=2&service=delicious&num=10&hide_logo=1&hide_comments_likes=1&hide_subscribe=1&format=png", :style => "border:0;" }
-
+    %a{ :href => "http://twitter.com/unthinkingly"} 
+      twitter.com/unthinkingly
+  %h3
+    %a{ :href => "http://pinboard.in/u:unthinkingly"} 
+      pinboard.in/u:unthinkingly
 
 #taglist
   - tags = count_tags()
@@ -48,5 +38,3 @@ title: unthinkingly
     - tag = tag_count[0]
     %a{ :href => "/tags/#{tag}/", :class => 'tag'}
       = tag
-
-

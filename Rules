@@ -39,10 +39,10 @@ route '/assets/css/*/' do
   item.identifier.chop + '.css'
 end
 
-#  Handle antique paths from ye olde blogs 
-route '/wp-content/themes/hemingway-reloaded-10/images/*' do
-   "static/assets/images" + File
-end
+#  TODO Handle antique paths from old blogs like this somehow
+# route '/wp-content/themes/hemingway-reloaded-10/images/*' do
+#    "static/assets/images" + File
+# end
 
 route '*' do
   route_path(item)

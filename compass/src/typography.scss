@@ -1,3 +1,7 @@
+* {
+  color: #404040; 
+}
+
 ol, ul {
   padding-left: 30px; 
 }
@@ -20,6 +24,20 @@ pre {
   padding: 0.5em; 
 }
 
+code, pre {
+  color: #404040;
+  font-size: 13px; 
+}
+
+blockquote, div, ol, p, pre, ul {
+  line-height: 1.5em;
+  margin-bottom: 1.5em; 
+}
+
+
+/* =========== */
+/* =  links  = */
+/* =========== */
 a {
   color: black;
   text-decoration: underline;
@@ -31,19 +49,12 @@ a {
     color: #333333;
     text-decoration: none;
     border-bottom: solid 1px #333333; 
-}
-}
-
-code, pre {
-  color: #404040;
-  font-size: 13px; 
+  }
 }
 
-blockquote, div, ol, p, pre, ul {
-  line-height: 1.5em;
-  margin-bottom: 1.5em; 
-}
-
+/* ============= */
+/* =  headers  = */
+/* ============= */
 h1, h2, h3, h4, h5 {
   color: black;
   font-weight: normal; 
@@ -64,9 +75,6 @@ h1 {
   font-size: 1.8em;
   padding-bottom: 6px;
   margin-bottom: 1em; 
-}
-
-h2 {
 }
 
 h2, h3 {
