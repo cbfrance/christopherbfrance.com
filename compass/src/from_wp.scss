@@ -118,20 +118,12 @@ div.single_post_wrap div.date {
 
 }
 
-body.singlecol div.post {
-}
-
-body div.post div.excerpt br {
+div.post div.excerpt br {
   display: none;
 }
 
 div.post img {
  margin:10px;
-}
-
-div#tags .wp-tag-cloud {
-  list-style-type: none;
-  padding: none;
 }
 
 div#tags {
@@ -141,24 +133,23 @@ div#tags {
   padding:10px 3px;
   line-height:20px;
   background:#c3c3c3;
+  a {
+    text-decoration: none;
+    color: #8F8F8F;
+    font-family: monaco, courier, georgia, sans-serif;
+    background:#fff;
+    font-size:18px!important;
+    padding:10px;
+    display:block;
+    float:left;
+    color:#333;
+  }
+  a:hover {
+    background: #333;
+    color: #fff!important;
+  }
 }
-
-div#tags a {
-  text-decoration: none;
-  color: #8F8F8F;
-  font-family: monaco, courier, georgia, sans-serif;
-  background:#fff;
-  font-size:18px!important;
-  padding:10px;
-  display:block;
-  float:left;
-  color:#333;
-}
-div#tags a:hover {
-  background: #333;
-  color: #fff!important;
-}
-
+         
 div#footer {
   background: #fff;
   clear: both;

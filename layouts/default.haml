@@ -48,11 +48,26 @@
             != link_unless_current "about"
             != link_unless_current "archives"
             != link_unless_current "tags"
-      .clear
+      #articles
+        - if @item[:kind] == 'article'
+          = render('_article', :item => @item, :content => content)
+          = render('_other_articles_nav', :reference_item => @item)
+        - else
+          = content
+      #footer
+        .link
+          %a{:href => "http://flickr.com/unthinkingly"} 
+            flickr.com/unthinkingly
+        .link
+          %a{ :href => "http://twitter.com/unthinkingly"} 
+            twitter.com/unthinkingly
+        .link
+          %a{ :href => "http://pinboard.in/u:unthinkingly"} 
+            pinboard.in/u:unthinkingly
 
-      - if @item[:kind] == 'article'
-        = render('_article', :item => @item, :content => content)
-        = render('_other_articles_nav', :reference_item => @item)
-      - else
-        = content
-      .clear
+        #taglist
+          - tags = count_tags()
+          - tags.each.sort_by {|k,v| k}.each do |tag_count|
+            - tag = tag_count[0]
+            %a{ :href => "/tags/#{tag}/", :class => 'tag'}
+              = tag

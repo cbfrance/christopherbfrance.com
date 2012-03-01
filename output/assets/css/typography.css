@@ -53,5 +53,4 @@ a {
 /* line 44, ../../../compass/src/typography.scss */
 a:hover {
   text-decoration: none;
-  border-bottom: solid 1px #333333;
 }

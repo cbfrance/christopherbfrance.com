@@ -134,23 +134,17 @@ div.single_post_wrap div.date {
   margin-top: 100px;
 }
 
-/* line 124, ../../../compass/src/from_wp.scss */
-body div.post div.excerpt br {
+/* line 121, ../../../compass/src/from_wp.scss */
+div.post div.excerpt br {
   display: none;
 }
 
-/* line 128, ../../../compass/src/from_wp.scss */
+/* line 125, ../../../compass/src/from_wp.scss */
 div.post img {
   margin: 10px;
 }
 
-/* line 132, ../../../compass/src/from_wp.scss */
-div#tags .wp-tag-cloud {
-  list-style-type: none;
-  padding: none;
-}
-
-/* line 137, ../../../compass/src/from_wp.scss */
+/* line 129, ../../../compass/src/from_wp.scss */
 div#tags {
   float: left;
   border: 1px solid #c3c3c3;
@@ -159,8 +153,7 @@ div#tags {
   line-height: 20px;
   background: #c3c3c3;
 }
-
-/* line 146, ../../../compass/src/from_wp.scss */
+/* line 136, ../../../compass/src/from_wp.scss */
 div#tags a {
   text-decoration: none;
   color: #8F8F8F;
@@ -172,21 +165,20 @@ div#tags a {
   float: left;
   color: #333;
 }
-
-/* line 157, ../../../compass/src/from_wp.scss */
+/* line 147, ../../../compass/src/from_wp.scss */
 div#tags a:hover {
   background: #333;
   color: #fff!important;
 }
 
-/* line 162, ../../../compass/src/from_wp.scss */
+/* line 153, ../../../compass/src/from_wp.scss */
 div#footer {
   background: #fff;
   clear: both;
   width: 100%!important;
 }
 
-/* line 168, ../../../compass/src/from_wp.scss */
+/* line 159, ../../../compass/src/from_wp.scss */
 div#footer h3 {
   text-transform: uppercase;
   font-size: 23px;
@@ -197,19 +189,19 @@ div#footer h3 {
   color: #333;
 }
 
-/* line 178, ../../../compass/src/from_wp.scss */
+/* line 169, ../../../compass/src/from_wp.scss */
 a img {
   border: 2px solid #999;
   margin: 10px;
 }
 
-/* line 182, ../../../compass/src/from_wp.scss */
+/* line 173, ../../../compass/src/from_wp.scss */
 a {
   color: #000;
   padding-left: 0;
 }
 
-/* line 187, ../../../compass/src/from_wp.scss */
+/* line 178, ../../../compass/src/from_wp.scss */
 div#content {
   width: 90%;
   background: #fff;
@@ -221,7 +213,7 @@ div#content {
   margin-bottom: 10px;
 }
 
-/* line 198, ../../../compass/src/from_wp.scss */
+/* line 189, ../../../compass/src/from_wp.scss */
 div#content div#nav {
   width: 900px;
   padding: 10px 0;
@@ -229,7 +221,7 @@ div#content div#nav {
   margin-bottom: 30px;
 }
 
-/* line 205, ../../../compass/src/from_wp.scss */
+/* line 196, ../../../compass/src/from_wp.scss */
 div#content div#nav a {
   color: #C6C6C6;
   text-decoration: none;
@@ -237,24 +229,24 @@ div#content div#nav a {
   margin-left: 5px;
 }
 
-/* line 212, ../../../compass/src/from_wp.scss */
+/* line 203, ../../../compass/src/from_wp.scss */
 div#content div#nav.home a.home {
   color: #333;
 }
 
-/* line 216, ../../../compass/src/from_wp.scss */
+/* line 207, ../../../compass/src/from_wp.scss */
 div#content div#nav a:hover {
   color: #333;
 }
 
-/* line 220, ../../../compass/src/from_wp.scss */
+/* line 211, ../../../compass/src/from_wp.scss */
 div.attribution h3 {
   margin: 0;
   padding: 0;
   text-align: right;
 }
 
-/* line 226, ../../../compass/src/from_wp.scss */
+/* line 217, ../../../compass/src/from_wp.scss */
 div.attribution, div.pagination {
   font-size: 0.8em;
   font-family: helvetica, sans-serif;
@@ -266,7 +258,7 @@ div.attribution, div.pagination {
   font-weight: bold;
 }
 
-/* line 237, ../../../compass/src/from_wp.scss */
+/* line 228, ../../../compass/src/from_wp.scss */
 div.pagination {
   width: 100%;
   border: none;
@@ -276,14 +268,14 @@ div.pagination {
   padding: 0;
 }
 
-/* line 246, ../../../compass/src/from_wp.scss */
+/* line 237, ../../../compass/src/from_wp.scss */
 div.pagination a {
   color: #c3c3c3;
   text-decoration: none;
   font-size: 20px;
 }
 
-/* line 252, ../../../compass/src/from_wp.scss */
+/* line 243, ../../../compass/src/from_wp.scss */
 .alignright, .alignleft {
   float: left;
   clear: none;
@@ -292,19 +284,19 @@ div.pagination a {
   padding: 10px;
 }
 
-/* line 260, ../../../compass/src/from_wp.scss */
+/* line 251, ../../../compass/src/from_wp.scss */
 .alignright {
   float: right;
 }
 
-/* line 263, ../../../compass/src/from_wp.scss */
+/* line 254, ../../../compass/src/from_wp.scss */
 div.metadata span.comments a {
   background-color: #DDD;
   padding: 5px;
   text-decoration: none;
 }
 
-/* line 268, ../../../compass/src/from_wp.scss */
+/* line 259, ../../../compass/src/from_wp.scss */
 div.metadata span.tags a {
   border: 1px solid #c3c3c3;
   padding: 5px;
@@ -315,7 +307,7 @@ div.metadata span.tags a {
   display: inline;
 }
 
-/* line 278, ../../../compass/src/from_wp.scss */
+/* line 269, ../../../compass/src/from_wp.scss */
 ul.post-categories a {
   padding: 2px 4px 0px;
   line-height: 1.6em;
@@ -330,53 +322,53 @@ ul.post-categories a {
   right: -5px;
 }
 
-/* line 292, ../../../compass/src/from_wp.scss */
+/* line 283, ../../../compass/src/from_wp.scss */
 div.Uncategorized ul.post-categories a {
   display: none;
 }
 
-/* line 293, ../../../compass/src/from_wp.scss */
+/* line 284, ../../../compass/src/from_wp.scss */
 div.sketches ul.post-categories a {
   background: #FFF350;
   color: #000;
 }
 
-/* line 294, ../../../compass/src/from_wp.scss */
+/* line 285, ../../../compass/src/from_wp.scss */
 div.mockups ul.post-categories a {
   background: #00FF9F;
   color: #000;
 }
 
-/* line 295, ../../../compass/src/from_wp.scss */
+/* line 286, ../../../compass/src/from_wp.scss */
 div.code ul.post-categories a {
   background: #FF87F0;
   color: #000;
 }
 
-/* line 296, ../../../compass/src/from_wp.scss */
+/* line 287, ../../../compass/src/from_wp.scss */
 div.videos ul.post-categories a {
   background: #00C2FF;
   color: #000;
 }
 
-/* line 297, ../../../compass/src/from_wp.scss */
+/* line 288, ../../../compass/src/from_wp.scss */
 div.presentation ul.post-categories a {
   background: #70ff4a;
   color: #000;
 }
 
-/* line 298, ../../../compass/src/from_wp.scss */
+/* line 289, ../../../compass/src/from_wp.scss */
 div.press ul.post-categories a {
   background: #00C2FF;
   color: #000;
 }
 
-/* line 300, ../../../compass/src/from_wp.scss */
+/* line 291, ../../../compass/src/from_wp.scss */
 div.metadata span.tags a:hover {
   text-decoration: underline;
 }
 
-/* line 304, ../../../compass/src/from_wp.scss */
+/* line 295, ../../../compass/src/from_wp.scss */
 div.metadata div.date {
   font-size: 14px;
   text-transform: uppercase;
@@ -385,12 +377,12 @@ div.metadata div.date {
   color: #c3c3c3;
 }
 
-/* line 311, ../../../compass/src/from_wp.scss */
+/* line 302, ../../../compass/src/from_wp.scss */
 div.metadata div.date {
   margin-top: 20px;
 }
 
-/* line 315, ../../../compass/src/from_wp.scss */
+/* line 306, ../../../compass/src/from_wp.scss */
 div.bottom {
   background: none!important;
   border: none!important;

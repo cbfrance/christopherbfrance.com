@@ -1,9 +1,20 @@
 $lightgray: #ccc;
  
-/* these to be removed. */
+/* ========= */
+/* = core  = */
+/* ========= */
 @import "compass/reset";
 @import "compass/css3";
+@import "compass/utilities";
 @import "typography";
+
+/* ========== */
+/* = pages  = */
+/* ========== */
+
+@import "tags-page";
+@import "article-page";
+
 
 body {
   font-size: 16px;
@@ -14,34 +25,49 @@ body {
 div#main {
   width: 90%;
   margin: 0 auto; 
-  div.article {
+}
+
+#header {
+  margin-bottom: 10px;
+  overflow: auto;
+  padding: 10px;
+  .logo {
+    float: left;
+    font-size: 20px;
+    padding: 30px 0.3em 0;
+  } 
+}
+
+/* the list of articles section */
+#articles {
+  @include clearfix;
+  .article {
     padding: 30px;
   }
 }
 
-#header {
-  margin-bottom: 2em;
-  overflow: auto; 
-}
-
 #footer {
-  h3 a {
-    
-  }
-}
-
-.logo {
-  float: left;
-  font-size: 30px;
-  padding: 80px 0.3em;
-  a {
-    color: white;
-    border: none;
-    text-decoration: none; 
-  }
-  a:link, a:visited {
-  }
-   a:hover {
+  width: 100%;
+  border-top: 1px solid #c3c3c3;
+  
+  .link {
+    display: block;
+    width: 33%;
+    height: 150px;
+    float: left;
+    a {
+      margin: 0 auto;
+      text-align: center;
+      width: 100%;
+      display: block;
+      padding-top: 60px;
+      font-weight: bold;
+      font-size: 17px;
+      text-decoration: none;
+      color: blue!important;
+      font-family: "helvetica neue", sans-serif;
+      letter-spacing: 1px;
+    }
   }
 }
 
@@ -52,13 +78,15 @@ div#main {
   display: none;         /*hide the useless nav*/
 }
   
-#header #nav ul li {
-  display: inline; 
+#header {
+  #nav ul li {
+    display: inline; 
+  }
+  .byline {
+    color: #606060; 
+  }
 }
 
-#header .byline {
-  color: #606060; 
-}
 
 #other-articles {
   margin-top: 4em; 
@@ -81,7 +109,7 @@ div#main {
 #taglist {
   font-size: 0.8em;
   margin-top: 3em;
-  text-align: right; 
+  text-align: justify;
   a.tag {
     text-decoration: none;
     &:hover {
@@ -141,7 +169,6 @@ table.colophon td:first-of-type {
   }
 }
 
-
 .meta {
   font-size: 13px; 
   ul {
@@ -170,9 +197,4 @@ a.tag:hover {
 
 .tags {
   text-transform: lowercase; 
-}
-
-.tags-page ul {
-  padding: 0;
-  list-style-type: none; 
 }
