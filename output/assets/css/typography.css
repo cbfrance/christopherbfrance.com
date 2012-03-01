@@ -1,6 +1,6 @@
 /* line 1, ../../../compass/src/typography.scss */
-* {
-  color: #404040;
+body {
+  line-height: 1.4em;
 }
 
 /* line 5, ../../../compass/src/typography.scss */
@@ -47,62 +47,11 @@ blockquote, div, ol, p, pre, ul {
 /* =========== */
 /* line 41, ../../../compass/src/typography.scss */
 a {
-  color: black;
-  text-decoration: underline;
+  text-decoration: none;
   margin: 2px;
 }
-/* line 45, ../../../compass/src/typography.scss */
-a:link, a:visited {
-  color: black;
-}
-/* line 48, ../../../compass/src/typography.scss */
+/* line 44, ../../../compass/src/typography.scss */
 a:hover {
-  color: #333333;
   text-decoration: none;
   border-bottom: solid 1px #333333;
-}
-
-/* ============= */
-/* =  headers  = */
-/* ============= */
-/* line 58, ../../../compass/src/typography.scss */
-h1, h2, h3, h4, h5 {
-  color: black;
-  font-weight: normal;
-}
-
-/* line 63, ../../../compass/src/typography.scss */
-h1 a, h2 a, h3 a, h4 a, h5 a {
-  color: black !important;
-  text-decoration: none;
-  border-bottom: none;
-}
-
-/* line 69, ../../../compass/src/typography.scss */
-h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover {
-  color: #333333 !important;
-}
-
-/* line 73, ../../../compass/src/typography.scss */
-h1 {
-  border-bottom: 1px solid #eeeeee;
-  font-size: 1.8em;
-  padding-bottom: 6px;
-  margin-bottom: 1em;
-}
-
-/* line 80, ../../../compass/src/typography.scss */
-h2, h3 {
-  color: black;
-  margin: 1.5em 0 1em;
-}
-
-/* line 85, ../../../compass/src/typography.scss */
-h2 {
-  font-size: 1.3em;
-}
-
-/* line 89, ../../../compass/src/typography.scss */
-h3 {
-  font-size: 1.1em;
 }

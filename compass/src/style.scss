@@ -24,22 +24,24 @@ div#main {
   overflow: auto; 
 }
 
+#footer {
+  h3 a {
+    
+  }
+}
+
 .logo {
   float: left;
   font-size: 30px;
-  padding: 30px 0.3em;
+  padding: 80px 0.3em;
   a {
     color: white;
     border: none;
     text-decoration: none; 
-}
+  }
   a:link, a:visited {
-    color: black !important; 
   }
    a:hover {
-      color: black !important;
-      border-bottom: solid 1px white;
-      text-decoration: none; 
   }
 }
 
@@ -47,7 +49,7 @@ div#main {
   float: right;
   margin-top: 10px;
   text-align: right; 
-  display: none; /*hide the useless nav*/
+  display: none;         /*hide the useless nav*/
 }
   
 #header #nav ul li {
@@ -128,7 +130,7 @@ table.colophon td:first-of-type {
   float: left;
   height:300px;
   overflow: hidden;
-  @include box-shadow(#333);
+
   h2 {
     margin-bottom: 0.5em; 
     width: 100%;
@@ -158,12 +160,12 @@ table.colophon td:first-of-type {
 }
 
 a.tag {
-  color: black !important;
+  color: black;
   padding: 0 0.1em 0; 
 }
 
 a.tag:hover {
-  color: #333333 !important; 
+  color: #333333; 
 }
 
 .tags {
@@ -173,10 +175,4 @@ a.tag:hover {
 .tags-page ul {
   padding: 0;
   list-style-type: none; 
-}
-  
-  
-div.article {
-  background: #fff;
-  @include box-shadow(#888888);
 }
