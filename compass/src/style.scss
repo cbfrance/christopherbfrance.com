@@ -1,28 +1,18 @@
 $lightgray: #cccccc;
 
-/* ========= */
-/* = core  = */
-/* ========= */
 @import "compass/reset";
 @import "compass/css3";
 @import "compass/utilities";
 @import "typography";
 
-/* ========== */
-/* = pages  = */
-/* ========== */
-
-@import "tags-page";
-@import "article-page";
-
 body {
-  font-size: 16px;
-  min-width: 800px;
-  background: #f3f3f3;
+  font-size: 28px;
+  font-family: "Kai", serif;
 }
 
 div#main {
   width: 90%;
+  max-width: 600px;
   margin: 0 auto;
 }
 
@@ -31,9 +21,12 @@ div#main {
   overflow: auto;
   padding: 10px;
   .logo {
-    float: left;
-    font-size: 20px;
-    padding: 30px 0.3em 0;
+    margin: 0 auto;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    height: 200px;
+    padding-top: 200px;
   }
 }
 
@@ -50,9 +43,6 @@ div#main {
   border-top: 1px solid #c3c3c3;
   .link {
     display: block;
-    width: 33%;
-    height: 150px;
-    float: left;
     a {
       margin: 0 auto;
       text-align: center;
@@ -63,7 +53,6 @@ div#main {
       font-size: 17px;
       text-decoration: none;
       color: blue !important;
-      font-family: "helvetica neue", sans-serif;
       letter-spacing: 1px;
     }
   }
@@ -131,8 +120,7 @@ div#main {
 }
 
 .archives .excerpt {
-  width: 600px;
-  float: left;
+  // float: left;
   clear: both;
   height: auto;
 }
@@ -151,13 +139,6 @@ table.colophon td:first-of-type {
 }
 
 .excerpt {
-  background: #fff;
-  margin: 10px;
-  padding: 10px;
-  width: 200px;
-  float: left;
-  height: 300px;
-  overflow: hidden;
   h2 {
     margin-bottom: 0.5em;
     width: 100%;

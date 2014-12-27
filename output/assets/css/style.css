@@ -1,6 +1,3 @@
-/* ========= */
-/* = core  = */
-/* ========= */
 /* line 17, ../../../../../.rvm/gems/ruby-2.1.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -73,7 +70,7 @@ body {
 
 /* line 5, ../../../compass/src/typography.scss */
 ol, ul {
-  padding-left: 30px;
+  padding-left: 2em;
 }
 
 /* line 9, ../../../compass/src/typography.scss */
@@ -101,87 +98,78 @@ pre {
 /* line 27, ../../../compass/src/typography.scss */
 code, pre {
   color: #404040;
-  font-size: 13px;
+  font-size: 1em;
 }
 
 /* line 32, ../../../compass/src/typography.scss */
 blockquote, div, ol, p, pre, ul {
-  line-height: 1.5em;
+  line-height: 1.5;
   margin-bottom: 1.5em;
 }
 
 /* =========== */
 /* =  links  = */
 /* =========== */
-/* line 41, ../../../compass/src/typography.scss */
+/* line 40, ../../../compass/src/typography.scss */
 a {
   text-decoration: none;
   margin: 2px;
 }
-/* line 44, ../../../compass/src/typography.scss */
+/* line 43, ../../../compass/src/typography.scss */
 a:hover {
   text-decoration: none;
 }
 
-/* ========== */
-/* = pages  = */
-/* ========== */
-/* line 1, ../../../compass/src/tags-page.scss */
-.tags-page ul {
-  padding: 0;
-  list-style-type: none;
-}
-
-/* line 18, ../../../compass/src/style.scss */
+/* line 8, ../../../compass/src/style.scss */
 body {
-  font-size: 16px;
-  min-width: 800px;
-  background: #f3f3f3;
+  font-size: 28px;
+  font-family: "Kai", serif;
 }
 
-/* line 24, ../../../compass/src/style.scss */
+/* line 13, ../../../compass/src/style.scss */
 div#main {
   width: 90%;
+  max-width: 600px;
   margin: 0 auto;
 }
 
-/* line 29, ../../../compass/src/style.scss */
+/* line 19, ../../../compass/src/style.scss */
 #header {
   margin-bottom: 10px;
   overflow: auto;
   padding: 10px;
 }
-/* line 33, ../../../compass/src/style.scss */
+/* line 23, ../../../compass/src/style.scss */
 #header .logo {
-  float: left;
-  font-size: 20px;
-  padding: 30px 0.3em 0;
+  margin: 0 auto;
+  font-weight: bold;
+  display: block;
+  text-align: center;
+  height: 200px;
+  padding-top: 200px;
 }
 
 /* the list of articles section */
-/* line 41, ../../../compass/src/style.scss */
+/* line 34, ../../../compass/src/style.scss */
 #articles {
   overflow: hidden;
   *zoom: 1;
 }
-/* line 43, ../../../compass/src/style.scss */
+/* line 36, ../../../compass/src/style.scss */
 #articles .article {
   padding: 30px;
 }
 
-/* line 48, ../../../compass/src/style.scss */
+/* line 41, ../../../compass/src/style.scss */
 #footer {
   width: 100%;
   border-top: 1px solid #c3c3c3;
 }
-/* line 51, ../../../compass/src/style.scss */
+/* line 44, ../../../compass/src/style.scss */
 #footer .link {
   display: block;
-  width: 33%;
-  height: 150px;
-  float: left;
 }
-/* line 56, ../../../compass/src/style.scss */
+/* line 46, ../../../compass/src/style.scss */
 #footer .link a {
   margin: 0 auto;
   text-align: center;
@@ -192,11 +180,10 @@ div#main {
   font-size: 17px;
   text-decoration: none;
   color: blue !important;
-  font-family: "helvetica neue", sans-serif;
   letter-spacing: 1px;
 }
 
-/* line 72, ../../../compass/src/style.scss */
+/* line 61, ../../../compass/src/style.scss */
 #nav {
   float: right;
   margin-top: 10px;
@@ -205,147 +192,135 @@ div#main {
   /*hide the useless nav*/
 }
 
-/* line 81, ../../../compass/src/style.scss */
+/* line 70, ../../../compass/src/style.scss */
 #header #nav ul li {
   display: inline;
 }
-/* line 84, ../../../compass/src/style.scss */
+/* line 73, ../../../compass/src/style.scss */
 #header .byline {
   color: #606060;
 }
 
-/* line 89, ../../../compass/src/style.scss */
+/* line 78, ../../../compass/src/style.scss */
 #other-articles {
   margin-top: 4em;
 }
-/* line 91, ../../../compass/src/style.scss */
+/* line 80, ../../../compass/src/style.scss */
 #other-articles ul {
   padding: 0;
   list-style-type: none;
 }
-/* line 95, ../../../compass/src/style.scss */
+/* line 84, ../../../compass/src/style.scss */
 #other-articles h3 {
   margin: 0 0 0.5em;
 }
-/* line 98, ../../../compass/src/style.scss */
+/* line 87, ../../../compass/src/style.scss */
 #other-articles .newer {
   text-align: right;
   float: right;
 }
-/* line 102, ../../../compass/src/style.scss */
+/* line 91, ../../../compass/src/style.scss */
 #other-articles .older {
   float: left;
 }
 
-/* line 107, ../../../compass/src/style.scss */
+/* line 96, ../../../compass/src/style.scss */
 #taglist {
   font-size: 0.8em;
   margin-top: 3em;
   text-align: justify;
 }
-/* line 111, ../../../compass/src/style.scss */
+/* line 100, ../../../compass/src/style.scss */
 #taglist a.tag {
   text-decoration: none;
 }
-/* line 113, ../../../compass/src/style.scss */
+/* line 102, ../../../compass/src/style.scss */
 #taglist a.tag:hover {
   background: #c3c3c3;
 }
 
-/* line 119, ../../../compass/src/style.scss */
+/* line 108, ../../../compass/src/style.scss */
 #sticky {
   border: 3px double #eeeeee;
   margin-bottom: 3.2em;
 }
 
-/* line 124, ../../../compass/src/style.scss */
+/* line 113, ../../../compass/src/style.scss */
 #sticky .body {
   margin: auto;
   text-align: center;
 }
-/* line 127, ../../../compass/src/style.scss */
+/* line 116, ../../../compass/src/style.scss */
 #sticky .body p {
   margin: 0;
   line-height: 4em;
 }
 
-/* line 133, ../../../compass/src/style.scss */
+/* line 122, ../../../compass/src/style.scss */
 .archives .excerpt {
-  width: 600px;
-  float: left;
   clear: both;
   height: auto;
 }
 
-/* line 140, ../../../compass/src/style.scss */
+/* line 128, ../../../compass/src/style.scss */
 .archives ul, .tag-page ul {
   list-style-type: none;
   padding-left: 0px;
 }
 
-/* line 145, ../../../compass/src/style.scss */
+/* line 133, ../../../compass/src/style.scss */
 table.colophon td:first-of-type {
   width: 175px;
 }
 
-/* line 149, ../../../compass/src/style.scss */
+/* line 137, ../../../compass/src/style.scss */
 .clear {
   clear: both;
 }
 
-/* line 153, ../../../compass/src/style.scss */
-.excerpt {
-  background: #fff;
-  margin: 10px;
-  padding: 10px;
-  width: 200px;
-  float: left;
-  height: 300px;
-  overflow: hidden;
-}
-/* line 161, ../../../compass/src/style.scss */
+/* line 142, ../../../compass/src/style.scss */
 .excerpt h2 {
   margin-bottom: 0.5em;
   width: 100%;
 }
-/* line 165, ../../../compass/src/style.scss */
+/* line 146, ../../../compass/src/style.scss */
 .excerpt p {
   margin-bottom: 0.5em;
 }
 
-/* line 170, ../../../compass/src/style.scss */
+/* line 151, ../../../compass/src/style.scss */
 .meta {
   font-size: 13px;
 }
-/* line 172, ../../../compass/src/style.scss */
+/* line 153, ../../../compass/src/style.scss */
 .meta ul {
   margin: 0px;
   padding-left: 0;
 }
 
-/* line 178, ../../../compass/src/style.scss */
+/* line 159, ../../../compass/src/style.scss */
 .meta ul li {
   color: #606060;
   display: inline;
 }
 
-/* line 183, ../../../compass/src/style.scss */
+/* line 164, ../../../compass/src/style.scss */
 .passive {
   color: #606060;
 }
 
-/* line 187, ../../../compass/src/style.scss */
+/* line 168, ../../../compass/src/style.scss */
 a.tag {
   color: black;
   padding: 0 0.1em 0;
 }
 
-/* line 192, ../../../compass/src/style.scss */
+/* line 173, ../../../compass/src/style.scss */
 a.tag:hover {
   color: #333333;
 }
 
-/* line 196, ../../../compass/src/style.scss */
+/* line 177, ../../../compass/src/style.scss */
 .tags {
   text-transform: lowercase;
 }

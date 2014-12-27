@@ -3,44 +3,43 @@ body {
 }
 
 ol, ul {
-  padding-left: 30px; 
+  padding-left: 2em;
 }
 
 ol li, ul li {
-  line-height: 1.5em; 
+  line-height: 1.5em;
 }
 
 ul {
-  list-style-type: circle; 
+  list-style-type: circle;
 }
 
 ol {
-  list-style-type: decimal; 
+  list-style-type: decimal;
 }
 
 pre {
   background-color: #f8f8f8;
   border-left: 3px double #bbbbbb;
-  padding: 0.5em; 
+  padding: 0.5em;
 }
 
 code, pre {
   color: #404040;
-  font-size: 13px; 
+  font-size: 1em;
 }
 
 blockquote, div, ol, p, pre, ul {
-  line-height: 1.5em;
-  margin-bottom: 1.5em; 
+  line-height: 1.5;
+  margin-bottom: 1.5em;
 }
-
 
 /* =========== */
 /* =  links  = */
 /* =========== */
 a {
   text-decoration: none;
-  margin: 2px; 
+  margin: 2px;
   &:hover {
     text-decoration: none;
   }

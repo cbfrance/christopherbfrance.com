@@ -5,7 +5,7 @@ body {
 
 /* line 5, ../../../compass/src/typography.scss */
 ol, ul {
-  padding-left: 30px;
+  padding-left: 2em;
 }
 
 /* line 9, ../../../compass/src/typography.scss */
@@ -33,24 +33,24 @@ pre {
 /* line 27, ../../../compass/src/typography.scss */
 code, pre {
   color: #404040;
-  font-size: 13px;
+  font-size: 1em;
 }
 
 /* line 32, ../../../compass/src/typography.scss */
 blockquote, div, ol, p, pre, ul {
-  line-height: 1.5em;
+  line-height: 1.5;
   margin-bottom: 1.5em;
 }
 
 /* =========== */
 /* =  links  = */
 /* =========== */
-/* line 41, ../../../compass/src/typography.scss */
+/* line 40, ../../../compass/src/typography.scss */
 a {
   text-decoration: none;
   margin: 2px;
 }
-/* line 44, ../../../compass/src/typography.scss */
+/* line 43, ../../../compass/src/typography.scss */
 a:hover {
   text-decoration: none;
 }
