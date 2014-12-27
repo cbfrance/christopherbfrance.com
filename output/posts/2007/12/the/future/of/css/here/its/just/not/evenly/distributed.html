@@ -5,7 +5,6 @@
     <meta content='text/html; charset=utf-8' http-equiv='Content-Type' />
     <meta content=', css, ruby, dry' name='keywords' />
     <meta content='a teensy, non-brilliant-but-incredibly-useful DIY hack for stylesheets.' name='description' />
-    <link href='/assets/css/reset.css' rel='stylesheet' type='text/css' />
     <link href='/assets/css/style.css' media='screen' rel='stylesheet' type='text/css' />
   </head>
   <body>
@@ -19,148 +18,1142 @@
             <li><a href='/about.html'>about</a></li>
             <li><a href='/archives.html'>archives</a></li>
             <li><a href='/tags.html'>tags</a></li>
-            <li>
-              <a href='/atom.xml'>rss</a>
-            </li>
-            <li>
-              <a href='/license.html'>license</a>
-            </li>
           </ul>
         </div>
       </div>
-      <div class='clear'></div>
-      <div class='article'>
-            <h1></h1>
-            The Future of CSS is Here .... It's Just Not Evenly Distributed
-            <div class='meta'>
-              <ul class='tags'>
-                <li>Dec 17, 2007</li>
-                <!-- disqus embed stuff was here -->
-                <li>&middot;</li>
-                <li>
-                  <a class='tag' href='/tags/css/'>
-                    css
-                  </a>
-                </li>
-                <li>
-                  <a class='tag' href='/tags/dry/'>
-                    dry
-                  </a>
-                </li>
-                <li>
-                  <a class='tag' href='/tags/ruby/'>
-                    ruby
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div class='body'>
-              In light of the <a href="http://www.stuffandnonsense.co.uk/malarkey/more/css_unworking_group/">litigious, melodramatic backwater that the CSS spec has fallen into</a>, I thought it would be worth writing up a teensy, non-brilliant-but-incredibly-useful DIY hack for stylesheets.
-              
-              <img src='/wp-content/uploads/future-is-now-slate.jpg' alt='The future is now' />In my mind, there is really no way of getting around CSS if you are working on the web. CSS makes your site ugly or beautiful, rendering a site in just a split second of processing right before your retinas pass information to your brain. I love it; it's one of my trustiest tools. Back in the day I did enough hard time with tables and inline FONT and MARGIN stuff that CSS really was a revelation for me.
-              
-              So yeah, CSS, I love you, even if you are spooky and crusty and awkward sometimes. And did I mention annoying? Ok sometimes REALLY annoying. ... Sometimes it's late, stuff's completely hosed by SOMETHING in this bloated stylesheet, and I realize that I've just learned to survive on CSS island with a sturdy coconut helmet and strong superstitions about absolute positioning or a negative margin or that extra wrapper div.
-              
-              That's mostly Microsoft's fault, but besides all the browser bugs, it's really a pretty dumb language. Seriously, what does it take to do a just bit of real vertical positioning without total hackery? And aren't computers good at this whole MATH thing? So why can't I do <code> p { width:(100% - 40px);}</code>
-              
-              Huh? I'm talking to you, CSS. I would break up with you if my salary didn't depend you. 
-              
-              ANYWAY, there's a good open source philosophy that goes something like "don't bitch without a better idea" so here's three issues that have a solution that I'd like to humbly point out actually have an existing solution. 
-              
-              <h2>First, The Solution:</h2> Parse your stylesheets on the server! You can do this in all kinds of languages and frameworks. Hell, you could even do it client-side with javascript if you really wanted to, but for my purposes I'm banging on Ruby on Rails and have fallen in love with the <a href="http://blog.airbladesoftware.com/2006/12/11/cssdryer-dry-up-your-css">CSS Dryer Plugin</a> which processes the stylesheet dynamically with ERB. (NOTE: READ THAT THERE FULL POST BEFORE JUMPING IN, COWBOY. There's an important bug with comments in blocks.) 
-              
-              This is decidedly a Not New Idea. But for some reason it's Just Not Done among most of the developers I work with, who I guess are probably also wearing coconut helmets and carrying around good luck charms. 
-              
-              And, let me tell you, this is decidedly one hack that I no longer am without. As long as you are already proficient with CSS it takes about an hour to figure it out, and then you will never look back. Seriously. This is a good one. I don't often write much technical stuff here.
-              
-              Here are the gigantic CSS annoyances that server-side CSS parsing solves for me:
-              
-              <h2>Problem 1: No Variables!</h2>
-              This is a trivial problem really when you start parsing your stylesheet. Most useful for setting a few color variables at the top of the sheet, then you can swap out pallets sitewide. Whiz Bang! Reason enough.
-              
-              <h2>Problem 2: Ridiculous Redundancy</h2>
-              A decent stylesheet has some degree of scope, which makes your stylesheet more readable and your styles most contextual. That is, instead of just saying <code>p {color:fuchsia;}</code> it really is best to have something more specific like <code>div.column p {color:fuchsia;}</code>. But then when you have to repeat the contextual selector (the stuff in front of the p element) every time. So CSS Dryer lets you turn this: 
-              
-              <code>&#x000A;	body#homepage div.column p {color:fuscia;}&#x000A;	body#homepage div.column p span {color:black;}</code>
-              
-              into this: 
-              
-              <code>&#x000A;body#homepage &#x000A;&nbsp; &nbsp; &nbsp; div.column {&#x000A;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  p {color:fuscia;&#x000A;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; span {color:black;}&#x000A;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }&#x000A;&nbsp; &nbsp; &nbsp;}&#x000A;}</code>
-              
-              WOOO! This is completely DRY code that renders into exactly the same thing as above before it hits the browser. So this example actually adds a few lines, sure, and it looks more complicated at first, but trust me, this is MONEY. On a stylesheet for a decent size application I ended up with about 25% fewer lines. This is great and all, but the real benefit of having every style nested in its proper context is actually solving ...
-              
-              <h2>Problem 3: Stylesheets Get Really Bloody Complicated for Big Sites and Teams</h2> 
-              Have you ever been on deadline and cranked out a big stylesheet at 3am and then had to come back to it in a month and actually make a tiny change, only to realize that hey, look, it seems like this should work, but somehow the damn padding on this div is being set in three places, and when I fix it the good and proper way just makes things go ALL to hell and now for some reason I've got to put <em>negative freaking margin</em> on this thing but it looks right so I guess I better get back to real work? I hate that. I write bad CSS. A lot. I'm busy and dumb. And it's maybe that I'm just distractible and impatient but dammit I'm gonna blame it on the fact that this stylesheet is HUGE and I'm tired and I can't Firebug this page enough to find all the relevant styles. You could also blame it on the other dorks on your team who don't use the same organizational rules that you've been using for years. Blame it on you ex-girlfriend. I don't care. Cause nested CSS fixes this junk COLD. Take an afternoon and rewrite the project you're on with nested CSS and you will have a stunning beauty of a stylesheet in which EVERYTHING has it's place. You feel like a samurai when you come back in a month. That style is set in ONE place. It won't save you from IE, but you feel like you're back in touch with the craft.
-            </div>
+      <div id='articles'>
+        <div class='article'>
+          <h1></h1>
+          The Future of CSS is Here .... It's Just Not Evenly Distributed
+          <div class='meta'>
+            <ul class='tags'>
+              <li>Dec 16, 2007</li>
+              <!-- disqus embed stuff was here -->
+              <li>&middot;</li>
+              <li>
+                <a class='tag' href='/tags/css/'>
+                  css
+                </a>
+              </li>
+              <li>
+                <a class='tag' href='/tags/dry/'>
+                  dry
+                </a>
+              </li>
+              <li>
+                <a class='tag' href='/tags/ruby/'>
+                  ruby
+                </a>
+              </li>
+            </ul>
           </div>
-      <div id='other-articles'>
-            <div class='older'>
-              <ul>
-                <li>
-                  <h3>
-                    <a href='/posts/2007/12/svn/up.html' title="&lt;img src='/wp-content/uploads/svn_up_fool.gif' alt='svn up' /&gt;">
-                      &laquo; svn up
-                    </a>
-                  </h3>
-                </li>
-                <li>
-                  <h3>
-                    <a href='/posts/2007/12/things/you/have/to/put/up/with/in/san/francisco/or/sign/of/the/bubble/234094.html' title="We need someone ACE for this infrastructure cause we're planning on tens maybe HUNDREDS of thousands of users. Fast.">
-                      &laquo; Stay Away From San Francisco (or: Sign of the Bubble #234094)
-                    </a>
-                  </h3>
-                </li>
-                <li>
-                  <h3>
-                    <a href='/posts/2007/12/move/to/san/francisco/now.html' title="Since this seems to be the advice that I've been giving to pretty much all of the geek + activisty folks that I know, I figured it bears repeating here: Move to San Francisco.">
-                      &laquo; Move to San Francisco. Now.
-                    </a>
-                  </h3>
-                </li>
-              </ul>
-            </div>
-            <div class='newer'>
-              <ul>
-                <li>
-                  <h3>
-                    <a href='/posts/2007/12/ok/nevermind/actually/the/future/is/in/the/past.html' title="What can you do with a fancy new photocopier that you couldn't do with one from 10 years ago? Not much. Once you've cleared the hurdle of cheap, pushbutton printing, you've launched yourself into a world of possibility greater than most people can deal with. You accomplish the most important part of the web just by being a great writer, and photocopying it.">
-                      OK, Nevermind. Actually, The Future is in the Past &raquo;
-                    </a>
-                  </h3>
-                </li>
-                <li>
-                  <h3>
-                    <a href='/posts/2008/1/kestrel/a/simple/web/app/for/community/supported/agriculture.html' title="The basic idea a simple and user-centered web app that helps facilitate ordering, billing and member management for CSA's. Things are JUST getting started and I am soliciting help in doing some feasibility research as well as a basic evaluation of existing CSA management applications. ">
-                      Kestrel: A Simple Web App for Community Supported Agriculture  &raquo;
-                    </a>
-                  </h3>
-                </li>
-                <li>
-                  <h3>
-                    <a href='/posts/2008/2/cellphones/ftw.html' title="My question is: where the hell are the tools for people who use cellphones in this way? (In particular, where are the banking tools and educational tools?) In the first world we've got $600 iphones that can &lt;em&gt;read your freaking mind&lt;/em&gt;. But a simple flashcard application for learning a few of the 62 languages spoken in Kenya?  It's not quite as sexy. ">
-                      Cellphones FTW &raquo;
-                    </a>
-                  </h3>
-                </li>
-              </ul>
-            </div>
+          <div class='body'>
+            In light of the <a href="http://www.stuffandnonsense.co.uk/malarkey/more/css_unworking_group/">litigious, melodramatic backwater that the CSS spec has fallen into</a>, I thought it would be worth writing up a teensy, non-brilliant-but-incredibly-useful DIY hack for stylesheets.
+            
+            <img src='/wp-content/uploads/future-is-now-slate.jpg' alt='The future is now' />In my mind, there is really no way of getting around CSS if you are working on the web. CSS makes your site ugly or beautiful, rendering a site in just a split second of processing right before your retinas pass information to your brain. I love it; it's one of my trustiest tools. Back in the day I did enough hard time with tables and inline FONT and MARGIN stuff that CSS really was a revelation for me.
+            
+            So yeah, CSS, I love you, even if you are spooky and crusty and awkward sometimes. And did I mention annoying? Ok sometimes REALLY annoying. ... Sometimes it's late, stuff's completely hosed by SOMETHING in this bloated stylesheet, and I realize that I've just learned to survive on CSS island with a sturdy coconut helmet and strong superstitions about absolute positioning or a negative margin or that extra wrapper div.
+            
+            That's mostly Microsoft's fault, but besides all the browser bugs, it's really a pretty dumb language. Seriously, what does it take to do a just bit of real vertical positioning without total hackery? And aren't computers good at this whole MATH thing? So why can't I do <code> p { width:(100% - 40px);}</code>
+            
+            Huh? I'm talking to you, CSS. I would break up with you if my salary didn't depend you. 
+            
+            ANYWAY, there's a good open source philosophy that goes something like "don't bitch without a better idea" so here's three issues that have a solution that I'd like to humbly point out actually have an existing solution. 
+            
+            <h2>First, The Solution:</h2> Parse your stylesheets on the server! You can do this in all kinds of languages and frameworks. Hell, you could even do it client-side with javascript if you really wanted to, but for my purposes I'm banging on Ruby on Rails and have fallen in love with the <a href="http://blog.airbladesoftware.com/2006/12/11/cssdryer-dry-up-your-css">CSS Dryer Plugin</a> which processes the stylesheet dynamically with ERB. (NOTE: READ THAT THERE FULL POST BEFORE JUMPING IN, COWBOY. There's an important bug with comments in blocks.) 
+            
+            This is decidedly a Not New Idea. But for some reason it's Just Not Done among most of the developers I work with, who I guess are probably also wearing coconut helmets and carrying around good luck charms. 
+            
+            And, let me tell you, this is decidedly one hack that I no longer am without. As long as you are already proficient with CSS it takes about an hour to figure it out, and then you will never look back. Seriously. This is a good one. I don't often write much technical stuff here.
+            
+            Here are the gigantic CSS annoyances that server-side CSS parsing solves for me:
+            
+            <h2>Problem 1: No Variables!</h2>
+            This is a trivial problem really when you start parsing your stylesheet. Most useful for setting a few color variables at the top of the sheet, then you can swap out pallets sitewide. Whiz Bang! Reason enough.
+            
+            <h2>Problem 2: Ridiculous Redundancy</h2>
+            A decent stylesheet has some degree of scope, which makes your stylesheet more readable and your styles most contextual. That is, instead of just saying <code>p {color:fuchsia;}</code> it really is best to have something more specific like <code>div.column p {color:fuchsia;}</code>. But then when you have to repeat the contextual selector (the stuff in front of the p element) every time. So CSS Dryer lets you turn this: 
+            
+            <code>&#x000A;	body#homepage div.column p {color:fuscia;}&#x000A;	body#homepage div.column p span {color:black;}</code>
+            
+            into this: 
+            
+            <code>&#x000A;body#homepage &#x000A;&nbsp; &nbsp; &nbsp; div.column {&#x000A;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  p {color:fuscia;&#x000A;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; span {color:black;}&#x000A;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }&#x000A;&nbsp; &nbsp; &nbsp;}&#x000A;}</code>
+            
+            WOOO! This is completely DRY code that renders into exactly the same thing as above before it hits the browser. So this example actually adds a few lines, sure, and it looks more complicated at first, but trust me, this is MONEY. On a stylesheet for a decent size application I ended up with about 25% fewer lines. This is great and all, but the real benefit of having every style nested in its proper context is actually solving ...
+            
+            <h2>Problem 3: Stylesheets Get Really Bloody Complicated for Big Sites and Teams</h2> 
+            Have you ever been on deadline and cranked out a big stylesheet at 3am and then had to come back to it in a month and actually make a tiny change, only to realize that hey, look, it seems like this should work, but somehow the damn padding on this div is being set in three places, and when I fix it the good and proper way just makes things go ALL to hell and now for some reason I've got to put <em>negative freaking margin</em> on this thing but it looks right so I guess I better get back to real work? I hate that. I write bad CSS. A lot. I'm busy and dumb. And it's maybe that I'm just distractible and impatient but dammit I'm gonna blame it on the fact that this stylesheet is HUGE and I'm tired and I can't Firebug this page enough to find all the relevant styles. You could also blame it on the other dorks on your team who don't use the same organizational rules that you've been using for years. Blame it on you ex-girlfriend. I don't care. Cause nested CSS fixes this junk COLD. Take an afternoon and rewrite the project you're on with nested CSS and you will have a stunning beauty of a stylesheet in which EVERYTHING has it's place. You feel like a samurai when you come back in a month. That style is set in ONE place. It won't save you from IE, but you feel like you're back in touch with the craft.
           </div>
-      <div class='clear'></div>
-      <div class='comments'>
-            <div id='disqus_thread'></div>
-            <script src='http://disqus.com/forums/unthinkingly-blog/embed.js' type='text/javascript'></script>
-            <noscript>
-              <a href='http://disqus.com/forums/unthinkingly-blog/?url=ref'>
-                View the discussion thread
-              </a>
-            </noscript>
+        </div>
+        <div id='other-articles'>
+          <div class='older'>
+            <ul>
+              <li>
+                <h3>
+                  <a href='/posts/2007/12/svn/up.html' title='&lt;img src=&#39;/wp-content/uploads/svn_up_fool.gif&#39; alt=&#39;svn up&#39; /&gt;'>
+                    &laquo; svn up
+                  </a>
+                </h3>
+              </li>
+              <li>
+                <h3>
+                  <a href='/posts/2007/12/things/you/have/to/put/up/with/in/san/francisco/or/sign/of/the/bubble/234094.html' title='We need someone ACE for this infrastructure cause we&#39;re planning on tens maybe HUNDREDS of thousands of users. Fast.'>
+                    &laquo; Stay Away From San Francisco (or: Sign of the Bubble #234094)
+                  </a>
+                </h3>
+              </li>
+              <li>
+                <h3>
+                  <a href='/posts/2007/12/move/to/san/francisco/now.html' title='Since this seems to be the advice that I&#39;ve been giving to pretty much all of the geek + activisty folks that I know, I figured it bears repeating here: Move to San Francisco.'>
+                    &laquo; Move to San Francisco. Now.
+                  </a>
+                </h3>
+              </li>
+            </ul>
           </div>
-          <!-- / disqus adds too much visual crap -->
-          <style type='text/css'>
-            .dsq-dc-logo {
-              display: none !important; }
-          </style>
-      <div class='clear'></div>
+          <div class='newer'>
+            <ul>
+              <li>
+                <h3>
+                  <a href='/posts/2007/12/ok/nevermind/actually/the/future/is/in/the/past.html' title='What can you do with a fancy new photocopier that you couldn&#39;t do with one from 10 years ago? Not much. Once you&#39;ve cleared the hurdle of cheap, pushbutton printing, you&#39;ve launched yourself into a world of possibility greater than most people can deal with. You accomplish the most important part of the web just by being a great writer, and photocopying it.'>
+                    OK, Nevermind. Actually, The Future is in the Past &raquo;
+                  </a>
+                </h3>
+              </li>
+              <li>
+                <h3>
+                  <a href='/posts/2008/1/kestrel/a/simple/web/app/for/community/supported/agriculture.html' title='The basic idea a simple and user-centered web app that helps facilitate ordering, billing and member management for CSA&#39;s. Things are JUST getting started and I am soliciting help in doing some feasibility research as well as a basic evaluation of existing CSA management applications. '>
+                    Kestrel: A Simple Web App for Community Supported Agriculture  &raquo;
+                  </a>
+                </h3>
+              </li>
+              <li>
+                <h3>
+                  <a href='/posts/2008/2/cellphones/ftw.html' title='My question is: where the hell are the tools for people who use cellphones in this way? (In particular, where are the banking tools and educational tools?) In the first world we&#39;ve got $600 iphones that can &lt;em&gt;read your freaking mind&lt;/em&gt;. But a simple flashcard application for learning a few of the 62 languages spoken in Kenya?  It&#39;s not quite as sexy. '>
+                    Cellphones FTW &raquo;
+                  </a>
+                </h3>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div id='footer'>
+        <div class='link'>
+          <a href='http://flickr.com/unthinkingly'>
+            flickr.com/unthinkingly
+          </a>
+        </div>
+        <div class='link'>
+          <a href='http://twitter.com/unthinkingly'>
+            twitter.com/unthinkingly
+          </a>
+        </div>
+        <div class='link'>
+          <a href='http://pinboard.in/u:unthinkingly'>
+            pinboard.in/u:unthinkingly
+          </a>
+        </div>
+        <div id='taglist'>
+          <a class='tag' href='/tags/BoP/'>
+            BoP
+          </a>
+          <a class='tag' href='/tags/DDN/'>
+            DDN
+          </a>
+          <a class='tag' href='/tags/EFF/'>
+            EFF
+          </a>
+          <a class='tag' href='/tags/GIS/'>
+            GIS
+          </a>
+          <a class='tag' href='/tags/ICT4D/'>
+            ICT4D
+          </a>
+          <a class='tag' href='/tags/InSTEDD/'>
+            InSTEDD
+          </a>
+          <a class='tag' href='/tags/IxD/'>
+            IxD
+          </a>
+          <a class='tag' href='/tags/NPR/'>
+            NPR
+          </a>
+          <a class='tag' href='/tags/NYT/'>
+            NYT
+          </a>
+          <a class='tag' href='/tags/OSM/'>
+            OSM
+          </a>
+          <a class='tag' href='/tags/WISIS/'>
+            WISIS
+          </a>
+          <a class='tag' href='/tags/XP/'>
+            XP
+          </a>
+          <a class='tag' href='/tags/academic/'>
+            academic
+          </a>
+          <a class='tag' href='/tags/acarvin/'>
+            acarvin
+          </a>
+          <a class='tag' href='/tags/access/'>
+            access
+          </a>
+          <a class='tag' href='/tags/accessibility/'>
+            accessibility
+          </a>
+          <a class='tag' href='/tags/activism/'>
+            activism
+          </a>
+          <a class='tag' href='/tags/adaptivepath/'>
+            adaptivepath
+          </a>
+          <a class='tag' href='/tags/advertising/'>
+            advertising
+          </a>
+          <a class='tag' href='/tags/aesthetics/'>
+            aesthetics
+          </a>
+          <a class='tag' href='/tags/africa/'>
+            africa
+          </a>
+          <a class='tag' href='/tags/aggregation/'>
+            aggregation
+          </a>
+          <a class='tag' href='/tags/agile/'>
+            agile
+          </a>
+          <a class='tag' href='/tags/agriculture/'>
+            agriculture
+          </a>
+          <a class='tag' href='/tags/algorithm/'>
+            algorithm
+          </a>
+          <a class='tag' href='/tags/altruism/'>
+            altruism
+          </a>
+          <a class='tag' href='/tags/analytics/'>
+            analytics
+          </a>
+          <a class='tag' href='/tags/android/'>
+            android
+          </a>
+          <a class='tag' href='/tags/anecdote/'>
+            anecdote
+          </a>
+          <a class='tag' href='/tags/architecture/'>
+            architecture
+          </a>
+          <a class='tag' href='/tags/archiving/'>
+            archiving
+          </a>
+          <a class='tag' href='/tags/artifact/'>
+            artifact
+          </a>
+          <a class='tag' href='/tags/audio/'>
+            audio
+          </a>
+          <a class='tag' href='/tags/baobab/'>
+            baobab
+          </a>
+          <a class='tag' href='/tags/bayCHI/'>
+            bayCHI
+          </a>
+          <a class='tag' href='/tags/beards/'>
+            beards
+          </a>
+          <a class='tag' href='/tags/beck/'>
+            beck
+          </a>
+          <a class='tag' href='/tags/biofuels/'>
+            biofuels
+          </a>
+          <a class='tag' href='/tags/blog/'>
+            blog
+          </a>
+          <a class='tag' href='/tags/blogging/'>
+            blogging
+          </a>
+          <a class='tag' href='/tags/blogosphere/'>
+            blogosphere
+          </a>
+          <a class='tag' href='/tags/book/'>
+            book
+          </a>
+          <a class='tag' href='/tags/books/'>
+            books
+          </a>
+          <a class='tag' href='/tags/branding/'>
+            branding
+          </a>
+          <a class='tag' href='/tags/broadband/'>
+            broadband
+          </a>
+          <a class='tag' href='/tags/buxton/'>
+            buxton
+          </a>
+          <a class='tag' href='/tags/caching/'>
+            caching
+          </a>
+          <a class='tag' href='/tags/cambodia/'>
+            cambodia
+          </a>
+          <a class='tag' href='/tags/cc/'>
+            cc
+          </a>
+          <a class='tag' href='/tags/censorship/'>
+            censorship
+          </a>
+          <a class='tag' href='/tags/charity/'>
+            charity
+          </a>
+          <a class='tag' href='/tags/chat/'>
+            chat
+          </a>
+          <a class='tag' href='/tags/china/'>
+            china
+          </a>
+          <a class='tag' href='/tags/citizeneditors/'>
+            citizeneditors
+          </a>
+          <a class='tag' href='/tags/civicengineer/'>
+            civicengineer
+          </a>
+          <a class='tag' href='/tags/cleveland/'>
+            cleveland
+          </a>
+          <a class='tag' href='/tags/cli/'>
+            cli
+          </a>
+          <a class='tag' href='/tags/code/'>
+            code
+          </a>
+          <a class='tag' href='/tags/collaboration/'>
+            collaboration
+          </a>
+          <a class='tag' href='/tags/collective/'>
+            collective
+          </a>
+          <a class='tag' href='/tags/colonialism/'>
+            colonialism
+          </a>
+          <a class='tag' href='/tags/color/'>
+            color
+          </a>
+          <a class='tag' href='/tags/commons/'>
+            commons
+          </a>
+          <a class='tag' href='/tags/community/'>
+            community
+          </a>
+          <a class='tag' href='/tags/conference/'>
+            conference
+          </a>
+          <a class='tag' href='/tags/content/'>
+            content
+          </a>
+          <a class='tag' href='/tags/cooper/'>
+            cooper
+          </a>
+          <a class='tag' href='/tags/cooperation/'>
+            cooperation
+          </a>
+          <a class='tag' href='/tags/crisis/'>
+            crisis
+          </a>
+          <a class='tag' href='/tags/crisiscamp/'>
+            crisiscamp
+          </a>
+          <a class='tag' href='/tags/crisismapping/'>
+            crisismapping
+          </a>
+          <a class='tag' href='/tags/crowdsourcing/'>
+            crowdsourcing
+          </a>
+          <a class='tag' href='/tags/cs/'>
+            cs
+          </a>
+          <a class='tag' href='/tags/css/'>
+            css
+          </a>
+          <a class='tag' href='/tags/culture/'>
+            culture
+          </a>
+          <a class='tag' href='/tags/culturejamming/'>
+            culturejamming
+          </a>
+          <a class='tag' href='/tags/darfur/'>
+            darfur
+          </a>
+          <a class='tag' href='/tags/dashboard/'>
+            dashboard
+          </a>
+          <a class='tag' href='/tags/data/'>
+            data
+          </a>
+          <a class='tag' href='/tags/dataviz/'>
+            dataviz
+          </a>
+          <a class='tag' href='/tags/debate/'>
+            debate
+          </a>
+          <a class='tag' href='/tags/debian/'>
+            debian
+          </a>
+          <a class='tag' href='/tags/delicious/'>
+            delicious
+          </a>
+          <a class='tag' href='/tags/design/'>
+            design
+          </a>
+          <a class='tag' href='/tags/designfailure/'>
+            designfailure
+          </a>
+          <a class='tag' href='/tags/desktop/'>
+            desktop
+          </a>
+          <a class='tag' href='/tags/develoment/'>
+            develoment
+          </a>
+          <a class='tag' href='/tags/developers/'>
+            developers
+          </a>
+          <a class='tag' href='/tags/development/'>
+            development
+          </a>
+          <a class='tag' href='/tags/disaster/'>
+            disaster
+          </a>
+          <a class='tag' href='/tags/doomedculture/'>
+            doomedculture
+          </a>
+          <a class='tag' href='/tags/dry/'>
+            dry
+          </a>
+          <a class='tag' href='/tags/education/'>
+            education
+          </a>
+          <a class='tag' href='/tags/elections/'>
+            elections
+          </a>
+          <a class='tag' href='/tags/electricity/'>
+            electricity
+          </a>
+          <a class='tag' href='/tags/email/'>
+            email
+          </a>
+          <a class='tag' href='/tags/emotion/'>
+            emotion
+          </a>
+          <a class='tag' href='/tags/engagement/'>
+            engagement
+          </a>
+          <a class='tag' href='/tags/engelbart/'>
+            engelbart
+          </a>
+          <a class='tag' href='/tags/environment/'>
+            environment
+          </a>
+          <a class='tag' href='/tags/eriders/'>
+            eriders
+          </a>
+          <a class='tag' href='/tags/etech/'>
+            etech
+          </a>
+          <a class='tag' href='/tags/ethan/'>
+            ethan
+          </a>
+          <a class='tag' href='/tags/ethanZ/'>
+            ethanZ
+          </a>
+          <a class='tag' href='/tags/ethanz/'>
+            ethanz
+          </a>
+          <a class='tag' href='/tags/ethiopia/'>
+            ethiopia
+          </a>
+          <a class='tag' href='/tags/evaluation/'>
+            evaluation
+          </a>
+          <a class='tag' href='/tags/event/'>
+            event
+          </a>
+          <a class='tag' href='/tags/experiment/'>
+            experiment
+          </a>
+          <a class='tag' href='/tags/failedsociety/'>
+            failedsociety
+          </a>
+          <a class='tag' href='/tags/feminism/'>
+            feminism
+          </a>
+          <a class='tag' href='/tags/finability/'>
+            finability
+          </a>
+          <a class='tag' href='/tags/findability/'>
+            findability
+          </a>
+          <a class='tag' href='/tags/flickr/'>
+            flickr
+          </a>
+          <a class='tag' href='/tags/floksonomy/'>
+            floksonomy
+          </a>
+          <a class='tag' href='/tags/foss/'>
+            foss
+          </a>
+          <a class='tag' href='/tags/freespeech/'>
+            freespeech
+          </a>
+          <a class='tag' href='/tags/fudraising/'>
+            fudraising
+          </a>
+          <a class='tag' href='/tags/futurism/'>
+            futurism
+          </a>
+          <a class='tag' href='/tags/gapminder/'>
+            gapminder
+          </a>
+          <a class='tag' href='/tags/geekcorps/'>
+            geekcorps
+          </a>
+          <a class='tag' href='/tags/gender/'>
+            gender
+          </a>
+          <a class='tag' href='/tags/geo/'>
+            geo
+          </a>
+          <a class='tag' href='/tags/geodata/'>
+            geodata
+          </a>
+          <a class='tag' href='/tags/google/'>
+            google
+          </a>
+          <a class='tag' href='/tags/gopher/'>
+            gopher
+          </a>
+          <a class='tag' href='/tags/gould/'>
+            gould
+          </a>
+          <a class='tag' href='/tags/gov/'>
+            gov
+          </a>
+          <a class='tag' href='/tags/gradschool/'>
+            gradschool
+          </a>
+          <a class='tag' href='/tags/groupware/'>
+            groupware
+          </a>
+          <a class='tag' href='/tags/guide/'>
+            guide
+          </a>
+          <a class='tag' href='/tags/hack/'>
+            hack
+          </a>
+          <a class='tag' href='/tags/hackers/'>
+            hackers
+          </a>
+          <a class='tag' href='/tags/haiti/'>
+            haiti
+          </a>
+          <a class='tag' href='/tags/hashtags/'>
+            hashtags
+          </a>
+          <a class='tag' href='/tags/health/'>
+            health
+          </a>
+          <a class='tag' href='/tags/hippies/'>
+            hippies
+          </a>
+          <a class='tag' href='/tags/history/'>
+            history
+          </a>
+          <a class='tag' href='/tags/hosting/'>
+            hosting
+          </a>
+          <a class='tag' href='/tags/humanitarian/'>
+            humanitarian
+          </a>
+          <a class='tag' href='/tags/i18n/'>
+            i18n
+          </a>
+          <a class='tag' href='/tags/ibm/'>
+            ibm
+          </a>
+          <a class='tag' href='/tags/ict/'>
+            ict
+          </a>
+          <a class='tag' href='/tags/ict4d/'>
+            ict4d
+          </a>
+          <a class='tag' href='/tags/ict4gov/'>
+            ict4gov
+          </a>
+          <a class='tag' href='/tags/identity/'>
+            identity
+          </a>
+          <a class='tag' href='/tags/ie/'>
+            ie
+          </a>
+          <a class='tag' href='/tags/im/'>
+            im
+          </a>
+          <a class='tag' href='/tags/india/'>
+            india
+          </a>
+          <a class='tag' href='/tags/infoviz/'>
+            infoviz
+          </a>
+          <a class='tag' href='/tags/intel/'>
+            intel
+          </a>
+          <a class='tag' href='/tags/interaction/'>
+            interaction
+          </a>
+          <a class='tag' href='/tags/internationalization/'>
+            internationalization
+          </a>
+          <a class='tag' href='/tags/internet/'>
+            internet
+          </a>
+          <a class='tag' href='/tags/iphone/'>
+            iphone
+          </a>
+          <a class='tag' href='/tags/irc/'>
+            irc
+          </a>
+          <a class='tag' href='/tags/irm/'>
+            irm
+          </a>
+          <a class='tag' href='/tags/ixd/'>
+            ixd
+          </a>
+          <a class='tag' href='/tags/javascript/'>
+            javascript
+          </a>
+          <a class='tag' href='/tags/journal/'>
+            journal
+          </a>
+          <a class='tag' href='/tags/journalism/'>
+            journalism
+          </a>
+          <a class='tag' href='/tags/katrina/'>
+            katrina
+          </a>
+          <a class='tag' href='/tags/kestrel/'>
+            kestrel
+          </a>
+          <a class='tag' href='/tags/kilgallen/'>
+            kilgallen
+          </a>
+          <a class='tag' href='/tags/kurdish/'>
+            kurdish
+          </a>
+          <a class='tag' href='/tags/labor/'>
+            labor
+          </a>
+          <a class='tag' href='/tags/language/'>
+            language
+          </a>
+          <a class='tag' href='/tags/law/'>
+            law
+          </a>
+          <a class='tag' href='/tags/learning/'>
+            learning
+          </a>
+          <a class='tag' href='/tags/license/'>
+            license
+          </a>
+          <a class='tag' href='/tags/linux/'>
+            linux
+          </a>
+          <a class='tag' href='/tags/listservs/'>
+            listservs
+          </a>
+          <a class='tag' href='/tags/literacy/'>
+            literacy
+          </a>
+          <a class='tag' href='/tags/loband/'>
+            loband
+          </a>
+          <a class='tag' href='/tags/location/'>
+            location
+          </a>
+          <a class='tag' href='/tags/london/'>
+            london
+          </a>
+          <a class='tag' href='/tags/magazines/'>
+            magazines
+          </a>
+          <a class='tag' href='/tags/mali/'>
+            mali
+          </a>
+          <a class='tag' href='/tags/manyeyes/'>
+            manyeyes
+          </a>
+          <a class='tag' href='/tags/mapping/'>
+            mapping
+          </a>
+          <a class='tag' href='/tags/maps/'>
+            maps
+          </a>
+          <a class='tag' href='/tags/marketing/'>
+            marketing
+          </a>
+          <a class='tag' href='/tags/materialism/'>
+            materialism
+          </a>
+          <a class='tag' href='/tags/mdg/'>
+            mdg
+          </a>
+          <a class='tag' href='/tags/measurement/'>
+            measurement
+          </a>
+          <a class='tag' href='/tags/media/'>
+            media
+          </a>
+          <a class='tag' href='/tags/meedan/'>
+            meedan
+          </a>
+          <a class='tag' href='/tags/meetup/'>
+            meetup
+          </a>
+          <a class='tag' href='/tags/mentalhealth/'>
+            mentalhealth
+          </a>
+          <a class='tag' href='/tags/meta/'>
+            meta
+          </a>
+          <a class='tag' href='/tags/method/'>
+            method
+          </a>
+          <a class='tag' href='/tags/methodology/'>
+            methodology
+          </a>
+          <a class='tag' href='/tags/metrics/'>
+            metrics
+          </a>
+          <a class='tag' href='/tags/microsyntax/'>
+            microsyntax
+          </a>
+          <a class='tag' href='/tags/mobile/'>
+            mobile
+          </a>
+          <a class='tag' href='/tags/mobiles/'>
+            mobiles
+          </a>
+          <a class='tag' href='/tags/money/'>
+            money
+          </a>
+          <a class='tag' href='/tags/moulin/'>
+            moulin
+          </a>
+          <a class='tag' href='/tags/mozillla/'>
+            mozillla
+          </a>
+          <a class='tag' href='/tags/muppets/'>
+            muppets
+          </a>
+          <a class='tag' href='/tags/music/'>
+            music
+          </a>
+          <a class='tag' href='/tags/nc/'>
+            nc
+          </a>
+          <a class='tag' href='/tags/netcorps/'>
+            netcorps
+          </a>
+          <a class='tag' href='/tags/networking/'>
+            networking
+          </a>
+          <a class='tag' href='/tags/news/'>
+            news
+          </a>
+          <a class='tag' href='/tags/newsvine/'>
+            newsvine
+          </a>
+          <a class='tag' href='/tags/nola/'>
+            nola
+          </a>
+          <a class='tag' href='/tags/nonprofit/'>
+            nonprofit
+          </a>
+          <a class='tag' href='/tags/nptech/'>
+            nptech
+          </a>
+          <a class='tag' href='/tags/nten/'>
+            nten
+          </a>
+          <a class='tag' href='/tags/oer/'>
+            oer
+          </a>
+          <a class='tag' href='/tags/olpc/'>
+            olpc
+          </a>
+          <a class='tag' href='/tags/open/'>
+            open
+          </a>
+          <a class='tag' href='/tags/openaccess/'>
+            openaccess
+          </a>
+          <a class='tag' href='/tags/opensource/'>
+            opensource
+          </a>
+          <a class='tag' href='/tags/ops/'>
+            ops
+          </a>
+          <a class='tag' href='/tags/optimization/'>
+            optimization
+          </a>
+          <a class='tag' href='/tags/orgs/'>
+            orgs
+          </a>
+          <a class='tag' href='/tags/orwell/'>
+            orwell
+          </a>
+          <a class='tag' href='/tags/participatory/'>
+            participatory
+          </a>
+          <a class='tag' href='/tags/payments/'>
+            payments
+          </a>
+          <a class='tag' href='/tags/paypal/'>
+            paypal
+          </a>
+          <a class='tag' href='/tags/peoplefinder/'>
+            peoplefinder
+          </a>
+          <a class='tag' href='/tags/philanthropy/'>
+            philanthropy
+          </a>
+          <a class='tag' href='/tags/philosophy/'>
+            philosophy
+          </a>
+          <a class='tag' href='/tags/photocopiers/'>
+            photocopiers
+          </a>
+          <a class='tag' href='/tags/photography/'>
+            photography
+          </a>
+          <a class='tag' href='/tags/pod/'>
+            pod
+          </a>
+          <a class='tag' href='/tags/podcasting/'>
+            podcasting
+          </a>
+          <a class='tag' href='/tags/politics/'>
+            politics
+          </a>
+          <a class='tag' href='/tags/portland/'>
+            portland
+          </a>
+          <a class='tag' href='/tags/poverty/'>
+            poverty
+          </a>
+          <a class='tag' href='/tags/power/'>
+            power
+          </a>
+          <a class='tag' href='/tags/presentation/'>
+            presentation
+          </a>
+          <a class='tag' href='/tags/press/'>
+            press
+          </a>
+          <a class='tag' href='/tags/privacy/'>
+            privacy
+          </a>
+          <a class='tag' href='/tags/programming/'>
+            programming
+          </a>
+          <a class='tag' href='/tags/project/'>
+            project
+          </a>
+          <a class='tag' href='/tags/psychology/'>
+            psychology
+          </a>
+          <a class='tag' href='/tags/publishing/'>
+            publishing
+          </a>
+          <a class='tag' href='/tags/qualitative/'>
+            qualitative
+          </a>
+          <a class='tag' href='/tags/quantitative/'>
+            quantitative
+          </a>
+          <a class='tag' href='/tags/rails/'>
+            rails
+          </a>
+          <a class='tag' href='/tags/reading/'>
+            reading
+          </a>
+          <a class='tag' href='/tags/recycling/'>
+            recycling
+          </a>
+          <a class='tag' href='/tags/reliefweb/'>
+            reliefweb
+          </a>
+          <a class='tag' href='/tags/report/'>
+            report
+          </a>
+          <a class='tag' href='/tags/research/'>
+            research
+          </a>
+          <a class='tag' href='/tags/reserch/'>
+            reserch
+          </a>
+          <a class='tag' href='/tags/rimuhosting/'>
+            rimuhosting
+          </a>
+          <a class='tag' href='/tags/rosenfeld/'>
+            rosenfeld
+          </a>
+          <a class='tag' href='/tags/rss/'>
+            rss
+          </a>
+          <a class='tag' href='/tags/rtpnet/'>
+            rtpnet
+          </a>
+          <a class='tag' href='/tags/ruby/'>
+            ruby
+          </a>
+          <a class='tag' href='/tags/rural/'>
+            rural
+          </a>
+          <a class='tag' href='/tags/scholarship/'>
+            scholarship
+          </a>
+          <a class='tag' href='/tags/scriptaculous/'>
+            scriptaculous
+          </a>
+          <a class='tag' href='/tags/search/'>
+            search
+          </a>
+          <a class='tag' href='/tags/security/'>
+            security
+          </a>
+          <a class='tag' href='/tags/semantic/'>
+            semantic
+          </a>
+          <a class='tag' href='/tags/seo/'>
+            seo
+          </a>
+          <a class='tag' href='/tags/servicedesign/'>
+            servicedesign
+          </a>
+          <a class='tag' href='/tags/sexism/'>
+            sexism
+          </a>
+          <a class='tag' href='/tags/sf/'>
+            sf
+          </a>
+          <a class='tag' href='/tags/sketches/'>
+            sketches
+          </a>
+          <a class='tag' href='/tags/slashtags/'>
+            slashtags
+          </a>
+          <a class='tag' href='/tags/sms/'>
+            sms
+          </a>
+          <a class='tag' href='/tags/social/'>
+            social
+          </a>
+          <a class='tag' href='/tags/software/'>
+            software
+          </a>
+          <a class='tag' href='/tags/spam/'>
+            spam
+          </a>
+          <a class='tag' href='/tags/stock/'>
+            stock
+          </a>
+          <a class='tag' href='/tags/strategy/'>
+            strategy
+          </a>
+          <a class='tag' href='/tags/street/'>
+            street
+          </a>
+          <a class='tag' href='/tags/subversion/'>
+            subversion
+          </a>
+          <a class='tag' href='/tags/surey/'>
+            surey
+          </a>
+          <a class='tag' href='/tags/surveillance/'>
+            surveillance
+          </a>
+          <a class='tag' href='/tags/survey/'>
+            survey
+          </a>
+          <a class='tag' href='/tags/surveys/'>
+            surveys
+          </a>
+          <a class='tag' href='/tags/sustainability/'>
+            sustainability
+          </a>
+          <a class='tag' href='/tags/svn/'>
+            svn
+          </a>
+          <a class='tag' href='/tags/swedow/'>
+            swedow
+          </a>
+          <a class='tag' href='/tags/swift/'>
+            swift
+          </a>
+          <a class='tag' href='/tags/sysadmin/'>
+            sysadmin
+          </a>
+          <a class='tag' href='/tags/tablet/'>
+            tablet
+          </a>
+          <a class='tag' href='/tags/tagging/'>
+            tagging
+          </a>
+          <a class='tag' href='/tags/tags/'>
+            tags
+          </a>
+          <a class='tag' href='/tags/technique/'>
+            technique
+          </a>
+          <a class='tag' href='/tags/technology/'>
+            technology
+          </a>
+          <a class='tag' href='/tags/techsoup/'>
+            techsoup
+          </a>
+          <a class='tag' href='/tags/ted/'>
+            ted
+          </a>
+          <a class='tag' href='/tags/televangelism/'>
+            televangelism
+          </a>
+          <a class='tag' href='/tags/telnet/'>
+            telnet
+          </a>
+          <a class='tag' href='/tags/testing/'>
+            testing
+          </a>
+          <a class='tag' href='/tags/theindustry/'>
+            theindustry
+          </a>
+          <a class='tag' href='/tags/theory/'>
+            theory
+          </a>
+          <a class='tag' href='/tags/tools/'>
+            tools
+          </a>
+          <a class='tag' href='/tags/touch/'>
+            touch
+          </a>
+          <a class='tag' href='/tags/transcript/'>
+            transcript
+          </a>
+          <a class='tag' href='/tags/translation/'>
+            translation
+          </a>
+          <a class='tag' href='/tags/trauma/'>
+            trauma
+          </a>
+          <a class='tag' href='/tags/trust/'>
+            trust
+          </a>
+          <a class='tag' href='/tags/ttc/'>
+            ttc
+          </a>
+          <a class='tag' href='/tags/tunisia/'>
+            tunisia
+          </a>
+          <a class='tag' href='/tags/tutorial/'>
+            tutorial
+          </a>
+          <a class='tag' href='/tags/twitter/'>
+            twitter
+          </a>
+          <a class='tag' href='/tags/typography/'>
+            typography
+          </a>
+          <a class='tag' href='/tags/ubuntu/'>
+            ubuntu
+          </a>
+          <a class='tag' href='/tags/ui/'>
+            ui
+          </a>
+          <a class='tag' href='/tags/un/'>
+            un
+          </a>
+          <a class='tag' href='/tags/unix/'>
+            unix
+          </a>
+          <a class='tag' href='/tags/usability/'>
+            usability
+          </a>
+          <a class='tag' href='/tags/ushahidi/'>
+            ushahidi
+          </a>
+          <a class='tag' href='/tags/ux/'>
+            ux
+          </a>
+          <a class='tag' href='/tags/uzbekistan/'>
+            uzbekistan
+          </a>
+          <a class='tag' href='/tags/video/'>
+            video
+          </a>
+          <a class='tag' href='/tags/visualization/'>
+            visualization
+          </a>
+          <a class='tag' href='/tags/war/'>
+            war
+          </a>
+          <a class='tag' href='/tags/waste/'>
+            waste
+          </a>
+          <a class='tag' href='/tags/webdev/'>
+            webdev
+          </a>
+          <a class='tag' href='/tags/wherecamp/'>
+            wherecamp
+          </a>
+          <a class='tag' href='/tags/wifi/'>
+            wifi
+          </a>
+          <a class='tag' href='/tags/wikipedia/'>
+            wikipedia
+          </a>
+          <a class='tag' href='/tags/windmills/'>
+            windmills
+          </a>
+          <a class='tag' href='/tags/women/'>
+            women
+          </a>
+          <a class='tag' href='/tags/wordpress/'>
+            wordpress
+          </a>
+          <a class='tag' href='/tags/worldbank/'>
+            worldbank
+          </a>
+          <a class='tag' href='/tags/worldchanging/'>
+            worldchanging
+          </a>
+          <a class='tag' href='/tags/wsis/'>
+            wsis
+          </a>
+          <a class='tag' href='/tags/yahoo/'>
+            yahoo
+          </a>
+          <a class='tag' href='/tags/zimbabwe/'>
+            zimbabwe
+          </a>
+          <a class='tag' href='/tags/zines/'>
+            zines
+          </a>
+          <a class='tag' href='/tags/zuckerman/'>
+            zuckerman
+          </a>
+        </div>
+      </div>
     </div>
   </body>
 </html>

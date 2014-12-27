@@ -4,6 +4,7 @@ include Nanoc3::Helpers::XMLSitemap
 require 'builder'
 require 'fileutils'
 require 'time'
+require 'pry'
 
 require 'rubygems'
 require 'nokogiri'
@@ -124,7 +125,9 @@ def articles_by_year_month
   current_year = current_month = year_h = month_a = nil
 
   sorted_articles.each do |item|
-    d = Date.parse(item[:created_at])
+    # binding.pry
+    
+    d = Date.parse(item[:created_at].to_s)
     if current_year != d.year
       current_month = nil
       current_year = d.year
@@ -181,7 +184,7 @@ def site_name
 end
 
 def pretty_time(time)
-  Time.parse(time).strftime("%b %d, %Y") if !time.nil?
+  Time.parse(time.to_s).strftime("%b %d, %Y") if !time.nil?
 end
 
 def featured_count

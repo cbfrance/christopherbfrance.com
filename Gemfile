@@ -10,3 +10,5 @@ gem "rdiscount"
 gem "builder"
 gem "activesupport"
 gem "nokogiri"
+gem "pry"
+gem 'sass', '~> 3.1.18'

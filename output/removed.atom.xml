@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>http://unthinkingly.com/</id>
   <title>unthinkingly.com feed</title>
-  <updated>2010-04-02T02:12:10Z</updated>
+  <updated>2010-04-01T19:12:10Z</updated>
   <link rel="alternate" href="http://unthinkingly.com/"/>
   <link rel="self" href="http://unthinkingly.com/removed.atom.xml"/>
   <author>
@@ -12,7 +12,7 @@
   <entry>
     <id>tag:unthinkingly.com,2010-04-01:/posts/2010/4/dont/pitch/me.html</id>
     <title type="html">Don't pitch me.</title>
-    <published>2010-04-02T02:12:10Z</published>
+    <published>2010-04-01T19:12:10Z</published>
     <updated>2011-08-08T04:59:03Z</updated>
     <link rel="alternate" href="http://unthinkingly.com/posts/2010/4/dont/pitch/me.html"/>
     <content type="html">&lt;p&gt;Last week I read this article on ReadWriteWeb that advises a startup to "&lt;a href="http://www.readwriteweb.com/start/2010/03/give-it-to-them-straight-avoid-pitching-to-your-board.php"&gt;Give It to Them Straight: Avoid "Pitching" to Your Board&lt;/a&gt;." The article explains how it can be bad to exaggerate your product and cover up problems that you are experiencing in development:&lt;/p&gt;
@@ -37,7 +37,7 @@
   <entry>
     <id>tag:unthinkingly.com,2010-03-15:/posts/2010/3/recent/meedan/press.html</id>
     <title type="html">Recent Meedan press</title>
-    <published>2010-03-15T15:07:21Z</published>
+    <published>2010-03-15T08:07:21Z</published>
     <updated>2011-08-08T04:59:03Z</updated>
     <link rel="alternate" href="http://unthinkingly.com/posts/2010/3/recent/meedan/press.html"/>
     <content type="html">&lt;p&gt;I've had a great time working at Meedan recently as Director of Miscellany. We recently rolled out an update of the site and took of the "beta" label (it was out of style anyway).&lt;/p&gt;
@@ -84,7 +84,7 @@ The point is to not hide the messiness of translation and keep the reminder that
   <entry>
     <id>tag:unthinkingly.com,2010-01-23:/posts/2010/1/what/could/possibly/go/wrong.html</id>
     <title type="html">What could possibly go wrong? </title>
-    <published>2010-01-23T17:48:42Z</published>
+    <published>2010-01-23T09:48:42Z</published>
     <updated>2010-09-09T06:22:27Z</updated>
     <link rel="alternate" href="http://unthinkingly.com/posts/2010/1/what/could/possibly/go/wrong.html"/>
     <content type="html">&lt;p&gt;What could possibly go wrong?  Thousands of volunteer hackers break ground on dozens of projects at a bunch of hastily organized unconferences promising to &lt;em&gt;Save Haiti&lt;/em&gt;?&lt;/p&gt;
@@ -108,7 +108,7 @@ The point is to not hide the messiness of translation and keep the reminder that
   <entry>
     <id>tag:unthinkingly.com,2009-11-09:/posts/2009/11/slashtags/for/citizen/editors.html</id>
     <title type="html">'Slashtags' for citizen editors</title>
-    <published>2009-11-09T17:06:29Z</published>
+    <published>2009-11-09T09:06:29Z</published>
     <updated>2011-08-08T04:59:03Z</updated>
     <link rel="alternate" href="http://unthinkingly.com/posts/2009/11/slashtags/for/citizen/editors.html"/>
     <content type="html">Updated Nov 16, 2009: @chrismessina created a wiki for the Twitter syntax &lt;a href="http://microsyntax.pbworks.com/Slashtags"&gt;http://microsyntax.pbworks.com/Slashtags&lt;/a&gt;
@@ -290,9 +290,9 @@ and &lt;a href="http://www.flickr.com/photos/unthinkingly/4088331717/"&gt;breaks
     <summary type="html">I believe that there is an enormous potential to do citizen journalism better on the web, and that we need the leadership of people who are willing to help clean up the mess.</summary>
   </entry>
   <entry>
-    <id>tag:unthinkingly.com,2009-09-29:/posts/2009/9/bookmarks.html</id>
+    <id>tag:unthinkingly.com,2009-09-28:/posts/2009/9/bookmarks.html</id>
     <title type="html">Bookmarks</title>
-    <published>2009-09-29T11:31:24Z</published>
+    <published>2009-09-29T04:31:24Z</published>
     <updated>2011-08-08T04:59:03Z</updated>
     <link rel="alternate" href="http://unthinkingly.com/posts/2009/9/bookmarks.html"/>
     <content type="html">&lt;p&gt;I have been keeping track of things that are interesting on Delicious for some time now.&lt;/p&gt;
