@@ -11,4 +11,5 @@ gem "builder"
 gem "activesupport"
 gem "nokogiri"
 gem "pry"
-gem 'sass', '~> 3.1.18'
+gem 'sass','~> 3.1.18'
+gem 'compass', '~>0.12'
