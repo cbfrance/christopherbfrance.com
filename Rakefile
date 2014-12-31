@@ -1,24 +1,6 @@
 require 'nanoc3/tasks'
 require 'fileutils'
 
-# ===================================
-# = this section just brainstorming =
-# ===================================
-
-namespace :blog do
-  desc "tasks for managing a nanoc-based blog with compass."
-  task :startup do 
-    open_new_window(bottom,left)
-    `cd /Users/chris/git/unthinkingly2`
-    `nanoc aco`
-    open_new_window(bottom,right)
-    `cd /Users/chris/git/unthinkingly2`
-    `compass -w`
-    open_new_window(top,left)
-    `cd /Users/chris/git/unthinkingly2`
-  end
-end
-
 # ==========================================
 # = comes with mgutz nanoc blogging bundle =
 # ==========================================

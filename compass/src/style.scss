@@ -36,9 +36,11 @@ div#main {
 /* the list of articles section */
 #articles {
   @include clearfix;
+  @include columns(4);
   padding: 30px;
   .article {
     padding: 30px;
+    break-inside: avoid;
   }
 }
 
@@ -98,14 +100,15 @@ div#main {
 }
 
 .count-1 {
-  // display: none;
-  border: 1px solid red !important;
+  display: none;
+  // border: 1px solid pink !important;
   // hide tags with only one post
 }
 
 .taglist {
   font-size: 0.8em;
   margin-top: 3em;
+  @include columns(3);
   .tag a {
     &:hover {
       background: #c3c3c3;

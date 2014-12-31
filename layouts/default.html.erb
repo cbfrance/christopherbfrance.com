@@ -6,8 +6,9 @@
     <title><%= @item[:title] %></title> 
     <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
     <meta name="keywords" content="<%= keywords %>">
-    <meta name="description" content="<%= @item[:excerpt] %>"> ]
+    <meta name="description" content="<%= @item[:excerpt] %>"> 
     <link href="/assets/css/style.css" media="screen" rel="stylesheet" type="text/css">
+
   </head>
   
   <body>
@@ -15,17 +16,19 @@
       <div id="header" />
         <div class="logo"> 
           <%= logo %> 
-          <img src="assets/images/cb.png" title="Chris Blow" />
+          <img width="100" src="/assets/images/cb.png" title="Chris Blow" />
         </div>
       </div>
 
-      <div id="articles">
-        <% if @item[:kind] == 'article' %>
+      <% if @item[:kind] == 'article' %>
+        <div id="article">
+
           <%= render('_article', :item => @item, :content => yield) %>
           <%= render('_other_articles_nav', :reference_item => @item) %>
-        <% else %>
+      <% else %>
+        <div id="articles">
           <%= content %>
-        <% end %>
+      <% end %>
       </div>
 
       <div class="taglist">
@@ -35,7 +38,7 @@
             <% tag = tag_count[0] %>
             <% count = tag_count[1] %>
 
-              <li class="<%= "count-#{count} tag #{tag}" %> >
+              <li class="<%= "count-#{count} tag #{tag}" %>">
                 <%= "<a href='/tags/#{tag}/'>" %>
                   <%= tag %> &middot; <em><%= count %></em>
                 </a>

@@ -23,6 +23,7 @@ compile '*' do
     filter :erb
     filter :rdiscount
   elsif ext == 'html'
+  elsif ext == 'css'
   else
     raise "Filter is not configured for #{item.identifier} in Rules file."
   end
