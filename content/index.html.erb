@@ -1,0 +1,17 @@
+---
+title: unthinkingly
+---
+
+<h2>Hello</h2>
+
+<p>This is a blog by Chris Blow. I work at <a href="http://meedan.org">Meedan</a> and <a href="http://meedanlabs.com">Meedan Labs</a>.</p>
+
+<% oldest_item = nil %>
+<% current_index = 0 %>
+
+<% sorted_articles[current_index, excerpt_count].each do |item| %>
+  <% oldest_item = item %>
+  <%= render('_excerpt', :item => item) %>
+<% end %>
+
+The source code (ruby) and plaintext (markdown) for this site is <a href="https://github.com/unthinkingly/unthinkingly-blog">on github.com</a>.

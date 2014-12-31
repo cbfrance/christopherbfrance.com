@@ -17,10 +17,8 @@ compile '*' do
   # item[:extension] returns 'html.erb' for multi-dotted filename
   ext = item[:extension].nil? ? nil : item[:extension].split('.').last
 
-  if ext == 'erb'
+  if ext == 'erb' || ext.nil?
     filter :erb
-  elsif ext == 'haml' || ext.nil?
-    filter :haml
   elsif ext == 'md' || ext == 'markdown'
     filter :erb
     filter :rdiscount
@@ -48,4 +46,4 @@ route '*' do
   route_path(item)
 end
 
-layout '*', :haml
+layout '*', :erb

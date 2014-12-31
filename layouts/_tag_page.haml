@@ -1,8 +1,0 @@
----
----
-%h1
-  = "#{tag.capitalize} Articles"
-
-.tag-page
-  - items_with_tag(tag).each do |item|
-    = render('_excerpt', :item => item) 

@@ -8,8 +8,9 @@ require 'pry'
 
 require 'rubygems'
 require 'nokogiri'
-# 
+
 # module Helpers
+
 #  # def blog_excerpt(item, read_more='<!--READMORE-->')
 #  #    post_dom = Nokogiri::HTML::DocumentFragment.parse(item.compiled_content)
 #  #    more_tag_found = false
@@ -41,7 +42,34 @@ require 'nokogiri'
 #
 # If the output file does not end with an .html extension, item[:layout] is set to 'none'
 # bypassing the use of layouts.
-# 
+
+
+def keywords
+  if is_front_page?
+    tag_set.join(', ') 
+  else
+    if @item[:tags]
+      tags = @item[:tags].nil? ? '' : @item[:tags].join(', ') 
+    else
+      tags = [""]
+    end
+    keywords = @item[:keywords] || ''
+    [keywords, tags].join(', ')
+  end
+end
+
+def link_unless_current(s)
+  "<li><a href='/#{s}.html'>#{s}</a></li>" if @item.identifier != "/#{s}/" 
+end
+
+def logo
+  if is_front_page?
+    site_name
+  else
+    "<a href='/'>&laquo; #{site_name}</a>"
+  end
+end
+
 def route_path(item)
   # in-memory items have not file
   return item.identifier + "index.html" if item[:content_filename].nil?
@@ -177,7 +205,6 @@ def n_older_articles(n, reference_item)
     []
   end
 end
-
 
 def site_name
   @config[:site_name]

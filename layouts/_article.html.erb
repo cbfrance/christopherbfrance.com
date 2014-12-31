@@ -1,0 +1,22 @@
+---
+---
+
+<% is_embedded ||= false %>
+
+<div class="article">
+  <h2> 
+    <%= "<a href='#{route_path(item)}' title='Full article' class='permalink'>" %>
+    <% if is_embedded %>
+        <%= item[:title] %>
+    <% else %>
+      <%= item[:title] %>
+    <% end %>
+    </a>
+  </h2>
+
+  <%= render('_meta', :item => item) %>
+
+  <div class="body">
+    <%= content || partial(item) %>
+  </div>
+</div>

@@ -7,7 +7,7 @@ $lightgray: #cccccc;
 
 body {
   font-size: 28px;
-  font-family: "Kai", serif;
+  font-family: "Kai", times, serif;
 }
 
 div#main {
@@ -27,12 +27,16 @@ div#main {
     text-align: center;
     height: 200px;
     padding-top: 200px;
+    img {
+      max-width: 50px;
+    }
   }
 }
 
 /* the list of articles section */
 #articles {
   @include clearfix;
+  padding: 30px;
   .article {
     padding: 30px;
   }
@@ -41,6 +45,7 @@ div#main {
 #footer {
   width: 100%;
   border-top: 1px solid #c3c3c3;
+  columns: 3;
   .link {
     display: block;
     a {
@@ -92,39 +97,24 @@ div#main {
   }
 }
 
-#taglist {
+.count-1 {
+  // display: none;
+  border: 1px solid red !important;
+  // hide tags with only one post
+}
+
+.taglist {
   font-size: 0.8em;
   margin-top: 3em;
-  text-align: justify;
-  a.tag {
-    text-decoration: none;
+  .tag a {
     &:hover {
       background: #c3c3c3;
     }
   }
 }
 
-#sticky {
-  border: 3px double #eeeeee;
-  margin-bottom: 3.2em;
-}
-
-#sticky .body {
-  margin: auto;
-  text-align: center;
-  p {
-    margin: 0;
-    line-height: 4em;
-  }
-}
-
-.archives .excerpt {
-  // float: left;
-  clear: both;
-  height: auto;
-}
-
-.archives ul, .tag-page ul {
+.archives ul,
+.tag-page ul {
   list-style-type: none;
   padding-left: 0px;
 }

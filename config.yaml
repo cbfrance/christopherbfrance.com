@@ -5,22 +5,8 @@ data_sources:
   items_root: /
   layouts_root: /
 
-# Custom settings
-
-# Use rsync + ssh for live site. To deploy:
-#
-#   % rake deploy:rsync
-deploy:
-  default:
-    dst: "unthinkingly_com:/www/sites/unthinkingly2"
-    options: ['-ave ssh', '--exclude=.DS_Store', '--exclude=*~']
-
 # domain to which this site is deployed
 base_url: http://unthinkingly.com
-
-google_analytics:
-  domain: unthinkingly.com
-  site_id: UA-3234234234234
 
 # currently used by logo
 site_name: unthinkingly
@@ -29,11 +15,7 @@ site_name: unthinkingly
 featured_count: 0
 
 # number of excerpted posts to display on front
-excerpt_count: 10
+excerpt_count: 1000
 
 # number of other articles to reference at bottom of each article
 other_articles_max: 3
-
-# DISQUS Site Shortname. Comment out to disable.
-disqus_shortname: unthinkingly-blog
-
