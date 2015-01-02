@@ -11,6 +11,10 @@ h1 {
   margin: 0 0 1em 0;
 }
 
+h2 {
+  font-size: 1.8em;
+}
+
 .site-name {
   font-weight: bold;
   text-align: center;
@@ -52,7 +56,31 @@ code, pre {
   font-size: 1em;
 }
 
+blockquote, p {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+
 blockquote, div, ol, p, pre, ul {
   line-height: 1.5;
-  margin-bottom: 1.5em;
+}
+
+blockquote {
+  font-family: monospace;
+  font-size: 0.8em;
+  margin-left: 2em;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: 700;
+  margin-top: 1em;
+}
+
+.article ul {
+  margin-top: 1em;
+  margin-bottom: 1em;
 }

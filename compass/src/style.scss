@@ -5,92 +5,71 @@ $lightgray: #cccccc;
 @import "compass/utilities";
 @import "typography";
 
+/* the list of articles section */
+.articles {
+  @include columns(400px 2);
+  @include column-gap(1em);
+  .excerpt {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.05);
+    padding: 1em;
+    display: block;
+    margin-bottom: 1em;
+    @include column-break-inside(avoid);
+  }
+}
+
+//  Most images are missing, img 404s could be handled
+img {
+  display: none;
+}
+
 .site-name {
   margin: 0 auto;
   display: block;
-  height: 200px;
-  padding-top: 200px;
+  padding-top: 100px;
   img {
+    display: inline-block;
+    //override the hidden images hack
     max-width: 50px;
     @include border-radius(100%);
   }
 }
 
-/* the list of articles section */
-.articles {
-  @include columns(30em);
-  .article {
-    padding: 30px;
-    break-inside: avoid;
-  }
-}
-
+// The content section in the default layout
 .content {
-  padding: 30px;
-}
-
-#footer {
-  width: 100%;
-  border-top: 1px solid #c3c3c3;
-  columns: 3;
-  .link {
-    display: block;
-    a {
-      margin: 0 auto;
-      text-align: center;
-      width: 100%;
-      display: block;
-      padding-top: 60px;
-      font-weight: bold;
-      font-size: 17px;
-      color: blue;
-      letter-spacing: 1px;
-    }
-  }
-}
-
-#nav {
-  float: right;
-  margin-top: 10px;
-  text-align: right;
-  display: none;
-  /*hide the useless nav*/
-}
-
-#header {
-  #nav ul li {
-    display: inline;
-  }
-  .byline {
-    color: #606060;
-  }
-}
-
-img {
-  display: none;
+  padding: 100px;
+  max-width: 900px;
+  margin: 0 auto;
 }
 
 .other-articles {
   margin-top: 4em;
-  .newer, .older {
+  ul {
+    list-style-type: none;
     text-align: center;
+    margin: 0;
+  }
+  .older {
+    &:before {
+      content: "Other posts";
+      text-align: center;
+      display: block;
+    }
   }
 }
 
-// hide tags with only one post
+// hide tags with few post
 .count-1, .count-2, .count-3 {
   display: none;
 }
 
 .tags {
   font-size: 0.8em;
-  margin-top: 3em;
+  margin: 3em auto;
   @include columns(10em);
-  .tag a {
-    &:hover {
-      background: #c3c3c3;
-    }
-  }
+  text-transform: lowercase;
+  width: 90%;
 }
 
 .archives ul,
@@ -118,10 +97,15 @@ table.colophon td:first-of-type {
 }
 
 .meta {
-  font-size: 13px;
+  font-size: 1em;
   ul {
-    margin: 0px;
-    padding-left: 0;
+    margin-left: 0;
+    padding: 0;
+    a {
+      color: black;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
   }
 }
 
@@ -141,8 +125,4 @@ a.tag {
 
 a.tag:hover {
   color: #333333;
-}
-
-.tags {
-  text-transform: lowercase;
 }

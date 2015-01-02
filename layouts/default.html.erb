@@ -12,40 +12,36 @@
   </head>
   
   <body>
-    <main>
-      <div id="header" />
-        <div class="site-name"> 
-          <%= site_name_with_back_button %> 
-          <img width="100" src="/assets/images/cb.png" title="Chris Blow" />
+    <div class="site-name"> 
+      <%= site_name_with_back_button %> 
+      <img width="100" src="/assets/images/cb.png" title="Chris Blow" />
+    </div>
+
+    <div class="content">
+      <% if @item[:kind] == 'article' %>
+        <%= render('_article', :item => @item, :content => yield) %>
+        <%= render('_other_articles_nav', :reference_item => @item) %>
+      <% else %>
+        <div class="articles">
+          <%= content %>
         </div>
-      </div>
+      <% end %>
+    </div>
 
-      <div class="content">
-        <% if @item[:kind] == 'article' %>
-          <%= render('_article', :item => @item, :content => yield) %>
-          <%= render('_other_articles_nav', :reference_item => @item) %>
-        <% else %>
-          <div class="articles">
-            <%= content %>
-          </div>
-        <% end %>
-      </div>
+    <div class="tags">
+      <ul>
+        <% tags = count_tags() %>
+        <% tags.sort_by{|k,v| k}.each do |tag_count| %>
+          <% tag = tag_count[0] %>
+          <% count = tag_count[1] %>
 
-      <div class="tags">
-        <ul>
-          <% tags = count_tags() %>
-          <% tags.sort_by{|k,v| k}.each do |tag_count| %>
-            <% tag = tag_count[0] %>
-            <% count = tag_count[1] %>
-
-              <li class="<%= "count-#{count} tag #{tag}" %>">
-                <a href='/tags/<%= tag %>/'>
-                  <%= tag %>&middot;<em><%= count %></em>
-                </a>
-              </li>
-            <% end %>
-        </ul>
-      </div>
-    </main>
+            <li class="<%= "count-#{count} tag #{tag}" %>">
+              <a href='/tags/<%= tag %>/'>
+                <%= tag %>&middot;<em><%= count %></em>
+              </a>
+            </li>
+          <% end %>
+      </ul>
+    </div>
   </body>
 </html>
