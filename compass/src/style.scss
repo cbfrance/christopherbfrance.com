@@ -5,43 +5,28 @@ $lightgray: #cccccc;
 @import "compass/utilities";
 @import "typography";
 
-body {
-  font-size: 28px;
-  font-family: "Kai", times, serif;
-}
-
-div#main {
-  width: 90%;
-  max-width: 600px;
+.site-name {
   margin: 0 auto;
-}
-
-#header {
-  margin-bottom: 10px;
-  overflow: auto;
-  padding: 10px;
-  .logo {
-    margin: 0 auto;
-    font-weight: bold;
-    display: block;
-    text-align: center;
-    height: 200px;
-    padding-top: 200px;
-    img {
-      max-width: 50px;
-    }
+  display: block;
+  height: 200px;
+  padding-top: 200px;
+  img {
+    max-width: 50px;
+    @include border-radius(100%);
   }
 }
 
 /* the list of articles section */
-#articles {
-  @include clearfix;
-  @include columns(4);
-  padding: 30px;
+.articles {
+  @include columns(30em);
   .article {
     padding: 30px;
     break-inside: avoid;
   }
+}
+
+.content {
+  padding: 30px;
 }
 
 #footer {
@@ -81,34 +66,26 @@ div#main {
   }
 }
 
-#other-articles {
-  margin-top: 4em;
-  ul {
-    padding: 0;
-    list-style-type: none;
-  }
-  h3 {
-    margin: 0 0 0.5em;
-  }
-  .newer {
-    text-align: right;
-    float: right;
-  }
-  .older {
-    float: left;
-  }
-}
-
-.count-1 {
+img {
   display: none;
-  // border: 1px solid pink !important;
-  // hide tags with only one post
 }
 
-.taglist {
+.other-articles {
+  margin-top: 4em;
+  .newer, .older {
+    text-align: center;
+  }
+}
+
+// hide tags with only one post
+.count-1, .count-2, .count-3 {
+  display: none;
+}
+
+.tags {
   font-size: 0.8em;
   margin-top: 3em;
-  @include columns(3);
+  @include columns(10em);
   .tag a {
     &:hover {
       background: #c3c3c3;

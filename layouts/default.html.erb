@@ -14,24 +14,24 @@
   <body>
     <main>
       <div id="header" />
-        <div class="logo"> 
-          <%= logo %> 
+        <div class="site-name"> 
+          <%= site_name_with_back_button %> 
           <img width="100" src="/assets/images/cb.png" title="Chris Blow" />
         </div>
       </div>
 
-      <% if @item[:kind] == 'article' %>
-        <div id="article">
-
+      <div class="content">
+        <% if @item[:kind] == 'article' %>
           <%= render('_article', :item => @item, :content => yield) %>
           <%= render('_other_articles_nav', :reference_item => @item) %>
-      <% else %>
-        <div id="articles">
-          <%= content %>
-      <% end %>
+        <% else %>
+          <div class="articles">
+            <%= content %>
+          </div>
+        <% end %>
       </div>
 
-      <div class="taglist">
+      <div class="tags">
         <ul>
           <% tags = count_tags() %>
           <% tags.sort_by{|k,v| k}.each do |tag_count| %>

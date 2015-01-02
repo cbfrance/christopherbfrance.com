@@ -62,7 +62,7 @@ def link_unless_current(s)
   "<li><a href='/#{s}.html'>#{s}</a></li>" if @item.identifier != "/#{s}/" 
 end
 
-def logo
+def site_name_with_back_button
   if is_front_page?
     site_name
   else
