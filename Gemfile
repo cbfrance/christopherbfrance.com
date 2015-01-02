@@ -12,3 +12,4 @@ gem "nokogiri"
 gem "pry"
 gem 'sass','~> 3.1.18'
 gem 'compass', '~>0.12'
+gem 'w3c_validators'

@@ -39,8 +39,8 @@
             <% count = tag_count[1] %>
 
               <li class="<%= "count-#{count} tag #{tag}" %>">
-                <%= "<a href='/tags/#{tag}/'>" %>
-                  <%= tag %> &middot; <em><%= count %></em>
+                <a href='/tags/<%= tag %>/'>
+                  <%= tag %>&middot;<em><%= count %></em>
                 </a>
               </li>
             <% end %>

@@ -14,6 +14,7 @@ GEM
     cri (2.2.0)
     fssm (0.2.10)
     i18n (0.6.0)
+    json (1.8.1)
     method_source (0.8.2)
     mime-types (1.17.2)
     multi_json (1.1.0)
@@ -29,6 +30,9 @@ GEM
     rdiscount (1.6.8)
     sass (3.1.21)
     slop (3.6.0)
+    w3c_validators (1.2)
+      json
+      nokogiri
 
 PLATFORMS
   ruby
@@ -46,3 +50,4 @@ DEPENDENCIES
   rake
   rdiscount
   sass (~> 3.1.18)
+  w3c_validators
