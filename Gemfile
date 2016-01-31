@@ -1,15 +1,18 @@
-source :gemcutter
+# If you do not have OpenSSL installed, change
+# the following line to use 'http://'
+source 'https://rubygems.org'
 
-gem "nanoc"
-gem "rack"
-gem "rake"
-gem "mime-types"
-gem "cri"
-gem "rdiscount"
-gem "builder"
-gem "activesupport"
-gem "nokogiri"
-gem "pry"
-gem 'sass','~> 3.1.18'
-gem 'compass', '~>0.12'
-gem 'w3c_validators'
+# For faster file watcher updates on Windows:
+gem 'wdm', '~> 0.1.0', platforms: [:mswin, :mingw]
+
+# Windows does not come with time zone data
+gem 'tzinfo-data', platforms: [:mswin, :mingw, :jruby]
+
+# Middleman Gems
+gem "middleman", "~> 4.0.0"
+gem "middleman-blog"
+
+gem 'redcarpet', '~> 3.3', '>= 3.3.3'
+
+# For feed.xml.builder
+gem "builder", "~> 3.0"
