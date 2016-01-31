@@ -40,7 +40,7 @@ That is, this is not an issue of being kind, or being well-mannered and cultured
 
 As usual, Ethan Zuckerman writes about this best: 
 
-<blockquote>Understanding Iraqi attitudes towards a US occupying force and Shia/Sunni/Kurdish tensions better might have mitigated the disastrous invasion of Iraq. Understanding Chinese and Indian economic aspirations is probably a prerequisite to figuring out how to regulate carbon emissions while those nations embrace automobile ownership. And activists trying to change Chinese policy in Darfur would benefit from better understanding of Chinese pride, the concept of �face� and the power of nationalism. <span class="attribution">- Ethan Z. in <a href="http://www.ethanzuckerman.com/blog/2008/04/25/homophily-serendipity-xenophilia/">Homophily, serendipity, xenophilia</a></span></blockquote>
+<blockquote>Understanding Iraqi attitudes towards a US occupying force and Shia/Sunni/Kurdish tensions better might have mitigated the disastrous invasion of Iraq. Understanding Chinese and Indian economic aspirations is probably a prerequisite to figuring out how to regulate carbon emissions while those nations embrace automobile ownership. And activists trying to change Chinese policy in Darfur would benefit from better understanding of Chinese pride, the concept of 'face' and the power of nationalism. <span class="attribution">- Ethan Z. in <a href="http://www.ethanzuckerman.com/blog/2008/04/25/homophily-serendipity-xenophilia/">Homophily, serendipity, xenophilia</a></span></blockquote>
 
 ***
 

@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Blog Name</title>
+  <subtitle>Blog subtitle</subtitle>
+  <id>http://blog.url.com/</id>
+  <link href="http://blog.url.com/"/>
+  <link href="http://blog.url.com/feed.xml" rel="self"/>
+  <updated>2011-12-31T16:00:00-08:00</updated>
+  <author>
+    <name>Blog Author</name>
+  </author>
+  <entry>
+    <title>Example Article</title>
+    <link rel="alternate" href="http://blog.url.com/2012/01/01/example-article.html"/>
+    <id>http://blog.url.com/2012/01/01/example-article.html</id>
+    <published>2011-12-31T16:00:00-08:00</published>
+    <updated>2016-01-30T19:29:30-08:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;This is an example article. You probably want to delete it and write your own articles!&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>'Slashtags' for citizen editors</title>
+    <link rel="alternate" href="http://blog.url.com/2009/11/09/slashtags-for-citizen-editors.html"/>
+    <id>http://blog.url.com/2009/11/09/slashtags-for-citizen-editors.html</id>
+    <published>2009-11-08T16:00:00-08:00</published>
+    <updated>2016-01-30T20:54:19-08:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">Updated Nov 16, 2009: @chrismessina created a wiki for the Twitter syntax &lt;a href="http://microsyntax.pbworks.com/Slashtags"&gt;http://microsyntax.pbworks.com/Slashtags&lt;/a&gt;
+
+The NYT reported today on how the &lt;a href="http://twitter.com/#search?q=%23fthood"&gt;#fthood hashtag&lt;/a&gt; has failed: 
+
+&lt;blockquote&gt;Until lately, the main way to make sense of an urgent outpouring of tweets on a particular subject was to use text searches: look for the phrase 'Fort Hood,' for example, or maybe an agreed-upon label, '#fthood,' within tweets. Yet during events like the shootings on Thursday at Fort Hood that left 13 people dead, this method is useless. Hundreds of 'relevant' tweets pop up every minute, most repeating the same news reports over and over again or expressing concern from far away.&lt;span class="attribution"&gt;"Refining the Twitter Explosion" on &lt;a href="http://www.nytimes.com/2009/11/09/business/09link.html"&gt;nyt.com&lt;/a&gt;&lt;/blockquote&gt;
+
+I believe that there is an enormous potential to do citizen journalism better on the web, and that we need the leadership of people who are willing to help clean up the mess. Unlike &lt;a href="http://www.techcrunch.com/2009/11/07/nsfw-after-fort-hood-another-example-of-how-citizen-journalists-cant-handle-the-truth/"&gt;some people&lt;/a&gt;, I do not think that the poor citizen journalism around #fthood is an indictment of citizen journalism -- rather I would say it points to the &lt;strong&gt;absence of citizen editors&lt;/strong&gt;.
+
+In the &lt;a href="http://blog.twittervotereport.com/"&gt;Vote Report&lt;/a&gt; and &lt;a href="http://swiftapp.org"&gt;Swift&lt;/a&gt; parlance, these are "Sweepers," the custodians working to clean the stream, validate claims, and generally insert some professionalism.
+
+Taken to their logical next step, you can see the emergence of volunteer "citizen editors," who appreciate journalistic rigor and take time to bring  signal to the noise in dozens of different ways.
+
+Recently around Meedan we have been talking a lot about using &lt;a href="http://delicious.com"&gt;Delicious&lt;/a&gt; and &lt;a href="http://twitter.com"&gt;Twitter&lt;/a&gt; tagging to more effectively manage our content across our many networks, and to bring more meaningful conversations to our users.
+
+This is the power of tags: they are impossible to contain in a single network.
+
+By relying on Delicious and other social bookmarking systems, we've been able to build our &lt;strong&gt;editorial backchannel into numerous social platforms&lt;/strong&gt;. Rather than being stuck with the limitations of some CMS, and have to copy everything out to our social network, we can use the social network and &lt;strong&gt;then bring it in&lt;/strong&gt; to our own domains.
+
+That's always a smart approach for nonprofits, because it builds your conversation in a meaningful, and searchable way. Metadata value (real usable value!) accumulates like interest in your bank account. And citizen editors are the people who are trying to make this system provide even more of a return, because fundamentally we want more people to &lt;strong&gt;care, understand and take action&lt;/strong&gt;.
+
+&lt;h3&gt;Twitter Lists Taken Seriously&lt;/h3&gt;
+
+So we've been looking into some of the existing pseudo-standards like the #hashtag, and looking for ways for improving our journalistic rigor. George &lt;a href="http://blog.meedan.net/2009/11/04/10-questions-for-establishing-credibility-on-twitter/"&gt;recently posted&lt;/a&gt; about using the new Twitter lists features to curate groups of sources for &lt;a href="http://twitter.com/meedan/iran-feed"&gt;our Iran Twitter feed&lt;/a&gt;: 
+
+Rather than treating our Twitter list as a gizmo, with shoddy maintenance and dubious output, what if we put some rigor into it by beginning with Journalism 101? 
+
+George, our lead editor, knows this stuff all too well: 
+
+&lt;blockquote&gt;
+What is the reported location of the Twitter Stream?
+Is the Twitter Stream using Farsi or a local language?
+How long has the Twitter Stream account been up and running?
+&lt;/blockquote&gt;
+
+(And oh yes there are &lt;a href="http://blog.meedan.net"&gt;many more criteria&lt;/a&gt;.)
+
+I think these are the good, basic questions that may not be answered by some organizations -- and their lists are thus quantifiably worse, in the sense that they are less reliable, less meaningful, and probably noiser. So we can see that by following basic journalistic standards, your attention data becomes more valuable. Garbage in, garbage out, or, more positively, the system can be improved.
+
+For nonprofits, which typically do not have a &lt;strong&gt;microgram of energy to spare&lt;/strong&gt;, these kinds of tricks can be really helpful. 
+
+&lt;h3&gt;#hashtags and /slashtags&lt;/h3&gt;
+
+A great example of this type of "attention data enhancement" is the #hastag, which clarifies the context of a short statement on twitter with a globally recognizable tagging syntax. (I'll spare us the debate around hashtags, but suffice it to say, they can be done better.)
+
+Chris Messina, one of the biggest advocates of #hashtags and other microsyntax, has just &lt;a href="http://factoryjoe.com/blog/2009/11/08/new-microsytax-for-twitter-three-pointers-and-the-slasher/"&gt;described a few extra bits of attribution&lt;/a&gt; using the "slasher." (I think we could just call it a "slashtag.")
+
+&lt;blockquote&gt;'Pointers' are short words with different intentions. A group of pointers should typically be prefixed by ONE slasher character. You can daisy-chain multiple pointer phrases together, padded on both sides with one whitespace character. There should be NO space following the slasher. Hashtags should be appended to the very end of a tweet, except when they are part of the content of the message itself and indicate some proper name or abbreviation. Normal words that would be part of the content of a tweet anyway SHOULD NOT be hashed.&lt;span class="attribution"&gt;"&lt;a href="http://factoryjoe.com/blog/2009/11/08/new-microsytax-for-twitter-three-pointers-and-the-slasher/"&gt;New microsyntax for Twitter: three pointers and the slasher&lt;/a&gt;"&lt;/span&gt;
+&lt;/blockquote&gt;
+
+Particularly I think &lt;strong&gt;using /by&lt;/strong&gt; is a great idea to reference an article or direct quote. 
+
+Using /by gives a very specific meaning to the username that follows it. It's intuitive enought that I don't think it even needs to be explained, you can just read it: 
+
+&lt;a href="http://www.flickr.com/photos/unthinkingly/4088475379/" title="by by unthinkingly, on Flickr"&gt;&lt;img src="http://farm3.static.flickr.com/2455/4088475379_cf90c0b1e5_o.jpg" width="623" height="268" alt="by" /&gt;&lt;/a&gt;
+
+Not beautiful, but very clear. 
+
+This is useful for when you need to be more precise — say, if you wanted to use your attention data &lt;strong&gt;in another application&lt;/strong&gt;.
+
+For us at Meedan, this is the direction we are headed, fast. We are working on developing a clear and simple standard for using tags on the delicious network. This standard will be something that &lt;strong&gt;our editorial team&lt;/strong&gt; (and &lt;strong&gt;anyone who cares to participate&lt;/strong&gt;) can use to route information to our hand-curated database. You don't have to leave the comfort of your own twitter client, or use any fancy tools -- just the simple, clear standards that we are figuring out. 
+
+We are already making great use of social bookmarks at meedan as a editorial backchannel. For example, you can see all of Meedan's Iraq sources on delicious, from our lead editor: 
+
+&lt;a href="http://delicious.com/gweyman/iraq_newspaper"&gt;http://delicious.com/gweyman/iraq_newspaper&lt;/a&gt;
+
+And everything that the Meedan user unthinkingly (me) has tagged as being generically "for meedan" (using an informal tag "for_meedan").
+
+&lt;a href="http://delicious.com/unthinkingly/for_meedan"&gt;http://delicious.com/unthinkingly/for_meedan&lt;/a&gt;
+
+Because George also uses this tag, we can get a nice community of practice working together. This page shows the shared pool: 
+
+&lt;a href="http://delicious.com/tag/for_meedan"&gt;http://delicious.com/tag/for_meedan&lt;/a&gt;
+
+So, as you can see, we are using underscores, which is a common tagging convention because it looks like a space. We're not so happy with this: it's simply not expressive enough. 
+
+(Even though you can do a lot with a single little shared tag like &lt;a href="http://unthinkingly.com/2007/01/10/understanding-a-community-tag-the-history-of-nptech/"&gt;#nptech&lt;/a&gt;.)
+
+A more robust tagging system, which I believe would be very compelling if it were well designed, would extend some of this syntax. The question is: &lt;strong&gt;how to extend the syntax without making it overwhelming?&lt;/strong&gt; 
+
+&lt;h3&gt;Setting some goals&lt;/h3&gt;
+
+I think that any tag needs to follow a standard that meets several critiera: 
+
+1.) it should read naturally when spoken out loud (no dots, equals signs, or weird abbreviations)
+2.) it should be as cross-network as possible (for now the syntax should not break on Twitter or Delicious) [1]
+3.) it should rely an aliases instead of strict taxonomies (tag first, fix it later)
+
+So what I'm talking about is extending the tag that George used to curate Iraqi newspapers,
+&lt;strong&gt;
+iraq_newspaper
+&lt;/strong&gt;
+to something like this:
+
+&lt;strong&gt;/newspaper/iraq&lt;/strong&gt;
+
+which I think has several advantages.
+
+1. of the tag in ways that make the taxonomy immediately clearer. Iraq is nested "inside" a type of source.
+2. It works on Twitter
+3. It works on Delicious
+4. It is still very short (adds only one character over the underscore)
+
+On delicious, spaces are not allowed, so I have started using two slashes. So where previously I might have tagged the article with a kind of meaningless tag:
+
+&lt;strong&gt;chrismessina&lt;/strong&gt;
+
+but now I can tag it
+
+&lt;strong&gt;/by/chrismessina&lt;/strong&gt;
+
+Which is still a pretty meaningless tag, but is at least prefixed meaningfully to mean "this content is by this person" as per chris' helpful article above.
+
+Also I can improve the previous technique of using the for_meedan shorthand
+
+from 
+
+&lt;strong&gt;for_meedan&lt;/strong&gt;
+
+to 
+
+&lt;strong&gt;/for/meedan&lt;/strong&gt;
+
+Which has the benefit of being equally readable, while obeying a more general rule of syntax.
+
+&lt;h3&gt;Machine tags are not what we want, we are not machines&lt;/h3&gt;
+
+By far the most complete standard that is being used to solve these problems is the machine tag. This tag uses a colon and an equals sign to indicate a much more specific (though not necessarily accurate) structure. The history is from the geo community, mostly for this: 
+
+&lt;strong&gt;geo:long=45.353452&lt;/strong&gt;
+
+These namespaced key value pairs are admirably used as the output of some web apps, but are quite intimidating for human input.
+
+Common opinion seems to be that they are too "&lt;a href="http://code.flickr.com/blog/2009/09/28/thats-maybe-a-bit-too-dorky-even-for-us/"&gt;dorky&lt;/a&gt;" to be usable at this point, considering especially that any good taxonomy is constantly in slight flux. (Though Flickr has made great use of them to kick of &lt;a href="http://code.flickr.com/blog/2009/09/28/thats-maybe-a-bit-too-dorky-even-for-us/"&gt;custom actions in their UI&lt;/a&gt;).
+
+Similarly, what might be called a "double tag" is an interesting simplification down to a context-less key value pair: 
+
+&lt;strong&gt;color=red&lt;/strong&gt;
+
+In fact this is what comprises almost all of the tags in &lt;a href="http://www.openstreetmap.org/"&gt;OSM&lt;/a&gt;, one of the most ambitious tagging innovations on the web. (I &lt;a href="http://www.slideshare.net/unthinkingly"&gt;have said before&lt;/a&gt; that tagging is the secret sauce that makes a crazy project like OSM work.)
+
+&lt;h3&gt;Finding a balance&lt;/h3&gt;
+
+Replace the equals sign in that last example, and you have slashtags, which I think are much better at communicating that "color" is a parent of the "red" value: 
+
+&lt;strong&gt;color/red&lt;/strong&gt;
+
+In this way, this "slashtag" or "slasher" approach, extended a with tiny bit of folksonomic conventions, could really strike the right balance between editorial simplicity and powerful machine-readablity. 
+
+&lt;h3&gt;Finding better editorial tools for realtime crises&lt;/h3&gt;
+
+I think that a better-defined tagging approach could really help make sense of critical, breaking news. 
+
+A wiki about hurricane Ida, for example, is probably not the right way to manage news about a critical event:
+
+&lt;a href="http://www.flickr.com/photos/unthinkingly/4089097932/" title="ida by unthinkingly, on Flickr"&gt;
+  &lt;img src="http://farm3.static.flickr.com/2712/4089097932_350f83174c.jpg" width="353" height="500" alt="ida" /&gt;
+&lt;/a&gt;
+
+Mediawiki makes me groan just looking at it. I'd much rather help update that information by tagging links into delicious, and knowing that someone is listening on the other end. This would motivate me to learn the emergent standards, follow a loose taxonomy, and generally try to be more &lt;strong&gt;articulate&lt;/strong&gt;.
+
+If we could react in realtime to create a more sophisticated picture of the news by expressing ourselves more clearly in the tagging interaction, I think we could ultimately make great strides in improving citizen journalism (even if all the idiots keep on tweeting, which, naturally, they will.)
+
+This is why the usability of a citizen editor tagging scheme is so critical -- it needs to be flexible enough (to handle hurricanes) but maintain a low barrier to participation (to cultivate citizen editors). The tagging approach has already proven itself in many trivial domains, now we need to step it up using our journalistic standards, and our shared interest in &lt;strong&gt;making sense of the news, particularly crises&lt;/strong&gt;.
+
+We are early in this strange&lt;strong&gt; distributed crisis data management effort&lt;/strong&gt;, but I think that some of the ideas proposed by Chris Messina, and the experiments of the OSM community go a really long way in this regard. Particularly the nestabilty and readability seem like great virtues of this tagging system. Overall the "slash" is a widely understood metaphor, used by all major operating systems to indicate travresing "down" or "up" a taxonomy.
+
+I'm going to transition some of my tagging habits accordingly, and see where it ends up!
+
+I would love to know what you think. Stop by the contact page or @unthinkingly on Twitter and let me know what you think.
+
+###
+
+[1] notice how it &lt;a href="http://www.flickr.com/photos/unthinkingly/4088326441/"&gt;breaks on gnolia.com&lt;/a&gt; 
+and &lt;a href="http://www.flickr.com/photos/unthinkingly/4088331717/"&gt;breaks on flickr.com&lt;/a&gt; Although it appears that Flickr preserves the slashes in the background, just doesn't display them on output.
+
+[2] On Twitter there is s a bit of a variation required if we are to follow existing patterns: 1.) I can omit the space, so I will, and 2.) You need to prefix a user's name with the @ sign, like &lt;strong&gt;/for @meedan &lt;/strong&gt; -- I think this is still quite readable, but the difference between networks might need to be cleared up. We could in fact collapse the twitter tags to &lt;strong&gt;/for/meedan&lt;/strong&gt; (ie: identical to the delicious tag) but this would probably break some automation in twitter clients that are expecting the @ prefix. </content>
+  </entry>
+  <entry>
+    <title>OpenStreetMap Cambodia</title>
+    <link rel="alternate" href="http://blog.url.com/2009/06/30/openstreetmap-cambodia.html"/>
+    <id>http://blog.url.com/2009/06/30/openstreetmap-cambodia.html</id>
+    <published>2009-06-29T17:00:00-07:00</published>
+    <updated>2016-01-30T19:29:30-08:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">I've been doing a series of presentations here &lt;a href="http://unthinkingly.com/2009/06/29/sustainable-interaction-design-in-cambodia/"&gt;at the InSTEDD lab&lt;/a&gt; in Phom Penh, and so far the best-received one has been (to my surprise) about something I really just getting into:  &lt;a href="http://www.openstreetmap.org/"&gt;OpenStreetMap&lt;/a&gt;. 
+
+I figured that this would be a good-spirited critical discussion about &lt;a href="http://en.wikipedia.org/wiki/Free_and_open_source_software"&gt;FOSS&lt;/a&gt; philosophy given that &lt;a href="http://www.phnompenhpost.com/index.php/2009063026788/Business/Google-meeting-held-at-Royal-University.html"&gt;Google was in town&lt;/a&gt;. :) I wasn't expecting it to be quite so engaging for the lab though -- I think they all had a great time. 
+
+&lt;img src="http://unthinkingly.com/wp-content/uploads/picture-24-300x223.png" alt="taking_notes" title="taking_notes" width="300" height="223" class="alignleft size-medium wp-image-394" /&gt;
+
+&lt;img src="http://unthinkingly.com/wp-content/uploads/picture-23-225x300.png" alt="smilin" title="smilin" width="225" height="300" class="alignleft size-medium wp-image-393" /&gt;
+
+We did an introductory &lt;a href="http://wiki.openstreetmap.org/wiki/Mapping_party"&gt;mapping party&lt;/a&gt; and I explained some of my appreciation for OSM, particularly the &lt;a href="http://wiki.openstreetmap.org/wiki/WikiProject_Palestine_Gaza"&gt;Gaza mapping&lt;/a&gt; that happened early this year.
+
+I am an OSM newbie myself so I was just happy that we managed to get everything working end to end (using GPS devices kindly loaned by the &lt;a href="http://wiki.openstreetmap.org/index.php/Foundation"&gt;OSM Foundation&lt;/a&gt; -- thanks &lt;a href="http://brainoff.com/weblog/"&gt;Mikel&lt;/a&gt;!) Also thanks to &lt;a href="http://thinkwhere.wordpress.com/"&gt;Chippy&lt;/a&gt; for leading the OSM session last month that answered my questions about the OSM toolchain and gave me the idea for doing an intro party in Phonm Penh. I ripped off most of your presentation, Tim!
+
+&lt;div style="width:425px;text-align:left" id="__ss_1643565"&gt;&lt;a style="font:14px Helvetica,Arial,Sans-serif;display:block;margin:12px 0 3px 0;text-decoration:underline;" href="http://www.slideshare.net/unthinkingly/open-street-map-cambodia?type=powerpoint" title="Open Street Map Cambodia"&gt;Open Street Map Cambodia&lt;/a&gt;&lt;object style="margin:0px" width="425" height="355"&gt;&lt;param name="movie" value="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=osmpresentationcambodia-090626071521-phpapp02&amp;stripped_title=open-street-map-cambodia" /&gt;&lt;param name="allowFullScreen" value="true"/&gt;&lt;param name="allowScriptAccess" value="always"/&gt;&lt;embed src="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=osmpresentationcambodia-090626071521-phpapp02&amp;stripped_title=open-street-map-cambodia" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="425" height="355"&gt;&lt;/embed&gt;&lt;/object&gt;&lt;div style="font-size:11px;font-family:tahoma,arial;height:26px;padding-top:2px;"&gt;View more &lt;a style="text-decoration:underline;" href="http://www.slideshare.net/"&gt;documents&lt;/a&gt; from &lt;a style="text-decoration:underline;" href="http://www.slideshare.net/unthinkingly"&gt;unthinkingly&lt;/a&gt;.&lt;/div&gt;&lt;/div&gt;
+ </content>
+  </entry>
+  <entry>
+    <title>Sustainable Interaction Design in Cambodia</title>
+    <link rel="alternate" href="http://blog.url.com/2009/06/29/sustainable-interaction-design-in-cambodia.html"/>
+    <id>http://blog.url.com/2009/06/29/sustainable-interaction-design-in-cambodia.html</id>
+    <published>2009-06-28T17:00:00-07:00</published>
+    <updated>2016-01-30T19:29:30-08:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">So, I've spent almost a month now as a resident geek at the &lt;a href="http://instedd.org"&gt;InSTEDD&lt;/a&gt; Innovation Lab in Phnom Penh, Cambodia. 
+
+InSTEDD is working on epidemiology-related technologies that are very relevant to my research interests:
+
+&lt;blockquote&gt;InSTEDD's mission is to harness the power of technology to improve collaboration for global health and humanitarian action.  We are an innovation lab for tools designed to strengthen networks, build community resilience and improve early detection and response to major health-related events and natural or human-caused disasters. &lt;br /&gt; - &lt;a href="http://instedd.org/"&gt;InSTEDD.org&lt;/a&gt;&lt;/blockquote&gt;
+
+I was invited to their Cambodian lab to give a usability review to some of their software, and to give some interaction design training to their team. It's been a fantastic escape from San Francisco. Cambodia has been alternating depressing, exciting, confirming and challenging. Certainly I have learned more than I have been able to teach.
+
+Last winter I was doing some preliminary research for &lt;a href="http://swiftapp.org"&gt;Swift&lt;/a&gt;, and contacted InSTEDD to learn more about their platform for "team-sourcing" the analysis of information about the spread of disease. (I was given a preview of &lt;a href="http://instedd.org/evolve"&gt;Evolve&lt;/a&gt; and thoroughly blown away.) I was super impressed with &lt;a href="http://edjez.instedd.org/2008/09/phnom-penh-innovation-lab-team-giving.html"&gt;Eduardo's explanation of the lab&lt;/a&gt;, and happily jumped at the invitation to work as resident in Phnom Penh.
+
+&lt;blockquote&gt;As part of InSTEDD's strategy of 'sustainable innovation' we are creating a full engineering team that over time owns and reinvents technologies used in the region. All technologies go obsolete - so for true sustainability you need to assemble a team of people that will invent the 'next thing' - and give it the skills, capital and opportunities to do so.
+&lt;br /&gt;&lt;span class="attribution"&gt;- @edjez&lt;/span&gt;&lt;/blockquote&gt; 
+
+I actually had no idea what to expect here. I've lived in the woods a couple years without bandwidth, but I'd never really worked as a designer or developer in conditions quite like this. Phnom Penh has its fancy bits, for sure (the lab here is quite nice), but you are never far from tragedy. 
+
+Particularly the history in Cambodia is haunting. An entire generation of intellectuals and hackers, killed. There are no second-generation programmers in Cambodia. It's terrifying. The horrors of poverty are nothing compared to human nature. Somehow being a user-centered technologist means understanding this. Somehow.
+
+I work on a lot of international projects, but at the end of the day I am just a homebody country mouse -- I've hardly traveled at all, especially compared to the jet-set geeks that I tag along with. So a 15-hour flight to Phnom Penh seemed like a good tonic. I couldn't imagine a more appropriate place for understanding technological capacity, understanding humans, understanding human-centered design.
+
+I have some rather deep frustrations with San Francisco. I feel really lucky to have lived and worked there, but after a couple of years I am more than ready to get out -- most developers are overpaid, overworked, out of touch with the world. I have encountered enough dispassionate, disengaged arrogance from &lt;a href="http://unthinkingly.com/2008/12/03/trying-to-quit/"&gt;rich programmer zombie dudes&lt;/a&gt; that I have been ready to quit programming altogether. 
+
+So, as much as I have an interest in technology for the developing world, I've been longing for more first-hand experience with austere (read: realistic) technological environments. As a developer and designer I consider this just due diligence; it's basic design research about the real world, the real design problem. &lt;a href="http://unthinkingly.com/2006/12/06/design-for-maximum-constraints/"&gt;Designing for maximum constraints&lt;/a&gt; just doesn't really work from San Francisco bubble.
+
+One of the great lures of Information and Communication Technology for Development (ICT4D) is the possibility of "leapfrogging" old technologies and bringing major changes to the developing world. But leapfrogging technologies are not possible unless they address the much more subtle cultural issues. Which is to say, the process of technological advancement must be in organic, not imposed. San Francisco (or London or Berlin) solutions will never work in Cambodia. It's fundamentally an interaction design problem, which is has to be addressed by &lt;em&gt;changing the conditions in which software is created&lt;/em&gt;.
+
+InSTEDD has created the Phnom Penh lab to put development in the hands of the people that will be using it: Cambodians dealing with epidemics in Cambodia. 
+
+&lt;a href="http://blog.ushahidi.com"&gt;Ushahidi&lt;/a&gt; understands this deeply, cultivates serious African talent, and is working on a lab in Kenya, I hear.
+
+At my nonprofit &lt;a href="http://meedan.net"&gt;Meedan&lt;/a&gt; we hope to learn from this leadership and create a tech lab in Syria, where Arabic-speaking programmers from the Middle East -- people who deeply understand the design needs of that region -- will be in charge of developing our most important technologies. This, I think, is the simplest and most appropriate model for sustainable interaction design, and I am thrilled to work with people who get it.</content>
+  </entry>
+  <entry>
+    <title>Trying to Quit</title>
+    <link rel="alternate" href="http://blog.url.com/2008/12/03/trying-to-quit.html"/>
+    <id>http://blog.url.com/2008/12/03/trying-to-quit.html</id>
+    <published>2008-12-02T16:00:00-08:00</published>
+    <updated>2016-01-30T19:29:30-08:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">I have been trying to quit programming for about six months. 
+
+I'm down to about 2 times a day, on average, sometimes more. It's a problem. 
+
+Don't get me wrong, programming is one of the best disciplines I ever stuck my nose into. Programming teaches you fundamentally how to &lt;em&gt;constantly improve your craft&lt;/em&gt;. But it's exhausting, distracting, and inseparable from the cult of efficiency. It takes you away from humans, mashes your nose into an LCD all night, and leaves you with a delusional sense of total control over your environment. I wish that I could take back every second of my life that I spent learning to build stacks and refactor my own crappy code. 
+
+The problem is that code is so damn useful. It beckons with APIs and gives you entire weekends of mindless flow; hack, hack, hack, make it pretty and fast.
+
+So anyway, I'm working on it.</content>
+  </entry>
+  <entry>
+    <title>Dealing Lightning with Both Hands</title>
+    <link rel="alternate" href="http://blog.url.com/2008/12/03/dealing-lightning-with-both-hands.html"/>
+    <id>http://blog.url.com/2008/12/03/dealing-lightning-with-both-hands.html</id>
+    <published>2008-12-02T16:00:00-08:00</published>
+    <updated>2016-01-30T19:29:30-08:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;a href="http://stanfordtickets.org/tickets/calendar/view.aspx?id=2324"&gt;&lt;img src="http://unthinkingly.com/wp-content/uploads/doug-e.gif" alt="ah doug" title="douglas-engelbart-12" class="alignnone size-full wp-image-295" /&gt;&lt;/a&gt;
+
+&lt;blockquote&gt;
+On December 9, 1968, Dr. Douglas C. Engelbart and the Augmentation Research Center (ARC) at Stanford Research Institute staged a 90-minute public multimedia demonstration at the Fall Joint Computer Conference in San Francisco. It was the world debut of personal and interactive computing: for the first time, the public saw a computer mouse, which controlled a networked computer system to demonstrate hypertext linking, real-time text editing, multiple windows with flexible view control, cathode display tubes, and shared-screen teleconferencing.
+
+It changed what is possible. The 1968 demo presaged many of the technologies we use today, from personal computing to social networking. The demo embodied Doug Engelbart's vision of solving humanity's most important problems by using computers to improve communication and collaboration.&lt;/blockquote&gt;
+
+&lt;a href="http://stanfordtickets.org/tickets/calendar/view.aspx?id=2324"&gt;In the Bay? Buy a ticket already.&lt;/a&gt;
+</content>
+  </entry>
+</feed>

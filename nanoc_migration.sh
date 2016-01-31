@@ -21,15 +21,16 @@ zmodload zsh/mapfile
 # 
 # zmv '(*).ps' '$1-${${${mapfile[$f]##*%%Title: }%% *}//[^a-zA-Z0-9_]/}.ps'
 
-for f in source/[0-9]*/**/*(.html|.md|.markdown)
-  do 
-    filename=`basename $f`;
-    date=`head -20 $f | 
-    grep "^created_at:" | 
-    awk -F: '{print$2}' | 
-    awk '{print$1}' | 
-    sed 's/ //g'` \
-    && mv $f source/$date-$filename
-  done
+for f in source/[0-9]*/**/*(.html|.md|.markdown); do 
+  filename=`basename $f`;
+  date=`head -20 $f | 
+  grep "^created_at:" | 
+  awk -F: '{print$2}' | 
+  awk '{print$1}' | 
+  sed 's/ //g'` \
+  && mv $f source/$date-$filename
+done
 
-rm source/{2004,2005,2006,2007,2008,2009,2010}
+# Cleanup
+# 
+rm -rf source/{2004,2005,2006,2007,2008,2009,2010}
