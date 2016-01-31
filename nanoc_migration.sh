@@ -29,5 +29,7 @@ for f in source/[0-9]*/**/*(.html|.md|.markdown)
     awk -F: '{print$2}' | 
     awk '{print$1}' | 
     sed 's/ //g'` \
-    && echo would rename $f to source/$date-$filename
+    && mv $f source/$date-$filename
   done
+
+rm source/{2004,2005,2006,2007,2008,2009,2010}
