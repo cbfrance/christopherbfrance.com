@@ -5,28 +5,117 @@
   <id>http://blog.url.com/</id>
   <link href="http://blog.url.com/"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2011-12-31T16:00:00-08:00</updated>
+  <updated>2010-03-31T17:00:00-07:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
   <entry>
-    <title>Example Article</title>
-    <link rel="alternate" href="http://blog.url.com/2012/01/01/example-article.html"/>
-    <id>http://blog.url.com/2012/01/01/example-article.html</id>
-    <published>2011-12-31T16:00:00-08:00</published>
+    <title>Don't pitch me.</title>
+    <link rel="alternate" href="http://blog.url.com/2010/04/01/dont-pitch-me.html"/>
+    <id>http://blog.url.com/2010/04/01/dont-pitch-me.html</id>
+    <published>2010-03-31T17:00:00-07:00</published>
     <updated>2016-01-30T19:29:30-08:00</updated>
     <author>
       <name>Article Author</name>
     </author>
-    <content type="html">&lt;p&gt;This is an example article. You probably want to delete it and write your own articles!&lt;/p&gt;
+    <content type="html">Last week I read this article on ReadWriteWeb that advises a startup to "&lt;a href="http://www.readwriteweb.com/start/2010/03/give-it-to-them-straight-avoid-pitching-to-your-board.php"&gt;Give It to Them Straight: Avoid "Pitching" to Your Board&lt;/a&gt;." The article explains how it can be bad to exaggerate your product and cover up problems that you are experiencing in development: 
+
+&lt;blockquote&gt;
+"VCs hear bad news all the time -- it is part of the startup process and part of the VC job description," says Hirshland. "Any VC worth his or her salt should respond to bad news, provided it is shared in a timely fashion, by helping the entrepreneur figure out the best way to respond rather than dwelling on what went wrong."
+&lt;/blockquote&gt;
+
+To which I must respond: no shit! We &lt;strong&gt;all&lt;/strong&gt; hear bad news all the time. Get is straight, &lt;strong&gt;a "pitch" is a lie plus hubris&lt;/strong&gt;. None of us want to be lied to. Would it be that hard to just tell everyone on your project the truth about what your software does and how the development process is going? 
+
+It's incredible to me that we have created a world in which this has to be pointed out: &lt;strong&gt;don't delude your closest supporters&lt;/strong&gt;. It's indicative of the fact that developer culture has become the domain of hucksters and charlatans.  There is a deeply manipulative and delusional culture at work here, and let's be clear &lt;strong&gt;there is absolutely no room for it in nonprofit and humanitarian technology&lt;/strong&gt;. 
+
+Read the language around a tech conference like &lt;a href="http://disrupt.techcrunch.com/blog/"&gt;TechCrunch Disrupt&lt;/a&gt;, where hundreds of startups come to fetishize themselves as combatants on a "startup battlefield." From their own words, it sounds like an joyous exercise in self-delusion:  "It'll be a little bit like pitching a top VC, except it will be done live on stage in front of thousands." 
+
+Is it so crazy to imagine a conference where we are all honest about what our software actually does, and they types of frustrating issues that we are facing in development? Then we could join hands and sing songs, I guess. 
+
+It sounds unrealistic because, you get pitched everywhere. In software development the art of lying has become pervasive. Developers pitch their funders, their users, and anyone who will listen. And really developers are just &lt;strong&gt;pitching themselves&lt;/strong&gt;, delusional about what their products are capable of doing.
+
 </content>
+  </entry>
+  <entry>
+    <title>Recent Meedan press</title>
+    <link rel="alternate" href="http://blog.url.com/2010/03/15/recent-meedan-press.html"/>
+    <id>http://blog.url.com/2010/03/15/recent-meedan-press.html</id>
+    <published>2010-03-14T17:00:00-07:00</published>
+    <updated>2016-01-30T20:56:05-08:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">
+I've had a great time working at Meedan recently as Director of Miscellany. We recently rolled out an update of the site and took of the "beta" label (it was out of style anyway).
+
+I was pleasantly surprised at the amount of interest generated -- turns out people are actually pretty interested in crowdsourced translation! 
+
+We've got a lot of work ahead of us, but at least we are iterating live again now, and we have an incredibly supportive community getting our little nonprofit through the buggy spots. 
+
+Anyway, the recent press clippings: 
+
+The Economist discusses the human-machine "cyborg translation" approach in a &lt;a href="http://www.economist.com/search/displaystory.cfm?story_id=15582327"&gt;summary piece&lt;/a&gt; mentioning Meedan as well as our friends at Worldwide Lexicon and Global Voices.
+
+The London Guardian wrote a nice &lt;a href="http://www.guardian.co.uk/media/2010/feb/21/translation-website-meedan-middle-east"&gt;article&lt;/a&gt;: 
+
+&lt;blockquote&gt;The system, which has been in development for more than three years, is based on advanced automatic translation technology developed by IBM and uses an international team of 30 translators and editors to find news and polish the language. ... With the potential for highly localised websites that cannot even be reached by outsiders — let alone understood — many have worried about the potential for a series of so-called "splinternets" to evolve.
+&lt;/blockquote&gt;
+
+
+The Guardian also as wrote a &lt;a href="http://www.guardian.co.uk/technology/blog/2010/feb/22/meedan-machine-translation-mt"&gt;blog post&lt;/a&gt; mentioning our Arabic-English &lt;a href="http://meedan.org/2009/11/meedan-releases-the-world-e2-80-99s-first-open-access-arabicenglish-translation-memory"&gt;Open Translation Memory&lt;/a&gt;. I appreciated this one because it at least mentioned our desire to move to WWL (away from a proprietary IBM backend which we have been loaned): 
+
+&lt;blockquote&gt;Meedan's data — its 'translation memory' of over 3m words — is available to other translators. Weyman says: "the translations that are done with the Transbrowser are part of our agreement with IBM that makes sure all those translations are open source." This isn't true of some other web-based translation services, which are open access but not open source data services. The 'translation memory' is important because having a corpus of texts in two languages allows you to apply statistical techniques to improve a translation engine.
+&lt;/blockquote&gt;
+
+ 
+Le Monde covered Meedan in French! Here's the &lt;a href="http://pisani.blog.lemonde.fr/2010/02/26/adressez-vous-aux-gens-dans-l%E2%80%99idiome-qu%E2%80%99ils-comprennent/"&gt;original French&lt;/a&gt; and the &lt;a href="http://translate.google.com/translate?js=y&amp;prev=_t&amp;hl=en&amp;ie=UTF-8&amp;layout=1&amp;eotf=1&amp;u=http://pisani.blog.lemonde.fr/2010/02/26/adressez-vous-aux-gens-dans-l%E2%80%99idiome-qu%E2%80%99ils-comprennent/&amp;sl=auto&amp;tl=en"&gt;translation&lt;/a&gt;.  (It's actually quite readable MT for a change -- French to English machine translation does not need humans nearly so much as Arabic to English.)
+
+The &lt;a href="http://tech.slashdot.org/story/10/02/22/2038241/New-EnglishArabic-Translation-Site-Hopes-To-Promote-Citizen-Diplomacy"&gt;Slashdot discussion&lt;/a&gt; of Meedan is hilariously bad yet somehow deeply insightful as a document of the Slashdot community (they are mostly terrified that Meedan will cause WWIII -- hasn't happened yet, guys.) At least they properly crashed the site for a bit, truly Slashdotted! (Or maybe that's what I get for pretending to be a Postgres admin.)
+
+&lt;a href="http://www.wired.com/epicenter/2010/02/arabic-english-diplomacy/"&gt;Wired ran a great article&lt;/a&gt; and even ventured to mention the interaction design: 
+
+&lt;blockquote&gt;
+Meedan is not the first to make machine translation tools publicly usable -- Yahoo's Babel Fish has been around for years, and Google's Translate continues to improve and broaden its scope as the company uses its massive trove of search queries to tune its translation technology.
+
+Meedan takes a different tack, first using Machine Translation technology, and then letting translators fix and refine translations. The status of a translation is always apparent, and learning a lesson from Wikipedia, Meedan makes the history of each translation publicly and quickly available.
+
+The point is to not hide the messiness of translation and keep the reminder that this is a cross-cultural endeavor embedded in the site design.
+&lt;/blockquote&gt;
+
+Lastly a bit about Meedan appeared on BBC Arabic, in the &lt;a href="http://www.newstatesman.com/digital/2010/02/arabic-english-website-meedan"&gt;New Statesman&lt;/a&gt;, and &lt;a href="http://blogs.aljazeera.net/middle-east/2010/02/22/meedan-blurs-linguistic-lines"&gt;on Al Jazeera&lt;/a&gt;.
+</content>
+  </entry>
+  <entry>
+    <title>What could possibly go wrong? </title>
+    <link rel="alternate" href="http://blog.url.com/2010/01/23/what-could-possibly-go-wrong.html"/>
+    <id>http://blog.url.com/2010/01/23/what-could-possibly-go-wrong.html</id>
+    <published>2010-01-22T16:00:00-08:00</published>
+    <updated>2016-01-30T19:29:30-08:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">What could possibly go wrong?  Thousands of volunteer hackers break ground on dozens of projects at a bunch of hastily organized unconferences promising to &lt;em&gt;Save Haiti&lt;/em&gt;?
+
+In a word: everything.
+
+Tonight there are a number of people organizing some pretty intensive projects involving one of the most sensitive places in the world.
+
+Let me tell you -- most of us have no idea what we are doing. Perhaps 5% of us have ever actually dealt directly in crisis response.  We are a bunch of dilettantes and armchair quarterbacks. We are normal people.
+
+I'm co-organizing one of the "&lt;a href="http://crisiscamp.org"&gt;Crisis Camps&lt;/a&gt;" here in Portland, and after a few days of work on project I think many things could go wrong with our approach. God forgive us. We will easily rebuild code that already exists, accidentally step on someone's toes, and flub a would-be partnership. It's even likely that our community will waste this rare opportunity to work with the real relief effort. Perhaps we just still won't get our act together, or we'll have an ineffective way of putting people to meaningful work. In fact, it is possible that things could go *very* wrong, far beyond wasted coding effort on a Saturday -- Just imagine the insanity that a few poorly trained volunteers could unleash with a simple list of phone numbers.
+
+It is a responsibility we do not fully understand. As civic actors, we are struggling to participate and innovate remotely, with data. Very strange, that this is possible now: We can act, even from our cubicles, or in pajamas, to improve Haiti. Even though we haven't figured out all the interaction design yet, it's possible now. And the Man is starting to listen to us.
+
+So, I will post screenshots of all the innovations later but for now, just before going to this event, I'm worried that we might flub our responsibilities in a way that could destroy lives and wreck a movement. It would not take much, to break rules that we did not even know existed yet. 
+
+Those who work as civic editors and engineers -- the crazy beautiful hackers and hippies and good people who are working at crisis camps all over the world tomorrow -- please remember that you are in a much larger ecosystem of response efforts and you bear a great deal of responsibility to *them all.* Please be diligent and critical in your many response efforts. And check the mindset you bring to the new conversation about the digital response for Haiti. We have an enormous amount to learn.</content>
   </entry>
   <entry>
     <title>'Slashtags' for citizen editors</title>
     <link rel="alternate" href="http://blog.url.com/2009/11/09/slashtags-for-citizen-editors.html"/>
     <id>http://blog.url.com/2009/11/09/slashtags-for-citizen-editors.html</id>
     <published>2009-11-08T16:00:00-08:00</published>
-    <updated>2016-01-30T20:54:19-08:00</updated>
+    <updated>2016-05-15T13:47:24-07:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -208,105 +297,66 @@ and &lt;a href="http://www.flickr.com/photos/unthinkingly/4088331717/"&gt;breaks
 [2] On Twitter there is s a bit of a variation required if we are to follow existing patterns: 1.) I can omit the space, so I will, and 2.) You need to prefix a user's name with the @ sign, like &lt;strong&gt;/for @meedan &lt;/strong&gt; -- I think this is still quite readable, but the difference between networks might need to be cleared up. We could in fact collapse the twitter tags to &lt;strong&gt;/for/meedan&lt;/strong&gt; (ie: identical to the delicious tag) but this would probably break some automation in twitter clients that are expecting the @ prefix. </content>
   </entry>
   <entry>
-    <title>OpenStreetMap Cambodia</title>
-    <link rel="alternate" href="http://blog.url.com/2009/06/30/openstreetmap-cambodia.html"/>
-    <id>http://blog.url.com/2009/06/30/openstreetmap-cambodia.html</id>
-    <published>2009-06-29T17:00:00-07:00</published>
-    <updated>2016-01-30T19:29:30-08:00</updated>
+    <title>Bookmarks</title>
+    <link rel="alternate" href="http://blog.url.com/2009/09/29/bookmarks.html"/>
+    <id>http://blog.url.com/2009/09/29/bookmarks.html</id>
+    <published>2009-09-28T17:00:00-07:00</published>
+    <updated>2016-01-30T21:20:00-08:00</updated>
     <author>
       <name>Article Author</name>
     </author>
-    <content type="html">I've been doing a series of presentations here &lt;a href="http://unthinkingly.com/2009/06/29/sustainable-interaction-design-in-cambodia/"&gt;at the InSTEDD lab&lt;/a&gt; in Phom Penh, and so far the best-received one has been (to my surprise) about something I really just getting into:  &lt;a href="http://www.openstreetmap.org/"&gt;OpenStreetMap&lt;/a&gt;. 
+    <content type="html">I have been keeping track of things that are interesting on Delicious for some time now. 
 
-I figured that this would be a good-spirited critical discussion about &lt;a href="http://en.wikipedia.org/wiki/Free_and_open_source_software"&gt;FOSS&lt;/a&gt; philosophy given that &lt;a href="http://www.phnompenhpost.com/index.php/2009063026788/Business/Google-meeting-held-at-Royal-University.html"&gt;Google was in town&lt;/a&gt;. :) I wasn't expecting it to be quite so engaging for the lab though -- I think they all had a great time. 
+Here're my top tags from September 2009 in case you are interested in checking out &lt;a href="http://delicious.com/unthinkingly"&gt;my Delicious feed&lt;/a&gt;.
 
-&lt;img src="http://unthinkingly.com/wp-content/uploads/picture-24-300x223.png" alt="taking_notes" title="taking_notes" width="300" height="223" class="alignleft size-medium wp-image-394" /&gt;
+* design 425
+* development 174
+* ux 172
+* programming 166
+* opensource 149
+* ui 148
+* for_meedan 118
+* usability 114
+* journalism 96
+* mobile 95
 
-&lt;img src="http://unthinkingly.com/wp-content/uploads/picture-23-225x300.png" alt="smilin" title="smilin" width="225" height="300" class="alignleft size-medium wp-image-393" /&gt;
-
-We did an introductory &lt;a href="http://wiki.openstreetmap.org/wiki/Mapping_party"&gt;mapping party&lt;/a&gt; and I explained some of my appreciation for OSM, particularly the &lt;a href="http://wiki.openstreetmap.org/wiki/WikiProject_Palestine_Gaza"&gt;Gaza mapping&lt;/a&gt; that happened early this year.
-
-I am an OSM newbie myself so I was just happy that we managed to get everything working end to end (using GPS devices kindly loaned by the &lt;a href="http://wiki.openstreetmap.org/index.php/Foundation"&gt;OSM Foundation&lt;/a&gt; -- thanks &lt;a href="http://brainoff.com/weblog/"&gt;Mikel&lt;/a&gt;!) Also thanks to &lt;a href="http://thinkwhere.wordpress.com/"&gt;Chippy&lt;/a&gt; for leading the OSM session last month that answered my questions about the OSM toolchain and gave me the idea for doing an intro party in Phonm Penh. I ripped off most of your presentation, Tim!
-
-&lt;div style="width:425px;text-align:left" id="__ss_1643565"&gt;&lt;a style="font:14px Helvetica,Arial,Sans-serif;display:block;margin:12px 0 3px 0;text-decoration:underline;" href="http://www.slideshare.net/unthinkingly/open-street-map-cambodia?type=powerpoint" title="Open Street Map Cambodia"&gt;Open Street Map Cambodia&lt;/a&gt;&lt;object style="margin:0px" width="425" height="355"&gt;&lt;param name="movie" value="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=osmpresentationcambodia-090626071521-phpapp02&amp;stripped_title=open-street-map-cambodia" /&gt;&lt;param name="allowFullScreen" value="true"/&gt;&lt;param name="allowScriptAccess" value="always"/&gt;&lt;embed src="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=osmpresentationcambodia-090626071521-phpapp02&amp;stripped_title=open-street-map-cambodia" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="425" height="355"&gt;&lt;/embed&gt;&lt;/object&gt;&lt;div style="font-size:11px;font-family:tahoma,arial;height:26px;padding-top:2px;"&gt;View more &lt;a style="text-decoration:underline;" href="http://www.slideshare.net/"&gt;documents&lt;/a&gt; from &lt;a style="text-decoration:underline;" href="http://www.slideshare.net/unthinkingly"&gt;unthinkingly&lt;/a&gt;.&lt;/div&gt;&lt;/div&gt;
- </content>
+I am working on several projects that use tags in slightly different ways, involving other specialized "social bookmarking" applications. I will post a note here when those feeds are ready! My current development activies (as a frontend coder and interaction designer) will be released over the course of 2008 at &lt;a href="http://meedan.net"&gt;http://meedan.net&lt;/a&gt; and &lt;a href="http://swiftapp.org"&gt;http://swiftapp.org&lt;/a&gt;. </content>
   </entry>
   <entry>
-    <title>Sustainable Interaction Design in Cambodia</title>
-    <link rel="alternate" href="http://blog.url.com/2009/06/29/sustainable-interaction-design-in-cambodia.html"/>
-    <id>http://blog.url.com/2009/06/29/sustainable-interaction-design-in-cambodia.html</id>
-    <published>2009-06-28T17:00:00-07:00</published>
+    <title>How Much Do You Trust Your Own Network?</title>
+    <link rel="alternate" href="http://blog.url.com/2009/09/26/how-much-do-you-trust-your-own-network.html"/>
+    <id>http://blog.url.com/2009/09/26/how-much-do-you-trust-your-own-network.html</id>
+    <published>2009-09-25T17:00:00-07:00</published>
     <updated>2016-01-30T19:29:30-08:00</updated>
     <author>
       <name>Article Author</name>
     </author>
-    <content type="html">So, I've spent almost a month now as a resident geek at the &lt;a href="http://instedd.org"&gt;InSTEDD&lt;/a&gt; Innovation Lab in Phnom Penh, Cambodia. 
+    <content type="html">Some time ago, I joined Twitter as &lt;a href="http://twitter.com/unthinkingly"&gt;@unthinkingly&lt;/a&gt;, and I loved it. Then, something felt wrong, and I deleted a bunch of followers. First I went down to 200 people, then 100, then 50, and it still was &lt;strong&gt;somehow wrong&lt;/strong&gt;, so I quietly slipped out the door. Nobody really complained. I think many people have experience this burnout. Twitter is kinda hard. There's just so much happening. To me, what was exciting became overwhelming. Serendipity curdled into distraction. 
 
-InSTEDD is working on epidemiology-related technologies that are very relevant to my research interests:
+When I left I was incredibly relieved. I could stop listening and start kicking ass.
 
-&lt;blockquote&gt;InSTEDD's mission is to harness the power of technology to improve collaboration for global health and humanitarian action.  We are an innovation lab for tools designed to strengthen networks, build community resilience and improve early detection and response to major health-related events and natural or human-caused disasters. &lt;br /&gt; - &lt;a href="http://instedd.org/"&gt;InSTEDD.org&lt;/a&gt;&lt;/blockquote&gt;
+So, I took a break, moved away from the ever-intense San Francisco bubble, worked in Cambodia, wrote a bunch of code ... and now, hey look! I'm back on Twitter. But, just to confuse you, I've setup not one but &lt;strong&gt;two Twitter accounts&lt;/strong&gt;: the old &lt;a href="http://twitter.com/unthinkingly"&gt;@unthinkingly&lt;/a&gt; is back for professional stuff, and now &lt;a href="http://twitter.com/cgblow"&gt;@cgblow&lt;/a&gt; for more private personal observations.
 
-I was invited to their Cambodian lab to give a usability review to some of their software, and to give some interaction design training to their team. It's been a fantastic escape from San Francisco. Cambodia has been alternating depressing, exciting, confirming and challenging. Certainly I have learned more than I have been able to teach.
+Turns out, it's such a simple and healthy solution; I don't know why more people don't do it. It's not a complicated hack or anything, you just have to use a separate email account. (A tool like &lt;a href="http://www.seesmic.com/" title="Seesmic: Build Your Community"&gt;Seesmic Desktop&lt;/a&gt; lets you stay signed into both at the same time.)
 
-Last winter I was doing some preliminary research for &lt;a href="http://swiftapp.org"&gt;Swift&lt;/a&gt;, and contacted InSTEDD to learn more about their platform for "team-sourcing" the analysis of information about the spread of disease. (I was given a preview of &lt;a href="http://instedd.org/evolve"&gt;Evolve&lt;/a&gt; and thoroughly blown away.) I was super impressed with &lt;a href="http://edjez.instedd.org/2008/09/phnom-penh-innovation-lab-team-giving.html"&gt;Eduardo's explanation of the lab&lt;/a&gt;, and happily jumped at the invitation to work as resident in Phnom Penh.
+Now, please don't misundersand me: I strongly believe in living a principled, genuine life. Naive as it sounds, I try to never ever say anything that I would not say to someone's face. Life is too hard that way. I'm an incompetent liar. I don't maintain multiple personalities -- I have a single, genuine and faceted personality. Just like most people I know.
 
-&lt;blockquote&gt;As part of InSTEDD's strategy of 'sustainable innovation' we are creating a full engineering team that over time owns and reinvents technologies used in the region. All technologies go obsolete - so for true sustainability you need to assemble a team of people that will invent the 'next thing' - and give it the skills, capital and opportunities to do so.
-&lt;br /&gt;&lt;span class="attribution"&gt;- @edjez&lt;/span&gt;&lt;/blockquote&gt; 
+&lt;h3&gt;Back in the Day&lt;/h3&gt;
 
-I actually had no idea what to expect here. I've lived in the woods a couple years without bandwidth, but I'd never really worked as a designer or developer in conditions quite like this. Phnom Penh has its fancy bits, for sure (the lab here is quite nice), but you are never far from tragedy. 
+As an application designer, I keep spotting architectures that expect, and in some cases force, me to have a single, monolithic expression of my personality. I take offense to this because we, as humans, are all multi-faceted. We speak to our parents differently than our coworkers. We lower our voices a bit in a crowded coffee shop. We stand up straighter when we give a presentation. And, again, these are not about secrecy or duplicity, but rather, indications of maturity, and a uniquely human sophistication.
 
-Particularly the history in Cambodia is haunting. An entire generation of intellectuals and hackers, killed. There are no second-generation programmers in Cambodia. It's terrifying. The horrors of poverty are nothing compared to human nature. Somehow being a user-centered technologist means understanding this. Somehow.
+Back in the day, we did this better, probably by accident. We didn't have ways to prevent you from creating multiple accounts. We didn't really need to -- there were no zombie spammers. From an application design perspective, the geography was totally different because of this difference. We had tiny little awesome communities. Your importance was judged more by what you said than how many "friends" you had. 
 
-I work on a lot of international projects, but at the end of the day I am just a homebody country mouse -- I've hardly traveled at all, especially compared to the jet-set geeks that I tag along with. So a 15-hour flight to Phnom Penh seemed like a good tonic. I couldn't imagine a more appropriate place for understanding technological capacity, understanding humans, understanding human-centered design.
+Back in the day, you were expected to have a short pseudonym, a handle, that you could use (or not use) across any bulliten board you wanted. And on IRC in particular, you can (still!) register dozens of pseudonyms if you wanted to, and express yourself appropriately in different contexts. You can whisper, lurk and rant, all at the same time. Just like you can in real life. 
 
-I have some rather deep frustrations with San Francisco. I feel really lucky to have lived and worked there, but after a couple of years I am more than ready to get out -- most developers are overpaid, overworked, out of touch with the world. I have encountered enough dispassionate, disengaged arrogance from &lt;a href="http://unthinkingly.com/2008/12/03/trying-to-quit/"&gt;rich programmer zombie dudes&lt;/a&gt; that I have been ready to quit programming altogether. 
+&lt;h3&gt;The Test&lt;/h3&gt;
 
-So, as much as I have an interest in technology for the developing world, I've been longing for more first-hand experience with austere (read: realistic) technological environments. As a developer and designer I consider this just due diligence; it's basic design research about the real world, the real design problem. &lt;a href="http://unthinkingly.com/2006/12/06/design-for-maximum-constraints/"&gt;Designing for maximum constraints&lt;/a&gt; just doesn't really work from San Francisco bubble.
+In thinking this through, I realized that the most irritating thing wasn't really about the information overload thing. That's still there.
 
-One of the great lures of Information and Communication Technology for Development (ICT4D) is the possibility of "leapfrogging" old technologies and bringing major changes to the developing world. But leapfrogging technologies are not possible unless they address the much more subtle cultural issues. Which is to say, the process of technological advancement must be in organic, not imposed. San Francisco (or London or Berlin) solutions will never work in Cambodia. It's fundamentally an interaction design problem, which is has to be addressed by &lt;em&gt;changing the conditions in which software is created&lt;/em&gt;.
+What I found on Twitter, the way I was using it, was a lack of trust. And, get this, -- not other people trusting me, but me actually trusting &lt;strong&gt;my own network&lt;/strong&gt;.
 
-InSTEDD has created the Phnom Penh lab to put development in the hands of the people that will be using it: Cambodians dealing with epidemics in Cambodia. 
+So, I created a test for &lt;a href="http://twitter.com/cgblow"&gt;@cgblow&lt;/a&gt;. In order to set the bar a little higher, and really give myself a break from some of these frustrations, I have simple, but hardcore, criteria for who I'll follow with @cgblow: &lt;strong&gt;I could give you the root password to my computer&lt;/strong&gt;. In fact, I'll Twitter it right now. Done.
 
-&lt;a href="http://blog.ushahidi.com"&gt;Ushahidi&lt;/a&gt; understands this deeply, cultivates serious African talent, and is working on a lab in Kenya, I hear.
-
-At my nonprofit &lt;a href="http://meedan.net"&gt;Meedan&lt;/a&gt; we hope to learn from this leadership and create a tech lab in Syria, where Arabic-speaking programmers from the Middle East -- people who deeply understand the design needs of that region -- will be in charge of developing our most important technologies. This, I think, is the simplest and most appropriate model for sustainable interaction design, and I am thrilled to work with people who get it.</content>
-  </entry>
-  <entry>
-    <title>Trying to Quit</title>
-    <link rel="alternate" href="http://blog.url.com/2008/12/03/trying-to-quit.html"/>
-    <id>http://blog.url.com/2008/12/03/trying-to-quit.html</id>
-    <published>2008-12-02T16:00:00-08:00</published>
-    <updated>2016-01-30T19:29:30-08:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">I have been trying to quit programming for about six months. 
-
-I'm down to about 2 times a day, on average, sometimes more. It's a problem. 
-
-Don't get me wrong, programming is one of the best disciplines I ever stuck my nose into. Programming teaches you fundamentally how to &lt;em&gt;constantly improve your craft&lt;/em&gt;. But it's exhausting, distracting, and inseparable from the cult of efficiency. It takes you away from humans, mashes your nose into an LCD all night, and leaves you with a delusional sense of total control over your environment. I wish that I could take back every second of my life that I spent learning to build stacks and refactor my own crappy code. 
-
-The problem is that code is so damn useful. It beckons with APIs and gives you entire weekends of mindless flow; hack, hack, hack, make it pretty and fast.
-
-So anyway, I'm working on it.</content>
-  </entry>
-  <entry>
-    <title>Dealing Lightning with Both Hands</title>
-    <link rel="alternate" href="http://blog.url.com/2008/12/03/dealing-lightning-with-both-hands.html"/>
-    <id>http://blog.url.com/2008/12/03/dealing-lightning-with-both-hands.html</id>
-    <published>2008-12-02T16:00:00-08:00</published>
-    <updated>2016-01-30T19:29:30-08:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;a href="http://stanfordtickets.org/tickets/calendar/view.aspx?id=2324"&gt;&lt;img src="http://unthinkingly.com/wp-content/uploads/doug-e.gif" alt="ah doug" title="douglas-engelbart-12" class="alignnone size-full wp-image-295" /&gt;&lt;/a&gt;
-
-&lt;blockquote&gt;
-On December 9, 1968, Dr. Douglas C. Engelbart and the Augmentation Research Center (ARC) at Stanford Research Institute staged a 90-minute public multimedia demonstration at the Fall Joint Computer Conference in San Francisco. It was the world debut of personal and interactive computing: for the first time, the public saw a computer mouse, which controlled a networked computer system to demonstrate hypertext linking, real-time text editing, multiple windows with flexible view control, cathode display tubes, and shared-screen teleconferencing.
-
-It changed what is possible. The 1968 demo presaged many of the technologies we use today, from personal computing to social networking. The demo embodied Doug Engelbart's vision of solving humanity's most important problems by using computers to improve communication and collaboration.&lt;/blockquote&gt;
-
-&lt;a href="http://stanfordtickets.org/tickets/calendar/view.aspx?id=2324"&gt;In the Bay? Buy a ticket already.&lt;/a&gt;
-</content>
+How much do you really trust your network? What can you say, and what is off limits because you have to say it to &lt;strong&gt;everyone&lt;/strong&gt;? How does a sprawling, Facebook-style personality portal limit your experience of genuine community? How much do you trust your own network?</content>
   </entry>
 </feed>

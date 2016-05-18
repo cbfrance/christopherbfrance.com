@@ -5,8 +5,7 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge;chrome=1' />
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Blog Title<%= ' - ' + current_article.title unless current_article.nil? %></title>
-    <%= feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed" %>
+    <title><%= ' - ' + current_article.title unless current_article.nil? %></title>
   </head>
   <body>
 
@@ -15,10 +14,10 @@
     </div>
 
     <aside>
-      <h2>Recent Articles</h2>
+      <h2>More posts</h2>
       <ol>
         <% blog.articles[0...10].each do |article| %>
-          <li><%= link_to article.title, article %> <span><%= article.date.strftime('%b %e') %></span></li>
+          <li><%= link_to article.title, article %> <span><%= article.date.strftime('%b %e %Y') %></span></li>
         <% end %>
       </ol>
 
