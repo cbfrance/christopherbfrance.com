@@ -8,7 +8,9 @@
     <title><%= ' - ' + current_article.title unless current_article.nil? %></title>
   </head>
   <body>
-
+    <header>
+      <%= ' - ' + current_article.title unless current_article.nil? %>
+    </header>
     <div id="main" role="main">
       <%= yield %>
     </div>
