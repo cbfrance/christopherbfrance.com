@@ -10,7 +10,7 @@ status: publish
 
 Somehow Kermit managed to skewer the woo-woo hippie hype surrounding visual thinking 40 years ago. 
 
-<object width="425" height="344"><param name="movie" value="http://www.youtube.com/v/fcqY66chhCA&hl=en&fs=1"></param><param name="allowFullScreen" value="true"></param><embed src="http://www.youtube.com/v/fcqY66chhCA&hl=en&fs=1" type="application/x-shockwave-flash" allowfullscreen="true" width="425" height="344"></embed></object>
+[http://www.youtube.com/v/fcqY66chhCA&hl=en&fs=1]]
 
 But then of course he really gets to the truth of the CA design scene: "You really have to let go, you unwind into the cosmic infinity of things."
 

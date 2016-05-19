@@ -24,7 +24,9 @@ Today we had a great meeting at InSTEDD, with a crazy good crowd of people -- ev
 
 Here's my presentation from today:
 
-<div style="width:425px;text-align:left" id="__ss_1398196"><a style="font:14px Helvetica,Arial,Sans-serif;display:block;margin:12px 0 3px 0;text-decoration:underline;" href="http://www.slideshare.net/unthinkingly/swift-update-may-6?type=powerpoint" title="Swift Update May 6">Swift Update May 6</a><object style="margin:0px" width="425" height="355"><param name="movie" value="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=dashboardshort-090507011606-phpapp02&rel=0&stripped_title=swift-update-may-6" /><param name="allowFullScreen" value="true"/><param name="allowScriptAccess" value="always"/><embed src="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=dashboardshort-090507011606-phpapp02&rel=0&stripped_title=swift-update-may-6" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="425" height="355"></embed></object><div style="font-size:11px;font-family:tahoma,arial;height:26px;padding-top:2px;">View more <a style="text-decoration:underline;" href="http://www.slideshare.net/">presentations</a> from <a style="text-decoration:underline;" href="http://www.slideshare.net/unthinkingly">unthinkingly</a>.</div></div>
+[http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=dashboardshort-090507011606-phpapp02&rel=0&stripped_title=swift-update-may-6]
+
+[http://www.slideshare.net/unthinkingly]
 
 All of the photos and links can be found on <a href="http://flickr.com/unthinkingly">my Flickr page</a>.
 

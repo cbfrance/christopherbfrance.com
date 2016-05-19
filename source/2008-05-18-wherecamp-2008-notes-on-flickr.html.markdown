@@ -8,4 +8,4 @@ modified_on: 2009-01-30 10:56:06
 status: publish
 ---
 
-<img src="/wp-content/themes/hemingway-reloaded-10/images/cyclone.jpg" alt="if i had more coffee it would have been better" title="notes from wherecamp2008" />
+<img src="/images/cyclone.jpg" alt="if i had more coffee it would have been better" title="notes from wherecamp2008" />

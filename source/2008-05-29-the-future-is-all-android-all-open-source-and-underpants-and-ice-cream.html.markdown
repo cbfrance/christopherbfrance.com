@@ -14,4 +14,4 @@ PS: where the hell is Nokia on <a href="http://www.openhandsetalliance.com/oha_m
 
 And then there's ice cream and underpants: 
 
-<object width="425" height="355"><param name="movie" value="http://www.youtube.com/v/jWtFeIw8MVM"></param><param name="wmode" value="transparent"></param><embed src="http://www.youtube.com/v/jWtFeIw8MVM" type="application/x-shockwave-flash" wmode="transparent" width="425" height="355"></embed></object>
+[http://www.youtube.com/v/jWtFeIw8MVM]

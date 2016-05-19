@@ -11,7 +11,9 @@ status: publish
 I've been reading an excellent report from <a href="http://www.eldis.org/">Eldis </a>(an incredible clearinghouse of development information) about the implementation of ICT programs in developing countries. In part the report seeks to question some conventional wisdom about the necessity of trendy technologies. On the whole it is a great synopsis of practical research with a clearheaded focus on poverty elimination. I recommend the <a href="http://www.eldis.org/fulltext/sidaictpoverty.pdf">full text pdf</a>, and here's a bit from the executive report: 
 
 <blockquote class="large">
-<img class="left" src='http://www.pictr.org/wp-content/PanosTBolstadradio.jpg' alt='Man with radio' />
+
+<img src='/images/PanosTBolstadradio.jpg' alt='Man with radio' />
+
 This report reviews the evidence on how (or if) ICTs should be used in support of poverty reduction exercises.
 
 There is one characteristic that is common to most of the ICT-related poverty alleviation programs. It finds that the most effective ICTs used are typically basic ones‚ telephone and radio are most common, and when computers or the Internet are involved, they are for restricted, targeted uses.

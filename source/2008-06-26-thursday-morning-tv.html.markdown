@@ -16,13 +16,13 @@ Actually this is better than Thursday morning TV, which, in my hometown at least
   <li>Lastly a favorite app redesigned.</li>
 </ol>
 
-<object width="425" height="355"><param name="movie" value="http://www.youtube.com/v/WIvmE4_KMNw&hl=en"></param><param name="wmode" value="transparent"></param><embed src="http://www.youtube.com/v/WIvmE4_KMNw&hl=en" type="application/x-shockwave-flash" wmode="transparent" width="425" height="355"></embed></object>
+[http://www.youtube.com/v/WIvmE4_KMNw&hl=en]
 
 (more <a href="http://www.ideaography.net/more-video-type-love/">type video</a> if you're into it) 
 
 And the bike:
 
-<object width="425" height="344"><param name="movie" value="http://www.youtube.com/v/-U-mvfjyiao&hl=en"></param><param name="wmode" value="transparent"></param><embed src="http://www.youtube.com/v/-U-mvfjyiao&hl=en" type="application/x-shockwave-flash" wmode="transparent" width="425" height="344"></embed></object>
+[http://www.youtube.com/v/-U-mvfjyiao&hl=en]]
 
 The wacky bike was designed by IDEO people -- I'm also impressed with their recent riff on the magazine quiz (maybe think madlibs): A Rockefeller sponsored <a href="https://client.ideo.com/socialimpact/">guide to creating social impact</a> with your design firm. 
 

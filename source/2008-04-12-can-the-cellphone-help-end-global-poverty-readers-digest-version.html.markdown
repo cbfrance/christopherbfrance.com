@@ -8,10 +8,7 @@ modified_on: 2008-04-14 00:30:06
 status: publish
 ---
 
-So I went to this Street Hacks talk 2 nights ago is here: <a href="http://www.janchipchase.com/ ">http://www.janchipchase.com/ </a> (it was awesome, you missed it. <a href="http://">Clam Pizza.</a>) And then it turns out Chipchase just got all famous this week, <em>seriously</em>: First a rad <a href="http://audiovideo.economist.com/?fr_chl=8094fc97a897f95d4bf846ee51a4214809017977">video in the Economist</a>: 
-
-
-<iframe src='http://video.economist.com/linking/index.jsp?skin=oneclip&ehv=http://audiovideo.economist.com/&fr_story=30eb9741438043227a4ebe9fbdcbf438c8cd01e3&rf=ev&hl=true' width=402 height=336 scrolling='no' frameborder=0 marginwidth=0 marginheight=0></iframe>
+So I went to this Street Hacks talk 2 nights ago is here: <a href="http://www.janchipchase.com/ ">http://www.janchipchase.com/ </a> (it was awesome, you missed it. <a href="http://">Clam Pizza.</a>) And then it turns out Chipchase just got all famous this week, <em>seriously</em>: First a rad <a href="http://audiovideo.economist.com/?fr_chl=8094fc97a897f95d4bf846ee51a4214809017977">video in the Economist</a>.
 
 And then <a href="http://www.nytimes.com/2008/04/13/magazine/13anthropology-t.html?pagewanted=1">in the New York Times</a>. 
 

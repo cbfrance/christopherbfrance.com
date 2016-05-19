@@ -8,12 +8,12 @@ modified_on: 2008-04-05 06:50:45
 status: publish
 ---
 
-<img src='/wp-content/uploads/colors.jpg' alt='Colors' />Wow. Steve at Slayeroffice.com has an amazing <a href="http://slayeroffice.com/tools/color_palette/">color palette generator</a> based on the design technique of <a href="http://www.stuffandnonsense.co.uk/archives/creating_colour_palettes.html">Andy Clark</a>.
+<img src='/images/colors.jpg' alt='Colors' />Wow. Steve at Slayeroffice.com has an amazing <a href="http://slayeroffice.com/tools/color_palette/">color palette generator</a> based on the design technique of <a href="http://www.stuffandnonsense.co.uk/archives/creating_colour_palettes.html">Andy Clark</a>.
 
 You enter a hex code value for a color, then another to mix it with, and out comes a beautiful png graphic of the color scheme. Extremely nice work, Steve. This is a great resource for brainstorming color schemes. I've used a number of other methods, but this one gets the prize. 
 
 
-<img src='/wp-content/uploads/colorwheel.jpg' alt='colorwheel' /> 
+<img src='/images/colorwheel.jpg' alt='colorwheel' /> 
 
 <h3>UPDATE</h3>
 

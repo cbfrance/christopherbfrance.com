@@ -13,9 +13,11 @@ If you like the idea of tagging you web pages and your books, how about tagging 
 </p>
 
 <blockquote class="large">
-<p>"</p><p><img style="float: left" src='http://www.techcrunch.com/wp-content/tagalaglogo.jpg'class="shot" alt="" /><a href="http://www.tagalag.com">Tagalag</a> is a service that lets you tag <em>people</em>, via their email address. It&rsquo;s not a &lsquo;tribute&rsquo; site like <a href="http://www.43people.com">43 people</a>, because only people who know a person&rsquo;s email address can add tags for that person.</p>
-	<p>If you create a profile you can add personal and geographical information about yourself.</p>
-	<p>I don&rsquo;t know if Tagalag is onto a viable business model, but I like the idea of tagging people. This could become interesting as it evolves.</p>
+    <a href="http://www.tagalag.com">Tagalag</a> is a service that lets you tag <em>people</em>, via their email address. It&rsquo;s not a &lsquo;tribute&rsquo; site like <a href="http://www.43people.com">43 people</a>, because only people who know a person&rsquo;s email address can add tags for that person.</p>
+
+    <p>If you create a profile you can add personal and geographical information about yourself.</p>
+
+    <p>I don&rsquo;t know if Tagalag is onto a viable business model, but I like the idea of tagging people. This could become interesting as it evolves.</p>
 </blockquote>
 
 <p>Read it: <a href="http://www.techcrunch.com/2005/11/09/tag-people-with-tagalag/#comments">People Tagging with Tagalag</a></p>

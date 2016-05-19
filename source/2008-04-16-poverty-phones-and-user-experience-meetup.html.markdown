@@ -8,7 +8,7 @@ modified_on: 2008-04-17 16:42:28
 status: publish
 ---
 
-<img src='http://farm1.static.flickr.com/62/217338309_49a8181e6a.jpg' alt='by meanestindian via flickr' class='alignleft' />
+['http://farm1.static.flickr.com/62/217338309_49a8181e6a.jpg by meanestindian via flickr']
 
 Just a quick open invitation, if you are in San Francisco this weekend: 
 

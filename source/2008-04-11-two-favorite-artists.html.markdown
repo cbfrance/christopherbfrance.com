@@ -12,8 +12,8 @@ status: publish
 
 Just like he is here: 
 
-<object width="425" height="355"><param name="movie" value="http://www.youtube.com/v/qB76jxBq_gQ&hl=en"></param><param name="wmode" value="transparent"></param><embed src="http://www.youtube.com/v/qB76jxBq_gQ&hl=en" type="application/x-shockwave-flash" wmode="transparent" width="425" height="355"></embed></object>
+[http://www.youtube.com/v/qB76jxBq_gQ&hl=en]
 
 And <strong>Margaret Kilgallen</strong>, the archetype of San Franciscan brilliance: 
 
-<embed style="width:400px; height:326px;" id="VideoPlayback" type="application/x-shockwave-flash" src="http://video.google.com/googleplayer.swf?docId=-9020381880076188853&hl=en" flashvars=""> </embed>
+[http://video.google.com/googleplayer.swf?docId=-9020381880076188853&hl=en]

@@ -61,7 +61,7 @@ Particularly I think <strong>using /by</strong> is a great idea to reference an 
 
 Using /by gives a very specific meaning to the username that follows it. It's intuitive enough that I don't think it even needs to be explained, you can just read it: 
 
-<img src="http://farm3.static.flickr.com/2455/4088475379_cf90c0b1e5_o.jpg" width="623" height="268" alt="by" />
+[http://farm3.static.flickr.com/2455/4088475379_cf90c0b1e5_o.jpg]
 
 Not beautiful, but very clear. 
 
@@ -163,7 +163,7 @@ I think that a better-defined tagging approach could really help make sense of c
 A wiki about hurricane Ida, for example, is probably not the right way to manage news about a critical event:
 
 <a href="http://www.flickr.com/photos/unthinkingly/4089097932/" title="ida by unthinkingly, on Flickr">
-  <img src="http://farm3.static.flickr.com/2712/4089097932_350f83174c.jpg" width="353" height="500" alt="ida" />
+  [http://farm3.static.flickr.com/2712/4089097932_350f83174c.jpg Ida]
 </a>
 
 Mediawiki makes me groan just looking at it. I'd much rather help update that information by tagging links into delicious, and knowing that someone is listening on the other end. This would motivate me to learn the emergent standards, follow a loose taxonomy, and generally try to be more <strong>articulate</strong>.
