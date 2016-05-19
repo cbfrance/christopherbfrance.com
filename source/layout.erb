@@ -8,18 +8,16 @@
     <title><%= ' - ' + current_article.title unless current_article.nil? %></title>
   </head>
   <body>
-    <header>
-      <%= ' - ' + current_article.title unless current_article.nil? %>
-    </header>
     <div id="main" role="main">
+      <h2><%= current_article.title unless current_article.nil? %></h2>
       <%= yield %>
     </div>
 
     <aside>
-      <h2>More posts</h2>
+      <h2>Latest posts</h2>
       <ol>
         <% blog.articles[0...10].each do |article| %>
-          <li><%= link_to article.title, article %> <span><%= article.date.strftime('%b %e %Y') %></span></li>
+          <li><%= link_to article.title, article %> <span><%= article.date.strftime('%b %e %y') %></span></li>
         <% end %>
       </ol>
 
