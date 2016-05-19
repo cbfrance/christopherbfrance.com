@@ -43,7 +43,7 @@ But when I read the following I was a little more disturbed:
 <blockquote class="large">
 "I asked how many of them had used Gopher. About three-forths of the hands went up. This surprised me. I asked about Telnet. Again, a vast majority of the hands when up."</blockquote>
 
-<img src='/wp-content/uploads/telnet.jpg' alt='Telnet circa 1990' />
+<img src='/images/telnet.jpg' alt='Telnet circa 1990' />
 
 That's right. Gopher and Telnet are not only still <strong>on people's radar</strong>, but teachers are apparently <strong>much more familiar</strong> with these medieval implements than blogs. Why is this so difficult to catch on to? It's just writing on the internet. Where are the barriers to understanding and use coming from? I know that technological literacy and the digital divide are real complex issues, but dammit, I don't get it. Why did people stop paying attention when it got interesting? Blogging is so much more engaging and Telnet was ... just such a drag!
 

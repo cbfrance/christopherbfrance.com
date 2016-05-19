@@ -8,7 +8,7 @@ modified_on: 2008-04-05 07:04:00
 status: publish
 ---
 
-<a href="http://www.37signals.com/">37 Signals</a> is a supersmart little company known for creating easy-to-use web-based project management tools (namely the <a href="http://www.basecamphq.com/">Basecamp </a>suite), and they have just announced the latest in their product family: <a href="http://www.campfirenow.com/">Campfire</a>. <img src='/wp-content/uploads/campfirelogo_01.gif' alt='campfirelogo' /> 
+<a href="http://www.37signals.com/">37 Signals</a> is a super-smart little company known for creating easy-to-use web-based project management tools (namely the <a href="http://www.basecamphq.com/">Basecamp </a>suite), and they have just announced the latest in their product family: <a href="http://www.campfirenow.com/">Campfire</a>. <img src='/images/campfirelogo_01.gif' alt='campfirelogo' /> 
 
 According to their website, "Campfire brings simple group chat to the business setting. Instant messaging is great for quick 1-on-1 chats, but it's miserable for 3 or 4 or 7 or 15+ people at once. Campfire solves that problem and plenty more. " 
 
@@ -42,8 +42,6 @@ And, unfortunately for most of us at the evaluator's conference, the presenters 
 
 	<li>Repeat: automatic transcriptions!</li>
 </ul>
-
-
 
 So I'm really excited about Campfire and I look forward to trying it out, hopefully with a longer post in the near future about the existing options for online research of this nature. Until then, check it out for yourself if you need to do some group instant messaging, I think the possibilities are amazing if you just have a talented coordinator and some people that have valuable things to say. 
 

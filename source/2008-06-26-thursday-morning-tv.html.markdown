@@ -32,4 +32,4 @@ And the App:
 
 They just released a major new milestone and have bunch of great new branding. Great work, <a href="http://www.blogspot.kiwanja.net/">Ken</a>!
 
-<a href="http://www.frontlinesms.com/what/product.php"><img src="/images/frontline.png" alt="frontline interface"/></a>
+<img src="/images/frontline.png" alt="frontline interface"/>

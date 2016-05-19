@@ -22,7 +22,7 @@ And so, with some apprectiation of situational humor and contradiction, I think 
 
 Here's the bit from the editorial leadin of the current issue: 
 
-<blockquote class="large"><img class="left" src='/wp-content/uploads/cover.jpg' alt='Developments magazine' />
+<blockquote class="large"><img class="left" src='/images/cover.jpg' alt='Developments magazine' />
 In Zambia a street market vendor is paying for his order of Coca-Cola by text message. In Tanzania a candidate in the Presidential elections has been awarded his degree after completing it online through distance learning. In Nairobi, a daughter is sending money to her father in rural Kenya with prepaid pay as you go airtime. And in Namibia schoolchildren are surfing the net, sending emails and writing essays thanks to FLOSS, open source software written by enthusiastic programmers who don't want any payment.
 
 New technology is changing the face of international development in ways that no one predicted. And in this issue of developments we ask how technology can fight poverty ‚Äì from the fisherman using his mobile to check which market wants his catch to the Ethiopians taking to blogging to change global perceptions of their country. The net, of course, has long been touted as a revolutionary tool for international development, but the global explosion in mobile phone use means it has rapidly caught up. And mobile phones are easier to share, requiring much less time to use, are more portable and you don‚Äôt have to read or write to use them.</blockquote>

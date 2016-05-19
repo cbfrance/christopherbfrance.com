@@ -8,7 +8,7 @@ modified_on: 2009-01-30 10:43:18
 status: publish
 ---
 
-Smartly presented information is a nonprofit's best friend. If you can't communicate the problem, no one is going to give a damn. <a href="http://whiteafrican.com/?p=1081">Hash's blog</a> just pointed me to some powerful charts Sokwanele mapping project , which I've mentioned <a href="http://unthinkingly.com/2008/04/11/zimbabwe-election-watch-map/">previously</a>. These charts are extremely important data to have in the public domain, and it's great that they 
+Smartly presented information is a nonprofit's best friend. If you can't communicate the problem, no one is going to give a damn. <a href="http://whiteafrican.com/?p=1081">Hash's blog</a> just pointed me to some powerful charts Sokwanele mapping project , which I've mentioned <a href="/2008/04/11/zimbabwe-election-watch-map/">previously</a>. These charts are extremely important data to have in the public domain, and it's great that they 
 appear well-executed and polished, with a high resolution of visual information. 
 
 <img src="/images/charts.gif" title="google charts" alt="pretty charts, not so pretty data."/><h3 class="caption">Google Charts from Sokwanele and Mobile Researcher</h3>

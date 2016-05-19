@@ -8,6 +8,6 @@ modified_on: 2008-04-05 07:05:58
 status: publish
 ---
 
-<img src='/wp-content/uploads/SNAG0006.png' alt='DRC-migration' />I have a love for maps because they can be the most rich, yet easy-to-understand communication tools. <a href="http://www.reliefweb.int">ReliefWeb</a>, a website devoted to distributing time-sensistive information about humanitarian crises, is an excellent resource for insightful maps and infographics. You can sign up to receive email updates of all their new maps. Suff like this map showing displaced persons in the DRC.  
+<img src='/images/SNAG0006.png' alt='DRC-migration' />I have a love for maps because they can be the most rich, yet easy-to-understand communication tools. <a href="http://www.reliefweb.int">ReliefWeb</a>, a website devoted to distributing time-sensitive information about humanitarian crises, is an excellent resource for insightful maps and infographics. You can sign up to receive email updates of all their new maps. Stuff like this map showing displaced persons in the DRC.  
 
 Maps in the mailbox? Wonderful. 

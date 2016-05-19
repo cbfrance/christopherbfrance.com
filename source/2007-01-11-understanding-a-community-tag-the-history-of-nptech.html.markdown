@@ -24,10 +24,10 @@ In this context, it seems that generally the consensus has been that 1.) Taxonom
 So, in the spirit of improving the tag and promoting the nptech community, here's some data: 
 
 <ol>
-<li>A plain text listing of every word that has been used on del.icio.us in association with nptech. <a href="http://unthinkingly.com/download/fulltext.xml.txt">fulltext.xml</a> </li>
-<li>A sorted and ranked list of these tags. <a href="http://unthinkingly.com/download/nptech-tagged.txt">nptech-tagged.txt</a></li>
+<li>A plain text listing of every word that has been used on del.icio.us in association with nptech. <a href="/download/fulltext.xml.txt">fulltext.xml</a> </li>
+<li>A sorted and ranked list of these tags. <a href="/download/nptech-tagged.txt">nptech-tagged.txt</a></li>
 <li>All of the tags presented as <a href="http://www.unthinkingly.com/experiments/nptech/understanding_nptech.php">a scrollable tag-timeline</a>. </li>
-<li>The script that I wrote to gather the data from delicious (in perl): <a href="http://unthinkingly.com/download/community-tag-robot.txt">community-tag-robot.txt</a>. (The code is also displayed below with syntax highlighting.)
+<li>The script that I wrote to gather the data from delicious (in perl): <a href="/download/community-tag-robot.txt">community-tag-robot.txt</a>. (The code is also displayed below with syntax highlighting.)
 </li> 
 </ol>
 

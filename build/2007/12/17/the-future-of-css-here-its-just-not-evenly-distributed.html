@@ -11,7 +11,7 @@
     <div id="main" role="main">
       <p>In light of the <a href="http://www.stuffandnonsense.co.uk/malarkey/more/css_unworking_group/">litigious, melodramatic backwater that the CSS spec has fallen into</a>, I thought it would be worth writing up a teensy, non-brilliant-but-incredibly-useful DIY hack for stylesheets.</p>
 
-<p><img src='/wp-content/uploads/future-is-now-slate.jpg' alt='The future is now' />In my mind, there is really no way of getting around CSS if you are working on the web. CSS makes your site ugly or beautiful, rendering a site in just a split second of processing right before your retinas pass information to your brain. I love it; it&#39;s one of my trustiest tools. Back in the day I did enough hard time with tables and inline FONT and MARGIN stuff that CSS really was a revelation for me.</p>
+<p><img src='/images/future-is-now-slate.jpg' alt='The future is now' />In my mind, there is really no way of getting around CSS if you are working on the web. CSS makes your site ugly or beautiful, rendering a site in just a split second of processing right before your retinas pass information to your brain. I love it; it&#39;s one of my trustiest tools. Back in the day I did enough hard time with tables and inline FONT and MARGIN stuff that CSS really was a revelation for me.</p>
 
 <p>So yeah, CSS, I love you, even if you are spooky and crusty and awkward sometimes. And did I mention annoying? Ok sometimes REALLY annoying. ... Sometimes it&#39;s late, stuff&#39;s completely hosed by SOMETHING in this bloated stylesheet, and I realize that I&#39;ve just learned to survive on CSS island with a sturdy coconut helmet and strong superstitions about absolute positioning or a negative margin or that extra wrapper div.</p>
 
@@ -37,28 +37,32 @@ Here are the gigantic CSS annoyances that server-side CSS parsing solves for me:
 
 <p>A decent stylesheet has some degree of scope, which makes your stylesheet more readable and your styles most contextual. That is, instead of just saying <code>p {color:fuchsia;}</code> it really is best to have something more specific like <code>div.column p {color:fuchsia;}</code>. But then when you have to repeat the contextual selector (the stuff in front of the p element) every time. So CSS Dryer lets you turn this: </p>
 
-<p><code>
+<pre><code>
     body#homepage div.column p {color:fuscia;}
     body#homepage div.column p span {color:black;}
-</code></p>
+</code></pre>
 
-<p>into this: </p>
+into this: 
 
-<p><code>
-body#homepage 
-&nbsp; &nbsp; &nbsp; div.column {
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  p {color:fuscia;
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; span {color:black;}
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }
-&nbsp; &nbsp; &nbsp;}
-}
-</code></p>
+<pre>
+    <code>
+    body#homepage 
+        div.column {
+            p {color:fuscia;
+                span {color:black;}
+            }
+        }
+    }
+    </code>
+</pre>
 
 <p>WOOO! This is completely DRY code that renders into exactly the same thing as above before it hits the browser. So this example actually adds a few lines, sure, and it looks more complicated at first, but trust me, this is MONEY. On a stylesheet for a decent size application I ended up with about 25% fewer lines. This is great and all, but the real benefit of having every style nested in its proper context is actually solving ...</p>
 
 <h2>Problem 3: Stylesheets Get Really Bloody Complicated for Big Sites and Teams</h2> 
 
-<p>Have you ever been on deadline and cranked out a big stylesheet at 3am and then had to come back to it in a month and actually make a tiny change, only to realize that hey, look, it seems like this should work, but somehow the damn padding on this div is being set in three places, and when I fix it the good and proper way just makes things go ALL to hell and now for some reason I&#39;ve got to put <em>negative freaking margin</em> on this thing but it looks right so I guess I better get back to real work? I hate that. I write bad CSS. A lot. I&#39;m busy and dumb. And it&#39;s maybe that I&#39;m just distractible and impatient but dammit I&#39;m gonna blame it on the fact that this stylesheet is HUGE and I&#39;m tired and I can&#39;t Firebug this page enough to find all the relevant styles. You could also blame it on the other dorks on your team who don&#39;t use the same organizational rules that you&#39;ve been using for years. Blame it on you ex-girlfriend. I don&#39;t care. Cause nested CSS fixes this junk COLD. Take an afternoon and rewrite the project you&#39;re on with nested CSS and you will have a stunning beauty of a stylesheet in which EVERYTHING has it&#39;s place. You feel like a samurai when you come back in a month. That style is set in ONE place. It won&#39;t save you from IE, but you feel like you&#39;re back in touch with the craft.</p>
+<p>Have you ever been on deadline and cranked out a big stylesheet at 3am and then had to come back to it in a month and actually make a tiny change, only to realize that hey, look, it seems like this should work, but somehow the damn padding on this div is being set in three places, and when I fix it the good and proper way just makes things go ALL to hell and now for some reason I&#39;ve got to put <em>negative freaking margin</em> on this thing but it looks right so I guess I better get back to real work? I hate that. I write bad CSS. A lot. I&#39;m busy and dumb. And it&#39;s maybe that I&#39;m just distractible and impatient but dammit I&#39;m gonna blame it on the fact that this stylesheet is HUGE and I&#39;m tired and I can&#39;t Firebug this page enough to find all the relevant styles. You could also blame it on the other dorks on your team who don&#39;t use the same organizational rules that you&#39;ve been using for years. </p>
+
+<p>Nested CSS fixes this junk COLD. Take an afternoon and rewrite the project you&#39;re on with nested CSS and you will have a stunning beauty of a stylesheet in which EVERYTHING has it&#39;s place. You feel like a samurai when you come back in a month. That style is set in ONE place. It won&#39;t save you from IE, but you feel like you&#39;re back in touch with the craft.</p>
 
     </div>
 
@@ -256,8 +260,6 @@ body#homepage
           <li><a href="/tags/reliefweb.html">reliefweb (1)</a></li>
           <li><a href="/tags/pod.html">pod (1)</a></li>
           <li><a href="/tags/code.html">code (7)</a></li>
-          <li><a href="/tags/sexism.html">sexism (1)</a></li>
-          <li><a href="/tags/algorithm.html">algorithm (1)</a></li>
           <li><a href="/tags/developers.html">developers (1)</a></li>
           <li><a href="/tags/servicedesign.html">servicedesign (1)</a></li>
           <li><a href="/tags/chat.html">chat (1)</a></li>
@@ -317,9 +319,7 @@ body#homepage
           <li><a href="/tags/designfailure.html">designfailure (1)</a></li>
           <li><a href="/tags/failedsociety.html">failedsociety (1)</a></li>
           <li><a href="/tags/recycling.html">recycling (1)</a></li>
-          <li><a href="/tags/sf.html">sf (4)</a></li>
-          <li><a href="/tags/anecdote.html">anecdote (1)</a></li>
-          <li><a href="/tags/transcript.html">transcript (1)</a></li>
+          <li><a href="/tags/sf.html">sf (3)</a></li>
           <li><a href="/tags/subversion.html">subversion (1)</a></li>
           <li><a href="/tags/svn.html">svn (1)</a></li>
           <li><a href="/tags/ruby.html">ruby (1)</a></li>
@@ -413,8 +413,8 @@ body#homepage
           <li><a href="/2010.html">2010 (3)</a></li>
           <li><a href="/2009.html">2009 (8)</a></li>
           <li><a href="/2008.html">2008 (36)</a></li>
-          <li><a href="/2007.html">2007 (21)</a></li>
-          <li><a href="/2006.html">2006 (51)</a></li>
+          <li><a href="/2007.html">2007 (20)</a></li>
+          <li><a href="/2006.html">2006 (50)</a></li>
           <li><a href="/2005.html">2005 (92)</a></li>
           <li><a href="/2004.html">2004 (7)</a></li>
       </ol>

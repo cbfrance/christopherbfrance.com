@@ -8,7 +8,7 @@ modified_on: 2008-10-09 23:44:00
 status: publish
 ---
 
-<a href='http://socialstreams.livelabs.com/politics/'><img src="/images/2008/10/picture-14.png" alt="newsviz" title="microsoft newsviz" width="500" height="200" class="alignnone size-full wp-image-275" /></a>
+<img src="/images/2008/10/picture-14.png" alt="newsviz" title="microsoft newsviz" width="500" height="200" class="alignnone size-full wp-image-275" />
 
 Just found out about <a href="http://livelabs.com/blog/keeping-current-with-political-streams/">Political Streams</a>.
 
@@ -24,4 +24,4 @@ oh and cf. <a href="http://research.microsoft.com/projects/blews/blews.aspx">Mic
 
 <blockquote>While typical news-aggregation sites do a good job of clustering news stories according to topic, they leave the reader without information about which stories figure prominently in political discourse. BLEWS uses political blogs to categorize news stories according to their reception in the conservative and liberal blogospheres. It visualizes information about which stories are linked to from conservative and liberal blogs, and it indicates the level of emotional charge in the discussion of the news story or topic at hand in both political camps. BLEWS also offers a 'see the view from the other side' functionality, enabling a reader to compare different views on the same story from different sides of the political spectrum. BLEWS achieves this goal by digesting and analyzing a real-time feed of political-blog posts provided by the Live Labs Social Media platform, adding both link analysis and text analysis of the blog posts.</blockquote>
 
-<a href='http://research.microsoft.com/projects/blews/blews.aspx'><img src="/images/2008/10/with_tooltip_small.png" alt="blews" title="with_tooltip_small" width="500" height="419" class="alignnone size-full wp-image-278" /></a>
+<img src="/images/2008/10/with_tooltip_small.png" alt="blews" title="with_tooltip_small" width="500" height="419" class="alignnone size-full wp-image-278" />

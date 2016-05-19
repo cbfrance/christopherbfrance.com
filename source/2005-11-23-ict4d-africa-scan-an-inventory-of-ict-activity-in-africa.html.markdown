@@ -14,7 +14,7 @@ This is a useful place for researchers to begin when attempting to understand th
 
 
 <blockquote class="large">
-<img class="left" src='/wp-content/uploads/photo_01.jpg' alt='People Using a computer' />The purpose of this pilot is to experiment with a different way of presenting "who is doing what" in the area of ICT for Development (ICT4D) in Africa. It takes as its starting point a representative sample of funding institutions and maps their ICT4D programs and initiatives in Africa against a backdrop of countries, regions and themes. It also makes an attempt to identify the organisations with which these development institutions partner, and in what areas these partnerships occur.
+<img class="left" src='/images/photo_01.jpg' alt='People Using a computer' />The purpose of this pilot is to experiment with a different way of presenting "who is doing what" in the area of ICT for Development (ICT4D) in Africa. It takes as its starting point a representative sample of funding institutions and maps their ICT4D programs and initiatives in Africa against a backdrop of countries, regions and themes. It also makes an attempt to identify the organisations with which these development institutions partner, and in what areas these partnerships occur.
 
 The result is currently not a comprehensive inventory, but an illustration of the potential of using geographic, thematic and partnership information to not only provide an inventory or a snapshot of ICT4D activity in Africa, but to begin to see trends in terms of emerging themes, in terms of countries and regions of specialisation, in terms of partnerships, etc.
 </blockquote>
