@@ -17,7 +17,7 @@ After a few months of work, we have gotten a new wireframe of the mobile app run
 Some of the amazing things about the Ushahidi project include: 
 
 <ul>
-	<li>Participatory design. Everyone is invited to comment on these designs and <a href="http://unthinkingly.com/ushahidi/Ushahidi_v3b.psd">hack on the psd files we created</a>.</li>
+	<li>Participatory design. Everyone is invited to comment on these designs and <a href="/ushahidi/Ushahidi_v3b.psd">hack on the psd files we created</a>.</li>
 
 	<li>Rapid prototyping. (Really rapid: the first version of the app was built in a weekend.)</li>
 
@@ -31,9 +31,9 @@ Some of the amazing things about the Ushahidi project include:
 
 </ul>
 
-Anyway here's the latest mockup. Here's the latest<a href="http://http://unthinkingly.com/ushahidi/Ushahidi_v3b.psd">source PSD</a>. It's v0.2 and still has a long way to go. We did the iPhone app first and will be using lessons learned from this one to port the project to other platforms. 
+Anyway here's the latest mockup. Here's the latest<a href="/ushahidi/Ushahidi_v3b.psd">source PSD</a>. It's v0.2 and still has a long way to go. We did the iPhone app first and will be using lessons learned from this one to port the project to other platforms. 
 
-<a href="#"><img src="http://whiteafrican.com/wp-content/uploads/2008/09/ushahidi_iphone_v02a-500x310.jpg" /></a>
+<a href="#"><img src="http://whiteafrican.com/images/2008/09/ushahidi_iphone_v02a-500x310.jpg" /></a>
 
 I did most of the sketching and developed the concepts that were flying around, and then my man Joe Jones did all the real work in Photoshop. It's been a really fun time so far and I am looking forward to implementing some of the changes being discussed on the <a href="http://blog.ushahidi.com">Ushahidi blog</a>.  
 

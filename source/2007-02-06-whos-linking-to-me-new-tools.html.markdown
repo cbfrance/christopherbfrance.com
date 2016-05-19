@@ -20,7 +20,7 @@ link:http://mysite.com
 But that is an extremely rudimentary technique for several reasons.
 <ul>
 	<li>You will probably get a bunch of *internal* links, which are pretty useless.</li>
-	<li>You will not get a sense of the total number of links from each referrer â€” they are not tallied or ranked.</li>
+	<li>You will not get a sense of the total number of links from each referrer — they are not tallied or ranked.</li>
 	<li>You only get referrers for the individual page you type in, not your entire site. Which means that you are getting largely underreported numbers. (even http://www.yoursite.com is different from http://yoursite.com)</li>
 </ul>
 <blockquote>You asked, and we listened: We've extended our support for querying links to your site to much beyond the link: operator you might have used in the past. Now you can use webmaster tools to view a much larger sample of links to pages on your site that we found on the web. Unlike the link: operator, this data is much more comprehensive and can be classified, filtered, and downloaded. All you need to do is verify site ownership to see this information.<span class="attribution"> Peeyush, <a href="http://googlewebmastercentral.blogspot.com/">Google Webmaster Central Blog</a> </span></blockquote>
@@ -34,7 +34,8 @@ Since we have a bunch of clients I wanted to send this new data, I took the time
 
 It's here:
 
-[syntax,unique_addresses.pl.txt,perl]
+[unique_addresses.pl.txt]
+
 <h3>Instructions for unique_addresses.pl</h3>
 <strong>Prerequisites: Using this script requires that you know how to execute file from the command line (and that you have perl installed). This will only work for Mac/Linux folks (requires perl and the *nix commands for sorting). ... If you are a progressive blogger or organization and can't get this to work, email me your stats and I will process them for you.</strong>
 <ol>

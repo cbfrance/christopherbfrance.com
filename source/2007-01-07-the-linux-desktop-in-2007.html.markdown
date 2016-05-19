@@ -12,7 +12,7 @@ Linux and open source computing is going to have a great 2007. In spite of a few
 
 Just check out IBM's <a href="http://www-1.ibm.com/linux/integration/">Linux praise page</a> if you want an overview. And governments are getting it too, in <a href="http://www.theregister.co.uk/2002/01/14/korea_migrates_120k_civil_servants/">Korea</a>, <a href="http://www.linuxtoday.com/news_story.php3?ltsn=2002-08-30-011-26-NW-LL-PB">Venuzela</a>, and <a href="http://www.financialexpress.com/fe_full_story.php?content_id=138464">India</a>. And then there is <a href="http://itmanagement.earthweb.com/article.php/3641251">Chicago</a>. 
 
-<blockquote class="large">When you think of Windows server, you think of rebooting the server, of always having to apply security patches. You think of viruses ... Linux and Solaris prove to be a lot less headaches than any other platform.<span class="attribution">Amy Niersbach,<br />Chicago geek-honcho</span></blockquote>
+<blockquote class="large">When you think of Windows server, you think of rebooting the server, of always having to apply security patches. You think of viruses ... Linux and Solaris prove to be a lot less headaches than any other platform. <span class="attribution">Amy Niersbach, Chicago geek-honcho</span></blockquote>
 
 Of course, it is a bunch of elitist BS to pretend that the only reason people don't "get" desktop Linux is because they are just ignorant -- Linux is hard. Switching is hard-ish. 
 

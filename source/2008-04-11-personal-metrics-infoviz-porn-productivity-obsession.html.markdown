@@ -12,10 +12,10 @@ I've recently been reading quite a bit about "personal metrics" (aka "attention 
 
 As an infoviz junkie, I have to say that I have always *adored* this stuff.<strong> But the tonight I heard a very smart person say that, prior to Nike+, collaborative running was impossible.</strong>
 
-<div style="width:475px; float:left;">
-<a href='http://www.unthinkingly.com/wp-content/uploads/2008/04/picture-2.png' title='nike+.png'><img src='http://www.unthinkingly.com/wp-content/uploads/2008/04/picture-2.png' alt='nike+.png' /></a><a href='http://www.unthinkingly.com/wp-content/uploads/2008/04/lastfm.gif' title='LastFM data'><img src='http://www.unthinkingly.com/wp-content/uploads/2008/04/lastfm.gif' alt='LastFM data' /></a>
-<a href='http://www.unthinkingly.com/wp-content/uploads/2008/04/rescutime.png' title='Rescuetime'><img src='http://www.unthinkingly.com/wp-content/uploads/2008/04/rescutime.png' alt='Rescuetime' /></a>
-</div>
+<p><img src="/images/2008/04/picture-2.png" alt='nike+.png' /></p>
+<p><img src="/images/2008/04/lastfm.gif" alt='LastFM data' /></p>
+<p><img src="/images/2008/04/rescutime.png" alt='Rescuetime' /></p>
+
 Wait, really? How did we get to the point that we need a website, an RFID chip, and an iPod to coordinate running with friends? 
 
 And, perhaps more importantly, when did we start to forget it was possible otherwise?

@@ -46,14 +46,14 @@ As usual, Ethan Zuckerman writes about this best:
 
 It's with this context that I am really sad to see that <a href="http://www.needmagazine.com/">NEED magazine is very close to going out of business</a>. 
 
-In 2006 <a href="http://unthinkingly.com/2006/12/05/need-magazine-debuts/">I noted their premier issue</a> and have been incredibly impressed by the work that they have done ever since. It's just an amazing, beautiful magazine about humanitarian work and the people involved on the ground. 
+In 2006 <a href="/2006/12/05/need-magazine-debuts/">I noted their premier issue</a> and have been incredibly impressed by the work that they have done ever since. It's just an amazing, beautiful magazine about humanitarian work and the people involved on the ground. 
 
 Here's their two-sentence angle on the world:
 
 <blockquote>NEED magazine is an artistic hope-filled publication focusing on life changing humanitarian efforts at home and abroad.  We are not out to save the world, but to tell the stories of, and assist, those who are.<span class="attribution"><a href="http://needmagazine.com">NEED Magazine</a></span></blockquote>
  
 
-<img class="align-right" src="http://blog.meedan.net/images/premierecover1.jpg" alt="Need" title "Need magazine" />
+<img src="/images/premierecover1.jpg" alt="Need" title="Need magazine" />
 
 If you have never seen it, you should check it out -- it's the highest quality printing that you can get, with gigantic gorgeous photos of some truly incredible stories. A rare find.
 

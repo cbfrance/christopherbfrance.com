@@ -16,6 +16,10 @@ page '/*.txt', layout: false
 # proxy "/this-page-has-no-template.html", "/template-file.html", locals: {
 #  which_fake_page: "Rendering a fake page with a local variable" }
 
+# Preserve old links when the title changes
+# 
+proxy "/2007/12/02/move-to-san-francisco-now.html", "/2007-12-02-move-to-san-francisco.html"
+
 ###
 # Helpers
 ###
@@ -33,7 +37,7 @@ activate :blog do |blog|
   # blog.taglink = "tags/{tag}.html"
   blog.layout = "layout"
   # blog.summary_separator = /(READMORE)/
-  # blog.summary_length = 250
+  blog.summary_length = 250
   # blog.year_link = "{year}.html"
   # blog.month_link = "{year}/{month}.html"
   # blog.day_link = "{year}/{month}/{day}.html"

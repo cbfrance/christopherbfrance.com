@@ -12,7 +12,7 @@ IBM's new <a href="http://services.alphaworks.ibm.com/manyeyes/browse/visualizat
 
 <h3>Number of times "nptech" was tagged, by del.icio.us username</h3>
  
-<img src="http://www.unthinkingly.com/wp-content/uploads/2007/01/many_eyes_nptech_data.png" alt="many eyes nptech data" height="508" width="611">
+<img src="/images/2007/01/many_eyes_nptech_data.png" alt="many eyes nptech data" height="508" width="611">
 
 My Many Eyes account is <a href="http://services.alphaworks.ibm.com/manyeyes/user/usyHEsOtha6i7kABELIE2-">here</a>. (You can get an RSS feed of my visualizations.)
 

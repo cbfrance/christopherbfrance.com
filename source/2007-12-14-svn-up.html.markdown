@@ -2,10 +2,10 @@
 kind: article
 created_at: 2007-12-14 03:25:16
 title: svn up
-excerpt: "<img src='/wp-content/uploads/svn_up_fool.gif' alt='svn up' />"
+excerpt: "<img src='/images/svn_up_fool.gif' alt='svn up' />"
 tags: [subversion, svn]
 modified_on: 2009-09-22 01:14:01
 status: publish
 ---
 
-<img src='/wp-content/uploads/svn_up_fool.gif' alt='svn up' />
+<img src='/images/svn_up_fool.gif' alt='svn up' />

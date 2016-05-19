@@ -17,18 +17,18 @@ Three videos for your Sunday afternoon enjoyment. (The first two are for the hip
 
 <embed style="margin:0 auto; width:400px; height:326px;" id="VideoPlayback" type="application/x-shockwave-flash" src="http://video.google.com/googleplayer.swf?docId=-3969792790081230711&hl=en" flashvars=""> </embed>
 
-<img style="margin:0 auto; border:none!important;" src='http://www.unthinkingly.com/wp-content/uploads/2008/02/picture-3.png' alt='the_corporation_awards.' />
+<img src='/images/2008/02/picture-3.png' alt='the_corporation_awards.' />
 
 
 <h3> The Story of Stuff </h3>
 "The Story of Stuff is a 20-minute, fast-paced, fact-filled look at the underside of our production and consumption patterns."
 
-<a href="http://www.storyofstuff.com/"><img src='http://www.unthinkingly.com/wp-content/uploads/2008/02/picture-4.png' alt='The story of stuff' /></a>
+<a href="http://www.storyofstuff.com/"><img src='/images/2008/02/picture-4.png' alt='The story of stuff' /></a>
 
 <h3>Rspec User Stories</h3>
 
 "The implementation of RSpec stories also fills a gap once filled by Railsâ€™ integration tests. RSpec stories run against the whole stack of your application, including routes, controllers, models, and views.This 50-minute screencast introduces stories and shows you how to use them with pure Ruby code or inside a Rails application." [This one ain't free! But totally worth it. -ed.]
 
 
-<a href="http://peepcode.com/products/rspec-user-stories"><img src='http://www.unthinkingly.com/wp-content/uploads/2008/02/cover-1.png' alt='rspec' /></a>
-<a href="http://peepcode.com/products/rspec-user-stories"><img src='http://www.unthinkingly.com/wp-content/uploads/2008/02/code.png' alt='rspec user stories screenshot' /></a>
+<a href="http://peepcode.com/products/rspec-user-stories"><img src='/images/2008/02/cover-1.png' alt='rspec' /></a>
+<a href="http://peepcode.com/products/rspec-user-stories"><img src='/images/2008/02/code.png' alt='rspec user stories screenshot' /></a>

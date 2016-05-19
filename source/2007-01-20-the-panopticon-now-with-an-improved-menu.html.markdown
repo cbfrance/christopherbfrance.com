@@ -8,7 +8,7 @@ modified_on: 2008-04-05 07:24:25
 status: publish
 ---
 
-<blockquote>"When I go to a restaurant, and look at leftovers on my plate, I don't see food, I see information. If the restaurant were Google, they wouldn't just take that plate and scrape it off into the trash. There would be a camera in the kitchen, photographing every plate coming back, with analysis of what people liked and disliked, and what portions were too big, helping to optimize future servings."<span class="attribution">Jon Orwant,<br>on <a href="http://radar.oreilly.com/">Oreilly Radar</a></span>  </blockquote>
+<blockquote>"When I go to a restaurant, and look at leftovers on my plate, I don't see food, I see information. If the restaurant were Google, they wouldn't just take that plate and scrape it off into the trash. There would be a camera in the kitchen, photographing every plate coming back, with analysis of what people liked and disliked, and what portions were too big, helping to optimize future servings."<span class="attribution">Jon Orwant,<br>on <a href="http://radar.oreilly.com/">O'Reilly Radar</a></span>  </blockquote>
 	   
 A recent post on <a href="http://radar.oreilly.com/archives/2007/01/if_google_were.html">O'Reilly Radar</a> describes a "pervasive culture of measurement" which is touted as an example of how "smart" web companies these days are maximizing their use of data from their consumer's "leftovers."
 

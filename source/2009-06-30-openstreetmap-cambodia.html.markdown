@@ -8,7 +8,7 @@ modified_on: 2009-07-02 12:11:59
 status: publish
 ---
 
-I've been doing a series of presentations here <a href="http://unthinkingly.com/2009/06/29/sustainable-interaction-design-in-cambodia/">at the InSTEDD lab</a> in Phom Penh, and so far the best-received one has been (to my surprise) about something I really just getting into:  <a href="http://www.openstreetmap.org/">OpenStreetMap</a>. I figured that this would be a good-spirited critical discussion about <a href="http://en.wikipedia.org/wiki/Free_and_open_source_software">FOSS</a> philosophy given that <a href="http://www.phnompenhpost.com/index.php/2009063026788/Business/Google-meeting-held-at-Royal-University.html">Google was in town</a>. :) I wasn't expecting it to be quite so engaging for the lab though -- I think they all had a great time. 
+I've been doing a series of presentations here <a href="/2009/06/29/sustainable-interaction-design-in-cambodia/">at the InSTEDD lab</a> in Phom Penh, and so far the best-received one has been (to my surprise) about something I really just getting into:  <a href="http://www.openstreetmap.org/">OpenStreetMap</a>. I figured that this would be a good-spirited critical discussion about <a href="http://en.wikipedia.org/wiki/Free_and_open_source_software">FOSS</a> philosophy given that <a href="http://www.phnompenhpost.com/index.php/2009063026788/Business/Google-meeting-held-at-Royal-University.html">Google was in town</a>. :) I wasn't expecting it to be quite so engaging for the lab though -- I think they all had a great time. 
 
 <img src="/images/picture-24-300x223.png" alt="taking_notes" title="taking_notes" width="300" height="223" class="alignleft size-medium wp-image-394" />
 

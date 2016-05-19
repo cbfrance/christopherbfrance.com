@@ -1,16 +1,13 @@
 --- 
 kind: article
 created_at: 2007-12-02 04:21:25
-title: Move to San Francisco. Now.
-excerpt: "Since this seems to be the advice that I've been giving to pretty much all of the geek + activisty folks that I know, I figured it bears repeating here: Move to San Francisco."
+title: Why I moved to San Francisco
 tags: [sf, culture]
 modified_on: 2008-04-05 07:30:33
 status: publish
 ---
 
-Since this seems to be the advice that I've been giving to pretty much all of the geek + activisty folks that I know, I figured it bears repeating here: Move to San Francisco. Now.
-
-There have been really great conferences like <a href="http://www.aneventapart.com/">An Event Apart</a> and <a href="http://compostmodern.org/">CompostModern</a>, green <a href="http://greendrinks.org/">socialite stuff</a> and <a href="http://www.greenfestivals.org/">Green Fest</a>, a great cycling scene, gorgeous coastline, sustainable agriculture galore, municipal freaking <em>composting</em>, local beer/coffee/chocolate/veggies/everything, the legendary queer scene, the legendary political art scene, an awesome, active <a href="http://www.aiga.org/">AIGA</a> chapter, killer public transport, a hilarious mix of psychedelic and high-tech history... It's all been even more incredible than I'd hoped. This city is just completely alive and thriving with all kinds of brilliant geeky people doing Good Things. ... You should come, really. 
+"Move to San Francisco" seems to be the advice that I've been giving to pretty much all of the geek + activisty folks that I know. There have been really great conferences like <a href="http://www.aneventapart.com/">An Event Apart</a> and <a href="http://compostmodern.org/">CompostModern</a>, green <a href="http://greendrinks.org/">socialite stuff</a> and <a href="http://www.greenfestivals.org/">Green Fest</a>, a great cycling scene, gorgeous coastline, sustainable agriculture galore, municipal freaking <em>composting</em>, local beer/coffee/chocolate/veggies/everything, the legendary queer scene, the legendary political art scene, an awesome, active <a href="http://www.aiga.org/">AIGA</a> chapter, killer public transport, a hilarious mix of psychedelic and high-tech history... It's all been even more incredible than I'd hoped. This city is just completely alive and thriving with all kinds of brilliant geeky people doing Good Things. ... You should come, really. 
 
 I got here sometime in the summer for a new job doing design/programming/research at this fantastic little <a href="http://www.boltpeters.com/">UX shop</a>. It was completely serendipitous how I got the job, but that's a better story told in a bar than a blog. I've got a little studio off of <a href="http://www.sfgate.com/traveler/guide/sf/neighborhoods/mission_24th.shtml">24th Street</a> in the Mission, which is about as wonderful as city living can be, if you ask me.
 

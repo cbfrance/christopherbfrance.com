@@ -61,7 +61,7 @@ Particularly I think <strong>using /by</strong> is a great idea to reference an 
 
 Using /by gives a very specific meaning to the username that follows it. It's intuitive enough that I don't think it even needs to be explained, you can just read it: 
 
-<a href="http://www.flickr.com/photos/unthinkingly/4088475379/" title="by by unthinkingly, on Flickr"><img src="http://farm3.static.flickr.com/2455/4088475379_cf90c0b1e5_o.jpg" width="623" height="268" alt="by" /></a>
+<img src="http://farm3.static.flickr.com/2455/4088475379_cf90c0b1e5_o.jpg" width="623" height="268" alt="by" />
 
 Not beautiful, but very clear. 
 
@@ -83,7 +83,7 @@ Because George also uses this tag, we can get a nice community of practice worki
 
 So, as you can see, we are using underscores, which is a common tagging convention because it looks like a space. We're not so happy with this: it's simply not expressive enough. 
 
-(Even though you can do a lot with a single little shared tag like <a href="http://unthinkingly.com/2007/01/10/understanding-a-community-tag-the-history-of-nptech/">#nptech</a>.)
+(Even though you can do a lot with a single little shared tag like <a href="/2007/01/10/understanding-a-community-tag-the-history-of-nptech/">#nptech</a>.)
 
 A more robust tagging system, which I believe would be very compelling if it were well designed, would extend some of this syntax. The question is: <strong>how to extend the syntax without making it overwhelming?</strong> 
 
