@@ -42,8 +42,6 @@ As usual, Ethan Zuckerman writes about this best:
 
 <blockquote>Understanding Iraqi attitudes towards a US occupying force and Shia/Sunni/Kurdish tensions better might have mitigated the disastrous invasion of Iraq. Understanding Chinese and Indian economic aspirations is probably a prerequisite to figuring out how to regulate carbon emissions while those nations embrace automobile ownership. And activists trying to change Chinese policy in Darfur would benefit from better understanding of Chinese pride, the concept of 'face' and the power of nationalism. <span class="attribution">- Ethan Z. in <a href="http://www.ethanzuckerman.com/blog/2008/04/25/homophily-serendipity-xenophilia/">Homophily, serendipity, xenophilia</a></span></blockquote>
 
-***
-
 It's with this context that I am really sad to see that <a href="http://www.needmagazine.com/">NEED magazine is very close to going out of business</a>. 
 
 In 2006 <a href="/2006/12/05/need-magazine-debuts/">I noted their premier issue</a> and have been incredibly impressed by the work that they have done ever since. It's just an amazing, beautiful magazine about humanitarian work and the people involved on the ground. 

@@ -24,6 +24,6 @@ Here's a bit:
 
 "[One sucessful but small organization] raised the capacity of the visually impaired charities by creating an umbrella organization with a unified agenda and creating a single voice on certain issues where it was critical. But organizations still had their own brands, did their own fundraising, and were run independently."
 
-<blockquote>
+</blockquote>
 
-Here's the entire <a href="http://hbsworkingknowledge.hbs.edu/item.jhtml?id=4801&amp;t=nonprofit"> article </a><div style="clear:both; padding-bottom: 0.25em;"></div>
+Here's the entire <a href="http://hbsworkingknowledge.hbs.edu/item.jhtml?id=4801&amp;t=nonprofit"> article </a>

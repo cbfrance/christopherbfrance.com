@@ -10,7 +10,8 @@ status: publish
 
 There has been a lot of excitement recently around a couple of developments in touch screen interfaces:  First there was the <a href="http://www.youtube.com/watch?v=UcKqyn-gUbY&mode=related&search=">insane presentation at TED 2006</a>. Secondly, of course, the iPhone made everyone all hot in the pants for it's touchable goodness.
 
-<blockquote> In Malawi, the NGO <a href="http://www.baobabhealth.org/">Baobab Health Partnership </a>... adapted Linux to $100 touchscreen Internet appliances, then wrote a program for Opera to run in full-screen kiosk mode. The resulting terminal can easily manage the nationâ€™s health data and is scalable wherever a web connection can be made.<span class="attribution"><a href="http://www.vestaldesign.com/blog/2007/03/malawi-linux-the-fight-against-hiv.html">J. Goodman at Vestal</a></span></blockquote>
+<blockquote> In Malawi, the NGO <a href="http://www.baobabhealth.org/">Baobab Health Partnership </a>... adapted Linux to $100 touchscreen Internet appliances, then wrote a program for Opera to run in full-screen kiosk mode. The resulting terminal can easily manage the nationâ€™s health data and is scalable wherever a web connection can be made.
+<span class="attribution"><a href="http://www.vestaldesign.com/blog/2007/03/malawi-linux-the-fight-against-hiv.html">J. Goodman at Vestal</a></span></blockquote>
 
 Fundamentally I think that <em>touch</em> is intimate and intuitive, and clearly touchable interfaces have incredible potential, especially for the folks that haven't been brow-beaten into adapting to 20th-century conventions of computer interfaces like the QWERTY keyboard.
 

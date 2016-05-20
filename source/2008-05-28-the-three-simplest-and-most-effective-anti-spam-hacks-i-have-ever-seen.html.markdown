@@ -19,7 +19,7 @@ Assuming that you have your own email server, <a href="http://postgrey.schweiker
 
 Here's how this setup looks (not my graph but I have definitely seen this happen on production mailservers):
 
-<img src="/images/mailgraph_greylisting.png" title="spam goes away" /> 
+<img src="/images/mailgraph_greylisting.png" title="spam goes away" alt=" " /> 
 
 The really brilliant thing about greylisting is that it it deals with spam way before it ever reaches your inbox, which is the only way to go (I don't use any spam filtering on my mailbox. That's too late, especially from a sysadmin perspective (think of the <strike>children</strike> cycles!).
 

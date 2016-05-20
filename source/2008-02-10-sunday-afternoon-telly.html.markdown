@@ -16,8 +16,6 @@ Three videos for your Sunday afternoon enjoyment. (The first two are for the hip
 
 [http://video.google.com/googleplayer.swf?docId=-3969792790081230711&hl=en]
 
-<img src='/images/picture-3.png' alt='the_corporation_awards.' />
-
 <h3> The Story of Stuff </h3>
 "The Story of Stuff is a 20-minute, fast-paced, fact-filled look at the underside of our production and consumption patterns."
 

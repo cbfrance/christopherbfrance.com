@@ -83,7 +83,7 @@ Because George also uses this tag, we can get a nice community of practice worki
 
 So, as you can see, we are using underscores, which is a common tagging convention because it looks like a space. We're not so happy with this: it's simply not expressive enough. 
 
-(Even though you can do a lot with a single little shared tag like <a href="/2007/01/10/understanding-a-community-tag-the-history-of-nptech/">#nptech</a>.)
+(Even though you can do a lot with a single little shared tag like <a href="/2007/01/11/understanding-a-community-tag-the-history-of-nptech/">#nptech</a>.)
 
 A more robust tagging system, which I believe would be very compelling if it were well designed, would extend some of this syntax. The question is: <strong>how to extend the syntax without making it overwhelming?</strong> 
 

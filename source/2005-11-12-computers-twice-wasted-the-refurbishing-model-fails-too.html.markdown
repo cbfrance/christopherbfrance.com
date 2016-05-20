@@ -26,6 +26,4 @@ Any nonprofit that hoped to get computers to poor countries would have to recrea
 
 Who could do this type of operation? No one I can think of, though I'm willing to keep looking. Until then I think our best bet for cheap global computing is the idealistic Negroponte effort at MIT. 
 
-Here's the NYT article about computer dumping: 
-
-<p>Read it: <a href="&ccedil;>Poor Nations Are Littered With Old PC's, Report Says</a></p><p>(Found on:<a href="http://www.nytimes.com/pages/technology/index.html?partner=rssnyt">NYT > Technology</a>.)</p>
+Here's the NYT article about computer dumping: <a href="http://www.nytimes.com/2005/10/24/technology/poor-nations-are-littered-with-old-pcs-report-says.html">Poor Nations Are Littered With Old PC's, Report Says</a>.

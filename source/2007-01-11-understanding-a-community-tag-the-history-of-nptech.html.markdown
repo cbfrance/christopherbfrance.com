@@ -26,15 +26,14 @@ So, in the spirit of improving the tag and promoting the nptech community, here'
 <ol>
 <li>A plain text listing of every word that has been used on del.icio.us in association with nptech. <a href="/download/fulltext.xml.txt">fulltext.xml</a> </li>
 <li>A sorted and ranked list of these tags. <a href="/download/nptech-tagged.txt">nptech-tagged.txt</a></li>
-<li>All of the tags presented as <a href="http://www.unthinkingly.com/experiments/nptech/understanding_nptech.php">a scrollable tag-timeline</a>. </li>
+<li>All of the tags presented as <a href="/experiments/nptech/understanding_nptech.php">a scrollable tag-timeline</a>. </li>
 <li>The script that I wrote to gather the data from delicious (in perl): <a href="/download/community-tag-robot.txt">community-tag-robot.txt</a>. (The code is also displayed below with syntax highlighting.)
 </li> 
 </ol>
 
-<a href="http://www.unthinkingly.com/experiments/nptech/understanding_nptech.php"><img src="/images/nptech.gif" alt=" "/>
-</a>
+<img src="/images/nptech.gif" alt=" "/>
+[Prototype removed]
 
-<br class="clear" />
 The script that I wrote crawls the pages of del.icio.us and pulls out all of the tags that were used to describe the same stuff tagged "nptech". This gives us an idea of how the tag has been used -- effectively describing the tagged links, if we assume taggers are using "synonym clouds". Del.icio.us has a "related tags" feature but it is lame (only 10 are listed), and judging from my initial review of the data it is pretty random.  (Not really sure if I broke some terms of use or not with my script, but it's *our* data, right? And besides, the script is very polite.)
 
 There are a lot of delicious mashupy-type things that show you tagging patterns, but these approaches seem somehow very passive, and not community-oriented. I mean, in general delicious is used very passively -- people want to be able *consume* more efficiently, not create some community in which greater action can be taken. Or it is just used for explicitly personal purposes, as a web-based bookmark service. 

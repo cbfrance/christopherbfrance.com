@@ -8,7 +8,7 @@ modified_on: 2008-05-22 09:39:13
 status: publish
 ---
 
-I was never super into Alan Cooper (of<a href="http://books.google.com/books?id=04cFCVXC_AUC&dq=the+inmates+are+running+the+asylum&pg=PP1&ots=jfucX2vZlK&sig=OXesP_1V-t7U-14Ha2SdxvFddng&hl=en&prev=http://www.google.com/search%3Fq%3Dthe%2Binmates%2Bare%2Brunning%2Bthe%2Basylum%26ie%3Dutf-8%26oe%3Dutf-8%26rls%3Dorg.mozilla:en-US:official%26client%3Dfirefox-a&sa=X&oi=print&ct=title&cad=one-book-with-thumbnail"> Inmates are Running the Asylum</a> fame) until I read <a href="http://web.archive.org/web/20060613184919/www.fawcette.com/interviews/beck_cooper/">this hilarious argument with Kent Beck</a>, the godfather of Agile programming. (pssst. don't click on that flaky wayback machine link. I've republished the article <a href="/?page_id=247">here</a>, probably completely illegally, for your convenience. But it's pretty depressing that this doesn't exist anywhere except for the zombieweb.)
+I was never super into Alan Cooper (of<a href="http://books.google.com/books?id=04cFCVXC_AUC&dq=the+inmates+are+running+the+asylum&pg=PP1&ots=jfucX2vZlK&sig=OXesP_1V-t7U-14Ha2SdxvFddng&hl=en&prev=http://www.google.com/search%3Fq%3Dthe%2Binmates%2Bare%2Brunning%2Bthe%2Basylum%26ie%3Dutf-8%26oe%3Dutf-8%26rls%3Dorg.mozilla:en-US:official%26client%3Dfirefox-a&sa=X&oi=print&ct=title&cad=one-book-with-thumbnail"> Inmates are Running the Asylum</a> fame) until I read <a href="http://web.archive.org/web/20060613184919/www.fawcette.com/interviews/beck_cooper/">this hilarious argument with Kent Beck</a>, the godfather of Agile programming. ... it's pretty depressing that this doesn't exist anywhere except for the zombieweb.)
 
 Here's a couple of the best bits. 
 

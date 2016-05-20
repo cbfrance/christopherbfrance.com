@@ -19,7 +19,7 @@ Next week I'm sure Rails will be completely pass in favor of <a href="http://mer
 
 <li><a href="http://cruisecontrolrb.thoughtworks.com/">CruiseControl.rb</a> (see <a href="http://selenium-on-rails.openqa.org/">this</a> for Rails).</li>
 
-<li><a href="http://agilewebdevelopment.com/plugins/css_dryer">CSS Dryer</a>. Here's my <a href="http://www.unthinkingly.com/2007/12/16/the-future-of-css-here-its-just-not-evenly-distributed/">last ramble</a> about server parsed CSS.</li>
+<li><a href="http://agilewebdevelopment.com/plugins/css_dryer">CSS Dryer</a>. Here's my <a href="/2007/12/16/the-future-of-css-here-its-just-not-evenly-distributed.html">last ramble</a> about server parsed CSS.</li>
 </ul>
 
 
