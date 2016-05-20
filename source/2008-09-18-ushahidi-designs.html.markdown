@@ -35,7 +35,7 @@ Some of the amazing things about the Ushahidi project include:
 
 Anyway here's the latest mockup. Here's the latest<a href="/ushahidi/Ushahidi_v3b.psd">source PSD</a>. It's v0.2 and still has a long way to go. We did the iPhone app first and will be using lessons learned from this one to port the project to other platforms. 
 
-[http://whiteafrican.com/images/2008/09/ushahidi_iphone_v02a-500x310.jpg]
+[http://whiteafrican.com/images/ushahidi_iphone_v02a-500x310.jpg]
 
 I did most of the sketching and developed the concepts that were flying around, and then my man Joe Jones did all the real work in Photoshop. It's been a really fun time so far and I am looking forward to implementing some of the changes being discussed on the <a href="http://blog.ushahidi.com">Ushahidi blog</a>.  
 

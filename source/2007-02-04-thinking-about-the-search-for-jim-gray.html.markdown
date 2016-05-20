@@ -12,7 +12,7 @@ status: publish
 
 I spent some time today searching for sailboats in satellite imagery, looking for signs of computer scientist <a href="http://en.wikipedia.org/wiki/James_N._Gray">Jim Gray</a>. The story is covered<a href="http://www.nbc11.com/news/10888165/detail.html"> here</a>.
 
-<img src="/images/2007/02/jimgrayamazon.png" alt="Jimgrayamazon" height="258" width="315">The significance of using this technology to do this work is obvious. Using satellite imagery to find a particular lost person is a dramatic, symbolic moment indicating some maturation of the approach -- I can only hope that it will be applied on a larger scale in the coming years.
+<img src="/images/jimgrayamazon.png" alt="Jimgrayamazon" height="258" width="315">The significance of using this technology to do this work is obvious. Using satellite imagery to find a particular lost person is a dramatic, symbolic moment indicating some maturation of the approach -- I can only hope that it will be applied on a larger scale in the coming years.
 
 Likewise I was so deeply impressed by the <a href="http://katrinahelp.info/wiki/index.php/Katrina_PeopleFinder_Project">Katrina PeopleFinder</a> project, and I am eager to see extensions of this type of "humanitarian-tech" project. It just seems that there are so many people who are willing to help do data entry or pattern recognition from their home as volunteers ... not to mention the 34,153 geek-brain-hours wasted on programming .ASP shopping carts or similar byte-drivel every day ... 
 

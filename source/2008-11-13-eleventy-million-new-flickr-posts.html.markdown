@@ -12,4 +12,4 @@ Including lots of fun sketches for my new job. Working on a translation + foreig
 
 New stuff on flickr is here: <a href="http://flickr.com/photos/unthinkingly/">UI and design stuff</a> ... and <a href="http://flickr.com/photos/unthinkingly/sets/72157608779764409/">interface sketches</a>. 
 
-<img src="/images/2008/11/picture-3.png" alt="flickr sketches" title="picture-3" width="481" height="554" class="size-full wp-image-283" />
+<img src="/images/picture-3.png" alt="flickr sketches" title="picture-3" width="481" height="554" class="size-full wp-image-283" />
