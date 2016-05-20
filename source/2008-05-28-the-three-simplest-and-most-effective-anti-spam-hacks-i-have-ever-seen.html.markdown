@@ -24,15 +24,19 @@ Here's how this setup looks (not my graph but I have definitely seen this happen
 The really brilliant thing about greylisting is that it it deals with spam way before it ever reaches your inbox, which is the only way to go (I don't use any spam filtering on my mailbox. That's too late, especially from a sysadmin perspective (think of the <strike>children</strike> cycles!).
 
 Step one: install postgrey.
+
 <code>apt-get install postgrey</code>
 
 Two: edit your main.cf file. 
+
 <code>sudo vi /etc/postfix/main.cf</code>
 
 Three: Then open it up and look for your smtpd_restrictions; add the following line:
+
 <code>check_policy_service inet:127.0.0.1:60000 </code>
 
 Four: Reload Postfix
+
 <code>/etc/init.d/postfix reload</code>
 
 <strong>Hack 2: DNS Blocklists</strong>
@@ -44,10 +48,12 @@ Step One:
 Open your main.cf file again and add these lines:
 
 <pre>
-<code>  reject_rbl_client list.dsbl.org,
+  <code>
+  reject_rbl_client list.dsbl.org,
   reject_rbl_client sbl.spamhaus.org,
   reject_rbl_client cbl.abuseat.org,
-  reject_rbl_client dul.dnsbl.sorbs.net</code>
+  reject_rbl_client dul.dnsbl.sorbs.net
+  </code>
 </pre>
 
 Then reboot Postfix: 
