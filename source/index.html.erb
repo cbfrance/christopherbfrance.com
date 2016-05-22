@@ -7,11 +7,15 @@ title: unthinkingly
   <p>This is a blog by Chris Blow. I am a designer at <a href="http://meedan.com">Meedan</a>. The source code (ruby, middleman) and plaintext (markdown) for this site is <a href="https://github.com/unthinkingly/unthinkingly-blog">on github.com</a>.</p>
 </div>
 
-<% page_articles.each_with_index do |article, i| %>
-  <h2><%= link_to article.title, article %> <span><%= article.date.strftime('%b %e %Y') %></span></h2>
-  <%#= article.summary(250) %>
-  <%= article.body %>
-<% end %>
+<%= partial "aside"  %>
+
+<%# page_articles.each_with_index do |article, i| %>
+  <!-- <article> -->
+    <!-- <h2><%#= link_to article.title, article %>• <span class="timestamp"><%#= article.date.strftime('%b %e %Y') %></span></h2> -->
+    <%#= article.summary(250) %>
+    <%#= article.body %>
+  <!-- </article> -->
+<%# end %>
 
 <% if paginate && num_pages > 1 %>
   <p>Page <%= page_number %> of <%= num_pages %></p>

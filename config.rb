@@ -40,7 +40,7 @@ activate :blog do |blog|
 
   # Enable pagination
   blog.paginate = true
-  blog.per_page = 10
+  blog.per_page = 100
   blog.page_link = "page/{num}"
 end
 
@@ -50,11 +50,21 @@ end
 # activate :livereload
 
 # Methods defined in the helpers block are available in templates
-# helpers do
-#   def some_helper
-#     "Helping"
-#   end
-# end
+helpers do
+
+  # Tag weight
+  # 
+  # Calculate how dark a tag should be based on how many times it is used.
+  def tag_weight(count)
+    case count
+      when 0..3 then return "light"
+      when 4..8 then return "medium"
+      when 9..100 then return "heavy"
+      else
+        return "none"
+    end
+  end
+end
 
 # Build-specific configuration
 configure :build do

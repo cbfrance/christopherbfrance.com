@@ -10,7 +10,7 @@ status: publish
 
 Recently in my commutes to work I've been using these incredible flash-based, interactive representations of development statistics. (Don't worry, I ride the bus.) These modules, created by a Swedish group called Gapminder, are attractively designed and highly educational.  I have long been a great fan of sharp design in the interest of development. These are as great a communication tool as I have ever seen. 
 
-<img class="left" src='/images/Noname.png' alt='Gapminder Screenshot' />
+<img class="left" src='/images/Noname.jpg' alt='Gapminder Screenshot' >
 
 From the <a href="http://www.gapminder.org/">Gapminder </a>website:
 

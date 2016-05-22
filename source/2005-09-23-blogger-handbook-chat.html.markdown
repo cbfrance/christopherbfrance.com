@@ -12,7 +12,7 @@ As a follow up to the previous post (see just below this one) please be 'ware th
 
 New to IRC chatting? It's simple. Here's instructions from the ground up:
 					
-<img alt="RSF-blogger-handbook" src="/images/RSF-blogger-handbook.png" />
+<img alt="RSF-blogger-handbook" src="/images/RSF-blogger-handbook.jpg" >
 
 <p>1. Download &#038; install an IRC client for your computer. This is the program that will let you access IRC, just like a web browser is the program that lets you access web pages.  Here are links to IRC clients <a href="http://www.ircreviews.org/clients/platforms-windows.html"target="_blank">for Windows users</a> and for <a href="http://www.ircreviews.org/clients/platforms-macos.html"target="_blank">Mac users</a>. <em>(I use <a href="http://www.mozilla.org/projects/rt-messaging/chatzilla/"target="_blank">Chatzilla</a>, which works easily as a plugin with Mozilla Firefox browsers. <a href="http://www.hacksrus.com/~ginda/chatzilla/"target="_blank">Download it here</a>.)</em></p>
 

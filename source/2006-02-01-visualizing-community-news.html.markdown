@@ -16,14 +16,16 @@ The trick of Newsvine is that it comes in a really well designed interface and a
 
 Personally, I'm *very* excited to see companies that understand my Sysiphean-Kafkaesque nightmare of flashy, obtrusive, cluttered websites like Yahoo! and all the major news outlets (see image). And of course I'm excited to see (another) community-building website that allows for the development of local <a href="http://en.wikipedia.org/wiki/Folksonomy">folksonomies </a>and scalable collaboration. 
 
-<img src='/images/clutter_01.png' alt='Clutter' />
+<img src='/images/clutter_01.jpg' alt='Clutter' >
 
 I would very much like to start using Newsvine in order to tag and collect news items that are relevant to my organization(s). Considering Newsvine's focus on usability and design, I think it would be a serious alternative to using something like del.ico.us to share links. Del.icio.us just has such an uber-geeky interface that is seriously off-putting to most warm-blooded nonprofit people. And of course, there are a number of other "social news sites" that are doing something similar to newsvine, including: 
 
-<a href="http://digg.com">http://digg.com</a>
-<a href="http://www.gabbr.com">http://www.gabbr.com</a>
-<a href="http://www.plastic.com">http://www.plastic.com</a>
-<a href="http://www.newsback.com">http://www.newsback.com</a>
+<ul>
+<li><a href="http://digg.com">http://digg.com</a></li>
+<li><a href="http://www.gabbr.com">http://www.gabbr.com</a></li>
+<li><a href="http://www.plastic.com">http://www.plastic.com</a></li>
+<li><a href="http://www.newsback.com">http://www.newsback.com</a></li>
+</ul>
 
 Digg.com, in my experience, is the best of these and has the largest user base (there are even <a href="http://www.digitaldivide.net/blog/pshapiro">rumors </a>on the Digital Divide listserv from Phil Shapiro that it will soon be larger than geeky heavyweight slashdot.com. As Phil says: "Community editing of news. Community. Editing." It's a huge thing indeed.) 
 

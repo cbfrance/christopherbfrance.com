@@ -10,4 +10,4 @@ status: publish
 
 The <a href="http://www.sokwanele.com/">Zimbabwe Election Watch</a> is doing a pretty amazing job of aggregating media reports about the Zimbabwe elections and using Google Maps to present the results. I'm both impressed and depressed about it. 
 
-<img src='/images/picture-8.png' alt='zimbabwe election watch'  width='650px' />
+<img src='/images/picture-8.jpg' alt='zimbabwe election watch'  width='650px' />

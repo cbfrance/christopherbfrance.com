@@ -19,7 +19,7 @@ Fundamentally I think that <em>touch</em> is intimate and intuitive, and clearly
 
 So I'm excited about a new project at work that involves designing a web application for use with a touch screen interface. When I first heard about it from the client I was coffee-though-the-nose excited because I have been infatuated by a recent project I read about on Vestal: <a href="http://www.vestaldesign.com/blog/2007/03/malawi-linux-the-fight-against-hiv.html">Malawi, Linux, & The Fight Against HIV</a>. I knew immediately that I was going to rip off the idea. (In the best open source sense, of course.) 
 
-<img src='/images/touchscreen.png' alt='Baobab clinic.' />Unfortunately the iOpener touchscreen used in the project is no longer for sale (it had a lovely $100-$200 price tag b/c it came with some money-making software -- there's a funny story about the <a href="http://www.wired.com/science/discoveries/news/2000/03/34977"> linux hack</a>), so I was hoping someone might have some idea about how to implement this as cheaply as possible. 
+<img src='/images/touchscreen.jpg' alt='Baobab clinic.' />Unfortunately the iOpener touchscreen used in the project is no longer for sale (it had a lovely $100-$200 price tag b/c it came with some money-making software -- there's a funny story about the <a href="http://www.wired.com/science/discoveries/news/2000/03/34977"> linux hack</a>), so I was hoping someone might have some idea about how to implement this as cheaply as possible. 
 
 A few criteria: 
 <ul>

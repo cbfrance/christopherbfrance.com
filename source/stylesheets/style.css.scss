@@ -1,7 +1,100 @@
+main {
+  margin: 0 auto;
+  padding: e4m 5%;
+  max-width: 90%;
+  overflow: hidden;
+  @media all and (min-width: 686px) {
+    width: 686px;
+  }
+}
+
+body {
+  margin: 0;
+  font-size: 24px;
+  font-family: Times, Serif;
+}
+
+.hello {
+  padding: 2em 0;
+}
+
 img {
   display: block;
+  max-width: 16em;
 }
+
+a {
+  text-decoration: none;
+}
+
+h2 {
+  margin-top: 1em;
+  font-family: "Adobe Fangsong", Times, Serif;
+  // text-transform: uppercase;
+  // font-family: Charter, Georgia, Utopia, serif;
+  font-weight: 400;
+  font-size: 1.6em;
+  @media all and (min-width: 33em) {
+    font-size: 2.6em;
+  }
+}
+
+// h2 a {
+//   text-decoration: none;
+//   border-bottom: 2px solid blue;
+// }
 
 blockquote {
   font-size: smaller;
 }
+
+code {
+  background-color: #f3f3f3;
+  font-size: 0.8em;
+  color: #888;
+}
+
+pre {
+  color: #888;
+  background-color: #f3f3f3;
+  font-size: 0.8em;
+  overflow-x: scroll;
+  padding: 1em;
+}
+
+.timestamp {
+  text-transform: uppercase;
+  color: #333;
+  font-size: 16px;
+  font-family: Geneva, Verdana, sans-serif;
+}
+
+ol {
+  list-style-position: inside;
+}
+
+.by-tag {
+  margin-bottom: 4em;
+}
+
+.tags {
+  columns: 4;
+  font-size: 16px;
+  list-style-type: none;
+  font-family: Geneva, Verdana, sans-serif;
+  .dot {
+    font-size: 12px;
+    color: #ccc;
+  }
+  .heavy a {
+    color: #000000;
+    font-weight: bold;
+  }
+  .medium a {
+    color: #888888;
+  }
+  .light a {
+    color: #333333;
+  }
+}
+

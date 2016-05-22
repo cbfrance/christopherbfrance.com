@@ -8,7 +8,7 @@ modified_on: 2008-12-04 08:49:53
 status: publish
 ---
 
-<img src="/images/doug-e.gif" alt="ah doug" title="douglas-engelbart-12" class="alignnone size-full wp-image-295" />
+<img src="/images/doug-e.jpg" alt="ah doug" title="douglas-engelbart-12"" />
 
 <blockquote>
 On December 9, 1968, Dr. Douglas C. Engelbart and the Augmentation Research Center (ARC) at Stanford Research Institute staged a 90-minute public multimedia demonstration at the Fall Joint Computer Conference in San Francisco. It was the world debut of personal and interactive computing: for the first time, the public saw a computer mouse, which controlled a networked computer system to demonstrate hypertext linking, real-time text editing, multiple windows with flexible view control, cathode display tubes, and shared-screen teleconferencing.

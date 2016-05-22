@@ -16,4 +16,4 @@ Hmmm.
 
 Waitasecond. Photographing my leftovers? You're totally creeping me out. I mean, I get the point, but is that really the direction that savvy Web-2.0-aware businesses take these days? The overtone of pervasive surveillance makes me feel a bit ill. Minus points for O'Reilly implying that this will lead to Web 2.0 apps that are constantly improving themselves based on user activity. Of course the corporate world has always wanted to know as much about me as possible. But what do they usually do with it? Banner Ads.
 
-<a href="http://www.banksy.co.uk/shop/"><img src="/images/bansky.png" alt="Bansky." height="187" width="305"></a>
+<a href="http://www.banksy.co.uk/shop/"><img src="/images/bansky.jpg" alt="Bansky."></a>

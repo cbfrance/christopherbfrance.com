@@ -14,7 +14,7 @@ I'm loving this collection and (hopefully by mid spring) I'm going to gather all
 
 Most of the books here are just distributed online for free because they are older editions. They aren't using an Open license, except in the case of the many online tutorials that are linked here (which are typically carefully chosen, I found). 
 
-<img src='/images/regex2_xs.gif' alt='regex' />This collection contains a lot of really great books (many from O'Reilly) that just happen to be a little out of date. I tend to get real excited when I find these things in the basement of my local thrift store, so this is real exciting. I'm noodling around this afternoon with a 2002 edition of "Mastering Regular Expressions," which is the perfect book to find used becuase you don't want to memorize all of it and it just doesn't change very fast. In general I find that computer books are still really useful until about 6 years (or, for web design books, pre-IE6). 
+<img src='/images/regex2_xs.jpg' alt='regex' />This collection contains a lot of really great books (many from O'Reilly) that just happen to be a little out of date. I tend to get real excited when I find these things in the basement of my local thrift store, so this is real exciting. I'm noodling around this afternoon with a 2002 edition of "Mastering Regular Expressions," which is the perfect book to find used becuase you don't want to memorize all of it and it just doesn't change very fast. In general I find that computer books are still really useful until about 6 years (or, for web design books, pre-IE6). 
 
 A couple of golden links for the basics: 
 

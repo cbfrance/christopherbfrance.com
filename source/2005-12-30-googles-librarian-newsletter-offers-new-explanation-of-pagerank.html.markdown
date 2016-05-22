@@ -3,7 +3,7 @@ kind: article
 created_at: 2005-12-30 16:47:02
 title: Google's Librarian Newsletter Offers New Explanation of Pagerank
 excerpt: Google has a new librarian's newsletter"
-tags: [google, seo, finability]
+tags: [google, seo, findability]
 modified_on: 2008-04-05 06:41:27
 status: publish
 ---

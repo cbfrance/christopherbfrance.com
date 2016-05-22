@@ -10,7 +10,7 @@ status: publish
 
 Recently I've been really worked up about all these computers in the closet. It's a bunch of junk. 
 
-<img src='/images/picture-4.thumbnail.png' alt='Monitors in the office. Akk.' />
+<img src='/images/picture-4.thumbnail.jpg' alt='Monitors in the office. Akk.' />
 
 A bunch of dot-com-bubble bullshit that never needed to be purchased in the first place.  I've been stressed out about that festering backwater of old computers since I got my job here 16 months ago.
 
@@ -18,7 +18,7 @@ For 16 months, I worried that it would all be super expensive to recycle.
 
 For 16 months, I worried that it wouldn't be recyclable at all.
 
-<img src='/images/picture-1.png' alt='More crapola.' />  
+<img src='/images/picture-1.jpg' alt='More crapola.' />  
 
 I worried because it was all crappy Pentium II processors and Pre-OSX Apples and janky Sun workstations. Stuff our design and programming team would <strong>never</strong> touch (nose upturned). Not to mention the 105-pound rack-mounted servers. All of it full of toxic heavy metals. Not to mention the steaming pile of three button Sun mice and a giant nest of serial cables. And the 39 (!) keyboards.
 

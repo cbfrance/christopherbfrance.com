@@ -3,7 +3,7 @@ kind: article
 created_at: 2005-01-13 07:49:00
 title: The Google Game
 excerpt: "There is no shortage of webmasters desperate to get their hard-won site noticed."
-tags: [google, finability]
+tags: [google, findability]
 modified_on: 2008-04-05 05:19:01
 status: publish
 ---
