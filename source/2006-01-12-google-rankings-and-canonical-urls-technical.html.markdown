@@ -10,7 +10,7 @@ status: publish
 
 Finally some useful help from the "celebrity engineer" Matt Cutts, one of the few people in the world that has had intimate relations with the Google Pagerank algorithm.  (EDIT: He also happens to use Wordpress, not Blogger. Hmmm.)
 
-This is a description of how to best reference your urls in order to ensure that Google understands them clearly. (the corresponding clarity, is designed -- clearly -- to increase your rank.) 
+This is a description of how to best reference your urls in order to ensure that Google understands them clearly. (the corresponding clarity, is designed &mdash; clearly &mdash; to increase your rank.) 
 
 From the <a href="http://www.mattcutts.com/blog/seo-advice-url-canonicalization/">blog </a>of Cutts: 
 

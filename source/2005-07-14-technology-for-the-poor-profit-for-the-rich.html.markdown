@@ -18,7 +18,7 @@ Iqbal points to a top-down approach favored by the World Bank and others and not
 
 I love it.
 
-But I always find it disturbing that his bottom line is <em>productivity</em> -- the extent to which their communication means that they are participating in the market. 
+But I always find it disturbing that his bottom line is <em>productivity</em> &mdash; the extent to which their communication means that they are participating in the market. 
 
 I write this in spite of,the obvious fact that the real goal of progressive ICT is the empowerment of people, ie, the elimination of poverty. So there is always an element of market-think undergirding the need for communication.
 

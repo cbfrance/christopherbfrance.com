@@ -1,25 +1,15 @@
 ---
-pageable: true
-per_page: 12
+pageable: false
 ---
-<h1>Articles tagged '<%= tagname %>'</h1>
-
-<% if paginate && num_pages > 1 %>
-  <p>Page <%= page_number %> of <%= num_pages %></p>
-
-  <% if prev_page %>
-    <p><%= link_to 'Previous page', prev_page %></p>
-  <% end %>
-<% end %>
-
-<ul>
+  <header>
+    <h1><%= "#{page_articles.size} posts about #{tagname}" %></h1>
+  </header>
   <% page_articles.each_with_index do |article, i| %>
-    <li><%= link_to article.title, article %> <span><%= article.date.strftime('%b %e') %></span></li>
+    <article>
+      <h2><%= link_to article.title, article %> </h2>
+      <span class='timestamp'> 
+        <%= article.date.strftime('%b %e %Y')%>
+      </span>
+      <%= article.body %>
+    </article>
   <% end %>
-</ul>
-
-<% if paginate %>
-  <% if next_page %>
-    <p><%= link_to 'Next page', next_page %></p>
-  <% end %>
-<% end %>

@@ -13,7 +13,7 @@ If you're putting content on the web, you may want to look into the idea of crea
 Here's a bit on a recent post at the <a href="http://www.digitaldivide.net/">Digital Divide Network</a>: 
 
 <blockquote class="large">
-Historically, copyright has often been regarding as an either/or choice. Either you reserve all rights to your content (ie, copyright 2004 Andy Carvin, All Rights Reserved), which means no one can really do anything with your work until they've gotten permission from you. Or, you make your content available to everyone with no strings attached, basically giving it away -- in other words, putting it in the public domain.
+Historically, copyright has often been regarding as an either/or choice. Either you reserve all rights to your content (ie, copyright 2004 Andy Carvin, All Rights Reserved), which means no one can really do anything with your work until they've gotten permission from you. Or, you make your content available to everyone with no strings attached, basically giving it away &mdash; in other words, putting it in the public domain.
 
 Creative Commons Comics The Creative Commons initiative has come up with a set of copyright licenses that allow you to say to the world, "Some rights reserved."
 </blockquote> 

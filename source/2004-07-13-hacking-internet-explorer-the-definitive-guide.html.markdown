@@ -8,7 +8,7 @@ modified_on: 2008-04-05 05:13:26
 status: publish
 ---
 
-Well, this is perhaps not a definitive guide, but a good one nonetheless. I like his method of including the CSS link in the commented rule, and I appreciate his concern that IE7 (the next release of IE) will have bugs resolved -- making the hacks a problem. 
+Well, this is perhaps not a definitive guide, but a good one nonetheless. I like his method of including the CSS link in the commented rule, and I appreciate his concern that IE7 (the next release of IE) will have bugs resolved &mdash; making the hacks a problem. 
 
 Read on: 
 <blockquote class="large">

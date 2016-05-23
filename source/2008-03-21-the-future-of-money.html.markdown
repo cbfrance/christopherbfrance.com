@@ -14,9 +14,9 @@ I mean, of course everybody *likes* money, but seriously, who wants to actually 
 
 But. As usual. I'm griping. 
 
-<blockquote>Imagine a world without access to banks and the services they provide - baseline services such as credit, money transfers, savings. For many of the worldâ€™s poor this is the everyday reality and it's a space where in part due to the spread of mobile telephony there are disruptions and innovations.<span class="attribution">- <a href="http://futureperfect.com">Jan Chipchase</a></span></blockquote>
+<blockquote>Imagine a world without access to banks and the services they provide - baseline services such as credit, money transfers, savings. For many of the world's poor this is the everyday reality and it's a space where in part due to the spread of mobile telephony there are disruptions and innovations.<span class="attribution">- <a href="http://futureperfect.com">Jan Chipchase</a></span></blockquote>
 
-So, ok, reality check. When it comes down to it: A) Thank Allah I've got enough to live on and B) Thank Jesus that I have some sort of infrastructure to deal with it in the first place. <strong>As in -- literally -- I'm thankful that I have a bank, and receipts and all that crufty stuff that makes it all actually work.</strong> 
+So, ok, reality check. When it comes down to it: A) Thank Allah I've got enough to live on and B) Thank Jesus that I have some sort of infrastructure to deal with it in the first place. <strong>As in &mdash; literally &mdash; I'm thankful that I have a bank, and receipts and all that crufty stuff that makes it all actually work.</strong> 
 
 Because a hell of a lot of people don't. 
 

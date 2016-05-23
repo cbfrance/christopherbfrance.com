@@ -24,7 +24,7 @@ And the bike:
 
 [http://www.youtube.com/v/-U-mvfjyiao&hl=en]]
 
-The wacky bike was designed by IDEO people -- I'm also impressed with their recent riff on the magazine quiz (maybe think madlibs): A Rockefeller sponsored <a href="https://client.ideo.com/socialimpact/">guide to creating social impact</a> with your design firm. 
+The wacky bike was designed by IDEO people &mdash; I'm also impressed with their recent riff on the magazine quiz (maybe think madlibs): A Rockefeller sponsored <a href="https://client.ideo.com/socialimpact/">guide to creating social impact</a> with your design firm. 
 
 And the App: 
 

@@ -13,9 +13,9 @@ status: publish
 
 Now the exciting part is that this isn't just a single application, but rather <strong>a platform</strong> for application development; that's Populi.net.
 
-Then there is Mobile Researcher(what I think is the first and only app thus far developed for it). <a href="http://www.populi.net/mobileresearcher/">Mobile Researcher </a>sounds itself really amazingly cool -- you develop surveys on the web and then anyone can take them with their cellphones. They've got an interesting case study up on the web featuring the <a href="http://www.mrc.ac.za/">South African Medical Research Council</a>. 
+Then there is Mobile Researcher(what I think is the first and only app thus far developed for it). <a href="http://www.populi.net/mobileresearcher/">Mobile Researcher </a>sounds itself really amazingly cool &mdash; you develop surveys on the web and then anyone can take them with their cellphones. They've got an interesting case study up on the web featuring the <a href="http://www.mrc.ac.za/">South African Medical Research Council</a>. 
 
-Quoting directly from their case study, it's obvious that there are some exciting ideas going on -- I hope to see some further news that reinforces these findings (the only thing that makes me wary is that they have no pricing information, and no screen shots of the survey builder interface): 
+Quoting directly from their case study, it's obvious that there are some exciting ideas going on &mdash; I hope to see some further news that reinforces these findings (the only thing that makes me wary is that they have no pricing information, and no screen shots of the survey builder interface): 
 
 <ul>
 	<li>Low cost Nokia 2626 handsets were successfully used by field workers to conduct surveys. Several field workers had never even sent an SMS before.</li>

@@ -16,9 +16,9 @@ This is the gist of a thought-provoking article from the Harvard Business School
 
 I would call this a process of evaluation, but the "marketing" concept works well.
 
-In many poverty-reduction programs, be they governmental, philanthropic or academic, the decision making about method -- <em>how</em> to alleviate poverty -- comes from the top down. This makes sense in many ways, and I'm certainly thankful for the developed world's research institutions, mulling and muttering in their thinktanks about how to best deal with poor farmers and streetworkers around the world.
+In many poverty-reduction programs, be they governmental, philanthropic or academic, the decision making about method &mdash; <em>how</em> to alleviate poverty &mdash; comes from the top down. This makes sense in many ways, and I'm certainly thankful for the developed world's research institutions, mulling and muttering in their thinktanks about how to best deal with poor farmers and streetworkers around the world.
 
-But programs have to take all of their stakeholders into account when it comes to crafting policy -- and that should mean subjecting proposed solutions to the "market" of consumers -- the population in poverty. In traditional markets, this process is essential, because bad ideas don't make money and are necessarily reformed or removed from the market. But in many governmental and philanthropic situations, bad ideas can thrive.
+But programs have to take all of their stakeholders into account when it comes to crafting policy &mdash; and that should mean subjecting proposed solutions to the "market" of consumers &mdash; the population in poverty. In traditional markets, this process is essential, because bad ideas don't make money and are necessarily reformed or removed from the market. But in many governmental and philanthropic situations, bad ideas can thrive.
 
 This is a concept of including the population you are serving the in the program decisions that you are making. It's that simple.
 

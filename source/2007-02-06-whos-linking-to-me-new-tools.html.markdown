@@ -28,7 +28,7 @@ So yesterday I was super happy to discover via the trusty <a href="http://google
 
 The Webmaster Toolkit is a service from Google that you really should be using. It takes just a few minutes to get started and then you get lots of data, including the new link data. If you haven't already (and, uh, you run a website), <a href="https://www.google.com/webmasters/tools/siteoverview">check it out</a> and you will be happy to pick up a bunch of free statistics about your site. Notably, you can also create an XML sitemap (not a graphical HTML sitemap, though!) of your site to make sure google is indexing the whole thing. And you can test your robots.txt file (important for keeping those pictures of the last drunken staff party out of images.google.com).
 
-I did have a couple of problems with the data, though -- there still is no way to get a good ranking of your referrers, or a ranking of your most popular pages. Luckily, you can download the entire file and do whatever you want with it. (hooray for openness!)
+I did have a couple of problems with the data, though &mdash; there still is no way to get a good ranking of your referrers, or a ranking of your most popular pages. Luckily, you can download the entire file and do whatever you want with it. (hooray for openness!)
 
 Since we have a bunch of clients I wanted to send this new data, I took the time to write a simple perl script. And I figured a few other people could use it.
 

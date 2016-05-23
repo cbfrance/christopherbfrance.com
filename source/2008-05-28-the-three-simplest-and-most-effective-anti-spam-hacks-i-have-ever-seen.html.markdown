@@ -41,7 +41,7 @@ Four: Reload Postfix
 
 <strong>Hack 2: DNS Blocklists</strong>
 
-This one is even easier, requiring only an extra line (for each blocklist). The blocklists are Just put it right there in that same block in main.cf. I typically use four of them. (Each has a slightly different purpose and tolerance. Check out the sites to get a flavor for why they exist.) This one is actually my favorite -- it was created by the geek premier <a href="http://en.wikipedia.org/wiki/Paul_Vixie">Paul Vixie</a> and uses a <a href="http://en.wikipedia.org/wiki/DNSBL">DNS lookup</a> for an extraordinarily light overhead. 
+This one is even easier, requiring only an extra line (for each blocklist). The blocklists are Just put it right there in that same block in main.cf. I typically use four of them. (Each has a slightly different purpose and tolerance. Check out the sites to get a flavor for why they exist.) This one is actually my favorite &mdash; it was created by the geek premier <a href="http://en.wikipedia.org/wiki/Paul_Vixie">Paul Vixie</a> and uses a <a href="http://en.wikipedia.org/wiki/DNSBL">DNS lookup</a> for an extraordinarily light overhead. 
 
 Step One: 
 

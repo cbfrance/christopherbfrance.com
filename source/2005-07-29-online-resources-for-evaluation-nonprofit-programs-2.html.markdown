@@ -2,13 +2,13 @@
 kind: article
 created_at: 2005-07-29 16:38:18
 title: Online Resources for Evaluation Nonprofit Programs
-excerpt: "Evaluation is a science of promoting nonprofit organizations. Do you need to measure the effectiveness of a specific program -- or your entire organization? Well, there's an entire discipline devoted to helping you do just that."
+excerpt: "Evaluation is a science of promoting nonprofit organizations. Do you need to measure the effectiveness of a specific program &mdash; or your entire organization? Well, there's an entire discipline devoted to helping you do just that."
 tags: [evaluation, nptech, metrics]
 modified_on: 2008-04-05 06:07:50
 status: publish
 ---
 
-Evaluation is an important, albeit rarefied, science of promoting nonprofit organizations. Do you need to measure the effectiveness of a specific program -- or your entire organization? Well, there's an entire discipline devoted to helping you do just that. 
+Evaluation is an important, albeit rarefied, science of promoting nonprofit organizations. Do you need to measure the effectiveness of a specific program &mdash; or your entire organization? Well, there's an entire discipline devoted to helping you do just that. 
 
 Unfortunately, as with most rarefied, important sciences, the "discipline" part tends to mean something more like "punishment," rather than "a codified mode of study." 
 At any rate, doing a real, formal evaluation of a program is still better than wasting your time doing something that's useless, fruitless, a waste of energy or just a sham. So here's a buch of resources from the internet to help you get going for free. Thanks for this post go to Joyce B. Morris and David Colton, Ph.D., from the EvalTALK Listserv. 

@@ -18,7 +18,7 @@ Most of the books here are just distributed online for free because they are old
 
 A couple of golden links for the basics: 
 
-The 2000 (O'Reilly) <a href="http://www.en8848.com/Reilly%20Books/webdesign/css/ch01_01.htm">Definitive Guide to CSS </a> (I use this one at home. Totally comprehensive, excellent in spite of the age, and written by the CSS demigod Eric Meyer. It never has been -- and never will be -- a great reference for browser support, which adds it's timelessness.)
+The 2000 (O'Reilly) <a href="http://www.en8848.com/Reilly%20Books/webdesign/css/ch01_01.htm">Definitive Guide to CSS </a> (I use this one at home. Totally comprehensive, excellent in spite of the age, and written by the CSS demigod Eric Meyer. It never has been &mdash; and never will be &mdash; a great reference for browser support, which adds it's timelessness.)
 
 The <a href="http://aha.homelinux.com/bindee/work/refbooks/web/xhtml/index.htm">Definitive Guide to HTML and XHTML</a> (I use a hard copy of this one too.  Great for looking up all those form and table tags you forget about. Written shortly after the standardization of XHTML 1.0, there's no reason I can see to use a later version for now.)
 

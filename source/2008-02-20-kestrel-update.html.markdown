@@ -21,7 +21,7 @@ Kestrel is a <a href="http://en.wikipedia.org/wiki/Participatory_design">partici
 Kestrel is an <a href="http://en.wikipedia.org/wiki/Open_source">open source</a> project. 
 Kestrel is a <a href="http://en.wikipedia.org/wiki/User-centered_design">user-centered</a> project. (Deeply so; as in, we won't build it if it doesn't solve real-people problems.)
 
-Ok that was four. Anyway, I've gotten so much great feedback already by email phone and comment -- and I am now setting up interview dates. <strong>Let me know if you would like to talk on the phone for about an hour.</strong> We'll be gathering feedback about the initial concept and looking at some first drafts of first drafts. Basically, we're gabbing on the phone for a bit and I'm taking some notes. 
+Ok that was four. Anyway, I've gotten so much great feedback already by email phone and comment &mdash; and I am now setting up interview dates. <strong>Let me know if you would like to talk on the phone for about an hour.</strong> We'll be gathering feedback about the initial concept and looking at some first drafts of first drafts. Basically, we're gabbing on the phone for a bit and I'm taking some notes. 
 
 <strong>You can participate in a number of ways: </strong>
 

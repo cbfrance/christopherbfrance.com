@@ -17,7 +17,7 @@ Here's the scene:</strong> A decade after the technology-sector collapse in the 
 
 It's ... exactly like that, actually, so much so that the Peace Corp <a href="http://www.timesleader.com/mld/timesleader/news/world/12155002.htm">reportedly </a>has plans to create a nerd project sounding very similar to Geekcorps. Likewise, Carnegie Mellon University is starting a <a href="http://www.techbridgeworld.org/tpc/index.html">Technology Peace Corps</a>, and so is the UN, which has a three-year-old <a href="http://www.unicttaskforce.org/">ICT (Information Communication Technology) Task Force</a>. 
 
-Contemporary communications technology is central to the process of international development because it is effective -- and damn efficient. Communication systems can organize political movements, prevent humanitarian disasters, strengthen communities, streamline markets and enrich education. In fact, they will do these things. 
+Contemporary communications technology is central to the process of international development because it is effective &mdash; and damn efficient. Communication systems can organize political movements, prevent humanitarian disasters, strengthen communities, streamline markets and enrich education. In fact, they will do these things. 
 
 <strong>Here's the point</strong>: These new groups are doing good work. Technology can work for people. It can work <em>wonders</em> for really poor people. Communications technology, in particular, has the potential to connect and empower places that you have never heard of, perhaps in poor parts of your district, perhaps in Africa or Asia. Just like it connected you. 
 

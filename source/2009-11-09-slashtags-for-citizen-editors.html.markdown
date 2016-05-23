@@ -14,7 +14,7 @@ The NYT reported today on how the <a href="http://twitter.com/#search?q=%23fthoo
 
 <blockquote>Until lately, the main way to make sense of an urgent outpouring of tweets on a particular subject was to use text searches: look for the phrase 'Fort Hood,' for example, or maybe an agreed-upon label, '#fthood,' within tweets. Yet during events like the shootings on Thursday at Fort Hood that left 13 people dead, this method is useless. Hundreds of 'relevant' tweets pop up every minute, most repeating the same news reports over and over again or expressing concern from far away.<span class="attribution">"Refining the Twitter Explosion" on <a href="http://www.nytimes.com/2009/11/09/business/09link.html">nyt.com</a></blockquote>
 
-I believe that there is an enormous potential to do citizen journalism better on the web, and that we need the leadership of people who are willing to help clean up the mess. Unlike <a href="http://www.techcrunch.com/2009/11/07/nsfw-after-fort-hood-another-example-of-how-citizen-journalists-cant-handle-the-truth/">some people</a>, I do not think that the poor citizen journalism around #fthood is an indictment of citizen journalism -- rather I would say it points to the <strong>absence of citizen editors</strong>.
+I believe that there is an enormous potential to do citizen journalism better on the web, and that we need the leadership of people who are willing to help clean up the mess. Unlike <a href="http://www.techcrunch.com/2009/11/07/nsfw-after-fort-hood-another-example-of-how-citizen-journalists-cant-handle-the-truth/">some people</a>, I do not think that the poor citizen journalism around #fthood is an indictment of citizen journalism &mdash; rather I would say it points to the <strong>absence of citizen editors</strong>.
 
 In the <a href="http://blog.twittervotereport.com/">Vote Report</a> and <a href="http://swiftapp.org">Swift</a> parlance, these are "Sweepers," the custodians working to clean the stream, validate claims, and generally insert some professionalism.
 
@@ -44,7 +44,7 @@ How long has the Twitter Stream account been up and running?
 
 (And oh yes there are <a href="http://blog.meedan.net">many more criteria</a>.)
 
-I think these are the good, basic questions that may not be answered by some organizations -- and their lists are thus quantifiably worse, in the sense that they are less reliable, less meaningful, and probably noiser. So we can see that by following basic journalistic standards, your attention data becomes more valuable. Garbage in, garbage out, or, more positively, the system can be improved.
+I think these are the good, basic questions that may not be answered by some organizations &mdash; and their lists are thus quantifiably worse, in the sense that they are less reliable, less meaningful, and probably noiser. So we can see that by following basic journalistic standards, your attention data becomes more valuable. Garbage in, garbage out, or, more positively, the system can be improved.
 
 For nonprofits, which typically do not have a <strong>microgram of energy to spare</strong>, these kinds of tricks can be really helpful. 
 
@@ -65,9 +65,9 @@ Using /by gives a very specific meaning to the username that follows it. It's in
 
 Not beautiful, but very clear. 
 
-This is useful for when you need to be more precise — say, if you wanted to use your attention data <strong>in another application</strong>.
+This is useful for when you need to be more precise &mdash; say, if you wanted to use your attention data <strong>in another application</strong>.
 
-For us at Meedan, this is the direction we are headed, fast. We are working on developing a clear and simple standard for using tags on the delicious network. This standard will be something that <strong>our editorial team</strong> (and <strong>anyone who cares to participate</strong>) can use to route information to our hand-curated database. You don't have to leave the comfort of your own twitter client, or use any fancy tools -- just the simple, clear standards that we are figuring out. 
+For us at Meedan, this is the direction we are headed, fast. We are working on developing a clear and simple standard for using tags on the delicious network. This standard will be something that <strong>our editorial team</strong> (and <strong>anyone who cares to participate</strong>) can use to route information to our hand-curated database. You don't have to leave the comfort of your own twitter client, or use any fancy tools &mdash; just the simple, clear standards that we are figuring out. 
 
 We are already making great use of social bookmarks at meedan as a editorial backchannel. For example, you can see all of Meedan's Iraq sources on delicious, from our lead editor: 
 
@@ -170,7 +170,7 @@ Mediawiki makes me groan just looking at it. I'd much rather help update that in
 
 If we could react in realtime to create a more sophisticated picture of the news by expressing ourselves more clearly in the tagging interaction, I think we could ultimately make great strides in improving citizen journalism (even if all the idiots keep on tweeting, which, naturally, they will.)
 
-This is why the usability of a citizen editor tagging scheme is so critical -- it needs to be flexible enough (to handle hurricanes) but maintain a low barrier to participation (to cultivate citizen editors). The tagging approach has already proven itself in many trivial domains, now we need to step it up using our journalistic standards, and our shared interest in <strong>making sense of the news, particularly crises</strong>.
+This is why the usability of a citizen editor tagging scheme is so critical &mdash; it needs to be flexible enough (to handle hurricanes) but maintain a low barrier to participation (to cultivate citizen editors). The tagging approach has already proven itself in many trivial domains, now we need to step it up using our journalistic standards, and our shared interest in <strong>making sense of the news, particularly crises</strong>.
 
 We are early in this strange<strong> distributed crisis data management effort</strong>, but I think that some of the ideas proposed by Chris Messina, and the experiments of the OSM community go a really long way in this regard. Particularly the nestabilty and readability seem like great virtues of this tagging system. Overall the "slash" is a widely understood metaphor, used by all major operating systems to indicate travresing "down" or "up" a taxonomy.
 
@@ -181,4 +181,4 @@ I would love to know what you think. Stop by the contact page or @unthinkingly o
 [1] notice how it <a href="http://www.flickr.com/photos/unthinkingly/4088326441/">breaks on gnolia.com</a> 
 and <a href="http://www.flickr.com/photos/unthinkingly/4088331717/">breaks on flickr.com</a> Although it appears that Flickr preserves the slashes in the background, just doesn't display them on output.
 
-[2] On Twitter there is s a bit of a variation required if we are to follow existing patterns: 1.) I can omit the space, so I will, and 2.) You need to prefix a user's name with the @ sign, like <strong>/for @meedan </strong> -- I think this is still quite readable, but the difference between networks might need to be cleared up. We could in fact collapse the twitter tags to <strong>/for/meedan</strong> (ie: identical to the delicious tag) but this would probably break some automation in twitter clients that are expecting the @ prefix. 
+[2] On Twitter there is s a bit of a variation required if we are to follow existing patterns: 1.) I can omit the space, so I will, and 2.) You need to prefix a user's name with the @ sign, like <strong>/for @meedan </strong> &mdash; I think this is still quite readable, but the difference between networks might need to be cleared up. We could in fact collapse the twitter tags to <strong>/for/meedan</strong> (ie: identical to the delicious tag) but this would probably break some automation in twitter clients that are expecting the @ prefix. 

@@ -11,7 +11,7 @@ status: publish
 Last week I read this article on ReadWriteWeb that advises a startup to "<a href="http://www.readwriteweb.com/start/2010/03/give-it-to-them-straight-avoid-pitching-to-your-board.php">Give It to Them Straight: Avoid "Pitching" to Your Board</a>." The article explains how it can be bad to exaggerate your product and cover up problems that you are experiencing in development: 
 
 <blockquote>
-"VCs hear bad news all the time -- it is part of the startup process and part of the VC job description," says Hirshland. "Any VC worth his or her salt should respond to bad news, provided it is shared in a timely fashion, by helping the entrepreneur figure out the best way to respond rather than dwelling on what went wrong."
+"VCs hear bad news all the time &mdash; it is part of the startup process and part of the VC job description," says Hirshland. "Any VC worth his or her salt should respond to bad news, provided it is shared in a timely fashion, by helping the entrepreneur figure out the best way to respond rather than dwelling on what went wrong."
 </blockquote>
 
 To which I must respond: no shit! We <strong>all</strong> hear bad news all the time. Get is straight, <strong>a "pitch" is a lie plus hubris</strong>. None of us want to be lied to. Would it be that hard to just tell everyone on your project the truth about what your software does and how the development process is going? 

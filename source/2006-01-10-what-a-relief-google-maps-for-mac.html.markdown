@@ -12,7 +12,7 @@ This is minor news in most contexts: <a href="http://earth.google.com/">Google E
 
 Aside from the obvious usefulness of this release, this signals a money-where-their-mouth-is confirmation thae Google isn't just reinforcing Microsoft's monopolistic dominance. 
 
-Google has offered a wealth of opportunities for open source, multi-platform development. But their unusual business model (offer almost *everything* for free) means that they've been targeting the largest mass of computer users -- Microsoft-bound users, that is. 
+Google has offered a wealth of opportunities for open source, multi-platform development. But their unusual business model (offer almost *everything* for free) means that they've been targeting the largest mass of computer users &mdash; Microsoft-bound users, that is. 
 
 As (Open Source Journalist) <a href="http://opendotdotdot.blogspot.com/">Glyn Moody </a>wrote recently:
 
@@ -22,4 +22,4 @@ Glad to see that little bit of criticism go so out of date so quickly. Now, Goog
 
 Via: <a href="http://www.mcwetboy.net/maproom/2006/01/google_earth_for_mac_officially_released.phtml">The Map Room: Google Earth for Mac Officially Released</a>
 
-Key system requirements: OS X 10.4 (Tiger), a 400-MHz processor, and 16 MB of video RAM, minimum ‚Äî essentially, even a G3 iBook from mid-2002 should be able to handle it ‚Äî but they recommend more than 1.5 GHz, 32 megs of video and a fairly speedy broadband connection. I‚Äôve been restraining myself from acquiring the leaked beta, but I‚Äôm going to download it now.
+Key system requirements: OS X 10.4 (Tiger), a 400-MHz processor, and 16 MB of video RAM, minimum &mdash; essentially, even a G3 iBook from mid-2002 should be able to handle it &mdash; but they recommend more than 1.5 GHz, 32 megs of video and a fairly speedy broadband connection. I've been restraining myself from acquiring the leaked beta, but I'm going to download it now.

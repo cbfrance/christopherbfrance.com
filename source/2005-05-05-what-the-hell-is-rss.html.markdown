@@ -17,7 +17,7 @@ Most notably, you are missing two things. 1.) The ability to prrocess inhuman am
 
 <blockquote>It's a lot like having a TiVO for your favorite sites.</blockquote>
 
-Once you subscribe to one, it appears in your RSS reader of choice. In the end, it's a lot like having a TiVO for your favorite sites -- every time you sit down and you want to read, you have a list of updated articles in front of you. No wasting your life poking around the less glamorous parts of a newspaper page. 
+Once you subscribe to one, it appears in your RSS reader of choice. In the end, it's a lot like having a TiVO for your favorite sites &mdash; every time you sit down and you want to read, you have a list of updated articles in front of you. No wasting your life poking around the less glamorous parts of a newspaper page. 
 
 2.) If you have a website that is updated regularly, you can create a RSS feed so that others can subscribe to your page. This may seem a little superfluous if you don't even know what a RSS feed is. "Who would use it?" Plenty of folks will, especially over the next year or two. So start writing some engaging articles for your site. 
 

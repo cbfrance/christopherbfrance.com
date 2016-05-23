@@ -10,7 +10,7 @@ status: publish
 
 <p>The concept of eRiders is deceptively simple: people with lots of tech skills don't need to be on the staff of every NGO or nonprofit, they can "ride" a circut of folks that they help. This idea is being presented at WSIS this week, and I think it is an incredibly powerful idea that will be used increasingly around the world. </p>
 
-<blockquote class="large"><p>TUNIS, Tunisia -- One of the focuses of the World Summit on the Information Society (WSIS) process has been on the cross-cutting nature of technology, and how it can act as an enabler of other development objectives. </p>
+<blockquote class="large"><p>TUNIS, Tunisia &mdash; One of the focuses of the World Summit on the Information Society (WSIS) process has been on the cross-cutting nature of technology, and how it can act as an enabler of other development objectives. </p>
 
 <p>Civil society has always had a significant part to play in development objectives and achieving the . Except for a few notable examples though, civil society has not fully embraced technology in its development work. </p>
 

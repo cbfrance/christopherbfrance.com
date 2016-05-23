@@ -12,13 +12,13 @@ There are very few web design books that have any currency after about 2 years. 
 And half of these are notable because their very outdatedness is instructive. The rare remaining 50%
 of this minority of web design books is the "on-every-designer's-shelf" collection. Among them is certainly Steve Krugman's "Don't Make Me Think: A Common Sense Approach to Web Usability."
 
-It is, he writes, a book for "people in the trenches -- the designers, the developers, the site producers, the project managers, the marketing people, ... and the one man band people who are doing it themselves."
+It is, he writes, a book for "people in the trenches &mdash; the designers, the developers, the site producers, the project managers, the marketing people, ... and the one man band people who are doing it themselves."
 
 The rule, "don't make me think" is an obvious principle, but it can be translated many ways.
 
 One great translation is the user's maxim 'the more difficult it is to use, the less I will use it." You must design for users, not yourself. Always second guess your new aesthetic vision, and, if at all possible, conduct a usability test with real users.
 
-Another reformulation of the main theme is "no one cares as much about your site as you do." And really, it *doesn't matter* to users if they understand everything about your site. (This is difficult for many developers, who are intensely interested in how online stuff works.) Users want to know how to use it to do specific tasks. This is the age-old (ie 1990s) principle of "satisficing" -- being satisfied and sacrificing. If you expect more than 10% of your web page to be read by a single user, you have high expectations.
+Another reformulation of the main theme is "no one cares as much about your site as you do." And really, it *doesn't matter* to users if they understand everything about your site. (This is difficult for many developers, who are intensely interested in how online stuff works.) Users want to know how to use it to do specific tasks. This is the age-old (ie 1990s) principle of "satisficing" &mdash; being satisfied and sacrificing. If you expect more than 10% of your web page to be read by a single user, you have high expectations.
 
 The corollary to this principle is that, if a user can make your site work for them, they will stick with it. Secondly, you must respect a counterintuitive fact: it is _difficult_ to make a site simple and _easy_ fill it with confusing design.  I am fond of saying that web design is a process of subtraction. There are a number of helpful hints for building subtrative process into your design method:
 <ul>

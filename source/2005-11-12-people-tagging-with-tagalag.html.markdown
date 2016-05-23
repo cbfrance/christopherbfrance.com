@@ -22,5 +22,5 @@ If you like the idea of tagging you web pages and your books, how about tagging 
 
 <p>Read it: <a href="http://www.techcrunch.com/2005/11/09/tag-people-with-tagalag/#comments">People Tagging with Tagalag</a></p>
 
-See also the recent surge of interest in Facebook, which about 80 percent of college kids are using. (No, really, 80 percent -- I've seen other numbers that confirm this phenomenon.): <a href="http://feeds.feedburner.com/Techcrunch?m=387">Facebook Users sure are Passionate</a>
+See also the recent surge of interest in Facebook, which about 80 percent of college kids are using. (No, really, 80 percent &mdash; I've seen other numbers that confirm this phenomenon.): <a href="http://feeds.feedburner.com/Techcrunch?m=387">Facebook Users sure are Passionate</a>
 <p>(Found on:<a href="http://www.techcrunch.com">TechCrunch</a>.)</p>

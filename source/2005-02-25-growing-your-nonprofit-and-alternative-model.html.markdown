@@ -8,11 +8,11 @@ modified_on: 2008-04-05 05:32:46
 status: publish
 ---
 
-How do nonprofits grow? That's a much discussed — and much answered question. There are thousands of books, articles, consultants even entire schools devoted to the subject of growing your nonprofit.
+How do nonprofits grow? That's a much discussed &mdash; and much answered question. There are thousands of books, articles, consultants even entire schools devoted to the subject of growing your nonprofit.
 
 But there's not much to growth if you don't have a similar rise in creating change. And growth doesn't necessarily make an organization stronger in the nonprofit world.
 
-That's the idea of Jane Wei-Skillern, at least, and she has the research to back it up. Her investigation into several national nonprofits has led her to appreciate the "networked" model of development over one of scale. It's about who you know, basically -- and not being afraid to actually stop doing some services that other organizations might do better if they had your help and guidance.
+That's the idea of Jane Wei-Skillern, at least, and she has the research to back it up. Her investigation into several national nonprofits has led her to appreciate the "networked" model of development over one of scale. It's about who you know, basically &mdash; and not being afraid to actually stop doing some services that other organizations might do better if they had your help and guidance.
 
 Here's a bit:
 <blockquote class="large">

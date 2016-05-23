@@ -1,0 +1,14 @@
+<div class="section--posts-by-tag">
+  <ul class="tags">  
+    <% blog.tags.sort.each do |tag, articles| %>
+      <% if articles.size > 3 %>
+        <li class='<%= tag %> <%= tag_weight(articles.size) %>'>
+          <%= link_to tag, tag_path(tag), { 
+            :title => "#{articles.size} with this tag" 
+          } 
+          %>
+        </li>
+      <% end %>
+    <% end %>
+  </ul>
+</div>

@@ -12,7 +12,7 @@ Yes, it is.
 
 Open source software is free. It is supported by communities of developers, not corporations. And it is ready.
 
-Sure, sometimes, it doesn't work. Development can stop abruptly on a project, and support can be limited -- because it's free. 
+Sure, sometimes, it doesn't work. Development can stop abruptly on a project, and support can be limited &mdash; because it's free. 
 
 But often, open source software is better than the overloaded, buggy programs put out by the big guys (Intel, Microsoft, Cisco, etc.).  
 

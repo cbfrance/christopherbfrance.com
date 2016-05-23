@@ -12,7 +12,7 @@ Your dear author recently posted about the ambivalence and misunderstanding that
 
 The people they interviewed (about 25 of them) were smart folks in a wealthy, highly industrialized country. They used the internet all the time. But when they came to a normal blog, they were stumped. They asked: What kind of a website is this? What are these categories? Are they organized chronologically?
 
-These are not stupid questions -- they just sound stupid to folks who work with blog publishing software. 
+These are not stupid questions &mdash; they just sound stupid to folks who work with blog publishing software. 
 
 The point is this, geeks: people don't understand what blogs are. They don't know how to use them effectively and, often, they don't know how to read them. They certainly don't know how to subscribe to them via RSS. 
 
@@ -24,6 +24,6 @@ For now, we (bloggers) need to recognize that our readership is other bloggers. 
 
 So this technical-sounding "usability study" of blogs means a great deal for people trying to create change with online publishing. Here are a few tips that I have tried to follow here: 
 
-For one: If you are a blogger, design down your site. I think that simplicity has an inherent currency in all forms of learning -- and all publications are deigned to teach. Consider that your blog, as a text-based medium, would do better to take influences from the world of books (remember those?) than cable TV. 
+For one: If you are a blogger, design down your site. I think that simplicity has an inherent currency in all forms of learning &mdash; and all publications are deigned to teach. Consider that your blog, as a text-based medium, would do better to take influences from the world of books (remember those?) than cable TV. 
 
 For two: Write for real people, not just geeks. Surely, there is a place for geeky forums, but if your online work is meant to be relevant for people with real lives (present readership excluded), try to avoid terms like trackback and ping, which have a clinically-proven tendency to cause impotence and sleep apnea.

@@ -8,7 +8,7 @@ modified_on: 2008-04-05 06:06:45
 status: publish
 ---
 
-Perhaps not what you've been waiting for all year -- an extensive resource for researching various qualitative data analysis programs -- but if you're in a research environment, this is actually extremely helpful. 
+Perhaps not what you've been waiting for all year &mdash; an extensive resource for researching various qualitative data analysis programs &mdash; but if you're in a research environment, this is actually extremely helpful. 
 
 This page is from a university in the U.K., and would be useful if you're about to sink a few hundred dollars in some software (which will in turn play an important part in your research, of course.) 
 

@@ -10,7 +10,7 @@ status: publish
 
 NetCorps is now providing the "technology of list enhancement" for nonprofits in NC. I have't worked directly with them but they do good work (in Durham, NC and in Oregon). They have worked with folks at Volunteers for Youth that we are beginning a project with.
 
-If you are interested in nonprofit technology, check out <a href="http://netcorps.org/leap/">NetCorps LEAP -- netcorps.org</a>
+If you are interested in nonprofit technology, check out <a href="http://netcorps.org/leap/">NetCorps LEAP &mdash; netcorps.org</a>
 
 From their site, about one of their services:
 

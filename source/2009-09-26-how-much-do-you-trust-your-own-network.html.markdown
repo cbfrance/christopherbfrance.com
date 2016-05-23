@@ -16,13 +16,13 @@ So, I took a break, moved away from the ever-intense San Francisco bubble, worke
 
 Turns out, it's such a simple and healthy solution; I don't know why more people don't do it. It's not a complicated hack or anything, you just have to use a separate email account. (A tool like <a href="http://www.seesmic.com/" title="Seesmic: Build Your Community">Seesmic Desktop</a> lets you stay signed into both at the same time.)
 
-Now, please don't misundersand me: I strongly believe in living a principled, genuine life. Naive as it sounds, I try to never ever say anything that I would not say to someone's face. Life is too hard that way. I'm an incompetent liar. I don't maintain multiple personalities -- I have a single, genuine and faceted personality. Just like most people I know.
+Now, please don't misundersand me: I strongly believe in living a principled, genuine life. Naive as it sounds, I try to never ever say anything that I would not say to someone's face. Life is too hard that way. I'm an incompetent liar. I don't maintain multiple personalities &mdash; I have a single, genuine and faceted personality. Just like most people I know.
 
 <h3>Back in the Day</h3>
 
 As an application designer, I keep spotting architectures that expect, and in some cases force, me to have a single, monolithic expression of my personality. I take offense to this because we, as humans, are all multi-faceted. We speak to our parents differently than our coworkers. We lower our voices a bit in a crowded coffee shop. We stand up straighter when we give a presentation. And, again, these are not about secrecy or duplicity, but rather, indications of maturity, and a uniquely human sophistication.
 
-Back in the day, we did this better, probably by accident. We didn't have ways to prevent you from creating multiple accounts. We didn't really need to -- there were no zombie spammers. From an application design perspective, the geography was totally different because of this difference. We had tiny little awesome communities. Your importance was judged more by what you said than how many "friends" you had. 
+Back in the day, we did this better, probably by accident. We didn't have ways to prevent you from creating multiple accounts. We didn't really need to &mdash; there were no zombie spammers. From an application design perspective, the geography was totally different because of this difference. We had tiny little awesome communities. Your importance was judged more by what you said than how many "friends" you had. 
 
 Back in the day, you were expected to have a short pseudonym, a handle, that you could use (or not use) across any bulliten board you wanted. And on IRC in particular, you can (still!) register dozens of pseudonyms if you wanted to, and express yourself appropriately in different contexts. You can whisper, lurk and rant, all at the same time. Just like you can in real life. 
 
@@ -30,7 +30,7 @@ Back in the day, you were expected to have a short pseudonym, a handle, that you
 
 In thinking this through, I realized that the most irritating thing wasn't really about the information overload thing. That's still there.
 
-What I found on Twitter, the way I was using it, was a lack of trust. And, get this, -- not other people trusting me, but me actually trusting <strong>my own network</strong>.
+What I found on Twitter, the way I was using it, was a lack of trust. And, get this, &mdash; not other people trusting me, but me actually trusting <strong>my own network</strong>.
 
 So, I created a test for <a href="http://twitter.com/cgblow">@cgblow</a>. In order to set the bar a little higher, and really give myself a break from some of these frustrations, I have simple, but hardcore, criteria for who I'll follow with @cgblow: <strong>I could give you the root password to my computer</strong>. In fact, I'll Twitter it right now. Done.
 

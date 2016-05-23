@@ -18,7 +18,7 @@ Most of the existing solutions on the web are hosted by a third party, and are l
 
 A robust, simple option for a thrid-party hosted aggregator is <a href="http://jade.mcli.dist.maricopa.edu/feed/">Feed2JS</a>, but if you want a bunch of feeds on your site you'll have to use a bit of javascript for each one. Multiple feeds get ugly fast, and if their server goes down, your scripts go down.  
 
-The best hosted solution I found was <a href="http://gregarius.net/">Gregarius</a>, which has a lovely community. I think that gregarious will take the cake sometime this year as aggregating catches on. For now, however, the plugins are pretty limited -- you are locked into a personal reader with "Read/Unread" tagging. (Which makes Gregarious a great replacement for a newsreader like Bloglines, but it's not good for a community aggregator where lots of people visit.)
+The best hosted solution I found was <a href="http://gregarius.net/">Gregarius</a>, which has a lovely community. I think that gregarious will take the cake sometime this year as aggregating catches on. For now, however, the plugins are pretty limited &mdash; you are locked into a personal reader with "Read/Unread" tagging. (Which makes Gregarious a great replacement for a newsreader like Bloglines, but it's not good for a community aggregator where lots of people visit.)
 
 If I were a better person I'd just write a Gregarius plugin, but instead I've just reworked some of Feed2JS's code (which is in turn dependent on the Magpie RSS parser.)
 

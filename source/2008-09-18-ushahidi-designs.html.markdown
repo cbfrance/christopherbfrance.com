@@ -14,7 +14,7 @@ After a few months of work, we have gotten a new wireframe of the mobile app run
 
 [http://www.ushahidi.com/images/buttons/ushahidi_button4_170.gif "Ushahidi: Crowdsourcing Crisis Information"] 
 
-Lately I've been volunteering a little bit for <a href="http://ushahidi.com">Ushahidi</a>. Ushahidi is an open source tool for monitoring crises and disasters. It recently won the the <a href="http://blog.ushahidi.com/index.php/2008/05/30/winning-the-netsquared-challenge/">NetSquared challenge</a> and was called one of the top startups to watch in the MIT Technology Review. Man, I really don't have to give up anything to work on this one -- it's really a top notch operation going on. Other nonprofit and open source teams could learn a lot from the Ushahidi project. 
+Lately I've been volunteering a little bit for <a href="http://ushahidi.com">Ushahidi</a>. Ushahidi is an open source tool for monitoring crises and disasters. It recently won the the <a href="http://blog.ushahidi.com/index.php/2008/05/30/winning-the-netsquared-challenge/">NetSquared challenge</a> and was called one of the top startups to watch in the MIT Technology Review. Man, I really don't have to give up anything to work on this one &mdash; it's really a top notch operation going on. Other nonprofit and open source teams could learn a lot from the Ushahidi project. 
 
 Some of the amazing things about the Ushahidi project include: 
 

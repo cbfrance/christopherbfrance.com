@@ -20,7 +20,7 @@ Wait, really? How did we get to the point that we need a website, an RFID chip, 
 
 And, perhaps more importantly, when did we start to forget it was possible otherwise?
 
-Information visualization of this kind exudes authority and direction -- it gives you clear goals, measurable output, definitive results. It facilitates competition, reward, efficiency and progress. Sexy, sure. But so does fascism.
+Information visualization of this kind exudes authority and direction &mdash; it gives you clear goals, measurable output, definitive results. It facilitates competition, reward, efficiency and progress. Sexy, sure. But so does fascism.
 
 In these graphs, I see a kind of quiet aplomb that says, "look, buddy, this infoviz shit clearly says that I know *so bloody much* about what I'm doing, and it's very likely that I'm doing it all twice as well as you are, sub-aware urchin."
 

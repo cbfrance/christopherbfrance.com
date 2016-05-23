@@ -20,7 +20,7 @@ The security version of NGO-in-a-box ... is aimed predominantly at human rights,
 
 One of the most important parts of the CDs is the documentation, which somes in English, Spanish, French, Russian and Arabic. (Unfortunately a lot of the software only comes in English.) 
 
-It came as some surprise to me that the Security edition comes with a collection of FOSS applications that are designed to run on Windows (TM)(!). I think the decison to run on a closed platform (instead of Linux) was rather unfortunate ... and unfortunately necessary for now. This CD provides a lot of great tools for NGOs at zero cost -- and very few of the Tacitcal Tech's audience is up and running with an Open platform on all of their machines. I hope, of course, that this won't be the rule for future releases, but for now it seems pragmatic. 
+It came as some surprise to me that the Security edition comes with a collection of FOSS applications that are designed to run on Windows (TM)(!). I think the decison to run on a closed platform (instead of Linux) was rather unfortunate ... and unfortunately necessary for now. This CD provides a lot of great tools for NGOs at zero cost &mdash; and very few of the Tacitcal Tech's audience is up and running with an Open platform on all of their machines. I hope, of course, that this won't be the rule for future releases, but for now it seems pragmatic. 
 
 I'm looking forward to their future releases of a "Base Edition" "Advocacy Edition,"  and especially the "Open Publishing Edition" (they're only a few months behind schedule ...) 
 

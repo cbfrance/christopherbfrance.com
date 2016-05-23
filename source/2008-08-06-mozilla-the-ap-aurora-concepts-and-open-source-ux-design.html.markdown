@@ -10,9 +10,9 @@ status: publish
 
 Today Adaptive Path, the godfather company of the interface and experience research industry, released the first of some amazingly high quality <a href="http://www.adaptivepath.com/aurora/">concept videos</a> about the web browser of the future. 
 
-I'm really impressed, even though I spent most of the day grousing about some of the details of the interface they showed -- my nitpicking is really just evidence of how much detail there is in the video.  
+I'm really impressed, even though I spent most of the day grousing about some of the details of the interface they showed &mdash; my nitpicking is really just evidence of how much detail there is in the video.  
 
-Anyway, the real importance of the videos is not specific to any of the UI details — it's about what's happening at Mozilla, and the new inclusive approach they are taking to visual and experience design. 
+Anyway, the real importance of the videos is not specific to any of the UI details &mdash; it's about what's happening at Mozilla, and the new inclusive approach they are taking to visual and experience design. 
 
 I couldn't put it better than <a href="http://www.adaptivepath.com/blog/2008/08/04/open-source-design/">Dan Harrelson did this week</a>: 
 

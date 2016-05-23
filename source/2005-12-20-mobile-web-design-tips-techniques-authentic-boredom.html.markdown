@@ -14,7 +14,7 @@ Sometime about 5 years ago people began to realize the frustrating limits of web
 
 Which is to say, no fun at all. Online communication has progressed steadily since then, and now we have wonderful fruits like "AJAXy goodness" and other Web 2.0 technologies to reap. So take a break from griping about Netscape vs. Internet Explorer. 
 
-But Google Maps (etc.) being accomplished, we're looking for ever greater technologies. The next frontier of web development is the mobile browser -- the web in a cell phone. 
+But Google Maps (etc.) being accomplished, we're looking for ever greater technologies. The next frontier of web development is the mobile browser &mdash; the web in a cell phone. 
 
 The concept of the mobile web has been huge this year, and it is now taken as a fact that most internet users in the next 5 years will be getting online for the first time through their cell phones. 
 

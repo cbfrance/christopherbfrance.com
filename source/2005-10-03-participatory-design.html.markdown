@@ -10,7 +10,7 @@ status: publish
 
 I am currently researching a field of design known as "Participatory Design" that has a fascinating history (dealing with Scandinavian labor unions) and a very promising future. In short,  PD is about incorporating the user in the design process from day one. The resulting ideas and workflows are, in my mind, incredibly powerful tools for working on any project. My focus is web development. 
 
-Most of my interest in this concept comes from my day job at a nonprofit evaluation firm -- we do "collaborative evaluation" to help programs develop. The concepts are largely the same, and I'm just trying to apply them to web design and the development of usable, useful online tools.
+Most of my interest in this concept comes from my day job at a nonprofit evaluation firm &mdash; we do "collaborative evaluation" to help programs develop. The concepts are largely the same, and I'm just trying to apply them to web design and the development of usable, useful online tools.
 
 This process is intimately involved with many of the same user-centered concerns that preoccupy other ICT-development folks, such as the advocates of free and open-source software. 
 

@@ -16,4 +16,4 @@ Turns out that, once you get beat badly by Google, you start to get really open.
 
 Basically BOSS (bad name, great tool) means that, with a minimal contingency of programmers, you can get a completely custom search running, and apparently you can even manipulate the rankings algorithm. Currently Yahoo is running it without requiring ads or anything. Exciting. 
 
-What a great way for a big conservative company to innovate -- just let hackers go to town on your fancy database and algorithms. I can't wait to see what comes out of it. 
+What a great way for a big conservative company to innovate &mdash; just let hackers go to town on your fancy database and algorithms. I can't wait to see what comes out of it. 

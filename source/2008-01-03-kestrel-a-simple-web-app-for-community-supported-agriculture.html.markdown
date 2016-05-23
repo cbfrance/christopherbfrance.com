@@ -15,7 +15,7 @@ The basic idea a simple and user-centered web app that helps facilitate ordering
 <blockquote> 
 A CSA, (for Community Supported Agriculture) is a way for the food buying public to create a relationship with a farm and to receive a weekly basket of produce. By making a financial commitment to a farm, people become "members" (or "shareholders," or "subscribers") of the CSA. <span class="attribution"><a href="http://www.localharvest.org/csa/">Local Harvest</a></span>
 </blockquote>
-So far were in stage zero: Over the holidays I was brainstorming with some of my agri-geek friends in North Carolina, notably <a href="http://truefood.wordpress.com/">tes thraves</a>. (I like to say that tes is to poverty + agriculture issues as Jay-Z is to hip-hop -- a badass producer who just makes things happen.)  :) So far there's been a lot of excitement about it from both consumers and producers. 
+So far were in stage zero: Over the holidays I was brainstorming with some of my agri-geek friends in North Carolina, notably <a href="http://truefood.wordpress.com/">tes thraves</a>. (I like to say that tes is to poverty + agriculture issues as Jay-Z is to hip-hop &mdash; a badass producer who just makes things happen.)  :) So far there's been a lot of excitement about it from both consumers and producers. 
 <ul>
 <li>Stage zero is lots of talk over drinks around the New Year's bonfire, basically. Check.
 </li>
@@ -30,7 +30,7 @@ The only real spec so far is an application that is incredibly simple and driven
 
 There is no timeframe yet. I imagine things could take a year or so; nobody's getting paid by Kestrel. 
 
-Codewise, I've done some simple scaffolding of the application, but really I think the requirements for this type of thing are simple -- the codebase is not really the issue. Just a few forms, login/out and billing. So I'm not looking for help from coders as much as I am trying to garner some interest from A) the users of the application, farmers and consumers and B) people with experience in user-centered application design and user testing.
+Codewise, I've done some simple scaffolding of the application, but really I think the requirements for this type of thing are simple &mdash; the codebase is not really the issue. Just a few forms, login/out and billing. So I'm not looking for help from coders as much as I am trying to garner some interest from A) the users of the application, farmers and consumers and B) people with experience in user-centered application design and user testing.
 
 The goal is a management tool that would simplify the process of ordering food from your CSA, but also serve as an educational model of CSA best practices. 
 

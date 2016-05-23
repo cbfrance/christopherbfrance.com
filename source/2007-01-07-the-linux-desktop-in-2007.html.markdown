@@ -14,9 +14,9 @@ Just check out IBM's <a href="http://www-1.ibm.com/linux/integration/">Linux pra
 
 <blockquote class="large">When you think of Windows server, you think of rebooting the server, of always having to apply security patches. You think of viruses ... Linux and Solaris prove to be a lot less headaches than any other platform. <span class="attribution">Amy Niersbach, Chicago geek-honcho</span></blockquote>
 
-Of course, it is a bunch of elitist BS to pretend that the only reason people don't "get" desktop Linux is because they are just ignorant -- Linux is hard. Switching is hard-ish. 
+Of course, it is a bunch of elitist BS to pretend that the only reason people don't "get" desktop Linux is because they are just ignorant &mdash; Linux is hard. Switching is hard-ish. 
 
-These governments are not doing something that is totally obvious -- they are, but contrast, pioneers, and they are taking no small risk in putting Linux desktops in front of their municipal employees. I mean, really, I just can't see *my* Dad using ifconfig to fiddle with his network settings. Only recently has Linux distributions emerged that I would consider suggesting to my family, much less my family's coworkers. 
+These governments are not doing something that is totally obvious &mdash; they are, but contrast, pioneers, and they are taking no small risk in putting Linux desktops in front of their municipal employees. I mean, really, I just can't see *my* Dad using ifconfig to fiddle with his network settings. Only recently has Linux distributions emerged that I would consider suggesting to my family, much less my family's coworkers. 
 
 (By contrast, of course, Linux as a *server* platform has had success for so long, and open source software is <a href="http://news.netcraft.com/">clearly dominant</a> on the server.)
 

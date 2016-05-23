@@ -34,7 +34,7 @@ Delicious (del.icio.us)? Zero!"
 
 This is all really not that surprising to me. I know that two years of hype about blogging has done little to clarify its value as an fun, educational tool. And these are a particular type of hype-prone ("Web 2.0") technologies. 
 
-And yet, really, these things are exciting and useful. Teachers would love these things. They aren't just hype. I only wish teachers knew more about these great, fun technologies that kids would love. For sure, I have seen great integrations of podcasting (AKA: grassroots audio) and blogging (AKA: networked writing) into the classroom -- and I have seen how serious critical thinking skills are engendered in the use of these technologies. 
+And yet, really, these things are exciting and useful. Teachers would love these things. They aren't just hype. I only wish teachers knew more about these great, fun technologies that kids would love. For sure, I have seen great integrations of podcasting (AKA: grassroots audio) and blogging (AKA: networked writing) into the classroom &mdash; and I have seen how serious critical thinking skills are engendered in the use of these technologies. 
 
 So I think these teachers' technological literacy is unfortunate, but I don't think it's a tragedy, as David might say at this point. I think we are just at an early stage, and we (progressive type/educational bloggers) are impatient to show off the great strides the internet has made in recent years. Or at least, that's the polite way of putting it. 
 

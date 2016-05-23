@@ -1,21 +1,16 @@
-main {
-  margin: 0 auto;
-  padding: e4m 5%;
-  max-width: 90%;
-  overflow: hidden;
-  @media all and (min-width: 686px) {
-    width: 686px;
-  }
-}
-
 body {
   margin: 0;
   font-size: 24px;
-  font-family: Times, Serif;
+  font-family: Geneva, Verdana, sans-serif;
 }
 
-.hello {
-  padding: 2em 0;
+p {
+  // margin: 0 auto;
+  max-width: 90%;
+  overflow: hidden;
+  @media all and (min-width: 740px) {
+    width: 740px;
+  }
 }
 
 img {
@@ -23,35 +18,38 @@ img {
   max-width: 16em;
 }
 
+// Typography 
+// 
 a {
   text-decoration: none;
 }
 
-h2 {
-  margin-top: 1em;
-  font-family: "Adobe Fangsong", Times, Serif;
-  // text-transform: uppercase;
-  // font-family: Charter, Georgia, Utopia, serif;
+h1, h2 {
+  font-family: Charter, Utopia, serif;
   font-weight: 400;
-  font-size: 1.6em;
-  @media all and (min-width: 33em) {
-    font-size: 2.6em;
-  }
 }
 
-// h2 a {
-//   text-decoration: none;
-//   border-bottom: 2px solid blue;
-// }
+h1 {
+  text-transform: uppercase;
+  font-size: 1em;
+  margin: 0;
+}
+
+h2 {
+  margin: 2em 0 1em;
+}
 
 blockquote {
   font-size: smaller;
+  border-left: 1px solid lightgrey;
+  padding-left: 1em;
+  margin: 1em 0;
 }
 
 code {
   background-color: #f3f3f3;
   font-size: 0.8em;
-  color: #888;
+  color: #888888;
 }
 
 pre {
@@ -62,39 +60,92 @@ pre {
   padding: 1em;
 }
 
-.timestamp {
-  text-transform: uppercase;
-  color: #333;
-  font-size: 16px;
-  font-family: Geneva, Verdana, sans-serif;
-}
-
 ol {
   list-style-position: inside;
 }
 
-.by-tag {
-  margin-bottom: 4em;
-}
-
-.tags {
-  columns: 4;
-  font-size: 16px;
-  list-style-type: none;
+// Posts by year
+// 
+.by-year {
+  text-align: center;
   font-family: Geneva, Verdana, sans-serif;
-  .dot {
-    font-size: 12px;
-    color: #ccc;
-  }
-  .heavy a {
-    color: #000000;
-    font-weight: bold;
-  }
-  .medium a {
-    color: #888888;
-  }
-  .light a {
+  .years {
+    list-style-type: none;
     color: #333333;
+    li {
+      display: inline-block;
+      padding: 1em;
+    }
   }
 }
 
+// Responsive columns eg for tag list
+%responsive-columns {
+  columns: 2;
+  @media all and (min-width: 500px) {
+    columns: 3;
+  }
+  @media all and (min-width: 800px) {
+    columns: 4;  
+  }
+  @media all and (min-width: 1000px) {
+    columns: 6;  
+  }
+}
+
+// Tags
+//
+.section--posts-by-tag {
+  ul.tags {
+    @extend %responsive-columns;
+    font-size: 0.7em;
+    line-height: 1.4;
+    list-style-type: none;
+    border-bottom: 1px solid lightgrey;
+    padding: 4em;
+  }  
+}
+
+.heavy a {
+  color: #000000;
+  font-weight: bold;
+}
+
+.medium a {
+  color: #333;
+}
+
+.light a {
+  color: #888;
+}
+
+.dot {
+  font-size: smaller;
+  color: #ccc;
+}
+
+.count {
+  color: #ccc;
+}
+
+// Nav
+// 
+.nav--home {
+  position: absolute;
+  top: 1em;
+  left: 1em;
+}
+
+span.timeline {
+  display: block;
+}
+
+img {
+  margin: 1em 0;
+}
+
+header, 
+article {
+  padding: 2em;
+  border-bottom: 1px solid lightgrey;
+}

@@ -10,7 +10,7 @@ status: publish
 
 This post from Tech Soup is a good, brief introduction to the use of databases in your organization.
  
-The author of this article (a nice techie from ONE/Northwest) finds that you should really call in the professional to get things set up -- I would agree, but don't let that keep you from learning how to use it.
+The author of this article (a nice techie from ONE/Northwest) finds that you should really call in the professional to get things set up &mdash; I would agree, but don't let that keep you from learning how to use it.
 
 A database is an investment of time that can really pay off, especially if you have been managing your donor lists, inventory, etc. by hand. But that means you need to know how to use it. 
 

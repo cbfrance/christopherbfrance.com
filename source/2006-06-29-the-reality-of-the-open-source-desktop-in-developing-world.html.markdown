@@ -11,7 +11,7 @@ status: publish
 Great, reveling post about the remaining difficulty of running Ubuntu (the "sexiest" open source Windows-killer yet) in Ethopia by Andrew Heavens over at Meskel Square.
 
 <blockquote class="large">
-There is one thing that the bright-eyed fans of Ubuntu and its kind never tell you. That is that if you install it on to an old Windows machine in a country where dial-up internet connections are still the only way -- then you are in for a rough, rough ride.
+There is one thing that the bright-eyed fans of Ubuntu and its kind never tell you. That is that if you install it on to an old Windows machine in a country where dial-up internet connections are still the only way &mdash; then you are in for a rough, rough ride.
 </blockquote> 
 
 Read the rest of the <a href=http://www.meskelsquare.com/archives/2006/06/ubuntu_the_diff.html#more">post</a>. Via <a href="http://www.ethanzuckerman.com/blog/"> Zuckerman </a>.

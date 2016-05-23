@@ -8,7 +8,7 @@ modified_on: 2008-04-05 05:39:58
 status: publish
 ---
 
-Stock photography is pretty essential for web developers and designers. If your organization doesn't have a large budget for that kind of thing (stock photos are $50-$250, usually), there are a few alternatives with a decent selection -- and the pictures are only a few bucks, if not free.
+Stock photography is pretty essential for web developers and designers. If your organization doesn't have a large budget for that kind of thing (stock photos are $50-$250, usually), there are a few alternatives with a decent selection &mdash; and the pictures are only a few bucks, if not free.
 
 The best of these new, inexpensive resources is called iStock Photo. Prices are about $2, depending on the resolution you need. They have the best selection of people-pics, which are more expensive because of the model releases required. Their photos come in three sizes: those that are suitable for the web, those for small print, and high-resolution images for large-format printing jobs. www.istock.com
 

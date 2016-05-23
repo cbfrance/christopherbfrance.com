@@ -12,4 +12,4 @@ Ethan Zuckerman has a <a href="http://www.ethanzuckerman.com/blog/">great post</
 
 <img src="/images/unofficial.jpg" alt="Unofficial">
 
-The bigger issue, Zuckerman points out, is that there are any number of products that the Rich Folks of the world are consuming that cause economic and social trauma in the same way that the diamond industry does (<a href="http://news.bbc.co.uk/2/hi/africa/1468772.stm">Coltran</a> -- used in my cellphone -- seems to be worse than diamonds if you ask me ... ).
+The bigger issue, Zuckerman points out, is that there are any number of products that the Rich Folks of the world are consuming that cause economic and social trauma in the same way that the diamond industry does (<a href="http://news.bbc.co.uk/2/hi/africa/1468772.stm">Coltran</a> &mdash; used in my cellphone &mdash; seems to be worse than diamonds if you ask me ... ).

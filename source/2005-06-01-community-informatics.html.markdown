@@ -10,7 +10,7 @@ status: publish
 
 The Journal of Community Informatics, a new, academic approach to community technology, is now in its third issue. 
 
-It has an informative, though often long-winded, selection of peer-reviewed articles. The field is new and often misunderstood or poorly defined -- which makes it much more interesting to read the various perspectives that the researcher-authors bring. 
+It has an informative, though often long-winded, selection of peer-reviewed articles. The field is new and often misunderstood or poorly defined &mdash; which makes it much more interesting to read the various perspectives that the researcher-authors bring. 
 
 <blockquote class="large">
 <a title="The Journal of Community Informatics" href="http://www.ci-journal.net/index.php">The Journal of Community Informatics</a>

@@ -2,13 +2,13 @@
 kind: article
 created_at: 2009-09-24 05:03:33
 title: The "Special Case" of NEED Magazine
-excerpt: "During the collapse of the journalism industry, I have rarely been surprised  and only occasionally truly saddend -- by a newspaper going out of business."
+excerpt: "During the collapse of the journalism industry, I have rarely been surprised  and only occasionally truly saddend &mdash; by a newspaper going out of business."
 tags: [journalism, nonprofit, nptech, philanthropy, zuckerman]
 modified_on: 2009-09-24 07:53:38
 status: publish
 ---
 
-During the collapse of the journalism industry, I have rarely been surprised -- and only occasionally truly saddend -- by a newspaper going out of business. 
+During the collapse of the journalism industry, I have rarely been surprised &mdash; and only occasionally truly saddend &mdash; by a newspaper going out of business. 
 
 It's not that I don't have empathy. I have worked briefly as a journalist, have a degree in journalism, and many of my professional heroes are journalists. I actually attribute most of humanity's advances in the last 100 years to communications infrastructure, particularly good journalism. 
 
@@ -18,7 +18,7 @@ And still, I make a living with news. So, it's only with my teeth clenched that 
 
 I agree with Shirky that this is an inevitable collapse of the old school. And I agree that our best option is to work as creatively as possible to <em>get through it and find another way</em> to make meaning, to build understanding, to be journalists. 
 
-The thing is, it's brutal. And it's not just print -- all news costs money. Meaning-making takes energy. Real editors, real photographers, real writers. And, yes there is still the bottom line of printing. (Or, in my case, the expenses of wrangling servers.)
+The thing is, it's brutal. And it's not just print &mdash; all news costs money. Meaning-making takes energy. Real editors, real photographers, real writers. And, yes there is still the bottom line of printing. (Or, in my case, the expenses of wrangling servers.)
 
 The collapse is even harder to accept if your family depends on a paycheck from your publisher. We want it to work, and we want to think it will be better soon. 
 
@@ -26,7 +26,7 @@ But anyone who has worked in a newsroom knows the sucking sound that comes from 
 
 To some degree this gulf between "us" and "them" is understandable, or at least it has been until now. We do not want to pay for news that is not relevant to our own lives. 
 
-But relevance is, well, relative. Our sphere of influence has expanded dramatically with the internet, and with globalization. And today we live with an infrastructure that extends our relevance to millions of people that we do not know: this is the problem. We have not learned to care about things -- people -- that are in fact relevant now to our lives. We haven't learned to care about the people who make our socks, our bikes and our computers. We haven't learned to care about the people we influence with our policies and purchases. We are all bumping up against one another now, unwittingly. 
+But relevance is, well, relative. Our sphere of influence has expanded dramatically with the internet, and with globalization. And today we live with an infrastructure that extends our relevance to millions of people that we do not know: this is the problem. We have not learned to care about things &mdash; people &mdash; that are in fact relevant now to our lives. We haven't learned to care about the people who make our socks, our bikes and our computers. We haven't learned to care about the people we influence with our policies and purchases. We are all bumping up against one another now, unwittingly. 
 
 And we haven't learned to pay for news about these people, other people.
 
@@ -36,7 +36,7 @@ Even the concept of philanthropy, I would say, is in some way fundamentally inhu
 
 But today buying articles about distant cultures is not about philanthropy. It's not even about being interested in other people. 
 
-That is, this is not an issue of being kind, or being well-mannered and cultured, it is actually essential for survival now -- we must to understand these things, these Others. <a href="http://en.wikipedia.org/wiki/Homophily">Homophily</a> is not just a cultural phenomenon or academic observation -- this problem is <em>actually deadly</em>. Just as previous generations were forced to adapt to environmental change and technological capacity.
+That is, this is not an issue of being kind, or being well-mannered and cultured, it is actually essential for survival now &mdash; we must to understand these things, these Others. <a href="http://en.wikipedia.org/wiki/Homophily">Homophily</a> is not just a cultural phenomenon or academic observation &mdash; this problem is <em>actually deadly</em>. Just as previous generations were forced to adapt to environmental change and technological capacity.
 
 As usual, Ethan Zuckerman writes about this best: 
 
@@ -53,7 +53,7 @@ Here's their two-sentence angle on the world:
 
 <img src="/images/premierecover.jpg" alt="Need" title="Need magazine" />
 
-If you have never seen it, you should check it out -- it's the highest quality printing that you can get, with gigantic gorgeous photos of some truly incredible stories. A rare find.
+If you have never seen it, you should check it out &mdash; it's the highest quality printing that you can get, with gigantic gorgeous photos of some truly incredible stories. A rare find.
 
 So I was incredibly disappointed to get an email from them this morning explaining their difficulties with revenue, especially after they <a href="http://needmagazine.com">suffered a major break-in</a> last year, that cost them nearly $250,000, I hear.   It's a sad story, especially as we watch the last gasp of the newspaper industry, weakened by it's ad model, now totally broken by the freedom of the internet.
 
@@ -61,7 +61,7 @@ What should they do?
 
 Who knows. 
 
-And, to their credit, they are soliciting opinions about what it is that <strong>we would actually pay for</strong>. I applaud their willingness to completely reevaluate their business model -- take their <a href="http://needmagazine.com">new survey</a> and tell them how they should start anew.
+And, to their credit, they are soliciting opinions about what it is that <strong>we would actually pay for</strong>. I applaud their willingness to completely reevaluate their business model &mdash; take their <a href="http://needmagazine.com">new survey</a> and tell them how they should start anew.
 
 Go NEED. We trust you will be bold in your experiments.
 
@@ -71,7 +71,7 @@ At the end of <a href="http://www.shirky.com/weblog/2009/03/newspapers-and-think
 
 Tinkering works. If you do it enough. Hmph. OK.
 
-Well, the conclusion is not optimistic, but it is liberating -- we have the freedom to try many alternative models. We in fact must experiment and explore because anything we do can perhaps give us a window into some new way to make meaning that is relevant and readable. Even when people will no longer pay for news about international problems, there are ways to make these stories meaningful. Increasingly it becomes clearer that there is not one way, there are many ways, each appropriate to its community and its content. 
+Well, the conclusion is not optimistic, but it is liberating &mdash; we have the freedom to try many alternative models. We in fact must experiment and explore because anything we do can perhaps give us a window into some new way to make meaning that is relevant and readable. Even when people will no longer pay for news about international problems, there are ways to make these stories meaningful. Increasingly it becomes clearer that there is not one way, there are many ways, each appropriate to its community and its content. 
 
 These are the "special cases" that will make our patchwork understanding of the world. 
 
@@ -95,6 +95,6 @@ Meedan is exploring several special cases:
 
 I think of these strategies, especially programmatic journalism (hack hack), as being <strong>temporary measures</strong>. In a country without farmland, you harvest dandelions from the side of the highway. You take what you can. Likewise, we are gleaners, making the most of the understanding that already exists. We just circulate it more widely with translation, bring it together in innovative ways with aggregation, and broadcast it more effectively with smart code. 
 
-More critically we talk about it in a wide-ranging discussion -- we recoup some of our lost community of newspapers by building our own. This creates our own content and gives us a more natural connection to news that is otherwise incredibly far away. And, fittingly,  we trample all over international borders as we do it.
+More critically we talk about it in a wide-ranging discussion &mdash; we recoup some of our lost community of newspapers by building our own. This creates our own content and gives us a more natural connection to news that is otherwise incredibly far away. And, fittingly,  we trample all over international borders as we do it.
 
 These are some of our "special cases" where meaning making can actually work, even in a world where all information is free, and it's tough to make a living as a meaning-making journalist. We are finding, just a little bit at a time, the spaces where we can continue to promote empathy and community beyond the collapse of our traditional models.
