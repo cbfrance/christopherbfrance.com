@@ -1,11 +1,15 @@
+$breakpoint--small: 390px;
+
 body {
   margin: 0;
   font-size: 24px;
+  @media (all and max-width: $breakpoint--small) {
+    font-size: 20px;
+  }
   font-family: Geneva, Verdana, sans-serif;
 }
 
 p {
-  // margin: 0 auto;
   max-width: 90%;
   overflow: hidden;
   @media all and (min-width: 740px) {
@@ -44,6 +48,7 @@ blockquote {
   border-left: 1px solid lightgrey;
   padding-left: 1em;
   margin: 1em 0;
+  max-width: 800px;
 }
 
 code {
@@ -62,6 +67,11 @@ pre {
 
 ol {
   list-style-position: inside;
+}
+
+// For lists with no dot
+ul.no-dot {
+  list-style-type: none;
 }
 
 // Posts by year
@@ -147,5 +157,8 @@ img {
 header, 
 article {
   padding: 2em;
+  @media (all and max-width: $breakpoint--small) {
+    padding: 1em;
+  }
   border-bottom: 1px solid lightgrey;
 }

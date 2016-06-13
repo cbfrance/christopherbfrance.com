@@ -12,7 +12,7 @@ It's been a good book month for interface geeks and IXD/UX people. Congrats to A
 
 All of these are worth buying (plus extra to give to clients): 
 
-<ul><li><img src="/images/formsbook_sm.jpg" alt="Web Form Design: Filling in the Blanks</a>
+<ul class="no-dot"><li><img src="/images/formsbook_sm.jpg" alt="Web Form Design: Filling in the Blanks</a>
 by Luke Wroblewski" /><a href="http://rosenfeldmedia.com/publications/">Web Form Design: Filling in the Blanks</a>
 by Luke Wroblewski</li>
 <li><img src="/images/mental-models-md.jpg" alt="Mental Models by Indi Young"/><a href="http://rosenfeldmedia.com/publications/">Mental Models: Aligning Design Strategy with Human Behavior</a>

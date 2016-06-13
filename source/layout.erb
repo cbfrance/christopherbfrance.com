@@ -1,19 +1,15 @@
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv='X-UA-Compatible' content='IE=edge;chrome=1' />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title><%= current_article.title unless current_article.nil? %></title>
-    <%= stylesheet_link_tag 'style' %>
-  </head>
-  <body class="<%= page_classes %>" >
+  <%= partial "head" %>
+  <body class="<%= page_classes %>">
     <nav>
       <%= "<a class='nav--home' href='/' title='home'/>⇧</a>" unless current_path == "index.html" %>
       <%= partial "posts_by_tag" %>
     </nav>
     <main role="main">
-      <%= yield %>
+      <%= "<article>" unless current_path == "index.html" %>
+        <%= "<h2>#{current_article.title}</h2>" unless current_path == "index.html" %>
+        <%= yield %>
+      <%= "/<article>" unless current_path == "index.html" %>      
     </main>
-    <div id="size"></div>
   </body>
 </html>

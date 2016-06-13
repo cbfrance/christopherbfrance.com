@@ -11,6 +11,8 @@ page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
 
+page '/*.markdown', layout: "layout_post"
+
 # Preserve old links when the title changes
 # 
 proxy "/2007/12/02/move-to-san-francisco-now.html", "/2007-12-02-move-to-san-francisco.html"
