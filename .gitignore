@@ -1,9 +1,0 @@
-
-tmp/*
-*.swp
-*~
-.DS_Store
-.bundle
-output.diff
-.sass-cache
-build
