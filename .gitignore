@@ -6,4 +6,3 @@ tmp/*
 .bundle
 output.diff
 .sass-cache
-build
