@@ -4,7 +4,8 @@ $breakpoint--small: 390px;
 
 body {
   margin: 0;
-  font-size: 24px;
+  font-size: 20px;
+  line-height: 1.4;
   @media (all and max-width: $breakpoint--small) {
     font-size: 20px;
   }

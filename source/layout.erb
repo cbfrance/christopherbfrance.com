@@ -1,3 +1,5 @@
+
+
 <html>
   <%= partial "head" %>
   <body class="<%= page_classes %>">
@@ -5,11 +7,12 @@
       <%= "<a class='nav--home' href='/' title='home'/>⇧</a>" unless current_path == "index.html" %>
       <%= partial "posts_by_tag" %>
     </nav>
+
     <main role="main">
       <%= "<article>" unless current_path == "index.html" %>
-        <%= "<h2>#{current_article.title}</h2>" unless (current_path =~ /index.html/) %>
+        <%= "<h2>#{current_article.title}</h2>" unless current_article.nil? %>
         <%= yield %>
-      <%= "</article>" unless current_path == "index.html" %>      
+      <%= "</article>" unless current_path == "index.html" %>
     </main>
   </body>
 </html>
