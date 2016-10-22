@@ -1,12 +1,14 @@
 $breakpoint--small: 390px;
 
+@import "fonts";
+
 body {
   margin: 0;
   font-size: 24px;
   @media (all and max-width: $breakpoint--small) {
     font-size: 20px;
   }
-  font-family: Geneva, Verdana, sans-serif;
+  font-family: system;
 }
 
 p {
@@ -29,8 +31,7 @@ a {
 }
 
 h1, h2 {
-  font-family: Charter, Utopia, serif;
-  font-weight: 400;
+  font: 700 system;
 }
 
 h1 {
@@ -61,7 +62,7 @@ pre {
   color: #888;
   background-color: #f3f3f3;
   font-size: 0.8em;
-  overflow-x: scroll;
+  overflow: auto;
   padding: 1em;
 }
 
