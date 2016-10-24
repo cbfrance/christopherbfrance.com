@@ -4,10 +4,9 @@
   <%= partial "head" %>
   <body class="<%= page_classes %>">
     <nav>
-      <%= "<a class='nav--home' href='/' title='home'/>⇧</a>" unless current_path == "index.html" %>
+      <%= "<a class='nav--home' href='/' title='home'/>unthinkingly</a>" unless current_path == "index.html" %>
       <%= partial "posts_by_tag" %>
     </nav>
-
     <main role="main">
       <%= "<article>" unless current_path == "index.html" %>
         <%= "<h2>#{current_article.title}</h2>" unless current_article.nil? %>

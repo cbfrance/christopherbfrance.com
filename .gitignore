@@ -6,3 +6,4 @@ tmp/*
 .bundle
 output.diff
 .sass-cache
+node_modules
