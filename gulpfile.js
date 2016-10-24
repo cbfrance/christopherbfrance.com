@@ -9,11 +9,6 @@ var plumber = require('gulp-plumber');
 var browserSync = require('browser-sync');
 var reload = browserSync.reload;
 
-/* Setup scss path */
-var paths = {
-    scss: './source/stylesheets/*.scss'
-};
-
 /* Scripts task */
 gulp.task('scripts', function() {
   return gulp.src([

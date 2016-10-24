@@ -1,15 +1,62 @@
-$breakpoint--small: 390px;
-$padding--left: 24px;
+$breakpoint--small: 400px;
+$padding--left: 18px;
+
+* {
+  box-sizing: border-box;
+}
 
 body {
   margin: 0;
   font-size: 20px;
   line-height: 1.4;
   font-size: 20px;
+  display: flex;
+  flex-flow: column nowrap;
   font-family: -apple-system, BlinkMacSystemFont, 
     "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", 
     "Fira Sans", "Droid Sans", "Helvetica Neue", 
     sans-serif;
+}
+
+h2.tag {
+  margin: $padding--left $padding--left*2;
+  display: block;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: red;
+  @media all and (max-width: $breakpoint--small) {
+    text-align: center;
+    width: 90%;
+    margin: 1em auto;
+  }
+}
+
+h1 {
+  font-size: 14px;
+  font-weight: 200;
+  border-bottom: 1px solid blue;
+  color: blue;
+  margin: 0;
+  a {
+    display: block;
+    padding: 1em $padding--left*2;
+  }
+  @media all and (max-width: $breakpoint--small) {
+    text-align: center;
+    width: 90%;
+    margin: 1em auto;
+  }
+}
+
+main {
+  overflow-x: hidden;
+}
+
+// Article layout
+//
+article {
+  padding: 0 2em;
+  border-bottom: 1px solid lightgrey;
 }
 
 p {
@@ -30,23 +77,6 @@ img {
 // 
 a {
   text-decoration: none;
-}
-
-h1, h2 {
-  // font-family: 'Big Caslon', 'Book Antiqua', 'Palatino Linotype', Georgia, serif;
-  font-weight: 700;
-}
-
-h1 {
-  text-transform: uppercase;
-  font-size: 1em;
-  margin: 0 $padding--left;
-  border: 1px solid blue;
-}
-
-h2 {
-  margin: 2em 0 $padding--left;
-  border: 1px solid red;
 }
 
 blockquote {
@@ -75,26 +105,6 @@ ol {
   list-style-position: inside;
 }
 
-// Nav
-// 
-.nav--home {
-  border-top: 1px solid blue;
-  padding: 1em $padding--left;
-  text-align: left;
-  margin: 0 auto;
-  display: block;
-}
-
-header, 
-article {
-  padding: 2em;
-  @media (all and max-width: $breakpoint--small) {
-    padding: 1em;
-  }
-  border-bottom: 1px solid lightgrey;
-}
-
-
 // For lists with no dot
 ul.no-dot {
   list-style-type: none;
@@ -122,7 +132,7 @@ ul.no-dot {
     line-height: 1.4;
     list-style-type: none;
     border-bottom: 1px solid lightgrey;
-    padding: 4em 1rem;
+    padding: 4em $padding--left*2;
     li {
       padding: 0.5em;
       display: inline-block;
