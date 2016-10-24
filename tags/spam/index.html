@@ -1,5 +1,3 @@
-
-
 <html>
   <head>
   <meta charset="utf-8" />
@@ -9,8 +7,93 @@
   <link href="/stylesheets/style.css" rel="stylesheet" />
 </head>
   <body class="tags tags_spam tags_spam_index">
+    <h1>
+      <a class='nav--home' href='/' title='home'/>unthinkingly</a>
+    </h1>
+    <main role="main">
+          <h2 class="tag">1 posts about spam</h2>
+    <article>
+      <h2><a href="/2008/05/28/the-three-simplest-and-most-effective-anti-spam-hacks-i-have-ever-seen/">The Three Simplest and Most Effective Anti-Spam Hacks I Have Ever Seen</a> </h2>
+      <span class='timestamp'> 
+        May 28 2008
+      </span>
+      <p><strong>Hack zero: Switch to Gmail</strong>
+This is not a joke: Gmail is a fantastic and nearly spam-free platform. Notably, you can hook it up with a custom domain name so no one knows you are part of the Goog machine like everyone else.</p>
+
+<p><strong>Hack one: Greylisting with Postfix on Ubuntu</strong></p>
+
+<blockquote>A mail transfer agent using greylisting will "temporarily reject" any email from a sender it does not recognize. If the mail is legitimate, the originating server will most likely try again to send it later, at which time the destination will accept it. <span class="attribution"><a href="http://en.wikipedia.org/wiki/Greylisting">Wikipedia: Greylisting</a></span></blockquote>
+
+<p>Assuming that you have your own email server, <a href="http://postgrey.schweikert.ch/">greylisting</a> is genius. <a href="http://en.wikipedia.org/wiki/Greylisting">Diabolically elegant</a>, really. If you run an email server (or any server that can receive email) you are probably running the Postfix MTA, in which case their is a main configuration file appropriately named main.cf. A couple of edits to this file and you are on your way. </p>
+
+<p>Here&#39;s how this setup looks (not my graph but I have definitely seen this happen on production mailservers):</p>
+
+<p><img src="/images/mailgraph_greylisting.jpg" title="spam goes away" alt=" " /> </p>
+
+<p>The really brilliant thing about greylisting is that it it deals with spam way before it ever reaches your inbox, which is the only way to go (I don&#39;t use any spam filtering on my mailbox. That&#39;s too late, especially from a sysadmin perspective (think of the <strike>children</strike> cycles!).</p>
+
+<p>Step one: install postgrey.</p>
+
+<p><code>apt-get install postgrey</code></p>
+
+<p>Two: edit your main.cf file. </p>
+
+<p><code>sudo vi /etc/postfix/main.cf</code></p>
+
+<p>Three: Then open it up and look for your smtpd_restrictions; add the following line:</p>
+
+<p><code>check<em>policy</em>service inet:127.0.0.1:60000 </code></p>
+
+<p>Four: Reload Postfix</p>
+
+<p><code>/etc/init.d/postfix reload</code></p>
+
+<p><strong>Hack 2: DNS Blocklists</strong></p>
+
+<p>This one is even easier, requiring only an extra line (for each blocklist). The blocklists are Just put it right there in that same block in main.cf. I typically use four of them. (Each has a slightly different purpose and tolerance. Check out the sites to get a flavor for why they exist.) This one is actually my favorite &mdash; it was created by the geek premier <a href="http://en.wikipedia.org/wiki/Paul_Vixie">Paul Vixie</a> and uses a <a href="http://en.wikipedia.org/wiki/DNSBL">DNS lookup</a> for an extraordinarily light overhead. </p>
+
+<p>Step One: </p>
+
+<p>Open your main.cf file again and add these lines:</p>
+
+<pre>
+  <code>
+  reject_rbl_client list.dsbl.org,
+  reject_rbl_client sbl.spamhaus.org,
+  reject_rbl_client cbl.abuseat.org,
+  reject_rbl_client dul.dnsbl.sorbs.net
+  </code>
+</pre>
+
+<p>Then reboot Postfix: </p>
+
+<p><code>/etc/init.d/postfix reload</code></p>
+
+<p>As with the example above you will also want to watch your mail log to make sure nothings gone wrong. </p>
+
+<p><code>sudo tail -f /var/log/maillog</code></p>
+
+<p><strong>Hack 3: Keep Spammers out of Your Forms</strong></p>
+
+<p>This is really the ideal place to stop spam: before it happens. There are a bazillion ways to prove that someone is a human (CAPTCHAs ... sigh), but I think it is instead better to put the burden on the bots. </p>
+
+<p>Step one: 
+Add a hidden field to your form. </p>
+
+<p><code>&lt; textarea name=&quot;comment&quot; class=&quot;hidden&quot; &gt; </code></p>
+
+<p>Step two: </p>
+
+<p>In your handler, ignore anybody that filled out that form (as robots will do). Here&#39;s a fragment in php (assumes that the presence of a errors array will prevent submissions):</p>
+
+<p><code>if (!empty($_REQUEST[&#39;comment&#39;])) { $errors[] = &quot;No Spam please.&quot;; }</code></p>
+
+<p>Those are my favorites, let me know if you have any others!</p>
+
+    </article>
+
+    </main>
     <nav>
-      <a class='nav--home' href='/' title='home'/>⇧</a>
       <div class="section--posts-by-tag">
   <ul class="tags">  
         <li class='activism medium'>
@@ -112,94 +195,5 @@
   </ul>
 </div>
     </nav>
-
-    <main role="main">
-      <article>
-        
-          <header>
-    <h1>1 posts about spam</h1>
-  </header>
-    <article>
-      <h2><a href="/2008/05/28/the-three-simplest-and-most-effective-anti-spam-hacks-i-have-ever-seen/">The Three Simplest and Most Effective Anti-Spam Hacks I Have Ever Seen</a> </h2>
-      <span class='timestamp'> 
-        May 28 2008
-      </span>
-      <p><strong>Hack zero: Switch to Gmail</strong>
-This is not a joke: Gmail is a fantastic and nearly spam-free platform. Notably, you can hook it up with a custom domain name so no one knows you are part of the Goog machine like everyone else.</p>
-
-<p><strong>Hack one: Greylisting with Postfix on Ubuntu</strong></p>
-
-<blockquote>A mail transfer agent using greylisting will "temporarily reject" any email from a sender it does not recognize. If the mail is legitimate, the originating server will most likely try again to send it later, at which time the destination will accept it. <span class="attribution"><a href="http://en.wikipedia.org/wiki/Greylisting">Wikipedia: Greylisting</a></span></blockquote>
-
-<p>Assuming that you have your own email server, <a href="http://postgrey.schweikert.ch/">greylisting</a> is genius. <a href="http://en.wikipedia.org/wiki/Greylisting">Diabolically elegant</a>, really. If you run an email server (or any server that can receive email) you are probably running the Postfix MTA, in which case their is a main configuration file appropriately named main.cf. A couple of edits to this file and you are on your way. </p>
-
-<p>Here&#39;s how this setup looks (not my graph but I have definitely seen this happen on production mailservers):</p>
-
-<p><img src="/images/mailgraph_greylisting.jpg" title="spam goes away" alt=" " /> </p>
-
-<p>The really brilliant thing about greylisting is that it it deals with spam way before it ever reaches your inbox, which is the only way to go (I don&#39;t use any spam filtering on my mailbox. That&#39;s too late, especially from a sysadmin perspective (think of the <strike>children</strike> cycles!).</p>
-
-<p>Step one: install postgrey.</p>
-
-<p><code>apt-get install postgrey</code></p>
-
-<p>Two: edit your main.cf file. </p>
-
-<p><code>sudo vi /etc/postfix/main.cf</code></p>
-
-<p>Three: Then open it up and look for your smtpd_restrictions; add the following line:</p>
-
-<p><code>check<em>policy</em>service inet:127.0.0.1:60000 </code></p>
-
-<p>Four: Reload Postfix</p>
-
-<p><code>/etc/init.d/postfix reload</code></p>
-
-<p><strong>Hack 2: DNS Blocklists</strong></p>
-
-<p>This one is even easier, requiring only an extra line (for each blocklist). The blocklists are Just put it right there in that same block in main.cf. I typically use four of them. (Each has a slightly different purpose and tolerance. Check out the sites to get a flavor for why they exist.) This one is actually my favorite &mdash; it was created by the geek premier <a href="http://en.wikipedia.org/wiki/Paul_Vixie">Paul Vixie</a> and uses a <a href="http://en.wikipedia.org/wiki/DNSBL">DNS lookup</a> for an extraordinarily light overhead. </p>
-
-<p>Step One: </p>
-
-<p>Open your main.cf file again and add these lines:</p>
-
-<pre>
-  <code>
-  reject_rbl_client list.dsbl.org,
-  reject_rbl_client sbl.spamhaus.org,
-  reject_rbl_client cbl.abuseat.org,
-  reject_rbl_client dul.dnsbl.sorbs.net
-  </code>
-</pre>
-
-<p>Then reboot Postfix: </p>
-
-<p><code>/etc/init.d/postfix reload</code></p>
-
-<p>As with the example above you will also want to watch your mail log to make sure nothings gone wrong. </p>
-
-<p><code>sudo tail -f /var/log/maillog</code></p>
-
-<p><strong>Hack 3: Keep Spammers out of Your Forms</strong></p>
-
-<p>This is really the ideal place to stop spam: before it happens. There are a bazillion ways to prove that someone is a human (CAPTCHAs ... sigh), but I think it is instead better to put the burden on the bots. </p>
-
-<p>Step one: 
-Add a hidden field to your form. </p>
-
-<p><code>&lt; textarea name=&quot;comment&quot; class=&quot;hidden&quot; &gt; </code></p>
-
-<p>Step two: </p>
-
-<p>In your handler, ignore anybody that filled out that form (as robots will do). Here&#39;s a fragment in php (assumes that the presence of a errors array will prevent submissions):</p>
-
-<p><code>if (!empty($_REQUEST[&#39;comment&#39;])) { $errors[] = &quot;No Spam please.&quot;; }</code></p>
-
-<p>Those are my favorites, let me know if you have any others!</p>
-
-    </article>
-
-      </article>
-    </main>
   </body>
 </html>
