@@ -18,11 +18,28 @@ body {
     sans-serif;
 }
 
+h1 {
+  font-size: 16px;
+  font-weight: 200;
+  border-bottom: 1px solid lightgrey;
+  color: blue;
+  text-transform: uppercase;
+  margin: 0;
+  a {
+    display: block;
+    padding: 1.4em $padding--left*2;
+  }
+  @media all and (max-width: $breakpoint--small) {
+    text-align: center;
+    width: 100%;
+  }
+}
+
 h2.tag {
   margin: $padding--left $padding--left*2;
   display: block;
   text-transform: uppercase;
-  font-size: 14px;
+  font-size: 16px;
   color: red;
   @media all and (max-width: $breakpoint--small) {
     text-align: center;
@@ -31,20 +48,14 @@ h2.tag {
   }
 }
 
-h1 {
-  font-size: 14px;
-  font-weight: 200;
-  border-bottom: 1px solid blue;
-  color: blue;
-  margin: 0;
-  a {
-    display: block;
-    padding: 1em $padding--left*2;
-  }
-  @media all and (max-width: $breakpoint--small) {
-    text-align: center;
-    width: 90%;
-    margin: 1em auto;
+article h2 {
+  margin: 2em 0 1em;
+  &>a {
+    border-radius: 4px;
+    line-height: 1.4;
+    &:active {
+      background-cololr: #c3c3c3;
+    }
   }
 }
 
@@ -57,6 +68,9 @@ main {
 article {
   padding: 0 2em;
   border-bottom: 1px solid lightgrey;
+  @media all and (max-width: $breakpoint--small) {
+    padding: 0 $padding--left;
+  }
 }
 
 p {

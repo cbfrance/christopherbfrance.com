@@ -5,7 +5,7 @@
       <%= "<a class='nav--home' href='/' title='home'/>unthinkingly</a>" %>
     </h1>
     <main role="main">
-      <% if current_article != nil %>
+      <% if current_article %>
         <article>
           <%= "<h2>#{current_article.title}</h2>" %>
           <%= yield %>

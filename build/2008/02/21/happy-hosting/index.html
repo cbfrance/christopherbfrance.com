@@ -1,5 +1,3 @@
-
-
 <html>
   <head>
   <meta charset="utf-8" />
@@ -9,8 +7,30 @@
   <link href="/stylesheets/style.css" rel="stylesheet" />
 </head>
   <body class="x2008 x2008_02 x2008_02_21 x2008_02_21_happy-hosting x2008_02_21_happy-hosting_index">
+    <h1>
+      <a class='nav--home' href='/' title='home'/>unthinkingly</a>
+    </h1>
+    <main role="main">
+        <article>
+          <h2>Happy Hosting </h2>
+          <p>If you need a professional application server, particularly for rails, I&#39;m recommending <a href="http://rimuhosting.com/">Rimuhost</a> these days. </p>
+
+<p>Their VPS plans are a reasonable deal, but, as always, the support is what is always most important when choosing a host unless it&#39;s a super small static site, in which case the big guys like mediatemple, dreamhost, bluehost are fine. (Oh and check wordpress.com if you need a free site.)</p>
+
+<p>Just now I&#39;ve been getting really clear, friendly, (and super fast) support from Brandon at Rimuhost, and he showed me a great trick for removing a password from a ssl cert: </p>
+
+<p><code>
+cd /usr/local/apache2/conf/ssl &amp;&amp; mv sitename.com.key sitename.com.key.with<em>password
+openssl rsa -in sitename.com.key.with</em>password -out sitename.com.key
+</code></p>
+
+<p>Previously one of their techs was chatting to me well into the evening about a SQL issue I was having, free of charge, <em>after he got off of work</em>, just cause he was cool. and I love their VPS control panel, which lets you reboot, power down, and upgrade your RAM/HDD on the fly.</p>
+
+<p>If you need a development and production box, they will clone your production VPS (for free), in under an hour. Fastest demo box I&#39;ve ever set up!</p>
+
+        </article>
+    </main>
     <nav>
-      <a class='nav--home' href='/' title='home'/>⇧</a>
       <div class="section--posts-by-tag">
   <ul class="tags">  
         <li class='activism medium'>
@@ -112,26 +132,5 @@
   </ul>
 </div>
     </nav>
-
-    <main role="main">
-      <article>
-        <h2>Happy Hosting </h2>
-        <p>If you need a professional application server, particularly for rails, I&#39;m recommending <a href="http://rimuhosting.com/">Rimuhost</a> these days. </p>
-
-<p>Their VPS plans are a reasonable deal, but, as always, the support is what is always most important when choosing a host unless it&#39;s a super small static site, in which case the big guys like mediatemple, dreamhost, bluehost are fine. (Oh and check wordpress.com if you need a free site.)</p>
-
-<p>Just now I&#39;ve been getting really clear, friendly, (and super fast) support from Brandon at Rimuhost, and he showed me a great trick for removing a password from a ssl cert: </p>
-
-<p><code>
-cd /usr/local/apache2/conf/ssl &amp;&amp; mv sitename.com.key sitename.com.key.with<em>password
-openssl rsa -in sitename.com.key.with</em>password -out sitename.com.key
-</code></p>
-
-<p>Previously one of their techs was chatting to me well into the evening about a SQL issue I was having, free of charge, <em>after he got off of work</em>, just cause he was cool. and I love their VPS control panel, which lets you reboot, power down, and upgrade your RAM/HDD on the fly.</p>
-
-<p>If you need a development and production box, they will clone your production VPS (for free), in under an hour. Fastest demo box I&#39;ve ever set up!</p>
-
-      </article>
-    </main>
   </body>
 </html>

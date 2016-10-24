@@ -1,5 +1,3 @@
-
-
 <html>
   <head>
   <meta charset="utf-8" />
@@ -9,8 +7,40 @@
   <link href="/stylesheets/style.css" rel="stylesheet" />
 </head>
   <body class="x2006 x2006_01 x2006_01_12 x2006_01_12_google-rankings-and-canonical-urls-technical x2006_01_12_google-rankings-and-canonical-urls-technical_index">
+    <h1>
+      <a class='nav--home' href='/' title='home'/>unthinkingly</a>
+    </h1>
+    <main role="main">
+        <article>
+          <h2>Google Rankings and "Canonical" URLs (technical)</h2>
+          <p>Finally some useful help from the &quot;celebrity engineer&quot; Matt Cutts, one of the few people in the world that has had intimate relations with the Google Pagerank algorithm.  (EDIT: He also happens to use Wordpress, not Blogger. Hmmm.)</p>
+
+<p>This is a description of how to best reference your urls in order to ensure that Google understands them clearly. (the corresponding clarity, is designed &mdash; clearly &mdash; to increase your rank.) </p>
+
+<p>From the <a href="http://www.mattcutts.com/blog/seo-advice-url-canonicalization/">blog </a>of Cutts: </p>
+
+<blockquote class="large">Q: What is a canonical url? Do you have to use such a weird word, anyway?
+A: Sorry that it' a strange word; that's what we call it around Google. Canonicalization is the process of picking the best url when there are several choices, and it usually refers to home pages. For example, most people would consider these the same urls:
+
+    * www.example.com
+    * www.example.com/
+    * example.com
+    * example.com/
+    * www.example.com/index.html
+    * example.com/home.asp
+</blockquote>
+
+<p>Roger Johannsen at <a href="http://www.456bereastreet.com/archive/200601/search_engines_and_canonical_urls/#comments">456 Berea St. </a>(web design) says he adds </p>
+
+<p><code>   1. RewriteCond %{HTTP_HOST} ^456bereastreet.com [NC]
+   2. RewriteRule ^(.*) <a href="http://www.456bereastreet.com/$1">http://www.456bereastreet.com/$1</a> [R=301,L]
+</code></p>
+
+<p>to his htaccess file in order to ensure that &quot;www&quot; is added to all requests for a page on his server. Great work. Great post. Thanks, Matt and Roger. </p>
+
+        </article>
+    </main>
     <nav>
-      <a class='nav--home' href='/' title='home'/>⇧</a>
       <div class="section--posts-by-tag">
   <ul class="tags">  
         <li class='activism medium'>
@@ -112,36 +142,5 @@
   </ul>
 </div>
     </nav>
-
-    <main role="main">
-      <article>
-        <h2>Google Rankings and "Canonical" URLs (technical)</h2>
-        <p>Finally some useful help from the &quot;celebrity engineer&quot; Matt Cutts, one of the few people in the world that has had intimate relations with the Google Pagerank algorithm.  (EDIT: He also happens to use Wordpress, not Blogger. Hmmm.)</p>
-
-<p>This is a description of how to best reference your urls in order to ensure that Google understands them clearly. (the corresponding clarity, is designed &mdash; clearly &mdash; to increase your rank.) </p>
-
-<p>From the <a href="http://www.mattcutts.com/blog/seo-advice-url-canonicalization/">blog </a>of Cutts: </p>
-
-<blockquote class="large">Q: What is a canonical url? Do you have to use such a weird word, anyway?
-A: Sorry that it' a strange word; that's what we call it around Google. Canonicalization is the process of picking the best url when there are several choices, and it usually refers to home pages. For example, most people would consider these the same urls:
-
-    * www.example.com
-    * www.example.com/
-    * example.com
-    * example.com/
-    * www.example.com/index.html
-    * example.com/home.asp
-</blockquote>
-
-<p>Roger Johannsen at <a href="http://www.456bereastreet.com/archive/200601/search_engines_and_canonical_urls/#comments">456 Berea St. </a>(web design) says he adds </p>
-
-<p><code>   1. RewriteCond %{HTTP_HOST} ^456bereastreet.com [NC]
-   2. RewriteRule ^(.*) <a href="http://www.456bereastreet.com/$1">http://www.456bereastreet.com/$1</a> [R=301,L]
-</code></p>
-
-<p>to his htaccess file in order to ensure that &quot;www&quot; is added to all requests for a page on his server. Great work. Great post. Thanks, Matt and Roger. </p>
-
-      </article>
-    </main>
   </body>
 </html>

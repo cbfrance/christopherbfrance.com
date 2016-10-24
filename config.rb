@@ -50,6 +50,8 @@ end
 
 # page "/feed.xml", layout: false
 
+page "/all.html"
+
 # Reload the browser automatically whenever files change
 # activate :livereload
 
