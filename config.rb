@@ -1,5 +1,3 @@
-require "pry"
-
 ###
 # Page options, layouts, aliases and proxies
 ###
@@ -10,7 +8,6 @@ require "pry"
 page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
-
 page '/*.markdown', layout: "layout_post"
 
 # Preserve old links when the title changes
@@ -20,6 +17,7 @@ proxy "/2007/12/02/move-to-san-francisco-now.html", "/2007-12-02-move-to-san-fra
 # Handle paths that end with a slash instead of .html
 activate :directory_indexes
 
+# Configure markdown
 set :markdown, :tables => true, :autolink => true, :gh_blockcode => true, :fenced_code_blocks => true
 set :markdown_engine, :redcarpet
 
@@ -48,12 +46,11 @@ activate :blog do |blog|
   blog.page_link = "page/{num}"
 end
 
-# page "/feed.xml", layout: false
-
 page "/all.html"
 
 # Reload the browser automatically whenever files change
-# activate :livereload
+activate :livereload
+activate :autoprefixer
 
 # Methods defined in the helpers block are available in templates
 helpers do
