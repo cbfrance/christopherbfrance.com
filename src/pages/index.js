@@ -15,10 +15,10 @@ const Reference = styled.div`
 
 const Grid = styled.div`
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 72px 150px;
   height: 100%;
   & > div {
-    border: 8px solid black;
+    border-right: 14px solid red;
   }
 `;
 
@@ -26,6 +26,8 @@ const P = styled.p`
   font-family: system-ui, -apple-system, BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
   padding-top: ${props => props.padTop ? "80px" : null};
 `;
+
+
 
 const IndexPage = () => (
   <div>
