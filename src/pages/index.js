@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import styled from 'styled-components'
+import { transparentize } from 'polished'
 
 const Title = styled.h1`
   font-size: 30px;
@@ -15,11 +16,23 @@ const Reference = styled.div`
 
 const Grid = styled.div`
   display: grid;
-  grid-template-columns: 72px 150px;
+  grid-template-columns: 72px 140px 410px 118px 22px 36px;
+  grid-template-rows: 96px 394px 218px 60px 202px 232px 44px;
+  // grid-column-gap: 14px;
+
   height: 100%;
   & > div {
-    border-right: 14px solid red;
+    // border-right: 14px solid ${transparentize(0.5, "aqua")};
   }
+`;
+
+const TopLeftBlack = styled.div`
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  background-color: black;
+  border-right: solid black 14px;
 `;
 
 const P = styled.p`
@@ -27,27 +40,12 @@ const P = styled.p`
   padding-top: ${props => props.padTop ? "80px" : null};
 `;
 
-
-
 const IndexPage = () => (
   <div>
     <Title>Mondrian</Title>
     <Reference>
       <Grid>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
+        <TopLeftBlack />
       </Grid>
     </Reference>
 
