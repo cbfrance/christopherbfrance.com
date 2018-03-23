@@ -58,8 +58,8 @@ const IndexPage = () => (
         <Block area="1/232/-1/237" yellow />
 
         {/* Yellow rows */}
-        <Block area="7/1/11/-1" yellow />
-        <Block area="39/1/44/-1" yellow />
+        <Block area="6/1/11/-1" yellow />
+        <Block area="38/1/44/-1" yellow />
         <Block area="85/1/90/-1" yellow />
         <Block area="105/1/110/-1" yellow />
         <Block area="135/1/141/-1" yellow />
@@ -70,6 +70,15 @@ const IndexPage = () => (
         <Block area="206/1/211/-1" yellow />
         <Block area="213/1/218/-1" yellow />
         <Block area="228/1/233/-1" yellow />
+
+        {/* Yellow blocks */}
+        <Block area="15/34/23/55" yellow />
+        <Block area="65/34/81/55" yellow />
+        <Block area="90/39/105/51" yellow />
+        <Block area="192/34/206/55" yellow />
+        <Block area="110/70/135/86" yellow />
+        <Block area="85/98/114/115" yellow />
+        <Block area="128/98/141/115" yellow />
 
       </ParentGrid> 
     </Container>
