@@ -30,16 +30,31 @@ const ParentGrid = styled.div`
   display: grid;
   grid-template-columns: 72px 140px 410px 118px 22px 36px;
   grid-template-rows: 96px 394px 218px 60px 202px 232px 44px;
+  grid-template-areas: "A1 A1 A2 A2 A2 A3"
+                       "A1 A1 A2 A2 A2 A3"
+                       "A1 A1 A2 A2 A2 A3"
+                       "A1 A1 A2 A2 A2 A3"
+                       "A1 A1 A2 A2 A2 A3"
+                       "A1 A1 A2 A2 A2 A3"
+                       "A1 A1 A2 A2 A2 A3";
 
   width: 100%;
   height: 100%;
   border: 1px solid pink;
 `;
 
-const A = styled.div`
-  grid-area: 1 / 1 / 2 / 3;
+const A1 = styled.div`
+  grid-area: A1;
   background-color: black;
   border-right: solid black ${borderSize};
+`;
+
+const A2 = styled.div`
+  grid-area: A2;
+`;
+
+const A3 = styled.div`
+  grid-area: A3;
 `;
 
 const P = styled.p`
@@ -53,7 +68,9 @@ const IndexPage = () => (
     <Container>
       <Reference/>
       <ParentGrid>
-        <A/>
+        <A1/>
+        <A2/>
+        <A3/>
       </ParentGrid>
     </Container>
 
