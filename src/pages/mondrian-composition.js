@@ -1,7 +1,5 @@
 import React from 'react'
-import Link from 'gatsby-link'
 import styled from 'styled-components'
-import { transparentize } from 'polished'
 
 const borderSize = "14px";
 const border = `solid black ${borderSize}`;
@@ -12,9 +10,9 @@ const yellow = "#ffdc46";
 const black = "#101312";
 
 const Title = styled.h1`
-  font-size: 32px;
-  padding-top: 80px;
-  padding-bottom: 80px;
+  font-size: 2em;
+  padding-top: 5em;
+  padding-bottom: 5em;
 `;
 
 const Container = styled.div`
@@ -24,13 +22,12 @@ const Container = styled.div`
 `;
 
 const Reference = styled.div`
-  background: url("./static/reference/mondrian.jpg");
+  background: url("./static/reference/mondrian-composition.jpg");
   background-repeat: no-repeat;
   height: 100%;
   width: 100%;
   position: absolute;
-  opacity: 0.5;
-  border: 2px solid aqua;
+  opacity: 0; // change to 1 to show reference
 `;
 
 const Block = styled.div`
@@ -41,7 +38,6 @@ const Block = styled.div`
 `;
 
 const P = styled.p`
-  font-family: system-ui, -apple-system, BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
   padding-top: ${props => props.padTop ? "80px" : null};
   margin: 0;
 `;
@@ -56,8 +52,6 @@ const ParentGrid = styled.div`
                        "D1 D2 D3 D4 C2"
                        "E1 E2 D3 D4 C2"
                        "E1 E2 F1 F2 F2";
-  height: 100%;
-  width: 100%;
 
   &, & > * {
     box-sizing: border-box;
@@ -68,6 +62,7 @@ const IndexPage = () => (
   <div>
     <Title>Composition with Large Blue Plane, Red, Black, Yellow, and Gray (1921) by Piet Mondrian</Title>
     <Container>
+      <Reference />
       <ParentGrid>
         <Block area="A1" color={black} borderRight />
         <Block area="A2" color={red} borderBottom />
