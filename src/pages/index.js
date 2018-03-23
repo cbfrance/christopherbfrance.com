@@ -31,132 +31,11 @@ const Reference = styled.div`
   opacity: 0.5;
 `;
 
-const A1 = styled.div`
-  grid-area: A1;
-  background-color: ${black};
-  border-right: ${border};
-`;
-
-const A2 = styled.div`
-  grid-area: A2;
-  background-color: ${red};
-  border-bottom: ${border};
-`;
-
-const A3 = styled.div`
-  grid-area: A3;
-  background-color: ${black};
-`;
-
-const B1 = styled.div`
-  grid-area: B1;
-  background-color: ${grey};
-  border-right: ${border};
-  border-bottom: ${border};
-`;
-
-const B2 = styled.div`
-  grid-area: B2;
-  background-color: ${black};
-`;
-
-const B3 = styled.div`
-  grid-area: B3;
-  background-color: ${grey};
-`;
-
-const C1 = styled.div`
-  grid-area: C1;
-  background-color: ${grey};
-  border-right: ${border};
-  border-bottom: ${border};
-`;
-
-const C2 = styled.div`
-  grid-area: C2;
-  background-color: ${grey};
-  border-bottom: ${border};
-`;
-
-const C3 = styled.div`
-  grid-area: C3;
-  background-color: ${grey};
-  border-bottom: ${border}
-`;
-
-const D1 = styled.div`
-  grid-area: D1;
-  background-color: ${black};
-  border-right: ${border};
-`;
-
-const D2 = styled.div`
-  grid-area: D2;
-  background-color: ${grey};
-  border-right: ${border};
-`;
-
-const D3 = styled.div`
-  grid-area: D3;
-  background-color: ${grey};
-  border-bottom: ${border};
-`;
-
-const D4 = styled.div`
-  grid-area: D4;
-  background-color: ${grey};
-  border-bottom: ${border};
-  border-right: ${border};
-`;
-
-const D5 = styled.div`
-  grid-area: D5;
-  background-color: ${black};
-`;
-
-const E1 = styled.div`
-  grid-area: E1;
-  background-color: ${yellow};
-  border-right: ${border};
-`;
-
-const E2 = styled.div`
-  grid-area: E2;
-  background-color: ${grey};
-  border-right: ${border};
-`;
-
-const E3 = styled.div`
-  grid-area: E3;
-  background-color: ${yellow};
-`;
-
-const F1 = styled.div`
-  grid-area: F1;
-  background-color: ${grey};
-  border-bottom: ${border};
-  border-right: ${border};
-`;
-
-const F2 = styled.div`
-  grid-area: F2;
-  background-color: ${blue};
-  border-bottom: ${border};
-`;
-
-const G1 = styled.div`
-  grid-area: G1;
-  background-color: ${black};
-`;
-
-const G2 = styled.div`
-  grid-area: G2;
-  background-color: ${red};
-`;
-
-const G3 = styled.div`
-  grid-area: G3;
-  background-color: ${black};
+const Block = styled.div`
+  grid-area: ${props => props.area ? props.area : "A1"};
+  background-color: ${props => props.color ? props.color : black};
+  border-right: ${props => props.borderRight ? border : "none"};
+  border-bottom: ${props => props.borderBottom ? border : "none"};
 `;
 
 const P = styled.p`
@@ -181,32 +60,32 @@ const ParentGrid = styled.div`
 
 const IndexPage = () => (
   <div>
-    <Title>Composition with Large Blue Plane, Red, Black, Yellow, and Gray(1921) by Piet Mondrian</Title>
+    <Title>Composition with Large Blue Plane, Red, Black, Yellow, and Gray (1921) by Piet Mondrian</Title>
     <Container>
       <Reference/>
       <ParentGrid>
-        <A1/>
-        <A2/>
-
-        <B1/>
-        <B2/>
-
-        <C1/>
-        <C2/>
-
-        <D1/>
-        <D2/>
-        <D3/>
-        <D4/>
-
-        <E1/>
-        <E2/>
-
-        <F1/>
-        <F2/>
-  
-        <G1/>
-        <G2/>
+        <Block area="A1" borderRight color={black} />
+        <Block area="A2" color={red} />
+        <Block area="A3" color={black} />
+        <Block area="B1" color={grey} borderRight borderBottom />
+        <Block area="B2" color={black} />
+        <Block area="B2" color={grey} />
+        <Block area="C1" color={grey} borderRight borderBottom />
+        <Block area="C2" color={grey} borderBottom />
+        <Block area="C3" color={grey} borderBottom />
+        <Block area="D1" color={black} borderRight />
+        <Block area="D2" color={grey} borderRight />
+        <Block area="D3" color={grey} borderBottom />
+        <Block area="D4" color={grey} borderRight borderBottom />
+        <Block area="D5" color={black} />
+        <Block area="E1" color={yellow} borderRight />
+        <Block area="E2" color={grey} borderRight />
+        <Block area="E3" color={yellow} />
+        <Block area="F1" color={grey} borderRight borderBottom />
+        <Block area="F2" color={blue} borderBottom />
+        <Block area="G1" color={black} />
+        <Block area="G2" color={red} />
+        <Block area="G3" color={black} />
       </ParentGrid>
     </Container>
 
