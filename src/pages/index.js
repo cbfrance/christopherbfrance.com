@@ -18,7 +18,7 @@ const Grid = styled.div`
   display: grid;
   grid-template-columns: 72px 140px 410px 118px 22px 36px;
   grid-template-rows: 96px 394px 218px 60px 202px 232px 44px;
-  // grid-column-gap: 14px;
+  grid-column-gap: 14px;
 
   height: 100%;
   & > div {
@@ -26,11 +26,8 @@ const Grid = styled.div`
   }
 `;
 
-const TopLeftBlack = styled.div`
-  grid-column-start: 1;
-  grid-column-end: 3;
-  grid-row-start: 1;
-  grid-row-end: 2;
+const A = styled.div`
+  grid-area: 1 / 1 / 2 / 3;
   background-color: black;
   border-right: solid black 14px;
 `;
@@ -45,7 +42,7 @@ const IndexPage = () => (
     <Title>Mondrian</Title>
     <Reference>
       <Grid>
-        <TopLeftBlack />
+        <A/>
       </Grid>
     </Reference>
 
