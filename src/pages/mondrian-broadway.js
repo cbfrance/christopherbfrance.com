@@ -23,11 +23,9 @@ const Reference = styled.div`
   opacity: 1;
 `;
 
-/**
- * @param {string} areaString String of area
- * @return {string} the parsed string 
- */
+
 const topLeftCoordinates = areaString => `${areaString.split("/")[0]}/${areaString.split("/")[1]}`
+const bottomRightCoordinates = areaString => `${areaString.split("/")[2]}/${areaString.split("/")[3]}`
 
 
 const Block = styled.div`
@@ -45,10 +43,21 @@ const Block = styled.div`
     content: '${props => props.area ? topLeftCoordinates(props.area) : "null"}';
     display: block;
     position: absolute;
-    font-size: 5px;
+    font-size: 3px;
     border-top: 1px solid aqua;
     border-left: 1px solid aqua;
     color: aqua;
+  }
+  &::after {
+    content: '${props => props.area ? bottomRightCoordinates(props.area) : "null"}';
+    display: block;
+    position: absolute;
+    font-size: 3px;
+    border-bottom: 1px solid aqua;
+    border-right: 1px solid aqua;
+    color: aqua;
+    bottom: 0;
+    right: 0;
   }
 `;
 
@@ -107,15 +116,16 @@ const IndexPage = () => (
         <Block area="6/37/11/42" blue />
         <Block area="24/7/28/12" blue nudgeUp/>
         <Block area="52/7/57/12" blue />
-        <Block area="85/15/90/20" red />
+        <Block area="85/15/90/20" blue nudgeUp nudgeDown nudgeRight />
 
         {/* Red blocks */}
+        <Block area="1/15/6/20" red nudgeRight />
         <Block area="11/38/23/49" red />
         <Block area="23/15/28/20" red />
         <Block area="28/38/38/49" red />
         <Block area="38/7/44/12" red />
         <Block area="65/7/70/12" red />
-        <Block area="85/7/90/12" red />
+        <Block area="85/7/90/12" red nudgeUp nudgeDown />
 
         {/* Grey blocks */}
         <Block area="23/38/28/49" grey />
