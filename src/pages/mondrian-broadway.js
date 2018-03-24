@@ -35,7 +35,10 @@ const Block = styled.div`
   ${props => props.yellow ? "background-color: orange;" : ""};
   ${props => props.blue ? "background-color: blue;" : ""};
   ${props => props.red ? "background-color: red;" : ""};
-  ${props => props.nudgeRight ? "margin-right: -0.2em;" : ""};
+  ${props => props.grey ? "background-color: grey;" : ""};
+  ${props => props.nudgeRight ? "margin-right: -0.1em;" : ""};
+  ${props => props.nudgeUp ? "margin-top: -0.1em;" : ""};
+  ${props => props.nudgeDown ? "margin-bottom: -0.1em;" : ""};
   border: 1px solid black;
   position: relative;
   &::before {
@@ -45,6 +48,7 @@ const Block = styled.div`
     font-size: 5px;
     border-top: 1px solid aqua;
     border-left: 1px solid aqua;
+    color: aqua;
   }
 `;
 
@@ -78,7 +82,7 @@ const IndexPage = () => (
         {/* Yellow rows */}
         <Block area="6/1/11/-1" yellow />
         <Block area="38/1/44/-1" yellow />
-        <Block area="85/1/90/-1" yellow />
+        <Block area="85/1/90/-1" yellow nudgeUp nudgeDown />
         <Block area="105/1/110/-1" yellow />
         <Block area="135/1/141/-1" yellow />
         <Block area="151/1/157/-1" yellow />
@@ -97,6 +101,24 @@ const IndexPage = () => (
         <Block area="110/70/135/86" yellow />
         <Block area="85/98/114/115" yellow />
         <Block area="128/98/141/115" yellow />
+
+        {/* Blue blocks */}
+        <Block area="6/7/11/12" blue />
+        <Block area="6/37/11/42" blue />
+        <Block area="24/7/28/12" blue nudgeUp/>
+        <Block area="52/7/57/12" blue />
+        <Block area="85/15/90/20" red />
+
+        {/* Red blocks */}
+        <Block area="11/38/23/49" red />
+        <Block area="23/15/28/20" red />
+        <Block area="28/38/38/49" red />
+        <Block area="38/7/44/12" red />
+        <Block area="65/7/70/12" red />
+        <Block area="85/7/90/12" red />
+
+        {/* Grey blocks */}
+        <Block area="23/38/28/49" grey />
 
       </ParentGrid> 
     </Container>
