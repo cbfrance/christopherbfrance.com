@@ -20,8 +20,15 @@ const Reference = styled.div`
   height: 100%;
   width: 100%;
   position: absolute;
-  opacity: 0.3;
+  opacity: 1;
 `;
+
+/**
+ * @param {string} areaString String of area
+ * @return {string} the parsed string 
+ */
+const topLeftCoordinates = areaString => `${areaString.split("/")[0]}/${areaString.split("/")[1]}`
+
 
 const Block = styled.div`
   grid-area: ${props => props.area ? props.area : "1 / 1 / 2 / 2"};
@@ -29,9 +36,20 @@ const Block = styled.div`
   ${props => props.blue ? "background-color: blue;" : ""};
   ${props => props.red ? "background-color: red;" : ""};
   ${props => props.nudgeRight ? "margin-right: -0.2em;" : ""};
+  border: 1px solid black;
+  position: relative;
+  &::before {
+    content: '${props => props.area ? topLeftCoordinates(props.area) : "null"}';
+    display: block;
+    position: absolute;
+    font-size: 5px;
+    border-top: 1px solid aqua;
+    border-left: 1px solid aqua;
+  }
 `;
 
 const ParentGrid = styled.div`
+  opacity: 0.4;
   display: grid;
   grid-template-columns: repeat(240, .25em);
   grid-template-rows: repeat(240, .25em);
