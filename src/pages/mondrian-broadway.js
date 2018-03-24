@@ -132,9 +132,23 @@ const IndexPage = () => (
         <Block area="90/29/95/34" blue nudgeLeft />
         <Block area="123/29/129/34" blue nudgeLeft />
         <Block area="135/29/141/34" blue nudgeLeft nudgeUp />
-        <Block area="151/29/156/34" blue nudgeLeft nudgeUp nudgeUp />
-        <Block area="162/21/175/34" blue nudgeLeft nudgeUp />
+        <Block area="151/29/156/34" blue nudgeLeft nudgeUp nudgeDown />
+        <Block area="162/21/175/34" blue nudgeLeft nudgeUp /> {/* Big */}
         <Block area="187/29/192/34" blue nudgeLeft nudgeUp />
+        <Block area="206/29/211/34" blue />
+        <Block area="214/29/218/34" blue />
+        <Block area="228/29/233/34" blue /> {/* Contains signature */}
+
+        {/* Blue blocks, fourth columnish */}
+        <Block area="23/55/28/60" blue />
+        <Block area="34/55/38/60" blue />
+        <Block area="52/55/57/60" blue />
+        <Block area="85/55/90/60" blue />
+        <Block area="105/55/110/60" blue nudgeUp nudgeLeft/>
+        <Block area="135/55/141/60" blue nudgeLeft />
+        <Block area="175/55/180/60" blue nudgeLeft />
+        <Block area="206/55/211/60" blue nudgeLeft />
+        <Block area="228/55/233/60" blue nudgeLeft />
 
         {/* Red blocks, first columnish */}
         <Block area="1/15/6/20" red nudgeRight />
@@ -154,18 +168,33 @@ const IndexPage = () => (
         <Block area="188/16/193/20" red nudgeLeft nudgeRight nudgeDown />
         <Block area="228/15/233/20" red nudgeRight />
         <Block area="65/29/70/34" red nudgeLeft />
+        <Block area="85/34/90/39" red nudgeLeft nudgeUp nudgeDown />
         <Block area="105/29/110/34" red nudgeLeft />
-        <Block area="175/29/180/34" red nudgeLeft />
+        <Block area="119/34/135/54" red nudgeRight nudgeDown /> {/* Big */}
+        <Block area="175/29/180/34" red nudgeLeft nudgeDown/>
         <Block area="195/29/199/34" red nudgeLeft />
 
-
         {/* Red blocks, third columnish */}
+        <Block area="1/55/6/60" red nudgeDown />
+        <Block area="38/49/44/55" red nudgeDown />
+        <Block area="65/55/70/60" red />
+        <Block area="151/55/156/60" red nudgeLeft nudgeDown />
+        <Block area="188/55/193/60" red nudgeLeft />
+        <Block area="206/43/211/49" red />
+        <Block area="214/55/219/60" red nudgeLeft />
+        <Block area="228/44/233/49" red />
+
+        {/* Red blocks, fourth columnish */}
         <Block area="11/38/23/49" red />
         <Block area="28/38/38/49" red />
+
+        {/* Red blocks, fifth columnish */}
+        <Block area="11/63/32/81" red /> {/* Big */}
 
 
         {/* Grey blocks */}
         <Block area="23/38/28/49" grey />
+        <Block area="32/63/38/81" grey /> {/* Wide */}
 
       </ParentGrid> 
     </Container>
