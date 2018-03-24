@@ -35,27 +35,26 @@ const Block = styled.div`
   ${props => props.red ? "background-color: red;" : ""};
   ${props => props.grey ? "background-color: grey;" : ""};
   ${props => props.nudgeRight ? "margin-right: -0.1em;" : ""};
+  ${props => props.nudgeLeft ? "margin-left: -0.1em;" : ""};
   ${props => props.nudgeUp ? "margin-top: -0.1em;" : ""};
   ${props => props.nudgeDown ? "margin-bottom: -0.1em;" : ""};
   border: 1px solid black;
   position: relative;
-  &::before {
-    content: '${props => props.area ? topLeftCoordinates(props.area) : "null"}';
+  &::before, &::after {
     display: block;
     position: absolute;
-    font-size: 3px;
+    font-size: 5px;
+    color: aqua;
+  }
+  &::before {
+    content: '${props => props.area ? topLeftCoordinates(props.area) : "null"}';
     border-top: 1px solid aqua;
     border-left: 1px solid aqua;
-    color: aqua;
   }
   &::after {
     content: '${props => props.area ? bottomRightCoordinates(props.area) : "null"}';
-    display: block;
-    position: absolute;
-    font-size: 3px;
     border-bottom: 1px solid aqua;
     border-right: 1px solid aqua;
-    color: aqua;
     bottom: 0;
     right: 0;
   }
@@ -111,21 +110,59 @@ const IndexPage = () => (
         <Block area="85/98/114/115" yellow />
         <Block area="128/98/141/115" yellow />
 
-        {/* Blue blocks */}
+        {/* Blue blocks, first columnish */}
         <Block area="6/7/11/12" blue />
-        <Block area="6/37/11/42" blue />
         <Block area="24/7/28/12" blue nudgeUp/>
+        <Block area="165/6/171/12" blue nudgeRight />
         <Block area="52/7/57/12" blue />
         <Block area="85/15/90/20" blue nudgeUp nudgeDown nudgeRight />
+        <Block area="105/15/110/20" blue nudgeUp />
+        <Block area="135/15/141/20" blue nudgeRight nudgeDown />
+        <Block area="187/7/192/13" blue nudgeRight nudgeDown />
 
-        {/* Red blocks */}
+        {/* Blue blocks, second columnish */}
+        <Block area="206/16/211/20" blue nudgeLeft nudgeRight />
+
+        {/* Blue blocks, third columnish */}
+        <Block area="6/37/11/42" blue />
+        <Block area="23/29/28/34" blue />
+        <Block area="38/29/44/34" blue nudgeLeft />
+        <Block area="48/21/61/34" blue nudgeLeft />
+        <Block area="80/29/85/34" blue nudgeLeft />
+        <Block area="90/29/95/34" blue nudgeLeft />
+        <Block area="123/29/129/34" blue nudgeLeft />
+        <Block area="135/29/141/34" blue nudgeLeft nudgeUp />
+        <Block area="151/29/156/34" blue nudgeLeft nudgeUp nudgeUp />
+        <Block area="162/21/175/34" blue nudgeLeft nudgeUp />
+        <Block area="187/29/192/34" blue nudgeLeft nudgeUp />
+
+        {/* Red blocks, first columnish */}
         <Block area="1/15/6/20" red nudgeRight />
-        <Block area="11/38/23/49" red />
-        <Block area="23/15/28/20" red />
-        <Block area="28/38/38/49" red />
         <Block area="38/7/44/12" red />
         <Block area="65/7/70/12" red />
         <Block area="85/7/90/12" red nudgeUp nudgeDown />
+        <Block area="105/6/110/10" red nudgeLeft nudgeUp />
+        <Block area="213/8/218/14" red nudgeDown />
+
+
+        {/* Red blocks, second columnish */}
+        <Block area="23/15/28/20" red />
+        <Block area="121/15/126/20" red nudgeRight nudgeDown />
+        <Block area="151/15/157/20" red nudgeRight nudgeUp />
+        <Block area="165/15/170/20" red nudgeRight />
+        <Block area="175/15/180/20" red nudgeRight nudgeDown />
+        <Block area="188/16/193/20" red nudgeLeft nudgeRight nudgeDown />
+        <Block area="228/15/233/20" red nudgeRight />
+        <Block area="65/29/70/34" red nudgeLeft />
+        <Block area="105/29/110/34" red nudgeLeft />
+        <Block area="175/29/180/34" red nudgeLeft />
+        <Block area="195/29/199/34" red nudgeLeft />
+
+
+        {/* Red blocks, third columnish */}
+        <Block area="11/38/23/49" red />
+        <Block area="28/38/38/49" red />
+
 
         {/* Grey blocks */}
         <Block area="23/38/28/49" grey />
