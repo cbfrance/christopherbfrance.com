@@ -37,7 +37,7 @@ const PositionLabel = props => {
     return (
         <div style={style} className={props.className}>
             {/* We use a 4px grid, so divide by 4 (it's .25ems where 1em = 16px)  ... and Add one because the grid is 1-indexed!*/}
-            {`${Math.floor(y / gridUnit + gridOffset)}`}/{`${Math.floor(x / gridUnit + gridOffset)}`}
+            {`${(y / gridUnit + gridOffset).toFixed(1)}`}/{`${(x / gridUnit + gridOffset).toFixed(1)}`}
         </div>
     );
 

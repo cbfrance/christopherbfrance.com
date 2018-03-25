@@ -90,10 +90,10 @@ const Block = styled.div`
   ${props => props.blue ? "background-color: blue;" : ""};
   ${props => props.red ? "background-color: red;" : ""};
   ${props => props.grey ? "background-color: grey;" : ""};
-  ${props => props.nudgeRight ? "margin-right: -0.1em;" : ""};
-  ${props => props.nudgeLeft ? "margin-left: -0.1em;" : ""};
-  ${props => props.nudgeUp ? "margin-top: -0.1em;" : ""};
-  ${props => props.nudgeDown ? "margin-bottom: -0.1em;" : ""};
+  ${props => props.nudgeRight ? "margin-right: -2px;" : ""};
+  ${props => props.nudgeLeft ? "margin-left: -2px;" : ""};
+  ${props => props.nudgeUp ? "margin-top: -2px;" : ""};
+  ${props => props.nudgeDown ? "margin-bottom: -2px;" : ""};
   position: relative;
   &::before, &::after {
     display: block;
@@ -103,13 +103,13 @@ const Block = styled.div`
   }
   &::before {
     content: '${props => props.area ? topLeftCoordinates(props.area) : "null"}';
-    border-top: 1px solid aqua;
-    border-left: 1px solid aqua;
+    border-top: ${props => props.nudgeUp ? "2px" : "1px"} solid aqua;
+    border-left: ${props => props.nudgeLeft ? "2px" : "1px"} solid aqua;
   }
   &::after {
     content: '${props => props.area ? bottomRightCoordinates(props.area) : "null"}';
-    border-bottom: 1px solid aqua;
-    border-right: 1px solid aqua;
+    border-bottom: ${props => props.nudgeDown ? "2px" : "1px"} solid aqua;
+    border-right: ${props => props.nudgeRight ? "2px" : "1px"} solid aqua;
     bottom: 0;
     right: 0;
   }
@@ -118,8 +118,8 @@ const Block = styled.div`
 const ParentGrid = styled.div`
   opacity: 0.4;
   display: grid;
-  grid-template-columns: repeat(var(--columns), .25em);
-  grid-template-rows: repeat(var(--columns), .25em);
+  grid-template-columns: repeat(var(--columns), 4px);
+  grid-template-rows: repeat(var(--columns), 4px);
   height: 100%;
   width: 100%;
 `;
