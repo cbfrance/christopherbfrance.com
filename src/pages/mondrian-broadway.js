@@ -10,8 +10,8 @@ const Title = styled.h1`
 `;
 
 const Container = styled.div`
-  width: 60em;
-  height: 100em;
+  width: var(--container-width);
+  height: var(--container-height);
   position: relative;
   cursor: crosshair;
 `;
@@ -26,59 +26,56 @@ const Reference = styled.div`
   opacity: 1;
 `;
 
-
 const Variables = styled.div`
   /* Settings */
   & {
     --columns: 240;
     --baseline: 4px;
-    --baseline-shift: calc(var(--baseline) / 2);
     --line-thickness: 1px;
-    --color: hsla(204, 80%, 72%, 0.25);
-    --color-text: hsla(204, 80%, 72%, 1);
+    --visual-grid-color: hsla(204, 80%, 72%, 0.25);
+    --container-height: 60em;
+    --container-width: 60em;
   }
 
 
   /* Helper variables */
   & {
-    --repeating-width: calc(100% / var(--columns));
-    --column-width: calc(100% / var(--columns));
+    --repeating-width: calc(var(--container-width) / var(--columns));
+    --repeating-height: calc(var(--container-width) / var(--columns));
     --background-columns: repeating-linear-gradient(
       to right,
-      var(--color),
-      var(--color) var(--line-thickness),
+      var(--visual-grid-color),
       transparent var(--line-thickness),
-      transparent calc(var(--column-width) - var(--line-thickness)),
-      var(--color) calc(var(--column-width) - var(--line-thickness)),
-      var(--color) var(--column-width),
-      transparent var(--column-width),
       transparent var(--repeating-width)
     );
     --background-baseline: repeating-linear-gradient(
       to bottom,
-      var(--color),
-      var(--color) 1px,
-      transparent 1px,
-      transparent var(--baseline)
+      var(--visual-grid-color),
+      transparent var(--line-thickness),
+      transparent var(--repeating-height)
     );
   }
 `;
 
 const GridVisual = styled.div`
   & {
-    position: relative;
+    position: absolute;
+    width: 100%;
+    height: var(--container-height);
   }
 
   &::before {
     position: absolute;
-    top: 0;right: 0; bottom: 0; left: 0;
+    top: 0;
+    right: 0; bottom: 0; left: 0;
     margin-right: auto;
     margin-left: auto;
     width: 100%;
-    min-height: 100vh;
+    min-height: 100%;
     content: '';
     background-image: var(--background-columns), var(--background-baseline);  
-    background-size: var(--background-width) 100%;
+    background-size: 100% 100%;
+    background-position: 0;
     z-index: 1000;
     pointer-events: none;
   }

@@ -25,7 +25,7 @@ const PositionLabel = props => {
     const style = { 
         display: 'block',
         position: 'absolute',
-        top: y + 2,
+        top: y - 2,
         left: x + 2,
         background: 'black',
         color: 'white',
