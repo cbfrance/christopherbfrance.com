@@ -19,10 +19,25 @@ const PositionLabel = props => {
         isPositionOutside = false
     } = props;
 
+    const gridUnit = 4;
+    const gridOffset = 1;
+
+    const style = { 
+        display: 'block',
+        position: 'absolute',
+        top: y + 2,
+        left: x + 2,
+        background: 'black',
+        color: 'white',
+        borderRadius: 2,
+        padding: '0 2px',
+        fontSize: 8
+    }
+
     return (
-        <div style={{ display: 'block', position: 'absolute', top: y, left: x, background: 'black', color: 'white' }}className={props.className}>
+        <div style={style} className={props.className}>
             {/* We use a 4px grid, so divide by 4 (it's .25ems where 1em = 16px)  ... and Add one because the grid is 1-indexed!*/}
-            {`${Math.floor(y / 4 + 1)}`}/{`${Math.floor(x / 4 + 1)}`}
+            {`${Math.floor(y / gridUnit + gridOffset)}`}/{`${Math.floor(x / gridUnit + gridOffset)}`}
         </div>
     );
 

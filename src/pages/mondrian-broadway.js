@@ -27,9 +27,65 @@ const Reference = styled.div`
 `;
 
 
+const Variables = styled.div`
+  /* Settings */
+  & {
+    --columns: 240;
+    --baseline: 4px;
+    --baseline-shift: calc(var(--baseline) / 2);
+    --line-thickness: 1px;
+    --color: hsla(204, 80%, 72%, 0.25);
+    --color-text: hsla(204, 80%, 72%, 1);
+  }
+
+
+  /* Helper variables */
+  & {
+    --repeating-width: calc(100% / var(--columns));
+    --column-width: calc(100% / var(--columns));
+    --background-columns: repeating-linear-gradient(
+      to right,
+      var(--color),
+      var(--color) var(--line-thickness),
+      transparent var(--line-thickness),
+      transparent calc(var(--column-width) - var(--line-thickness)),
+      var(--color) calc(var(--column-width) - var(--line-thickness)),
+      var(--color) var(--column-width),
+      transparent var(--column-width),
+      transparent var(--repeating-width)
+    );
+    --background-baseline: repeating-linear-gradient(
+      to bottom,
+      var(--color),
+      var(--color) 1px,
+      transparent 1px,
+      transparent var(--baseline)
+    );
+  }
+`;
+
+const GridVisual = styled.div`
+  & {
+    position: relative;
+  }
+
+  &::before {
+    position: absolute;
+    top: 0;right: 0; bottom: 0; left: 0;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    min-height: 100vh;
+    content: '';
+    background-image: var(--background-columns), var(--background-baseline);  
+    background-size: var(--background-width) 100%;
+    z-index: 1000;
+    pointer-events: none;
+  }
+`;
+
 const topLeftCoordinates = areaString => `${areaString.split("/")[0]}/${areaString.split("/")[1]}`
 const bottomRightCoordinates = areaString => `${areaString.split("/")[2]}/${areaString.split("/")[3]}`
-
 
 const Block = styled.div`
   grid-area: ${props => props.area ? props.area : "1 / 1 / 2 / 2"};
@@ -65,19 +121,20 @@ const Block = styled.div`
 const ParentGrid = styled.div`
   opacity: 0.4;
   display: grid;
-  grid-template-columns: repeat(240, .25em);
-  grid-template-rows: repeat(240, .25em);
+  grid-template-columns: repeat(var(--columns), .25em);
+  grid-template-rows: repeat(var(--columns), .25em);
   height: 100%;
   width: 100%;
 `;
 
 const IndexPage = () => (
-  <div>
+  <Variables>
     <Title>Broadway Boogie Woogie (1942-43) by Piet Mondrian</Title>
     <Container>
       <Reference />
       <ReactCursorPosition>
         <PositionLabel/>
+        <GridVisual />
         <ParentGrid>
           {/* Yellow columns */}
           <Block area="1/7/-1/12" yellow />
@@ -154,6 +211,9 @@ const IndexPage = () => (
           <Block area="206/55/211/60" blue nudgeLeft />
           <Block area="228/55/233/60" blue nudgeLeft />
 
+          <Block area="38/72/44/78" blue nudgeLeft />
+          <Block area="84/81/90/86" blue nudgeLeft />
+
           {/* Red blocks, first columnish */}
           <Block area="1/15/6/20" red nudgeRight />
           <Block area="38/7/44/12" red />
@@ -194,7 +254,7 @@ const IndexPage = () => (
 
           {/* Red blocks, fifth columnish */}
           <Block area="11/63/32/81" red /> {/* Big */}
-
+          <Block area="11/63/32/81" red />
 
           {/* Grey blocks */}
           <Block area="23/38/28/49" grey />
@@ -203,7 +263,7 @@ const IndexPage = () => (
         </ParentGrid> 
       </ReactCursorPosition>
     </Container>
-  </div>
+  </Variables>
 )
 
 export default IndexPage
