@@ -22,7 +22,7 @@ const PositionLabel = props => {
     const gridUnit = 4;
     const gridOffset = 1;
 
-    const style = { 
+    const style = {
         display: 'block',
         position: 'absolute',
         top: y - 2,
@@ -31,7 +31,8 @@ const PositionLabel = props => {
         color: 'white',
         borderRadius: 2,
         padding: '0 2px',
-        fontSize: 8
+        fontSize: 8,
+        transition: 'display 0.4s',
     }
 
     return (
