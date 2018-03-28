@@ -1,16 +1,9 @@
 import React from 'react';
+import { convertToGrid } from './helpers';
 
 const PositionLabel = props => {
 
     const {
-        detectedEnvironment: {
-            isMouseDetected = false,
-            isTouchDetected = false
-        } = {},
-        elementDimensions: {
-            width = 0,
-            height = 0
-        } = {},
         position: {
             x = 0,
             y = 0
@@ -18,9 +11,6 @@ const PositionLabel = props => {
         isActive = false,
         isPositionOutside = false
     } = props;
-
-    const gridUnit = 4;
-    const gridOffset = 1;
 
     const style = {
         display: 'block',
@@ -32,13 +22,11 @@ const PositionLabel = props => {
         borderRadius: 2,
         padding: '0 2px',
         fontSize: 8,
-        transition: 'display 0.4s',
     }
 
     return (
         <div style={style} className={props.className}>
-            {/* We use a 4px grid, so divide by 4 (it's .25ems where 1em = 16px)  ... and Add one because the grid is 1-indexed!*/}
-            {`${(y / gridUnit + gridOffset).toFixed(1)}`}/{`${(x / gridUnit + gridOffset).toFixed(1)}`}
+            {convertToGrid(y, x)}
         </div>
     );
 
