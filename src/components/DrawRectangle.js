@@ -8,7 +8,7 @@ class DrawRectangle extends React.Component {
   constructor (props) {
 
     super(props);
-    this.state = { downCoordinates: '0/0', upCoordinates: '0/0' };
+    this.state = { downCoordinates: '1/1', upCoordinates: '1/1' };
     this.handleMouseDown = this.handleMouseDown.bind(this);
     this.handleMouseUp = this.handleMouseUp.bind(this);
 
@@ -18,7 +18,7 @@ class DrawRectangle extends React.Component {
 
       // Console.log(this.convertToGrid(event.clientX, event.clientY));
       event.preventDefault();
-      this.setState({ upCoordinates: '0 / 0' }); // Reset when drawing a new rectangle
+      this.setState({ upCoordinates: '1 / 1' }); // Reset when drawing a new rectangle
       this.setState({ downCoordinates: convertToGrid(this.props.position.y, this.props.position.x) });
 
 }

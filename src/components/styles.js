@@ -15,7 +15,7 @@ export const Container = styled.div`
 `;
 
 export const Reference = styled.div`
-  background: url("./static/reference/mondrian-broadway.jpg");
+  background: url("/static/reference/mondrian-broadway.jpg");
   background-repeat: no-repeat;
   background-size: contain;
   height: 100%;
