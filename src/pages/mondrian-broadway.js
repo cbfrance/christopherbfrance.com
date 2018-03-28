@@ -22,8 +22,8 @@ const IndexPage = () => (
           
         <Reference />
         <ReactCursorPosition>
+          <PositionLabel/>
           <DrawRectangle>
-              <PositionLabel/>
               <GridVisual />
               <ParentGrid>
                 {/* Yellow columns */}

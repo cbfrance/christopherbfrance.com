@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { ParentGrid, Variables } from './styles';
-import { convertToGrid } from './helpers';
+import { convertToGrid, copyToClipboard } from './helpers';
 
 class DrawRectangle extends React.Component {
 
@@ -26,17 +26,22 @@ class DrawRectangle extends React.Component {
   handleMouseUp (event) {
 
       event.preventDefault();
-      this.setState({ upCoordinates: convertToGrid(this.props.position.y, this.props.position.x) });
+      const upCoordinates = convertToGrid(this.props.position.y, this.props.position.x);
 
-  }
+      this.setState({ upCoordinates });
+
+      const downCoordinates = this.state.downCoordinates;
+
+      copyToClipboard(`${downCoordinates}/${upCoordinates}`);
+  
+}
 
   render () {
 
     const boxDrawn = `${this.state.downCoordinates}/${this.state.upCoordinates}`
     const boxColor = 'hsla(204, 80%, 72%, 0.75)';
 
-    
-return (
+    return (
       <Variables>
         <ParentGrid>
           <div style={{ 
@@ -44,12 +49,13 @@ return (
               background: boxColor,
               gridArea: boxDrawn
             }}>
-            <span style={{ fontSize: '8px' }}>{boxDrawn}</span>
+            {/* TODO: show this when after mouseUp but hide on mouseDown */}
+            {/* <span style={{ fontSize: '8px' }}>{boxDrawn}</span> */ }
           </div>
           <div
             onMouseDown={this.handleMouseDown}
             onMouseUp={this.handleMouseUp}
-            > 
+            >
               {this.props.children}
           </div>
         </ParentGrid>
