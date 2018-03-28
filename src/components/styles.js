@@ -1,5 +1,7 @@
 import styled from 'styled-components'
 
+export const gridUnit = 4;
+
 export const Title = styled.h1`
   font-size: 2em;
   padding: 2em 0;
@@ -26,7 +28,7 @@ export const Variables = styled.div`
   /* Settings */
   & {
     --columns: 240;
-    --baseline: 4px;
+    --baseline: ${gridUnit}px;
     --line-thickness: 1px;
     --visual-grid-color: hsla(204, 80%, 72%, 0.25);
     --container-height: 60em;
@@ -119,8 +121,8 @@ export const Block = styled.div`
 export const ParentGrid = styled.div`
   opacity: 0.4;
   display: grid;
-  grid-template-columns: repeat(var(--columns), 4px);
-  grid-template-rows: repeat(var(--columns), 4px);
+  grid-template-columns: repeat(var(--columns), ${gridUnit}px);
+  grid-template-rows: repeat(var(--columns), ${gridUnit}px);
   height: 100%;
   width: 100%;
 `;

@@ -1,13 +1,12 @@
+import { gridUnit } from './styles';
 
-// How many pixels are in a single grid unit?
-// Todo: Infer this from the grid settings
-const gridMultiple = 4;
+// CSS Grid is 1-indexed
 const gridOffset = 1;
 
 // Convert pixels to larger grid units
 export function convertToGrid (y, x) {
 
-  return `${Math.floor(y / gridMultiple) + gridOffset}/${Math.floor(x / gridMultiple) + gridOffset}`;
+  return `${Math.floor(y / gridUnit) + gridOffset}/${Math.floor(x / gridUnit) + gridOffset}`;
 
 }
 
