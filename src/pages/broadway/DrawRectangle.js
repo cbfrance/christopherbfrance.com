@@ -15,7 +15,24 @@ const Buttons = styled.div`
   cursor: default;
   position: fixed;
   top: 0;
-  left: 0;
+  display: flex;
+  background-color: white;
+  right: 0;
+`
+
+const Button = styled.a`
+  padding: 8px;
+  text-transform: uppercase;
+  background-color: ${props => (props.active ? 'lightgrey' : 'transparent')};
+  display: inline-block;
+  margin: 8px;
+  border-radius: 2px;
+  font-size: 8px;
+  transition: background-color 0.2s;
+  border: 1px solid lightgrey;
+  &:hover {
+    border: 1px solid grey;
+  }
 `
 
 class DrawRectangle extends React.Component {
@@ -95,6 +112,21 @@ class DrawRectangle extends React.Component {
     this.setState({ color })
   }
 
+  colorButtons = buttonsArray => {
+    return (
+      <div>
+        {buttonsArray.map(color => (
+          <Button
+            active={this.state.color == color}
+            onClick={() => this.handleColorButton(color)}
+          >
+            {color}
+          </Button>
+        ))}
+      </div>
+    )
+  }
+
   render() {
     const boxDrawn = `${this.state.firstCoordinates}/${
       this.state.secondCoordinates
@@ -103,15 +135,7 @@ class DrawRectangle extends React.Component {
     return (
       <div>
         <Buttons>
-          <button onClick={() => this.handleColorButton('blue')}>Blue</button>
-          <button onClick={() => this.handleColorButton('red')}>Red</button>
-          <button onClick={() => this.handleColorButton('yellow')}>
-            Yellow
-          </button>
-          <button onClick={() => this.handleColorButton('grey')}>Grey</button>
-          <button onClick={() => this.handleColorButton('lightgrey')}>
-            Light grey
-          </button>
+          {this.colorButtons(['blue', 'red', 'yellow', 'grey', 'lightgrey'])}
         </Buttons>
         <GridPrimary
           onMouseDown={this.handleMouseDown}
