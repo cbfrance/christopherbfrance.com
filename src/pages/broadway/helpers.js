@@ -18,7 +18,7 @@ export function copyToClipboard(str) {
   el.select()
   document.execCommand('copy')
   document.body.removeChild(el)
-  console.log(`Copied <Item area="${str}" /> to clipboard`)
+  console.log(`Copied ${str}`)
 }
 
 export const topLeftCoordinates = areaString =>

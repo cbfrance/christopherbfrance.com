@@ -1,4 +1,6 @@
 import React from 'react'
+import styled from 'styled-components'
+
 import {
   GridPrimary,
   boxColor,
@@ -8,6 +10,14 @@ import {
 } from './styles'
 import { convertToGrid, copyToClipboard } from './helpers'
 
+const Buttons = styled.div`
+  padding: 8px;
+  cursor: default;
+  position: fixed;
+  top: 0;
+  left: 0;
+`
+
 class DrawRectangle extends React.Component {
   constructor(props) {
     super(props)
@@ -15,6 +25,7 @@ class DrawRectangle extends React.Component {
       firstCoordinates: null,
       secondCoordinates: null,
       drawing: false,
+      color: null,
     }
     this.handleMouseDown = this.handleMouseDown.bind(this)
     this.handleMouseUp = this.handleMouseUp.bind(this)
@@ -72,7 +83,16 @@ class DrawRectangle extends React.Component {
     const { firstCoordinates } = this.state
 
     // Copy it
-    copyToClipboard(`${firstCoordinates}/${secondCoordinates}`)
+    copyToClipboard(
+      `<Item area="${firstCoordinates}/${secondCoordinates}" color="${
+        this.state.color
+      }"/>`
+    )
+  }
+
+  handleColorButton(color) {
+    console.log(color)
+    this.setState({ color })
   }
 
   render() {
@@ -81,25 +101,40 @@ class DrawRectangle extends React.Component {
     }`
 
     return (
-      <GridPrimary
-        onMouseDown={this.handleMouseDown}
-        onMouseUp={this.handleMouseUp}
-        onMouseMove={this.handleMouseMove}
-      >
-        <EphemeralRectangle
-          style={{
-            backgroundColor: this.state.drawing
-              ? 'transparent'
-              : ephemeralColor,
-            border: `1px solid ${this.state.drawing ? 'aqua' : 'transparent'}`,
-            gridArea: boxDrawn,
-            transition: 'background-color, 1s, border-color, 1s',
-          }}
+      <div>
+        <Buttons>
+          <button onClick={() => this.handleColorButton('blue')}>Blue</button>
+          <button onClick={() => this.handleColorButton('red')}>Red</button>
+          <button onClick={() => this.handleColorButton('yellow')}>
+            Yellow
+          </button>
+          <button onClick={() => this.handleColorButton('grey')}>Grey</button>
+          <button onClick={() => this.handleColorButton('lightgrey')}>
+            Light grey
+          </button>
+        </Buttons>
+        <GridPrimary
+          onMouseDown={this.handleMouseDown}
+          onMouseUp={this.handleMouseUp}
+          onMouseMove={this.handleMouseMove}
         >
-          {<LabelSecondary>{boxDrawn}</LabelSecondary>}
-        </EphemeralRectangle>
-        {this.props.children}
-      </GridPrimary>
+          <EphemeralRectangle
+            style={{
+              backgroundColor: this.state.drawing
+                ? 'transparent'
+                : ephemeralColor,
+              border: `1px solid ${
+                this.state.drawing ? 'aqua' : 'transparent'
+              }`,
+              gridArea: boxDrawn,
+              transition: 'background-color, 1s, border-color, 1s',
+            }}
+          >
+            {<LabelSecondary>{boxDrawn}</LabelSecondary>}
+          </EphemeralRectangle>
+          {this.props.children}
+        </GridPrimary>
+      </div>
     )
   }
 }
