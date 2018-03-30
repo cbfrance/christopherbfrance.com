@@ -15,7 +15,7 @@ export const Container = styled.div`
   cursor: crosshair;
 `
 
-export const Reference = styled.div`
+export const ReferenceArt = styled.div`
   background: url('/static/reference/mondrian-broadway.jpg');
   background-repeat: no-repeat;
   background-size: contain;
@@ -122,7 +122,7 @@ export const Item = styled.div`
   }
 `
 
-export const ParentGrid = styled.div`
+export const GridPrimary = styled.div`
   opacity: 0.4;
   display: grid;
   grid-template-columns: repeat(var(--columns), ${gridUnit}px);

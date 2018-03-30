@@ -5,24 +5,24 @@ import DrawRectangle from '../components/DrawRectangle'
 import {
     Title,
     Container,
-    Reference,
+    ReferenceArt,
     Variables,
     GridVisual,
     Item,
-    ParentGrid,
+    GridPrimary,
 } from '../components/styles'
 
-const IndexPage = () => (
+const MondrianBroadway = () => (
     <Variables>
         <Title>Broadway Boogie Woogie (1942-43) by Piet Mondrian</Title>
 
         <Container>
-            <Reference />
+            <ReferenceArt />
             <ReactCursorPosition>
                 <PositionLabel />
                 <DrawRectangle>
                     <GridVisual />
-                    <ParentGrid>
+                    <GridPrimary>
                         {/* Yellow columns */}
                         <Item area="1/7/80/12" yellow />
                         <Item area="1/15/-1/20" yellow />
@@ -170,11 +170,11 @@ const IndexPage = () => (
                         <Item area="233/10/228/15" grey />
                         <Item area="23/38/28/49" grey />
                         <Item area="32/63/38/81" grey /> {/* Wide */}
-                    </ParentGrid>
+                    </GridPrimary>
                 </DrawRectangle>
             </ReactCursorPosition>
         </Container>
     </Variables>
 )
 
-export default IndexPage
+export default MondrianBroadway

@@ -1,5 +1,5 @@
 import React from 'react'
-import { ParentGrid, Variables } from './styles'
+import { GridPrimary, Variables } from './styles'
 import { convertToGrid, copyToClipboard } from './helpers'
 
 class DrawRectangle extends React.Component {
@@ -8,6 +8,7 @@ class DrawRectangle extends React.Component {
     this.state = {
       downCoordinates: '1/1',
       upCoordinates: '1/1',
+      visible: false,
     }
     this.handleMouseDown = this.handleMouseDown.bind(this)
     this.handleMouseUp = this.handleMouseUp.bind(this)
@@ -16,7 +17,7 @@ class DrawRectangle extends React.Component {
   handleMouseDown(event) {
     event.preventDefault()
     // Reset when drawing a new rectangle
-    this.setState({ upCoordinates: '1 / 1' })
+    this.setState({ visible: false })
     this.setState({
       downCoordinates: convertToGrid(
         this.props.position.y,
@@ -33,6 +34,7 @@ class DrawRectangle extends React.Component {
     )
 
     this.setState({ upCoordinates })
+    this.setState({ visible: true })
 
     const { downCoordinates } = this.state
 
@@ -45,12 +47,13 @@ class DrawRectangle extends React.Component {
 
     return (
       <Variables>
-        <ParentGrid>
+        <GridPrimary>
           <div
             style={{
               zIndex: 4,
               background: boxColor,
               gridArea: boxDrawn,
+              display: this.state.visible ? 'block' : 'none',
             }}
           >
             {/* TODO: show this when after mouseUp but hide on mouseDown */}
@@ -62,7 +65,7 @@ class DrawRectangle extends React.Component {
           >
             {this.props.children}
           </div>
-        </ParentGrid>
+        </GridPrimary>
       </Variables>
     )
   }
