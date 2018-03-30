@@ -37,7 +37,7 @@ export const Container = styled.div`
     --line-thickness: ${lineThickness};
     --visual-grid-color: ${gridVisualColor};
     --container-height: ${gridWidth};
-    --container-width: ${gridHeight};
+    --container-width: ${gridHeight};22
   }
 `
 

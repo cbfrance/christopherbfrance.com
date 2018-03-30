@@ -11,10 +11,11 @@ import styled from 'styled-components'
 // A CSS overlay that mimics the grid rows and columns
 //  using a repeating background image
 //
-export const Overlay = styled.div`
+const Overlay = styled.div`
   position: absolute;
   width: ${gridWidth};
   height: ${gridHeight};
+  display: ${props => (props.visible ? 'block' : 'none')}
 
   &::before {
     position: absolute;
@@ -54,17 +55,21 @@ class GridVisual extends React.Component {
     this.state = {
       visible: false,
     }
-
-    this.handleGridToggle = this.handleGridToggle.bind(this)
   }
 
-  handleGridToggle(event) {
-    event.preventDefault()
-    alert('hi')
+  componentWillMount() {
+    document.addEventListener('keydown', this.handleKeyDown)
+  }
+
+  handleKeyDown = event => {
+    // Press g to toggle the grid
+    if (event.which == 71) {
+      this.setState({ visible: true })
+    }
   }
 
   render() {
-    return <Overlay />
+    return <Overlay visible={this.state.visible} />
   }
 }
 
