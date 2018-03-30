@@ -3,7 +3,8 @@ import ReactCursorPosition from 'react-cursor-position'
 import Tooltip from './Tooltip'
 import DrawRectangle from './DrawRectangle'
 import GridVisual from './GridVisual'
-import { Title, Container, ReferenceArt, Item } from './styles'
+import ReferenceArt from './ReferenceArt'
+import { Title, Container, Item } from './styles'
 
 const MondrianBroadway = () => (
     <div>

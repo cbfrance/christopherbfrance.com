@@ -41,18 +41,6 @@ export const Container = styled.div`
   }
 `
 
-// A reference layer with artwork for tracing
-//
-export const ReferenceArt = styled.div`
-  background: url('/static/reference/mondrian-broadway.jpg');
-  background-repeat: no-repeat;
-  background-size: contain;
-  width: ${gridWidth};
-  height: ${gridHeight};
-  position: absolute;
-  opacity: 0.3;
-`
-
 // The grid container
 // Immediate children are grid items ... this is used multiple times to achieve overlaying grids
 export const GridPrimary = styled.div`
