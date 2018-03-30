@@ -8,6 +8,20 @@ import {
 } from './styles'
 import styled from 'styled-components'
 
+const rowGradient = `
+  to bottom,
+  ${ephemeralColor},
+  transparent ${lineThickness},
+  transparent ${gridUnit}
+`
+
+const columnGradient = `
+  to right,
+  ${ephemeralColor},
+  transparent ${lineThickness},
+  transparent ${gridUnit}
+`
+
 // A CSS overlay that mimics the grid rows and columns
 //  using a repeating background image
 //
@@ -15,7 +29,17 @@ const Overlay = styled.div`
   position: absolute;
   width: ${gridWidth};
   height: ${gridHeight};
-  display: ${props => (props.visible ? 'block' : 'none')}
+  opacity: ${props => (props.visible ? '1' : '0')};
+  transition: opacity .6s;
+
+  background-image: 
+    repeating-linear-gradient(${columnGradient}),
+    repeating-linear-gradient(${rowGradient});
+
+  background-size: 100% 100%;
+  background-position: 0;
+  z-index: 1000;
+  pointer-events: none;
 
   &::before {
     position: absolute;
@@ -28,25 +52,6 @@ const Overlay = styled.div`
     width: 100%;
     min-height: 100%;
     content: '';
-
-  & {
-    background-image: repeating-linear-gradient(
-      to right,
-      ${ephemeralColor},
-      transparent ${lineThickness},
-      transparent ${gridUnit}
-    ), repeating-linear-gradient(
-      to bottom,
-      ${ephemeralColor},
-      transparent ${lineThickness},
-      transparent ${gridUnit}
-    );
-
-    background-size: 100% 100%;
-    background-position: 0;
-    z-index: 1000;
-    pointer-events: none;
-  }
 `
 
 class GridVisual extends React.Component {
@@ -64,7 +69,9 @@ class GridVisual extends React.Component {
   handleKeyDown = event => {
     // Press g to toggle the grid
     if (event.which == 71) {
-      this.setState({ visible: true })
+      this.state.visible
+        ? this.setState({ visible: false })
+        : this.setState({ visible: true })
     }
   }
 
