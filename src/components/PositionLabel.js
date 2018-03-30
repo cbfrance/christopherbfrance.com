@@ -1,41 +1,37 @@
 import React from 'react';
 import { convertToGrid } from './helpers';
+import styled from 'styled-components';
+
+const Label = styled.div`
+    display: ${props => props.display ? 'none' : 'block'};
+    position: absolute;
+    background-color: black;
+    color: white;
+    border-radius: 2px;
+    padding: 0 2px;
+    font-size: 8px;
+    transition: display 0.4s;
+`;
+
+const labelOffset = 2;
 
 const PositionLabel = props => {
 
+    // A parent component passes in these props: 
+    // For more options see
+    // https://github.com/ethanselzer/react-cursor-position
     const {
-        detectedEnvironment: {
-            isMouseDetected = false,
-            isTouchDetected = false
-        } = {},
-        elementDimensions: {
-            width = 0,
-            height = 0
-        } = {},
         position: {
             x = 0,
             y = 0
         } = {},
-        isActive = false,
         isPositionOutside = false
     } = props;
 
-    const style = {
-        display: 'block',
-        position: 'absolute',
-        top: y - 2,
-        left: x + 2,
-        background: 'black',
-        color: 'white',
-        borderRadius: 2,
-        padding: '0 2px',
-        fontSize: 8,
-    }
-
     return (
-        <div style={style} className={props.className}>
+        <Label display={isPositionOutside} style={{ top: y + labelOffset, left: x + labelOffset }}>
             {convertToGrid(y, x)}
-        </div>
+        </Label>
     );
 
 };
