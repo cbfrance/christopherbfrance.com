@@ -1,14 +1,14 @@
 import React from 'react'
-import { GridPrimary, Variables } from './styles'
+import { GridPrimary, Variables, boxColor, LabelSecondary } from './styles'
 import { convertToGrid, copyToClipboard } from './helpers'
 
 class DrawRectangle extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-      downCoordinates: '1/1',
-      upCoordinates: '1/1',
-      visible: false,
+      downCoordinates: null,
+      upCoordinates: null,
+      drawing: false,
     }
     this.handleMouseDown = this.handleMouseDown.bind(this)
     this.handleMouseUp = this.handleMouseUp.bind(this)
@@ -17,7 +17,7 @@ class DrawRectangle extends React.Component {
   handleMouseDown(event) {
     event.preventDefault()
     // Reset when drawing a new rectangle
-    this.setState({ visible: false })
+    this.setState({ drawing: true })
     this.setState({
       downCoordinates: convertToGrid(
         this.props.position.y,
@@ -34,7 +34,7 @@ class DrawRectangle extends React.Component {
     )
 
     this.setState({ upCoordinates })
-    this.setState({ visible: true })
+    this.setState({ drawing: false })
 
     const { downCoordinates } = this.state
 
@@ -43,7 +43,6 @@ class DrawRectangle extends React.Component {
 
   render() {
     const boxDrawn = `${this.state.downCoordinates}/${this.state.upCoordinates}`
-    const boxColor = 'hsla(204, 80%, 72%, 0.75)'
 
     return (
       <Variables>
@@ -53,11 +52,10 @@ class DrawRectangle extends React.Component {
               zIndex: 4,
               background: boxColor,
               gridArea: boxDrawn,
-              display: this.state.visible ? 'block' : 'none',
+              display: this.state.drawing ? 'none' : 'block',
             }}
           >
-            {/* TODO: show this when after mouseUp but hide on mouseDown */}
-            {/* <span style={{ fontSize: '8px' }}>{boxDrawn}</span> */}
+            {<LabelSecondary>{boxDrawn} copied!</LabelSecondary>}
           </div>
           <div
             onMouseDown={this.handleMouseDown}

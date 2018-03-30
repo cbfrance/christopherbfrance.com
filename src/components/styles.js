@@ -3,10 +3,16 @@ import styled from 'styled-components'
 export const gridUnit = 4
 export const gridVisualColor = 'hsla(204, 80%, 72%, 0.25)'
 
+export const LabelSecondary = styled.div`
+  font-size: 5px;
+  text-align: center;
+`
+
 export const Title = styled.h1`
   font-size: 2em;
   padding: 2em 0;
 `
+export const boxColor = 'hsla(204, 80%, 72%, 0.75)'
 
 export const Container = styled.div`
   width: var(--container-width);
@@ -22,7 +28,7 @@ export const ReferenceArt = styled.div`
   height: 100%;
   width: 100%;
   position: absolute;
-  opacity: 1;
+  opacity: 0.3;
 `
 
 export const Variables = styled.div`
