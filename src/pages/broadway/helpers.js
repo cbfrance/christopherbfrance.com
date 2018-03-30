@@ -13,12 +13,12 @@ export function convertToGrid(y, x) {
 
 export function copyToClipboard(str) {
   const el = document.createElement('textarea')
-  el.value = str
+  el.value = `<Item area="${str}" />`
   document.body.appendChild(el)
   el.select()
   document.execCommand('copy')
   document.body.removeChild(el)
-  console.log(`Copied ${str} to clipboard`)
+  console.log(`Copied <Item area="${str}" /> to clipboard`)
 }
 
 export const topLeftCoordinates = areaString =>

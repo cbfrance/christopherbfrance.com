@@ -47,6 +47,7 @@ const MondrianBroadway = () => (
                     <Item area="110/70/135/86" yellow />
                     <Item area="85/98/114/115" yellow />
                     <Item area="128/98/141/115" yellow />
+                    <Item area="18/68/27/77" yellow />
                     {/* Blue Items, first columnish */}
                     <Item area="6/7/11/12" blue />
                     <Item area="24/7/28/12" blue nudgeUp />
@@ -142,6 +143,20 @@ const MondrianBroadway = () => (
                     {/* Red Items, fifth columnish */}
                     <Item area="11/63/32/81" red /> {/* Big */}
                     <Item area="11/63/32/81" red />
+                    <Item area="105/70/110/76" red />
+                    <Item area="104/94/109/98" red />
+                    <Item area="135/81/141/87" red />
+                    <Item area="135/98/141/104" red />
+                    <Item area="151/100/156/106" red />
+                    <Item area="174/103/180/109" red />
+                    <Item area="206/104/211/108" red nudgeRight />
+                    <Item area="84/92/90/99" red />
+                    <Item area="227/94/232/99" blue />
+                    <Item area="227/105/232/109" blue />
+                    <Item area="206/94/211/99" blue />
+                    <Item area="175/90/180/96" blue />
+                    <Item area="151/84/156/90" blue />
+                    <Item area="115/70/135/86" blue />
                     {/* Grey Items */}
                     <Item area="11/7/15/12" grey />
                     <Item area="80/7/85/12" grey />
@@ -151,6 +166,13 @@ const MondrianBroadway = () => (
                     <Item area="233/10/228/15" grey />
                     <Item area="23/38/28/49" grey />
                     <Item area="32/63/38/81" grey /> {/* Wide */}
+                    <Item area="17/67/26/76" yellow />
+                    <Item area="115/70/135/86" grey />
+                    <Item area="121/73/129/83" yellow />
+                    <Item area="206/7/211/13" grey />
+                    <Item area="228/10/233/15" grey />
+                    <Item area="206/112/211/117" blue />
+                    <Item area="114/98/128/115" grey />
                 </DrawRectangle>
             </ReactCursorPosition>
         </Container>

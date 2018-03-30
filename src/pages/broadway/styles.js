@@ -70,9 +70,9 @@ export const Item = styled.div`
   ${props => (props.nudgeUp ? 'margin-top: -2px;' : '')};
   ${props => (props.nudgeDown ? 'margin-bottom: -2px;' : '')};
 
-  /* Debugging crosshairs */ 
+  /* Debugging marks */ 
   &::before, &::after {
-    display: block;
+    display: ${props => (props.marks ? 'block' : 'none')};
     position: absolute;
     font-size: 5px;
     color: aqua;
