@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { topLeftCoordinates, bottomRightCoordinates } from './helpers'
 
 export const gridUnit = 4
 export const gridVisualColor = 'hsla(204, 80%, 72%, 0.25)'
@@ -14,24 +15,12 @@ export const Title = styled.h1`
 `
 export const boxColor = 'hsla(204, 80%, 72%, 0.75)'
 
+// A container that establishes some CSS variables
+//
 export const Container = styled.div`
-  width: var(--container-width);
-  height: var(--container-height);
   position: relative;
   cursor: crosshair;
-`
 
-export const ReferenceArt = styled.div`
-  background: url('/static/reference/mondrian-broadway.jpg');
-  background-repeat: no-repeat;
-  background-size: contain;
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  opacity: 0.3;
-`
-
-export const Variables = styled.div`
   /* Settings */
   & {
     --columns: 240;
@@ -61,12 +50,25 @@ export const Variables = styled.div`
   }
 `
 
+// A reference layer with artwork for tracing
+//
+export const ReferenceArt = styled.div`
+  background: url('/static/reference/mondrian-broadway.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: var(--container-width);
+  height: var(--container-height);
+  position: absolute;
+  opacity: 0.3;
+`
+
+// A CSS overlay that mimics the grid rows and columns
+//  using a repeating background image
+//
 export const GridVisual = styled.div`
-  & {
-    position: absolute;
-    width: 100%;
-    height: var(--container-height);
-  }
+  position: absolute;
+  width: var(--container-width);
+  height: var(--container-height);
 
   &::before {
     position: absolute;
@@ -87,23 +89,36 @@ export const GridVisual = styled.div`
   }
 `
 
-export const topLeftCoordinates = areaString =>
-  `${areaString.split('/')[0]}/${areaString.split('/')[1]}`
-export const bottomRightCoordinates = areaString =>
-  `${areaString.split('/')[2]}/${areaString.split('/')[3]}`
+// The grid container
+// Immediate children are grid items
+export const GridPrimary = styled.div`
+  opacity: 0.4;
+  display: grid;
+  grid-template-columns: repeat(var(--columns), ${gridUnit}px);
+  grid-template-rows: repeat(var(--columns), ${gridUnit}px);
+  width: var(--container-width);
+  height: var(--container-height);
+`
 
+// The grid items
+// The area prop is read to create debugging crosshairs
 export const Item = styled.div`
-  grid-area: ${props => (props.area ? props.area : '1 / 1 / 2 / 2')};
+  grid-area: ${props => (props.area ? props.area : null)};
+  position: relative;
+
+  /* Colors */
   ${props => (props.yellow ? 'background-color: orange;' : '')};
   ${props => (props.blue ? 'background-color: blue;' : '')};
   ${props => (props.red ? 'background-color: red;' : '')};
   ${props => (props.grey ? 'background-color: grey;' : '')};
+
+  /* Tweaks: Not all the art is grid aligned */
   ${props => (props.nudgeRight ? 'margin-right: -2px;' : '')};
   ${props => (props.nudgeLeft ? 'margin-left: -2px;' : '')};
   ${props => (props.nudgeUp ? 'margin-top: -2px;' : '')};
   ${props => (props.nudgeDown ? 'margin-bottom: -2px;' : '')};
-  position: relative;
 
+  /* Debugging crosshairs */ 
   &::before, &::after {
     display: block;
     position: absolute;
@@ -126,13 +141,4 @@ export const Item = styled.div`
     bottom: 0;
     right: 0;
   }
-`
-
-export const GridPrimary = styled.div`
-  opacity: 0.4;
-  display: grid;
-  grid-template-columns: repeat(var(--columns), ${gridUnit}px);
-  grid-template-rows: repeat(var(--columns), ${gridUnit}px);
-  height: 100%;
-  width: 100%;
 `

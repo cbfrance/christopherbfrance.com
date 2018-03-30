@@ -1,5 +1,5 @@
 import React from 'react'
-import { GridPrimary, Variables, boxColor, LabelSecondary } from './styles'
+import { GridPrimary, boxColor, LabelSecondary } from './styles'
 import { convertToGrid, copyToClipboard } from './helpers'
 
 class DrawRectangle extends React.Component {
@@ -28,6 +28,8 @@ class DrawRectangle extends React.Component {
 
   handleMouseUp(event) {
     event.preventDefault()
+
+    // Store the new corner
     const upCoordinates = convertToGrid(
       this.props.position.y,
       this.props.position.x
@@ -45,26 +47,21 @@ class DrawRectangle extends React.Component {
     const boxDrawn = `${this.state.downCoordinates}/${this.state.upCoordinates}`
 
     return (
-      <Variables>
-        <GridPrimary>
-          <div
-            style={{
-              zIndex: 4,
-              background: boxColor,
-              gridArea: boxDrawn,
-              display: this.state.drawing ? 'none' : 'block',
-            }}
-          >
-            {<LabelSecondary>{boxDrawn} copied!</LabelSecondary>}
-          </div>
-          <div
-            onMouseDown={this.handleMouseDown}
-            onMouseUp={this.handleMouseUp}
-          >
-            {this.props.children}
-          </div>
-        </GridPrimary>
-      </Variables>
+      <GridPrimary>
+        <div
+          style={{
+            zIndex: 4,
+            background: boxColor,
+            gridArea: boxDrawn,
+            display: this.state.drawing ? 'none' : 'block',
+          }}
+        >
+          {<LabelSecondary>{boxDrawn} copied!</LabelSecondary>}
+        </div>
+        <div onMouseDown={this.handleMouseDown} onMouseUp={this.handleMouseUp}>
+          {this.props.children}
+        </div>
+      </GridPrimary>
     )
   }
 }
