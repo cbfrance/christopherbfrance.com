@@ -95,7 +95,7 @@ export const GridVisual = styled.div`
 `
 
 // The grid container
-// Immediate children are grid items
+// Immediate children are grid items ... this is used multiple times to achieve overlaying grids
 export const GridPrimary = styled.div`
   opacity: 0.4;
   display: grid;

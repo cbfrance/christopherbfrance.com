@@ -4,6 +4,7 @@ import {
   boxColor,
   LabelSecondary,
   EphemeralRectangle,
+  ephemeralColor,
 } from './styles'
 import { convertToGrid, copyToClipboard } from './helpers'
 
@@ -21,9 +22,11 @@ class DrawRectangle extends React.Component {
 
   handleMouseDown(event) {
     event.preventDefault()
-    // Reset when drawing a new rectangle
-    this.setState({ drawing: true })
+
     this.setState({
+      // Drawing a new rectangle
+      drawing: true,
+      // These props come from the ReactCursorPosition parent component
       downCoordinates: convertToGrid(
         this.props.position.y,
         this.props.position.x
@@ -40,11 +43,13 @@ class DrawRectangle extends React.Component {
       this.props.position.x
     )
 
-    this.setState({ upCoordinates })
-    this.setState({ drawing: false })
+    // Set the coordinates, reset drawing state
+    this.setState({ upCoordinates, drawing: false })
 
+    // Read the down coodinates
     const { downCoordinates } = this.state
 
+    // Copy it
     copyToClipboard(`${downCoordinates}/${upCoordinates}`)
   }
 
@@ -52,18 +57,19 @@ class DrawRectangle extends React.Component {
     const boxDrawn = `${this.state.downCoordinates}/${this.state.upCoordinates}`
 
     return (
-      <GridPrimary>
+      <GridPrimary
+        onMouseDown={this.handleMouseDown}
+        onMouseUp={this.handleMouseUp}
+      >
         <EphemeralRectangle
           style={{
-            display: this.state.drawing ? 'none' : 'block',
+            backgroundColor: this.state.drawing ? 'black' : ephemeralColor,
             gridArea: boxDrawn,
           }}
         >
           {<LabelSecondary>{boxDrawn} copied!</LabelSecondary>}
         </EphemeralRectangle>
-        <div onMouseDown={this.handleMouseDown} onMouseUp={this.handleMouseUp}>
-          {this.props.children}
-        </div>
+        {this.props.children}
       </GridPrimary>
     )
   }
