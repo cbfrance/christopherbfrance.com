@@ -1,5 +1,10 @@
 import React from 'react'
-import { GridPrimary, boxColor, LabelSecondary } from './styles'
+import {
+  GridPrimary,
+  boxColor,
+  LabelSecondary,
+  EphemeralRectangle,
+} from './styles'
 import { convertToGrid, copyToClipboard } from './helpers'
 
 class DrawRectangle extends React.Component {
@@ -48,16 +53,14 @@ class DrawRectangle extends React.Component {
 
     return (
       <GridPrimary>
-        <div
+        <EphemeralRectangle
           style={{
-            zIndex: 4,
-            background: boxColor,
-            gridArea: boxDrawn,
             display: this.state.drawing ? 'none' : 'block',
+            gridArea: boxDrawn,
           }}
         >
           {<LabelSecondary>{boxDrawn} copied!</LabelSecondary>}
-        </div>
+        </EphemeralRectangle>
         <div onMouseDown={this.handleMouseDown} onMouseUp={this.handleMouseUp}>
           {this.props.children}
         </div>

@@ -8,12 +8,17 @@ export const LabelSecondary = styled.div`
   font-size: 5px;
   text-align: center;
 `
+export const ephemeralColor = 'hsla(204, 80%, 72%, 0.75)'
+
+export const EphemeralRectangle = styled.div`
+  z-index: 4;
+  background: ${ephemeralColor};
+`
 
 export const Title = styled.h1`
-  font-size: 2em;
-  padding: 2em 0;
+  font-size: 1em;
+  padding: 1em 0;
 `
-export const boxColor = 'hsla(204, 80%, 72%, 0.75)'
 
 // A container that establishes some CSS variables
 //
