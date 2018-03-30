@@ -1,12 +1,14 @@
 import { gridUnit } from './styles'
+import { stripUnit } from 'polished'
 
 // CSS Grid is 1-indexed
 const gridOffset = 1
 
 // Convert pixels to larger grid units
 export function convertToGrid(y, x) {
-  return `${Math.floor(y / gridUnit) + gridOffset}/${Math.floor(x / gridUnit) +
-    gridOffset}`
+  return `${Math.floor(y / stripUnit(gridUnit)) + gridOffset}/${Math.floor(
+    x / stripUnit(gridUnit)
+  ) + gridOffset}`
 }
 
 export function copyToClipboard(str) {
