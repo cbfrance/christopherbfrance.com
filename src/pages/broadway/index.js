@@ -2,16 +2,12 @@ import React from 'react'
 import ReactCursorPosition from 'react-cursor-position'
 import Tooltip from './Tooltip'
 import DrawingTools from './DrawingTools'
-import GridVisual from './GridVisual'
-import ReferenceArt from './ReferenceArt'
 import { Title, Container, Item } from './styles'
 
 const MondrianBroadway = () => (
     <div>
         <Title>Broadway Boogie Woogie (1942-43) by Piet Mondrian</Title>
         <Container>
-            <ReferenceArt />
-            <GridVisual />
             <ReactCursorPosition>
                 <Tooltip />
                 <DrawingTools>

@@ -7,10 +7,32 @@ import {
   LabelSecondary,
   EphemeralRectangle,
   ephemeralColor,
+  gridWidth,
+  gridHeight,
 } from './styles'
 import { convertToGrid, copyToClipboard } from './helpers'
+import { HotKeys } from 'react-hotkeys'
+import GridVisual from './GridVisual'
+
+const hotkeyMap = {
+  copy: 'c',
+  undo: 'u',
+  grid: 'g',
+  art: 'a',
+}
 
 const artColors = ['blue', 'red', 'yellow', 'grey', 'lightgrey']
+
+const Art = styled.div`
+  background: url('/static/reference/mondrian-broadway.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: ${gridWidth};
+  height: ${gridHeight};
+  position: absolute;
+  opacity: ${props => (props.visibleArt ? '1' : '0')};
+  transition: opacity 0.5s;
+`
 
 const Buttons = styled.div`
   cursor: default;
@@ -65,6 +87,7 @@ class DrawingTools extends React.Component {
       drawing: false,
       color: '',
       scratchPadText: [],
+      visibleArt: true,
     }
     this.handleMouseDown = this.handleMouseDown.bind(this)
     this.handleMouseUp = this.handleMouseUp.bind(this)
@@ -154,6 +177,19 @@ class DrawingTools extends React.Component {
   }
 
   render() {
+    const handleCopy = event =>
+      copyToClipboard(String(this.state.scratchPadText.join('\n')))
+
+    const handleVisibleArtToggle = event =>
+      this.state.visibleArt
+        ? this.setState({ visibleArt: false })
+        : this.setState({ visibleArt: true })
+
+    const hotkeyHandlers = {
+      copy: handleCopy,
+      art: handleVisibleArtToggle,
+    }
+
     const boxDrawn = `${this.state.firstCoordinates}/${
       this.state.secondCoordinates
     }`
@@ -171,24 +207,19 @@ class DrawingTools extends React.Component {
     }
 
     return (
-      <div>
+      <HotKeys keyMap={hotkeyMap} handlers={hotkeyHandlers} focused>
         <Tools>
           <Buttons>{this.colorButtons(artColors)}</Buttons>
           <ScratchPad>
             {String(this.state.scratchPadText.join('\n'))}
           </ScratchPad>
-          <button
-            onClick={() =>
-              copyToClipboard(String(this.state.scratchPadText.join('\n')))
-            }
-          >
-            Copy
-          </button>
-
+          <button onClick={handleCopy}>Copy</button>
           <button onClick={() => undoLastScratchPadText()}>Undo</button>
-
           <button onClick={() => clearScratchPad()}>Clear</button>
+          <button onClick={() => handleVisibleArtToggle()}>Art</button>
         </Tools>
+        <Art visibleArt={this.state.visibleArt} />
+        <GridVisual />
         <GridPrimary
           onMouseDown={this.handleMouseDown}
           onMouseUp={this.handleMouseUp}
@@ -210,7 +241,7 @@ class DrawingTools extends React.Component {
           </EphemeralRectangle>
           {this.props.children}
         </GridPrimary>
-      </div>
+      </HotKeys>
     )
   }
 }

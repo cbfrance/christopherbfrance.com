@@ -10,9 +10,12 @@
     "gatsby-plugin-react-helmet": "^2.0.8",
     "polished": "^1.9.2",
     "react-cursor-position": "^2.4.1",
-    "react-helmet": "^5.2.0"
+    "react-helmet": "^5.2.0",
+    "react-hotkeys": "^1.0.5"
   },
-  "keywords": ["gatsby"],
+  "keywords": [
+    "gatsby"
+  ],
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",

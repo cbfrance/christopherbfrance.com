@@ -72,7 +72,7 @@ export const Item = styled.div`
 
   /* Debugging marks */ 
   &::before, &::after {
-    display: ${props => (props.marks ? 'block' : 'none')};
+    display: block;
     position: absolute;
     font-size: 5px;
     color: aqua;
