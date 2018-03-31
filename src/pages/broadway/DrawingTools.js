@@ -7,19 +7,14 @@ import {
   LabelSecondary,
   EphemeralRectangle,
   ephemeralColor,
+  gridUnit,
+  lineThickness,
   gridWidth,
   gridHeight,
+  GridVisual,
 } from './styles'
 import { convertToGrid, copyToClipboard } from './helpers'
 import { HotKeys } from 'react-hotkeys'
-import GridVisual from './GridVisual'
-
-const hotkeyMap = {
-  copy: 'c',
-  undo: 'u',
-  grid: 'g',
-  art: 'a',
-}
 
 const artColors = ['blue', 'red', 'yellow', 'grey', 'lightgrey']
 
@@ -88,6 +83,7 @@ class DrawingTools extends React.Component {
       color: '',
       scratchPadText: [],
       visibleArt: true,
+      visibleGrid: false,
     }
     this.handleMouseDown = this.handleMouseDown.bind(this)
     this.handleMouseUp = this.handleMouseUp.bind(this)
@@ -177,29 +173,42 @@ class DrawingTools extends React.Component {
   }
 
   render() {
+    const handleUndo = event => {
+      const currentScratchPadText = this.state.scratchPadText
+      const newScratchPadText = currentScratchPadText.slice(0, -1)
+      this.setState({ scratchPadText: newScratchPadText })
+    }
+
     const handleCopy = event =>
       copyToClipboard(String(this.state.scratchPadText.join('\n')))
 
-    const handleVisibleArtToggle = event =>
+    const artToggle = event =>
       this.state.visibleArt
         ? this.setState({ visibleArt: false })
         : this.setState({ visibleArt: true })
 
+    const gridToggle = event =>
+      this.state.visibleGrid
+        ? this.setState({ visibleGrid: false })
+        : this.setState({ visibleGrid: true })
+
     const hotkeyHandlers = {
       copy: handleCopy,
-      art: handleVisibleArtToggle,
+      art: artToggle,
+      grid: gridToggle,
+      undo: handleUndo,
+    }
+
+    const hotkeyMap = {
+      copy: 'c',
+      art: 'a',
+      grid: 'g',
+      undo: 'u',
     }
 
     const boxDrawn = `${this.state.firstCoordinates}/${
       this.state.secondCoordinates
     }`
-
-    const undoLastScratchPadText = () => {
-      const currentScratchPadText = this.state.scratchPadText
-      const newScratchPadText = currentScratchPadText.slice(0, -1)
-      this.setState({ scratchPadText: newScratchPadText })
-      console.log('removed an item')
-    }
 
     const clearScratchPad = () => {
       this.setState({ scratchPadText: [] })
@@ -216,10 +225,11 @@ class DrawingTools extends React.Component {
           <button onClick={handleCopy}>Copy</button>
           <button onClick={() => undoLastScratchPadText()}>Undo</button>
           <button onClick={() => clearScratchPad()}>Clear</button>
-          <button onClick={() => handleVisibleArtToggle()}>Art</button>
+          <button onClick={() => artToggle()}>Art</button>
+          <button onClick={() => gridToggle()}>Grid</button>
         </Tools>
         <Art visibleArt={this.state.visibleArt} />
-        <GridVisual />
+        <GridVisual visibleGrid={this.state.visibleGrid} />
         <GridPrimary
           onMouseDown={this.handleMouseDown}
           onMouseUp={this.handleMouseUp}
