@@ -50,6 +50,24 @@ export const GridPrimary = styled.div`
   grid-template-rows: repeat(${gridColumns}, ${gridUnit});
   width: ${gridWidth};
   height: ${gridColumns};
+
+  & > div {
+    /* Toggleable grid items */
+    transition: opacity 0.6s;
+    visibility: ${props => (props.visibleGridItems ? 'visible' : 'hidden')};
+
+    /* Toggleable ebugging marks on grid items */
+    &::before,
+    &::after {
+      display: block;
+      visibility: visible;
+      position: absolute;
+      font-size: 5px;
+      color: aqua;
+      transition: opacity 0.6s;
+      opacity: ${props => (props.visibleMarks ? '1' : '0')};
+    }
+  }
 `
 
 // The grid items
@@ -69,14 +87,6 @@ export const Item = styled.div`
   ${props => (props.nudgeLeft ? 'margin-left: -2px;' : '')};
   ${props => (props.nudgeUp ? 'margin-top: -2px;' : '')};
   ${props => (props.nudgeDown ? 'margin-bottom: -2px;' : '')};
-
-  /* Debugging marks */ 
-  &::before, &::after {
-    display: block;
-    position: absolute;
-    font-size: 5px;
-    color: aqua;
-  }
 
   &::before {
     content: '${props =>

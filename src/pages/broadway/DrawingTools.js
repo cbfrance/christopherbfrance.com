@@ -84,6 +84,8 @@ class DrawingTools extends React.Component {
       scratchPadText: [],
       visibleArt: true,
       visibleGrid: false,
+      visibleMarks: false,
+      visibleGridItems: false,
     }
     this.handleMouseDown = this.handleMouseDown.bind(this)
     this.handleMouseUp = this.handleMouseUp.bind(this)
@@ -192,11 +194,23 @@ class DrawingTools extends React.Component {
         ? this.setState({ visibleGrid: false })
         : this.setState({ visibleGrid: true })
 
+    const marksToggle = event =>
+      this.state.visibleMarks
+        ? this.setState({ visibleMarks: false })
+        : this.setState({ visibleMarks: true })
+
+    const gridItemsToggle = event =>
+      this.state.visibleGridItems
+        ? this.setState({ visibleGridItems: false })
+        : this.setState({ visibleGridItems: true })
+
     const hotkeyHandlers = {
       c: handleCopy,
       a: artToggle,
       g: gridToggle,
       u: handleUndo,
+      m: marksToggle,
+      i: gridItemsToggle,
     }
 
     const boxDrawn = `${this.state.firstCoordinates}/${
@@ -224,6 +238,8 @@ class DrawingTools extends React.Component {
           <button onClick={() => clearScratchPad()}>Clear</button>
           <button onClick={() => artToggle()}>Art</button>
           <button onClick={() => gridToggle()}>Grid</button>
+          <button onClick={() => marksToggle()}>Marks</button>
+          <button onClick={() => gridItemsToggle()}>Items</button>
         </Tools>
         <Art visibleArt={this.state.visibleArt} />
         <GridVisual visibleGrid={this.state.visibleGrid} />
@@ -231,9 +247,12 @@ class DrawingTools extends React.Component {
           onMouseDown={this.handleMouseDown}
           onMouseUp={this.handleMouseUp}
           onMouseMove={this.handleMouseMove}
+          visibleMarks={this.state.visibleMarks}
+          visibleGridItems={this.state.visibleGridItems}
         >
           <EphemeralRectangle
             style={{
+              visibility: 'visible',
               backgroundColor: this.state.drawing
                 ? 'transparent'
                 : ephemeralColor,
