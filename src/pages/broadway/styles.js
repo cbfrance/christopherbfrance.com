@@ -8,6 +8,7 @@ export const gridHeight = '960px'
 export const gridColumns = '240'
 export const gridVisualColor = 'hsla(204, 80%, 72%, 0.25)'
 export const ephemeralColor = 'hsla(204, 80%, 72%, 0.75)'
+export const transitionSpeedDefault = "0.4s"
 
 export const LabelSecondary = styled.div`
   font-size: 5px;
@@ -37,7 +38,7 @@ export const Container = styled.div`
     --line-thickness: ${lineThickness};
     --visual-grid-color: ${gridVisualColor};
     --container-height: ${gridWidth};
-    --container-width: ${gridHeight};22
+    --container-width: ${gridHeight};
   }
 `
 
@@ -53,7 +54,7 @@ export const GridPrimary = styled.div`
 
   & > div {
     /* Toggleable grid items */
-    transition: opacity 0.6s;
+    transition: opacity ${transitionSpeedDefault};
     visibility: ${props => (props.visibleGridItems ? 'visible' : 'hidden')};
 
     /* Toggleable ebugging marks on grid items */
@@ -64,7 +65,7 @@ export const GridPrimary = styled.div`
       position: absolute;
       font-size: 5px;
       color: aqua;
-      transition: opacity 0.6s;
+      transition: opacity ${transitionSpeedDefault};
       opacity: ${props => (props.visibleMarks ? '1' : '0')};
     }
   }
@@ -127,7 +128,7 @@ export const GridVisual = styled.div`
   width: ${gridWidth};
   height: ${gridHeight};
   opacity: ${props => (props.visibleGrid ? '1' : '0')};
-  transition: opacity .6s;
+  transition: opacity ${transitionSpeedDefault};
 
   background-image: 
     repeating-linear-gradient(${columnGradient}),
@@ -149,4 +150,10 @@ export const GridVisual = styled.div`
     width: 100%;
     min-height: 100%;
     content: '';
+`
+
+export const Row = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 `

@@ -3,6 +3,15 @@ import ReactCursorPosition from 'react-cursor-position'
 import DrawingTools from './DrawingTools'
 import Tooltip from './Tooltip'
 import { Title, Container, Item } from './styles'
+import { injectGlobal } from 'styled-components';
+
+
+injectGlobal`
+  * {
+    outline: none;
+    box-sizing: border-box;
+  }
+`;
 
 const MondrianBroadway = () => (
     <div>
