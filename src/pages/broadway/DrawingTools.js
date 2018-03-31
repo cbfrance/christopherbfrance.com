@@ -10,6 +10,8 @@ import {
 } from './styles'
 import { convertToGrid, copyToClipboard } from './helpers'
 
+const artColors = ['blue', 'red', 'yellow', 'grey', 'lightgrey']
+
 const Buttons = styled.div`
   cursor: default;
   display: flex;
@@ -32,15 +34,14 @@ const Button = styled.a`
   }
 `
 
-const CopyButton = styled(Button)`
-  margin-top: 8px;
-`
-
-const ScratchPad = styled.textarea`
+const ScratchPad = styled.div`
   border: 1px solid grey;
   width: 100%;
   min-height: 100px;
   font-size: 6px;
+
+  background-color: black;
+  color: green;
 `
 
 const Tools = styled.div`
@@ -63,7 +64,7 @@ class DrawingTools extends React.Component {
       secondCoordinates: null,
       drawing: false,
       color: '',
-      scratchPadText: '',
+      scratchPadText: [],
     }
     this.handleMouseDown = this.handleMouseDown.bind(this)
     this.handleMouseUp = this.handleMouseUp.bind(this)
@@ -107,12 +108,9 @@ class DrawingTools extends React.Component {
   //
   handleMouseUp(event) {
     event.preventDefault()
-
     const addToScratchPad = string => {
-      this.setState({
-        scratchPadText: this.state.scratchPadText + '\n' + string,
-      })
-      console.log('adding: ' + string)
+      this.setState({ scratchPadText: [...this.state.scratchPadText, string] })
+      console.log('pushed: ' + string)
     }
 
     // Store the new corner
@@ -160,16 +158,14 @@ class DrawingTools extends React.Component {
       this.state.secondCoordinates
     }`
 
+    const padContents = String(this.state.scratchPadText.join('\n'))
+
     return (
       <div>
         <Tools>
-          <Buttons>
-            {this.colorButtons(['blue', 'red', 'yellow', 'grey', 'lightgrey'])}
-          </Buttons>
-          <ScratchPad value={this.state.scratchPadText} />
-          <button onClick={() => copyToClipboard(this.state.scratchPadText)}>
-            Copy
-          </button>
+          <Buttons>{this.colorButtons(artColors)}</Buttons>
+          <ScratchPad>{padContents}</ScratchPad>
+          <button onClick={() => copyToClipboard(padContents)}>Copy</button>
         </Tools>
         <GridPrimary
           onMouseDown={this.handleMouseDown}
