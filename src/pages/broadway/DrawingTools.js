@@ -11,21 +11,18 @@ import {
 import { convertToGrid, copyToClipboard } from './helpers'
 
 const Buttons = styled.div`
-  padding: 8px;
   cursor: default;
-  position: fixed;
-  top: 0;
   display: flex;
   background-color: white;
   right: 0;
 `
 
 const Button = styled.a`
-  padding: 8px;
+  padding: 4px;
   text-transform: uppercase;
   background-color: ${props => (props.active ? 'lightgrey' : 'transparent')};
   display: inline-block;
-  margin: 8px;
+  margin: 0 8px 8px 0;
   border-radius: 2px;
   font-size: 8px;
   transition: background-color 0.2s;
@@ -35,14 +32,38 @@ const Button = styled.a`
   }
 `
 
-class DrawRectangle extends React.Component {
+const CopyButton = styled(Button)`
+  margin-top: 8px;
+`
+
+const ScratchPad = styled.textarea`
+  border: 1px solid grey;
+  width: 100%;
+  min-height: 100px;
+  font-size: 6px;
+`
+
+const Tools = styled.div`
+  position: fixed;
+  width: 400px;
+  left: 0;
+  bottom: 0;
+  background-color: white;
+  z-index: 2;
+  font-size: 8px;
+  box-shadow: lightgrey 0 0 10px;
+  padding: 8px;
+`
+
+class DrawingTools extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
       firstCoordinates: null,
       secondCoordinates: null,
       drawing: false,
-      color: null,
+      color: '',
+      scratchPadText: '',
     }
     this.handleMouseDown = this.handleMouseDown.bind(this)
     this.handleMouseUp = this.handleMouseUp.bind(this)
@@ -87,6 +108,13 @@ class DrawRectangle extends React.Component {
   handleMouseUp(event) {
     event.preventDefault()
 
+    const addToScratchPad = string => {
+      this.setState({
+        scratchPadText: this.state.scratchPadText + '\n' + string,
+      })
+      console.log('adding: ' + string)
+    }
+
     // Store the new corner
     const secondCoordinates = convertToGrid(
       this.props.position.y,
@@ -99,8 +127,7 @@ class DrawRectangle extends React.Component {
     // Read the down coodinates
     const { firstCoordinates } = this.state
 
-    // Copy it
-    copyToClipboard(
+    addToScratchPad(
       `<Item area="${firstCoordinates}/${secondCoordinates}" color="${
         this.state.color
       }"/>`
@@ -119,6 +146,7 @@ class DrawRectangle extends React.Component {
           <Button
             active={this.state.color == color}
             onClick={() => this.handleColorButton(color)}
+            key={color}
           >
             {color}
           </Button>
@@ -134,9 +162,15 @@ class DrawRectangle extends React.Component {
 
     return (
       <div>
-        <Buttons>
-          {this.colorButtons(['blue', 'red', 'yellow', 'grey', 'lightgrey'])}
-        </Buttons>
+        <Tools>
+          <Buttons>
+            {this.colorButtons(['blue', 'red', 'yellow', 'grey', 'lightgrey'])}
+          </Buttons>
+          <ScratchPad value={this.state.scratchPadText} />
+          <button onClick={() => copyToClipboard(this.state.scratchPadText)}>
+            Copy
+          </button>
+        </Tools>
         <GridPrimary
           onMouseDown={this.handleMouseDown}
           onMouseUp={this.handleMouseUp}
@@ -163,4 +197,4 @@ class DrawRectangle extends React.Component {
   }
 }
 
-export default DrawRectangle
+export default DrawingTools

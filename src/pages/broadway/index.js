@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactCursorPosition from 'react-cursor-position'
 import Tooltip from './Tooltip'
-import DrawRectangle from './DrawRectangle'
+import DrawingTools from './DrawingTools'
 import GridVisual from './GridVisual'
 import ReferenceArt from './ReferenceArt'
 import { Title, Container, Item } from './styles'
@@ -14,7 +14,7 @@ const MondrianBroadway = () => (
             <GridVisual />
             <ReactCursorPosition>
                 <Tooltip />
-                <DrawRectangle>
+                <DrawingTools>
                     {/* Yellow columns */}
                     <Item area="1/7/80/12" yellow />
                     <Item area="1/15/-1/20" yellow />
@@ -173,7 +173,7 @@ const MondrianBroadway = () => (
                     <Item area="228/10/233/15" grey />
                     <Item area="206/112/211/117" blue />
                     <Item area="114/98/128/115" grey />
-                </DrawRectangle>
+                </DrawingTools>
             </ReactCursorPosition>
         </Container>
     </div>
