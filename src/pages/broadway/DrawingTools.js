@@ -158,14 +158,20 @@ class DrawingTools extends React.Component {
       this.state.secondCoordinates
     }`
 
-    const padContents = String(this.state.scratchPadText.join('\n'))
-
     return (
       <div>
         <Tools>
           <Buttons>{this.colorButtons(artColors)}</Buttons>
-          <ScratchPad>{padContents}</ScratchPad>
-          <button onClick={() => copyToClipboard(padContents)}>Copy</button>
+          <ScratchPad>
+            {String(this.state.scratchPadText.join('\n'))}
+          </ScratchPad>
+          <button
+            onClick={() =>
+              copyToClipboard(String(this.state.scratchPadText.join('\n')))
+            }
+          >
+            Copy
+          </button>
         </Tools>
         <GridPrimary
           onMouseDown={this.handleMouseDown}
