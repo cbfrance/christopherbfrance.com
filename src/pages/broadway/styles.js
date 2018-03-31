@@ -1,5 +1,4 @@
 import styled from 'styled-components'
-import { topLeftCoordinates, bottomRightCoordinates } from './helpers'
 
 export const lineThickness = '1px'
 export const gridUnit = '4px'
@@ -14,6 +13,14 @@ export const LabelSecondary = styled.div`
   font-size: 5px;
   text-align: center;
 `
+
+export const colors = {
+  "yellow": "#ebd532",
+  "red": "#9b2f23",
+  "blue": "#4163b6",
+  "lightgrey": "#dddddb",
+  "white": "#f2f3ee",
+}
 
 export const EphemeralRectangle = styled.div`
   z-index: 4;
@@ -30,6 +37,7 @@ export const Title = styled.h1`
 export const Container = styled.div`
   position: relative;
   cursor: crosshair;
+  background-color: ${colors.white};
 
   /* Settings */
   & {
@@ -45,7 +53,7 @@ export const Container = styled.div`
 // The grid container
 // Immediate children are grid items ... this is used multiple times to achieve overlaying grids
 export const GridPrimary = styled.div`
-  opacity: 0.4;
+  opacity: 1;
   display: grid;
   grid-template-columns: repeat(${gridColumns}, ${gridUnit});
   grid-template-rows: repeat(${gridColumns}, ${gridUnit});
@@ -68,41 +76,6 @@ export const GridPrimary = styled.div`
       transition: opacity ${transitionSpeedDefault};
       opacity: ${props => (props.visibleMarks ? '1' : '0')};
     }
-  }
-`
-
-// The grid items
-// The area prop is read to create debugging crosshairs
-export const Item = styled.div`
-  grid-area: ${props => (props.area ? props.area : null)};
-  position: relative;
-
-  /* Colors */
-  ${props => (props.yellow ? 'background-color: orange;' : '')};
-  ${props => (props.blue ? 'background-color: blue;' : '')};
-  ${props => (props.red ? 'background-color: red;' : '')};
-  ${props => (props.grey ? 'background-color: grey;' : '')};
-
-  /* Tweaks: Not all the art is grid aligned */
-  ${props => (props.nudgeRight ? 'margin-right: -2px;' : '')};
-  ${props => (props.nudgeLeft ? 'margin-left: -2px;' : '')};
-  ${props => (props.nudgeUp ? 'margin-top: -2px;' : '')};
-  ${props => (props.nudgeDown ? 'margin-bottom: -2px;' : '')};
-
-  &::before {
-    content: '${props =>
-      props.area ? topLeftCoordinates(props.area) : 'null'}';
-    border-top: ${props => (props.nudgeUp ? '2px' : '1px')} solid aqua;
-    border-left: ${props => (props.nudgeLeft ? '2px' : '1px')} solid aqua;
-  }
-
-  &::after {
-    content: '${props =>
-      props.area ? bottomRightCoordinates(props.area) : 'null'}';
-    border-bottom: ${props => (props.nudgeDown ? '2px' : '1px')} solid aqua;
-    border-right: ${props => (props.nudgeRight ? '2px' : '1px')} solid aqua;
-    bottom: 0;
-    right: 0;
   }
 `
 
@@ -136,7 +109,6 @@ export const GridVisual = styled.div`
 
   background-size: 100% 100%;
   background-position: 0;
-  z-index: 1000;
   pointer-events: none;
 
   &::before {

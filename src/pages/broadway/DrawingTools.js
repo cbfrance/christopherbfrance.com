@@ -13,6 +13,7 @@ import {
   gridWidth,
   gridHeight,
   GridVisual,
+  Row,
 } from './styles'
 import { convertToGrid, copyToClipboard } from './helpers'
 import { HotKeys } from 'react-hotkeys'
@@ -28,13 +29,18 @@ const Art = styled.div`
   position: absolute;
   opacity: ${props => (props.visibleArt ? '1' : '0')};
   transition: opacity 0.5s;
+  z-index: 0;
 `
-
-const Buttons = styled.div`
-  cursor: default;
+const ButtonGroup = styled.div`
+  margin-right: 16px;
+  padding-right: 8px;
+  border-right: 1px solid #c8c8c8;
   display: flex;
-  background-color: white;
-  right: 0;
+  align-items: center;
+  flex-wrap: wrap;
+  &:last-of-type {
+    border-right-width: 0;
+  }
 `
 
 const Button = styled.a`
@@ -42,7 +48,7 @@ const Button = styled.a`
   text-transform: uppercase;
   background-color: ${props => (props.active ? 'lightgrey' : 'transparent')};
   display: inline-block;
-  margin: 0 8px 8px 0;
+  margin-right: 8px;
   border-radius: 2px;
   font-size: 8px;
   transition: background-color 0.2s;
@@ -53,24 +59,26 @@ const Button = styled.a`
 `
 
 const ScratchPad = styled.div`
-  border: 1px solid grey;
   width: 100%;
-  min-height: 100px;
+  min-height: 50px;
   font-size: 6px;
   background-color: black;
   color: green;
+  margin-bottom: 8px;
 `
 
 const Tools = styled.div`
   position: fixed;
-  width: 400px;
+  width: 100%;
   left: 0;
   bottom: 0;
   background-color: white;
-  z-index: 2;
   font-size: 8px;
   box-shadow: lightgrey 0 0 10px;
   padding: 8px;
+  opacity: 1;
+  z-index: 3;
+  cursor: default;
 `
 
 class DrawingTools extends React.Component {
@@ -228,21 +236,32 @@ class DrawingTools extends React.Component {
 
     return (
       <HotKeys ref={autofocus} handlers={hotkeyHandlers}>
+        
+        <Art visibleArt={this.state.visibleArt} />
+        <GridVisual visibleGrid={this.state.visibleGrid} />
+
         <Tools>
-          <Buttons>{this.colorButtons(artColors)}</Buttons>
           <ScratchPad>
             {String(this.state.scratchPadText.join('\n'))}
           </ScratchPad>
-          <button onClick={handleCopy}>Copy</button>
-          <button onClick={() => undoLastScratchPadText()}>Undo</button>
-          <button onClick={() => clearScratchPad()}>Clear</button>
-          <button onClick={() => artToggle()}>Art</button>
-          <button onClick={() => gridToggle()}>Grid</button>
-          <button onClick={() => marksToggle()}>Marks</button>
-          <button onClick={() => gridItemsToggle()}>Items</button>
+          <Row>
+            <ButtonGroup>
+              <Button onClick={handleCopy}>Copy (c)</Button>
+              <Button onClick={() => handleUndo()}>Undo (u)</Button>
+              <Button onClick={() => clearScratchPad()}>Clear</Button>
+            </ButtonGroup>
+            <ButtonGroup>
+              <Button onClick={() => artToggle()}>Art (a)</Button>
+              <Button onClick={() => gridToggle()}>Grid (g)</Button>
+              <Button onClick={() => marksToggle()}>Marks (m)</Button>
+              <Button onClick={() => gridItemsToggle()}>Items (i)</Button>
+            </ButtonGroup>
+            <ButtonGroup>
+              {this.colorButtons(artColors)}
+            </ButtonGroup>
+          </Row>
         </Tools>
-        <Art visibleArt={this.state.visibleArt} />
-        <GridVisual visibleGrid={this.state.visibleGrid} />
+
         <GridPrimary
           onMouseDown={this.handleMouseDown}
           onMouseUp={this.handleMouseUp}
