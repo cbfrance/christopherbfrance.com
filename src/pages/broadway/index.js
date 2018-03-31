@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactCursorPosition from 'react-cursor-position'
-import Tooltip from './Tooltip'
 import DrawingTools from './DrawingTools'
+import Tooltip from './Tooltip'
 import { Title, Container, Item } from './styles'
 
 const MondrianBroadway = () => (

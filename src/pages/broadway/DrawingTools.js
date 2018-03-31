@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import ReactDOM from 'react-dom'
 
 import {
   GridPrimary,
@@ -56,7 +57,6 @@ const ScratchPad = styled.div`
   width: 100%;
   min-height: 100px;
   font-size: 6px;
-
   background-color: black;
   color: green;
 `
@@ -193,17 +193,10 @@ class DrawingTools extends React.Component {
         : this.setState({ visibleGrid: true })
 
     const hotkeyHandlers = {
-      copy: handleCopy,
-      art: artToggle,
-      grid: gridToggle,
-      undo: handleUndo,
-    }
-
-    const hotkeyMap = {
-      copy: 'c',
-      art: 'a',
-      grid: 'g',
-      undo: 'u',
+      c: handleCopy,
+      a: artToggle,
+      g: gridToggle,
+      u: handleUndo,
     }
 
     const boxDrawn = `${this.state.firstCoordinates}/${
@@ -215,8 +208,12 @@ class DrawingTools extends React.Component {
       console.log('cleared scratch pad')
     }
 
+    // Autofocus to enable global hotkeys
+    // See: https://github.com/greena13/react-hotkeys/issues/25
+    const autofocus = el => el && ReactDOM.findDOMNode(el).focus()
+
     return (
-      <HotKeys keyMap={hotkeyMap} handlers={hotkeyHandlers} focused>
+      <HotKeys ref={autofocus} handlers={hotkeyHandlers}>
         <Tools>
           <Buttons>{this.colorButtons(artColors)}</Buttons>
           <ScratchPad>
