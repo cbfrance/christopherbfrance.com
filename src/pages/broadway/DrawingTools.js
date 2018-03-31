@@ -158,6 +158,18 @@ class DrawingTools extends React.Component {
       this.state.secondCoordinates
     }`
 
+    const undoLastScratchPadText = () => {
+      const currentScratchPadText = this.state.scratchPadText
+      const newScratchPadText = currentScratchPadText.slice(0, -1)
+      this.setState({ scratchPadText: newScratchPadText })
+      console.log('removed an item')
+    }
+
+    const clearScratchPad = () => {
+      this.setState({ scratchPadText: [] })
+      console.log('cleared scratch pad')
+    }
+
     return (
       <div>
         <Tools>
@@ -172,6 +184,10 @@ class DrawingTools extends React.Component {
           >
             Copy
           </button>
+
+          <button onClick={() => undoLastScratchPadText()}>Undo</button>
+
+          <button onClick={() => clearScratchPad()}>Clear</button>
         </Tools>
         <GridPrimary
           onMouseDown={this.handleMouseDown}
