@@ -102,7 +102,6 @@ export const GridVisual = styled.div`
   height: ${gridHeight};
   opacity: ${props => (props.visibleGrid ? '1' : '0')};
   transition: opacity ${transitionSpeedDefault};
-
   background-image: 
     repeating-linear-gradient(${columnGradient}),
     repeating-linear-gradient(${rowGradient});
@@ -128,4 +127,27 @@ export const Row = styled.div`
   display: flex;
   align-items: center;
   justify-content: flex-start;
+`
+
+// The grid items
+// The area prop is read to create debugging crosshairs
+export const Item = styled.div`
+  grid-area: ${props => (props.area ? props.area : null)};
+  position: relative;
+
+  &::before {
+    content: '${props =>
+      props.area ? topLeftCoordinates(props.area) : 'null'}';
+    border-top: ${props => (props.nudgeUp ? '2px' : '1px')} solid aqua;
+    border-left: ${props => (props.nudgeLeft ? '2px' : '1px')} solid aqua;
+  }
+
+  &::after {
+    content: '${props =>
+      props.area ? bottomRightCoordinates(props.area) : 'null'}';
+    border-bottom: ${props => (props.nudgeDown ? '2px' : '1px')} solid aqua;
+    border-right: ${props => (props.nudgeRight ? '2px' : '1px')} solid aqua;
+    bottom: 0;
+    right: 0;
+  }
 `
