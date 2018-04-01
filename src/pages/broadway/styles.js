@@ -53,7 +53,7 @@ export const Container = styled.div`
 // The grid container
 // Immediate children are grid items ... this is used multiple times to achieve overlaying grids
 export const GridPrimary = styled.div`
-  opacity: 1;
+  opacity: 0.9;
   display: grid;
   grid-template-columns: repeat(${gridColumns}, ${gridUnit});
   grid-template-rows: repeat(${gridColumns}, ${gridUnit});
