@@ -14,6 +14,27 @@ injectGlobal`
   }
 `
 
+const Mark = styled.div`
+    position: absolute;
+    font-size: 5px;
+    width: 4px;
+    height: 4px;
+`
+
+const TopLeftMark = styled(Mark)`
+    top: 0;
+    left: 0;
+    border-top: 1px solid aqua;
+    border-left: 1px solid aqua;
+`
+
+const BottomRightMark = styled(Mark)`
+    bottom: 0;
+    right: 0;
+    border-bottom: 1px solid aqua;
+    border-right: 1px solid aqua;
+`
+
 const gridItemsAsHTML = JSON.parse(gridItems).map((item, index) => (
     <Item
         key={index}
@@ -23,34 +44,8 @@ const gridItemsAsHTML = JSON.parse(gridItems).map((item, index) => (
             backgroundColor: item.color,
         }}
     >
-        <div
-            style={{
-                position: 'absolute',
-                fontSize: 5,
-                top: 0,
-                left: 0,
-                width: 4,
-                height: 4,
-                borderTop: '1px solid aqua',
-                borderLeft: '1px solid aqua',
-            }}
-        >
-            {topLeftCoordinates(item.area)}
-        </div>
-        <div
-            style={{
-                position: 'absolute',
-                fontSize: 5,
-                bottom: 0,
-                right: 0,
-                width: 4,
-                height: 4,
-                borderBottom: '1px solid aqua',
-                borderRight: '1px solid aqua',
-            }}
-        >
-            {bottomRightCoordinates(item.area)}
-        </div>
+        <TopLeftMark>{topLeftCoordinates(item.area)}</TopLeftMark>
+        <BottomRightMark>{bottomRightCoordinates(item.area)}</BottomRightMark>
     </Item>
 ))
 
