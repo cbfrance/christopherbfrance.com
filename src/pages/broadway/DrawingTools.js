@@ -1,20 +1,9 @@
 import React from 'react'
 import styled from 'styled-components'
 import ReactDOM from 'react-dom'
+import EphemeralRectangle from './EphemeralRectangle'
 
-import {
-  GridPrimary,
-  boxColor,
-  LabelSecondary,
-  EphemeralRectangle,
-  ephemeralColor,
-  gridUnit,
-  lineThickness,
-  gridWidth,
-  gridHeight,
-  GridVisual,
-  Row,
-} from './styles'
+import { GridPrimary, boxColor, gridUnit, lineThickness, gridWidth, gridHeight, GridVisual, Row } from './styles'
 import { convertToGrid, copyToClipboard } from './helpers'
 import { HotKeys } from 'react-hotkeys'
 
@@ -194,8 +183,6 @@ class DrawingTools extends React.Component {
       i: gridItemsToggle,
     }
 
-    const boxDrawn = `${this.state.firstCoordinates}/${this.state.secondCoordinates}`
-
     const clearConsole = () => {
       this.setState({ consoleText: [] })
       console.log('cleared scratch pad')
@@ -214,7 +201,7 @@ class DrawingTools extends React.Component {
           <Console>{String(this.state.consoleText.join('\n'))}</Console>
           <Row>
             <ButtonGroup>
-              <Button onClick={handleCopy}>Copy (c)</Button>
+              <Button onClick={() => handleCopy()}>Copy (c)</Button>
               <Button onClick={() => handleUndo()}>Undo (u)</Button>
               <Button onClick={() => clearConsole()}>Clear</Button>
             </ButtonGroup>
@@ -236,16 +223,10 @@ class DrawingTools extends React.Component {
           visibleGridItems={this.state.visibleGridItems}
         >
           <EphemeralRectangle
-            style={{
-              visibility: 'visible',
-              backgroundColor: this.state.drawing ? 'transparent' : ephemeralColor,
-              border: `1px solid ${this.state.drawing ? 'aqua' : 'transparent'}`,
-              gridArea: boxDrawn,
-              transition: 'background-color, 1s, border-color, 1s',
-            }}
-          >
-            {<LabelSecondary>{boxDrawn}</LabelSecondary>}
-          </EphemeralRectangle>
+            firstCoordinates={this.state.firstCoordinates}
+            secondCoordinates={this.state.secondCoordinates}
+            drawing={this.state.drawing}
+          />
           {this.props.children}
         </GridPrimary>
       </HotKeys>

@@ -7,7 +7,7 @@ export const gridHeight = '960px'
 export const gridColumns = '240'
 export const gridVisualColor = 'hsla(204, 80%, 72%, 0.25)'
 export const ephemeralColor = 'hsla(204, 80%, 72%, 0.75)'
-export const transitionSpeedDefault = "0.4s"
+export const transitionSpeedDefault = '0.4s'
 
 export const LabelSecondary = styled.div`
   font-size: 5px;
@@ -15,11 +15,11 @@ export const LabelSecondary = styled.div`
 `
 
 export const colors = {
-  "yellow": "#ebd532",
-  "red": "#9b2f23",
-  "blue": "#4163b6",
-  "lightgrey": "#dddddb",
-  "white": "#f2f3ee",
+  yellow: '#ebd532',
+  red: '#9b2f23',
+  blue: '#4163b6',
+  lightgrey: '#dddddb',
+  white: '#f2f3ee',
 }
 
 export const EphemeralRectangle = styled.div`
@@ -130,24 +130,8 @@ export const Row = styled.div`
 `
 
 // The grid items
-// The area prop is read to create debugging crosshairs
+// Position relative to contain debugging marks
 export const Item = styled.div`
   grid-area: ${props => (props.area ? props.area : null)};
   position: relative;
-
-  &::before {
-    content: '${props =>
-      props.area ? topLeftCoordinates(props.area) : 'null'}';
-    border-top: ${props => (props.nudgeUp ? '2px' : '1px')} solid aqua;
-    border-left: ${props => (props.nudgeLeft ? '2px' : '1px')} solid aqua;
-  }
-
-  &::after {
-    content: '${props =>
-      props.area ? bottomRightCoordinates(props.area) : 'null'}';
-    border-bottom: ${props => (props.nudgeDown ? '2px' : '1px')} solid aqua;
-    border-right: ${props => (props.nudgeRight ? '2px' : '1px')} solid aqua;
-    bottom: 0;
-    right: 0;
-  }
 `

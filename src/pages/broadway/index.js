@@ -15,7 +15,43 @@ injectGlobal`
 `
 
 const gridItemsAsHTML = JSON.parse(gridItems).map((item, index) => (
-    <Item key={index} style={{ position: 'relative', gridArea: item.area, backgroundColor: item.color }} />
+    <Item
+        key={index}
+        style={{
+            position: 'relative',
+            gridArea: item.area,
+            backgroundColor: item.color,
+        }}
+    >
+        <div
+            style={{
+                position: 'absolute',
+                fontSize: 5,
+                top: 0,
+                left: 0,
+                width: 4,
+                height: 4,
+                borderTop: '1px solid aqua',
+                borderLeft: '1px solid aqua',
+            }}
+        >
+            {topLeftCoordinates(item.area)}
+        </div>
+        <div
+            style={{
+                position: 'absolute',
+                fontSize: 5,
+                bottom: 0,
+                right: 0,
+                width: 4,
+                height: 4,
+                borderBottom: '1px solid aqua',
+                borderRight: '1px solid aqua',
+            }}
+        >
+            {bottomRightCoordinates(item.area)}
+        </div>
+    </Item>
 ))
 
 const MondrianBroadway = () => (
@@ -24,7 +60,7 @@ const MondrianBroadway = () => (
         <Container>
             <ReactCursorPosition>
                 <Tooltip />
-                <DrawingTools>{gridItemsAsHTML}</DrawingTools>
+                <DrawingTools style={{ position: 'absolute', top: '100px' }}>{gridItemsAsHTML}</DrawingTools>
             </ReactCursorPosition>
         </Container>
     </div>

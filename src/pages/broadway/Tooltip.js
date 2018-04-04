@@ -23,10 +23,7 @@ const Tooltip = props => {
     const { position: { x = 0, y = 0 } = {}, isPositionOutside = false } = props
 
     return (
-        <Label
-            display={isPositionOutside}
-            style={{ top: y + labelOffset, left: x + labelOffset }}
-        >
+        <Label display={isPositionOutside} style={{ top: y + labelOffset, left: x + labelOffset }}>
             {convertToGrid(y, x)}
         </Label>
     )
