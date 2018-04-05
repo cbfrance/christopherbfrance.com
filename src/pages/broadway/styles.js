@@ -60,20 +60,14 @@ export const GridPrimary = styled.div`
   height: ${gridColumns};
 
   & > div {
-    /* Toggleable grid items */
-    transition: opacity ${transitionSpeedDefault};
+    // Toggleable grid items
+    // We toggle this here (instead of the child items) for performance
     visibility: ${props => (props.visibleGridItems ? 'visible' : 'hidden')};
+    transition: opacity ${transitionSpeedDefault};
 
-    /* Toggleable ebugging marks on grid items */
-    &::before,
-    &::after {
-      display: block;
-      visibility: visible;
-      position: absolute;
-      font-size: 5px;
-      color: aqua;
-      transition: opacity ${transitionSpeedDefault};
-      opacity: ${props => (props.visibleMarks ? '1' : '0')};
+    // Toggleable marks
+    & > div {
+      visibility: ${props => (props.visibleMarks ? 'visible' : 'hidden')};
     }
   }
 `
@@ -212,4 +206,8 @@ export const ToolsPanel = styled.div`
   opacity: 1;
   z-index: 2;
   cursor: default;
+`
+
+export const EphemeralRectangleInPixels = styled.div`
+  border: 1px solid black;
 `
