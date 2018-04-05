@@ -11,13 +11,14 @@ const Label = styled.div`
     padding: 0 2px;
     font-size: 8px;
     transition: display 0.4s;
+    z-index: 4;
 `
 
 const labelOffset = 2
 
 // Tooltip is the tooltip that shows the current x/y position, converted to grid columns
 const Tooltip = props => {
-    // A parent component passes in these props:
+    // A parent component, ReactCursorPosition, passes in these props:
     // For more options see
     // https://github.com/ethanselzer/react-cursor-position
     const { position: { x = 0, y = 0 } = {}, isPositionOutside = false } = props

@@ -3,97 +3,31 @@ import styled from 'styled-components'
 import ReactDOM from 'react-dom'
 import EphemeralRectangle from './EphemeralRectangle'
 
-import { colors, GridPrimary, boxColor, gridUnit, lineThickness, gridWidth, gridHeight, GridVisual, Row, Item } from './styles'
+import {
+  colors,
+  GridPrimary,
+  boxColor,
+  gridUnit,
+  lineThickness,
+  gridWidth,
+  gridHeight,
+  GridVisual,
+  Row,
+  Item,
+  TopLeftMark,
+  BottomRightMark,
+  Art,
+  ButtonGroup,
+  Button,
+  Console,
+  ToolsPanel,
+} from './styles'
 import { convertToGrid, copyToClipboard } from './helpers'
 import { HotKeys } from 'react-hotkeys'
 import { topLeftCoordinates, bottomRightCoordinates } from './helpers'
 import { gridItems } from './gridItems.js'
 
-const Mark = styled.div`
-  position: absolute;
-  font-size: 5px;
-  width: 4px;
-  height: 4px;
-`
-
-const TopLeftMark = styled(Mark)`
-  top: 0;
-  left: 0;
-  border-top: 1px solid aqua;
-  border-left: 1px solid aqua;
-`
-
-const BottomRightMark = styled(Mark)`
-  bottom: 0;
-  right: 0;
-  border-bottom: 1px solid aqua;
-  border-right: 1px solid aqua;
-`
-
 const artColorButtonLabels = ['blue', 'red', 'yellow', 'grey', 'lightgrey']
-
-const Art = styled.div`
-  background: url('/static/reference/mondrian-broadway.jpg');
-  background-repeat: no-repeat;
-  background-size: contain;
-  width: ${gridWidth};
-  height: ${gridHeight};
-  position: absolute;
-  opacity: ${props => (props.visibleArt ? '0.8' : '0')};
-  transition: opacity 0.5s;
-  z-index: 0;
-  border: 3px solid green;
-`
-const ButtonGroup = styled.div`
-  margin-right: 16px;
-  padding-right: 8px;
-  border-right: 1px solid #c8c8c8;
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  &:last-of-type {
-    border-right-width: 0;
-  }
-`
-
-const Button = styled.a`
-  padding: 4px;
-  text-transform: uppercase;
-  background-color: ${props => (props.active ? 'lightgrey' : 'transparent')};
-  display: inline-block;
-  margin-right: 8px;
-  border-radius: 2px;
-  font-size: 8px;
-  transition: background-color 0.2s;
-  border: 1px solid lightgrey;
-  &:hover {
-    border: 1px solid grey;
-  }
-`
-
-const Console = styled.div`
-  width: 100%;
-  min-height: 50px;
-  font-size: 6px;
-  background-color: black;
-  color: green;
-  margin-bottom: 8px;
-`
-
-const ToolsPanel = styled.div`
-  position: fixed;
-  width: 100%;
-  left: 0;
-  bottom: 0;
-  background-color: white;
-  font-size: 8px;
-  box-shadow: lightgrey 0 0 10px;
-  padding: 8px;
-  opacity: 1;
-  z-index: 3;
-  cursor: default;
-  border: 3px solid orange;
-`
 
 class DrawingTools extends React.Component {
   constructor(props) {
@@ -118,11 +52,8 @@ class DrawingTools extends React.Component {
   //
   handleMouseDown(event) {
     event.preventDefault()
-
     const coordiates = convertToGrid(this.props.position.y, this.props.position.x)
-
     this.setState({
-      // Drawing a new rectangle
       drawing: true,
       // These props come from the ReactCursorPosition parent component
       firstCoordinates: coordiates,
@@ -134,10 +65,7 @@ class DrawingTools extends React.Component {
   //
   handleMouseMove(event) {
     event.preventDefault()
-
     const secondCoordinates = convertToGrid(this.props.position.y, this.props.position.x)
-
-    // Set the coordinates if drawing
     this.state.drawing && this.setState({ secondCoordinates })
   }
 
@@ -149,16 +77,9 @@ class DrawingTools extends React.Component {
       this.setState({ consoleText: [...this.state.consoleText, string] })
       console.log('pushed: ' + string)
     }
-
-    // Store the new corner
     const secondCoordinates = convertToGrid(this.props.position.y, this.props.position.x)
-
-    // Set the coordinates, reset drawing state
     this.setState({ secondCoordinates, drawing: false })
-
-    // Read the down coodinates
     const { firstCoordinates } = this.state
-
     addToConsole(`<Item area="${firstCoordinates}/${secondCoordinates}" color="${this.state.color}"/>`)
   }
 

@@ -23,7 +23,6 @@ export const colors = {
 }
 
 export const EphemeralRectangle = styled.div`
-  z-index: 4;
   background: ${ephemeralColor};
 `
 
@@ -102,25 +101,11 @@ export const GridVisual = styled.div`
   height: ${gridHeight};
   opacity: ${props => (props.visibleGrid ? '1' : '0')};
   transition: opacity ${transitionSpeedDefault};
-  background-image: 
-    repeating-linear-gradient(${columnGradient}),
-    repeating-linear-gradient(${rowGradient});
-
+  background-image: repeating-linear-gradient(${columnGradient}), repeating-linear-gradient(${rowGradient});
   background-size: 100% 100%;
   background-position: 0;
   pointer-events: none;
-
-  &::before {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    margin-right: auto;
-    margin-left: auto;
-    width: 100%;
-    min-height: 100%;
-    content: '';
+  z-index: 1;
 `
 
 export const Row = styled.div`
@@ -134,6 +119,7 @@ export const Row = styled.div`
 export const Item = styled.div`
   grid-area: ${props => (props.area ? props.area : null)};
   position: relative;
+  z-index: -1;
 `
 
 export const Centered = styled.div`
@@ -141,4 +127,87 @@ export const Centered = styled.div`
   align-items: center;
   justify-content: center;
   height: 100%;
+`
+
+// Marks
+//
+export const Mark = styled.div`
+  position: absolute;
+  font-size: 5px;
+  width: 4px;
+  height: 4px;
+`
+
+export const TopLeftMark = styled(Mark)`
+  top: 0;
+  left: 0;
+  border-top: 1px solid aqua;
+  border-left: 1px solid aqua;
+`
+
+export const BottomRightMark = styled(Mark)`
+  bottom: 0;
+  right: 0;
+  border-bottom: 1px solid aqua;
+  border-right: 1px solid aqua;
+`
+
+export const Art = styled.div`
+  background: url('/static/reference/mondrian-broadway.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: ${gridWidth};
+  height: ${gridHeight};
+  position: absolute;
+  opacity: ${props => (props.visibleArt ? '0.8' : '0')};
+  transition: opacity 0.5s;
+  z-index: 0;
+`
+export const ButtonGroup = styled.div`
+  margin-right: 16px;
+  padding-right: 8px;
+  border-right: 1px solid #c8c8c8;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  &:last-of-type {
+    border-right-width: 0;
+  }
+`
+
+export const Button = styled.a`
+  padding: 4px;
+  text-transform: uppercase;
+  background-color: ${props => (props.active ? 'lightgrey' : 'transparent')};
+  display: inline-block;
+  margin-right: 8px;
+  border-radius: 2px;
+  font-size: 8px;
+  transition: background-color 0.2s;
+  border: 1px solid lightgrey;
+  &:hover {
+    border: 1px solid grey;
+  }
+`
+
+export const Console = styled.div`
+  width: 100%;
+  min-height: 50px;
+  font-size: 6px;
+  background-color: black;
+  color: green;
+  margin-bottom: 8px;
+`
+
+export const ToolsPanel = styled.div`
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  background-color: white;
+  font-size: 8px;
+  padding: 8px;
+  opacity: 1;
+  z-index: 2;
+  cursor: default;
 `
