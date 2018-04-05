@@ -3,11 +3,34 @@ import styled from 'styled-components'
 import ReactDOM from 'react-dom'
 import EphemeralRectangle from './EphemeralRectangle'
 
-import { GridPrimary, boxColor, gridUnit, lineThickness, gridWidth, gridHeight, GridVisual, Row } from './styles'
+import { colors, GridPrimary, boxColor, gridUnit, lineThickness, gridWidth, gridHeight, GridVisual, Row, Item } from './styles'
 import { convertToGrid, copyToClipboard } from './helpers'
 import { HotKeys } from 'react-hotkeys'
+import { topLeftCoordinates, bottomRightCoordinates } from './helpers'
+import { gridItems } from './gridItems.js'
 
-const artColors = ['blue', 'red', 'yellow', 'grey', 'lightgrey']
+const Mark = styled.div`
+  position: absolute;
+  font-size: 5px;
+  width: 4px;
+  height: 4px;
+`
+
+const TopLeftMark = styled(Mark)`
+  top: 0;
+  left: 0;
+  border-top: 1px solid aqua;
+  border-left: 1px solid aqua;
+`
+
+const BottomRightMark = styled(Mark)`
+  bottom: 0;
+  right: 0;
+  border-bottom: 1px solid aqua;
+  border-right: 1px solid aqua;
+`
+
+const artColorButtonLabels = ['blue', 'red', 'yellow', 'grey', 'lightgrey']
 
 const Art = styled.div`
   background: url('/static/reference/mondrian-broadway.jpg');
@@ -140,7 +163,6 @@ class DrawingTools extends React.Component {
   }
 
   handleColorButton(color) {
-    console.log(color)
     this.setState({ color })
   }
 
@@ -157,6 +179,22 @@ class DrawingTools extends React.Component {
   }
 
   render() {
+    const GridItemsAsHTML = JSON.parse(gridItems).map((item, index) => (
+      <Item
+        key={index}
+        style={{
+          position: 'relative',
+          gridArea: item.area,
+          backgroundColor: colors[item.color],
+        }}
+      >
+        {this.state.visibleMarks && [
+          <TopLeftMark key={index + 'a'}>{topLeftCoordinates(item.area)}</TopLeftMark>,
+          <BottomRightMark key={index + 'b'}>{bottomRightCoordinates(item.area)}</BottomRightMark>,
+        ]}
+      </Item>
+    ))
+
     const handleUndo = event => {
       const currentConsoleText = this.state.consoleText
       const newConsoleText = currentConsoleText.slice(0, -1)
@@ -211,7 +249,7 @@ class DrawingTools extends React.Component {
               <Button onClick={() => marksToggle()}>Marks (m)</Button>
               <Button onClick={() => gridItemsToggle()}>Items (i)</Button>
             </ButtonGroup>
-            <ButtonGroup>{this.colorButtons(artColors)}</ButtonGroup>
+            <ButtonGroup>{this.colorButtons(artColorButtonLabels)}</ButtonGroup>
           </Row>
         </ToolsPanel>
 
@@ -227,7 +265,7 @@ class DrawingTools extends React.Component {
             secondCoordinates={this.state.secondCoordinates}
             drawing={this.state.drawing}
           />
-          {this.props.children}
+          {GridItemsAsHTML}
         </GridPrimary>
       </HotKeys>
     )

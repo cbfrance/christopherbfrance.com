@@ -4,7 +4,6 @@ module.exports = {
         es6: true,
     },
     parser: 'babel-eslint',
-    extends: ['prettier', 'prettier/react'],
     parserOptions: {
         ecmaFeatures: {
             experimentalObjectRestSpread: true,

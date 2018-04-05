@@ -135,3 +135,10 @@ export const Item = styled.div`
   grid-area: ${props => (props.area ? props.area : null)};
   position: relative;
 `
+
+export const Centered = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+`

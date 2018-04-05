@@ -1,5 +1,5 @@
 import React from 'react'
-import { ephemeralColor, LabelSecondary } from './styles'
+import { ephemeralColor, LabelSecondary, Centered } from './styles'
 
 // EphemeralRectangle appears when you draw on top of the grid ....
 // It has "marks"
@@ -17,7 +17,9 @@ const EphemeralRectangle = props => {
                 transition: 'background-color, 1s, border-color, 1s',
             }}
         >
-            <LabelSecondary>{boxDrawn}</LabelSecondary>
+            <Centered>
+                <LabelSecondary>{boxDrawn}</LabelSecondary>
+            </Centered>
         </div>
     )
 }
