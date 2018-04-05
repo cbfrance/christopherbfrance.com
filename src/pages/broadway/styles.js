@@ -193,6 +193,8 @@ export const Button = styled.a`
 export const Console = styled.div`
   width: 100%;
   min-height: 50px;
+  max-height: 100px;
+  overflow-y: scroll;
   font-size: 6px;
   background-color: black;
   color: green;

@@ -75,7 +75,6 @@ class DrawingTools extends React.Component {
     event.preventDefault()
     const addToConsole = string => {
       this.setState({ consoleText: [...this.state.consoleText, string] })
-      console.log('pushed: ' + string)
     }
     const secondCoordinates = convertToGrid(this.props.position.y, this.props.position.x)
     this.setState({ secondCoordinates, drawing: false })
@@ -133,6 +132,11 @@ class DrawingTools extends React.Component {
     const gridItemsToggle = event =>
       this.state.visibleGridItems ? this.setState({ visibleGridItems: false }) : this.setState({ visibleGridItems: true })
 
+    const ephemeralRectangleClear = event => {
+      handleUndo()
+      this.setState({ firstCoordinates: null, secondCoordinates: null })
+    }
+
     const hotkeyHandlers = {
       c: handleCopy,
       a: artToggle,
@@ -140,11 +144,11 @@ class DrawingTools extends React.Component {
       u: handleUndo,
       m: marksToggle,
       i: gridItemsToggle,
+      esc: ephemeralRectangleClear,
     }
 
     const clearConsole = () => {
       this.setState({ consoleText: [] })
-      console.log('cleared scratch pad')
     }
 
     // Autofocus to enable global hotkeys
@@ -165,10 +169,18 @@ class DrawingTools extends React.Component {
               <Button onClick={() => clearConsole()}>Clear</Button>
             </ButtonGroup>
             <ButtonGroup>
-              <Button onClick={() => artToggle()}>Art (a)</Button>
-              <Button onClick={() => gridToggle()}>Grid (g)</Button>
-              <Button onClick={() => marksToggle()}>Marks (m)</Button>
-              <Button onClick={() => gridItemsToggle()}>Items (i)</Button>
+              <Button active={this.state.visibleArt} onClick={() => artToggle()}>
+                Art (a)
+              </Button>
+              <Button active={this.state.visibleGrid} onClick={() => gridToggle()}>
+                Grid (g)
+              </Button>
+              <Button active={this.state.visibleMarks} onClick={() => marksToggle()}>
+                Marks (m)
+              </Button>
+              <Button active={this.state.visibleGridItems} onClick={() => gridItemsToggle()}>
+                Items (i)
+              </Button>
             </ButtonGroup>
             <ButtonGroup>{this.colorButtons(artColorButtonLabels)}</ButtonGroup>
           </Row>
