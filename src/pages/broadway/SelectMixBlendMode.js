@@ -7,7 +7,7 @@ class SelectMixBlendMode extends React.Component {
 
     render() {
         return (
-            <select value={this.state.mixBlendMode} onChange={this.props.handler}>
+            <select value={this.props.mode} onChange={this.props.handler}>
                 <option value="difference">Difference</option>
                 <option value="normal">Normal</option>
                 <option value="multiply">Multiply</option>
