@@ -1,7 +1,6 @@
 import React from 'react'
 import ReactCursorPosition from 'react-cursor-position'
 import styled, { injectGlobal } from 'styled-components'
-import DrawingTools from './DrawingTools'
 import Tooltip from './Tooltip'
 import ReactDOM from 'react-dom'
 import SelectMixBlendMode from './SelectMixBlendMode'
@@ -49,19 +48,15 @@ class MondrianBroadway extends React.Component {
             visibleGridItems: false,
             mixBlendMode: 'multiply',
         }
-        this.handleMouseDown = this.handleMouseDown.bind(this)
-        this.handleMouseUp = this.handleMouseUp.bind(this)
-        this.handleMouseMove = this.handleMouseMove.bind(this)
     }
 
     // MouseDown
     //
-    handleMouseDown(event, x, y) {
+    handleMouseDown = (event, x, y) => {
         event.preventDefault()
         const coordiates = convertToGrid(y, x)
         this.setState({
             drawing: true,
-            // These props come from the ReactCursorPosition parent component
             firstCoordinates: coordiates,
             secondCoordinates: coordiates,
         })
@@ -69,7 +64,7 @@ class MondrianBroadway extends React.Component {
 
     // Move
     //
-    handleMouseMove(event, x, y) {
+    handleMouseMove = (event, x, y) => {
         event.preventDefault()
         const secondCoordinates = convertToGrid(y, x)
         this.state.drawing && this.setState({ secondCoordinates })
@@ -77,7 +72,7 @@ class MondrianBroadway extends React.Component {
 
     // MouseUp
     //
-    handleMouseUp(event, x, y) {
+    handleMouseUp = (event, x, y) => {
         event.preventDefault()
         const addToConsole = string => {
             this.setState({ consoleText: [...this.state.consoleText, string] })
@@ -85,18 +80,14 @@ class MondrianBroadway extends React.Component {
         const secondCoordinates = convertToGrid(y, x)
         this.setState({ secondCoordinates, drawing: false })
         const { firstCoordinates } = this.state
-        addToConsole(`<Item area="${firstCoordinates}/${secondCoordinates}" color="${this.state.color}"/>`)
-    }
-
-    handleColorButton(color) {
-        this.setState({ color })
+        addToConsole(`{"area": "${firstCoordinates}/${secondCoordinates}", "color":"${this.state.color}"},`)
     }
 
     colorButtons = buttonsArray => {
         return (
             <div>
                 {buttonsArray.map(color => (
-                    <Button active={this.state.color == color} onClick={() => this.handleColorButton(color)} key={color}>
+                    <Button active={this.state.color == color} onClick={() => this.setState({ color })} key={color}>
                         {color}
                     </Button>
                 ))}
@@ -104,58 +95,57 @@ class MondrianBroadway extends React.Component {
         )
     }
 
+    handleUndo = event => {
+        const currentConsoleText = this.state.consoleText
+        const newConsoleText = currentConsoleText.slice(0, -1)
+        this.setState({ consoleText: newConsoleText })
+    }
+
+    ephemeralRectangleClear = event => {
+        this.handleUndo()
+        this.setState({ firstCoordinates: null, secondCoordinates: null })
+    }
+
+    handleCopy = event => copyToClipboard(String(this.state.consoleText.join('\n')))
+
+    artToggle = event => (this.state.visibleArt ? this.setState({ visibleArt: false }) : this.setState({ visibleArt: true }))
+
+    gridToggle = event => (this.state.visibleGrid ? this.setState({ visibleGrid: false }) : this.setState({ visibleGrid: true }))
+
+    marksToggle = event => (this.state.visibleMarks ? this.setState({ visibleMarks: false }) : this.setState({ visibleMarks: true }))
+
+    gridItemsToggle = event => (this.state.visibleGridItems ? this.setState({ visibleGridItems: false }) : this.setState({ visibleGridItems: true }))
+
+    mixBlendModeChange = event => {
+        this.setState({ mixBlendMode: event.target.value })
+        event.preventDefault()
+        console.log(event.target.value)
+    }
+
+    clearConsole = () => {
+        this.setState({ consoleText: [] })
+    }
+
+    // Autofocus to enable global hotkeys
+    // See: https://github.com/greena13/react-hotkeys/issues/25
+    autofocus = el => el && ReactDOM.findDOMNode(el).focus()
+
     render() {
-        const handleUndo = event => {
-            const currentConsoleText = this.state.consoleText
-            const newConsoleText = currentConsoleText.slice(0, -1)
-            this.setState({ consoleText: newConsoleText })
-        }
-
-        const handleCopy = event => copyToClipboard(String(this.state.consoleText.join('\n')))
-
-        const artToggle = event => (this.state.visibleArt ? this.setState({ visibleArt: false }) : this.setState({ visibleArt: true }))
-
-        const gridToggle = event => (this.state.visibleGrid ? this.setState({ visibleGrid: false }) : this.setState({ visibleGrid: true }))
-
-        const marksToggle = event => (this.state.visibleMarks ? this.setState({ visibleMarks: false }) : this.setState({ visibleMarks: true }))
-
-        const gridItemsToggle = event =>
-            this.state.visibleGridItems ? this.setState({ visibleGridItems: false }) : this.setState({ visibleGridItems: true })
-
-        const mixBlendModeChange = event => {
-            this.setState({ mixBlendMode: event.target.value })
-            event.preventDefault()
-            console.log(event.target.value)
-        }
-
-        const ephemeralRectangleClear = event => {
-            handleUndo()
-            this.setState({ firstCoordinates: null, secondCoordinates: null })
-        }
-
-        const clearConsole = () => {
-            this.setState({ consoleText: [] })
-        }
-
         const hotkeyHandlers = {
-            c: handleCopy,
-            a: artToggle,
-            g: gridToggle,
-            u: handleUndo,
-            m: marksToggle,
-            i: gridItemsToggle,
-            esc: ephemeralRectangleClear,
+            c: this.handleCopy,
+            a: this.artToggle,
+            g: this.gridToggle,
+            u: this.handleUndo,
+            m: this.marksToggle,
+            i: this.gridItemsToggle,
+            esc: this.ephemeralRectangleClear,
         }
-
-        // Autofocus to enable global hotkeys
-        // See: https://github.com/greena13/react-hotkeys/issues/25
-        const autofocus = el => el && ReactDOM.findDOMNode(el).focus()
 
         return (
             <div>
                 <Title>Broadway Boogie Woogie (1942-43) by Piet Mondrian</Title>
                 <Container>
-                    <HotKeys ref={autofocus} handlers={hotkeyHandlers}>
+                    <HotKeys ref={this.autofocus} handlers={hotkeyHandlers}>
                         <ReactCursorPosition>
                             <Tooltip />
                             <GridVisual visibleGrid={this.state.visibleGrid} />
@@ -177,28 +167,28 @@ class MondrianBroadway extends React.Component {
                             <Console>{String(this.state.consoleText.join('\n'))}</Console>
                             <Row>
                                 <ButtonGroup>
-                                    <Button onClick={() => handleCopy()}>Copy (c)</Button>
-                                    <Button onClick={() => handleUndo()}>Undo (u)</Button>
-                                    <Button onClick={() => clearConsole()}>Clear</Button>
+                                    <Button onClick={() => this.handleCopy()}>Copy (c)</Button>
+                                    <Button onClick={() => this.handleUndo()}>Undo (u)</Button>
+                                    <Button onClick={() => this.clearConsole()}>Clear</Button>
                                 </ButtonGroup>
                                 <ButtonGroup>
-                                    <Button active={this.state.visibleArt} onClick={() => artToggle()}>
+                                    <Button active={this.state.visibleArt} onClick={() => this.artToggle()}>
                                         Art (a)
                                     </Button>
-                                    <Button active={this.state.visibleGrid} onClick={() => gridToggle()}>
+                                    <Button active={this.state.visibleGrid} onClick={() => this.gridToggle()}>
                                         Grid (g)
                                     </Button>
-                                    <Button active={this.state.visibleMarks} onClick={() => marksToggle()}>
+                                    <Button active={this.state.visibleMarks} onClick={() => this.marksToggle()}>
                                         Marks (m)
                                     </Button>
-                                    <Button active={this.state.visibleGridItems} onClick={() => gridItemsToggle()}>
+                                    <Button active={this.state.visibleGridItems} onClick={() => this.gridItemsToggle()}>
                                         Items (i)
                                     </Button>
                                 </ButtonGroup>
                                 <ButtonGroup>{this.colorButtons(artColorButtonLabels)}</ButtonGroup>
                             </Row>
 
-                            <SelectMixBlendMode handler={mixBlendModeChange} mode={this.state.mixBlendMode} />
+                            <SelectMixBlendMode handler={this.mixBlendModeChange} mode={this.state.mixBlendMode} />
                         </ToolsPanel>
                     </HotKeys>
                 </Container>

@@ -1,4 +1,4 @@
-import React from 'React'
+import React from 'react'
 import styled from 'styled-components'
 import EphemeralRectangle from './EphemeralRectangle'
 import { gridItems } from './gridItems.js'
