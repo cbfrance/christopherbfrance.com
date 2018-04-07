@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import ReactDOM from 'react-dom'
 import EphemeralRectangle from './EphemeralRectangle'
+import SelectMixBlendMode from './SelectMixBlendMode'
 
 import {
   colors,
@@ -42,6 +43,7 @@ class DrawingTools extends React.Component {
       visibleGrid: false,
       visibleMarks: false,
       visibleGridItems: false,
+      mixBlendMode: 'multiply',
     }
     this.handleMouseDown = this.handleMouseDown.bind(this)
     this.handleMouseUp = this.handleMouseUp.bind(this)
@@ -132,9 +134,20 @@ class DrawingTools extends React.Component {
     const gridItemsToggle = event =>
       this.state.visibleGridItems ? this.setState({ visibleGridItems: false }) : this.setState({ visibleGridItems: true })
 
+    const mixBlendModeChange = event => {
+      console.log('hiiiiiiiii')
+      this.setState({ mixBlendMode: event.target.value })
+      event.preventDefault()
+      console.log(event.target.value)
+    }
+
     const ephemeralRectangleClear = event => {
       handleUndo()
       this.setState({ firstCoordinates: null, secondCoordinates: null })
+    }
+
+    const clearConsole = () => {
+      this.setState({ consoleText: [] })
     }
 
     const hotkeyHandlers = {
@@ -145,10 +158,6 @@ class DrawingTools extends React.Component {
       m: marksToggle,
       i: gridItemsToggle,
       esc: ephemeralRectangleClear,
-    }
-
-    const clearConsole = () => {
-      this.setState({ consoleText: [] })
     }
 
     // Autofocus to enable global hotkeys
@@ -184,6 +193,8 @@ class DrawingTools extends React.Component {
             </ButtonGroup>
             <ButtonGroup>{this.colorButtons(artColorButtonLabels)}</ButtonGroup>
           </Row>
+
+          <SelectMixBlendMode handler={mixBlendModeChange} />
         </ToolsPanel>
 
         <GridPrimary
@@ -192,6 +203,7 @@ class DrawingTools extends React.Component {
           onMouseMove={this.handleMouseMove}
           visibleMarks={this.state.visibleMarks}
           visibleGridItems={this.state.visibleGridItems}
+          mixBlendMode={this.state.mixBlendMode}
         >
           <EphemeralRectangle
             firstCoordinates={this.state.firstCoordinates}

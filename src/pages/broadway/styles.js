@@ -58,6 +58,7 @@ export const GridPrimary = styled.div`
   grid-template-rows: repeat(${gridColumns}, ${gridUnit});
   width: ${gridWidth};
   height: ${gridColumns};
+  mix-blend-mode: ${props => props.mixBlendMode};
 
   & > div {
     // Toggleable grid items
@@ -100,6 +101,7 @@ export const GridVisual = styled.div`
   background-position: 0;
   pointer-events: none;
   z-index: 1;
+  mix-blend-mode: multiply;
 `
 
 export const Row = styled.div`
