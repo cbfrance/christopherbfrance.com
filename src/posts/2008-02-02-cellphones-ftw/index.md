@@ -1,0 +1,36 @@
+--- 
+kind: article
+created_at: 2008-02-02 05:16:21
+title: Cellphones FTW
+excerpt: "My question is: where the hell are the tools for people who use cellphones in this way? (In particular, where are the banking tools and educational tools?) In the first world we've got $600 iphones that can <em>read your freaking mind</em>. But a simple flashcard application for learning a few of the 62 languages spoken in Kenya?  It's not quite as sexy. "
+tags: [education, sms, ict4d, language, mobile]
+modified_on: 2008-04-05 07:34:07
+status: publish
+---
+
+I am obsessed with cell phones right now. Mostly I bloody *hate* them. I haven't had one for six months, but <a href="http://boltpeters.com">work</a> made me get one last week. So since they made me get one I am lobbying to get into some cell-phone-type research, partly to figure out my personal issues with cellular voice communication, most mostly because, clearly, undoubtedly, they are the most important technology in the world: they are <strong>the network of the developing world</strong>. As a<a href="http://news.bbc.co.uk/2/hi/technology/7106998.stm"> BBC article</a> put it a couple weeks ago: ""it's time that we recognised that for the majority of the world's population, and for the foreseeable future, the cell phone is the computer, and it will be the portal to the internet, and the communications tool, and the schoolbook, and the vaccination record, and the family album ..."
+
+<blockquote>"It's time that we recognised that for the majority of the world's population, and for the foreseeable future, the cell phone <strong>is</strong> the computer.<span class="attribution"><a href="http://news.bbc.co.uk/2/hi/technology/7106998.stm">The Invisible Computer Revolution</a></blockquote>
+
+My question is: where the hell are the tools for people who use cellphones in this way? (In particular, where are the banking tools and educational tools?) In the first world we've got $600 iphones that can <em>read your freaking mind</em>. But a simple flashcard application for learning a few of the 62 languages spoken in Kenya?  It's not quite as sexy. 
+
+So this is the part that I am really obsessing over, as a developer. It just seems to me that there is <strong>huge opportunity to really do some huge good by, essentially, hacking on SMS</strong>. Or, sure, wait a few years and use cell phones as a <a href="http://it.slashdot.org/article.pl?sid=08/01/31/130245">proper thin client</a>. (But im more interested in the ultra ultra thin approach, something that would work with one of the classic Nokias, which are used everywhere in Africa . Design for maximum constraints, right?)
+
+In the last few years I wrote a couple of posts on cellphones, one about "<a href="http://www.unthinkingly.com/2005/08/25/cellphones-in-africa/">the powerful effect that even a slight improvement in communication can bring</a>" (wrt africa) and another about badass <a href="http://http://www.unthinkingly.com/2005/07/14/technology-for-the-poor-profit-for-the-rich/">Iqbal Quadir</a>. Oh and a technical/usability one about <a href="http://www.unthinkingly.com/2005/12/20/mobile-web-design-tips-techniques-authentic-boredom/">developing +designing reliable, readable sites for really, really small screens</a>.
+
+Anyway, new content. Here's a fantastic video from Jan Chipchase at <a href="http://www.ted.com/">TED</a>, a hero of cellphone ethnography. My favorite line: ""if you want a big idea you need to embrace everyone on the planet.... With another three billion people connected, they want to be part of the conversation. Our [rich people] relevance is about being able to listen."
+
+[http://static.videoegg.com/ted/movies/JANCHIPCHASE-2007_high.flv]
+
+Static link: <a href="http://www.ted.com/index.php/talks/view/id/190">http://www.ted.com/index.php/talks/view/id/190</a>
+
+Chipchase is a GENIUS blogger; pithy observations on behavior/expectations/norms from all over the world:
+
+<a href="http://www.janchipchase.com/">http://www.janchipchase.com/</a>
+
+please. read. subscribe. its almost certainly my favorite blog.
+
+ 
+
+
+

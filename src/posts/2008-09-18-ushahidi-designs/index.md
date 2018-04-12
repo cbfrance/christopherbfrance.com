@@ -1,0 +1,53 @@
+--- 
+kind: article
+created_at: 2008-09-18 01:44:41
+title: Ushahidi for the iPhone
+excerpt: "After a few months of work, we have gotten a new wireframe of the mobile app"
+tags: [ushahidi, crisis, mobile, ux, design, crowdsourcing]
+modified_on: 2009-01-31 01:26:57
+status: publish
+---
+
+Update: The Ushahidi team has released a strong new open source iOS codebase. 
+
+After a few months of work, we have gotten a new wireframe of the mobile app running on the iPhone. 
+
+[http://www.ushahidi.com/images/buttons/ushahidi_button4_170.gif "Ushahidi: Crowdsourcing Crisis Information"] 
+
+Lately I've been volunteering a little bit for <a href="http://ushahidi.com">Ushahidi</a>. Ushahidi is an open source tool for monitoring crises and disasters. It recently won the the <a href="http://blog.ushahidi.com/index.php/2008/05/30/winning-the-netsquared-challenge/">NetSquared challenge</a> and was called one of the top startups to watch in the MIT Technology Review. Man, I really don't have to give up anything to work on this one &mdash; it's really a top notch operation going on. Other nonprofit and open source teams could learn a lot from the Ushahidi project. 
+
+Some of the amazing things about the Ushahidi project include: 
+
+<ul>
+	<li>Participatory design. Everyone is invited to comment on these designs and <a href="/ushahidi/Ushahidi_v3b.psd">hack on the psd files we created</a>.</li>
+
+	<li>Rapid prototyping. (Really rapid: the first version of the app was built in a weekend.)</li>
+
+	<li>The application is completely open source. </li>
+
+	<li>It's a platform, not a web application: you can get the code and extend it for your own uses.</li>
+
+	<li>Strong user-centered design principles.</li>
+
+	<li>Great attention to detail in the design and insistence on top-notch interfaces (including the marketing website and the admin pages of the application).</li>
+
+</ul>
+
+Anyway here's the latest mockup. Here's the latest<a href="/ushahidi/Ushahidi_v3b.psd">source PSD</a>. It's v0.2 and still has a long way to go. We did the iPhone app first and will be using lessons learned from this one to port the project to other platforms. 
+
+[http://whiteafrican.com/images/ushahidi_iphone_v02a-500x310.jpg]
+
+I did most of the sketching and developed the concepts that were flying around, and then my man Joe Jones did all the real work in Photoshop. It's been a really fun time so far and I am looking forward to implementing some of the changes being discussed on the <a href="http://blog.ushahidi.com">Ushahidi blog</a>.  
+
+Also make sure you check out some of the geniuses behind the project: 
+
+<p><a href="http://www.kenyanpundit.com">Kenyan Pundit</a></p>
+<p><a href="http://www.whiteafrican.com">White African</a></p>
+<p><a href="http://www.afromusing.com/blog/">Afromusing</a></p>
+<p><a href="http://www.mentalacrobatics.com/think">Mentalacrobatics </a></p>
+
+
+
+
+
+

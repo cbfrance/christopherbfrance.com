@@ -1,0 +1,82 @@
+--- 
+kind: article
+created_at: 2008-05-28 22:18:08
+title: The Three Simplest and Most Effective Anti-Spam Hacks I Have Ever Seen
+excerpt: "The blocklists are just put it right there in that same block in main.cf. I typically use four of them."
+tags: [spam, code, ops]
+modified_on: 2008-05-28 23:06:43
+status: publish
+---
+
+<strong>Hack zero: Switch to Gmail</strong>
+This is not a joke: Gmail is a fantastic and nearly spam-free platform. Notably, you can hook it up with a custom domain name so no one knows you are part of the Goog machine like everyone else.
+
+<strong>Hack one: Greylisting with Postfix on Ubuntu</strong>
+
+<blockquote>A mail transfer agent using greylisting will "temporarily reject" any email from a sender it does not recognize. If the mail is legitimate, the originating server will most likely try again to send it later, at which time the destination will accept it. <span class="attribution"><a href="http://en.wikipedia.org/wiki/Greylisting">Wikipedia: Greylisting</a></span></blockquote>
+
+Assuming that you have your own email server, <a href="http://postgrey.schweikert.ch/">greylisting</a> is genius. <a href="http://en.wikipedia.org/wiki/Greylisting">Diabolically elegant</a>, really. If you run an email server (or any server that can receive email) you are probably running the Postfix MTA, in which case their is a main configuration file appropriately named main.cf. A couple of edits to this file and you are on your way. 
+
+Here's how this setup looks (not my graph but I have definitely seen this happen on production mailservers):
+
+<img src="/images/mailgraph_greylisting.jpg" title="spam goes away" alt=" " /> 
+
+The really brilliant thing about greylisting is that it it deals with spam way before it ever reaches your inbox, which is the only way to go (I don't use any spam filtering on my mailbox. That's too late, especially from a sysadmin perspective (think of the <strike>children</strike> cycles!).
+
+Step one: install postgrey.
+
+<code>apt-get install postgrey</code>
+
+Two: edit your main.cf file. 
+
+<code>sudo vi /etc/postfix/main.cf</code>
+
+Three: Then open it up and look for your smtpd_restrictions; add the following line:
+
+<code>check_policy_service inet:127.0.0.1:60000 </code>
+
+Four: Reload Postfix
+
+<code>/etc/init.d/postfix reload</code>
+
+<strong>Hack 2: DNS Blocklists</strong>
+
+This one is even easier, requiring only an extra line (for each blocklist). The blocklists are Just put it right there in that same block in main.cf. I typically use four of them. (Each has a slightly different purpose and tolerance. Check out the sites to get a flavor for why they exist.) This one is actually my favorite &mdash; it was created by the geek premier <a href="http://en.wikipedia.org/wiki/Paul_Vixie">Paul Vixie</a> and uses a <a href="http://en.wikipedia.org/wiki/DNSBL">DNS lookup</a> for an extraordinarily light overhead. 
+
+Step One: 
+
+Open your main.cf file again and add these lines:
+
+<pre>
+  <code>
+  reject_rbl_client list.dsbl.org,
+  reject_rbl_client sbl.spamhaus.org,
+  reject_rbl_client cbl.abuseat.org,
+  reject_rbl_client dul.dnsbl.sorbs.net
+  </code>
+</pre>
+
+Then reboot Postfix: 
+
+<code>/etc/init.d/postfix reload</code>
+
+As with the example above you will also want to watch your mail log to make sure nothings gone wrong. 
+
+<code>sudo tail -f /var/log/maillog</code>
+
+<strong>Hack 3: Keep Spammers out of Your Forms</strong>
+
+This is really the ideal place to stop spam: before it happens. There are a bazillion ways to prove that someone is a human (CAPTCHAs ... sigh), but I think it is instead better to put the burden on the bots. 
+
+Step one: 
+Add a hidden field to your form. 
+
+<code>< textarea name="comment" class="hidden" > </code>
+
+ Step two: 
+
+In your handler, ignore anybody that filled out that form (as robots will do). Here's a fragment in php (assumes that the presence of a errors array will prevent submissions):
+
+<code>if (!empty($_REQUEST['comment'])) { $errors[] = "No Spam please."; }</code>
+
+Those are my favorites, let me know if you have any others!
