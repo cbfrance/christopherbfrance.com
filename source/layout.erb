@@ -1,15 +1,21 @@
 <html>
   <%= partial "head" %>
   <body class="<%= page_classes %>">
+    <h1>
+      <%= "<a class='nav--home' href='/' title='home'/>unthinkingly</a>" %>
+    </h1>
+    <main role="main">
+      <% if current_article %>
+        <article>
+          <%= "<h2>#{current_article.title}</h2>" %>
+          <%= yield %>
+        </article>
+      <% else %>
+        <%= yield %>
+      <% end %>
+    </main>
     <nav>
-      <%= "<a class='nav--home' href='/' title='home'/>⇧</a>" unless current_path == "index.html" %>
       <%= partial "posts_by_tag" %>
     </nav>
-    <main role="main">
-      <%= "<article>" unless current_path == "index.html" %>
-        <%= "<h2>#{current_article.title}</h2>" unless current_path == "index.html" %>
-        <%= yield %>
-      <%= "/<article>" unless current_path == "index.html" %>      
-    </main>
   </body>
 </html>

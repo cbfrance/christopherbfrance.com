@@ -1,0 +1,154 @@
+$breakpoint--small: 390px;
+$padding--left: 24px;
+
+body {
+  margin: 0;
+  font-size: 20px;
+  line-height: 1.4;
+  font-size: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, 
+    "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", 
+    "Fira Sans", "Droid Sans", "Helvetica Neue", 
+    sans-serif;
+}
+
+p {
+  max-width: 90%;
+  overflow: hidden;
+  @media all and (min-width: 740px) {
+    width: 740px;
+  }
+}
+
+img {
+  display: block;
+  max-width: 16em;
+  margin: 1em 0;
+}
+
+// Typography 
+// 
+a {
+  text-decoration: none;
+}
+
+h1, h2 {
+  // font-family: 'Big Caslon', 'Book Antiqua', 'Palatino Linotype', Georgia, serif;
+  font-weight: 700;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 1em;
+  margin: 0 $padding--left;
+  border: 1px solid blue;
+}
+
+h2 {
+  margin: 2em 0 $padding--left;
+  border: 1px solid red;
+}
+
+blockquote {
+  font-size: smaller;
+  border-left: 1px solid lightgrey;
+  padding-left: $padding--left;
+  margin: 1em 0;
+  max-width: 800px;
+}
+
+code {
+  background-color: #f3f3f3;
+  font-size: 0.8em;
+  color: #888888;
+}
+
+pre {
+  color: #888;
+  background-color: #f3f3f3;
+  font-size: 0.8em;
+  overflow: auto;
+  padding: 1em $padding--left;
+}
+
+ol {
+  list-style-position: inside;
+}
+
+// Nav
+// 
+.nav--home {
+  border-top: 1px solid blue;
+  padding: 1em $padding--left;
+  text-align: left;
+  margin: 0 auto;
+  display: block;
+}
+
+header, 
+article {
+  padding: 2em;
+  @media (all and max-width: $breakpoint--small) {
+    padding: 1em;
+  }
+  border-bottom: 1px solid lightgrey;
+}
+
+
+// For lists with no dot
+ul.no-dot {
+  list-style-type: none;
+}
+
+// Posts by year
+// 
+.by-year {
+  text-align: center;
+  .years {
+    list-style-type: none;
+    color: #333333;
+    li {
+      display: inline-block;
+      padding: 1em;
+    }
+  }
+}
+
+// Tags
+//
+.section--posts-by-tag {
+  ul.tags {
+    font-size: 14px;
+    line-height: 1.4;
+    list-style-type: none;
+    border-bottom: 1px solid lightgrey;
+    padding: 4em 1rem;
+    li {
+      padding: 0.5em;
+      display: inline-block;
+    }
+  }  
+}
+
+.heavy a {
+  color: #000000;
+  font-weight: 700;
+
+}
+
+.medium a {
+  color: #333;
+}
+
+.light a {
+  color: #888;
+}
+
+.dot {
+  font-size: smaller;
+  color: #ccc;
+}
+
+.count {
+  color: #ccc;
+}

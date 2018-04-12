@@ -12,7 +12,7 @@ Update: The Ushahidi team has released a strong new open source iOS codebase.
 
 After a few months of work, we have gotten a new wireframe of the mobile app running on the iPhone. 
 
-[http://www.ushahidi.com/images/buttons/ushahidi_button4_170.gif "Ushahidi: Crowdsourcing Crisis Information"] 
+![](ushahidi.png)
 
 Lately I've been volunteering a little bit for <a href="http://ushahidi.com">Ushahidi</a>. Ushahidi is an open source tool for monitoring crises and disasters. It recently won the the <a href="http://blog.ushahidi.com/index.php/2008/05/30/winning-the-netsquared-challenge/">NetSquared challenge</a> and was called one of the top startups to watch in the MIT Technology Review. Man, I really don't have to give up anything to work on this one &mdash; it's really a top notch operation going on. Other nonprofit and open source teams could learn a lot from the Ushahidi project. 
 
@@ -33,9 +33,10 @@ Some of the amazing things about the Ushahidi project include:
 
 </ul>
 
-Anyway here's the latest mockup. Here's the latest<a href="/ushahidi/Ushahidi_v3b.psd">source PSD</a>. It's v0.2 and still has a long way to go. We did the iPhone app first and will be using lessons learned from this one to port the project to other platforms. 
+Anyway here's the latest mockup. Here's the latest <strike><a href="/ushahidi/Ushahidi_v3b.psd">source PSD</a></strike>. It's v0.2 and still has a long way to go. We did the iPhone app first and will be using lessons learned from this one to port the project to other platforms. 
 
-[http://whiteafrican.com/images/ushahidi_iphone_v02a-500x310.jpg]
+
+<img src="/images/ushahidi_iphone_v02.jpg" style="max-width: 100%;" />
 
 I did most of the sketching and developed the concepts that were flying around, and then my man Joe Jones did all the real work in Photoshop. It's been a really fun time so far and I am looking forward to implementing some of the changes being discussed on the <a href="http://blog.ushahidi.com">Ushahidi blog</a>.  
 

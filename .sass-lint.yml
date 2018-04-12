@@ -1,0 +1,19 @@
+# https://github.com/sasstools/sass-lint
+rules:
+  extends-before-mixins: 2
+  extends-before-declarations: 2
+  force-attribute-nesting: 0
+  no-qualifying-elements: 0
+  no-url-domains: 0
+  no-url-protocols: 0
+  placeholder-in-extend: 2
+  mixins-before-declarations: 0
+  no-warn: 1
+  no-debug: 1
+  no-ids: 2
+  no-important: 2
+  indentation:
+    - 2
+    -
+      size: 2
+  variable-for-property: 0

@@ -1,8 +1,12 @@
-<% page_articles.each_with_index do |article, i| %>
-  <article>
-    <h2><%= link_to article.title, article %></h2>
-    <span class="timestamp"><%= article.date.strftime('%b %e %Y') %></span>
-    <%= article.summary(250) %>
-    <%#= article.body %>
-  </article>
+---
+title: unthinkingly
+---
+
+<% page_articles.each do |article| %>
+	<article>
+		<h2><%= link_to article.title, article %></h2>
+		<span class="timestamp"><%= article.date.strftime('%b %e %Y') %></span>
+		<%= article.summary(250) %>
+		<%#= article.body %>
+	</article>
 <% end %>

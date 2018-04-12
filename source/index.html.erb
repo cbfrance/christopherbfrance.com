@@ -2,4 +2,15 @@
 title: unthinkingly
 ---
 
-<%= partial "all" %>
+<% page_articles[0..9].each do |article| %>
+	<article>
+		<h2><%= link_to article.title, article %></h2>
+		<span class="timestamp"><%= article.date.strftime('%b %e %Y') %></span>
+		<%= article.summary(250) %>
+		<%#= article.body %>
+	</article>
+<% end %>
+
+<div class="view-all">
+	<a href="/all">⚡ ️View all posts</a>
+</div>
