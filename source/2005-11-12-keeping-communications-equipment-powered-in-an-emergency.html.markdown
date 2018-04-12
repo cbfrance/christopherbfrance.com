@@ -18,4 +18,5 @@ Here's this:
 </blockquote>
 
 <p>Read it: <a href="http://www.techsoup.org/howto/articles/techplan/page4047.cfm?rss=1">Keeping Communications Equipment Powered in an Emergency</a></p>
-<p>(Found on:<a href="http://www.techsoup.org/">Today in TechSoup</a>.)</p>
+
+<p>(Found on: <a href="http://www.techsoup.org/">Today in TechSoup</a>.)</p>
