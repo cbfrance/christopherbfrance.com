@@ -5,7 +5,8 @@ title: TED Reaches out to the Proles
 excerpt: "Featuring super-lovely production and a cast of all stars, <a href='http://ted.com/'>TEDTalks</a> emerges from its walled garden with a serious web presence."
 tags: [ted, video]
 modified_on: 2008-04-05 07:14:00
-status: publish
+status: publish 
+path: /2006-07-11-ted-reaches-out-to-the-proles
 ---
 
 Featuring super-lovely production and a cast of all stars, <a href="http://ted.com/">TEDTalks</a> emerges from its walled garden with a serious web presence.

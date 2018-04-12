@@ -5,7 +5,8 @@ title: NetCorps
 excerpt: "I have't worked directly with them but they do good work"
 tags: [netcorps, nptech]
 modified_on: 2008-04-05 05:21:38
-status: publish
+status: publish 
+path: /2005-01-23-netcorps
 ---
 
 NetCorps is now providing the "technology of list enhancement" for nonprofits in NC. I have't worked directly with them but they do good work (in Durham, NC and in Oregon). They have worked with folks at Volunteers for Youth that we are beginning a project with.

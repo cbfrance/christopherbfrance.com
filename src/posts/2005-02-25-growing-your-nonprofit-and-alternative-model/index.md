@@ -5,7 +5,8 @@ title: "Growing Your Nonprofit: and Alternative Model"
 excerpt: "How do nonprofits grow?"
 tags: [nptech]
 modified_on: 2008-04-05 05:32:46
-status: publish
+status: publish 
+path: /2005-02-25-growing-your-nonprofit-and-alternative-model
 ---
 
 How do nonprofits grow? That's a much discussed &mdash; and much answered question. There are thousands of books, articles, consultants even entire schools devoted to the subject of growing your nonprofit.

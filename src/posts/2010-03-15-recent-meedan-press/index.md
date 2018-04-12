@@ -5,7 +5,8 @@ title: Recent Meedan press
 excerpt: "Coverage of Meedan in international press, most of it focused on our Machine Translation engine and our approach to community contributions."
 tags: [meedan, meta]
 modified_on: 2010-03-15 08:11:13
-status: publish
+status: publish 
+path: /2010-03-15-recent-meedan-press
 ---
 
 I've had a great time working at Meedan recently as Director of Miscellany. We recently rolled out an update of the site and took of the "beta" label.

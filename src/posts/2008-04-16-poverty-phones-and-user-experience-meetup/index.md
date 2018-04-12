@@ -5,7 +5,8 @@ title: Poverty, Phones and User Experience Meetup
 excerpt: "Africa, Asia, mobile phones, sustainable change, environmental technologies, research methodologies, product design, application development, user experience ... lots of stuff."
 tags: [meetup, design, BoP]
 modified_on: 2008-04-17 16:42:28
-status: publish
+status: publish 
+path: /2008-04-16-poverty-phones-and-user-experience-meetup
 ---
 
 ['http://farm1.static.flickr.com/62/217338309_49a8181e6a.jpg by meanestindian via flickr']

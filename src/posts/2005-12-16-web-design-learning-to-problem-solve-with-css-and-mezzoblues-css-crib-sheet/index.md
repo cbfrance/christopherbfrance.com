@@ -5,7 +5,8 @@ title: "Web Design: Learning to Problem Solve with Mezzoblue's CSS Crib Sheet"
 excerpt: "Learning to use CSS can make you insane"
 tags: [css, education]
 modified_on: 2008-04-05 06:38:03
-status: publish
+status: publish 
+path: /2005-12-16-web-design-learning-to-problem-solve-with-css-and-mezzoblues-css-crib-sheet
 ---
 
 Learning to use CSS can make you insane if you don't have a good instructor. And who does?

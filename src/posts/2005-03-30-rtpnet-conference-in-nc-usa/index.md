@@ -5,7 +5,8 @@ title: RTPNet Conference in NC, USA
 excerpt: "RTPNet is North Carolina's only annual statewide conference that focuses specifically on nonprofit technology"
 tags: [rtpnet, nptech]
 modified_on: 2008-04-05 05:39:23
-status: publish
+status: publish 
+path: /2005-03-30-rtpnet-conference-in-nc-usa
 ---
 
 Registration is now open for the <a href="http://www.rtpnet.org/conf/">RTPnet Conference</a>, North Carolina's only annual statewide conference that focuses specifically on nonprofit technology. The conference mission is to help nonprofits use technology more effectively. It's May 20th.

@@ -5,7 +5,8 @@ title: Blogger Handbook Chat
 excerpt: ""
 tags: [irc, interaction]
 modified_on: 2008-04-05 06:20:58
-status: publish
+status: publish 
+path: /2005-09-23-blogger-handbook-chat
 ---
 
 As a follow up to the previous post (see just below this one) please be 'ware that Global Voices is hosting an online (IRC) discussion of the handbook on Tuesday at 15:00 GMT (that's 11:00 AM, New York time). 

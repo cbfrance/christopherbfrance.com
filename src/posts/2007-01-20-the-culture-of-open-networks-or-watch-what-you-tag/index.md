@@ -5,7 +5,8 @@ title: "The Culture of Open Networks, or: Watch What You Tag"
 excerpt: "A reminder that we are trusting our attention data to the databases and algorithms of a corporation with no vested interest in the integrity or proper use of our data."
 tags: [tagging, data, archiving, community, commons, delicious, materialism, labor ]
 modified_on: 2008-04-05 07:23:25
-status: publish
+status: publish 
+path: /2007-01-20-the-culture-of-open-networks-or-watch-what-you-tag
 ---
 
 I'm getting into an excellent <a href="http://www.waag.org/project/shade">free pdf</a> called "In the Shade of the Commons," a publication from the <a href="http://www.waag.org/">Waag Society</a>, which bills itself as a small group of enthusiastic idealists ... with a mission "to make new media available for groups of people that have little access to computers and internet, thus increasing their quality of living." 

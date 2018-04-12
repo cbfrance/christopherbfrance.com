@@ -5,7 +5,8 @@ title: Technicolor Tools
 excerpt: "You enter a hex code value for a color, then another to mix it with, and out comes a beautiful png graphic of the color scheme. "
 tags: [color, design]
 modified_on: 2008-04-05 06:50:45
-status: publish
+status: publish 
+path: /2006-01-23-your-color-cure
 ---
 
 <img src='/images/colors.jpg' alt='Colors' />Wow. Steve at Slayeroffice.com has an amazing <a href="http://slayeroffice.com/tools/color_palette/">color palette generator</a> based on the design technique of <a href="http://www.stuffandnonsense.co.uk/archives/creating_colour_palettes.html">Andy Clark</a>.

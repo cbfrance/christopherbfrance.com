@@ -5,7 +5,8 @@ title: Relatively Simple RSS Aggregation
 excerpt: "I needed something that was simple, cached hourly, displayed various encodings well and worked with RSS and Atom formats. Most importantly, I wanted something I could install on my own server, and it needed to be community oriented (not designed for a single reader)."
 tags: [rss, webdev, code]
 modified_on: 2008-04-05 07:09:19
-status: publish
+status: publish 
+path: /2006-03-20-relatively-simple-rss-aggregation
 ---
 
 I recently posted about my need for a simpler RSS aggregator. 

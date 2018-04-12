@@ -5,7 +5,8 @@ title: Stop Making Crappy Ads
 excerpt: "People are drawn to imagery and emotions that inspire them to work for a cause."
 tags: [design, emotion, nptech]
 modified_on: 2008-04-05 05:22:25
-status: publish
+status: publish 
+path: /2005-02-04-stop-making-crappy-ads
 ---
 
 Stephen Pinker writes in his book How Minds Work that "the emotions are mechanisms that set the brains highest-level goals." This, it seems, is a good description of why small, mission-driven nonprofits exist despite the innumerable difficulties of keeping such an operation afloat. It's also an essential idea to consider when advertising your organization.

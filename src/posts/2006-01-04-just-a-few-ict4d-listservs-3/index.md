@@ -5,7 +5,8 @@ title: Just a few ICT4D Listservs
 excerpt: "Listservs are always so easy to miss. Sometimes they're a joy and sometimes they're dead, but they're always elusive, popping up just when you think you know every fold of your little online landscape."
 tags: [listservs, email]
 modified_on: 2008-04-05 06:43:48
-status: publish
+status: publish 
+path: /2006-01-04-just-a-few-ict4d-listservs-3
 ---
 
 Listservs are always so easy to miss. Sometimes they're a joy and sometimes they're dead, but they're always elusive, popping up just when you think you know every fold of your little online landscape. So, at the risk of being pedestrian, here's a few quick links from super-excited <a href="http://ict4d-think.blogspot.com/">Carole</a>. 

@@ -5,7 +5,8 @@ title: "Paul Farmer: A (Deserving) Nonprofit Celebrity"
 excerpt: "Paul Farmer is an amazing member of the nonprofit community, famous in his own circles of public health and international development."
 tags: [nptech]
 modified_on: 2008-04-05 05:08:19
-status: publish
+status: publish 
+path: /2004-02-20-paul-farmer-a-deserving-nonprofit-celebrity
 ---
 
 Paul Farmer is an amazing member of the "nonprofit community," famous in his own circles of public health and international development. The Stanford Social Innovation Review, (an excellent magazine) has a lovely extended interview with him about his work and his perspective. If you have not read about his work, this is a good introduction. 

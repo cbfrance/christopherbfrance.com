@@ -5,7 +5,8 @@ title: Ode To Ethan
 excerpt: "When I was reading about that project in 2003 or 2004 I was totally turned on by the idea of writing scripts to create DIY datasets; I had no idea how to program at the time, but <strike> the stuff I have done with perl scrapers </strike> my whole new career in programming is directly attributable to Ethan's inspiration 2 years prior."
 tags: [ethan]
 modified_on: 2008-05-06 22:25:25
-status: publish
+status: publish 
+path: /2008-02-04-ode-to-ethan
 ---
 
 The other day I referenced <a href="http://janchipchase.com">Jan Chipchase's blog</a> as "almost certainly my favorite." This is patently false. I am a big fat liar when I get excited. (Chipchase is probably tied for second with a few other exceptionally cool writers.)

@@ -5,7 +5,8 @@ title: Brief Clip from a Great WorldChanging.com Post
 excerpt: "LinuxChix Africa manages to shatter two stereotypes at the same time: the idea that women aren't interested in free/open source software development; and the idea that women in Africa are bound to traditional cultural roles."
 tags: [linux, africa, women, education]
 modified_on: 2008-04-05 07:03:03
-status: publish
+status: publish 
+path: /2006-02-16-brief-clip-from-a-great-worldchangingcom-post
 ---
 
 <img src='/images/greenchix_logo01.jpg' alt='LinuxChix logo' /> <a href="http://www.worldchanging.com/archives/004109.html">WorldChanging: Another World Is Here: LinuxChix Africa</a>

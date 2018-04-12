@@ -5,7 +5,8 @@ title: Web Developer Toolbar Reaches 1.0 Release
 excerpt: "This is the single most important tool any web developer can have."
 tags: [design, webdev]
 modified_on: 2008-04-05 06:43:06
-status: publish
+status: publish 
+path: /2006-01-03-web-developer-toolbar-reaches-10-release
 ---
 
 R. Johansson says it best. This is the single most important tool any web developer can have. 

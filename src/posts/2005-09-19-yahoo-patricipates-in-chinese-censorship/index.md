@@ -5,7 +5,8 @@ title: Yahoo Participates in Chinese Censorship
 excerpt: "the mega search engine Yahoo! collaborated with Chinese authorities"
 tags: [yahoo, censorship, freespeech, china]
 modified_on: 2008-04-05 06:18:50
-status: publish
+status: publish 
+path: /2005-09-19-yahoo-patricipates-in-chinese-censorship
 ---
 
 <img align="left" alt="screenshot chinese yahoo" src="/images/yahoo_unfiltered_search_before_2.jpg" />

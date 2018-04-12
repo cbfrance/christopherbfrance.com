@@ -5,7 +5,8 @@ title: Triangle Blogger's Bash, Durham, November 15
 excerpt: "Looks to be a great night of the up-and-coming Triangle blogging"
 tags: [blogging, nc]
 modified_on: 2008-04-05 06:23:58
-status: publish
+status: publish 
+path: /2005-11-12-triangle-bloggers-bash-durham-november-15
 ---
 
 <p> Here's this via Audio Activism, for folks in the Triangle, NC area. Looks to be a great night of the up-and-coming Triangle blogging community:</p>

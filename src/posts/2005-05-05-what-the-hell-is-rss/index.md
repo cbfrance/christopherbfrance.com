@@ -5,7 +5,8 @@ title: What The Hell Is RSS?
 excerpt: "File Under: It's a blog subscription service. And a distribution service for your blog. And one of the S's stands for \"Simple.\" And it's free. Which means, File Under: It rocks."
 tags: [techsoup, nptech, rss, tutorial]
 modified_on: 2008-04-05 05:52:16
-status: publish
+status: publish 
+path: /2005-05-05-what-the-hell-is-rss
 ---
 
 

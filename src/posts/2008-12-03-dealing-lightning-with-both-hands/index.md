@@ -5,7 +5,8 @@ title: Dealing Lightning with Both Hands
 excerpt: " The 1968 demo presaged many of the technologies we use today, from personal computing to social networking."
 tags: [event, ux, design, history, engelbart]
 modified_on: 2008-12-04 08:49:53
-status: publish
+status: publish 
+path: /2008-12-03-dealing-lightning-with-both-hands
 ---
 
 <img src="/images/doug-e.jpg" alt="ah doug" title="douglas-engelbart-12"" />

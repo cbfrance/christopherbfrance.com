@@ -5,7 +5,8 @@ title: Cellphones in Africa
 excerpt: "Today's New York Times carries a front-page article about the growth of the cell phone industry in Africa. "
 tags: [mobile, education, africa, acarvin]
 modified_on: 2008-04-05 06:11:53
-status: publish
+status: publish 
+path: /2005-08-25-cellphones-in-africa
 ---
 
 Today's New York Times carries a front-page article about the growth of the cell phone industry in Africa. 

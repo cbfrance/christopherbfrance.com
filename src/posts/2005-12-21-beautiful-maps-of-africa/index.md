@@ -5,7 +5,8 @@ title: Beautiful Maps of Africa
 excerpt: "Just discovered a beautiful resource of maps (mostly environmental info, especially soil) for most of the countries of Africa. "
 tags: [maps, africa]
 modified_on: 2008-04-05 06:40:36
-status: publish
+status: publish 
+path: /2005-12-21-beautiful-maps-of-africa
 ---
 
 Just discovered a beautiful resource of maps (mostly environmental info, especially soil) for most of the countries of Africa.  (Found via <a href="http://blog.uhuru.de/?p=177">Kikuyumoja&#8217;s realm</a>.)

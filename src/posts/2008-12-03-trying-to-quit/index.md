@@ -5,7 +5,8 @@ title: Trying to Quit
 excerpt: "But it's exhausting, distracting, and inseparable from the cult of efficiency. It takes you away from humans, mashes your nose into an LCD all night, and leaves you with a delusional sense of total control over your environment."
 tags: [code]
 modified_on: 2009-01-26 07:32:13
-status: publish
+status: publish 
+path: /2008-12-03-trying-to-quit
 ---
 
 I have been trying to quit programming for about six months. 

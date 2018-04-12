@@ -5,7 +5,8 @@ title: Your Nonprofit Needs A Blog
 excerpt: "Mission-Driven nonprofits have, I think, the most to gain from blogging than any other organization or type of individual. If your organization has a site, I think you really should have a blog. There are a number of clear reasons. "
 tags: [nptech, blogging, orgs]
 modified_on: 2008-04-05 05:43:19
-status: publish
+status: publish 
+path: /2005-04-22-your-nonprofit-needs-a-blog
 ---
 
 Mission-Driven nonprofits have, I think, the most to gain from blogging than any other organization or type of individual. If your organization has a site, I think you really should have a blog. There are a number of clear reasons. Seriously. 

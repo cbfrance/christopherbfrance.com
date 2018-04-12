@@ -5,7 +5,8 @@ title: Google Rankings and "Canonical" URLs (technical)
 excerpt: "Finally some useful help from the 'celebrity engineer' Matt Cutts, one of the few people in the world that has had intimate relations with the Google Pagerank algorithm."
 tags: [google, seo]
 modified_on: 2008-04-05 06:46:37
-status: publish
+status: publish 
+path: /2006-01-12-google-rankings-and-canonical-urls-technical
 ---
 
 Finally some useful help from the "celebrity engineer" Matt Cutts, one of the few people in the world that has had intimate relations with the Google Pagerank algorithm.  (EDIT: He also happens to use Wordpress, not Blogger. Hmmm.)

@@ -5,7 +5,8 @@ title: Researching Flies, and Colorblindness 101
 excerpt: "Drosphilia researchers have a leg up on web designers."
 tags: [color, research, accessibility]
 modified_on: 2008-04-05 05:57:20
-status: publish
+status: publish 
+path: /2005-07-13-researching-flies-and-colorblindness-101
 ---
 
 Drosphilia researchers have a leg up on web designers. 

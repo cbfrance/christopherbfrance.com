@@ -5,7 +5,8 @@ title: The Reality of the Open Source Desktop in Developing World
 excerpt: "Great, reveling post about the remaining difficulty of running Ubuntu (the 'sexiest' open source Windows-killer yet) in Ethopia by Andrew Heavens over at Meskel Square."
 tags: [ubuntu, ethiopia]
 modified_on: 2008-04-05 07:13:04
-status: publish
+status: publish 
+path: /2006-06-29-the-reality-of-the-open-source-desktop-in-developing-world
 ---
 
 Great, reveling post about the remaining difficulty of running Ubuntu (the "sexiest" open source Windows-killer yet) in Ethopia by Andrew Heavens over at Meskel Square.

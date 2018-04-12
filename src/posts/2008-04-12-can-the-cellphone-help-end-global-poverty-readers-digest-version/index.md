@@ -5,7 +5,8 @@ title: Can the Cellphone Help End Global Poverty? (Readers' Digest Version)
 excerpt: "Understanding [stuff] requires forgetting for a moment about your own love-hate relationship with your cellphone, or iPhone, or BlackBerry. Something that's mostly a convenience booster for those of us with a full complement of technology at our disposal: land-lines, Internet connections, TVs, cars can be a life-saver to someone with fewer ways to access information."
 tags: [design, mobile, ux]
 modified_on: 2008-04-14 00:30:06
-status: publish
+status: publish 
+path: /2008-04-12-can-the-cellphone-help-end-global-poverty-readers-digest-version
 ---
 
 So I went to this Street Hacks talk 2 nights ago is here: <a href="http://www.janchipchase.com/ ">http://www.janchipchase.com/ </a> (it was awesome, you missed it. Clam Pizza.) And then it turns out Chipchase just got all famous this week, <em>seriously</em>: First a rad <a href="http://audiovideo.economist.com/?fr_chl=8094fc97a897f95d4bf846ee51a4214809017977">video in the Economist</a>.

@@ -5,7 +5,8 @@ title: "The Digital Dashboard: Graphing ICT Change"
 excerpt: "from a kind of ICT government consultancy"
 tags: [dashboard, design, ict4gov, access]
 modified_on: 2008-04-05 06:38:34
-status: publish
+status: publish 
+path: /2005-12-19-the-digital-dashboard-graphing-ict-change
 ---
 
 Here's an interesting feature from a nonprofit organization called the <a href="http://public.gov3.net/public_pages/limited/default.htm">gov3 Network</a>, which appears to be a kind of ICT government consultancy. They have a interesting feature on their website that dynamically draws data comparing a country (of your choice) to other countries with regard to their ICT-sector growth. 

@@ -5,7 +5,8 @@ title: Developments - The International Development Magazine - Only connect
 excerpt: "respectable journalists writing informed pieces about new issues in international development"
 tags: [news, development, ict]
 modified_on: 2008-04-05 06:35:54
-status: publish
+status: publish 
+path: /2005-12-13-developments-the-international-development-magazine-only-connect
 ---
 
 I've just been getting into a magazine called "Developments: The International Development Magazine." It features respectable journalists writing informed pieces about new issues in international development. The most recent issue is a great bit about Open Source Software and the impact of free programs in the developing world. 

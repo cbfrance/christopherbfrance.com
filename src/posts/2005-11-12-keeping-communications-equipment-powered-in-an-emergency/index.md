@@ -5,7 +5,8 @@ title: Keeping Communications Equipment Powered in an Emergency
 excerpt: "An emergency power kit can help you keep important communications equipment running in the midst of a crisis."
 tags: [power, crisis, disaster, electricity]
 modified_on: 2008-04-05 06:27:32
-status: publish
+status: publish 
+path: /2005-11-12-keeping-communications-equipment-powered-in-an-emergency
 ---
 
 <p>

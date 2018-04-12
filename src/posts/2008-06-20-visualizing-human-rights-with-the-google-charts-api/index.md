@@ -5,7 +5,8 @@ title: Visualizing Human Rights with the Google Charts API
 excerpt: "There are plenty of libraries for managing the requests to the API, and, in some simple cases you can even code it by hand, since all of the code is simply passed through a query tag on an image url."
 tags: [dataviz, programming, code]
 modified_on: 2009-01-30 10:43:18
-status: publish
+status: publish 
+path: /2008-06-20-visualizing-human-rights-with-the-google-charts-api
 ---
 
 Smartly presented information is a nonprofit's best friend. If you can't communicate the problem, no one is going to give a damn. <a href="http://whiteafrican.com/?p=1081">Hash's blog</a> just pointed me to some powerful charts Sokwanele mapping project , which I've mentioned <a href="/2008/04/11/zimbabwe-election-watch-map.html">previously</a>. These charts are extremely important data to have in the public domain, and it's great that they 

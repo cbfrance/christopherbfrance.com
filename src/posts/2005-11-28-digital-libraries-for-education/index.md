@@ -5,7 +5,8 @@ title: Digital Libraries for Education
 excerpt: "Unlike some of the other educational websites I've seen (which typically distribute prepackaged course materials), the DLESE has a strong emphasis on community input. "
 tags: [education, community, nola]
 modified_on: 2008-04-05 06:34:21
-status: publish
+status: publish 
+path: /2005-11-28-digital-libraries-for-education
 ---
 
 The Digital Library for Earth Systems Education is a good example of the potential for using the web as a community repository of educational resources. 

@@ -5,7 +5,8 @@ title: ReliefWeb Maps for Humanitarian Crisis
 excerpt: "I have a love for maps because they can be the most rich, yet easy-to-understand communication tools."
 tags: [geo, reliefweb, crisis]
 modified_on: 2008-04-05 07:05:58
-status: publish
+status: publish 
+path: /2006-02-25-reliefweb-maps-for-humanitarian-crisis
 ---
 
 [Image: DRC-migration] 

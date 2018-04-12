@@ -5,7 +5,8 @@ title: Combining RSS feeds and Displaying them on Your Page with Javascript and 
 excerpt: "Last night I was trying to do something that I thought would be pretty simple: display a bunch of recent weblog posts on one page. "
 tags: [webdev, rss, biofuels]
 modified_on: 2008-04-05 07:05:34
-status: publish
+status: publish 
+path: /2006-02-24-combining-rss-feeds-and-displaying-them-on-your-page-with-javascript-and-php
 ---
 
 Last night I was trying to do something that I thought would be pretty simple: display a bunch of recent weblog posts on one page. 

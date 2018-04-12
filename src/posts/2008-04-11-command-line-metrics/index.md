@@ -5,7 +5,8 @@ title: Command line metrics
 excerpt: "Speaking of personal metrics ..."
 tags: [cli, artifact]
 modified_on: 2008-04-11 08:40:30
-status: publish
+status: publish 
+path: /2008-04-11-command-line-metrics
 ---
 
 Speaking of personal metrics ...

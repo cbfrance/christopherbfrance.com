@@ -5,7 +5,8 @@ title: "Some Rights Reserved: A Guide to the Creative Commons License"
 excerpt: "If you're putting content on the web, you may want to look into the idea of creative commons licensing."
 tags: [cc, license]
 modified_on: 2008-04-05 05:09:40
-status: publish
+status: publish 
+path: /2004-02-13-some-rights-reserved-a-guide-to-the-creative-commons-license
 ---
 
 If you're putting content on the web, you may want to look into the idea of creative commons licensing. It's a bit like copyrighting (obviously), and yet it is totally different. It's essentially used to promote, rather than restrict, the flow of information. 

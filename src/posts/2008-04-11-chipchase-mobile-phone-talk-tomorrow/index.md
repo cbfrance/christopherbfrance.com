@@ -5,7 +5,8 @@ title: Chipchase mobile phone talk tomorrow
 excerpt: "Street Hacks and Long Wows - An Evening with Chipchase, Burns, and Schauer"
 tags: [mobile, hack, street]
 modified_on: 2008-04-11 08:38:52
-status: publish
+status: publish 
+path: /2008-04-11-chipchase-mobile-phone-talk-tomorrow
 ---
 
 Very much looking forward to this Adaptive Path event (San Francisco) tomorrow:

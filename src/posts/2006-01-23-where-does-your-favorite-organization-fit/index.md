@@ -5,7 +5,8 @@ title: Where Does Your Favorite Organization Fit?
 excerpt: "Where does your nonprofit fit?"
 tags: [nptech, surey]
 modified_on: 2008-04-05 06:50:00
-status: publish
+status: publish 
+path: /2006-01-23-where-does-your-favorite-organization-fit
 ---
 
  From <a href="http://eweinb04.blogspot.com/">Emily's World</a> comes an updated rundown of the "digital divide" among nonprofits. 

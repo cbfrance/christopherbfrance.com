@@ -5,7 +5,8 @@ title: On Teachers Moving from Web 0.5 to Web 3.0
 excerpt: "David Warlick posts insightfully about the uses of technology in education. Right now he seems like a pretty stressed out guy."
 tags: [etech, delicious, flickr, gopher, telnet, social, ux, education]
 modified_on: 2008-04-05 07:02:28
-status: publish
+status: publish 
+path: /2006-02-16-on-teachers-moving-from-web-05-to-web-30
 ---
 
 <a href="http://davidwarlick.com/2cents/2006/02/16/happy-birthday-jude/#comments">David Warlick</a> posts insightfully about the uses of technology in education. Right now he seems like a pretty stressed out guy. 

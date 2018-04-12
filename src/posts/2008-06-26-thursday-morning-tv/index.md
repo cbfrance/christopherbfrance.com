@@ -5,7 +5,8 @@ title: Thursday Morning TV
 excerpt: "Actually this is better than Thursday morning TV, which, in my hometown at least, was pretty weak. This stuff is amazing."
 tags: [video, design, ux]
 modified_on: 2009-01-30 10:42:46
-status: publish
+status: publish 
+path: /2008-06-26-thursday-morning-tv
 ---
 
 Actually this is better than Thursday morning TV, which, in my hometown at least, was pretty weak. This stuff is amazing. 

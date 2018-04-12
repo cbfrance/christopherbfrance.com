@@ -5,7 +5,8 @@ title: "Power to the People: Free (as in Beer) O'Reilly Books and More"
 excerpt: "Most of the books here are just distributed online for free because they are older editions. They aren't using an Open license, except in the case of the many online tutorials that are linked here (which are typically carefully chosen, I found). "
 tags: [books, webdev, cs, learning]
 modified_on: 2008-04-05 07:05:14
-status: publish
+status: publish 
+path: /2006-02-25-free-computer-books-tutorials-and-lecture-notes
 ---
 
 This is where it's at folks: free programming and web design books. Make your computer do impossible feats of inhuman strength with this <a href="http://maththinking.com/boat/webBooksIndex.html">collection of languages and techniques</a>, from old-school Fortran to Web 2.0 hipster-standards AJAX or Ruby. 

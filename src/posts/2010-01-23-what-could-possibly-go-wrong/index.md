@@ -5,7 +5,8 @@ title: "What could possibly go wrong? "
 excerpt: "What could possibly go wrong?  Thousands of volunteer hackers break ground on dozens of projects at a bunch of hastily organized unconferences promising to 'Save Haiti?'"
 tags: [crisiscamp, portland, crisis, haiti]
 modified_on: 2010-01-23 10:24:36
-status: publish
+status: publish 
+path: /2010-01-23-what-could-possibly-go-wrong
 ---
 
 What could possibly go wrong?  Thousands of volunteer hackers break ground on dozens of projects at a bunch of hastily organized unconferences promising to <em>Save Haiti</em>?

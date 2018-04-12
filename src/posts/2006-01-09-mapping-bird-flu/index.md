@@ -5,7 +5,8 @@ title: Mapping Bird Flu
 excerpt: "This is why the new breed of online maps are such wonderful tools for creating understanding: With a little technical work (and perhaps a lot of fact-checking), you can create simple yet information-rich presentation of a pandemic that is affecting millions."
 tags: [geo, crisis, mapping, geo]
 modified_on: 2008-04-05 06:44:38
-status: publish
+status: publish 
+path: /2006-01-09-mapping-bird-flu
 ---
 
 I have spent an awful lot of (relative) time writing about maps in this space over the last month, but this one really caught my eye. 

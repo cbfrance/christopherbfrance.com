@@ -5,7 +5,8 @@ title: "Geeks Responding to Katrina: Relief 2.0"
 excerpt: "The Katrina Peoplefinder database (in record time,  no less), which exceeded 100,000 entries in the first week of September"
 tags: [katrina, ict4d, peoplefinder, crisis, disaster]
 modified_on: 2008-04-05 06:16:58
-status: publish
+status: publish 
+path: /2005-09-14-geeks-responding-to-katrina-relief-20
 ---
 
 <a href="http://www.ethanzuckerman.com/blog/">Ethan Zuckerman</a> is one of the best bloggers in the world; he must get paid by Harvard to do it, or something. (He does.)

@@ -5,7 +5,8 @@ title: Hacking Internet Explorer, the Definitive Guide
 excerpt: "Well, this is perhaps not a definitive guide, but a good one nonetheless. "
 tags: [ie, webdev]
 modified_on: 2008-04-05 05:13:26
-status: publish
+status: publish 
+path: /2004-07-13-hacking-internet-explorer-the-definitive-guide
 ---
 
 Well, this is perhaps not a definitive guide, but a good one nonetheless. I like his method of including the CSS link in the commented rule, and I appreciate his concern that IE7 (the next release of IE) will have bugs resolved &mdash; making the hacks a problem. 

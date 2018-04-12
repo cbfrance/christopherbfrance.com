@@ -5,7 +5,8 @@ title: Monday Night Telly
 excerpt: "The opening jingle made me shoot beer through my nose. 6 minutes. Just watch it."
 tags: [ux, video, buxton, architecture, typography, sf]
 modified_on: 2009-01-30 10:42:25
-status: publish
+status: publish 
+path: /2008-08-19-monday-night-telly
 ---
 
 For the User Experience people: <a href="http://www.youtube.com/watch?v=xx1WveKV7aE">Bill Buxton is a genius.</a> Got me sketching. (And redefined "sketching.") 1.5 hr. lecture. Teaser: includes the phrase "Charlton Heston flying through the air." Oh and also please buy <a href="http://www.amazon.com/Sketching-User-Experiences-Interactive-Technologies/dp/0123740371">Sketching User Experiences</a>. Operators are standing by. 

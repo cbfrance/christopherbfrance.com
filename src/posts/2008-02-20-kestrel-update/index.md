@@ -5,7 +5,8 @@ title: Kestrel update.
 excerpt: "We'll be gathering feedback about the initial concept and looking at some first drafts of first drafts. Basically, we're gabbing on the phone for a bit and I'm taking some notes. "
 tags: [ux, design, kestrel, code]
 modified_on: 2008-04-05 07:35:03
-status: publish
+status: publish 
+path: /2008-02-20-kestrel-update
 ---
 
 Things are looking great so far with this hairbrained project of ours. 

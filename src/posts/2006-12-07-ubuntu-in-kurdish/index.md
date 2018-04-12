@@ -5,7 +5,8 @@ title: Ubuntu in Kurdish!
 excerpt: "Ubuntu Linux has been translated into Kurdish!"
 tags: [kurdish, linux]
 modified_on: 2008-04-05 07:16:02
-status: publish
+status: publish 
+path: /2006-12-07-ubuntu-in-kurdish
 ---
 
 <p>Ubuntu Linux has been translated into Kurdish!</p>

@@ -5,7 +5,8 @@ title: "Web Developer's Handbook: developing web-sites, exploring own imaginatio
 excerpt: "The reason I love web design so much is that anyone can do it."
 tags: [design]
 modified_on: 2008-04-05 06:44:01
-status: publish
+status: publish 
+path: /2006-01-06-web-developers-handbook-developing-web-sites-exploring-own-imagination-css-color-tools-seo-usability-etc
 ---
 
 The reason I love web design so much is that anyone can do it. The web is just full of tutorials, examples and geeks on call. 

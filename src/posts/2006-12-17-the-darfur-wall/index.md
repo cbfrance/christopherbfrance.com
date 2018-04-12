@@ -5,7 +5,8 @@ title: The Darfur Wall
 excerpt: "a beautifully executed charity project that fills a very simple, traditional purpose"
 tags: [design, nptech, darfur]
 modified_on: 2008-04-05 07:18:09
-status: publish
+status: publish 
+path: /2006-12-17-the-darfur-wall
 ---
 
 <img src="/images/darfur_wall.jpg" alt="Darfur Wall">

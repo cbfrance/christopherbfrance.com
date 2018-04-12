@@ -5,7 +5,8 @@ title: Stock Photos Anyone?
 excerpt: "Stock photography is pretty essential for web developers and designers. "
 tags: [stock, photography]
 modified_on: 2008-04-05 05:39:58
-status: publish
+status: publish 
+path: /2005-03-30-stock-photos-anyone
 ---
 
 Stock photography is pretty essential for web developers and designers. If your organization doesn't have a large budget for that kind of thing (stock photos are $50-$250, usually), there are a few alternatives with a decent selection &mdash; and the pictures are only a few bucks, if not free.

@@ -5,7 +5,8 @@ title: "ICT4D Africa Scan: An Inventory of ICT Activity in Africa"
 excerpt: "seeks to provide a reference of the major ICT development activities  in Africa. "
 tags: [research, ict4d]
 modified_on: 2008-04-05 06:33:47
-status: publish
+status: publish 
+path: /2005-11-23-ict4d-africa-scan-an-inventory-of-ict-activity-in-africa
 ---
 
 The ICT4D (Informaiton and Communication Technology for Development) Africa Scan is a serious undertaking that seeks to provide a reference of the major ICT development activities  in Africa. 

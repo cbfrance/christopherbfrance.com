@@ -5,7 +5,8 @@ title: Fear and Loathing in Tunis
 excerpt: "It seems somehow appropriate that the second phase of the World Summit on the Information Society (WSIS) is being held in Tunis."
 tags: [tunisia, censorship, WISIS]
 modified_on: 2008-04-05 06:29:52
-status: publish
+status: publish 
+path: /2005-11-16-fear-and-loathing-in-tunis
 ---
 
 <p>It seems somehow appropriate that the second phase of the World Summit on the Information Society (WSIS) is being held in Tunis. What to do with a government widely criticized for its repressive watchfulness in the public sphere? Let them host a mega-conference designed to make progress toward a more equitable, open vision of the web and the new ICT-driven world.</p><p>I'm not being sarcastic: It sounded like a good idea to me. Tunisia has relatively high internet usage for Africa (just over 10%). What better way to encourage change in a society than to put them on the world stage? I thought they would get their act together. </p>

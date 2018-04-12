@@ -5,7 +5,8 @@ title: "Understanding a community tag: the history of nptech"
 excerpt: "Recently there has been a lot of discussion among the nonprofit technology geeks about the use (and usefulness) of the tag nptech."
 tags: [nptech, code, experiment, floksonomy, community, tags ]
 modified_on: 2009-01-30 10:46:38
-status: publish
+status: publish 
+path: /2007-01-11-understanding-a-community-tag-the-history-of-nptech
 ---
 
 Recently there has been a lot of discussion among the nonprofit technology geeks about the use (and usefulness) of the tag "nptech".

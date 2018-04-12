@@ -5,7 +5,8 @@ title: What is ICT?
 excerpt: "ICT is at the core of a movement that seeks to provide access to technology for people who would normally not have access to it"
 tags: [ict4d, develoment]
 modified_on: 2008-04-05 05:16:28
-status: publish
+status: publish 
+path: /2005-01-06-what-is-ict
 ---
 
 ICT is Information Communication Technology, literally. 

@@ -5,7 +5,8 @@ title: Personal metrics, infoviz porn & productivity obsession
 excerpt: "As an infoviz junkie, I have to say that I have always *adored* this stuff. But the tonight I heard a very smart person say that, prior to Nike+, collaborative running was impossible."
 tags: [infoviz, design]
 modified_on: 2008-05-18 20:49:21
-status: publish
+status: publish 
+path: /2008-04-11-personal-metrics-infoviz-porn-productivity-obsession
 ---
 
 I've recently been reading quite a bit about "personal metrics" (aka "attention data", aka your "information wake"). Pictured are some examples from <a href="http://www.last.fm/">Last.fm</a>, <a href="http://nikeplus.nike.com/nikeplus/">Nike+</a> and <a href="http://www.rescuetime.com/">RescueTime</a> (which I used for a few days this week! My Saturday computing is visualized below.)

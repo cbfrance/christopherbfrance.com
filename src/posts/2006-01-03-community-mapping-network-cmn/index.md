@@ -5,7 +5,8 @@ title: Community Mapping Network (CMN)
 excerpt: "The Community Mapping Network </a> (CMN)provides an online mapping application that allows folks in British Columbia, Canada, to create and edit information about environmental resources in their areas."
 tags: [geo]
 modified_on: 2008-04-05 06:42:42
-status: publish
+status: publish 
+path: /2006-01-03-community-mapping-network-cmn
 ---
 
 The <a href="http://www.shim.bc.ca/">Community Mapping Network </a> (CMN)provides an online mapping application that allows folks in British Columbia, Canada, to create and edit information about environmental resources in their areas. 

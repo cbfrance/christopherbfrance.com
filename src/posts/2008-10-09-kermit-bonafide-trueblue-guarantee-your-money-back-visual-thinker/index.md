@@ -5,7 +5,8 @@ title: "Kermit: bonafide-trueblue- guarantee- your- money- back visual thinker"
 excerpt: "Somehow Kermit managed to skewer the woo-woo hippie hype surrounding visual thinking 40 years ago. "
 tags: [design, muppets, video]
 modified_on: 2009-01-30 12:17:34
-status: publish
+status: publish 
+path: /2008-10-09-kermit-bonafide-trueblue-guarantee-your-money-back-visual-thinker
 ---
 
 Somehow Kermit managed to skewer the woo-woo hippie hype surrounding visual thinking 40 years ago. 

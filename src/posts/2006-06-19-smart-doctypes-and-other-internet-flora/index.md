@@ -5,7 +5,8 @@ title: Smart doctypes and other internet flora
 excerpt: "If you are interested in keeping up with the best practices of mime types, content types, character encoding and doctypes"
 tags: [webdev]
 modified_on: 2008-04-05 07:11:36
-status: publish
+status: publish 
+path: /2006-06-19-smart-doctypes-and-other-internet-flora
 ---
 
 If you are interested in keeping up with the best practices of mime types, content types, character encoding and doctypes ....

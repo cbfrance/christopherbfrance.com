@@ -4,7 +4,8 @@ created_at: 2007-12-02 04:21:25
 title: Why I moved to San Francisco
 tags: [sf, culture]
 modified_on: 2008-04-05 07:30:33
-status: publish
+status: publish 
+path: /2007-12-02-move-to-san-francisco
 ---
 
 "Move to San Francisco" seems to be the advice that I've been giving to pretty much all of the geek + activisty folks that I know. There have been really great conferences like <a href="http://www.aneventapart.com/">An Event Apart</a> and <a href="http://compostmodern.org/">CompostModern</a>, green <a href="http://greendrinks.org/">socialite stuff</a> and <a href="http://www.greenfestivals.org/">Green Fest</a>, a great cycling scene, gorgeous coastline, sustainable agriculture galore, municipal freaking <em>composting</em>, local beer/coffee/chocolate/veggies/everything, the legendary queer scene, the legendary political art scene, an awesome, active <a href="http://www.aiga.org/">AIGA</a> chapter, killer public transport, a hilarious mix of psychedelic and high-tech history... It's all been even more incredible than I'd hoped. This city is just completely alive and thriving with all kinds of brilliant geeky people doing Good Things. ... You should come, really. 

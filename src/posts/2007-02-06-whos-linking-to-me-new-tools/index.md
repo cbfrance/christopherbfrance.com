@@ -5,7 +5,8 @@ title: Who's linking to our website? New tools.
 excerpt: "It is a pretty basic trick to get an idea of people that are linking to your site."
 tags: [analytics, ops, metrics, evaluation, quantitative]
 modified_on: 2009-01-30 10:46:25
-status: publish
+status: publish 
+path: /2007-02-06-whos-linking-to-me-new-tools
 ---
 
 <span class="update">

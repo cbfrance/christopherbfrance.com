@@ -5,7 +5,8 @@ title: Hey Buddy, Can You Spare A Secure Socket Layer?
 excerpt: "Online fundraising: what's the best way to do it? "
 tags: [fudraising, webdev]
 modified_on: 2008-04-05 05:36:05
-status: publish
+status: publish 
+path: /2005-03-17-hey-buddy-can-you-spare-a-secure-socket-layer
 ---
 
 There's always a lot of curiosity about online fundraising among organizations that are new to the web. Rightly so. Having a "donate now" link could be, by itself, a reason to have a nonprofit website. You can give out the address of your site with all correspondence and know that you're getting the plate passed at the same time, for much less money than a direct mailing or phone solicitation.

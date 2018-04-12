@@ -5,7 +5,8 @@ title: "Happy Hosting "
 excerpt: "Their VPS plans are a reasonable deal, but, as always, the support is what is always most important when choosing a host unless it's a super small static site, in which case the big guys like mediatemple, dreamhost, bluehost are fine. (Oh and check wordpress.com if you need a free site.)"
 tags: [ops, rimuhosting]
 modified_on: 2008-04-05 07:35:15
-status: publish
+status: publish 
+path: /2008-02-21-happy-hosting
 ---
 
 If you need a professional application server, particularly for rails, I'm recommending <a href="http://rimuhosting.com/">Rimuhost</a> these days. 

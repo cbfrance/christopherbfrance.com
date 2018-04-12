@@ -5,7 +5,8 @@ title: Is Open Source Software Ready?
 excerpt: "With a little bit of online research, there is often an open-source alternative to expensive programs that are needed for programs in rural/poor/developing areas."
 tags: [opensource, education, community]
 modified_on: 2008-04-05 05:15:38
-status: publish
+status: publish 
+path: /2004-12-21-is-open-source-software-ready
 ---
 
 Yes, it is. 

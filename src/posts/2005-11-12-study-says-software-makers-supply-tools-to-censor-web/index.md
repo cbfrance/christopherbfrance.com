@@ -5,7 +5,8 @@ title: Study Says Software Makers Supply Tools to Censor Web
 excerpt: "The misuse of good technology. Or perhaps just the use of bad technology. "
 tags: [technology, censorship]
 modified_on: 2008-04-05 06:25:17
-status: publish
+status: publish 
+path: /2005-11-12-study-says-software-makers-supply-tools-to-censor-web
 ---
 
 The misuse of good technology. Or perhaps just the use of bad technology. 

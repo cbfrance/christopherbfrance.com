@@ -5,7 +5,8 @@ title: Linux Overview
 excerpt: "If you are new to Linux, this may help to explain a lot of the confusion in your head about the numerous versions of the platform."
 tags: [linux, tutorial]
 modified_on: 2008-04-05 07:12:13
-status: publish
+status: publish 
+path: /2006-06-24-linux-overview
 ---
 
 Just found this nice, basic, summary of the various Linux distributions.  <blockquote class="large">

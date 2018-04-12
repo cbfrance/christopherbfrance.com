@@ -5,7 +5,8 @@ title: Biofuels Community with Google Maps
 excerpt: Google maps offers the tools (an API) for creating maps using their interface, and this is an example of what I'm creating for the local Piedmont Biofuels community website.
 tags: [biofuels]
 modified_on: 2008-04-05 06:56:25
-status: publish
+status: publish 
+path: /2006-01-26-biofuels-community-with-google-maps
 ---
 
 <img src='/images/biofuelsmap.jpg' alt='biofuels-map' /> <a href="http://www.ultramegaok.com/biodiesel/stations.html">This Washington state map</a> is an example of what <a href="http://www.nonprofitdesign.org">nonprofitdesign.org</a> is creating for my local (NC) biofuels community website (in the works).

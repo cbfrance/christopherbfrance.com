@@ -5,7 +5,8 @@ title: Cellphones FTW
 excerpt: "My question is: where the hell are the tools for people who use cellphones in this way? (In particular, where are the banking tools and educational tools?) In the first world we've got $600 iphones that can <em>read your freaking mind</em>. But a simple flashcard application for learning a few of the 62 languages spoken in Kenya?  It's not quite as sexy. "
 tags: [education, sms, ict4d, language, mobile]
 modified_on: 2008-04-05 07:34:07
-status: publish
+status: publish 
+path: /2008-02-02-cellphones-ftw
 ---
 
 I am obsessed with cell phones right now. Mostly I bloody *hate* them. I haven't had one for six months, but <a href="http://boltpeters.com">work</a> made me get one last week. So since they made me get one I am lobbying to get into some cell-phone-type research, partly to figure out my personal issues with cellular voice communication, most mostly because, clearly, undoubtedly, they are the most important technology in the world: they are <strong>the network of the developing world</strong>. As a<a href="http://news.bbc.co.uk/2/hi/technology/7106998.stm"> BBC article</a> put it a couple weeks ago: ""it's time that we recognised that for the majority of the world's population, and for the foreseeable future, the cell phone is the computer, and it will be the portal to the internet, and the communications tool, and the schoolbook, and the vaccination record, and the family album ..."

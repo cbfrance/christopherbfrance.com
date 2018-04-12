@@ -5,7 +5,8 @@ title: Favorite Rails tools
 excerpt: "Here's the stuff that makes me a happy programmer this weekend:"
 tags: [tools, rails, testing, ops, css]
 modified_on: 2008-04-11 07:29:10
-status: publish
+status: publish 
+path: /2008-04-11-favorite-rails-tools
 ---
 
 Next week I'm sure Rails will be completely pass in favor of <a href="http://merbivore.com/">Merb</a> (managed by <a href="http://git.or.cz/">git</a>, of course). But for now, here's the stuff that makes me a happy programmer this weekend:

@@ -5,7 +5,8 @@ title: Rosetta Provides Collaborative Online FOSS Translation
 excerpt: "Rosetta is a web-based platform that does exactly what I thought needed to be done: it makes open source software translation really easy for lots of people, and it makes it easy to collaborate on a translation project."
 tags: [translation]
 modified_on: 2008-07-11 09:00:32
-status: publish
+status: publish 
+path: /2006-01-27-rosetta-provides-collaborative-online-translatin-of-oss
 ---
 
 <a href="https://launchpad.net/rosetta">Rosetta </a>is a web-based platform that does exactly what I thought needed to be done: it makes open source software translation really easy for lots of people, and it makes it easy to collaborate on a translation project. 

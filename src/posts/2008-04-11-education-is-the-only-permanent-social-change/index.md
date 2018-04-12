@@ -5,7 +5,8 @@ title: Education is the only permanent social change
 excerpt: "I've felt for a long time that education is the most important vehicle for social change. I mean, really how else does anything actually get done? You've got to have some kick ass teachers along the way, or you're gonna be a vegetable."
 tags: [education, sf, nptech]
 modified_on: 2008-04-11 07:24:29
-status: publish
+status: publish 
+path: /2008-04-11-education-is-the-only-permanent-social-change
 ---
 
 I've felt for a long time that education is the most important vehicle for social change. I mean, really how else does anything actually get done? You've got to have some kick ass teachers along the way, or you're gonna be a vegetable. And vegetabledom happens to entire societies. Watch out. 

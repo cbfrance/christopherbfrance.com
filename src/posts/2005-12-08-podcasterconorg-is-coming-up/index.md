@@ -5,7 +5,8 @@ title: PodcasterCon.org is coming up
 excerpt: "I love the idea of a unconference"
 tags: [podcasting, activism]
 modified_on: 2008-04-05 06:34:42
-status: publish
+status: publish 
+path: /2005-12-08-podcasterconorg-is-coming-up
 ---
 
 Brian Russell of<a href="http://www.audioactivism.org/"> Audio Activism</a> is putting together (along with a bunch of help, I'm sure he would modestly point out) the next Podcaster Conference in NC.  

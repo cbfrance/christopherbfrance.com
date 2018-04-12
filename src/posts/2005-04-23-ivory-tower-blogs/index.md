@@ -5,7 +5,8 @@ title: Ivory Tower Blogs
 excerpt: "striving for that loose-limbed, vernacular mode"
 tags: [education, blogging, gradschool]
 modified_on: 2008-04-05 05:44:07
-status: publish
+status: publish 
+path: /2005-04-23-ivory-tower-blogs
 ---
 
 Here's a neat article on scholarly blogs from 2003 in the Chronicle of Higher Education. It's outdated but excellent, framing the issue in real-world concerns of "academic posturing" vs. "realtime idea exchanges."

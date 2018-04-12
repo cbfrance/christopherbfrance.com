@@ -5,7 +5,8 @@ title: In Praise of Shitty Programmers
 excerpt: "It's OK, most of us are pretty mediocre."
 tags: [programming]
 modified_on: 2008-05-18 20:51:03
-status: publish
+status: publish 
+path: /2008-02-11-in-praise-of-shitty-programmers
 ---
 
 There's this great movie called A Beautiful Mind that I saw once, and in the last few months I've been quoting it a few times when talking about my programming career. Overall it's a great story, but the one scene that really gets me is when he (John Nash, famous mathematician) is standing in front of a class at Princeton and he puts a particularly complex problem on the board. 

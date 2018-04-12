@@ -5,7 +5,8 @@ title: Open Source Software in the Developing World
 excerpt: "This report details how budget-strapped organizations working in the developing world are able to use open source software to accomplish computing task that would otherwise just be too expensive."
 tags: [nptech]
 modified_on: 2008-04-05 06:31:18
-status: publish
+status: publish 
+path: /2005-11-17-open-source-software-in-the-developing-world
 ---
 
 <p>This report details how budget-strapped organizations working in the developing world are able to use open source software to accomplish computing task that would otherwise just be too expensive.</p>

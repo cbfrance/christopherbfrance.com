@@ -5,7 +5,8 @@ title: Networking Wirelessly, Freely
 excerpt: "A great new book about wireless networking in the developing world"
 tags: [networking, sysadmin, book]
 modified_on: 2008-04-05 06:58:14
-status: publish
+status: publish 
+path: /2006-01-29-networking-wirelessly-freely
 ---
 
 <a href="http://multiplicity.dk/2006/01/wireless-networking-in-the-developing-world/">Thomas Krag</a> has a great-looking new <a href="http://wndw.net/news.html">book </a>(with lead editor Rob Flickenger) about wireless networking in the developing world. And it's always nice to see people taking advantage of the print-on-demand services of <a href="http://www.lulu.com">lulu.com</a>. 

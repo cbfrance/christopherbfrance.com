@@ -5,7 +5,8 @@ title: Technology for the Poor
 excerpt: "A technology conference yesterday in England was host to a speaker Iqbal Quadir, who has sold about 100,000 cell phones to poor folks in Bangladesh."
 tags: [poverty, mobiles, worldbank]
 modified_on: 2008-06-23 08:47:53
-status: publish
+status: publish 
+path: /2005-07-14-technology-for-the-poor-profit-for-the-rich
 ---
 
 A technology conference yesterday in England was host to a speaker Iqbal Quadir, who has sold about 100,000 cell phones to poor folks in Bangladesh. These are people who otherwise would have no digital communications, and Quadir feels that their new phones are empowering them more than the development strategies of the last 60 years.

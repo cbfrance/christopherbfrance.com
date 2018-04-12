@@ -5,7 +5,8 @@ title: Databases with Purpose
 excerpt: "This post from Tech Soup is a good, brief introduction to the use of databases in your organization."
 tags: [techsoup, nptech, webdev]
 modified_on: 2008-04-05 06:04:44
-status: publish
+status: publish 
+path: /2005-07-25-databases-with-purpose
 ---
 
 This post from Tech Soup is a good, brief introduction to the use of databases in your organization.

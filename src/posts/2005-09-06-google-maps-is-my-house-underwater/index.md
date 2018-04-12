@@ -5,7 +5,8 @@ title: "Google Maps: Is My House Underwater?"
 excerpt: "Kathyn Cramer, based in New York, is doing great disaster response work with Google maps."
 tags: [maps, katrina]
 modified_on: 2008-04-05 06:14:22
-status: publish
+status: publish 
+path: /2005-09-06-google-maps-is-my-house-underwater
 ---
 
 Kathyn Cramer, based in New York, is doing great work with Google maps. The following information is quoted from <a href="http://www.kathryncramer.com/kathryn_cramer/2005/09/how_to_find_out.html">her blog</a>. 

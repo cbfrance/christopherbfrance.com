@@ -5,7 +5,8 @@ title: "What a Relief: Google Maps for Mac"
 excerpt: "Glad to see that little bit of criticism go so out of date so quickly. Now, Google, a Linux release, please."
 tags: [google, geo]
 modified_on: 2008-04-05 06:45:10
-status: publish
+status: publish 
+path: /2006-01-10-what-a-relief-google-maps-for-mac
 ---
 
 This is minor news in most contexts: <a href="http://earth.google.com/">Google Earth </a>(the software power tool that feels like a toy) has been released for the Mac. 

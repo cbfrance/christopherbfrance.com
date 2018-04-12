@@ -5,7 +5,8 @@ title: Free Nonprofit Webhosting
 excerpt: "If you need a free place to host your website"
 tags: [hosting, nptech]
 modified_on: 2008-04-05 06:31:55
-status: publish
+status: publish 
+path: /2005-11-17-free-nonprofit-webhosting
 ---
 
 If you need a free place to host your website, make sure you check out <a href="http://www.ambitiouslemon.com">AmbitiousLemon</a>. They look very good at what they do; they at least have a very capable open source software setup on their server, with Ruby On Rails, PHP, Perl, Apache etc. : 

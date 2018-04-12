@@ -5,7 +5,8 @@ title: The Wireless Internet Opportunity For Developing Countries
 excerpt: "The greatest aspect of this document is that it represents how often the most successful cases of adoption is grassroots and local &mdash; this type of development does not work well when it is imposed by some NGO or corporation."
 tags: [tunisia, africa, wsis, education, health, agriculture, sustainability]
 modified_on: 2008-04-05 06:30:35
-status: publish
+status: publish 
+path: /2005-11-17-the-wireless-internet-opportunity-for-developing-countries
 ---
 
 <p>While poking around on stuff related to the WSIS in Tunis, I found this excellent document about wireless internet in Africa, which was used at the first meeting of the WSIS in 2003. I only wish that there was an updated copy somewhere ...

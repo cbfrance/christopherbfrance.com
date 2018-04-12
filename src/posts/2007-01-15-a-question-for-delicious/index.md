@@ -5,7 +5,8 @@ title: A question for del.icio.us
 excerpt: "Are there 1000 of our entries missing?"
 tags: [delicious, tagging, experiment]
 modified_on: 2008-04-05 07:22:46
-status: publish
+status: publish 
+path: /2007-01-15-a-question-for-delicious
 ---
 
 I am still working on developing a tool for analyzing community tags in del.icio.us, but I have run into a problem that messes up the data pretty significantly. I would be interested to know if anyone has any ideas what is going on. 
