@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2005-09-25 04:08:18
 title: ICT in Education

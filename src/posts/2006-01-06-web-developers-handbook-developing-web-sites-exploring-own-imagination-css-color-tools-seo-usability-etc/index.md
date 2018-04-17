@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2006-01-06 18:06:02
 title: "Web Developer's Handbook: developing web-sites, exploring own imagination | CSS, Color Tools, SEO, Usability etc."

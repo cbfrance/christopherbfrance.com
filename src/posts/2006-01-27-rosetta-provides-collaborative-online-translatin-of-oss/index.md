@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2006-01-27 14:55:32
 title: Rosetta Provides Collaborative Online FOSS Translation

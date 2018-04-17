@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2005-03-30 07:53:00
 title: Stock Photos Anyone?

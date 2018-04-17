@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2005-12-30 16:47:02
 title: Google's Librarian Newsletter Offers New Explanation of Pagerank

@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2005-07-14 15:56:08
 title: Technology for the Poor

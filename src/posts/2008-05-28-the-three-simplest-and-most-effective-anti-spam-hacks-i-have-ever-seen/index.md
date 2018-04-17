@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2008-05-28 22:18:08
 title: The Three Simplest and Most Effective Anti-Spam Hacks I Have Ever Seen

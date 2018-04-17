@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2007-01-31 22:31:35
 title: The last mile wikipedia launches

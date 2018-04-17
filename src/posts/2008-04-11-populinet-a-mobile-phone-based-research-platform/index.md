@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2008-04-11 07:28:18
 title: "Populi.net: a mobile phone-based research platform"

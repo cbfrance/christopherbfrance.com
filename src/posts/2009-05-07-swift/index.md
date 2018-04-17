@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2009-05-07 09:17:50
 title: Swift

@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2005-08-03 15:20:06
 title: Measuring ICT Literacy

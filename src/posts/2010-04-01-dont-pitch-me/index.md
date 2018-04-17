@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2010-04-01 19:12:10
 title: Don't pitch

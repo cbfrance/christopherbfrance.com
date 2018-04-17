@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2005-05-05 03:20:04
 title: What The Hell Is RSS?

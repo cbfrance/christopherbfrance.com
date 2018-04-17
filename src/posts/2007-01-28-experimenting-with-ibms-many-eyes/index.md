@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2007-01-28 18:06:44
 title: Experimenting with IBM's "Many Eyes"

@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2006-12-06 21:55:39
 title: Design for Maximum Constraints

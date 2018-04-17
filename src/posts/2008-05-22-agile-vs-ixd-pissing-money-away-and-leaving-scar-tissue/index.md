@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2008-05-22 06:41:34
 title: "Agile Engineering vs. Interaction Design: Pissing money away and leaving scar tissue"

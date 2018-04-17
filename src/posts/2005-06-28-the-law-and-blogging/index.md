@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2005-06-28 22:37:38
 title: The Law and Blogging

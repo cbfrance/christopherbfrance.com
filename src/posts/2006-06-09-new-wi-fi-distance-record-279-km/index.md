@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2006-06-09 04:09:49
 title: "New Wi-Fi distance record: 279 km!"

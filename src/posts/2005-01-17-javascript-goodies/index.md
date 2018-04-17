@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2005-01-17 14:41:04
 title: JavaScript Goodies

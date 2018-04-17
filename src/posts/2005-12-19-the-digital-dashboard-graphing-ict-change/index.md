@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2005-12-19 14:40:01
 title: "The Digital Dashboard: Graphing ICT Change"

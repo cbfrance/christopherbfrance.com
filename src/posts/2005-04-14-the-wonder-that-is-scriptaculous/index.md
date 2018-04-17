@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2005-04-14 16:08:15
 title: The Wonder That is Script.aculo.us

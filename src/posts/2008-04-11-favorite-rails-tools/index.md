@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2008-04-11 07:29:10
 title: Favorite Rails tools

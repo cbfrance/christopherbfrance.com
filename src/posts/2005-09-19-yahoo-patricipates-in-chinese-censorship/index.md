@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2005-09-19 14:22:35
 title: Yahoo Participates in Chinese Censorship

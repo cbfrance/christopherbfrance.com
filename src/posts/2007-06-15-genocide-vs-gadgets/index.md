@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2007-06-15 17:12:07
 title: Genocide vs. Gadgets

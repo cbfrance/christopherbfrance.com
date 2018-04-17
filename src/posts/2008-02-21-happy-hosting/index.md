@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2008-02-21 22:07:38
 title: "Happy Hosting "

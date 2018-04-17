@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2008-05-29 02:52:03
 title: The Future is All Android, All Open Source. And Underpants. And Ice Cream.

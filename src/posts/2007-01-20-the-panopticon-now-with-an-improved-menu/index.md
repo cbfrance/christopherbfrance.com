@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2007-01-20 22:26:32
 title: The Panopticon. Now With An Improved Menu!

@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2005-03-29 01:40:00
 title: Some Web Design Books Are Dangerous

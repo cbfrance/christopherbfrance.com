@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2005-07-25 16:34:29
 title: Databases with Purpose

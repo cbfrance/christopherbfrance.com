@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2008-10-09 23:29:43
 title: suspicious infoviz of the day

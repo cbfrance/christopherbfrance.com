@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2005-12-20 20:36:09
 title: "Mobile Web Design: Tips & Techniques (Technical)"

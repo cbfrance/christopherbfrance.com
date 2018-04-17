@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2006-12-11 19:05:34
 title: Geekcorps Writeup on Newsforge

@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2005-11-12 00:09:10
 title: More accounts of the 1-Laptop-Per-Child Laptop at MIT

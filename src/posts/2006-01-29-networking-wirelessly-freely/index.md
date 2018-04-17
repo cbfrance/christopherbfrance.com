@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2006-01-29 16:53:48
 title: Networking Wirelessly, Freely

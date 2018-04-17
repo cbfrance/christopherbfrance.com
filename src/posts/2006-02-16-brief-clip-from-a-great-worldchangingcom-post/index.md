@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2006-02-16 21:25:13
 title: Brief Clip from a Great WorldChanging.com Post

@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2006-02-16 21:05:47
 title: On Teachers Moving from Web 0.5 to Web 3.0

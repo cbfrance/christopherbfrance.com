@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2008-06-13 03:22:50
 title: The Unevenly Distributed Future (of Mobile Application Design), Visualized

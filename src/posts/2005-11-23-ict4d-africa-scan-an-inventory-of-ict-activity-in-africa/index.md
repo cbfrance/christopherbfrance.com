@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2005-11-23 17:01:52
 title: "ICT4D Africa Scan: An Inventory of ICT Activity in Africa"

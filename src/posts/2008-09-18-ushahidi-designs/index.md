@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2008-09-18 01:44:41
 title: Ushahidi for the iPhone

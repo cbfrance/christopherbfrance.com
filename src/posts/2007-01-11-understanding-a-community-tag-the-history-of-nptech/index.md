@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2007-01-11 00:08:06
 title: "Understanding a community tag: the history of nptech"

@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2008-06-20 05:09:08
 title: Visualizing Human Rights with the Google Charts API

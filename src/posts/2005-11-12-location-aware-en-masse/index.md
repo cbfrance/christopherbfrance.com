@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2005-11-12 03:24:49
 title: Location-aware en masse

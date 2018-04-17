@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2005-03-17 02:11:00
 title: Hey Buddy, Can You Spare A Secure Socket Layer?

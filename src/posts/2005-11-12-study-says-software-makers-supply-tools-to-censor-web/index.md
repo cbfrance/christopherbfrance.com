@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2005-11-12 00:55:49
 title: Study Says Software Makers Supply Tools to Censor Web

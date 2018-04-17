@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2005-05-03 03:45:13
 title: For-Profit NTEN?

@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2008-02-11 02:31:57
 title: In Praise of Shitty Programmers

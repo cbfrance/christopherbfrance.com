@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2008-03-21 03:18:26
 title: The Future of Money

@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2005-09-22 17:40:27
 title: The "Dissident" Blogger Handbook

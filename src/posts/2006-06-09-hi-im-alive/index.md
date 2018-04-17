@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2006-06-09 04:20:23
 title: Hi, I'm alive

@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2008-04-11 08:40:30
 title: Command line metrics

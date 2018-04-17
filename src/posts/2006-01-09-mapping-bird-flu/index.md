@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2006-01-09 20:52:14
 title: Mapping Bird Flu

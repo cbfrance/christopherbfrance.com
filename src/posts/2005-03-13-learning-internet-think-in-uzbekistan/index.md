@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2005-03-13 18:43:39
 title: Learning internet-think in Uzbekistan

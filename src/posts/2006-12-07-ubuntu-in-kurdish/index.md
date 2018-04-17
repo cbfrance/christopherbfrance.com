@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2006-12-07 14:52:58
 title: Ubuntu in Kurdish!

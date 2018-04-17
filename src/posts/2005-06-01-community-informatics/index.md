@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2005-06-01 21:56:24
 title: Community Informatics

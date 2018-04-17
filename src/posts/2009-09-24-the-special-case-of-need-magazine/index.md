@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2009-09-24 05:03:33
 title: The "Special Case" of NEED Magazine

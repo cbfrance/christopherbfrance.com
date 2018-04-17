@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2007-12-02 04:21:25
 title: Why I moved to San Francisco

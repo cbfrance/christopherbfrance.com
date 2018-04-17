@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2006-12-18 19:38:16
 title: An Open Source Strike?

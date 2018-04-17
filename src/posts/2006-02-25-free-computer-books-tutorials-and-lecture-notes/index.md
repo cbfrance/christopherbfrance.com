@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2006-02-25 22:08:08
 title: "Power to the People: Free (as in Beer) O'Reilly Books and More"

@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2008-06-26 09:20:43
 title: Thursday Morning TV

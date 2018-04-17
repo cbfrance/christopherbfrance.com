@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2009-06-30 12:06:53
 title: OpenStreetMap Cambodia

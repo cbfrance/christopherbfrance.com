@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2006-01-03 21:32:58
 title: Web Developer Toolbar Reaches 1.0 Release

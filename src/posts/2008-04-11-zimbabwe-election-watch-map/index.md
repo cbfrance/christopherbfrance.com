@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2008-04-11 08:38:03
 title: Zimbabwe Election Watch Map

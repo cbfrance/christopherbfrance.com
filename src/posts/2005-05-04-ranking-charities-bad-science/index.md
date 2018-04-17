@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2005-05-04 20:07:11
 title: Ranking Charities = Bad Science

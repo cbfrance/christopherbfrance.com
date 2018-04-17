@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2004-07-13 14:36:59
 title: Hacking Internet Explorer, the Definitive Guide

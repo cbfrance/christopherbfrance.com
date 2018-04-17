@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2005-10-03 18:24:07
 title: Participatory Design

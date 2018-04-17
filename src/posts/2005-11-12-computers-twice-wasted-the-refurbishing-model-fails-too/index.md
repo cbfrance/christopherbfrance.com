@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2005-11-12 00:52:34
 title: Computers Twice Wasted

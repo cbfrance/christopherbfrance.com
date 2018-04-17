@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2008-05-31 01:33:47
 title: Book of the Month Club for Interface & Design Geeks

@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2005-11-17 14:45:01
 title: The Wireless Internet Opportunity For Developing Countries

@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2005-01-06 19:47:24
 title: What is ICT?

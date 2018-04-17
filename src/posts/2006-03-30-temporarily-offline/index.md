@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2006-03-30 22:14:09
 title: Temporarily Offline

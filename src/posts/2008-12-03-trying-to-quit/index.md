@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2008-12-03 10:40:53
 title: Trying to Quit

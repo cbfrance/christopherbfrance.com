@@ -8,7 +8,7 @@ export default function Template({ data }) {
       <Helmet title={`${post.frontmatter.title}`} />
       <div className="blog-post">
         <h1>{post.frontmatter.title}</h1>
-        <h2>{post.frontmatter.date}</h2>
+        <h2>{post.frontmatter.created_at}</h2>
         <div className="blog-post-content" dangerouslySetInnerHTML={{ __html: post.html }} />
       </div>
     </div>

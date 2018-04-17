@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2008-12-03 00:34:32
 title: Dealing Lightning with Both Hands

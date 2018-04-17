@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2005-09-02 18:09:26
 title: GIS and Humanitarian Crisis

@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2009-09-09 07:34:34
 title: ICCM 09, the Crisis Mapping Conference

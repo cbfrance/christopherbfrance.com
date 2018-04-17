@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2008-10-09 22:17:48
 title: "Kermit: bonafide-trueblue- guarantee- your- money- back visual thinker"

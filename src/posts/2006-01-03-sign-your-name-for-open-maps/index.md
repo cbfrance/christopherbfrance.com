@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2006-01-03 21:48:49
 title: Sign Your Name for Open Maps

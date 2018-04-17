@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2005-05-28 22:21:59
 title: (Nearly) Free Software for 501(c)3's

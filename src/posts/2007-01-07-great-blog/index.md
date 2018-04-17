@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2007-01-07 19:37:02
 title: Great Blog

@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2008-08-13 07:39:09
 title: "Build Your Own Search Experience: Yahoo BOSS is pretty amazing"

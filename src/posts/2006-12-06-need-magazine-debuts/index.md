@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2006-12-06 00:03:01
 title: Need Magazine Debuts

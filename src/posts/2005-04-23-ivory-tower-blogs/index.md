@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2005-04-23 01:27:00
 title: Ivory Tower Blogs

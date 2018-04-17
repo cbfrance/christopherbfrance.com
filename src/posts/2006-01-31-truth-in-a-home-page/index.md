@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2006-01-31 15:26:52
 title: "Truth in a Home Page "

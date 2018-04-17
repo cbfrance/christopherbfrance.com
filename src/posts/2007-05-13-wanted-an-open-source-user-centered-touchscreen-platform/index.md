@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2007-05-13 21:24:26
 title: "Wanted: An open-source, user-centered touchscreen platform"

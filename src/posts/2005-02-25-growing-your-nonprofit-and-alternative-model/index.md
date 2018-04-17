@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2005-02-25 06:57:00
 title: "Growing Your Nonprofit: and Alternative Model"

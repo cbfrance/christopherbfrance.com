@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2005-12-20 20:15:05
 title: Updated Tactics for Making Your Information Findable

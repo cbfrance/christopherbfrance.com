@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2005-04-14 15:44:21
 title: A Few Words Against Drivel and Detritus

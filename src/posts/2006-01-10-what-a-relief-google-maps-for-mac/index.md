@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2006-01-10 22:06:15
 title: "What a Relief: Google Maps for Mac"

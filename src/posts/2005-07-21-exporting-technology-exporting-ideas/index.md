@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2005-07-21 17:43:09
 title: Exporting Technology, Exporting Ideas

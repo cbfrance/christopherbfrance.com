@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2005-09-23 20:33:17
 title: Blogger Handbook Chat

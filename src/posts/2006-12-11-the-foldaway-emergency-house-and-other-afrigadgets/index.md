@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2006-12-11 18:00:29
 title: The Foldaway Emergency House and Other "Afrigadgets"

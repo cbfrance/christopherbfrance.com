@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2005-07-29 15:06:25
 title: A New Online Journal

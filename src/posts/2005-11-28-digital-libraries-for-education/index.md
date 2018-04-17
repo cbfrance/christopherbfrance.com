@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2005-11-28 14:57:53
 title: Digital Libraries for Education

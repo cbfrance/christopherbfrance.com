@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2005-11-17 15:00:35
 title: Open Source Software in the Developing World

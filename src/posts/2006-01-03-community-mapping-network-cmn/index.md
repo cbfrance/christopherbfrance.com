@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2006-01-03 01:05:02
 title: Community Mapping Network (CMN)

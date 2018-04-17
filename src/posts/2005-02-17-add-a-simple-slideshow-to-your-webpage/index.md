@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2005-02-17 00:40:00
 title: Add A Simple Slideshow To Your Webpage

@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2009-11-09 09:06:29
 title: "'Slashtags' for citizen editors"

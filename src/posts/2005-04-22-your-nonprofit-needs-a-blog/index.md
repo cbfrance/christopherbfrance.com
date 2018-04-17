@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2005-04-22 21:20:00
 title: Your Nonprofit Needs A Blog

@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2006-03-20 01:00:43
 title: Relatively Simple RSS Aggregation

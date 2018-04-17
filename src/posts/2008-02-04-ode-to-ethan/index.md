@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2008-02-04 01:00:51
 title: Ode To Ethan

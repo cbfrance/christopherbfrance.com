@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2006-12-11 19:21:55
 title: Blood Diamonds in the News

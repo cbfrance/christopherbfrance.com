@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2008-04-12 05:23:08
 title: Can the Cellphone Help End Global Poverty? (Readers' Digest Version)

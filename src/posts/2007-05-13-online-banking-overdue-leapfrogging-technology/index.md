@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2007-05-13 19:40:05
 title: Online banking = overdue leapfrogging technology

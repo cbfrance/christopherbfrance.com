@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2005-05-03 04:06:57
 title: Let's Send More Emails!

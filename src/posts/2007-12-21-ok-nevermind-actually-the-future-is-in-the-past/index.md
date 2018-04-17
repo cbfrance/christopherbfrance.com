@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2007-12-21 20:49:41
 title: OK, Nevermind. Actually, The Future is in the Past

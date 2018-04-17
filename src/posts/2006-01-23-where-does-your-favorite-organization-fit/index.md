@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2006-01-23 20:03:28
 title: Where Does Your Favorite Organization Fit?

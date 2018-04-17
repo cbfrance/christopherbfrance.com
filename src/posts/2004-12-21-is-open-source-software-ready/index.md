@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2004-12-21 21:51:41
 title: Is Open Source Software Ready?

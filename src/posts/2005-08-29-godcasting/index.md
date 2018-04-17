@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2005-08-29 16:00:57
 title: Godcasting

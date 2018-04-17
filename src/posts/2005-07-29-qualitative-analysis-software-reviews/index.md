@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2005-07-29 16:04:44
 title: Qualitative Analysis Software Reviews

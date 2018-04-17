@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2006-02-24 21:15:50
 title: Combining RSS feeds and Displaying them on Your Page with Javascript and PHP

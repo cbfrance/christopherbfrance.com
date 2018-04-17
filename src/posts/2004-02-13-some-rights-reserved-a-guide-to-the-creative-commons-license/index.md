@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2004-02-13 18:15:21
 title: "Some Rights Reserved: A Guide to the Creative Commons License"

@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2005-11-12 00:56:09
 title: Google Earmarks $265 Million for Charity and Social Causes

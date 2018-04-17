@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2006-12-06 20:44:47
 title: "You Are The Enemy: \"Information Rights\" vs Open Source"

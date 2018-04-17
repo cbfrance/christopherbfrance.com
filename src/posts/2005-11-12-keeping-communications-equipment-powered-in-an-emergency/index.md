@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2005-11-12 03:25:53
 title: Keeping Communications Equipment Powered in an Emergency

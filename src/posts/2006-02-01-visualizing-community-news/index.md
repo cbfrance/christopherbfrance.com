@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2006-02-01 21:27:42
 title: Visualizing Community News

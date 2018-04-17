@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2008-04-11 08:39:49
 title: Personal metrics, infoviz porn & productivity obsession

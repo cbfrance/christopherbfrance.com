@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2006-01-26 05:55:00
 title: 1.) post to your blog 2.) post to del.ico.us and 3.) save all your links using spurl.com, all at the same time. This, I think will work well for a new biofuels ...

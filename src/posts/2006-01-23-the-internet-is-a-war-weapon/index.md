@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2006-01-23 19:59:18
 title: The Internet is a War Weapon

@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2006-03-06 18:59:02
 title: "Getting Real"

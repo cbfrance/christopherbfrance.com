@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2006-01-12 21:22:05
 title: Google Rankings and "Canonical" URLs (technical)

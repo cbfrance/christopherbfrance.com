@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2005-11-05 00:04:07
 title: Technical Difficulties

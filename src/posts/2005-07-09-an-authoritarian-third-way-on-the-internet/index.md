@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2005-07-09 14:10:05
 title: An Authoritarian "Third Way" on the Internet

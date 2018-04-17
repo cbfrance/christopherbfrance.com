@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2009-06-29 15:21:09
 title: Sustainable Interaction Design in Cambodia

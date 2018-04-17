@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2006-07-11 16:51:25
 title: TED Reaches out to the Proles

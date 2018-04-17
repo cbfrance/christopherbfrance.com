@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2005-11-12 03:26:14
 title: "The Evolution of the Library: a Tool of Development"

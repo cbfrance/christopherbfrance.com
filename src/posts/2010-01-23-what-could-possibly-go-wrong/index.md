@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2010-01-23 09:48:42
 title: "What could possibly go wrong? "

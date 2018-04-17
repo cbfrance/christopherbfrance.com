@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2007-01-20 22:24:03
 title: "The Culture of Open Networks, or: Watch What You Tag"

@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2005-01-09 05:35:09
 title: Branding a Nonprofit

@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2005-01-10 13:56:00
 title: Accessibility Is Important

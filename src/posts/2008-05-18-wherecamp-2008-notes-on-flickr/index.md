@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2008-05-18 08:53:09
 title: Wherecamp 2008 Notes on Flickr

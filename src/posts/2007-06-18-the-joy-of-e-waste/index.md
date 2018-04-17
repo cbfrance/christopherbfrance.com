@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2007-06-18 20:14:36
 title: The Joy of e-waste

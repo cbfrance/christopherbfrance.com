@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2005-08-05 07:57:52
 title: This Island Blog. (Or, What the Hell is a Blog?)

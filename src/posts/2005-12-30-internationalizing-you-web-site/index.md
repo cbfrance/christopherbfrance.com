@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2005-12-30 16:55:54
 title: Internationalizing your Web Site

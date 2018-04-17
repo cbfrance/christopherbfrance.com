@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2005-11-12 00:40:34
 title: Triangle Blogger's Bash, Durham, November 15

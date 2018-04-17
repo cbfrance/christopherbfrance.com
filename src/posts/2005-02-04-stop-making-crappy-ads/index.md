@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2005-02-04 00:39:00
 title: Stop Making Crappy Ads

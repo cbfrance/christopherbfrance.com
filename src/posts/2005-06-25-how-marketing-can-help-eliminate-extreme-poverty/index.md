@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2005-06-25 06:36:00
 title: How "Marketing" Can Help Eliminate Extreme Poverty

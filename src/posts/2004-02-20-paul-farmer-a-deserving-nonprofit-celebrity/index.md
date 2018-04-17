@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2004-02-20 23:36:09
 title: "Paul Farmer: A (Deserving) Nonprofit Celebrity"

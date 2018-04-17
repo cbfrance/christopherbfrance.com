@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2006-06-19 20:40:57
 title: Smart doctypes and other internet flora

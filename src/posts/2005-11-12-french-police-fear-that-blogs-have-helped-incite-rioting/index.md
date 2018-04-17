@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2005-11-12 03:25:30
 title: French Police Fear That Blogs Have Helped Incite Rioting

@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2004-07-06 19:24:00
 title: The United Nations Report on Technology And Human Development

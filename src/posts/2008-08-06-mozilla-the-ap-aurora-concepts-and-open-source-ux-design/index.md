@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2008-08-06 07:51:14
 title: Mozilla, The AP Aurora Concepts, and Open Source UX Design

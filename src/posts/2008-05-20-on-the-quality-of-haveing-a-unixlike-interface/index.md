@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2008-05-20 03:16:30
 title: On being "unixy"

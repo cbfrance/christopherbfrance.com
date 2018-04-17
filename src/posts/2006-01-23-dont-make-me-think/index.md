@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2006-01-23 19:07:17
 title: Don't Make Me Think

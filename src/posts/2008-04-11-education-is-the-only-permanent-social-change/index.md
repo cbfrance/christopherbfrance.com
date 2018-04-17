@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2008-04-11 07:24:29
 title: Education is the only permanent social change

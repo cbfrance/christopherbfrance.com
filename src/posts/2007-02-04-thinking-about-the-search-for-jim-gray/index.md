@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2007-02-04 16:54:10
 title: Thinking About The Search for Jim Gray

@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2006-01-12 20:55:29
 title: "RIP: The Committee to Protect Bloggers(?) "

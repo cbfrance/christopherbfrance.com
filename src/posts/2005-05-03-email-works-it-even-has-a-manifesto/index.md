@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2005-05-03 04:01:31
 title: Email Works. It Even Has A Manifesto.

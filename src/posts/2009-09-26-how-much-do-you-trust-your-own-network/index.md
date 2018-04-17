@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2009-09-26 01:43:57
 title: How Much Do You Trust Your Own Network?

@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2005-07-11 02:07:08
 title: Branding Advocacy

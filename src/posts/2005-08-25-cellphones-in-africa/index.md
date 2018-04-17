@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2005-08-25 19:07:01
 title: Cellphones in Africa

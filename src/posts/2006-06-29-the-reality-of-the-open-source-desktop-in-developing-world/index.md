@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2006-06-29 14:39:47
 title: The Reality of the Open Source Desktop in Developing World

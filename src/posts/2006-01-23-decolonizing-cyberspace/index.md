@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2006-01-23 16:24:53
 title: "\"Decolonizing Cyberspace\""

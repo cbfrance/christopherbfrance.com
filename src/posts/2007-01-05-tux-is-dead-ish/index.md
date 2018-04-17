@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2007-01-05 19:34:08
 title: Tux is dead-ish

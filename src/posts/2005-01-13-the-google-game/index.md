@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2005-01-13 07:49:00
 title: The Google Game

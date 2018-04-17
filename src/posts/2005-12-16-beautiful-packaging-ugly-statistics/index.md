@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2005-12-16 16:07:14
 title: Beautiful Packaging, Ugly Statistics

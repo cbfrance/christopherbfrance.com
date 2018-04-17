@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2006-02-22 21:03:01
 title: Online Focus Groups are Getting Simple, Cheap and Pretty

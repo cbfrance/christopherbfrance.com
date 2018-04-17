@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2006-01-26 07:44:00
 title: Biofuels Community with Google Maps

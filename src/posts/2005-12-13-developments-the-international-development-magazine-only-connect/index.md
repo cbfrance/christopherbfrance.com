@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2005-12-13 20:37:34
 title: Developments - The International Development Magazine - Only connect

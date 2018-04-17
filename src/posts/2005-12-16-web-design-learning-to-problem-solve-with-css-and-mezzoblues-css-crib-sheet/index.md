@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2005-12-16 17:17:51
 title: "Web Design: Learning to Problem Solve with Mezzoblue's CSS Crib Sheet"

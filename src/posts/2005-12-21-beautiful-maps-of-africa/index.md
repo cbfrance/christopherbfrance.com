@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2005-12-21 21:25:05
 title: Beautiful Maps of Africa

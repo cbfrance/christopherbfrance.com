@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2005-04-25 02:08:52
 title: A Bug's-Eye View

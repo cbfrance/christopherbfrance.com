@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2005-11-12 03:26:02
 title: People Tagging with Tagalag

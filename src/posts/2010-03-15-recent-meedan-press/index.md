@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2010-03-15 08:07:21
 title: Recent Meedan press

@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2007-01-07 17:05:42
 title: The Linux Desktop in 2007

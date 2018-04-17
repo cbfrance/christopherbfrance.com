@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2007-01-15 23:15:15
 title: A question for del.icio.us

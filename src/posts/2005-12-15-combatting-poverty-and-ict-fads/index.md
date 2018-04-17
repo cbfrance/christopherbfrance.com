@@ -1,4 +1,4 @@
---- 
+---
 kind: article
 created_at: 2005-12-15 17:33:43
 title: Combatting Poverty (and ICT fads)
