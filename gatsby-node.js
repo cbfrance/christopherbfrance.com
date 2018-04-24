@@ -16,7 +16,7 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
       allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___created_at] }, limit: 1000) {
         edges {
           node {
-            excerpt(pruneLength: 250)
+            excerpt(pruneLength: 1250)
             html
             id
             frontmatter {
