@@ -2,34 +2,24 @@ import React from 'react'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 import styled from 'styled-components'
-
-const DateStamp = styled.div`
-  font-size: 12px;
-  color: tomato;
-  font-weight: 500;
-  text-transform: uppercase;
-`
-
-const PostList = styled.div`
-  background-color: #eaeae2;
-`
+import { font, color, Title, DateStamp, PostPreview } from '../styles/shared'
 
 export default function Index({ data }) {
   const { edges: posts } = data.allMarkdownRemark
   return (
-    <PostList>
+    <div>
       {posts.filter(post => post.node.frontmatter.title.length > 0).map(({ node: post }) => {
         return (
-          <div className="blog-post-preview" key={post.id}>
-            <h1>
+          <PostPreview key={post.id}>
+            <Title>
               <Link to={post.frontmatter.path}>{post.frontmatter.title}</Link>
-            </h1>
+            </Title>
             <DateStamp>{post.frontmatter.created_at}</DateStamp>
             <p>{post.excerpt}</p>
-          </div>
+          </PostPreview>
         )
       })}
-    </PostList>
+    </div>
   )
 }
 

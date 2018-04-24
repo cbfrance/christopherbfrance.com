@@ -1,17 +1,13 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import styled from 'styled-components'
-import { ContentColumn } from '../../styles/shared.js'
-
-const Title = styled.h1`
-  font-size: 16px;
-`
+import { ContentColumn, font, TitlePrimary } from '../../styles/shared.js'
 
 const Header = () => (
   <ContentColumn>
-    <Title>
+    <TitlePrimary>
       <Link to="/">Unthinkingly</Link>
-    </Title>
+    </TitlePrimary>
   </ContentColumn>
 )
 

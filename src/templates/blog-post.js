@@ -1,5 +1,6 @@
 import React from 'react'
 import Helmet from 'react-helmet'
+import { Title, DateStamp } from '../styles/shared'
 
 export default function Template({ data }) {
   const post = data.markdownRemark
@@ -7,8 +8,8 @@ export default function Template({ data }) {
     <div className="blog-post-container">
       <Helmet title={`${post.frontmatter.title}`} />
       <div className="blog-post">
-        <h1>{post.frontmatter.title}</h1>
-        <h2>{post.frontmatter.created_at}</h2>
+        <Title>{post.frontmatter.title}</Title>
+        <DateStamp>{post.frontmatter.created_at}</DateStamp>
         <div className="blog-post-content" dangerouslySetInnerHTML={{ __html: post.html }} />
       </div>
     </div>

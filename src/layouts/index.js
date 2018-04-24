@@ -4,12 +4,13 @@ import Helmet from 'react-helmet'
 import { injectGlobal } from 'styled-components'
 
 import Header from '../components/Header'
+import { font, color, ContentColumn } from '../styles/shared'
 
 injectGlobal`
   body {
     margin: 0;
-    font-size: 16px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    font: ${font.body2};
+    background-color: ${color.biancaWhite};
   }
 
   *, *::before, *::after {
@@ -20,21 +21,11 @@ injectGlobal`
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
-      title="CSS Experiments"
-      meta={[{ name: 'description', content: 'CSS Grid Experiments' }, { name: 'keywords', content: 'css, grid, art' }]}
+      title="Unthinkingly"
+      meta={[{ name: 'description', content: 'The blog of Chris Blow' }, { name: 'keywords', content: 'peacenik, interaction, design' }]}
     />
     <Header />
-    <div
-      style={{
-        margin: '0 auto',
-        maxWidth: '62em',
-        padding: '0 1em 1em',
-        paddingTop: 0,
-        border: '1px solid black',
-      }}
-    >
-      {children()}
-    </div>
+    <ContentColumn>{children()}</ContentColumn>
   </div>
 )
 
