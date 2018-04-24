@@ -6,7 +6,7 @@ excerpt: "There is no shortage of webmasters desperate to get their hard-won sit
 tags: [google, findability]
 modified_on: 2008-04-05 05:19:01
 status: publish 
-path: /2005-01-13-the-google-game
+path: /2005/01/13/the-google-game
 ---
 
 There is no shortage of webmasters desperate to get their hard-won site noticed. After spending many sleepless nights coding and debugging a site for a nonprofit, it only makes sense that you would want it to actually show up when someone is searching for your organization's keywords. But, like much of the web-authoring career, you won't find a perfectly simple solution.

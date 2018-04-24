@@ -6,7 +6,7 @@ excerpt: "I've never seen gadget hype reach the levels that have been achieved b
 tags: [darfur, design, culturejamming, iphone, designfailure, failedsociety]
 modified_on: 2008-04-05 07:29:00
 status: publish 
-path: /2007-06-15-genocide-vs-gadgets
+path: /2007/06/15/genocide-vs-gadgets
 ---
 
 <img src='/static/images/idistract_500px.jpg' alt='iDistract' />

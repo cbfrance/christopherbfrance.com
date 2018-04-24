@@ -6,7 +6,7 @@ excerpt: "We'll be gathering feedback about the initial concept and looking at s
 tags: [ux, design, kestrel, code]
 modified_on: 2008-04-05 07:35:03
 status: publish 
-path: /2008-02-20-kestrel-update
+path: /2008/02/20/kestrel-update
 ---
 
 Things are looking great so far with this hairbrained project of ours. 

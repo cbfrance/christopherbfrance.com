@@ -6,7 +6,7 @@ excerpt: "The banners and bullhorns of protest are being replaced "
 tags: [activism, censorship, technology]
 modified_on: 2008-04-05 06:26:26
 status: publish 
-path: /2005-11-12-french-police-fear-that-blogs-have-helped-incite-rioting
+path: /2005/11/12/french-police-fear-that-blogs-have-helped-incite-rioting
 ---
 
 <p>

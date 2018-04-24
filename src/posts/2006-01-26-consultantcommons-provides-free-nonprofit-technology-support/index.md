@@ -6,7 +6,7 @@ excerpt: "A beta project from CompuMentor provides a platform to share and colla
 tags: [nptech]
 modified_on: 2008-04-05 06:54:02
 status: publish 
-path: /2006-01-26-consultantcommons-provides-free-nonprofit-technology-support
+path: /2006/01/26/consultantcommons-provides-free-nonprofit-technology-support
 ---
 
 <img src='/static/images/consultantcommonstn.jpg' alt='Consultant-commons' />A beta project from CompuMentor, <a href="http://www.consultantcommons.org">Consultant Commons</a> provides a platform to share and collaborate on resources around nonprofit technology consulting. I wish I could recommend this site, but it has a long way to go before it really works well. For now, at least, there are a few useful documents, but most of the stuff is geared toward nonprofit consultants. 

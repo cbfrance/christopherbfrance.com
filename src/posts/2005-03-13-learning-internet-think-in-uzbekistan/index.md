@@ -6,7 +6,7 @@ excerpt: "thoughtful article on the use of the internet and computers in Uzbekis
 tags: [education, DDN, uzbekistan]
 modified_on: 2008-04-05 05:35:26
 status: publish 
-path: /2005-03-13-learning-internet-think-in-uzbekistan
+path: /2005/03/13/learning-internet-think-in-uzbekistan
 ---
 
 The <a href="http://www.digitaldivide.net">Digital Divide Network</a> has a wonderful, thoughtful article on the use of the internet and computers in Uzbekistan, where students and teachers face both poverty and technological illiteracy. 

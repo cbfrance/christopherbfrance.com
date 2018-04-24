@@ -6,7 +6,7 @@ excerpt: "After a few months of work, we have gotten a new wireframe of the mobi
 tags: [ushahidi, crisis, mobile, ux, design, crowdsourcing]
 modified_on: 2009-01-31 01:26:57
 status: publish 
-path: /2008-09-18-ushahidi-designs
+path: /2008/09/18/ushahidi-designs
 ---
 
 Update: The Ushahidi team has released a strong new open source iOS codebase. 

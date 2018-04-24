@@ -6,7 +6,7 @@ excerpt: "Do you work with interviews or documents in which you have to make mea
 tags: [academic, research, software]
 modified_on: 2008-04-05 05:10:51
 status: publish 
-path: /2004-05-21-atlasti-four-star-research-software
+path: /2004/05/21/atlasti-four-star-research-software
 ---
 
 Do you work with interviews or documents in which you have to make meaningful correlations between themes? 

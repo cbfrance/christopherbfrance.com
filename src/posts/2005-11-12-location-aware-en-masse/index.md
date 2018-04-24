@@ -6,7 +6,7 @@ excerpt: "How do you make a regular cellphone location-aware? Apparently, you mo
 tags: [location, orwell, privacy]
 modified_on: 2008-04-05 06:26:02
 status: publish 
-path: /2005-11-12-location-aware-en-masse
+path: /2005/11/12/location-aware-en-masse
 ---
 
 <p>How do you make a regular cellphone location-aware? Apparently, you monitor the records indicating which tower the phone is on. Movement from one tower to the next can give highly accurate readouts on the movement of individuals and crowds.</p>

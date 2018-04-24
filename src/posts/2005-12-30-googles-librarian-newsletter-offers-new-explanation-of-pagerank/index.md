@@ -6,7 +6,7 @@ excerpt: Google has a new librarian's newsletter"
 tags: [google, seo, findability]
 modified_on: 2008-04-05 06:41:27
 status: publish 
-path: /2005-12-30-googles-librarian-newsletter-offers-new-explanation-of-pagerank
+path: /2005/12/30/googles-librarian-newsletter-offers-new-explanation-of-pagerank
 ---
 
 Google has a new librarian's newsletter that offers a nice clear (and brief) look at how their rankings work. 

@@ -6,7 +6,7 @@ excerpt: "The blocklists are just put it right there in that same block in main.
 tags: [spam, code, ops]
 modified_on: 2008-05-28 23:06:43
 status: publish 
-path: /2008-05-28-the-three-simplest-and-most-effective-anti-spam-hacks-i-have-ever-seen
+path: /2008/05/28/the-three-simplest-and-most-effective-anti-spam-hacks-i-have-ever-seen
 ---
 
 <strong>Hack zero: Switch to Gmail</strong>

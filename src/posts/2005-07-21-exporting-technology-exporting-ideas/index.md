@@ -6,7 +6,7 @@ excerpt: "There is a new, exciting model for programs exporting technology to th
 tags: [education, ethanZ, geekcorps, ict4d]
 modified_on: 2008-04-05 06:03:59
 status: publish 
-path: /2005-07-21-exporting-technology-exporting-ideas
+path: /2005/07/21/exporting-technology-exporting-ideas
 ---
 
 Summary: There is a new, exciting model for programs exporting technology to the developing world. But the real issue is about education, not just setting up a rural network. 

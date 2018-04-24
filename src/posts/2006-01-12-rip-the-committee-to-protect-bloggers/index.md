@@ -6,7 +6,7 @@ excerpt: "The Committee to Protect Bloggers is shutting down! "
 tags: [blogging, freespeech]
 modified_on: 2008-04-05 06:45:56
 status: publish 
-path: /2006-01-12-rip-the-committee-to-protect-bloggers
+path: /2006/01/12/rip-the-committee-to-protect-bloggers
 ---
 
 The Committee to Protect Bloggers is shutting down! Can anyone help?

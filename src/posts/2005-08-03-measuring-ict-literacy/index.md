@@ -6,7 +6,7 @@ excerpt: "Test taking is boring. It's a boring subject. But you can't direct cha
 tags: [education, measurement, evaluation, literacy]
 modified_on: 2008-04-05 06:08:52
 status: publish 
-path: /2005-08-03-measuring-ict-literacy
+path: /2005/08/03/measuring-ict-literacy
 ---
 
 Educational Testing Services &mdash; they're the folks that make the SAT and GRE &mdash; has a new test for ICT literacy. Despite a humorously useless Flash intro, the test appears to be fully baked. The sample questions on the ETS website look at the ways a test-taker would represent and evaluate information in an online context. 

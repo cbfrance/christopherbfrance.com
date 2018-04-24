@@ -6,7 +6,7 @@ excerpt: "Three videos for your Sunday afternoon enjoyment. (The first two are f
 tags: [video]
 modified_on: 2009-01-30 10:45:57
 status: publish 
-path: /2008-02-10-sunday-afternoon-telly
+path: /2008/02/10/sunday-afternoon-telly
 ---
 
 Three videos for your Sunday afternoon enjoyment. (The first two are for the hippies, the last one is for the geeks.)

@@ -6,7 +6,7 @@ excerpt: "For some reasons, most Kiswahili bloggers are either poets or poetry l
 tags: [colonialism, translation]
 modified_on: 2008-07-11 08:10:54
 status: publish 
-path: /2006-01-23-decolonizing-cyberspace
+path: /2006/01/23/decolonizing-cyberspace
 ---
 
 I had the pleasure of spending this weekend with Ndesanjo Macha (<a href="http://digitalafrica.blogspot.com/">English Blog</a>/<a href="http://jikomboe.blogspot.com/">Kiswahili Blog</a>/<a href="http://cyber.law.harvard.edu/globalvoices/?p=132">Profile at Global Voices</a>) in Greensboro, N.C., about an hour from my house in the woods near Pittsboro. We're working together on a Kiswahili translation of WordPress, the excellent open source platform for this website. 

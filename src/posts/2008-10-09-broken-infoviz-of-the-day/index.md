@@ -6,7 +6,7 @@ excerpt: "The graphs are wonderful and straightforward."
 tags: [infoviz, design]
 modified_on: 2008-10-09 23:44:00
 status: publish 
-path: /2008-10-09-broken-infoviz-of-the-day
+path: /2008/10/09/broken-infoviz-of-the-day
 ---
 
 <img src="/static/images/picture-14.jpg" alt="newsviz" title="microsoft newsviz" />

@@ -6,7 +6,7 @@ excerpt: "a 400,000+ article no-images version of the wikipedia "
 tags: [moulin, geekcorps, humanitarian, wikipedia]
 modified_on: 2008-04-05 07:25:48
 status: publish 
-path: /2007-01-31-the-last-mile-wikipedia-launches
+path: /2007/01/31/the-last-mile-wikipedia-launches
 ---
 
 <blockquote class="large"> moulin, the brainchild of Geekcorps volunteers Frederic Renet and Renaud Gaudin, started off as a side project of Geekcorps' Last Mile Initiative. Frederic and Renaud quickly developed an initial prototype of the system to run on a Nokia 770. Excited by the potential of making Wikipedia more widely accessible, Renaud volunteered for a second tour with Geekcorps and developed the current version of moulin which can be run off a CD.</blockquote>

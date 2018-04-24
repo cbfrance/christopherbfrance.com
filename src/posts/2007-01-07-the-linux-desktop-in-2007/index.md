@@ -6,7 +6,7 @@ excerpt: ""
 tags: [linux, desktop, ubuntu, education, usability]
 modified_on: 2008-04-05 07:20:11
 status: publish 
-path: /2007-01-07-the-linux-desktop-in-2007
+path: /2007/01/07/the-linux-desktop-in-2007
 ---
 
 Linux and open source computing is going to have a great 2007. In spite of a few hiccups in some communities, and the astonishing lack of penetration into the mainstream brain, it is obvious that we are seeing more and more people getting it. 

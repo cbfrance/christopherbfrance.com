@@ -6,7 +6,7 @@ excerpt: "The concept of eRiders is deceptively simple"
 tags: [nptech, eriders]
 modified_on: 2008-04-05 06:33:14
 status: publish 
-path: /2005-11-18-eriders-are-taking-off
+path: /2005/11/18/eriders-are-taking-off
 ---
 
 <p>The concept of eRiders is deceptively simple: people with lots of tech skills don't need to be on the staff of every NGO or nonprofit, they can "ride" a circut of folks that they help. This idea is being presented at WSIS this week, and I think it is an incredibly powerful idea that will be used increasingly around the world. </p>

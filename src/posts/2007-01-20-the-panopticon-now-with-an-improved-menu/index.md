@@ -6,7 +6,7 @@ excerpt: "The overtone of pervasive surveillance makes me feel a bit ill."
 tags: [design, surveillance, advertising, google]
 modified_on: 2008-04-05 07:24:25
 status: publish 
-path: /2007-01-20-the-panopticon-now-with-an-improved-menu
+path: /2007/01/20/the-panopticon-now-with-an-improved-menu
 ---
 
 <blockquote>"When I go to a restaurant, and look at leftovers on my plate, I don't see food, I see information. If the restaurant were Google, they wouldn't just take that plate and scrape it off into the trash. There would be a camera in the kitchen, photographing every plate coming back, with analysis of what people liked and disliked, and what portions were too big, helping to optimize future servings."<span class="attribution">Jon Orwant,<br>on <a href="http://radar.oreilly.com/">O'Reilly Radar</a></span>  </blockquote>

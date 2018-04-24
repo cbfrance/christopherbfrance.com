@@ -6,7 +6,7 @@ excerpt: "Here's another update on the laptop debate/idea from Ethan Zuckerman"
 tags: [olpc, design, poverty]
 modified_on: 2008-04-05 06:23:27
 status: publish 
-path: /2005-11-12-more-accounts-of-the-1-laptop-per-child-laptop-at-mit
+path: /2005/11/12/more-accounts-of-the-1-laptop-per-child-laptop-at-mit
 ---
 
 

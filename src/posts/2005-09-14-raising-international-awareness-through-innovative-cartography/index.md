@@ -6,7 +6,7 @@ excerpt: "Being a great way to communicate quickly, maps can also be incredibly 
 tags: [mapping, geo, mdg]
 modified_on: 2008-04-05 06:18:24
 status: publish 
-path: /2005-09-14-raising-international-awareness-through-innovative-cartography
+path: /2005/09/14/raising-international-awareness-through-innovative-cartography
 ---
 
 Being a great way to communicate quickly, maps can also be incredibly dense with information.  When they are put to a wholesome use, maps, like apple pie and puppies, deserve to have a special place in every home.

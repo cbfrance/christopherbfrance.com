@@ -6,7 +6,7 @@ excerpt: "The 84-page guide includes sections that discuss the basics of blogs a
 tags: [blogging, book, technique, guide, freespeech]
 modified_on: 2008-04-05 06:20:09
 status: publish 
-path: /2005-09-22-the-dissident-blogger-handbook
+path: /2005/09/22/the-dissident-blogger-handbook
 ---
 
 Reporters Without Borders has today released a wonderful handbook of international blogging. The 84-page guide includes sections that discuss the basics of blogs and blogging terminology, and it moves quickly into a serious how-to guide for blogging anonymously and blogging successfully. This is a first for the international blogging community, and I am certain that it will receive an extremely warm welcome.<img alt="blog guide" src="/static/images/blogguide.jpg" />

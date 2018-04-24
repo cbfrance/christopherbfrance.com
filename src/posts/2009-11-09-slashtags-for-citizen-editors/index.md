@@ -6,7 +6,7 @@ excerpt: "I believe that there is an enormous potential to do citizen journalism
 tags: [hashtags, slashtags, tagging, meedan, nptech, collaboration, citizeneditors, twitter, microsyntax]
 modified_on: 2009-11-17 04:46:57
 status: publish 
-path: /2009-11-09-slashtags-for-citizen-editors
+path: /2009/11/09/slashtags-for-citizen-editors
 ---
 
 Updated Nov 16, 2009: @chrismessina created a wiki for the Twitter syntax <a href="http://microsyntax.pbworks.com/Slashtags">http://microsyntax.pbworks.com/Slashtags</a>

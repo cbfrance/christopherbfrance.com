@@ -6,7 +6,7 @@ excerpt: "I experimented with the nptech data last weekend"
 tags: [ibm, manyeyes, nptech, tagging, experiment, visualization, delicious]
 modified_on: 2008-04-05 07:24:40
 status: publish 
-path: /2007-01-28-experimenting-with-ibms-many-eyes
+path: /2007/01/28/experimenting-with-ibms-many-eyes
 ---
 
 IBM's new <a href="http://services.alphaworks.ibm.com/manyeyes/browse/visualizations">Many Eyes</a> rocks. I experimented with the nptech data last weekend and built this in about 10 minutes. It's a very rough bubble map of the users of the nptech tag. Interesting how it shows the distribution of the tagging activity. Related: <a href="http://www.swivel.com/">Swivel</a> and <a href="http://www.data360.co.uk/">Data360</a>.

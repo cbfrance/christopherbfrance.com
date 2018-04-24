@@ -6,7 +6,7 @@ excerpt: "The Scottish government has an excellent collection of resources regar
 tags: [education, language, opensource, gov, oer]
 modified_on: 2008-04-05 06:21:17
 status: publish 
-path: /2005-09-25-ict-in-education
+path: /2005/09/25/ict-in-education
 ---
 
 The Scottish government has an excellent collection of resources regarding the use of Information Communication Technology in classrooms. They have multi-part articles grouped by subject (Biology, Drama, Physics), and examples of how, for example, you can show students living cells using microscope and digital camera, or how to use the internet to teach French. Most of it is not Scotland-specific, though they do feature Scottish schools. 

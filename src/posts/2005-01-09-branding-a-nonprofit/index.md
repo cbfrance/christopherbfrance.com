@@ -6,7 +6,7 @@ excerpt: "If you like to think about branding ..."
 tags: [branding, nptech]
 modified_on: 2008-04-05 05:16:50
 status: publish 
-path: /2005-01-09-branding-a-nonprofit
+path: /2005/01/09/branding-a-nonprofit
 ---
 
 If you like to think about branding (not a really pleasant idea, I think), you'd do well to visit the wealth of information at the PND Nonprofits By Design Column. 

@@ -6,7 +6,7 @@ excerpt: "the most effective ICTs used are typically basic ones‚ telephone and
 tags: [design, technology, ict4d]
 modified_on: 2008-04-05 06:36:37
 status: publish 
-path: /2005-12-15-combatting-poverty-and-ict-fads
+path: /2005/12/15/combatting-poverty-and-ict-fads
 ---
 
 I've been reading an excellent report from <a href="http://www.eldis.org/">Eldis </a>(an incredible clearinghouse of development information) about the implementation of ICT programs in developing countries. In part the report seeks to question some conventional wisdom about the necessity of trendy technologies. On the whole it is a great synopsis of practical research with a clearheaded focus on poverty elimination. I recommend the <a href="http://www.eldis.org/fulltext/sidaictpoverty.pdf">full text pdf</a>, and here's a bit from the executive report: 

@@ -6,7 +6,7 @@ excerpt: "The Linc project (based in NY) has an interesting article on their use
 tags: [delicious, tagging]
 modified_on: 2008-04-05 05:19:51
 status: publish 
-path: /2005-01-13-using-delicious
+path: /2005/01/13/using-delicious
 ---
 
 The Linc project (based in NY) has an interesting article on their use of del.icio.us (a web service that maintains lists of links for you.) I really appreciated their technical description of everything they're doing with it, but it isn't a beach read. 

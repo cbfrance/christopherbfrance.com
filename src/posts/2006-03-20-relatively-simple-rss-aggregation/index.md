@@ -6,7 +6,7 @@ excerpt: "I needed something that was simple, cached hourly, displayed various e
 tags: [rss, webdev, code]
 modified_on: 2008-04-05 07:09:19
 status: publish 
-path: /2006-03-20-relatively-simple-rss-aggregation
+path: /2006/03/20/relatively-simple-rss-aggregation
 ---
 
 I recently posted about my need for a simpler RSS aggregator. 

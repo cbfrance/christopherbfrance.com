@@ -6,7 +6,7 @@ excerpt: "appreciation to my favorite independent software artists"
 tags: [webdev, survey]
 modified_on: 2008-04-05 07:17:43
 status: publish 
-path: /2006-12-14-the-tools-we-use
+path: /2006/12/14/the-tools-we-use
 ---
 
 Softwarewise I really am overdue to give appreciation to my favorite independent software artists: 

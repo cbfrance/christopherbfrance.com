@@ -6,7 +6,7 @@ excerpt: "There is an interesting discussion going on (for some time now) over a
 tags: [charity, philanthropy, methodology, research]
 modified_on: 2008-04-05 05:51:05
 status: publish 
-path: /2005-05-04-ranking-charities-bad-science
+path: /2005/05/04/ranking-charities-bad-science
 ---
 
 There is an interesting discussion going on (for some time now) over at the Stanford Social Innovation Review forum about charitable donations and the new "ranking systems" that have emerged to help the public find the most best organizations to give to. The rankings are extremely flawed in the eyes of many, and may be shaping the public valuation of the nonprofit sector in a truly unhealthy, bottom-line-obsessed manner. Here's an excerpt:  

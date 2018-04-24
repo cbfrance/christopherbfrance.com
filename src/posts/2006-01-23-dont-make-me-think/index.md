@@ -6,7 +6,7 @@ excerpt: "There are very few web design books that have any currency after about
 tags: [usability]
 modified_on: 2008-04-05 06:49:03
 status: publish 
-path: /2006-01-23-dont-make-me-think
+path: /2006/01/23/dont-make-me-think
 ---
 
 There are very few web design books that have any currency after about 2 years. Very few.

@@ -6,7 +6,7 @@ excerpt: "Many Debian developers denounced the Dunc-Tank proposal."
 tags: [debian, linux, community, nptech]
 modified_on: 2008-04-05 07:18:39
 status: publish 
-path: /2006-12-18-an-open-source-strike
+path: /2006/12/18/an-open-source-strike
 ---
 
 <img src="/static/images/debian.jpg" alt="Debian" height="240" width="161"><blockquote>Many Debian developers denounced the Dunc-Tank proposal. Some even demanded that Towns be removed as leader because he supported Dunc-Tank. Their objection was that by financially supporting developers, Debian would become a two-class system and that, in turn, would be destructive to the Debian community.</blockquote>

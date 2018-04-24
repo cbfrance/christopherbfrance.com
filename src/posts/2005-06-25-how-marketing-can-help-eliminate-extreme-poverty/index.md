@@ -6,7 +6,7 @@ excerpt: "When Nonprofit X goes to county Y and begins handing out seeds and fer
 tags: [evaluation, marketing]
 modified_on: 2008-04-05 05:54:53
 status: publish 
-path: /2005-06-25-how-marketing-can-help-eliminate-extreme-poverty
+path: /2005/06/25/how-marketing-can-help-eliminate-extreme-poverty
 ---
 
 When Nonprofit X goes to county Y and begins handing out seeds and fertilizer to farmers as part of an agricultural intervention during a famine, how does Nonprofit X know that they aren't causing a greater problem or ignoring a better solution? Perhaps it turns out the fertilizer is more valuable when it is sold on the nearby market than it is in the ground. Perhaps microloans or digging new wells are better solutions that the population is looking for.

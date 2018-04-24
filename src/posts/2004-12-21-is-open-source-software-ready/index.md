@@ -6,7 +6,7 @@ excerpt: "With a little bit of online research, there is often an open-source al
 tags: [opensource, education, community]
 modified_on: 2008-04-05 05:15:38
 status: publish 
-path: /2004-12-21-is-open-source-software-ready
+path: /2004/12/21/is-open-source-software-ready
 ---
 
 Yes, it is. 

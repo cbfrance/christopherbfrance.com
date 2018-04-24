@@ -6,7 +6,7 @@ excerpt: "This is a good article for nonprofit-type folks who are thinking about
 tags: [webdev, nptech]
 modified_on: 2008-04-05 05:45:28
 status: publish 
-path: /2005-04-25-a-bugs-eye-view
+path: /2005/04/25/a-bugs-eye-view
 ---
 
 From Digital Web Magazine (a reliable regular read), this article discusses the thought process behind designing a website. Written from the perspective of the web developer, it's also a good introduction for clients. 

@@ -6,7 +6,7 @@ excerpt: "LinuxChix Africa manages to shatter two stereotypes at the same time: 
 tags: [linux, africa, women, education]
 modified_on: 2008-04-05 07:03:03
 status: publish 
-path: /2006-02-16-brief-clip-from-a-great-worldchangingcom-post
+path: /2006/02/16/brief-clip-from-a-great-worldchangingcom-post
 ---
 
 <img src='/static/images/greenchix_logo01.jpg' alt='LinuxChix logo' /> <a href="http://www.worldchanging.com/archives/004109.html">WorldChanging: Another World Is Here: LinuxChix Africa</a>

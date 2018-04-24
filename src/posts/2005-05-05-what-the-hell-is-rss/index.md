@@ -6,7 +6,7 @@ excerpt: "File Under: It's a blog subscription service. And a distribution servi
 tags: [techsoup, nptech, rss, tutorial]
 modified_on: 2008-04-05 05:52:16
 status: publish 
-path: /2005-05-05-what-the-hell-is-rss
+path: /2005/05/05/what-the-hell-is-rss
 ---
 
 

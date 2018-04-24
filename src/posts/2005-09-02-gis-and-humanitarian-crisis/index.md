@@ -6,7 +6,7 @@ excerpt: "I am beginning research into ways in which mapping technologies like G
 tags: [mapping, geo, maps, humanitarian, GIS, DDN]
 modified_on: 2008-04-05 06:13:30
 status: publish 
-path: /2005-09-02-gis-and-humanitarian-crisis
+path: /2005/09/02/gis-and-humanitarian-crisis
 ---
 
 <em>With a nod to International Blogging for Disaster Relief Day (Friday, Sept. 2).  ... Crossposted on the DDN list.</em>

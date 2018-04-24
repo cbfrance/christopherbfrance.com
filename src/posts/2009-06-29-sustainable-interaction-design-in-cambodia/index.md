@@ -6,7 +6,7 @@ excerpt: "So, I've spent almost a month now as a resident geek at the <a href='h
 tags: [cambodia, InSTEDD, ICT4D, sustainability]
 modified_on: 2009-06-30 12:24:38
 status: publish 
-path: /2009-06-29-sustainable-interaction-design-in-cambodia
+path: /2009/06/29/sustainable-interaction-design-in-cambodia
 ---
 
 So, I've spent almost a month now as a resident geek at the <a href="http://instedd.org">InSTEDD</a> Innovation Lab in Phnom Penh, Cambodia. 

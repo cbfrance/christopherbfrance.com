@@ -6,7 +6,7 @@ excerpt: "If you are completely new to podcasting, a quick shot in the arm"
 tags: [podcasting, activism, nten]
 modified_on: 2008-04-05 05:52:55
 status: publish 
-path: /2005-05-18-audio-activism
+path: /2005/05/18/audio-activism
 ---
 
 After getting back from a lecture at the most recent N-TEN Tech club meeting, I found myself enlightend as to the way of the podcast.

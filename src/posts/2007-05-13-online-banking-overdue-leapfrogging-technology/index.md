@@ -6,7 +6,7 @@ excerpt: "Seems like Paypal is one of those 'leapfrogging' technologies that cou
 tags: [paypal, payments, mobile]
 modified_on: 2008-04-05 07:27:09
 status: publish 
-path: /2007-05-13-online-banking-overdue-leapfrogging-technology
+path: /2007/05/13/online-banking-overdue-leapfrogging-technology
 ---
 
 Seems like Paypal is one of those "leapfrogging" technologies that could help entire regions skip the process of developing a banking infrastructure, which apparently takes about 200 years of war (judging from how the West has done it). 

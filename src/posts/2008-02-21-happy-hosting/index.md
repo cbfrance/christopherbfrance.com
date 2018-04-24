@@ -6,7 +6,7 @@ excerpt: "Their VPS plans are a reasonable deal, but, as always, the support is 
 tags: [ops, rimuhosting]
 modified_on: 2008-04-05 07:35:15
 status: publish 
-path: /2008-02-21-happy-hosting
+path: /2008/02/21/happy-hosting
 ---
 
 If you need a professional application server, particularly for rails, I'm recommending <a href="http://rimuhosting.com/">Rimuhost</a> these days. 

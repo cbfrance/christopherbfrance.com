@@ -6,7 +6,7 @@ excerpt: "All state-collected geographic information should be shared, for a myr
 tags: [open, geodata, openaccess]
 modified_on: 2008-04-05 06:43:23
 status: publish 
-path: /2006-01-03-sign-your-name-for-open-maps
+path: /2006/01/03/sign-your-name-for-open-maps
 ---
 
 All state-collected geographic information should be shared, for a myriad of reasons. Now you can add your name to a growing list of folks that agree. 

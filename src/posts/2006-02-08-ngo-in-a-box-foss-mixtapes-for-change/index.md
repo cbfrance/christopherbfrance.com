@@ -6,7 +6,7 @@ excerpt: "The Tactical Technology Collective</a> is a nonprofit based in Amsterd
 tags: [nptech, ttc]
 modified_on: 2008-04-05 07:01:26
 status: publish 
-path: /2006-02-08-ngo-in-a-box-foss-mixtapes-for-change
+path: /2006/02/08/ngo-in-a-box-foss-mixtapes-for-change
 ---
 
 The <a href="http://www.tacticaltech.org/">Tactical Technology Collective</a> is a nonprofit based in Amsterdam that has been doing great work distributing Free/Open Source technology to the global NGO sector. 

@@ -6,7 +6,7 @@ excerpt: " The 1968 demo presaged many of the technologies we use today, from pe
 tags: [event, ux, design, history, engelbart]
 modified_on: 2008-12-04 08:49:53
 status: publish 
-path: /2008-12-03-dealing-lightning-with-both-hands
+path: /2008/12/03/dealing-lightning-with-both-hands
 ---
 
 <img src="/static/images/doug-e.jpg" alt="ah doug" title="douglas-engelbart-12" />

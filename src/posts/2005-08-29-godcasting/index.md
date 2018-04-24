@@ -6,7 +6,7 @@ excerpt: "Ever since the first Vatican broadcast of a sermon on the radio in 193
 tags: [podcasting, televangelism, NPR, NYT]
 modified_on: 2008-04-05 06:12:24
 status: publish 
-path: /2005-08-29-godcasting
+path: /2005/08/29/godcasting
 ---
 
 Ever since the first Vatican broadcast of a sermon on the radio in 1931, there has been little doubt about the power of broadcast media as a part of religious practice. 

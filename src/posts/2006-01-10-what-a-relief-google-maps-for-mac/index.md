@@ -6,7 +6,7 @@ excerpt: "Glad to see that little bit of criticism go so out of date so quickly.
 tags: [google, geo]
 modified_on: 2008-04-05 06:45:10
 status: publish 
-path: /2006-01-10-what-a-relief-google-maps-for-mac
+path: /2006/01/10/what-a-relief-google-maps-for-mac
 ---
 
 This is minor news in most contexts: <a href="http://earth.google.com/">Google Earth </a>(the software power tool that feels like a toy) has been released for the Mac. 

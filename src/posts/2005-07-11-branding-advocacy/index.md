@@ -6,7 +6,7 @@ excerpt: "Websites and emails, for example, need to reflect some kind of graphic
 tags: [nptech, branding]
 modified_on: 2008-04-05 05:56:35
 status: publish 
-path: /2005-07-11-branding-advocacy
+path: /2005/07/11/branding-advocacy
 ---
 
 Here's an interesting article from an old Harvard Business School <em>Working Knowledge</em> series. It's about branding, which from my perspective is a very diffucult thing to incorporate in online communications. 

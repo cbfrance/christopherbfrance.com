@@ -6,7 +6,7 @@ excerpt: "Here's a chance to brush-up, as the rules change slightly every day. "
 tags: [seo, findability]
 modified_on: 2008-04-05 06:39:42
 status: publish 
-path: /2005-12-20-updated-tactics-for-making-your-information-findable
+path: /2005/12/20/updated-tactics-for-making-your-information-findable
 ---
 
 This kind of stuff is (Search Engine Optimization, or SEO) is relevant to every website, but I think that nonprofits and do-gooders can use it the most. Here's a chance to brush-up, as the rules change slightly every day. 

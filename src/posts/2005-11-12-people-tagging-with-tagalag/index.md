@@ -6,7 +6,7 @@ excerpt: "If you like the idea of tagging you web pages and your books, how abou
 tags: [tagging, social]
 modified_on: 2008-04-05 06:28:06
 status: publish 
-path: /2005-11-12-people-tagging-with-tagalag
+path: /2005/11/12/people-tagging-with-tagalag
 ---
 
 <p>

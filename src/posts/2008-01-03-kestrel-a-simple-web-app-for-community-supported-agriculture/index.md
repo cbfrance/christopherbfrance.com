@@ -6,7 +6,7 @@ excerpt: "The basic idea a simple and user-centered web app that helps facilitat
 tags: [agriculture, design, ux, research, project, kestrel]
 modified_on: 2008-04-05 07:32:25
 status: publish 
-path: /2008-01-03-kestrel-a-simple-web-app-for-community-supported-agriculture
+path: /2008/01/03/kestrel-a-simple-web-app-for-community-supported-agriculture
 ---
 
 I'm just getting started on a new project nicknamed Kestrel. 

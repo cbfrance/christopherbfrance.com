@@ -6,7 +6,7 @@ excerpt: ""
 tags: [disaster, cooperation, altruism, collective, activism, peoplefinder, katrina, worldchanging]
 modified_on: 2008-04-05 07:26:19
 status: publish 
-path: /2007-02-04-thinking-about-the-search-for-jim-gray
+path: /2007/02/04/thinking-about-the-search-for-jim-gray
 ---
 
 [update: there's a great new post on <a href="http://www.worldchanging.com/archives/006003.html">worldchanging.com</a> about this. -cb ]

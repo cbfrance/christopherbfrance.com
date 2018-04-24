@@ -6,7 +6,7 @@ excerpt: "the Chinese language blogosphere appears to be exploding in popularity
 tags: [ethanz, china, blogosphere]
 modified_on: 2008-04-05 06:41:00
 status: publish 
-path: /2005-12-28-sino-blogosphere-is-on-the-map
+path: /2005/12/28/sino-blogosphere-is-on-the-map
 ---
 
 Ethan Zuckerman notes that the Chinese are starting to show up in (blog search engine) Technorati.com. 

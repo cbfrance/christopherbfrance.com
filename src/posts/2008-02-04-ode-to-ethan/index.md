@@ -6,7 +6,7 @@ excerpt: "When I was reading about that project in 2003 or 2004 I was totally tu
 tags: [ethan]
 modified_on: 2008-05-06 22:25:25
 status: publish 
-path: /2008-02-04-ode-to-ethan
+path: /2008/02/04/ode-to-ethan
 ---
 
 The other day I referenced <a href="http://janchipchase.com">Jan Chipchase's blog</a> as "almost certainly my favorite." This is patently false. I am a big fat liar when I get excited. (Chipchase is probably tied for second with a few other exceptionally cool writers.)

@@ -6,7 +6,7 @@ excerpt: "Techsoup just announced that they have Symantec Antivirus with multipl
 tags: [techsoup, software, security]
 modified_on: 2008-04-05 05:53:18
 status: publish 
-path: /2005-05-28-nearly-free-software-for-501c3s
+path: /2005/05/28/nearly-free-software-for-501c3s
 ---
 
 Techsoup just announced that they have Symantec Antivirus with multiple user licenses for under $100. (Single user licenses start at $100.) If you haven't priced antivirus software, well, that's a bad sign. Unless your'e on a Mac, but that's a different post. 

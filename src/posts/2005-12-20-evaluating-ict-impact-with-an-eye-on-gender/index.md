@@ -6,7 +6,7 @@ excerpt: "a consideration of how to measure the impact of ICTs in women's lives"
 tags: [women, gender, ict]
 modified_on: 2008-04-05 06:38:59
 status: publish 
-path: /2005-12-20-evaluating-ict-impact-with-an-eye-on-gender
+path: /2005/12/20/evaluating-ict-impact-with-an-eye-on-gender
 ---
 
 Last week a 2004 article turned up on Eldis: a consideration of how to measure the impact of ICTs in women's lives. The article begins with a great discussion of what a gender perspective means for people working with technologies of communication. (It cites the United Nations as finding that ICT access is the third most important issue facing women, after violence and poverty.)

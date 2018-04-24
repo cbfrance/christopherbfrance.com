@@ -6,7 +6,7 @@ excerpt: "Podcasting is not complicated. It's just audio. The problem lies in fi
 tags: [podcasting, audio, community, nptech, peoplefinder, zuckerman]
 modified_on: 2008-04-05 06:27:02
 status: publish 
-path: /2005-11-12-hooray-for-progressive-podcasting
+path: /2005/11/12/hooray-for-progressive-podcasting
 ---
 
 <p>Podcasting is not complicated. It's just audio. The problem lies in finding something worth listening to. 

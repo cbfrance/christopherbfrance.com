@@ -6,7 +6,7 @@ excerpt: "Most importantly, it means that you play well with others, as in the U
 tags: [unix, history, aesthetics]
 modified_on: 2008-05-20 03:19:40
 status: publish 
-path: /2008-05-20-on-the-quality-of-haveing-a-unixlike-interface
+path: /2008/05/20/on-the-quality-of-haveing-a-unixlike-interface
 ---
 
 Several times this weekend I used the phrase "unixlike" or "unixy" to describe applications or devices. 

@@ -6,7 +6,7 @@ excerpt: "The greatest aspect of this document is that it represents how often t
 tags: [tunisia, africa, wsis, education, health, agriculture, sustainability]
 modified_on: 2008-04-05 06:30:35
 status: publish 
-path: /2005-11-17-the-wireless-internet-opportunity-for-developing-countries
+path: /2005/11/17/the-wireless-internet-opportunity-for-developing-countries
 ---
 
 <p>While poking around on stuff related to the WSIS in Tunis, I found this excellent document about wireless internet in Africa, which was used at the first meeting of the WSIS in 2003. I only wish that there was an updated copy somewhere ...

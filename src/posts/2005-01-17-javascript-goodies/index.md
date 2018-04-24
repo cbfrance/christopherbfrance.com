@@ -6,7 +6,7 @@ excerpt: "Even if you're new to web design and Javascript spooks you, you'd do w
 tags: [design, javascript]
 modified_on: 2008-04-05 05:20:31
 status: publish 
-path: /2005-01-17-javascript-goodies
+path: /2005/01/17/javascript-goodies
 ---
 
 Even if you're new to web design and Javascript spooks you, you'd do well to look into some of the techniques that are described in the attached article. 

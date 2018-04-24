@@ -6,7 +6,7 @@ excerpt: "The Katrina Peoplefinder database (in record time,  no less), which ex
 tags: [katrina, ict4d, peoplefinder, crisis, disaster]
 modified_on: 2008-04-05 06:16:58
 status: publish 
-path: /2005-09-14-geeks-responding-to-katrina-relief-20
+path: /2005/09/14/geeks-responding-to-katrina-relief-20
 ---
 
 <a href="http://www.ethanzuckerman.com/blog/">Ethan Zuckerman</a> is one of the best bloggers in the world; he must get paid by Harvard to do it, or something. (He does.)

@@ -6,7 +6,7 @@ excerpt: "Our goal with Swift is to provide a crowdsourcing platform for data tr
 tags: [swift, tagging, ux, design, presentation, meedan, ushahidi]
 modified_on: 2009-09-22 01:16:12
 status: publish 
-path: /2009-05-07-swift
+path: /2009/05/07/swift
 ---
 
 For the last 5 months I've been working with friends at <a href="http://ushahidi.com">Ushahidi</a> and <a href="http://meedan.net">Meedan</a> on a project nicknamed "Swift."

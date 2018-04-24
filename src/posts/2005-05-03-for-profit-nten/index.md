@@ -6,7 +6,7 @@ excerpt: " I so much appreciate David Geilhufe's recent frustrations with the in
 tags: [nten, nptech]
 modified_on: 2008-04-05 05:45:47
 status: publish 
-path: /2005-05-03-for-profit-nten
+path: /2005/05/03/for-profit-nten
 ---
 
 It's rare that you see much criticism of nonprofit organizations. People are getting *something* done, after all, no matter what particulars you may take affront to their modus operandi. 

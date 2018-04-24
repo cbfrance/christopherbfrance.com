@@ -6,7 +6,7 @@ excerpt: "A thoughtful article about preparing websites for an international aud
 tags: [i18n, webdev, internationalization]
 modified_on: 2008-04-05 06:41:53
 status: publish 
-path: /2005-12-30-internationalizing-you-web-site
+path: /2005/12/30/internationalizing-you-web-site
 ---
 
 Not that I have followed any of this advice yet, but here's a thoughtful article about preparing websites for an international audience from <a href="http://www.molly.com">Molly Holzschlag</a>:

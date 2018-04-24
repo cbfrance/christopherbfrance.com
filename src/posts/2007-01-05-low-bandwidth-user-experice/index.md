@@ -6,7 +6,7 @@ excerpt: "I am thinking about how web developers can become more invested in the
 tags: [loband, webdev, caching, code, rural, optimization ]
 modified_on: 2008-04-05 07:19:18
 status: publish 
-path: /2007-01-05-low-bandwidth-user-experice
+path: /2007/01/05/low-bandwidth-user-experice
 ---
 
 I make websites, and I manage a few web servers. Making sure that pages load quickly is a pretty fundamental part of my job. 

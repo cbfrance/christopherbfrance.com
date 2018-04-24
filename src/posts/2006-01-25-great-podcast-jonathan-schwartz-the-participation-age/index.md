@@ -6,7 +6,7 @@ excerpt: "The community behind free and open source software is changing the lan
 tags: [foss, culture]
 modified_on: 2008-04-05 06:53:40
 status: publish 
-path: /2006-01-25-great-podcast-jonathan-schwartz-the-participation-age
+path: /2006/01/25/great-podcast-jonathan-schwartz-the-participation-age
 ---
 
 I love this podcast (and I adore the entire IT Conversations series). Here's a link and a blurb. 

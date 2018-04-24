@@ -6,7 +6,7 @@ excerpt: "Woo Hoo! Wind-powered wireless!"
 tags: [windmills, wifi]
 modified_on: 2008-04-05 06:32:24
 status: publish 
-path: /2005-11-17-windmills-for-wi-fi
+path: /2005/11/17/windmills-for-wi-fi
 ---
 
 <p>

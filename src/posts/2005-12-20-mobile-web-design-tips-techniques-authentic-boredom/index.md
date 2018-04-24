@@ -6,7 +6,7 @@ excerpt: "Sometime about 5 years ago people began to realize the frustrating lim
 tags: [design, mobile, webdev]
 modified_on: 2008-04-05 06:40:09
 status: publish 
-path: /2005-12-20-mobile-web-design-tips-techniques-authentic-boredom
+path: /2005/12/20/mobile-web-design-tips-techniques-authentic-boredom
 ---
 
 Web Designers everywhere are taking a break. 

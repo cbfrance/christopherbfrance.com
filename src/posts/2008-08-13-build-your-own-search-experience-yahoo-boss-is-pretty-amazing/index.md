@@ -6,7 +6,7 @@ excerpt: "Turns out that, once you get beat badly by Google, you start to get re
 tags: [search, semantic, opensource, bayCHI, yahoo]
 modified_on: 2008-08-13 07:47:50
 status: publish 
-path: /2008-08-13-build-your-own-search-experience-yahoo-boss-is-pretty-amazing
+path: /2008/08/13/build-your-own-search-experience-yahoo-boss-is-pretty-amazing
 ---
 
 Most of the gang at <a href="http://boltpeters.com/">Bolt | Peters</a> went to <a href="http://www.baychi.org/">BayCHI</a> tonight, and I was really impressed by a presentation from Yahoo about <a href="http://developer.yahoo.com/search/boss/">BOSS (Build your Own Search Service)</a>. 

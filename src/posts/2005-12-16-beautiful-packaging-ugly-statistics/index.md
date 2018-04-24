@@ -6,7 +6,7 @@ excerpt: ""
 tags: [research, infoviz, gapminder, education]
 modified_on: 2008-04-05 06:37:51
 status: publish 
-path: /2005-12-16-beautiful-packaging-ugly-statistics
+path: /2005/12/16/beautiful-packaging-ugly-statistics
 ---
 
 Recently in my commutes to work I've been using these incredible flash-based, interactive representations of development statistics. (Don't worry, I ride the bus.) These modules, created by a Swedish group called Gapminder, are attractively designed and highly educational.  I have long been a great fan of sharp design in the interest of development. These are as great a communication tool as I have ever seen. 

@@ -6,7 +6,7 @@ excerpt: "The trick of Newsvine is that it comes in a really well designed inter
 tags: [newsvine, webdev, ixd, social]
 modified_on: 2008-07-11 08:07:58
 status: publish 
-path: /2006-02-01-visualizing-community-news
+path: /2006/02/01/visualizing-community-news
 ---
 
 <a href="http://mikeindustries.com">Mike Davidson</a>  has been working lately on an innovative (I said innovative, not trendy) online news company, <a href="http://www.newsvine.com/">Newsvine</a>, that provides articles from mainstream media outlets. The Newsvine team is a well-respected web group, most of them formerly of Starwave, a studious anti-hype third-wave (i.e. late 1990s, post-bubble) internet company. (Here's Starwave's <a href="http://www.fastcompany.com/magazine/05/starwave.html">startup profile</a> from a 1996 Fast Company article.) Davidson's also a major contributor to <a href="http://www.mikeindustries.com/sifr/">SiFR</a>, which typophiles (that's typography, not typos) and web developers everywhere love.

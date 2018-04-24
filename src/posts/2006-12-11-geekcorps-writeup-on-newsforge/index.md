@@ -6,7 +6,7 @@ excerpt: ""
 tags: [geekcorps, mali]
 modified_on: 2008-04-05 07:17:03
 status: publish 
-path: /2006-12-11-geekcorps-writeup-on-newsforge
+path: /2006/12/11/geekcorps-writeup-on-newsforge
 ---
 I missed <a href="http://trends.newsforge.com/article.pl?sid=06/10/23/1717255&from=rss">this writeup</a> from a little while ago. It is a good description of what Geekcorps is doing in Mali. Some of their really interesting projects are the <a href="http://www.geekcorps.org/2005/10/usaid-profiles-geekcorps-mali/">Water Bottle Antenna</a>, which provides a powered wifi antenna for about $3 (compared to $100) and the <a href="http://www.geekcorps.org/2006/09/geekcorps-malis-innovative-suc/"> Desert PC </a> which is basically a fanless, sealed machine designed for tough conditions (running a version of Linux of course &mdash; customized to minimize hard drive writes for durability!) What is not to love about a custom Linux distro for the developing world? 
 

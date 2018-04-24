@@ -6,7 +6,7 @@ excerpt: "In this context, I don't care about iPhones, I don't care about web ap
 tags: [money, ux, design]
 modified_on: 2008-04-05 07:35:38
 status: publish 
-path: /2008-03-21-the-future-of-money
+path: /2008/03/21/the-future-of-money
 ---
 
 If there is anything I hate more than cell phones, it's money. 

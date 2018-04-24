@@ -6,7 +6,7 @@ excerpt: "a teensy, non-brilliant-but-incredibly-useful DIY hack for stylesheets
 tags: [css, ruby, dry]
 modified_on: 2009-01-30 10:46:09
 status: publish 
-path: /2007-12-17-the-future-of-css-here-its-just-not-evenly-distributed
+path: /2007/12/17/the-future-of-css-here-its-just-not-evenly-distributed
 ---
 
 In light of the <a href="http://www.stuffandnonsense.co.uk/malarkey/more/css_unworking_group/">litigious, melodramatic backwater that the CSS spec has fallen into</a>, I thought it would be worth writing up a teensy, non-brilliant-but-incredibly-useful DIY hack for stylesheets.

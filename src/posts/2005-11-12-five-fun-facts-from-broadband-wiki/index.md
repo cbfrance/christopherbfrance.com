@@ -6,7 +6,7 @@ excerpt: "Here's this from global-minded site about broadband technologies"
 tags: [broadband, india]
 modified_on: 2008-04-05 06:25:00
 status: publish 
-path: /2005-11-12-five-fun-facts-from-broadband-wiki
+path: /2005/11/12/five-fun-facts-from-broadband-wiki
 ---
 
 <p>

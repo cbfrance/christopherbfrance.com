@@ -6,7 +6,7 @@ excerpt: "The resulting ideas and workflows are, in my mind, incredibly powerful
 tags: [design, participatory]
 modified_on: 2008-04-05 06:21:56
 status: publish 
-path: /2005-10-03-participatory-design
+path: /2005/10/03/participatory-design
 ---
 
 I am currently researching a field of design known as "Participatory Design" that has a fascinating history (dealing with Scandinavian labor unions) and a very promising future. In short,  PD is about incorporating the user in the design process from day one. The resulting ideas and workflows are, in my mind, incredibly powerful tools for working on any project. My focus is web development. 

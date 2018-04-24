@@ -6,7 +6,7 @@ excerpt: "They did it using a pair of Linksys WRT54Gs running DD-WRT and some re
 tags: [wifi]
 modified_on: 2008-04-05 07:10:07
 status: publish 
-path: /2006-06-09-new-wi-fi-distance-record-279-km
+path: /2006/06/09/new-wi-fi-distance-record-279-km
 ---
 
 <a href="http://constructiveinterference.net/archives/199">New Wi-Fi distance record: 279 km!</a>:

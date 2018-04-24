@@ -6,7 +6,7 @@ excerpt: "The people they interviewed (about 25 of them) were smart folks in a w
 tags: [blogging, literacy]
 modified_on: 2008-04-05 06:09:24
 status: publish 
-path: /2005-08-05-this-island-blog-or-what-the-hell-is-a-blog
+path: /2005/08/05/this-island-blog-or-what-the-hell-is-a-blog
 ---
 
 Your dear author recently posted about the ambivalence and misunderstanding that abounds with regard to the concept of RSS. Based on this weeks hilarious (in a laughing-at-you, not-with-you way) <a href="http://www.catalystgroupdesign.com/cofactors/?p=111">usability survey</a> of blogging from Catalyst Group Design, blogging (yes, the entire concept) is about a mainstream as the Kabbalah. 

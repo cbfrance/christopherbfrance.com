@@ -6,7 +6,7 @@ excerpt: "If you or your nonprofit is concerned about your pages being readable 
 tags: [accessibility, webdev]
 modified_on: 2008-04-05 05:17:51
 status: publish 
-path: /2005-01-10-accessibility-is-important
+path: /2005/01/10/accessibility-is-important
 ---
 
 If you or your nonprofit is concerned about your pages being readable to people with limited sight or non-graphical browsers, you should check out this classic book on accessibility. <a href="http://joeclark.org/book/sashay/serialization/">Building Accessible Websites</a> explains in clear, detailed steps how to get your site up to speed. And it doesn't have to mean a major foray into tangled html. Just add some alt tags and title tags, and you've cleared the first hurdle. From Chapter 6:

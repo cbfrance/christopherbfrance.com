@@ -6,7 +6,7 @@ excerpt: "We, as humans, are all multi-faceted. We speak to our parents differen
 tags: [social, trust, design, psychology, mentalhealth, identity, security]
 modified_on: 2009-09-26 01:48:31
 status: publish 
-path: /2009-09-26-how-much-do-you-trust-your-own-network
+path: /2009/09/26/how-much-do-you-trust-your-own-network
 ---
 
 Some time ago, I joined Twitter as <a href="http://twitter.com/unthinkingly">@unthinkingly</a>, and I loved it. Then, something felt wrong, and I deleted a bunch of followers. First I went down to 200 people, then 100, then 50, and it still was <strong>somehow wrong</strong>, so I quietly slipped out the door. Nobody really complained. I think many people have experience this burnout. Twitter is kinda hard. There's just so much happening. To me, what was exciting became overwhelming. Serendipity curdled into distraction. 

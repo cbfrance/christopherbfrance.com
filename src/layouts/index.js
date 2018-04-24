@@ -16,6 +16,14 @@ injectGlobal`
   *, *::before, *::after {
     box-sizing: border-box;
   }
+
+  // ::-selection {
+  //   background: red;
+  // }
+
+  // ::-moz-selection {
+  //   background: red;
+  // }
 `
 
 const TemplateWrapper = ({ children }) => (

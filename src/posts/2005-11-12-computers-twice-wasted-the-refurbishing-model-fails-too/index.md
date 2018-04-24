@@ -6,7 +6,7 @@ excerpt: "computer recycling is also harder than it sounds."
 tags: [waste, environment, swedow]
 modified_on: 2008-04-05 06:24:40
 status: publish 
-path: /2005-11-12-computers-twice-wasted-the-refurbishing-model-fails-too
+path: /2005/11/12/computers-twice-wasted-the-refurbishing-model-fails-too
 ---
 
 A recent article in the New York Times discusses a report that computers are being "improperly recycled" (read: dumped) on developing countries as a way to avoid the expense of refurbishing them before redistribution.

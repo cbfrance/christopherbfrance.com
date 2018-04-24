@@ -6,7 +6,7 @@ excerpt: "There is a deeply manipulative and delusional culture at work [in Sili
 tags: [nptech, ict4d, doomedculture]
 modified_on: 2010-04-01 19:13:43
 status: publish 
-path: /2010-04-01-dont-pitch-me
+path: /2010/04/01/dont-pitch-me
 ---
 
 Last week I read this article on ReadWriteWeb that advises a startup to "<a href="http://www.readwriteweb.com/start/2010/03/give-it-to-them-straight-avoid-pitching-to-your-board.php">Give It to Them Straight: Avoid "Pitching" to Your Board</a>." The article explains how it can be bad to exaggerate your product and cover up problems that you are experiencing in development: 

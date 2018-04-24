@@ -6,7 +6,7 @@ excerpt: "In these matters of revolution, we have to be wired to win"
 tags: [internet, war, media]
 modified_on: 2008-04-05 06:49:35
 status: publish 
-path: /2006-01-23-the-internet-is-a-war-weapon
+path: /2006/01/23/the-internet-is-a-war-weapon
 ---
 
 An interesting article from the Washington Post, (via <a href="http://www.kenyanpundit.com/?p=113">Kenyanpundit</a>) :<a href="http://www.washingtonpost.com/wp-dyn/content/article/2006/01/13/AR2006011301730.html">African Rebels Take Their Battles Online</a>.

@@ -6,7 +6,7 @@ excerpt: "The Journal of Community Informatics, a new, academic approach to comm
 tags: [journal, academic]
 modified_on: 2008-04-05 05:53:51
 status: publish 
-path: /2005-06-01-community-informatics
+path: /2005/06/01/community-informatics
 ---
 
 The Journal of Community Informatics, a new, academic approach to community technology, is now in its third issue. 

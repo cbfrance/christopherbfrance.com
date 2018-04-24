@@ -6,7 +6,7 @@ excerpt: "If you are new to Linux, this may help to explain a lot of the confusi
 tags: [linux, tutorial]
 modified_on: 2008-04-05 07:12:13
 status: publish 
-path: /2006-06-24-linux-overview
+path: /2006/06/24/linux-overview
 ---
 
 Just found this nice, basic, summary of the various Linux distributions.  <blockquote class="large">

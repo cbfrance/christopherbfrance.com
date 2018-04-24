@@ -6,7 +6,7 @@ excerpt: "Worse, it appears that a rather large industry has grown up around the
 tags: [censorship, freespeech]
 modified_on: 2008-04-05 05:56:10
 status: publish 
-path: /2005-07-09-an-authoritarian-third-way-on-the-internet
+path: /2005/07/09/an-authoritarian-third-way-on-the-internet
 ---
 
 There's an old dream held by certain Englishmen of the Enlightenment: the perfect prison, the panopticon. In the panopticon, every cell can be seen into by a single guard standing in the center tower. But the prisoners can't see into the guard tower. The prisoners begin to monitor themselves; they must assume that they are always being watched. 

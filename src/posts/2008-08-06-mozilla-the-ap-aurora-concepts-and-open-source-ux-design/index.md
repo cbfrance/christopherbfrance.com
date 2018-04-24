@@ -6,7 +6,7 @@ excerpt: "The real importance of the videos is not specific to any of the UI det
 tags: [mozillla, opensource, design, ux]
 modified_on: 2008-08-06 18:49:37
 status: publish 
-path: /2008-08-06-mozilla-the-ap-aurora-concepts-and-open-source-ux-design
+path: /2008/08/06/mozilla-the-ap-aurora-concepts-and-open-source-ux-design
 ---
 
 Today Adaptive Path, the godfather company of the interface and experience research industry, released the first of some amazingly high quality <a href="http://www.adaptivepath.com/aurora/">concept videos</a> about the web browser of the future. 

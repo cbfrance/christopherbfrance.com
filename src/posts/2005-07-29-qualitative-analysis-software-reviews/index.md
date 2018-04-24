@@ -6,7 +6,7 @@ excerpt: "This page is from a university in the U.K., and would be useful if you
 tags: [qualitative, reserch]
 modified_on: 2008-04-05 06:06:45
 status: publish 
-path: /2005-07-29-qualitative-analysis-software-reviews
+path: /2005/07/29/qualitative-analysis-software-reviews
 ---
 
 Perhaps not what you've been waiting for all year &mdash; an extensive resource for researching various qualitative data analysis programs &mdash; but if you're in a research environment, this is actually extremely helpful. 

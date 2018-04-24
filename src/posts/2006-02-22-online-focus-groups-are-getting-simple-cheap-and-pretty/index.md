@@ -6,7 +6,7 @@ excerpt: "Find a simple, stable, cheap platform for online nonprofit focus group
 tags: [nptech, survey, evaluation]
 modified_on: 2008-04-05 07:04:00
 status: publish 
-path: /2006-02-22-online-focus-groups-are-getting-simple-cheap-and-pretty
+path: /2006/02/22/online-focus-groups-are-getting-simple-cheap-and-pretty
 ---
 
 <a href="http://www.37signals.com/">37 Signals</a> is a super-smart little company known for creating easy-to-use web-based project management tools (namely the <a href="http://www.basecamphq.com/">Basecamp </a>suite), and they have just announced the latest in their product family: <a href="http://www.campfirenow.com/">Campfire</a>. <img src='/static/images/campfirelogo_01.jpg' alt='campfirelogo' /> 

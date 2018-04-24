@@ -6,7 +6,7 @@ excerpt: "Last I checked, only about 2 percent of developers were women. "
 tags: [women, developers]
 modified_on: 2008-04-05 07:10:56
 status: publish 
-path: /2006-06-19-gnome-needs-women
+path: /2006/06/19/gnome-needs-women
 ---
 
 Last I checked, only about 2 percent of developers were women. 

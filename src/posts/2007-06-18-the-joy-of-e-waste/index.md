@@ -6,7 +6,7 @@ excerpt: "Recently I've been really worked up about all these computers in the c
 tags: [waste, recycling, design]
 modified_on: 2008-04-05 07:30:12
 status: publish 
-path: /2007-06-18-the-joy-of-e-waste
+path: /2007/06/18/the-joy-of-e-waste
 ---
 
 Recently I've been really worked up about all these computers in the closet. It's a bunch of junk. 

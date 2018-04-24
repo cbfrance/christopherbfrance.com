@@ -6,7 +6,7 @@ excerpt: "a chart of evaluation software packages"
 tags: [evaluation]
 modified_on: 2008-04-05 05:23:28
 status: publish 
-path: /2005-02-13-evaluation-software
+path: /2005/02/13/evaluation-software
 ---
 
 Here's a chart of evaluation software packages form the Evaluator's exchange. The list is untested by yours truly, but the Evaluation Exchange (From the <a href="http://www.gse.harvard.edu/hfrp/index.html">Harvard Family Research Project</a>) is an excellent resource for folks working with children. 

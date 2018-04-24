@@ -6,7 +6,7 @@ excerpt: "I mean, I love campfire and all, but you could've at least published w
 tags: [pod, books]
 modified_on: 2008-04-05 07:09:00
 status: publish 
-path: /2006-03-06-getting-real-its-not-just-an-80s-catch-phrase
+path: /2006/03/06/getting-real-its-not-just-an-80s-catch-phrase
 ---
 
 My favorite non-open-source <a href="http://www.37signals.com/">software company</a> published a book today, and I think it's likely that it will do quite well. Considering the fact that they practically have their little Web-2.0 paws up the proverbial skirt of every well-intended, moleskine-toting geek in the blogosphere ... I think the fact that they're asking $20 for a PDF will be looked upon as a delightful novelty.

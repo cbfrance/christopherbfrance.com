@@ -6,7 +6,7 @@ excerpt: "Andy Carvin, director of the Digital Divide Network, recently posted a
 tags: [DDN, nc, katrina]
 modified_on: 2008-04-05 06:16:07
 status: publish 
-path: /2005-09-10-what-if-the-flood-was-in-washington
+path: /2005/09/10/what-if-the-flood-was-in-washington
 ---
 
 Andy Carvin, director of the Digital Divide Network, recently posted a fascinating, heartbreaking perspective just how much damage has been done. He found the images at a strange condo site, <a href="http://katrina05.blogspot.com/">condobuzz.com</a>. The images are overlays of the flooding with other metropolitan areas. (Note this is <em>just the flooding</em>. The hurricane damages, if in the midwest, would reach from Detroit to Chicago.) Andy's excellent, popular, collaborative Katrina blog is here: 

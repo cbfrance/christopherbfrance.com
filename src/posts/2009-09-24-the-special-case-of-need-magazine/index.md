@@ -6,7 +6,7 @@ excerpt: "During the collapse of the journalism industry, I have rarely been sur
 tags: [journalism, nonprofit, nptech, philanthropy, zuckerman]
 modified_on: 2009-09-24 07:53:38
 status: publish 
-path: /2009-09-24-the-special-case-of-need-magazine
+path: /2009/09/24/the-special-case-of-need-magazine
 ---
 
 During the collapse of the journalism industry, I have rarely been surprised &mdash; and only occasionally truly saddend &mdash; by a newspaper going out of business. 

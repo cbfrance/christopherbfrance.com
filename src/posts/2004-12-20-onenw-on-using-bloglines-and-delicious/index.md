@@ -6,7 +6,7 @@ excerpt: "There are some very sophisticated techniques emerging into the semi-ma
 tags: [nptech, blogging]
 modified_on: 2008-04-05 05:14:53
 status: publish 
-path: /2004-12-20-onenw-on-using-bloglines-and-delicious
+path: /2004/12/20/onenw-on-using-bloglines-and-delicious
 ---
 
 There are some very sophisticated techniques emerging into the semi-mainstream this year. You may not have noticed, and you may not care. But if you can get the hang of it managing the blogosphere, there's a lot to be learned. 

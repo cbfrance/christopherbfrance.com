@@ -6,7 +6,7 @@ excerpt: "Fundamentally I think that <em>touch</em> is intimate and intuitive, a
 tags: [touch, ui, baobab, linux, design, tablet]
 modified_on: 2008-04-05 07:28:01
 status: publish 
-path: /2007-05-13-wanted-an-open-source-user-centered-touchscreen-platform
+path: /2007/05/13/wanted-an-open-source-user-centered-touchscreen-platform
 ---
 
 There has been a lot of excitement recently around a couple of developments in touch screen interfaces:  First there was the <a href="http://www.youtube.com/watch?v=UcKqyn-gUbY&mode=related&search=">insane presentation at TED 2006</a>. Secondly, of course, the iPhone made everyone all hot in the pants for it's touchable goodness.

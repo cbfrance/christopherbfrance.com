@@ -6,7 +6,7 @@ excerpt: "The visual aspects of the internet are all distractions without qualit
 tags: [usability, content]
 modified_on: 2008-04-05 05:41:15
 status: publish 
-path: /2005-04-14-a-few-words-against-drivel-and-detritus
+path: /2005/04/14/a-few-words-against-drivel-and-detritus
 ---
 
 Create usable content? It doesn't sound like a difficult goal. But upon reconsideration, it is clear that the web (in particular) has become a waste of  your time. The visual aspects of the internet are all distractions without quality content. And that means content that is useful and clear. 

@@ -6,7 +6,7 @@ excerpt: "Most of the books here are just distributed online for free because th
 tags: [books, webdev, cs, learning]
 modified_on: 2008-04-05 07:05:14
 status: publish 
-path: /2006-02-25-free-computer-books-tutorials-and-lecture-notes
+path: /2006/02/25/free-computer-books-tutorials-and-lecture-notes
 ---
 
 This is where it's at folks: free programming and web design books. Make your computer do impossible feats of inhuman strength with this <a href="http://maththinking.com/boat/webBooksIndex.html">collection of languages and techniques</a>, from old-school Fortran to Web 2.0 hipster-standards AJAX or Ruby. 

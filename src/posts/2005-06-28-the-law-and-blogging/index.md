@@ -6,7 +6,7 @@ excerpt: "If your organization is getting into blogging as a way to advocate you
 tags: [blogging, law, EFF]
 modified_on: 2008-04-05 05:55:36
 status: publish 
-path: /2005-06-28-the-law-and-blogging
+path: /2005/06/28/the-law-and-blogging
 ---
 
 The Electronic Frontier Foundation has just released a great "Legal Guide For Bloggers," which goes into some of the concepts that you might not be familiar with. 

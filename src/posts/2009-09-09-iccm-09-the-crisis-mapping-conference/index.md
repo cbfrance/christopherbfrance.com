@@ -6,7 +6,7 @@ excerpt: "The conference is 'harnessing mobile platforms, computational linguist
 tags: [crisismapping, geo, conference, crisis, ushahidi, cleveland]
 modified_on: 2009-09-11 12:17:36
 status: publish 
-path: /2009-09-09-iccm-09-the-crisis-mapping-conference
+path: /2009/09/09/iccm-09-the-crisis-mapping-conference
 ---
 
 In October I'll be geeking out at the <a href="http://crisismapping.ning.com/">ICCM 09</a>, the first International Conference on Crisis Mapping. The conference is "harnessing mobile platforms, computational linguistics, geospatial technologies, and visual analytics to power effective early warning for rapid response to complex humanitarian emergencies." 

@@ -6,7 +6,7 @@ excerpt: "But it's exhausting, distracting, and inseparable from the cult of eff
 tags: [code]
 modified_on: 2009-01-26 07:32:13
 status: publish 
-path: /2008-12-03-trying-to-quit
+path: /2008/12/03/trying-to-quit
 ---
 
 I have been trying to quit programming for about six months. 

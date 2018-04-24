@@ -6,7 +6,7 @@ excerpt: "If you need to easily display slideshows online"
 tags: [webdev, design]
 modified_on: 2008-04-05 05:24:18
 status: publish 
-path: /2005-02-17-add-a-simple-slideshow-to-your-webpage
+path: /2005/02/17/add-a-simple-slideshow-to-your-webpage
 ---
 
 If you need to easily display slideshows online, there are a couple of options that I have recently run across. The simplest, though not as sophisticated, process is to use a site called <a href="http://www.flickr.com/">Flickr</a>, which was recently acquired by Yahoo! and can be a lot of fun. You just upload your pictures and folks can link to them to form online picture-sharing communities. The best feature is that it can export to your blog or website, though the format is not as customizable as I'd like.

@@ -6,7 +6,7 @@ excerpt: "a beautifully executed charity project that fills a very simple, tradi
 tags: [design, nptech, darfur]
 modified_on: 2008-04-05 07:18:09
 status: publish 
-path: /2006-12-17-the-darfur-wall
+path: /2006/12/17/the-darfur-wall
 ---
 
 <img src="/static/images/darfur_wall.jpg" alt="Darfur Wall">

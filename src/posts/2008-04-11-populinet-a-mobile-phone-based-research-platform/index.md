@@ -6,7 +6,7 @@ excerpt: "Low cost Nokia 2626 handsets were successfully used by field workers t
 tags: [surveys, research]
 modified_on: 2008-04-11 07:28:18
 status: publish 
-path: /2008-04-11-populinet-a-mobile-phone-based-research-platform
+path: /2008/04/11/populinet-a-mobile-phone-based-research-platform
 ---
 
 <strong>Now this is what I am talking about:</strong> A mobile phone based API for doing things like <a href="http://www.populi.net/mobileresearcher/">managing quantitative research projects</a>. Supports a <a href="http://www.populi.net/mobileresearcher/devices.aspx">bazillion types of phones</a>. Developed by a South African company. You own your own data. Sounds like a brilliant new project and I look forward to hearing more about it. 

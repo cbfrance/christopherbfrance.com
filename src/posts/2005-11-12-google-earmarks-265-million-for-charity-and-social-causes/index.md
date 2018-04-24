@@ -6,7 +6,7 @@ excerpt: "will devote a share of its lucrative public stock offering"
 tags: [google, social]
 modified_on: 2008-04-05 06:25:33
 status: publish 
-path: /2005-11-12-google-earmarks-265-million-for-charity-and-social-causes
+path: /2005/11/12/google-earmarks-265-million-for-charity-and-social-causes
 ---
 
 Ok, now who can write grant proposals? 

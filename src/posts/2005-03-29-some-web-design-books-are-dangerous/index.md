@@ -6,7 +6,7 @@ excerpt: "using named vs. hex color values"
 tags: [css, webdev]
 modified_on: 2008-04-05 05:38:37
 status: publish 
-path: /2005-03-29-some-web-design-books-are-dangerous
+path: /2005/03/29/some-web-design-books-are-dangerous
 ---
 
 I recently picked up a copy of the "for Dummies" CSS tutorial book and was disappointed to find the following in a section about using named vs. hex color values (like cornflowerblue instead of #6495ED):

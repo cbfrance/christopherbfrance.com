@@ -6,7 +6,7 @@ excerpt: "If you are investing money in a website with a social justice purpose 
 tags: [email, nptech]
 modified_on: 2008-04-05 05:46:26
 status: publish 
-path: /2005-05-03-email-works-it-even-has-a-manifesto
+path: /2005/05/03/email-works-it-even-has-a-manifesto
 ---
 
 If you are investing money in a website with a social justice purpose (do, please), you of course need to be thinking about getting people to your site.

@@ -6,7 +6,7 @@ excerpt: "Soon we'll have far fewer excuses for not distributing the worlds most
 tags: [nptech]
 modified_on: 2008-04-05 06:29:03
 status: publish 
-path: /2005-11-12-tag-your-books-with-library-thing
+path: /2005/11/12/tag-your-books-with-library-thing
 ---
 
 <p>Soon we'll have far fewer excuses for not distributing the worlds most valuable information resources: libraries. What will it take for us to start reorganizing and exporting our libraries digitally for the sake of global education? 
