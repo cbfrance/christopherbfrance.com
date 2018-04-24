@@ -17,7 +17,7 @@ This morning I was reminded (via <a href="http://www.worldchanging.com/archives/
 The security version of NGO-in-a-box ... is aimed predominantly at human rights, anti-corruption, and womens groups, independent media and journalists. Its purpose is to help these groups, and those who work as trainers and technical support with these groups, to orient themselves with the kinds of security and protection tools they could use and the ability to easily access and try them out. This boxset is made of three CDs and printed manual.
 </blockquote>
 
-<img src='/images/ngoinaabox.jpg' alt='NGO-in-a-box' >
+<img src='/static/images/ngoinaabox.jpg' alt='NGO-in-a-box' >
 
 One of the most important parts of the CDs is the documentation, which somes in English, Spanish, French, Russian and Arabic. (Unfortunately a lot of the software only comes in English.) 
 

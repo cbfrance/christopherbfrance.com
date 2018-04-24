@@ -17,7 +17,7 @@ The trick of Newsvine is that it comes in a really well designed interface and a
 
 Personally, I'm *very* excited to see companies that understand my Sysiphean-Kafkaesque nightmare of flashy, obtrusive, cluttered websites like Yahoo! and all the major news outlets (see image). And of course I'm excited to see (another) community-building website that allows for the development of local <a href="http://en.wikipedia.org/wiki/Folksonomy">folksonomies </a>and scalable collaboration. 
 
-<img src='/images/clutter_01.jpg' alt='Clutter' >
+<img src='/static/images/clutter_01.jpg' alt='Clutter' >
 
 I would very much like to start using Newsvine in order to tag and collect news items that are relevant to my organization(s). Considering Newsvine's focus on usability and design, I think it would be a serious alternative to using something like del.ico.us to share links. Del.icio.us just has such an uber-geeky interface that is seriously off-putting to most warm-blooded nonprofit people. And of course, there are a number of other "social news sites" that are doing something similar to newsvine, including: 
 
@@ -32,7 +32,7 @@ Digg.com, in my experience, is the best of these and has the largest user base (
 
 For an example of Newsvine's potential, look non further than <a href="http://www.maptalk.co.nz/infographics/worldnews.cfm">this map</a> (see image), created by Fraser Mills today. In the "tradition" of the best web applications, developers will soon have a Newsvine API (a kind of cookbook for developers, saving lots of time) into which all kinds of fun can be had, and Fraser is just a little ahead of the curve. His map represents news items according to their location. You can click on each country and get a rundown of the news in that area. I imagine that you will soon be able to sort and filter to create some impressive maps of information. 
 
-<img src='/images/newsvine.jpg' alt='news' />
+<img src='/static/images/newsvine.jpg' alt='news' />
 
 Most impressively, Davidson has <a href="http://www.mikeindustries.com/blog/archive/2006/01/newsvine-with-google-maps">written </a>today that an API is in the works and that: "Once true location data like this makes its way into posts, wire articles, and seeds, the map will be even more useful. You'll be able to zoom in on Seattle, for instance, and get stories down to the micro-local level." 
 

@@ -11,7 +11,7 @@ path: /2007-06-18-the-joy-of-e-waste
 
 Recently I've been really worked up about all these computers in the closet. It's a bunch of junk. 
 
-<img src='/images/picture-4.thumbnail.jpg' alt='Monitors in the office. Akk.' />
+<img src='/static/images/picture-4.thumbnail.jpg' alt='Monitors in the office. Akk.' />
 
 A bunch of dot-com-bubble bullshit that never needed to be purchased in the first place.  I've been stressed out about that festering backwater of old computers since I got my job here 16 months ago.
 
@@ -19,7 +19,7 @@ For 16 months, I worried that it would all be super expensive to recycle.
 
 For 16 months, I worried that it wouldn't be recyclable at all.
 
-<img src='/images/picture-1.jpg' alt='More crapola.' />  
+<img src='/static/images/picture-1.jpg' alt='More crapola.' />  
 
 I worried because it was all crappy Pentium II processors and Pre-OSX Apples and janky Sun workstations. Stuff our design and programming team would <strong>never</strong> touch (nose upturned). Not to mention the 105-pound rack-mounted servers. All of it full of toxic heavy metals. Not to mention the steaming pile of three button Sun mice and a giant nest of serial cables. And the 39 (!) keyboards.
 
@@ -32,7 +32,7 @@ Taking a clue from <a href="http://ecoiron.blogspot.com">Ecoiron</a>, a great bl
     <span class="attribution">- Booklist on <em>Made To Break</em></span>
 </blockquote>
 
-<img src='/images/slade.thumbnail.jpg' alt='Made_to_break' />
+<img src='/static/images/slade.thumbnail.jpg' alt='Made_to_break' />
 
 Perhaps a real review will be in order if I ever actually read the entire thing, which is rare these days. For now perhaps I will just note that this book was one of the primary reasons for <a href="http://www.unthinkingly.com/2007/06/15/genocide-vs-gadgets/">not getting an iPhone</a>. One less Blackberry that has to die in a desk drawer.
 

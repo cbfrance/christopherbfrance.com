@@ -11,7 +11,7 @@ path: /2007-12-17-the-future-of-css-here-its-just-not-evenly-distributed
 
 In light of the <a href="http://www.stuffandnonsense.co.uk/malarkey/more/css_unworking_group/">litigious, melodramatic backwater that the CSS spec has fallen into</a>, I thought it would be worth writing up a teensy, non-brilliant-but-incredibly-useful DIY hack for stylesheets.
 
-<img src='/images/future-is-now-slate.jpg' alt='The future is now' />In my mind, there is really no way of getting around CSS if you are working on the web. CSS makes your site ugly or beautiful, rendering a site in just a split second of processing right before your retinas pass information to your brain. I love it; it's one of my trustiest tools. Back in the day I did enough hard time with tables and inline FONT and MARGIN stuff that CSS really was a revelation for me.
+<img src='/static/images/future-is-now-slate.jpg' alt='The future is now' />In my mind, there is really no way of getting around CSS if you are working on the web. CSS makes your site ugly or beautiful, rendering a site in just a split second of processing right before your retinas pass information to your brain. I love it; it's one of my trustiest tools. Back in the day I did enough hard time with tables and inline FONT and MARGIN stuff that CSS really was a revelation for me.
 
 So yeah, CSS, I love you, even if you are spooky and crusty and awkward sometimes. And did I mention annoying? Ok sometimes REALLY annoying. ... Sometimes it's late, stuff's completely hosed by SOMETHING in this bloated stylesheet, and I realize that I've just learned to survive on CSS island with a sturdy coconut helmet and strong superstitions about absolute positioning or a negative margin or that extra wrapper div.
 

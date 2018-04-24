@@ -17,9 +17,9 @@ Well, almost: the result still should be combed over with a something like POedi
 
 But Rosetta nontheless is an incredible project about which I am very excited, and I congratulate their team and the 8796 translators (according to public page stats) working to make free software available worldwide. I especially like logging into the website and being able to see the progress on each translation for each of the O.S.S. projects they work with. (Currently there is no Wordpress 2.0, just 1.5, unfortunately. There is also no Swahili team, prior to myself and Ndesanjo.) 
 
-<img src='/images/rosetta2.jpg' alt='Rosetta2' />The Rosetta project is, I believe, originally the translation interface for the Ubuntu Linux community. Ubuntu is a distribution (a version) of the Linux operating system.  
+<img src='/static/images/rosetta2.jpg' alt='Rosetta2' />The Rosetta project is, I believe, originally the translation interface for the Ubuntu Linux community. Ubuntu is a distribution (a version) of the Linux operating system.  
 
-<img src='/images/ubuntu.jpg' alt='ubuntu-logo' />For those who are new to the world of Open Source, Linux is a platform for your computer, just like Microsoft Windows or Apple's Macintosh OS. But Ubuntu-flavored Linux is free, community built and, indeed, community oriented. Ubuntu Linux is "beating out" a lot of the more traditional flavors of Linux because it is more user friendlily. I like to think of Ubuntu Linux developing enough to enter the mainstream as a free alternative to Windows. 
+<img src='/static/images/ubuntu.jpg' alt='ubuntu-logo' />For those who are new to the world of Open Source, Linux is a platform for your computer, just like Microsoft Windows or Apple's Macintosh OS. But Ubuntu-flavored Linux is free, community built and, indeed, community oriented. Ubuntu Linux is "beating out" a lot of the more traditional flavors of Linux because it is more user friendlily. I like to think of Ubuntu Linux developing enough to enter the mainstream as a free alternative to Windows. 
 
 From the Ubuntu website: 
 

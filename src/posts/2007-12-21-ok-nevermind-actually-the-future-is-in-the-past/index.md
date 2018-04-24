@@ -9,7 +9,7 @@ status: publish
 path: /2007-12-21-ok-nevermind-actually-the-future-is-in-the-past
 ---
 
-<img src='/images/cometbus.thumbnail.jpg' alt='Cometbus zine.' /> I've been following the recent debate about the future of web standards and whatnot. It's been making me think a bit about what I really want to see in the future of web standards. And I can't get this great California zine <a href="http://en.wikipedia.org/wiki/Cometbus">Cometbus</a> out of my head. (Well, ok, by "following the recent debate" I'm just trying to find a smart way to say I read a few blogs. Every single one of which is linked to on Tuesday by <a href="http://adactio.com/journal/1393/">Jeremy Keith</a>. Except this one from Thursday <a href="http://www.zeldman.com/">Zeldman post</a>. Zing zing. Good stuff. Read the comments for sure. Or just read my post first if you want to feel good about skipping it altogether.) 
+<img src='/static/images/cometbus.thumbnail.jpg' alt='Cometbus zine.' /> I've been following the recent debate about the future of web standards and whatnot. It's been making me think a bit about what I really want to see in the future of web standards. And I can't get this great California zine <a href="http://en.wikipedia.org/wiki/Cometbus">Cometbus</a> out of my head. (Well, ok, by "following the recent debate" I'm just trying to find a smart way to say I read a few blogs. Every single one of which is linked to on Tuesday by <a href="http://adactio.com/journal/1393/">Jeremy Keith</a>. Except this one from Thursday <a href="http://www.zeldman.com/">Zeldman post</a>. Zing zing. Good stuff. Read the comments for sure. Or just read my post first if you want to feel good about skipping it altogether.) 
 
 Anyway, lemme explain.   
 

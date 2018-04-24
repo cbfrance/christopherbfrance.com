@@ -9,12 +9,12 @@ status: publish
 path: /2006-01-23-your-color-cure
 ---
 
-<img src='/images/colors.jpg' alt='Colors' />Wow. Steve at Slayeroffice.com has an amazing <a href="http://slayeroffice.com/tools/color_palette/">color palette generator</a> based on the design technique of <a href="http://www.stuffandnonsense.co.uk/archives/creating_colour_palettes.html">Andy Clark</a>.
+<img src='/static/images/colors.jpg' alt='Colors' />Wow. Steve at Slayeroffice.com has an amazing <a href="http://slayeroffice.com/tools/color_palette/">color palette generator</a> based on the design technique of <a href="http://www.stuffandnonsense.co.uk/archives/creating_colour_palettes.html">Andy Clark</a>.
 
 You enter a hex code value for a color, then another to mix it with, and out comes a beautiful png graphic of the color scheme. Extremely nice work, Steve. This is a great resource for brainstorming color schemes. I've used a number of other methods, but this one gets the prize. 
 
 
-<img src='/images/colorwheel.jpg' alt='colorwheel' /> 
+<img src='/static/images/colorwheel.jpg' alt='colorwheel' /> 
 
 <h3>UPDATE</h3>
 

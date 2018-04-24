@@ -13,7 +13,7 @@ I've been reading an excellent report from <a href="http://www.eldis.org/">Eldis
 
 <blockquote class="large">
 
-<img src='/images/PanosTBolstadradio.jpg' alt='Man with radio' />
+<img src='/static/images/PanosTBolstadradio.jpg' alt='Man with radio' />
 
 This report reviews the evidence on how (or if) ICTs should be used in support of poverty reduction exercises.
 

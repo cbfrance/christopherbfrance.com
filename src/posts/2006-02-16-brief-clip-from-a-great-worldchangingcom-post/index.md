@@ -9,5 +9,5 @@ status: publish
 path: /2006-02-16-brief-clip-from-a-great-worldchangingcom-post
 ---
 
-<img src='/images/greenchix_logo01.jpg' alt='LinuxChix logo' /> <a href="http://www.worldchanging.com/archives/004109.html">WorldChanging: Another World Is Here: LinuxChix Africa</a>
+<img src='/static/images/greenchix_logo01.jpg' alt='LinuxChix logo' /> <a href="http://www.worldchanging.com/archives/004109.html">WorldChanging: Another World Is Here: LinuxChix Africa</a>
 "LinuxChix Africa manages to shatter two stereotypes at the same time: the idea that women aren't interested in free/open source software development; and the idea that women in Africa are bound to traditional cultural roles. Founded in late 2004 by Anna Badimo, a computer science graduate student in South Africa, and Dorcas Muthoni of the Kenya Education Network, LinuxChix Africa seeks to build Linux skills among African women, as well as to support more generally the use of free/open source applications and systems across Africa. Like most Linux and F/OSS communities, much of their work entails professional software development and public advocacy of open source, but LinuxChix Africa adds a unique twist: they focus their outreach on encouraging young women to pursue careers in computing."

@@ -9,7 +9,7 @@ status: publish
 path: /2006-01-26-biofuels-community-with-google-maps
 ---
 
-<img src='/images/biofuelsmap.jpg' alt='biofuels-map' /> <a href="http://www.ultramegaok.com/biodiesel/stations.html">This Washington state map</a> is an example of what <a href="http://www.nonprofitdesign.org">nonprofitdesign.org</a> is creating for my local (NC) biofuels community website (in the works).
+<img src='/static/images/biofuelsmap.jpg' alt='biofuels-map' /> <a href="http://www.ultramegaok.com/biodiesel/stations.html">This Washington state map</a> is an example of what <a href="http://www.nonprofitdesign.org">nonprofitdesign.org</a> is creating for my local (NC) biofuels community website (in the works).
 
 This new biofuels website, I hope, will have a map that functions better than most of the buggy hatchet-jobs out there (above site excepted, of course).
 
@@ -29,7 +29,7 @@ As for the NC Biofuels community website as a whole, I hope to achieve three thi
 2.) Find information about current local legislation, and easily email relevant legislators. This is easy enough to implement with PHP. 
 </p>
 <p>
-<img src='/images/pbwebsite.jpg' alt='Piedmont Biofuels' alt="piedmont biofuels site" />3.) The third, most important goal (though I think this has to come after the above 2) is to create a centralized place for dialogue. To do this I would like to offer blogs to each of the current biofuels operations in NC. (Though I doubt most of them could keep up with <a href="http://www.biofuels.coop/blog/">Lyle "Energy Blog" Estill</a> at <a href="http://www.biofuels.coop/">Piedmont Biofuels</a>.) 
+<img src='/static/images/pbwebsite.jpg' alt='Piedmont Biofuels' alt="piedmont biofuels site" />3.) The third, most important goal (though I think this has to come after the above 2) is to create a centralized place for dialogue. To do this I would like to offer blogs to each of the current biofuels operations in NC. (Though I doubt most of them could keep up with <a href="http://www.biofuels.coop/blog/">Lyle "Energy Blog" Estill</a> at <a href="http://www.biofuels.coop/">Piedmont Biofuels</a>.) 
 
 
 We could syndicate all of their posts on the community site so you can read everyone's posts in one place. Likewise we could create a tag for use in <a href="http://www.flickr.com/">Flickr</a>, <a href="http://www.technorati.com/">Technorati </a>and <a href="http://del.icio.us/">delicious</a>. (Something like NCbiofuels.) 

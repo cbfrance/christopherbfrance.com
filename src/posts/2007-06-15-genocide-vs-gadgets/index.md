@@ -9,7 +9,7 @@ status: publish
 path: /2007-06-15-genocide-vs-gadgets
 ---
 
-<img src='/images/idistract_500px.jpg' alt='iDistract' />
+<img src='/static/images/idistract_500px.jpg' alt='iDistract' />
 
 I've never seen gadget hype reach the levels that have been achieved by the iPhone. And I've never been so caught up in it myself. After visiting <a href="http://www.eyesondarfur.org/">eyesondarfur.org</a> I've decided that I'm giving my iPhone budget to <a href="http://www.eyesondarfur.org/">Amnesty International</a>: $50 a month over the next year.
 
