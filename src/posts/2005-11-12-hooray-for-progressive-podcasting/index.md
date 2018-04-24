@@ -1,0 +1,28 @@
+---
+kind: article
+created_at: 2005-11-12 03:25:41
+title: Hooray for Progressive Podcasting
+excerpt: "Podcasting is not complicated. It's just audio. The problem lies in finding something worth listening to."
+tags: [podcasting, audio, community, nptech, peoplefinder, zuckerman]
+modified_on: 2008-04-05 06:27:02
+status: publish 
+path: /2005/11/12/hooray-for-progressive-podcasting
+---
+
+<p>Podcasting is not complicated. It's just audio. The problem lies in finding something worth listening to. 
+</p>
+<p>I subscribe to about a dozen podcasts, most of them technology-related, though some are about education or the media. (Technology-anything is always easy to find on the internet, naturally, because that's where the experts live.) Soon we'll have high-quality podcasts about a much broader range of subjects, and I expect that many of them will be coming from much smaller, more independent producers. Keep an eye on the podcast directories such as the one hosted at <a href="http://www.apple.com/itunes/podcasts/">www.apple.com/itunes/podcasts</a>. For now, however, I must admit that &mdash; contrary to that maverick, grassroots image that hovers over podcasting &mdash; I listen to an awful lot of stuff from larger outlets like NPR and PBS. (I'm especially fond of <a href="http://www.onthemedia.org/">On The Media</a> from NPR. Bob Garfield just cracks me up.)
+</p>
+<p>By the same token however, podcasts can help me tune into things on NPR that are well-produced, but have very limited distribution. I'm thinking of Christopher Lydon's <a href="http://www.radioopensource.org/">Open Source</a>, which is an excellent liberal call-in show produced by WGBH. Lydon is just sharp, and he certainly has a great deal of experience running a radio program. I'm listening now, offline, as I write. Their format embraces the use of the internet by actively soliciting comments and ideas through the web, and they do it worldwide, often including perspectives from the people that they are talking about. A nice package that I'd other wise miss out on if I weren't a subscriber.   
+</p>
+<p>Other podcasts, like those of the <a href="http://www.itconversations.com/series/bloggercon2004.html">Bloggercon</a> and <a href="http://www.poptech.org/">Pop!tech</a> conference series, attempt &mdash; in a wonderfully useful way &mdash; to reproduce and memorialize some of the ideas that get generated at these geek festivals. This has been an important way for me to have personally participated in conferences that I otherwise could not have afforded to attend (Pop!Tech was in Camden, Maine ... not an easy place to get to). Too bad the logistics of recording conferences are often fraught with recording problems. Audio is hard to do right. (Video, by the way, is a lot harder still, which makes me think that acceptably decent, small-scale videocasting is quite a ways off. Things change fast these days, though.)
+</p>
+<p>Still other podcasts are the work of real individuals, working in idiosyncratic ways to create something that's often highly personal. Often these remind me of the mid-1990s' heyday of personal webpages ... which means they're important but sometimes ugly. Some are just bad and ulgy. This is what I hope changes as things mature, as we head toward a sweet spot of podcasting content produced by small teams of people who really care and understand what they're talking about. Further still, I hope that we'll be seeing more and more podcasts that address issues at the intersection of society and technology in a progressive, thoughtful way. 
+</p>
+<p>That's why I was so excited to find this in my RSS aggregator today, from <a href="http://www.ethanzuckerman.com">Ethan Zuckerman</a>: 
+</p>
+<blockquote class="large"><p>Tim Zak, the head of Pittsburg Social Enterprise Accelerator, has teamed up with Doug Kaye of IT Conversations to produce a new podcast series called &ldquo;Globeshakers&rdquo;, which features social innovators from around the world. They&rsquo;re off to a great start with interviews with Andrew Zolli (the curator of Pop!Tech), David Bornstein (an author and expert on social entrepreneurship)&#8230; and me.</p>
+
+<p>Tim asked me to talk about my experiences with the Katrina Peoplefinder project and the larger issue of how the Open Source community responds to disasters. You can read more about the conversation, or just download and listen to it. Thanks, Tim, Doug and Peter Durand, for making this interview - and so many others - possible.</p> </blockquote>
+
+<p>Hooray!</p>
