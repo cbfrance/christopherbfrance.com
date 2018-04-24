@@ -9,4 +9,4 @@ status: publish
 path: /2008-05-18-wherecamp-2008-notes-on-flickr
 ---
 
-<img src="/images/cyclone.jpg" alt="if i had more coffee it would have been better" title="notes from wherecamp2008" />
+<img src="/static/images/cyclone.jpg" alt="if i had more coffee it would have been better" title="notes from wherecamp2008" />

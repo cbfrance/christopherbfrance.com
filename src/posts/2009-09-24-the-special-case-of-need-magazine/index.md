@@ -52,7 +52,7 @@ Here's their two-sentence angle on the world:
 <blockquote>NEED magazine is an artistic hope-filled publication focusing on life changing humanitarian efforts at home and abroad.  We are not out to save the world, but to tell the stories of, and assist, those who are.<span class="attribution"><a href="http://needmagazine.com">NEED Magazine</a></span></blockquote>
  
 
-<img src="/images/premierecover.jpg" alt="Need" title="Need magazine" />
+<img src="/static/images/premierecover.jpg" alt="Need" title="Need magazine" />
 
 If you have never seen it, you should check it out &mdash; it's the highest quality printing that you can get, with gigantic gorgeous photos of some truly incredible stories. A rare find.
 

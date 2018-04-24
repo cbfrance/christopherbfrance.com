@@ -33,4 +33,4 @@ And the App:
 
 They just released a major new milestone and have bunch of great new branding. Great work, <a href="http://www.blogspot.kiwanja.net/">Ken</a>!
 
-<img src="/images/frontline.jpg" alt="frontline interface"/>
+<img src="/static/images/frontline.jpg" alt="frontline interface"/>

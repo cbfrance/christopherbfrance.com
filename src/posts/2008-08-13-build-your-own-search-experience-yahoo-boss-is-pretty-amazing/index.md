@@ -13,7 +13,7 @@ Most of the gang at <a href="http://boltpeters.com/">Bolt | Peters</a> went to <
 
 Turns out that, once you get beat badly by Google, you start to get really open. Nice. 
 
-<img src="/images/boss.jpg" alt="Yahoo BOSS" />
+<img src="/static/images/boss.jpg" alt="Yahoo BOSS" />
 
 Basically BOSS (bad name, great tool) means that, with a minimal contingency of programmers, you can get a completely custom search running, and apparently you can even manipulate the rankings algorithm. Currently Yahoo is running it without requiring ads or anything. Exciting. 
 

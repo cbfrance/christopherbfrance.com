@@ -9,7 +9,7 @@ status: publish
 path: /2005-09-19-yahoo-patricipates-in-chinese-censorship
 ---
 
-<img align="left" alt="screenshot chinese yahoo" src="/images/yahoo_unfiltered_search_before_2.jpg" />
+<img align="left" alt="screenshot chinese yahoo" src="/static/images/yahoo_unfiltered_search_before_2.jpg" />
 
 Recently, the mega search engine Yahoo! collaborated with Chinese authorities in <a href="http://www.rsf.org/article.php3?id_article=14884">jailing Chinese journalist Shi Tao</a> for allegedly distributing state secrets. Apparently Yahoo has taken the initiative to provide the journalist's email address and IP address in order to link him to posts and emails that he was making while distributing information. Why is Yahoo participating in the Chinese censorship program?
 

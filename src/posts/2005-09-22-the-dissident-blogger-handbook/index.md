@@ -9,7 +9,7 @@ status: publish
 path: /2005-09-22-the-dissident-blogger-handbook
 ---
 
-Reporters Without Borders has today released a wonderful handbook of international blogging. The 84-page guide includes sections that discuss the basics of blogs and blogging terminology, and it moves quickly into a serious how-to guide for blogging anonymously and blogging successfully. This is a first for the international blogging community, and I am certain that it will receive an extremely warm welcome.<img alt="blog guide" src="/images/blogguide.jpg" />
+Reporters Without Borders has today released a wonderful handbook of international blogging. The 84-page guide includes sections that discuss the basics of blogs and blogging terminology, and it moves quickly into a serious how-to guide for blogging anonymously and blogging successfully. This is a first for the international blogging community, and I am certain that it will receive an extremely warm welcome.<img alt="blog guide" src="/static/images/blogguide.jpg" />
 
 The guide begins with general discussion of the role of blogs and basic blogging terminology. This is hardly revolutionary coverage, but the writing is solid, with sections from very reputable sources in the international online media scene.
 

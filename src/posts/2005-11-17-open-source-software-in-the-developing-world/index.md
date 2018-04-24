@@ -17,7 +17,7 @@ path: /2005-11-17-open-source-software-in-the-developing-world
 <p>The emphasis on openness in open source software has fostered the growth of a world-wide community of developers contributing to the evolution and improvement of various software programs for use in networked servers and desktop systems ranging from operating systems and web servers, to e-mail, word processing and spreadsheets. While such a diffused structure for software development may seem chaotic, this approach is being considered as a more democratic alternative to monolithic single vendor efforts. 
 </p>
 
-<img src="/images/Picture67.jpg" alt="" />
+<img src="/static/images/Picture67.jpg" alt="" />
 <p>Interest in OSS is Likely to Grow:
 While ICT priorities will vary among countries, as it increases as a component of a country s development strategy, understanding OSS dynamics should also have more importance. With some discussions becoming quite passionate, decision-makers will have questions about the potential that open source software may offer, where and how it should be used, along with its potential risks. </p>
 

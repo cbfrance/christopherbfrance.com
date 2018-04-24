@@ -14,6 +14,6 @@ Andy Carvin, director of the Digital Divide Network, recently posted a fascinati
 
 Below are Washington and Winston-Salem, NC. (My native state.) Click to enlarge. 
 
-<img alt="washingtondc-flood-map" src="/images/washingtondc-flood-map-thumb.jpg" />
+<img alt="washingtondc-flood-map" src="/static/images/washingtondc-flood-map-thumb.jpg" />
 
-<img alt="winstonsalem-flood-map" src="/images/winstonsalem-flood-map-thumb.jpg" />
+<img alt="winstonsalem-flood-map" src="/static/images/winstonsalem-flood-map-thumb.jpg" />

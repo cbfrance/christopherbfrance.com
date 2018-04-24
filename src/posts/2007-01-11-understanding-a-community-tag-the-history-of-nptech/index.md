@@ -32,7 +32,7 @@ So, in the spirit of improving the tag and promoting the nptech community, here'
 </li> 
 </ol>
 
-<img src="/images/nptech.jpg" alt=" "/>
+<img src="/static/images/nptech.jpg" alt=" "/>
 [Prototype removed]
 
 The script that I wrote crawls the pages of del.icio.us and pulls out all of the tags that were used to describe the same stuff tagged "nptech". This gives us an idea of how the tag has been used &mdash; effectively describing the tagged links, if we assume taggers are using "synonym clouds". Del.icio.us has a "related tags" feature but it is lame (only 10 are listed), and judging from my initial review of the data it is pretty random.  (Not really sure if I broke some terms of use or not with my script, but it's *our* data, right? And besides, the script is very polite.)

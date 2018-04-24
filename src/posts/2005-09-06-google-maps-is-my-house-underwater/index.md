@@ -19,7 +19,7 @@ Kathyn Cramer, based in New York, is doing great work with Google maps. The foll
 
 <p>Step 3: Compare your image to this superimposition of the FEMA flood map on a New Orleans satellite photo, created by the Google Earth Current Events Community. Here is a small version. Click on it for a much bigger picture.</p></blockquote>
 
-<img alt="nola_fema_floodmap" src="/images/nola_fema_floodmap.jpg" >
+<img alt="nola_fema_floodmap" src="/static/images/nola_fema_floodmap.jpg" >
 
 If the address you are checking is fairly centrally located, you can also check your address image against the DigitalGlobe satellite picture of the flooding. 
 
