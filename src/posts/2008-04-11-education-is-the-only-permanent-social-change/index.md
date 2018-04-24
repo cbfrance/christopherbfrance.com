@@ -1,0 +1,19 @@
+---
+kind: article
+created_at: 2008-04-11 07:24:29
+title: Education is the only permanent social change
+excerpt: "I've felt for a long time that education is the most important vehicle for social change. I mean, really how else does anything actually get done? You've got to have some kick ass teachers along the way, or you're gonna be a vegetable."
+tags: [education, sf, nptech]
+modified_on: 2008-04-11 07:24:29
+status: publish 
+path: /2008/04/11/education-is-the-only-permanent-social-change
+---
+
+I've felt for a long time that education is the most important vehicle for social change. I mean, really how else does anything actually get done? You've got to have some kick ass teachers along the way, or you're gonna be a vegetable. And vegetabledom happens to entire societies. Watch out. 
+
+So I'm a little depressed that I don't get to work directly in the education sector anymore &mdash; I used to have a great time working on <a href="http://en.wikipedia.org/wiki/Educational_evaluation">educational evaluation</a> projects, and for a time I was a mentor. Now I'm a full time geek staring at an LCD, and I don't so much ever get the thrill of seeing kids make the grand connections. (read: manipulating young minds, bwah ha ha.) 
+
+Anyway, just watched a great TED video from Dave Eggers. <a href="http://www.ted.com/talks/view/id/233">Give it 20 minutes</a> and tell me if you don't want to sign up to be a volunteer. It's a hilarious talk anyway, even if you hate kids. 
+
+[http://static.videoegg.com/ted/movies/DAVEEGGERS-2008_high.flv]
+  

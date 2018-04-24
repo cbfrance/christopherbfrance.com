@@ -1,0 +1,38 @@
+{
+  "name": "gatsby-starter-default",
+  "description": "Gatsby default starter",
+  "version": "1.0.0",
+  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "dependencies": {
+    "eslint-config-standard": "^11.0.0",
+    "gatsby": "^1.9.238",
+    "gatsby-link": "^1.6.39",
+    "gatsby-plugin-catch-links": "^1.0.19",
+    "gatsby-plugin-react-helmet": "^2.0.8",
+    "gatsby-source-filesystem": "^1.5.29",
+    "gatsby-transformer-remark": "^1.7.39",
+    "polished": "^1.9.2",
+    "react-cursor-position": "^2.4.1",
+    "react-helmet": "^5.2.0",
+    "react-hotkeys": "^1.0.5"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write 'src/**/*.js'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.2",
+    "eslint": "^4.19.1",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-react": "^7.7.0",
+    "gatsby-plugin-styled-components": "^2.0.9",
+    "prettier": "^1.11.1",
+    "styled-components": "^3.2.3"
+  }
+}
