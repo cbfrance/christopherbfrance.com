@@ -42,6 +42,7 @@ export const TitlePrimary = styled.h1`
 export const DateStamp = styled.div`
   font: ${font.caption};
   text-transform: uppercase;
+  margin-bottom: 1em;
 `
 
 export const PostPreview = styled.div`

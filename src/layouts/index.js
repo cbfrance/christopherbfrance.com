@@ -6,6 +6,8 @@ import { injectGlobal } from 'styled-components'
 import Header from '../components/Header'
 import { font, color, ContentColumn } from '../styles/shared'
 
+require('prismjs/themes/prism-solarizedlight.css')
+
 injectGlobal`
   body {
     margin: 0;
@@ -17,13 +19,23 @@ injectGlobal`
     box-sizing: border-box;
   }
 
-  // ::-selection {
-  //   background: red;
-  // }
+  ::-selection {
+    background: yellow;
+  }
 
-  // ::-moz-selection {
-  //   background: red;
-  // }
+  ::-moz-selection {
+    background: yellow;
+  }
+
+  blockquote {
+    border-left: 2px solid black;
+    padding-left: 1em;
+  }
+
+  img {
+    display: block;
+    margin-bottom: 1em;
+  }
 `
 
 const TemplateWrapper = ({ children }) => (

@@ -15,10 +15,10 @@ Their VPS plans are a reasonable deal, but, as always, the support is what is al
 
 Just now I've been getting really clear, friendly, (and super fast) support from Brandon at Rimuhost, and he showed me a great trick for removing a password from a ssl cert: 
 
-<code>
+```bash
 cd /usr/local/apache2/conf/ssl && mv sitename.com.key sitename.com.key.with_password
 openssl rsa -in sitename.com.key.with_password -out sitename.com.key
-</code>
+```
 
 Previously one of their techs was chatting to me well into the evening about a SQL issue I was having, free of charge, <em>after he got off of work</em>, just cause he was cool. and I love their VPS control panel, which lets you reboot, power down, and upgrade your RAM/HDD on the fly.
 

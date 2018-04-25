@@ -15,7 +15,11 @@ In light of the <a href="http://www.stuffandnonsense.co.uk/malarkey/more/css_unw
 
 So yeah, CSS, I love you, even if you are spooky and crusty and awkward sometimes. And did I mention annoying? Ok sometimes REALLY annoying. ... Sometimes it's late, stuff's completely hosed by SOMETHING in this bloated stylesheet, and I realize that I've just learned to survive on CSS island with a sturdy coconut helmet and strong superstitions about absolute positioning or a negative margin or that extra wrapper div.
 
-That's mostly Microsoft's fault, but besides all the browser bugs, it's really a pretty dumb language. Seriously, what does it take to do a just bit of real vertical positioning without total hackery? And aren't computers good at this whole MATH thing? So why can't I do <code> p { width:(100% - 40px);}</code>
+That's mostly Microsoft's fault, but besides all the browser bugs, it's really a pretty dumb language. Seriously, what does it take to do a just bit of real vertical positioning without total hackery? And aren't computers good at this whole MATH thing? So why can't I do 
+
+```css
+p { width:(100% - 40px); }
+```
 
 Huh? I'm talking to you, CSS. I would break up with you if my salary didn't depend you. 
 
@@ -30,29 +34,39 @@ And, let me tell you, this is decidedly one hack that I no longer am without. As
 Here are the gigantic CSS annoyances that server-side CSS parsing solves for me:
 
 <h2>Problem 1: No Variables!</h2>
-This is a trivial problem really when you start parsing your stylesheet. Most useful for setting a few color variables at the top of the sheet, then you can swap out pallets sitewide. Whiz Bang! Reason enough.
+This is a trivial problem really when you start parsing your stylesheet. Most useful for setting a few color variables at the top of the sheet, then you can swap out palettes sitewide. Whiz Bang! Reason enough.
 
 <h2>Problem 2: Ridiculous Redundancy</h2>
-A decent stylesheet has some degree of scope, which makes your stylesheet more readable and your styles most contextual. That is, instead of just saying <code>p {color:fuchsia;}</code> it really is best to have something more specific like <code>div.column p {color:fuchsia;}</code>. But then when you have to repeat the contextual selector (the stuff in front of the p element) every time. So CSS Dryer lets you turn this: 
+A decent stylesheet has some degree of scope, which makes your stylesheet more readable and your styles most contextual. That is, instead of just saying 
 
-<pre><code>
-    body#homepage div.column p {color:fuscia;}
-    body#homepage div.column p span {color:black;}
-</code></pre>
+```css
+p {color:fuchsia;}
+``` 
+
+It really is best to have something more specific like:
+
+```css
+div.column p {color:fuchsia;}
+```
+
+But then when you have to repeat the contextual selector (the stuff in front of the p element) every time. So CSS Dryer lets you turn this: 
+
+```css
+body#homepage div.column p {color:fuscia;}
+body#homepage div.column p span {color:black;}
+```
 
 into this: 
 
-<pre>
-    <code>
-    body#homepage 
-        div.column {
-            p {color:fuscia;
-                span {color:black;}
-            }
+```css
+body#homepage 
+    div.column {
+        p {color:fuscia;
+            span {color:black;}
         }
     }
-    </code>
-</pre>
+}
+```
 
 WOOO! This is completely DRY code that renders into exactly the same thing as above before it hits the browser. So this example actually adds a few lines, sure, and it looks more complicated at first, but trust me, this is MONEY. On a stylesheet for a decent size application I ended up with about 25% fewer lines. This is great and all, but the real benefit of having every style nested in its proper context is actually solving ...
 

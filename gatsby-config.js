@@ -1,9 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: 'Unthinkingly.com',
+    title: 'Unthinkingly',
+    author: '@unthinkingly',
+    homepage: 'http://unthinkingly.com',
   },
   plugins: [
-    'gatsby-plugin-react-helmet',
+    `gatsby-plugin-react-helmet`,
     `gatsby-plugin-catch-links`,
     {
       resolve: `gatsby-source-filesystem`,
@@ -12,6 +14,11 @@ module.exports = {
         name: 'posts',
       },
     },
-    `gatsby-transformer-remark`,
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [`gatsby-remark-prismjs`],
+      },
+    },
   ],
 }

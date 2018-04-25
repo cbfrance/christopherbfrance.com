@@ -13,10 +13,7 @@ path: /2007/02/06/whos-linking-to-me-new-tools
 <strong>6/25/07 UPDATE: I am obligated to point out that this little script has graduated from interesting to useless &mdash; thanks to the new <a href="http://www.google.com/analytics/#utm_source=en-ha-na-synsearch_brand&utm_medium=ha&utm_campaign=en&utm_term=google%20analytics">Google Analytics</a>, which is hands down the best tool for understanding web traffic. And it's bloody free. You probably knew this already. But, just in case, <a href="http://www.wildapricot.com/blogs/newsblog/archive/2007/06/21/how-to-use-google-analytics-to-track-your-top-blog-posts.aspx">here's a great new tutorial</a>. That is all. 
 </strong></span>
 
-It is a pretty basic trick to get an idea of people that are linking to your site. Just google:
-<code>
-link:http://mysite.com
-</code>
+It is a pretty basic trick to get an idea of people that are linking to your site. Just google: `link:http://mysite.com`.
 
 But that is an extremely rudimentary technique for several reasons.
 <ul>
