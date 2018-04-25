@@ -13,11 +13,17 @@ Kathyn Cramer, based in New York, is doing great work with Google maps. The foll
 
 <blockquote>
 
-<p>Step 1: Go to Google Maps and enter the address. Click on the button that says "Hybrid" on the upper right. You will get an image with a speech ballon pointing to a thumbtack showing the location of the address on the satellite photo. [IMPORTANT UPDATE: Bless their hearts, Google Maps has added a "KATRINA" button to New Orleans areas searches, so they have automated some of the process I describe here! Yee haw!]</p>
 
-<p>Step 2: Click up and down the vertical ladder-like bar to see the image at various scales until you feel you can find the place on a satellite image.</p>
+Step 1: Go to Google Maps and enter the address. Click on the button that says "Hybrid" on the upper right. You will get an image with a speech ballon pointing to a thumbtack showing the location of the address on the satellite photo. [IMPORTANT UPDATE: Bless their hearts, Google Maps has added a "KATRINA" button to New Orleans areas searches, so they have automated some of the process I describe here! Yee haw!]
 
-<p>Step 3: Compare your image to this superimposition of the FEMA flood map on a New Orleans satellite photo, created by the Google Earth Current Events Community. Here is a small version. Click on it for a much bigger picture.</p></blockquote>
+
+
+Step 2: Click up and down the vertical ladder-like bar to see the image at various scales until you feel you can find the place on a satellite image.
+
+
+
+Step 3: Compare your image to this superimposition of the FEMA flood map on a New Orleans satellite photo, created by the Google Earth Current Events Community. Here is a small version. Click on it for a much bigger picture.
+</blockquote>
 
 <img alt="nola_fema_floodmap" src="/static/images/nola_fema_floodmap.jpg" >
 

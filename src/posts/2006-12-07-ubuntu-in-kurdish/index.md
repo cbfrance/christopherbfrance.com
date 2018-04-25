@@ -9,8 +9,10 @@ status: publish
 path: /2006/12/07/ubuntu-in-kurdish
 ---
 
-<p>Ubuntu Linux has been translated into Kurdish!</p>
 
-<img src="/static/images/ubuntu_ku.jpg" alt="Ubuntu ku" >
+Ubuntu Linux has been translated into Kurdish!
+
+
+<img src="/static/images/ubuntu_ku.jpg" alt="Ubuntu ku" />
 
 <blockquote class="large">Controversy followed the release of a Kurdish translation of Ubuntu in Turkey last week. The release was originally reported in Millyet, a Turkish national newspaper, on November 21. This first release of a Kurdish language operating system and software has caused a stir in Turkey, where, up until 1991, it was illegal even to speak Kurdish in public.</blockquote>

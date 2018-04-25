@@ -12,7 +12,8 @@ path: /2005/11/12/more-accounts-of-the-1-laptop-per-child-laptop-at-mit
 
 Here's another update on the laptop debate/idea from Ethan Zuckerman, the ICT-blogger-fellow at Harvard. He usefully recounts the point of the new prototypical $100 laptop as being a radical step toward computer-aided learning in developing countries. I appreciate his skepticism about the project, especially his explicit reference to the late, not-so-great simputer idea, which bombed because of economics. 
 
-You know, that pesky money thing. Always a problem when dealing with poverty.</p>
+You know, that pesky money thing. Always a problem when dealing with poverty.
+
 
 here's a bit: 
 <blockquote class="money">
@@ -21,5 +22,8 @@ here's a bit:
 "
 </blockquote>
 
-<p>Read it: <a href="http://www.ethanzuckerman.com/blog/?p=241">One Laptop Per Child - a preview, and a request for help</a></p>
-<p>(Found on:<a href="http://www.ethanzuckerman.com/blog">Ethan Zuckerman</a>.)</p>
+
+Read it: <a href="http://www.ethanzuckerman.com/blog/?p=241">One Laptop Per Child - a preview, and a request for help</a>
+
+
+(Found on:<a href="http://www.ethanzuckerman.com/blog">Ethan Zuckerman</a>.)

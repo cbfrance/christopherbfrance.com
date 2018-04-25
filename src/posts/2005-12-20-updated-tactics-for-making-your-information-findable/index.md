@@ -13,7 +13,9 @@ This kind of stuff is (Search Engine Optimization, or SEO) is relevant to every 
 
 
 <blockquote class="large">
-<p>Yaro Starak has written an in-depth review of <cite>The 8 Essential Things You REALLY Need to Know About Search Engine Optimization</cite>, a CD where Brad Fallon talks about ways of improving search engine rankings. The review is split into two parts: <a href="http://www.entrepreneurs-journey.com/331/search-engine-marketing-part-1/">The 80/20 Of Search Engine Marketing - Part 1</a>, which contains on-page SEO techniques, and <a href="http://www.entrepreneurs-journey.com/336/search-engine-marketing-part-2/">The 80/20 Of Search Engine Marketing - Part 2</a>, where off-page techniques are discussed.</p></blockquote>
+
+Yaro Starak has written an in-depth review of <cite>The 8 Essential Things You REALLY Need to Know About Search Engine Optimization</cite>, a CD where Brad Fallon talks about ways of improving search engine rankings. The review is split into two parts: <a href="http://www.entrepreneurs-journey.com/331/search-engine-marketing-part-1/">The 80/20 Of Search Engine Marketing - Part 1</a>, which contains on-page SEO techniques, and <a href="http://www.entrepreneurs-journey.com/336/search-engine-marketing-part-2/">The 80/20 Of Search Engine Marketing - Part 2</a>, where off-page techniques are discussed.
+</blockquote>
 
 The point is this: 
 

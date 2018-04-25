@@ -11,6 +11,8 @@ path: /2005/11/17/free-nonprofit-webhosting
 
 If you need a free place to host your website, make sure you check out <a href="http://www.ambitiouslemon.com">AmbitiousLemon</a>. They look very good at what they do; they at least have a very capable open source software setup on their server, with Ruby On Rails, PHP, Perl, Apache etc. : 
 
-<blockquote class="large"><p>We are not a company. Our aim is not profit. We are a handful of computer enthusiasts dedicated to building a free web hosting service where our emphasis is the community we host rather than our own financial gain. You have the talent, the content, and the desire to share it with the world. We are the means to that end.</p></blockquote>
+<blockquote class="large">
+We are not a company. Our aim is not profit. We are a handful of computer enthusiasts dedicated to building a free web hosting service where our emphasis is the community we host rather than our own financial gain. You have the talent, the content, and the desire to share it with the world. We are the means to that end.
+</blockquote>
 
 If you are a nonprofit that needs discounted web design, then visit, <a href="http://www.nonprofitdesign.org">nonprofitdesign.org </a>(which I run, in addition to this site.)

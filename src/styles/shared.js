@@ -28,7 +28,7 @@ export const font = {
 }
 
 export const Title = styled.h2`
-  font: ${font.subheading2};
+  font: ${font.subheading1};
 `
 
 export const TitlePrimary = styled.h1`
@@ -46,4 +46,5 @@ export const DateStamp = styled.div`
 
 export const PostPreview = styled.div`
   margin-bottom: 2em;
+  overflow: hidden;
 `

@@ -11,11 +11,13 @@ path: /2005/11/12/computers-twice-wasted-the-refurbishing-model-fails-too
 
 A recent article in the New York Times discusses a report that computers are being "improperly recycled" (read: dumped) on developing countries as a way to avoid the expense of refurbishing them before redistribution.
 
-<blockquote class="large"><p>"The report, titled "The Digital Dump: Exporting Reuse and Abuse to Africa," says that the unusable equipment is being donated or sold to developing nations by recycling businesses in the United States as a way to dodge the expense of having to recycle it properly. While the report, written by the Basel Action Network, based in Seattle, focuses on Nigeria, in western Africa, it says the situation is similar throughout much of the developing world.
+<blockquote class="large">
+"The report, titled "The Digital Dump: Exporting Reuse and Abuse to Africa," says that the unusable equipment is being donated or sold to developing nations by recycling businesses in the United States as a way to dodge the expense of having to recycle it properly. While the report, written by the Basel Action Network, based in Seattle, focuses on Nigeria, in western Africa, it says the situation is similar throughout much of the developing world.
 
 "Too often, justifications of 'building bridges over the digital divide' are used as excuses to obscure and ignore the fact that these bridges double as toxic waste pipelines," says the report. As a result, Nigeria and other developing nations are carrying a disproportionate burden of the world's toxic waste from technology products, according to Jim Puckett, coordinator of the group.
 
-According to the National Safety Council, more than 63 million computers in the United States will become obsolete in 2005. An average computer monitor can contain as much as eight pounds of lead, along with plastics laden with flame retardants and cadmium, all of which can be harmful to the environment and to humans."</p></blockquote>
+According to the National Safety Council, more than 63 million computers in the United States will become obsolete in 2005. An average computer monitor can contain as much as eight pounds of lead, along with plastics laden with flame retardants and cadmium, all of which can be harmful to the environment and to humans."
+</blockquote>
 
 This is an obvious insult to those who end up with the broken computers &mdash; which are presumably also an environmental hazard because of the heavy metals in a monitors and chassis. But this issue has a more important point in the discussions of the "$100 Laptop" prototype being developed at MIT, one major criticism has been that efforts would be better directed at recycling the mid-grade computer trash &mdash; that species of neglected Pentium 3 common in American Suburbia &mdash; for use in developing countries. This appears to be a promising avenue for development of ICT capacity: There is so much usable computer "trash."  
 

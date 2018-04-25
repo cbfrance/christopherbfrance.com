@@ -28,7 +28,8 @@ A: Sorry that it' a strange word; that's what we call it around Google. Canonica
 
 Roger Johannsen at <a href="http://www.456bereastreet.com/archive/200601/search_engines_and_canonical_urls/#comments">456 Berea St. </a>(web design) says he adds 
 
-<code>   1. RewriteCond %{HTTP_HOST} ^456bereastreet\.com [NC]
+<code>
+   1. RewriteCond %{HTTP_HOST} ^456bereastreet\.com [NC]
    2. RewriteRule ^(.*) http://www.456bereastreet.com/$1 [R=301,L]
 </code>
 

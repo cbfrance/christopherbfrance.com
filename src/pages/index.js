@@ -4,10 +4,16 @@ import Helmet from 'react-helmet'
 import styled from 'styled-components'
 import { font, color, Title, DateStamp, PostPreview } from '../styles/shared'
 
+const Grid = styled.div`
+  display: grid;
+  grid-template: repeat(15, 1fr) / repeat(5, 1fr);
+  grid-gap: 1em;
+`
+
 export default function Index({ data }) {
   const { edges: posts } = data.allMarkdownRemark
   return (
-    <div>
+    <Grid>
       {posts.filter(post => post.node.frontmatter.title.length > 0).map(({ node: post }) => {
         return (
           <PostPreview key={post.id}>
@@ -19,7 +25,7 @@ export default function Index({ data }) {
           </PostPreview>
         )
       })}
-    </div>
+    </Grid>
   )
 }
 
@@ -28,7 +34,7 @@ export const pageQuery = graphql`
     allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___created_at] }) {
       edges {
         node {
-          excerpt(pruneLength: 1250)
+          excerpt(pruneLength: 250)
           id
           frontmatter {
             title

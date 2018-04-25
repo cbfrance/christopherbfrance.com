@@ -42,10 +42,18 @@ I did most of the sketching and developed the concepts that were flying around, 
 
 Also make sure you check out some of the geniuses behind the project: 
 
-<p><a href="http://www.kenyanpundit.com">Kenyan Pundit</a></p>
-<p><a href="http://www.whiteafrican.com">White African</a></p>
-<p><a href="http://www.afromusing.com/blog/">Afromusing</a></p>
-<p><a href="http://www.mentalacrobatics.com/think">Mentalacrobatics </a></p>
+
+<a href="http://www.kenyanpundit.com">Kenyan Pundit</a>
+
+
+<a href="http://www.whiteafrican.com">White African</a>
+
+
+<a href="http://www.afromusing.com/blog/">Afromusing</a>
+
+
+<a href="http://www.mentalacrobatics.com/think">Mentalacrobatics </a>
+
 
 
 
