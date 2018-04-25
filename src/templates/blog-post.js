@@ -1,6 +1,8 @@
 import React from 'react'
+import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
-import { Title, DateStamp } from '../styles/shared'
+import kebabCase from 'lodash/kebabCase'
+import { Title, DateStamp, Tag } from '../styles/shared'
 
 export default function Template({ data }) {
   const post = data.markdownRemark
@@ -10,6 +12,13 @@ export default function Template({ data }) {
       <div className="blog-post">
         <Title>{post.frontmatter.title}</Title>
         <DateStamp>{post.frontmatter.created_at}</DateStamp>
+        {post.frontmatter.tags.map(tag => {
+          return (
+            <Tag key={tag}>
+              <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
+            </Tag>
+          )
+        })}
         <div className="blog-post-content" dangerouslySetInnerHTML={{ __html: post.html }} />
       </div>
     </div>
@@ -24,6 +33,7 @@ export const pageQuery = graphql`
         created_at(formatString: "MMMM DD, YYYY")
         path
         title
+        tags
       }
     }
   }

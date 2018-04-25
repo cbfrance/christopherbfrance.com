@@ -49,3 +49,9 @@ export const PostPreview = styled.div`
   margin-bottom: 2em;
   overflow: hidden;
 `
+
+export const Tag = styled.span`
+  font: ${font.caption};
+  font-weight: 800;
+  padding: 2px 4px;
+`

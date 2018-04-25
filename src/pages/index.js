@@ -6,7 +6,7 @@ import { font, color, Title, DateStamp, PostPreview } from '../styles/shared'
 
 const Grid = styled.div`
   display: grid;
-  grid-template: repeat(15, 1fr) / repeat(5, 1fr);
+  // grid-template: repeat(15, 1fr) / repeat(5, 1fr);
   grid-gap: 1em;
 `
 
@@ -22,6 +22,9 @@ export default function Index({ data }) {
             </Title>
             <DateStamp>{post.frontmatter.created_at}</DateStamp>
             <p>{post.excerpt}</p>
+            {post.frontmatter.tags.map(tag => {
+              return <Tag>{tag}</Tag>
+            })}
           </PostPreview>
         )
       })}
@@ -40,6 +43,7 @@ export const pageQuery = graphql`
             title
             created_at(formatString: "MMMM DD, YYYY")
             path
+            tags
           }
         }
       }
