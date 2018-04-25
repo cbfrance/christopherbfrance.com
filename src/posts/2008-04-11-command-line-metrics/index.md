@@ -11,7 +11,7 @@ path: /2008/04/11/command-line-metrics
 
 Speaking of personal metrics ...
 
-<code>
+```bash
 $ history|awk '{a[$2]++} END{for(i in a){printf "%5d\t%s\n",a[i],i}}'|sort -rn|head
    80   cd
    70   ruby
@@ -23,4 +23,4 @@ $ history|awk '{a[$2]++} END{for(i in a){printf "%5d\t%s\n",a[i],i}}'|sort -rn|h
    17   ssh
    17   df
    12   mate
-</code>
+```

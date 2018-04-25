@@ -33,7 +33,7 @@ Roger Johannsen at <a href="http://www.456bereastreet.com/archive/200601/search_
     RewriteCond %{HTTP_HOST} ^456bereastreet\.com [NC]
     RewriteRule ^(.*) http://www.456bereastreet.com/$1 [R=301,L]
 
-</pre>
+
 
 to his htaccess file in order to ensure that "www" is added to all requests for a page on his server. Great work. Great post. Thanks, Matt and Roger. 
 

@@ -19,9 +19,13 @@ The charts at <a href="http://www.populi.net/mobileresearcher/">Mobile Researche
 
 All this is to say that something like this: 
 
-<pre>
-  <code>&lt;img src="http://chart.apis.google.com/chart?chd=t:6,2,6,4,2,4,7,3,4,2,3,4 &chco=0077CC&chs=120x40&cht=ls" /&gt;;</code>
-</pre>
+ 
+  
+```html
+<img src="http://chart.apis.google.com/chart?chd=t:6,2,6,4,2,4,7,3,4,2,3,4 &chco=0077CC&chs=120x40&cht=ls">;
+```
+
+ 
 
 Turns into this: 
 
@@ -30,8 +34,7 @@ Turns into this:
 Or you can abstract the access to make it easier with a library like <a href="http://googlecharts.rubyforge.org/">this</a> with a method like this:
 
 
-<pre>
-  <code>
+```ruby
     #usage
     google_pie('val1', 'val2', 'val3')
     #method
@@ -40,8 +43,8 @@ Or you can abstract the access to make it easier with a library like <a href="ht
     url  = "http://chart.apis.google.com/chart?"
     return < img src=\"#{Gchart.pie_3d( :background => 'E9E7DD', :size => '300x80', :data => *args)} \" />
     end
-  </code> 
-</pre>
+  
+```
 
 But the API of course is language neutral, and I am sure it would be just as easy in most any language. Oh, and it's free! (Though capped at <a href="http://code.google.com/apis/chart/">10k charts per day</a> ... which would be a good problem to have, I suppose.) 
 
