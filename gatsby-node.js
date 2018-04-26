@@ -46,6 +46,7 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
     posts.forEach(({ node }) => {
       createPage({
         path: node.frontmatter.path,
+        layout: `blog`,
         component: blogPostTemplate,
         context: {}, // additional data can be passed via context
       })
@@ -67,11 +68,29 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
     tags.forEach(tag => {
       createPage({
         path: `/tags/${_.kebabCase(tag)}/`,
+        layout: `blog`,
         component: tagTemplate,
         context: {
           tag,
         },
       })
     })
+  })
+}
+
+// -----------------------------------
+// Set the layout
+// Implement the Gatsby API “onCreatePage”. This is
+// called after every page is created.
+exports.onCreatePage = async ({ page, boundActionCreators }) => {
+  const { createPage } = boundActionCreators
+
+  return new Promise((resolve, reject) => {
+    // If the path looks like a blog post, use the blog post layout
+    if (page.path.match(/blog/)) {
+      page.layout = 'blog'
+      createPage(page)
+    }
+    resolve()
   })
 }

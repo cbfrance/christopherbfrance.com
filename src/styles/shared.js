@@ -48,10 +48,15 @@ export const DateStamp = styled.div`
 export const PostPreview = styled.div`
   margin-bottom: 2em;
   overflow: hidden;
+  padding: 1em;
 `
 
 export const Tag = styled.span`
   font: ${font.caption};
   font-weight: 800;
   padding: 2px 4px;
+`
+
+export const Card = styled.div`
+  background-color: ${color.biancaWhite};
 `
