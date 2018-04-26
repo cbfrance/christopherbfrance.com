@@ -9,7 +9,6 @@ injectGlobal`
   body {
     margin: 0;
     font: ${font.body2};
-    background: red;
   }
 
   *, *::before, *::after {
@@ -18,7 +17,7 @@ injectGlobal`
 `
 
 const LandingContainer = styled.div`
-  background-color: orange;
+  background-color: black;
 `
 
 const TemplateWrapper = ({ children }) => (

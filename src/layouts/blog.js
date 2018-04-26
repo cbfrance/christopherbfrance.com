@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'gatsby-link'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { injectGlobal } from 'styled-components'
@@ -10,7 +11,7 @@ injectGlobal`
   body {
     margin: 0;
     font: ${font.body2};
-    background: green;
+    background: white;
   }
 
   *, *::before, *::after {
@@ -40,10 +41,12 @@ const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
       title="Unthinkingly"
-      meta={[{ name: 'description', content: 'The blog of Chris Blow' }, { name: 'keywords', content: 'peacenik, interaction, design' }]}
+      meta={[{ name: 'description', content: 'A blog by Chris Blow' }, { name: 'keywords', content: 'peacenik, interaction, design' }]}
     />
     <ContentColumn>
-      <p>Blog template!</p>
+      <p>
+        <Link to="/">Unthinkingly</Link>
+      </p>
       {children()}
     </ContentColumn>
   </div>
