@@ -40,9 +40,10 @@ export const TitlePrimary = styled.h1`
 `
 
 export const DateStamp = styled.div`
-  font: ${font.caption};
+  font: ${font.mono};
   text-transform: uppercase;
   margin-bottom: 1em;
+  color: #888;
 `
 
 export const PostPreview = styled.div`
@@ -59,4 +60,8 @@ export const Tag = styled.span`
 
 export const Card = styled.div`
   background-color: ${color.biancaWhite};
+`
+
+export const GridItem = styled.div`
+  grid-area: ${props => (props.area ? props.area : 'A1')};
 `

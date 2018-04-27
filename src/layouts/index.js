@@ -16,18 +16,14 @@ injectGlobal`
   }
 `
 
-const LandingContainer = styled.div`
-  background-color: black;
-`
-
 const TemplateWrapper = ({ children }) => (
-  <LandingContainer>
+  <div>
     <Helmet
       title="Unthinkingly"
       meta={[{ name: 'description', content: 'The blog of Chris Blow' }, { name: 'keywords', content: 'peacenik, interaction, design' }]}
     />
-    <ContentColumn>Index template!{children()}</ContentColumn>
-  </LandingContainer>
+    <ContentColumn>{children()}</ContentColumn>
+  </div>
 )
 
 TemplateWrapper.propTypes = {

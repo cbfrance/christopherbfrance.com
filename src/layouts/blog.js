@@ -18,27 +18,21 @@ injectGlobal`
     box-sizing: border-box;
   }
 
-  ::-selection {
-    background: yellow;
-  }
+  .post {
+    blockquote {
+      border-left: 2px solid black;
+      padding-left: 1em;
+    }
 
-  ::-moz-selection {
-    background: yellow;
-  }
-
-  blockquote {
-    border-left: 2px solid black;
-    padding-left: 1em;
-  }
-
-  img {
-    display: block;
-    margin-bottom: 1em;
+    img {
+      display: block;
+      margin-bottom: 1em;
+    }
   }
 `
 
 const TemplateWrapper = ({ children }) => (
-  <div>
+  <div class="post">
     <Helmet
       title="Unthinkingly"
       meta={[{ name: 'description', content: 'A blog by Chris Blow' }, { name: 'keywords', content: 'peacenik, interaction, design' }]}
