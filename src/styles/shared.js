@@ -8,6 +8,8 @@ export const ContentColumn = styled.div`
 
 export const color = {
   biancaWhite: '#fefefb',
+  burntUmberRed: '#8C2C21',
+  monzaRed: '#B10619',
 }
 
 const fontStack = {
@@ -42,12 +44,12 @@ export const TitlePrimary = styled.h1`
 export const DateStamp = styled.div`
   font: ${font.mono};
   text-transform: uppercase;
-  margin-bottom: 1em;
+  margin-bottom: 1rem;
   color: #888;
 `
 
 export const PostPreview = styled.div`
-  margin-bottom: 2em;
+  margin-bottom: 2rem;
   overflow: hidden;
   padding: 1em;
 `

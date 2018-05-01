@@ -1,16 +1,16 @@
 export const resumeData = `{
   "basics": {
     "name": "Chris Gerald Blow",
-    "label": "Programmer",
+    "label": "Design strategist",
     "picture": "none",
     "email": "cgblow@gmail.com",
     "phone": "(415) 309-7900",
     "website": "https://unthinkingly.com",
     "summary":
-      "Hello, I’m Chris, a designer living in the San Francisco Bay Area. I work for Meedan, where I’ve been practicing design strategy for 10 years. I have experience in product design, user experience research, front-end programming and investigative journalism. My work typically involves themes of collaborative work and cross-language communication. I am especially interested in user research for the advancement improvement of journalism and civil society.",
+      "Hello, I’m Chris. I’ve been a professional designer since 2003. I’ve designed large products and led accounts with clients such as Sony, Harvard Business Review, Facebook, Cambridge University and The Data Guild. My work typically involves themes of international collaboration. I am passionate about human-centered design strategies for the improvement of civil society.",
     "location": {
       "address": "none",
-      "postalCode": "CA 94611",
+      "postalCode": "94611",
       "city": "Oakland",
       "countryCode": "USA",
       "region": "California"
@@ -58,7 +58,7 @@ export const resumeData = `{
       "startDate": "July 2007",
       "endDate": "September 2008",
       "summary":
-        "As a User Experience Researcher was responsible for designing studies, analyzing results, collaborating with clients. I created videos, wireframes and sketches. I also helped design and build Ethnio, a Rails app for the user experience industry.",
+        "I was responsible for designing studies, analyzing results, collaborating with clients. I created videos, wireframes and sketches. I helped design and build Ethnio, a digital product for the user experience industry.",
       "highlights": [
         "Helped build Ethnio as a Rails developer",
         "Managed research for clients such as Sony and Harvard Business Review",
@@ -66,13 +66,13 @@ export const resumeData = `{
       ]
     },
     {
-      "company": "Blast Internet Services and Web Design",
-      "position": "Director of Operations and Sales",
+      "company": "Blast Internet Services",
+      "position": "Director of Operations",
       "website": "none",
       "startDate": "March 2006",
       "endDate": "July 2007",
       "summary":
-        "I revitalized their web consulting business with user-centric voice. I designed contracts and won budgets to implement an Agile development methodology and the Rails stack.",
+        "I revitalized a web consulting business with a user-centric voice. I implemented an Agile development methodology and the Rails stack.",
       "highlights": [
         "Quadrupled sales in 6 months by winning clients such as Duke university and Burt's Bees",
         "Reduced email spam by 90% by implemented greylisting",
@@ -80,12 +80,12 @@ export const resumeData = `{
       ]
     },
     {
-      "company": "Evaluation, Assessment and Policy Connections (EvAP)",
-      "position": "Web Developer",
+      "company": "Evaluation, Assessment and Policy Connections",
+      "position": "Web Developer, Program Assistant",
       "website": "http://www.unc.edu/depts/ed/evap/",
       "startDate": "May 2004",
       "endDate": "March 2006",
-      "summary": "At EvAP I developed applications for managing stakeholder data, creating educational surveys and gathering real-time feedback.",
+      "summary": "I developed applications for managing stakeholder data, creating educational surveys and gathering real-time feedback.",
       "highlights": [
         "Develped PHP application for generating RTF surveys",
         "Developed web-based feedback tool for evaluation process",
@@ -94,7 +94,7 @@ export const resumeData = `{
     },
     {
       "company": "Nonprofit Design",
-      "position": "Web Developer",
+      "position": "Web Developer, Founder",
       "website": "none",
       "startDate": "May 2003",
       "endDate": "March 2006",
@@ -106,18 +106,8 @@ export const resumeData = `{
       ]
     },
     {
-      "company": "The North Carolina Center on Actual Innocence, Duke and UNC-Chapel Hill",
-      "position": "Teaching Assistant",
-      "website": "none",
-      "startDate": "August 2003",
-      "endDate": "December 2003",
-      "summary":
-        "I was a teaching assistant for investigative journalism course at the UNC-CH School of Journalism, in partnership with Duke University.",
-      "highlights": ["Helped students with investigative research", "Led an investigation into a 20-year-old cold case"]
-    },
-    {
       "company": "The North Carolina Law Review",
-      "position": "Web developer",
+      "position": "Web Developer, Office Manager",
       "website": "http://scholarship.law.unc.edu/nclr/",
       "startDate": "August 2001",
       "endDate": "December 2003",
@@ -145,41 +135,51 @@ export const resumeData = `{
       "institution": "University of North Carolina at Chapel Hill",
       "area": "Mass Communications",
       "studyType": "Bachelor of Arts",
-      "startDate": "2011-06-01",
-      "endDate": "2014-01-01"
+      "startDate": "June 2011",
+      "endDate": "January 2014"
+    },
+    {
+      "institution": "University of North Carolina at Asheville",
+      "area": "Humanities, music, literature",
+      "studyType": "Coursework",
+      "startDate": "August 1998",
+      "endDate": "December 2001"
     }
   ],
   "awards": [
     {
-      "title": "Planned News/Events (Large Newsroom), Winner: Electionland",
+      "title": "Winner: Electionland • Planned News/Events (Large Newsroom)",
       "date": "2017",
       "awarder": "Online Journalism Award",
-      "summary": "Collaborative project for U.S. election media monitoring using Check"
+      "summary": "Collaborative project for U.S. election media monitoring using Check."
     },
     {
-      "title": "Planned News/Events (Small Newsroom), Winner: CrossCheck",
+      "title": "Winner: CrossCheck • Planned News/Events (Small Newsroom),",
       "date": "2017",
       "awarder": "Online Journalism Award",
-      "summary": "Collaborative project for French election media monitoring using Check"
+      "summary": "Collaborative project for French election media monitoring using Check."
     },
     {
-      "title": "Winner 2017 - Check",
+      "title": "Winner: Check",
       "date": "2017",
       "awarder": "Innovate Africa Innovation Challenge",
-      "summary": " "
+      "summary": "Collaborative workbench for the regional PesaCheck fact-checking network to improve news verification in three East African countries."
     },
     {
-      "title": "Checkdesk",
+      "title": "Winner: Checkdesk",
       "date": "2014",
       "awarder": "Knight News Challenge (Prototype)",
-      "summary": " "
+      "summary": "Prototype funding for a tool that helps journalists quickly verify the accuracy of online media in deadline situations."
     },
     {
-      "title": "Checkdesk",
+      "title": "Winner: Checkdesk",
       "date": "2012",
-      "awarder": "International Press Institute News Innovation Challenge",
-      "summary": " "
+      "awarder": "International Press Institute News Innovation Contest",
+      "summary": "Collaborative Workbench for Fact Checking Citizen Media."
     }
-  ]
+  ],
+  "speaking": {
+    "summary": "In the last few years I've given a variety of presentations at events like RightsCon, Global Fact, the Online News Association, DrupalCon, the International CrisisMappers Conference, SXSW, the African News Innovation Challenge, the Nonprofit Technology Conference, the NYU Interactive Telecommunications Program and the University of Hawaii."
+  }
 }
 `

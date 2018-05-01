@@ -2,8 +2,10 @@ import React from 'react'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 import styled from 'styled-components'
-import { font, color, Title, PostPreview, Tag, Card, GridItem, DateStamp } from '../styles/shared'
+import { font, color, Title, PostPreview, Tag } from '../styles/shared'
 import { resumeData } from '../data/resume.js'
+
+const borderWidth = '3px'
 
 const ResumePage = styled.div`
   color: black;
@@ -14,122 +16,137 @@ const ResumePage = styled.div`
 `
 
 const Grid = styled.div`
-  display: grid;
-  grid-gap: 2em;
-  padding: 1em;
-
-  grid-template-areas:
-    'X1 X1 01 01'
-    '02 02 A1 A1'
-    '03 03 03 03'
-    '04 04 04 04'
-    'X2 X2 X3 X4'
-    'B0 B0 C1 D1'
-    'B1 B1 C2 D1'
-    'B2 B2 C2 D1'
-    'B3 B3 X5 X5'
-    'B4 B4 E1 E1'
-    'B5 B5 11 11'
-    'B6 B6 55 55'
-    'B7 B7 33 33'
-    'B8 B8 22 22';
+  @media all and (min-width: 700px) {
+    display: grid;
+    grid-gap: 2em;
+    align-items: start;
+    grid-template-areas:
+      'A  A  A  01'
+      'B  B  C  D'
+      'B  B  E  E'
+      'B  B  02  02'
+      'F  F  F  F';
+  }
+  padding: 1em 0;
 `
+
 const TitleResume = styled.div`
   color: black;
   font: ${font.subheading2};
-  padding: 6rem 0;
+  padding: 3rem 0;
 `
-const Header = styled.div`
-  font: ${font.body1};
-  font-weight: bold;
-  color: black;
-  margin-bottom: 1rem;
+
+export const DateStamp = styled.div`
+  font: ${font.mono};
+  text-transform: uppercase;
+  line-height: 2rem;
+  font-size: 12px;
+`
+
+const PageHeader = styled.h1`
+  font: ${font.display2};
 `
 
 const SectionHeader = styled.div`
   font: ${font.body1};
   font-weight: bold;
-  border-bottom: 2px solid black;
-  padding-bottom: 1rem;
+  font-weight: 900;
+  border-bottom: ${borderWidth} solid black;
+  line-height: 3rem;
+  margin-bottom: calc(1rem - ${borderWidth});
+`
+
+const Header = styled.div`
+  font: ${font.body1};
+  font-weight: bold;
+  color: black;
+  line-height: inherit;
 `
 
 const SubHeader = styled.div`
-  font: ${font.caption};
-  font-weight: 700;
+  font: ${font.mono};
+  font-weight: 500;
+  line-height: 2rem;
+  color: ${color.monzaRed};
 `
+
 const Description = styled.div`
-  font: ${font.caption};
+  font: ${font.body1};
+  line-height: inherit;
+  ${props => (props.padTop ? `padding-top: ${props.padTop}` : '')};
 `
+
+const Item = styled.div`
+  ${props => (props.area ? `grid-area: ${props.area}` : 'A')};
+  padding: 1rem 0 2rem;
+  line-height: 1.5;
+`
+
 const parsedResumeData = JSON.parse(resumeData)
 
 export default function Resume({ data }) {
   return (
     <ResumePage>
-      <GridItem area="X1">
+      <Item area="X1">
         <TitleResume>
-          <h1>{parsedResumeData.basics.name}</h1>
-          <p>
-            {parsedResumeData.basics.location.city}, {parsedResumeData.basics.location.postalCode}
-          </p>
+          <PageHeader>{parsedResumeData.basics.name}</PageHeader>
+          <SubHeader>{parsedResumeData.basics.label}</SubHeader>
         </TitleResume>
-      </GridItem>
+      </Item>
       <Grid>
-        <GridItem area="A1">
-          <p>{parsedResumeData.basics.summary}</p>
-        </GridItem>
+        <Item area="A">
+          <Description>{parsedResumeData.basics.summary}</Description>
+        </Item>
 
-        <GridItem area="X2">
+        <Item area="B">
           <SectionHeader>Work experience</SectionHeader>
-        </GridItem>
+          {parsedResumeData.work.map((job, index) => (
+            <Item>
+              <Header>{job.company}</Header>
+              <SubHeader>{job.position}</SubHeader>
+              <DateStamp>
+                {job.startDate} - {job.endDate}
+              </DateStamp>
+              <Description>{job.summary}</Description>
+            </Item>
+          ))}
+        </Item>
 
-        {parsedResumeData.work.map((job, index) => (
-          <GridItem area={`B${index}`}>
-            <Header>{job.company}</Header>
-            <DateStamp>
-              {job.startDate} - {job.endDate}
-            </DateStamp>
-            <SubHeader>{job.position}</SubHeader>
-            <Description>{job.summary}</Description>
-          </GridItem>
-        ))}
-
-        <GridItem area="X3">
+        <Item area="C">
           <SectionHeader>Education</SectionHeader>
-        </GridItem>
+          {parsedResumeData.education.map((school, index) => (
+            <Item>
+              <Header>{school.institution}</Header>
+              <SubHeader>{school.area}</SubHeader>
+              <DateStamp>
+                {school.startDate} - {school.endDate}
+              </DateStamp>
+              <Description>{school.studyType}</Description>
+            </Item>
+          ))}
+        </Item>
 
-        <GridItem area="C1">
-          <Header>The University of North Carolina at Chapel Hill</Header>
-          <DateStamp>2001 — 2003</DateStamp>
-          <SubHeader>B.A., Journalism and Mass Communications</SubHeader>
-          <Description>Investigative reporting, copy editing, political science</Description>
-        </GridItem>
-        <GridItem area="C2">
-          <Header>The University of North Carolina at Asheville</Header>
-          <DateStamp>1998 — 2001</DateStamp>
-          <SubHeader>Humanities, music, literature</SubHeader>
-        </GridItem>
-
-        <GridItem area="X4">
+        <Item area="D">
           <SectionHeader>Speaking</SectionHeader>
-        </GridItem>
-        <GridItem area="D1">
-          <p>
-            In the last few years I've given a variety of presentations at events like RightsCon, Global Fact, the Online News Association, DrupalCon,
-            the International CrisisMappers Conference, SXSW, the African News Innovation Challenge, the Nonprofit Technology Conference, the NYU
-            Interactive Telecommunications Program and the University of Hawaii.
-          </p>
-        </GridItem>
-        <GridItem area="X5">
+          <Description padTop="1rem">{parsedResumeData.speaking.summary}</Description>
+        </Item>
+        <Item area="E">
           <SectionHeader>Awards</SectionHeader>
-        </GridItem>
-        <GridItem area="E1">
-          <p>Online Journalism Award, Planned News/Events (Large Newsroom), Winner 2017 - Electionland</p>
-          <p>Online Journalism Award, </p>
-          <p />
-          <p />
-          <p>International Press Institute News Innovation Challenge, Winner 2012 - Checkdesk</p>
-          <p>Africa News Innovation Challenge, Finalist 2012 - Checkdesk</p>
-        </GridItem>
+          {parsedResumeData.awards.map((award, index) => (
+            <Item>
+              <Header>{award.awarder}</Header>
+              <DateStamp>{award.date}</DateStamp>
+              <SubHeader>{award.title}</SubHeader>
+              <Description>{award.summary}</Description>
+            </Item>
+          ))}
+        </Item>
+        <Item area="F">
+          <Description>
+            {parsedResumeData.basics.phone} • {parsedResumeData.basics.email} • {parsedResumeData.basics.location.postalCode} •
+            {parsedResumeData.basics.location.city} • {parsedResumeData.basics.location.region}, {parsedResumeData.basics.location.countryCode}
+          </Description>
+        </Item>
       </Grid>
     </ResumePage>
   )
