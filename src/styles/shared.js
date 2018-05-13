@@ -67,3 +67,7 @@ export const Card = styled.div`
 export const GridItem = styled.div`
   grid-area: ${props => (props.area ? props.area : 'A1')};
 `
+
+export const breakpoint = {
+  desktop: '600px',
+}

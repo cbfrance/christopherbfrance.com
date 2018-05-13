@@ -7,7 +7,7 @@ export const resumeData = `{
     "phone": "(415) 309-7900",
     "website": "https://unthinkingly.com",
     "summary":
-      "Hello, I’m Chris. I’ve been a professional designer since 2003. I’ve designed large products and led accounts with clients such as Sony, Harvard Business Review, Facebook, Cambridge University and The Data Guild. My work typically involves themes of international collaboration. I am passionate about human-centered design strategies for the improvement of civil society.",
+      "Hello, I’m Chris. I’ve been a professional designer since 2003. I love being expressive in code to rapidly iterate. My work typically involves themes of international collaboration. I am passionate about human-centered design strategies for the improvement of civil society. I’ve designed large products and led accounts with clients such as Sony, Harvard Business Review, Facebook, Cambridge University and The Data Guild.",
     "location": {
       "address": "none",
       "postalCode": "94611",
