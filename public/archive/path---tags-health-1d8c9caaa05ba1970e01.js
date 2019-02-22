@@ -1,2 +1,0 @@
-webpackJsonp([0x7f44df221c1b],{1277:function(t,e){t.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"The Wireless Internet Opportunity For Developing Countries",path:"/2005/11/17/the-wireless-internet-opportunity-for-developing-countries"}}}]}},pathContext:{tag:"health"}}}});
-//# sourceMappingURL=path---tags-health-1d8c9caaa05ba1970e01.js.map

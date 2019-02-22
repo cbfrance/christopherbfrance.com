@@ -1,2 +1,0 @@
-webpackJsonp([0xfe3ad86f7e24],{1463:function(t,e){t.exports={data:{allMarkdownRemark:{totalCount:2,edges:[{node:{frontmatter:{title:"New Wi-Fi distance record: 279 km!",path:"/2006/06/09/new-wi-fi-distance-record-279-km"}}},{node:{frontmatter:{title:"Windmills for Wi-Fi",path:"/2005/11/17/windmills-for-wi-fi"}}}]}},pathContext:{tag:"wifi"}}}});
-//# sourceMappingURL=path---tags-wifi-e0821ea1a831a92b09d0.js.map

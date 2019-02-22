@@ -1,2 +1,0 @@
-webpackJsonp([76543703576018],{1422:function(t,e){t.exports={data:{allMarkdownRemark:{totalCount:2,edges:[{node:{frontmatter:{title:"Sustainable Interaction Design in Cambodia",path:"/2009/06/29/sustainable-interaction-design-in-cambodia"}}},{node:{frontmatter:{title:"The Wireless Internet Opportunity For Developing Countries",path:"/2005/11/17/the-wireless-internet-opportunity-for-developing-countries"}}}]}},pathContext:{tag:"sustainability"}}}});
-//# sourceMappingURL=path---tags-sustainability-86145a503ea49c5da71f.js.map

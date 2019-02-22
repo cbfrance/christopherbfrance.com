@@ -1,2 +1,0 @@
-webpackJsonp([18934756396052],{1306:function(t,a){t.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"Two favorite artists",path:"/2008/04/11/two-favorite-artists"}}}]}},pathContext:{tag:"kilgallen"}}}});
-//# sourceMappingURL=path---tags-kilgallen-94c43bbbebb6deffc4b2.js.map

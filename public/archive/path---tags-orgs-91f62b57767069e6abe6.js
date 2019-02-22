@@ -1,2 +1,0 @@
-webpackJsonp([25878243276656],{1361:function(o,t){o.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"Your Nonprofit Needs A Blog",path:"/2005/04/22/your-nonprofit-needs-a-blog"}}}]}},pathContext:{tag:"orgs"}}}});
-//# sourceMappingURL=path---tags-orgs-91f62b57767069e6abe6.js.map

@@ -1,2 +1,0 @@
-webpackJsonp([84586273293571],{1386:function(t,a){t.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"Migrating to Gatsby from Middleman",path:"/2018/04/25/migrating-to-gatsby-from-middleman"}}}]}},pathContext:{tag:"react"}}}});
-//# sourceMappingURL=path---tags-react-28130750edaaa04e8a37.js.map

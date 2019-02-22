@@ -1,2 +1,0 @@
-webpackJsonp([0x896e1fc2c448],{1356:function(t,a){t.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"Sign Your Name for Open Maps",path:"/2006/01/03/sign-your-name-for-open-maps"}}}]}},pathContext:{tag:"open"}}}});
-//# sourceMappingURL=path---tags-open-1156e3580044e4c36b21.js.map

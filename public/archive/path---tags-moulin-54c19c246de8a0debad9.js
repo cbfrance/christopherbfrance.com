@@ -1,2 +1,0 @@
-webpackJsonp([0x5c7cf6eccc29],{1339:function(t,e){t.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"The last mile wikipedia launches",path:"/2007/01/31/the-last-mile-wikipedia-launches"}}}]}},pathContext:{tag:"moulin"}}}});
-//# sourceMappingURL=path---tags-moulin-54c19c246de8a0debad9.js.map

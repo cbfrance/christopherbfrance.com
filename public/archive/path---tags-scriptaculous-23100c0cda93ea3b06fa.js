@@ -1,2 +1,0 @@
-webpackJsonp([57854648883348],{1400:function(t,a){t.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"The Wonder That is Script.aculo.us",path:"/2005/04/14/the-wonder-that-is-scriptaculous"}}}]}},pathContext:{tag:"scriptaculous"}}}});
-//# sourceMappingURL=path---tags-scriptaculous-23100c0cda93ea3b06fa.js.map

@@ -1,2 +1,0 @@
-webpackJsonp([85516310746094],{1285:function(t,e){t.exports={data:{allMarkdownRemark:{totalCount:2,edges:[{node:{frontmatter:{title:"Evaluating ICT Impact With An Eye on Gender",path:"/2005/12/20/evaluating-ict-impact-with-an-eye-on-gender"}}},{node:{frontmatter:{title:"Developments - The International Development Magazine - Only connect",path:"/2005/12/13/developments-the-international-development-magazine-only-connect"}}}]}},pathContext:{tag:"ict"}}}});
-//# sourceMappingURL=path---tags-ict-c6eda3fb38bb3a11077c.js.map

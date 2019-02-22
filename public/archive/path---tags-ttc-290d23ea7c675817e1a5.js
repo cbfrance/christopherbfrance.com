@@ -1,2 +1,0 @@
-webpackJsonp([0x74009dfbda6b],{1444:function(t,a){t.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"NGO in a Box: FOSS Mixtapes for Change",path:"/2006/02/08/ngo-in-a-box-foss-mixtapes-for-change"}}}]}},pathContext:{tag:"ttc"}}}});
-//# sourceMappingURL=path---tags-ttc-290d23ea7c675817e1a5.js.map

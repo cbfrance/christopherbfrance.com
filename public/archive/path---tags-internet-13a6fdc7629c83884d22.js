@@ -1,2 +1,0 @@
-webpackJsonp([25825365068138],{1295:function(t,e){t.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"The Internet is a War Weapon",path:"/2006/01/23/the-internet-is-a-war-weapon"}}}]}},pathContext:{tag:"internet"}}}});
-//# sourceMappingURL=path---tags-internet-13a6fdc7629c83884d22.js.map

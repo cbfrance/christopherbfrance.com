@@ -1,2 +1,0 @@
-webpackJsonp([504908264167],{1380:function(t,e){t.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"Kestrel: A Simple Web App for Community Supported Agriculture ",path:"/2008/01/03/kestrel-a-simple-web-app-for-community-supported-agriculture"}}}]}},pathContext:{tag:"project"}}}});
-//# sourceMappingURL=path---tags-project-882c6ecc30931fa431b6.js.map

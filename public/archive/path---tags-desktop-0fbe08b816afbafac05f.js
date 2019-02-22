@@ -1,2 +1,0 @@
-webpackJsonp([0x81815590a299],{1227:function(t,e){t.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"The Linux Desktop in 2007",path:"/2007/01/07/the-linux-desktop-in-2007"}}}]}},pathContext:{tag:"desktop"}}}});
-//# sourceMappingURL=path---tags-desktop-0fbe08b816afbafac05f.js.map

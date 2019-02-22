@@ -1,2 +1,0 @@
-webpackJsonp([34031967867817],{1242:function(t,e){t.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"Computers Twice Wasted",path:"/2005/11/12/computers-twice-wasted-the-refurbishing-model-fails-too"}}}]}},pathContext:{tag:"environment"}}}});
-//# sourceMappingURL=path---tags-environment-2303ebee7b6b1da0bfdc.js.map

@@ -1,2 +1,0 @@
-webpackJsonp([0xc23fe8e497d],{1408:function(t,e){t.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"Eleventy Million New Flickr Posts",path:"/2008/11/13/eleventy-million-new-flickr-posts"}}}]}},pathContext:{tag:"sketches"}}}});
-//# sourceMappingURL=path---tags-sketches-b48365c560ba738882f0.js.map

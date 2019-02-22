@@ -1,2 +1,0 @@
-webpackJsonp([0xd4f8b0311ea1],{1415:function(t,e){t.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"Let's Send More Emails!",path:"/2005/05/03/lets-send-more-emails"}}}]}},pathContext:{tag:"strategy"}}}});
-//# sourceMappingURL=path---tags-strategy-6d16170d10e5219c98ef.js.map

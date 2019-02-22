@@ -1,2 +1,0 @@
-webpackJsonp([0xc66fe2d116af],{1406:function(t,a){t.exports={data:{allMarkdownRemark:{totalCount:3,edges:[{node:{frontmatter:{title:"Monday Night Telly",path:"/2008/08/19/monday-night-telly"}}},{node:{frontmatter:{title:"Education is the only permanent social change",path:"/2008/04/11/education-is-the-only-permanent-social-change"}}},{node:{frontmatter:{title:"Why I moved to San Francisco",path:"/2007/12/02/move-to-san-francisco"}}}]}},pathContext:{tag:"sf"}}}});
-//# sourceMappingURL=path---tags-sf-478523c21162cb6f2f4f.js.map

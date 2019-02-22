@@ -1,2 +1,0 @@
-webpackJsonp([0x7eb8e47782b2],{1387:function(t,a){t.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"Great Blog",path:"/2007/01/07/great-blog"}}}]}},pathContext:{tag:"reading"}}}});
-//# sourceMappingURL=path---tags-reading-a6838624a40d63003236.js.map

@@ -1,2 +1,0 @@
-webpackJsonp([32173305095143],{1418:function(t,e){t.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"Where Does Your Favorite Organization Fit?",path:"/2006/01/23/where-does-your-favorite-organization-fit"}}}]}},pathContext:{tag:"surey"}}}});
-//# sourceMappingURL=path---tags-surey-e1aa667389827ca343fb.js.map

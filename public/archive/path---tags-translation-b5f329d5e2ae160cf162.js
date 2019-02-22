@@ -1,2 +1,0 @@
-webpackJsonp([0xd3921852415f],{1441:function(t,o){t.exports={data:{allMarkdownRemark:{totalCount:2,edges:[{node:{frontmatter:{title:"Rosetta Provides Collaborative Online FOSS Translation",path:"/2006/01/27/rosetta-provides-collaborative-online-translatin-of-oss"}}},{node:{frontmatter:{title:'"Decolonizing Cyberspace"',path:"/2006/01/23/decolonizing-cyberspace"}}}]}},pathContext:{tag:"translation"}}}});
-//# sourceMappingURL=path---tags-translation-b5f329d5e2ae160cf162.js.map

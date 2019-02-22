@@ -1,2 +1,0 @@
-webpackJsonp([0x8b102e4b5795],{1272:function(e,a){e.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"Cheap groupware for web-based project managment",path:"/2005/12/15/cheap-groupware-for-web-based-project-managment"}}}]}},pathContext:{tag:"groupware"}}}});
-//# sourceMappingURL=path---tags-groupware-24f2818d92fdc2d3463d.js.map

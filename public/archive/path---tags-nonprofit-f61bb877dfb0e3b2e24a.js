@@ -1,2 +1,0 @@
-webpackJsonp([0x964de36a2deb],{1349:function(e,a){e.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:'The "Special Case" of NEED Magazine',path:"/2009/09/24/the-special-case-of-need-magazine"}}}]}},pathContext:{tag:"nonprofit"}}}});
-//# sourceMappingURL=path---tags-nonprofit-f61bb877dfb0e3b2e24a.js.map

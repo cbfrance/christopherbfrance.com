@@ -1,2 +1,0 @@
-webpackJsonp([0x95b8604d0c0a],{1169:function(t,e){t.exports={data:{allMarkdownRemark:{totalCount:2,edges:[{node:{frontmatter:{title:"Kestrel: A Simple Web App for Community Supported Agriculture ",path:"/2008/01/03/kestrel-a-simple-web-app-for-community-supported-agriculture"}}},{node:{frontmatter:{title:"The Wireless Internet Opportunity For Developing Countries",path:"/2005/11/17/the-wireless-internet-opportunity-for-developing-countries"}}}]}},pathContext:{tag:"agriculture"}}}});
-//# sourceMappingURL=path---tags-agriculture-bbd2ec67e64bf682dcb2.js.map

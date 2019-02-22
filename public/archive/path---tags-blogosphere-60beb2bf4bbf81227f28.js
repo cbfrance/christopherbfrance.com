@@ -1,2 +1,0 @@
-webpackJsonp([0xd2a9bc5ccd6],{1182:function(o,t){o.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"Sino-Blogosphere is on the Map",path:"/2005/12/28/sino-blogosphere-is-on-the-map"}}}]}},pathContext:{tag:"blogosphere"}}}});
-//# sourceMappingURL=path---tags-blogosphere-60beb2bf4bbf81227f28.js.map

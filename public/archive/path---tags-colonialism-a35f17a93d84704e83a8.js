@@ -1,2 +1,0 @@
-webpackJsonp([0xfd80b09d522],{1202:function(t,e){t.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:'"Decolonizing Cyberspace"',path:"/2006/01/23/decolonizing-cyberspace"}}}]}},pathContext:{tag:"colonialism"}}}});
-//# sourceMappingURL=path---tags-colonialism-a35f17a93d84704e83a8.js.map

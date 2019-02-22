@@ -1,2 +1,0 @@
-webpackJsonp([0xd348fe5cf8de],{1214:function(e,t){e.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"Power to the People: Free (as in Beer) O'Reilly Books and More",path:"/2006/02/25/free-computer-books-tutorials-and-lecture-notes"}}}]}},pathContext:{tag:"cs"}}}});
-//# sourceMappingURL=path---tags-cs-9a52c4e1141f62617efd.js.map

@@ -1,2 +1,0 @@
-webpackJsonp([0xef56ca77597b],{1412:function(t,a){t.exports={data:{allMarkdownRemark:{totalCount:2,edges:[{node:{frontmatter:{title:"(Nearly) Free Software for 501(c)3's",path:"/2005/05/28/nearly-free-software-for-501c3s"}}},{node:{frontmatter:{title:"Atlas.Ti: Four Star Research Software",path:"/2004/05/21/atlasti-four-star-research-software"}}}]}},pathContext:{tag:"software"}}}});
-//# sourceMappingURL=path---tags-software-52743e3758b5d8195c62.js.map

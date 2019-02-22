@@ -1,2 +1,0 @@
-webpackJsonp([36498360586905],{1427:function(e,t){e.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"Wanted: An open-source, user-centered touchscreen platform",path:"/2007/05/13/wanted-an-open-source-user-centered-touchscreen-platform"}}}]}},pathContext:{tag:"tablet"}}}});
-//# sourceMappingURL=path---tags-tablet-c98dbb7edce8d27d3541.js.map

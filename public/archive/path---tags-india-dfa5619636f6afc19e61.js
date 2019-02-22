@@ -1,2 +1,0 @@
-webpackJsonp([0xa219fbe3d319],{1290:function(a,t){a.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"Five fun facts from Broadband Wiki",path:"/2005/11/12/five-fun-facts-from-broadband-wiki"}}}]}},pathContext:{tag:"india"}}}});
-//# sourceMappingURL=path---tags-india-dfa5619636f6afc19e61.js.map

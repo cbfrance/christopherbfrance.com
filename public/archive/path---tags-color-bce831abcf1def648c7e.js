@@ -1,2 +1,0 @@
-webpackJsonp([0xe6ac9a9c0d8e],{1203:function(e,o){e.exports={data:{allMarkdownRemark:{totalCount:2,edges:[{node:{frontmatter:{title:"Technicolor Tools",path:"/2006/01/23/your-color-cure"}}},{node:{frontmatter:{title:"Researching Flies, and Colorblindness 101",path:"/2005/07/13/researching-flies-and-colorblindness-101"}}}]}},pathContext:{tag:"color"}}}});
-//# sourceMappingURL=path---tags-color-bce831abcf1def648c7e.js.map

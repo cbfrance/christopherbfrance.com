@@ -1,2 +1,0 @@
-webpackJsonp([80672905322622],{1158:function(t,a){t.exports={data:{allMarkdownRemark:{totalCount:2,edges:[{node:{frontmatter:{title:"Community Informatics",path:"/2005/06/01/community-informatics"}}},{node:{frontmatter:{title:"Atlas.Ti: Four Star Research Software",path:"/2004/05/21/atlasti-four-star-research-software"}}}]}},pathContext:{tag:"academic"}}}});
-//# sourceMappingURL=path---tags-academic-89a6c3ceeec5010bfb2b.js.map

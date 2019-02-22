@@ -1,2 +1,0 @@
-webpackJsonp([0xda235c6a5f35],{1170:function(t,a){t.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"Thinking About The Search for Jim Gray",path:"/2007/02/04/thinking-about-the-search-for-jim-gray"}}}]}},pathContext:{tag:"altruism"}}}});
-//# sourceMappingURL=path---tags-altruism-f553c693e019a1ad9350.js.map

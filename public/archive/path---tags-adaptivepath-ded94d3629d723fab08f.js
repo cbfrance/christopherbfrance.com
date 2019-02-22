@@ -1,2 +1,0 @@
-webpackJsonp([0x750ea424092c],{1163:function(t,e){t.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"Book of the Month Club for Interface & Design Geeks",path:"/2008/05/31/books-of-the-month-for-interface-geeks"}}}]}},pathContext:{tag:"adaptivepath"}}}});
-//# sourceMappingURL=path---tags-adaptivepath-ded94d3629d723fab08f.js.map

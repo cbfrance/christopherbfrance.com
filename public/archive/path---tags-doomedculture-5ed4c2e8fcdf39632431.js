@@ -1,2 +1,0 @@
-webpackJsonp([0xb88fbf9fd953],{1232:function(t,o){t.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"Don't pitch",path:"/2010/04/01/dont-pitch-me"}}}]}},pathContext:{tag:"doomedculture"}}}});
-//# sourceMappingURL=path---tags-doomedculture-5ed4c2e8fcdf39632431.js.map

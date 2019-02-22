@@ -1,2 +1,0 @@
-webpackJsonp([0xa3fbaa3f06ca],{1326:function(a,t){a.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"Measuring ICT Literacy",path:"/2005/08/03/measuring-ict-literacy"}}}]}},pathContext:{tag:"measurement"}}}});
-//# sourceMappingURL=path---tags-measurement-7066f8f196acb81293a2.js.map

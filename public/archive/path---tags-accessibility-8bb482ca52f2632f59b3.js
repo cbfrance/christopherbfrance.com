@@ -1,2 +1,0 @@
-webpackJsonp([57637855410200],{1161:function(t,e){t.exports={data:{allMarkdownRemark:{totalCount:2,edges:[{node:{frontmatter:{title:"Researching Flies, and Colorblindness 101",path:"/2005/07/13/researching-flies-and-colorblindness-101"}}},{node:{frontmatter:{title:"Accessibility Is Important",path:"/2005/01/10/accessibility-is-important"}}}]}},pathContext:{tag:"accessibility"}}}});
-//# sourceMappingURL=path---tags-accessibility-8bb482ca52f2632f59b3.js.map

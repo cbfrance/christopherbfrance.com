@@ -1,2 +1,0 @@
-webpackJsonp([40126465263149],{1433:function(t,e){t.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"TED Reaches out to the Proles",path:"/2006/07/11/ted-reaches-out-to-the-proles"}}}]}},pathContext:{tag:"ted"}}}});
-//# sourceMappingURL=path---tags-ted-2ec5a8af001d187d0f8c.js.map

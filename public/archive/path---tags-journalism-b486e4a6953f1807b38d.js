@@ -1,2 +1,0 @@
-webpackJsonp([0xd9e14dc5d505],{1302:function(e,a){e.exports={data:{allMarkdownRemark:{totalCount:2,edges:[{node:{frontmatter:{title:'The "Special Case" of NEED Magazine',path:"/2009/09/24/the-special-case-of-need-magazine"}}},{node:{frontmatter:{title:"Need Magazine Debuts",path:"/2006/12/06/need-magazine-debuts"}}}]}},pathContext:{tag:"journalism"}}}});
-//# sourceMappingURL=path---tags-journalism-b486e4a6953f1807b38d.js.map

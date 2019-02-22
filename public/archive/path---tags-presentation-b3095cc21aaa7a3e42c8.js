@@ -1,2 +1,0 @@
-webpackJsonp([0xd82409803332],{1377:function(t,a){t.exports={data:{allMarkdownRemark:{totalCount:2,edges:[{node:{frontmatter:{title:"OpenStreetMap Cambodia",path:"/2009/06/30/openstreetmap-cambodia"}}},{node:{frontmatter:{title:"Swift",path:"/2009/05/07/swift"}}}]}},pathContext:{tag:"presentation"}}}});
-//# sourceMappingURL=path---tags-presentation-b3095cc21aaa7a3e42c8.js.map

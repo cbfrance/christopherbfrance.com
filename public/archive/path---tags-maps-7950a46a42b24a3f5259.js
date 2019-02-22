@@ -1,2 +1,0 @@
-webpackJsonp([0xf69fab0980fd],{1322:function(a,t){a.exports={data:{allMarkdownRemark:{totalCount:3,edges:[{node:{frontmatter:{title:"Beautiful Maps of Africa",path:"/2005/12/21/beautiful-maps-of-africa"}}},{node:{frontmatter:{title:"Google Maps: Is My House Underwater?",path:"/2005/09/06/google-maps-is-my-house-underwater"}}},{node:{frontmatter:{title:"GIS and Humanitarian Crisis",path:"/2005/09/02/gis-and-humanitarian-crisis"}}}]}},pathContext:{tag:"maps"}}}});
-//# sourceMappingURL=path---tags-maps-7950a46a42b24a3f5259.js.map

@@ -1,2 +1,0 @@
-webpackJsonp([0x96b010dd0a7],{1318:function(t,a){t.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"Tux is dead-ish",path:"/2007/01/05/tux-is-dead-ish"}}}]}},pathContext:{tag:"magazines"}}}});
-//# sourceMappingURL=path---tags-magazines-3d3c6c0335c9d94d3058.js.map

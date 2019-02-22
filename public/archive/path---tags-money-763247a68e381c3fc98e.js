@@ -1,2 +1,0 @@
-webpackJsonp([0xc065c7f0703a],{1338:function(t,e){t.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"The Future of Money",path:"/2008/03/21/the-future-of-money"}}}]}},pathContext:{tag:"money"}}}});
-//# sourceMappingURL=path---tags-money-763247a68e381c3fc98e.js.map

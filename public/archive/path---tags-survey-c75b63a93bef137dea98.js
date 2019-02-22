@@ -1,2 +1,0 @@
-webpackJsonp([0xa851f63be548],{1420:function(t,e){t.exports={data:{allMarkdownRemark:{totalCount:2,edges:[{node:{frontmatter:{title:"The tools we use",path:"/2006/12/14/the-tools-we-use"}}},{node:{frontmatter:{title:"Online Focus Groups are Getting Simple, Cheap and Pretty",path:"/2006/02/22/online-focus-groups-are-getting-simple-cheap-and-pretty"}}}]}},pathContext:{tag:"survey"}}}});
-//# sourceMappingURL=path---tags-survey-c75b63a93bef137dea98.js.map

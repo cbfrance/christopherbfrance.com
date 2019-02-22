@@ -1,2 +1,0 @@
-webpackJsonp([0xc78a97ac6bbc],{1298:function(t,e){t.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:'You Are The Enemy: "Information Rights" vs Open Source',path:"/2006/12/06/you-are-the-enemy"}}}]}},pathContext:{tag:"irm"}}}});
-//# sourceMappingURL=path---tags-irm-3081c9eccba6d17b668a.js.map

@@ -1,2 +1,0 @@
-webpackJsonp([0xd069badd7bd0],{1335:function(t,a){t.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"'Slashtags' for citizen editors",path:"/2009/11/09/slashtags-for-citizen-editors"}}}]}},pathContext:{tag:"microsyntax"}}}});
-//# sourceMappingURL=path---tags-microsyntax-ec3bf6c4dcd5550429a1.js.map
