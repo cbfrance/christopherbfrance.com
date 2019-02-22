@@ -1,0 +1,2 @@
+webpackJsonp([78635151104440],{1460:function(t,e){t.exports={data:{allMarkdownRemark:{totalCount:2,edges:[{node:{frontmatter:{title:"The Joy of e-waste",path:"/2007/06/18/the-joy-of-e-waste"}}},{node:{frontmatter:{title:"Computers Twice Wasted",path:"/2005/11/12/computers-twice-wasted-the-refurbishing-model-fails-too"}}}]}},pathContext:{tag:"waste"}}}});
+//# sourceMappingURL=path---tags-waste-83b3b72378473b8823c2.js.map

@@ -1,0 +1,2 @@
+webpackJsonp([0xb3f479d8b344],{1373:function(t,o){t.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"Blood Diamonds in the News",path:"/2006/12/11/blood-diamonds-in-the-news"}}}]}},pathContext:{tag:"politics"}}}});
+//# sourceMappingURL=path---tags-politics-9f5b7841afd24b45ee3e.js.map

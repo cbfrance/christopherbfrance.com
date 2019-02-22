@@ -1,0 +1,2 @@
+webpackJsonp([52253439884373],{1315:function(t,a){t.exports={data:{allMarkdownRemark:{totalCount:2,edges:[{node:{frontmatter:{title:"This Island Blog. (Or, What the Hell is a Blog?)",path:"/2005/08/05/this-island-blog-or-what-the-hell-is-a-blog"}}},{node:{frontmatter:{title:"Measuring ICT Literacy",path:"/2005/08/03/measuring-ict-literacy"}}}]}},pathContext:{tag:"literacy"}}}});
+//# sourceMappingURL=path---tags-literacy-4bb8986e162fd2ef6973.js.map

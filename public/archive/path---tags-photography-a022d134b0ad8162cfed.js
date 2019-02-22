@@ -1,0 +1,2 @@
+webpackJsonp([57022488454554],{1370:function(t,o){t.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"Stock Photos Anyone?",path:"/2005/03/30/stock-photos-anyone"}}}]}},pathContext:{tag:"photography"}}}});
+//# sourceMappingURL=path---tags-photography-a022d134b0ad8162cfed.js.map

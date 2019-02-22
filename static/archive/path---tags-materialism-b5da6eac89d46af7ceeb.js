@@ -1,0 +1,2 @@
+webpackJsonp([19862524347978],{1324:function(t,a){t.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"The Culture of Open Networks, or: Watch What You Tag",path:"/2007/01/20/the-culture-of-open-networks-or-watch-what-you-tag"}}}]}},pathContext:{tag:"materialism"}}}});
+//# sourceMappingURL=path---tags-materialism-b5da6eac89d46af7ceeb.js.map

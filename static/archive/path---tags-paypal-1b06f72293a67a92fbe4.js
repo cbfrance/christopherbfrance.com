@@ -1,0 +1,2 @@
+webpackJsonp([0xf1eed572a6cb],{1366:function(e,n){e.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"Online banking = overdue leapfrogging technology",path:"/2007/05/13/online-banking-overdue-leapfrogging-technology"}}}]}},pathContext:{tag:"paypal"}}}});
+//# sourceMappingURL=path---tags-paypal-1b06f72293a67a92fbe4.js.map

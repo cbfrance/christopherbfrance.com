@@ -1,0 +1,2 @@
+webpackJsonp([0xbdfe34e15251],{1413:function(e,t){e.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"The Three Simplest and Most Effective Anti-Spam Hacks I Have Ever Seen",path:"/2008/05/28/the-three-simplest-and-most-effective-anti-spam-hacks-i-have-ever-seen"}}}]}},pathContext:{tag:"spam"}}}});
+//# sourceMappingURL=path---tags-spam-8eeb71f8f1c5a1ff0192.js.map

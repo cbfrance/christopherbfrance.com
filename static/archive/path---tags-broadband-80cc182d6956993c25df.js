@@ -1,0 +1,2 @@
+webpackJsonp([0x6ba6f94ce2a0],{1187:function(a,t){a.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"Five fun facts from Broadband Wiki",path:"/2005/11/12/five-fun-facts-from-broadband-wiki"}}}]}},pathContext:{tag:"broadband"}}}});
+//# sourceMappingURL=path---tags-broadband-80cc182d6956993c25df.js.map

@@ -1,0 +1,2 @@
+webpackJsonp([0xf95d63b719e0],{1369:function(t,e){t.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"OK, Nevermind. Actually, The Future is in the Past",path:"/2007/12/21/ok-nevermind-actually-the-future-is-in-the-past"}}}]}},pathContext:{tag:"photocopiers"}}}});
+//# sourceMappingURL=path---tags-photocopiers-7583ee39e1c2259e8860.js.map

@@ -1,0 +1,2 @@
+webpackJsonp([46547480605292],{1337:function(o,t){o.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"Technology for the Poor",path:"/2005/07/14/technology-for-the-poor-profit-for-the-rich"}}}]}},pathContext:{tag:"mobiles"}}}});
+//# sourceMappingURL=path---tags-mobiles-d66f8a4a1e2bf1ecda73.js.map

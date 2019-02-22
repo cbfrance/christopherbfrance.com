@@ -1,0 +1,2 @@
+webpackJsonp([3311465209060],{1289:function(t,a){t.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"Sustainable Interaction Design in Cambodia",path:"/2009/06/29/sustainable-interaction-design-in-cambodia"}}}]}},pathContext:{tag:"InSTEDD"}}}});
+//# sourceMappingURL=path---tags-in-stedd-303b00c78b2818f2ec5b.js.map

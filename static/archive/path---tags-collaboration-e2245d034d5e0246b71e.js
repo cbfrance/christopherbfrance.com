@@ -1,0 +1,2 @@
+webpackJsonp([0x6dc81cc40750],{1200:function(t,a){t.exports={data:{allMarkdownRemark:{totalCount:2,edges:[{node:{frontmatter:{title:"'Slashtags' for citizen editors",path:"/2009/11/09/slashtags-for-citizen-editors"}}},{node:{frontmatter:{title:"Cheap groupware for web-based project managment",path:"/2005/12/15/cheap-groupware-for-web-based-project-managment"}}}]}},pathContext:{tag:"collaboration"}}}});
+//# sourceMappingURL=path---tags-collaboration-e2245d034d5e0246b71e.js.map

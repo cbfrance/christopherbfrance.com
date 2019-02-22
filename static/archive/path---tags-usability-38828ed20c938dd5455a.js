@@ -1,0 +1,2 @@
+webpackJsonp([0xdc9dc403b5aa],{1453:function(t,e){t.exports={data:{allMarkdownRemark:{totalCount:3,edges:[{node:{frontmatter:{title:"The Linux Desktop in 2007",path:"/2007/01/07/the-linux-desktop-in-2007"}}},{node:{frontmatter:{title:"Don't Make Me Think",path:"/2006/01/23/dont-make-me-think"}}},{node:{frontmatter:{title:"A Few Words Against Drivel and Detritus",path:"/2005/04/14/a-few-words-against-drivel-and-detritus"}}}]}},pathContext:{tag:"usability"}}}});
+//# sourceMappingURL=path---tags-usability-38828ed20c938dd5455a.js.map

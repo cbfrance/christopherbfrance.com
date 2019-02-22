@@ -1,0 +1,2 @@
+webpackJsonp([0xc34d16cf63c1],{1226:function(t,e){t.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"Genocide vs. Gadgets",path:"/2007/06/15/genocide-vs-gadgets"}}}]}},pathContext:{tag:"designfailure"}}}});
+//# sourceMappingURL=path---tags-designfailure-801d5700296551171a06.js.map

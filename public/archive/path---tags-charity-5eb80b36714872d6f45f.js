@@ -1,0 +1,2 @@
+webpackJsonp([0x95ddb052b27],{1193:function(t,a){t.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"Ranking Charities = Bad Science",path:"/2005/05/04/ranking-charities-bad-science"}}}]}},pathContext:{tag:"charity"}}}});
+//# sourceMappingURL=path---tags-charity-5eb80b36714872d6f45f.js.map

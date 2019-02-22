@@ -1,0 +1,2 @@
+webpackJsonp([0x6a0f12fa8f2b],{1342:function(t,a){t.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"Two favorite artists",path:"/2008/04/11/two-favorite-artists"}}}]}},pathContext:{tag:"music"}}}});
+//# sourceMappingURL=path---tags-music-7294c3662c98a1df81d5.js.map

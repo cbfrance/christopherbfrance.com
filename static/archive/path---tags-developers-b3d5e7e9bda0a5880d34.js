@@ -1,0 +1,2 @@
+webpackJsonp([0xf978e49be9f3],{1229:function(e,t){e.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"GNOME needs women",path:"/2006/06/19/gnome-needs-women"}}}]}},pathContext:{tag:"developers"}}}});
+//# sourceMappingURL=path---tags-developers-b3d5e7e9bda0a5880d34.js.map

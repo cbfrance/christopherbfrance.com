@@ -1,0 +1,2 @@
+webpackJsonp([0xaa03082956af],{1246:function(t,a){t.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"Ode To Ethan",path:"/2008/02/04/ode-to-ethan"}}}]}},pathContext:{tag:"ethan"}}}});
+//# sourceMappingURL=path---tags-ethan-e461dcddaef04b510639.js.map

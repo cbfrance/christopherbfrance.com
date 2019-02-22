@@ -1,0 +1,2 @@
+webpackJsonp([0xa4a21642c12c],{1297:function(t,a){t.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"Blogger Handbook Chat",path:"/2005/09/23/blogger-handbook-chat"}}}]}},pathContext:{tag:"irc"}}}});
+//# sourceMappingURL=path---tags-irc-0a41a19a17b2cdbf874b.js.map

@@ -1,0 +1,2 @@
+webpackJsonp([79814974774258],{1449:function(t,e){t.exports={data:{allMarkdownRemark:{totalCount:2,edges:[{node:{frontmatter:{title:"The Linux Desktop in 2007",path:"/2007/01/07/the-linux-desktop-in-2007"}}},{node:{frontmatter:{title:"The Reality of the Open Source Desktop in Developing World",path:"/2006/06/29/the-reality-of-the-open-source-desktop-in-developing-world"}}}]}},pathContext:{tag:"ubuntu"}}}});
+//# sourceMappingURL=path---tags-ubuntu-6a5202b2c1a1e57894af.js.map

@@ -1,96 +1,106 @@
-const path = require('path')
 const _ = require('lodash')
 
-// The main purpose of this file is to exercise this
-// createPages function, which builds pages from graphql data sources ...
-// It expects an object with boundActionCreators and graphql
-exports.createPages = ({ boundActionCreators, graphql }) => {
-  const { createPage } = boundActionCreators
+// graphql function returns a promise so we can use this little promise helper to have a nice result/error state
+const wrapper = promise =>
+  promise
+    .then(result => {
+      if (result.errors) {
+        throw result.errors
+      }
+      return { result, error: null }
+    })
+    .catch(error => ({ error, result: null }))
 
-  // We define two types of pages that are derived from this node process ..
-  // (other types of pages can be built by adding files to src/pages directory)
-  const blogPostTemplate = path.resolve(`src/templates/blog-post.js`)
-  const tagTemplate = path.resolve('src/templates/tags.js')
+exports.onCreateNode = ({ node, actions }) => {
+  const { createNodeField } = actions
 
-  // createPages returns a graphql promise as `result.data`
-  return graphql(`
-    {
-      allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___created_at] }, limit: 1000) {
-        edges {
-          node {
-            excerpt(pruneLength: 1250)
-            html
-            id
-            frontmatter {
-              created_at
-              path
-              title
-              tags
+  let slug
+
+  if (node.internal.type === 'Mdx') {
+    if (
+      Object.prototype.hasOwnProperty.call(node, 'frontmatter') &&
+      Object.prototype.hasOwnProperty.call(node.frontmatter, 'slug')
+    ) {
+      slug = `/${_.kebabCase(node.frontmatter.slug)}`
+    }
+    if (
+      Object.prototype.hasOwnProperty.call(node, 'frontmatter') &&
+      Object.prototype.hasOwnProperty.call(node.frontmatter, 'title')
+    ) {
+      slug = `/${_.kebabCase(node.frontmatter.title)}`
+    }
+    createNodeField({ node, name: 'slug', value: slug })
+  }
+}
+
+exports.createPages = async ({ graphql, actions }) => {
+  const { createPage } = actions
+
+  const postTemplate = require.resolve('./src/templates/post.js')
+  const categoryTemplate = require.resolve('./src/templates/category.js')
+
+  const { error, result } = await wrapper(
+    graphql(`
+      {
+        allMdx {
+          edges {
+            node {
+              fields {
+                slug
+              }
+              frontmatter {
+                title
+                categories
+              }
             }
           }
         }
       }
-    }
-  `).then(result => {
-    // If there are errors return the promise rejected
-    if (result.errors) {
-      return Promise.reject(result.errors)
-    }
+    `)
+  )
 
-    // -------------------------------------------------
-    // Build post pages
-    // If there are not errors, gather the edges of the markdown-parsed data
-    const posts = result.data.allMarkdownRemark.edges
+  if (!error) {
+    const posts = result.data.allMdx.edges
 
-    // Build all of the post using individual `createPage` gatsby API
-    posts.forEach(({ node }) => {
+    posts.forEach((edge, index) => {
+      const next = index === 0 ? null : posts[index - 1].node
+      const prev = index === posts.length - 1 ? null : posts[index + 1].node
+
       createPage({
-        path: node.frontmatter.path,
-        layout: `blog`,
-        component: blogPostTemplate,
-        context: {}, // additional data can be passed via context
-      })
-    })
-
-    // -------------------------------------------------
-    // Build tag pages
-    let tags = []
-    // Iterate through each post, putting all found tags into `tags`
-    _.each(posts, edge => {
-      if (_.get(edge, 'node.frontmatter.tags')) {
-        tags = tags.concat(edge.node.frontmatter.tags)
-      }
-    })
-    // Eliminate duplicate tags
-    tags = _.uniq(tags)
-
-    // Make tag pages
-    tags.forEach(tag => {
-      createPage({
-        path: `/tags/${_.kebabCase(tag)}/`,
-        layout: `blog`,
-        component: tagTemplate,
+        path: edge.node.fields.slug,
+        component: postTemplate,
         context: {
-          tag,
+          slug: edge.node.fields.slug,
+          prev,
+          next,
         },
       })
     })
-  })
-}
 
-// -----------------------------------
-// Set the layout
-// Implement the Gatsby API “onCreatePage”. This is
-// called after every page is created.
-exports.onCreatePage = async ({ page, boundActionCreators }) => {
-  const { createPage } = boundActionCreators
+    const categorySet = new Set()
 
-  return new Promise((resolve, reject) => {
-    // If the path looks like a blog post, use the blog post layout
-    if (page.path.match(/blog/)) {
-      page.layout = 'blog'
-      createPage(page)
-    }
-    resolve()
-  })
+    _.each(posts, edge => {
+      if (_.get(edge, 'node.frontmatter.categories')) {
+        edge.node.frontmatter.categories.forEach(cat => {
+          categorySet.add(cat)
+        })
+      }
+    })
+
+    const categories = Array.from(categorySet)
+
+    categories.forEach(category => {
+      createPage({
+        path: `/categories/${_.kebabCase(category)}`,
+        component: categoryTemplate,
+        context: {
+          category,
+        },
+      })
+    })
+
+    return
+  }
+
+  console.log(error)
 }

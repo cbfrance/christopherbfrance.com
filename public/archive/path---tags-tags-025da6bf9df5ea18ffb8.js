@@ -1,0 +1,2 @@
+webpackJsonp([0x65e786e8ff47],{1429:function(t,a){t.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"Understanding a community tag: the history of nptech",path:"/2007/01/11/understanding-a-community-tag-the-history-of-nptech"}}}]}},pathContext:{tag:"tags"}}}});
+//# sourceMappingURL=path---tags-tags-025da6bf9df5ea18ffb8.js.map

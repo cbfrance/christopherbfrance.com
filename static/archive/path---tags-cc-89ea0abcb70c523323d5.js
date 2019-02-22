@@ -1,0 +1,2 @@
+webpackJsonp([77805813708236],{1191:function(e,t){e.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"Some Rights Reserved: A Guide to the Creative Commons License",path:"/2004/02/13/some-rights-reserved-a-guide-to-the-creative-commons-license"}}}]}},pathContext:{tag:"cc"}}}});
+//# sourceMappingURL=path---tags-cc-89ea0abcb70c523323d5.js.map

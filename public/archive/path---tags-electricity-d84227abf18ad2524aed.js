@@ -1,0 +1,2 @@
+webpackJsonp([0xfd562a104b9d],{1237:function(e,n){e.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"Keeping Communications Equipment Powered in an Emergency",path:"/2005/11/12/keeping-communications-equipment-powered-in-an-emergency"}}}]}},pathContext:{tag:"electricity"}}}});
+//# sourceMappingURL=path---tags-electricity-d84227abf18ad2524aed.js.map

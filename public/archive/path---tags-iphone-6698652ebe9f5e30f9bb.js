@@ -1,0 +1,2 @@
+webpackJsonp([0xdf7e7dbc5249],{1296:function(e,t){e.exports={data:{allMarkdownRemark:{totalCount:2,edges:[{node:{frontmatter:{title:"The Future is All Android, All Open Source. And Underpants. And Ice Cream.",path:"/2008/05/29/the-future-is-all-android-all-open-source-and-underpants-and-ice-cream"}}},{node:{frontmatter:{title:"Genocide vs. Gadgets",path:"/2007/06/15/genocide-vs-gadgets"}}}]}},pathContext:{tag:"iphone"}}}});
+//# sourceMappingURL=path---tags-iphone-6698652ebe9f5e30f9bb.js.map

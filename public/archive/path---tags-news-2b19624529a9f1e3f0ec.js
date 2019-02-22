@@ -1,0 +1,2 @@
+webpackJsonp([0x963e455bd056],{1346:function(e,n){e.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"Developments - The International Development Magazine - Only connect",path:"/2005/12/13/developments-the-international-development-magazine-only-connect"}}}]}},pathContext:{tag:"news"}}}});
+//# sourceMappingURL=path---tags-news-2b19624529a9f1e3f0ec.js.map

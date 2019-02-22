@@ -1,0 +1,2 @@
+webpackJsonp([0x7bc13456935a],{1409:function(t,a){t.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"'Slashtags' for citizen editors",path:"/2009/11/09/slashtags-for-citizen-editors"}}}]}},pathContext:{tag:"slashtags"}}}});
+//# sourceMappingURL=path---tags-slashtags-61334846a00da64982a0.js.map

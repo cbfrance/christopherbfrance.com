@@ -1,0 +1,2 @@
+webpackJsonp([0x831c71601020],{1382:function(t,a){t.exports={data:{allMarkdownRemark:{totalCount:2,edges:[{node:{frontmatter:{title:"Tux is dead-ish",path:"/2007/01/05/tux-is-dead-ish"}}},{node:{frontmatter:{title:"A New Online Journal",path:"/2005/07/29/a-new-online-journal-2"}}}]}},pathContext:{tag:"publishing"}}}});
+//# sourceMappingURL=path---tags-publishing-bfdb6f114c1b8af35c12.js.map

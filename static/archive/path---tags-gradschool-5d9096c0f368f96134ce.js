@@ -1,0 +1,2 @@
+webpackJsonp([0x6502c07f0ec3],{1271:function(o,t){o.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"Ivory Tower Blogs",path:"/2005/04/23/ivory-tower-blogs"}}}]}},pathContext:{tag:"gradschool"}}}});
+//# sourceMappingURL=path---tags-gradschool-5d9096c0f368f96134ce.js.map

@@ -1,0 +1,2 @@
+webpackJsonp([0xd78e7a55070d],{1221:function(t,a){t.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"Visualizing Human Rights with the Google Charts API",path:"/2008/06/20/visualizing-human-rights-with-the-google-charts-api"}}}]}},pathContext:{tag:"dataviz"}}}});
+//# sourceMappingURL=path---tags-dataviz-10ce442e14feaf14c088.js.map

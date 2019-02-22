@@ -1,0 +1,2 @@
+webpackJsonp([62784603129336],{1255:function(t,e){t.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"On Teachers Moving from Web 0.5 to Web 3.0",path:"/2006/02/16/on-teachers-moving-from-web-05-to-web-30"}}}]}},pathContext:{tag:"flickr"}}}});
+//# sourceMappingURL=path---tags-flickr-8ae2007daa3130a067e7.js.map

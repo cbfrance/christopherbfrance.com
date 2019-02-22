@@ -1,0 +1,2 @@
+webpackJsonp([0xf38ae465407a],{1177:function(e,t){e.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"Wanted: An open-source, user-centered touchscreen platform",path:"/2007/05/13/wanted-an-open-source-user-centered-touchscreen-platform"}}}]}},pathContext:{tag:"baobab"}}}});
+//# sourceMappingURL=path---tags-baobab-bdfa38153ccb3853383a.js.map

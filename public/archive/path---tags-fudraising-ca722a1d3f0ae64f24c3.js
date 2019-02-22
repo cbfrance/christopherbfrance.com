@@ -1,0 +1,2 @@
+webpackJsonp([0xaa33ff70812],{1259:function(a,e){a.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"Hey Buddy, Can You Spare A Secure Socket Layer?",path:"/2005/03/17/hey-buddy-can-you-spare-a-secure-socket-layer"}}}]}},pathContext:{tag:"fudraising"}}}});
+//# sourceMappingURL=path---tags-fudraising-ca722a1d3f0ae64f24c3.js.map

@@ -1,0 +1,2 @@
+webpackJsonp([57191472014015],{1472:function(e,t){e.exports={data:{allMarkdownRemark:{totalCount:2,edges:[{node:{frontmatter:{title:"Build Your Own Search Experience: Yahoo BOSS is pretty amazing",path:"/2008/08/13/build-your-own-search-experience-yahoo-boss-is-pretty-amazing"}}},{node:{frontmatter:{title:"Yahoo Participates in Chinese Censorship",path:"/2005/09/19/yahoo-patricipates-in-chinese-censorship"}}}]}},pathContext:{tag:"yahoo"}}}});
+//# sourceMappingURL=path---tags-yahoo-954c7cac10ee45b37d2b.js.map

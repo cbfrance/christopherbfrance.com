@@ -1,0 +1,2 @@
+webpackJsonp([0xd9db8338a592],{1475:function(a,e){a.exports={data:{allMarkdownRemark:{totalCount:2,edges:[{node:{frontmatter:{title:'The "Special Case" of NEED Magazine',path:"/2009/09/24/the-special-case-of-need-magazine"}}},{node:{frontmatter:{title:"Hooray for Progressive Podcasting",path:"/2005/11/12/hooray-for-progressive-podcasting"}}}]}},pathContext:{tag:"zuckerman"}}}});
+//# sourceMappingURL=path---tags-zuckerman-432353c19b25b0b8f683.js.map

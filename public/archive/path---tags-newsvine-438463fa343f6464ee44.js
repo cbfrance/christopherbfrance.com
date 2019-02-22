@@ -1,0 +1,2 @@
+webpackJsonp([0x803f8e815a30],{1347:function(t,n){t.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"Visualizing Community News",path:"/2006/02/01/visualizing-community-news"}}}]}},pathContext:{tag:"newsvine"}}}});
+//# sourceMappingURL=path---tags-newsvine-438463fa343f6464ee44.js.map

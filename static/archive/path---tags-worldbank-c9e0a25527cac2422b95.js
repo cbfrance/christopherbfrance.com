@@ -1,0 +1,2 @@
+webpackJsonp([0x976dda3e6503],{1469:function(o,t){o.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"Technology for the Poor",path:"/2005/07/14/technology-for-the-poor-profit-for-the-rich"}}}]}},pathContext:{tag:"worldbank"}}}});
+//# sourceMappingURL=path---tags-worldbank-c9e0a25527cac2422b95.js.map

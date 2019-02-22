@@ -1,0 +1,2 @@
+webpackJsonp([0xfbf85b35cd4b],{1397:function(t,e){t.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"The Future of CSS is Here .... It's Just Not Evenly Distributed",path:"/2007/12/17/the-future-of-css-here-its-just-not-evenly-distributed"}}}]}},pathContext:{tag:"ruby"}}}});
+//# sourceMappingURL=path---tags-ruby-a10165994f4f332f4b62.js.map

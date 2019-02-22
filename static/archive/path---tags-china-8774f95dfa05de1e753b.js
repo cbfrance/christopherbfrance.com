@@ -1,0 +1,2 @@
+webpackJsonp([72112025088731],{1195:function(t,e){t.exports={data:{allMarkdownRemark:{totalCount:2,edges:[{node:{frontmatter:{title:"Sino-Blogosphere is on the Map",path:"/2005/12/28/sino-blogosphere-is-on-the-map"}}},{node:{frontmatter:{title:"Yahoo Participates in Chinese Censorship",path:"/2005/09/19/yahoo-patricipates-in-chinese-censorship"}}}]}},pathContext:{tag:"china"}}}});
+//# sourceMappingURL=path---tags-china-8774f95dfa05de1e753b.js.map

@@ -1,0 +1,2 @@
+webpackJsonp([43422057703896],{1368:function(a,e){a.exports={data:{allMarkdownRemark:{totalCount:2,edges:[{node:{frontmatter:{title:'The "Special Case" of NEED Magazine',path:"/2009/09/24/the-special-case-of-need-magazine"}}},{node:{frontmatter:{title:"Ranking Charities = Bad Science",path:"/2005/05/04/ranking-charities-bad-science"}}}]}},pathContext:{tag:"philanthropy"}}}});
+//# sourceMappingURL=path---tags-philanthropy-11826ff675822d9afc39.js.map

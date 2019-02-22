@@ -1,0 +1,2 @@
+webpackJsonp([90449238081687],{1207:function(t,a){t.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"A Few Words Against Drivel and Detritus",path:"/2005/04/14/a-few-words-against-drivel-and-detritus"}}}]}},pathContext:{tag:"content"}}}});
+//# sourceMappingURL=path---tags-content-5290edc533e4316172af.js.map

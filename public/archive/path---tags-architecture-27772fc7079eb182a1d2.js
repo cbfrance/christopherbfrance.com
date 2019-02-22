@@ -1,0 +1,2 @@
+webpackJsonp([0x7bd4ae28f001],{1173:function(t,a){t.exports={data:{allMarkdownRemark:{totalCount:2,edges:[{node:{frontmatter:{title:"Monday Night Telly",path:"/2008/08/19/monday-night-telly"}}},{node:{frontmatter:{title:"Agile Engineering vs. Interaction Design: Pissing money away and leaving scar tissue",path:"/2008/05/22/agile-vs-ixd-pissing-money-away-and-leaving-scar-tissue"}}}]}},pathContext:{tag:"architecture"}}}});
+//# sourceMappingURL=path---tags-architecture-27772fc7079eb182a1d2.js.map

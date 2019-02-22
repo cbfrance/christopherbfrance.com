@@ -1,0 +1,2 @@
+webpackJsonp([0xab93dd0a5fd4],{1340:function(a,e){a.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"Mozilla, The AP Aurora Concepts, and Open Source UX Design",path:"/2008/08/06/mozilla-the-ap-aurora-concepts-and-open-source-ux-design"}}}]}},pathContext:{tag:"mozillla"}}}});
+//# sourceMappingURL=path---tags-mozillla-89b2f3dac9376291eee4.js.map

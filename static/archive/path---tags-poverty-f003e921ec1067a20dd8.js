@@ -1,0 +1,2 @@
+webpackJsonp([0xacc14963c973],{1375:function(t,o){t.exports={data:{allMarkdownRemark:{totalCount:2,edges:[{node:{frontmatter:{title:"More accounts of the 1-Laptop-Per-Child Laptop at MIT",path:"/2005/11/12/more-accounts-of-the-1-laptop-per-child-laptop-at-mit"}}},{node:{frontmatter:{title:"Technology for the Poor",path:"/2005/07/14/technology-for-the-poor-profit-for-the-rich"}}}]}},pathContext:{tag:"poverty"}}}});
+//# sourceMappingURL=path---tags-poverty-f003e921ec1067a20dd8.js.map

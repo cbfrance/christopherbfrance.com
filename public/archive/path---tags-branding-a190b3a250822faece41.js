@@ -1,0 +1,2 @@
+webpackJsonp([52799155396354],{1186:function(t,a){t.exports={data:{allMarkdownRemark:{totalCount:2,edges:[{node:{frontmatter:{title:"Branding Advocacy",path:"/2005/07/11/branding-advocacy"}}},{node:{frontmatter:{title:"Branding a Nonprofit",path:"/2005/01/09/branding-a-nonprofit"}}}]}},pathContext:{tag:"branding"}}}});
+//# sourceMappingURL=path---tags-branding-a190b3a250822faece41.js.map

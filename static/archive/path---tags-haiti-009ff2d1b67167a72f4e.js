@@ -1,0 +1,2 @@
+webpackJsonp([0xf7963081023e],{1275:function(t,o){t.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"What could possibly go wrong? ",path:"/2010/01/23/what-could-possibly-go-wrong"}}}]}},pathContext:{tag:"haiti"}}}});
+//# sourceMappingURL=path---tags-haiti-009ff2d1b67167a72f4e.js.map

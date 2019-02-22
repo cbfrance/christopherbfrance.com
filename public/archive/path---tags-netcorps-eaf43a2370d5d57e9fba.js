@@ -1,0 +1,2 @@
+webpackJsonp([86214983196944],{1344:function(t,e){t.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"NetCorps",path:"/2005/01/23/netcorps"}}}]}},pathContext:{tag:"netcorps"}}}});
+//# sourceMappingURL=path---tags-netcorps-eaf43a2370d5d57e9fba.js.map

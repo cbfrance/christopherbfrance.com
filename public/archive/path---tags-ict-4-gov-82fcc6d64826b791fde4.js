@@ -1,0 +1,2 @@
+webpackJsonp([0xd814c01a3079],{1284:function(a,t){a.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"The Digital Dashboard: Graphing ICT Change",path:"/2005/12/19/the-digital-dashboard-graphing-ict-change"}}}]}},pathContext:{tag:"ict4gov"}}}});
+//# sourceMappingURL=path---tags-ict-4-gov-82fcc6d64826b791fde4.js.map

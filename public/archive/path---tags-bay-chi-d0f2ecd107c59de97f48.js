@@ -1,0 +1,2 @@
+webpackJsonp([22095267491831],{1178:function(a,e){a.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"Build Your Own Search Experience: Yahoo BOSS is pretty amazing",path:"/2008/08/13/build-your-own-search-experience-yahoo-boss-is-pretty-amazing"}}}]}},pathContext:{tag:"bayCHI"}}}});
+//# sourceMappingURL=path---tags-bay-chi-d0f2ecd107c59de97f48.js.map

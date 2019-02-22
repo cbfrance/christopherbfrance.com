@@ -1,0 +1,2 @@
+webpackJsonp([0x91fe3a2d1cd7],{1467:function(t,e){t.exports={data:{allMarkdownRemark:{totalCount:3,edges:[{node:{frontmatter:{title:"GNOME needs women",path:"/2006/06/19/gnome-needs-women"}}},{node:{frontmatter:{title:"Brief Clip from a Great WorldChanging.com Post",path:"/2006/02/16/brief-clip-from-a-great-worldchangingcom-post"}}},{node:{frontmatter:{title:"Evaluating ICT Impact With An Eye on Gender",path:"/2005/12/20/evaluating-ict-impact-with-an-eye-on-gender"}}}]}},pathContext:{tag:"women"}}}});
+//# sourceMappingURL=path---tags-women-549785a569146a192c3e.js.map

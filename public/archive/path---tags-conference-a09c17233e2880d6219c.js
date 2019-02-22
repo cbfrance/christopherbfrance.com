@@ -1,0 +1,2 @@
+webpackJsonp([0x72f8b5193061],{1206:function(e,t){e.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"ICCM 09, the Crisis Mapping Conference",path:"/2009/09/09/iccm-09-the-crisis-mapping-conference"}}}]}},pathContext:{tag:"conference"}}}});
+//# sourceMappingURL=path---tags-conference-a09c17233e2880d6219c.js.map

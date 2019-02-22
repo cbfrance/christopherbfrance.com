@@ -1,0 +1,2 @@
+webpackJsonp([86421346510870],{1281:function(t,n){t.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"Internationalizing your Web Site",path:"/2005/12/30/internationalizing-you-web-site"}}}]}},pathContext:{tag:"i18n"}}}});
+//# sourceMappingURL=path---tags-i-18-n-2ee59904c9f8c17dd085.js.map

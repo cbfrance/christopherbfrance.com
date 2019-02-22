@@ -1,0 +1,2 @@
+webpackJsonp([0x75e280412abf],{1438:function(t,e){t.exports={data:{allMarkdownRemark:{totalCount:2,edges:[{node:{frontmatter:{title:"Great Blog",path:"/2007/01/07/great-blog"}}},{node:{frontmatter:{title:"A New Online Journal",path:"/2005/07/29/a-new-online-journal-2"}}}]}},pathContext:{tag:"theory"}}}});
+//# sourceMappingURL=path---tags-theory-05205ade0dabeb01c943.js.map

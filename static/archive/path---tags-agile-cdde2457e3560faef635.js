@@ -1,0 +1,2 @@
+webpackJsonp([39232621372017],{1168:function(a,e){a.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"Agile Engineering vs. Interaction Design: Pissing money away and leaving scar tissue",path:"/2008/05/22/agile-vs-ixd-pissing-money-away-and-leaving-scar-tissue"}}}]}},pathContext:{tag:"agile"}}}});
+//# sourceMappingURL=path---tags-agile-cdde2457e3560faef635.js.map

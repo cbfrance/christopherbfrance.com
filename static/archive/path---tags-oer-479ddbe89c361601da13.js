@@ -1,0 +1,2 @@
+webpackJsonp([447444141485],{1354:function(t,a){t.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"ICT in Education",path:"/2005/09/25/ict-in-education"}}}]}},pathContext:{tag:"oer"}}}});
+//# sourceMappingURL=path---tags-oer-479ddbe89c361601da13.js.map

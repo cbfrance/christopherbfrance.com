@@ -1,0 +1,2 @@
+webpackJsonp([0xcf6c1fc82ccf],{1252:function(t,e){t.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"Genocide vs. Gadgets",path:"/2007/06/15/genocide-vs-gadgets"}}}]}},pathContext:{tag:"failedsociety"}}}});
+//# sourceMappingURL=path---tags-failedsociety-75f7e788c69d77cb3162.js.map

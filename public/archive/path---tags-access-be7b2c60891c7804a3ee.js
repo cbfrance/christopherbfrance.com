@@ -1,0 +1,2 @@
+webpackJsonp([0xfff8bfb77b4c],{1160:function(a,t){a.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"The Digital Dashboard: Graphing ICT Change",path:"/2005/12/19/the-digital-dashboard-graphing-ict-change"}}}]}},pathContext:{tag:"access"}}}});
+//# sourceMappingURL=path---tags-access-be7b2c60891c7804a3ee.js.map

@@ -1,0 +1,2 @@
+webpackJsonp([0x80d7986ffa3d],{1248:function(e,t){e.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"The Reality of the Open Source Desktop in Developing World",path:"/2006/06/29/the-reality-of-the-open-source-desktop-in-developing-world"}}}]}},pathContext:{tag:"ethiopia"}}}});
+//# sourceMappingURL=path---tags-ethiopia-e9b09c0a390962199cc5.js.map

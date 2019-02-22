@@ -1,0 +1,2 @@
+webpackJsonp([0xd37fd9e717e8],{1280:function(a,t){a.exports={data:{allMarkdownRemark:{totalCount:2,edges:[{node:{frontmatter:{title:"The last mile wikipedia launches",path:"/2007/01/31/the-last-mile-wikipedia-launches"}}},{node:{frontmatter:{title:"GIS and Humanitarian Crisis",path:"/2005/09/02/gis-and-humanitarian-crisis"}}}]}},pathContext:{tag:"humanitarian"}}}});
+//# sourceMappingURL=path---tags-humanitarian-7b098cf970aa41f2e0db.js.map

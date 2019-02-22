@@ -1,0 +1,2 @@
+webpackJsonp([63889132111677],{1189:function(e,t){e.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"Low-Bandwidth user experience",path:"/2007/01/05/low-bandwidth-user-experice"}}}]}},pathContext:{tag:"caching"}}}});
+//# sourceMappingURL=path---tags-caching-ea60d004767a9b6e58d6.js.map

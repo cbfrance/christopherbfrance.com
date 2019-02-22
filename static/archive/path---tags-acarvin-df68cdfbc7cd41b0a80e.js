@@ -1,0 +1,2 @@
+webpackJsonp([79760029788440],{1159:function(a,t){a.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"Cellphones in Africa",path:"/2005/08/25/cellphones-in-africa"}}}]}},pathContext:{tag:"acarvin"}}}});
+//# sourceMappingURL=path---tags-acarvin-df68cdfbc7cd41b0a80e.js.map

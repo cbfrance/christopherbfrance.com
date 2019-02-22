@@ -1,0 +1,2 @@
+webpackJsonp([0x5e44444d1417],{1250:function(t,n){t.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"Dealing Lightning with Both Hands",path:"/2008/12/03/dealing-lightning-with-both-hands"}}}]}},pathContext:{tag:"event"}}}});
+//# sourceMappingURL=path---tags-event-de96ebbab786172ba815.js.map

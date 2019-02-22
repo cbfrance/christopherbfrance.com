@@ -1,0 +1,2 @@
+webpackJsonp([0xde93de673dcc],{1204:function(t,o){t.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"The Culture of Open Networks, or: Watch What You Tag",path:"/2007/01/20/the-culture-of-open-networks-or-watch-what-you-tag"}}}]}},pathContext:{tag:"commons"}}}});
+//# sourceMappingURL=path---tags-commons-5541346adf61fd3e225d.js.map

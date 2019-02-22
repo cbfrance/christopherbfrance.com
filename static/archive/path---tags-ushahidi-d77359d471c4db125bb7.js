@@ -1,0 +1,2 @@
+webpackJsonp([33187877788444],{1454:function(t,e){t.exports={data:{allMarkdownRemark:{totalCount:3,edges:[{node:{frontmatter:{title:"ICCM 09, the Crisis Mapping Conference",path:"/2009/09/09/iccm-09-the-crisis-mapping-conference"}}},{node:{frontmatter:{title:"Swift",path:"/2009/05/07/swift"}}},{node:{frontmatter:{title:"Ushahidi for the iPhone",path:"/2008/09/18/ushahidi-designs"}}}]}},pathContext:{tag:"ushahidi"}}}});
+//# sourceMappingURL=path---tags-ushahidi-d77359d471c4db125bb7.js.map

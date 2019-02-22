@@ -1,0 +1,2 @@
+webpackJsonp([0x7f0f204080b6],{1348:function(t,a){t.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"Digital Libraries for Education",path:"/2005/11/28/digital-libraries-for-education"}}}]}},pathContext:{tag:"nola"}}}});
+//# sourceMappingURL=path---tags-nola-3e8ba3c46df6b3dd349d.js.map

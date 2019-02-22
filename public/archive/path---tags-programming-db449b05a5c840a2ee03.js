@@ -1,0 +1,2 @@
+webpackJsonp([20956934260092],{1379:function(t,a){t.exports={data:{allMarkdownRemark:{totalCount:2,edges:[{node:{frontmatter:{title:"Visualizing Human Rights with the Google Charts API",path:"/2008/06/20/visualizing-human-rights-with-the-google-charts-api"}}},{node:{frontmatter:{title:"In Praise of Shitty Programmers",path:"/2008/02/11/in-praise-of-shitty-programmers"}}}]}},pathContext:{tag:"programming"}}}});
+//# sourceMappingURL=path---tags-programming-db449b05a5c840a2ee03.js.map

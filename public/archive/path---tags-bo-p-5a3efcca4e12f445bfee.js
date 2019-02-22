@@ -1,0 +1,2 @@
+webpackJsonp([0x5b94499090f7],{1183:function(e,t){e.exports={data:{allMarkdownRemark:{totalCount:2,edges:[{node:{frontmatter:{title:"The Unevenly Distributed Future (of Mobile Application Design), Visualized",path:"/2008/06/13/the-unevenly-distributed-future-visualized"}}},{node:{frontmatter:{title:"Poverty, Phones and User Experience Meetup",path:"/2008/04/16/poverty-phones-and-user-experience-meetup"}}}]}},pathContext:{tag:"BoP"}}}});
+//# sourceMappingURL=path---tags-bo-p-5a3efcca4e12f445bfee.js.map

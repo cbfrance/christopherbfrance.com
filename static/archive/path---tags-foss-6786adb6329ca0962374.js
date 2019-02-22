@@ -1,0 +1,2 @@
+webpackJsonp([0xa7b32c9345ce],{1257:function(t,a){t.exports={data:{allMarkdownRemark:{totalCount:3,edges:[{node:{frontmatter:{title:"Tux is dead-ish",path:"/2007/01/05/tux-is-dead-ish"}}},{node:{frontmatter:{title:'You Are The Enemy: "Information Rights" vs Open Source',path:"/2006/12/06/you-are-the-enemy"}}},{node:{frontmatter:{title:"Great Podcast: Jonathan Schwartz - The Participation Age",path:"/2006/01/25/great-podcast-jonathan-schwartz-the-participation-age"}}}]}},pathContext:{tag:"foss"}}}});
+//# sourceMappingURL=path---tags-foss-6786adb6329ca0962374.js.map

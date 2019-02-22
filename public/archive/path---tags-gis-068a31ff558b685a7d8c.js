@@ -1,0 +1,2 @@
+webpackJsonp([60404716812428],{1266:function(a,t){a.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"GIS and Humanitarian Crisis",path:"/2005/09/02/gis-and-humanitarian-crisis"}}}]}},pathContext:{tag:"GIS"}}}});
+//# sourceMappingURL=path---tags-gis-068a31ff558b685a7d8c.js.map

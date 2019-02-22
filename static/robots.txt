@@ -1,0 +1,3 @@
+User-agent: *
+
+sitemap: https://unthinkingly.com/sitemap.xml

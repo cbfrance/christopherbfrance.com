@@ -1,0 +1,2 @@
+webpackJsonp([0xb0e7b6445e49],{1262:function(e,t){e.exports={data:{allMarkdownRemark:{totalCount:3,edges:[{node:{frontmatter:{title:"The last mile wikipedia launches",path:"/2007/01/31/the-last-mile-wikipedia-launches"}}},{node:{frontmatter:{title:"Geekcorps Writeup on Newsforge",path:"/2006/12/11/geekcorps-writeup-on-newsforge"}}},{node:{frontmatter:{title:"Exporting Technology, Exporting Ideas",path:"/2005/07/21/exporting-technology-exporting-ideas"}}}]}},pathContext:{tag:"geekcorps"}}}});
+//# sourceMappingURL=path---tags-geekcorps-9c2fa5a394d96f188295.js.map

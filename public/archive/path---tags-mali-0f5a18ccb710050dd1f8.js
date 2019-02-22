@@ -1,0 +1,2 @@
+webpackJsonp([0xaae6654bf8fe],{1319:function(e,t){e.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"Geekcorps Writeup on Newsforge",path:"/2006/12/11/geekcorps-writeup-on-newsforge"}}}]}},pathContext:{tag:"mali"}}}});
+//# sourceMappingURL=path---tags-mali-0f5a18ccb710050dd1f8.js.map

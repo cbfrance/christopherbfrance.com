@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 import styled from 'styled-components'
-import { font, color, Title, PostPreview, Tag } from '../styles/shared'
+import { font, color, Title, PostPreview, Tag } from '../styles/shared-deprecated'
 import { resumeData } from '../data/resume.js'
 
 const borderWidth = '3px'

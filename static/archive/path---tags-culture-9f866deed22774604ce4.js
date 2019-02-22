@@ -1,0 +1,2 @@
+webpackJsonp([34788886813031],{1216:function(t,a){t.exports={data:{allMarkdownRemark:{totalCount:3,edges:[{node:{frontmatter:{title:"Why I moved to San Francisco",path:"/2007/12/02/move-to-san-francisco"}}},{node:{frontmatter:{title:"Tux is dead-ish",path:"/2007/01/05/tux-is-dead-ish"}}},{node:{frontmatter:{title:"Great Podcast: Jonathan Schwartz - The Participation Age",path:"/2006/01/25/great-podcast-jonathan-schwartz-the-participation-age"}}}]}},pathContext:{tag:"culture"}}}});
+//# sourceMappingURL=path---tags-culture-9f866deed22774604ce4.js.map

@@ -1,0 +1,2 @@
+webpackJsonp([56934654310124],{1314:function(t,e){t.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"Just a few ICT4D Listservs",path:"/2006/01/04/just-a-few-ict4d-listservs-3"}}}]}},pathContext:{tag:"listservs"}}}});
+//# sourceMappingURL=path---tags-listservs-3c5398066c672d80e305.js.map

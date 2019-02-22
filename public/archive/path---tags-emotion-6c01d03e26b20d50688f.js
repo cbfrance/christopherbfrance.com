@@ -1,0 +1,2 @@
+webpackJsonp([31783020961863],{1239:function(t,a){t.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"Stop Making Crappy Ads",path:"/2005/02/04/stop-making-crappy-ads"}}}]}},pathContext:{tag:"emotion"}}}});
+//# sourceMappingURL=path---tags-emotion-6c01d03e26b20d50688f.js.map

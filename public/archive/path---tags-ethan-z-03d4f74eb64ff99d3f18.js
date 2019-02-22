@@ -1,0 +1,2 @@
+webpackJsonp([0xaf4efff81ce1],{1245:function(t,e){t.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"Exporting Technology, Exporting Ideas",path:"/2005/07/21/exporting-technology-exporting-ideas"}}}]}},pathContext:{tag:"ethanZ"}}}});
+//# sourceMappingURL=path---tags-ethan-z-03d4f74eb64ff99d3f18.js.map

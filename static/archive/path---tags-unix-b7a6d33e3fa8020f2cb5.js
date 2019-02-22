@@ -1,0 +1,2 @@
+webpackJsonp([0x6b6c7ffb7458],{1452:function(t,n){t.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:'On being "unixy"',path:"/2008/05/20/on-the-quality-of-haveing-a-unixlike-interface"}}}]}},pathContext:{tag:"unix"}}}});
+//# sourceMappingURL=path---tags-unix-b7a6d33e3fa8020f2cb5.js.map

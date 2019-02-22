@@ -1,0 +1,2 @@
+webpackJsonp([0xdf60e4ad8c31],{1244:function(e,t){e.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"On Teachers Moving from Web 0.5 to Web 3.0",path:"/2006/02/16/on-teachers-moving-from-web-05-to-web-30"}}}]}},pathContext:{tag:"etech"}}}});
+//# sourceMappingURL=path---tags-etech-ae084a171468ce5a4e95.js.map

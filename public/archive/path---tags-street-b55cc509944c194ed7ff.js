@@ -1,0 +1,2 @@
+webpackJsonp([30551849763021],{1416:function(t,o){t.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"Chipchase mobile phone talk tomorrow",path:"/2008/04/11/chipchase-mobile-phone-talk-tomorrow"}}}]}},pathContext:{tag:"street"}}}});
+//# sourceMappingURL=path---tags-street-b55cc509944c194ed7ff.js.map

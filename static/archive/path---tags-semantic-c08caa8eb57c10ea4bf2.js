@@ -1,0 +1,2 @@
+webpackJsonp([8774942491912],{1403:function(e,t){e.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"Build Your Own Search Experience: Yahoo BOSS is pretty amazing",path:"/2008/08/13/build-your-own-search-experience-yahoo-boss-is-pretty-amazing"}}}]}},pathContext:{tag:"semantic"}}}});
+//# sourceMappingURL=path---tags-semantic-c08caa8eb57c10ea4bf2.js.map
