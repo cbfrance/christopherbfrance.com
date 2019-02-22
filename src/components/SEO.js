@@ -123,7 +123,7 @@ const SEO = props => {
       },
       mainEntityOfPage: URL,
     }
-    // Push current blogpost into breadcrumb list
+    // Push current portfolio post into breadcrumb list
     itemListElement.push({
       '@type': 'ListItem',
       item: {
@@ -148,7 +148,6 @@ const SEO = props => {
       <title>{title}</title>
       <meta name="description" content={description} />
       <meta name="image" content={image} />
-      <meta name="gatsby-starter" content="Gatsby Starter Minimal Blog" />
       <meta property="og:locale" content={config.ogLanguage} />
       <meta property="og:site_name" content={config.ogSiteName ? config.ogSiteName : ''} />
       <meta property="og:url" content={URL} />
