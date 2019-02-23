@@ -4,16 +4,24 @@ import Helmet from 'react-helmet'
 import styled from 'styled-components'
 import { font, color, Title, PostPreview, Tag } from '../styles/shared-deprecated'
 import { resumeData } from '../data/resume.js'
+import { Layout, Wrapper, SectionTitle } from '../components'
 
 const borderWidth = '3px'
 
-const ResumePage = styled.div`
-  color: black;
-  font: ${font.caption};
-  a {
-    color: black;
+const Content = styled.div`
+  grid-column: 2;
+  box-shadow: 0 4px 120px rgba(0, 0, 0, 0.1);
+  border-radius: 1rem;
+  padding: 3rem 6rem;
+  @media (max-width: ${props => props.theme.breakpoints.tablet}) {
+    padding: 3rem 2rem;
   }
+  @media (max-width: ${props => props.theme.breakpoints.phone}) {
+    padding: 2rem 1.5rem;
+  }
+  overflow: hidden;
 `
+
 
 const Grid = styled.div`
   @media all and (min-width: 700px) {
@@ -66,7 +74,8 @@ const Header = styled.div`
 const SubHeader = styled.div`
   font: ${font.mono};
   font-weight: 500;
-  line-height: 2rem;
+  line-height: 1.5;
+  padding-top: 0.4rem;
   color: ${color.monzaRed};
 `
 
@@ -86,7 +95,9 @@ const parsedResumeData = JSON.parse(resumeData)
 
 export default function Resume({ data }) {
   return (
-    <ResumePage>
+    <Layout>
+      <Wrapper>
+    <Content>
       <Item area="X1">
         <TitleResume>
           <PageHeader>{parsedResumeData.basics.name}</PageHeader>
@@ -148,6 +159,8 @@ export default function Resume({ data }) {
           </Description>
         </Item>
       </Grid>
-    </ResumePage>
+    </Content>
+    </Wrapper>
+    </Layout>
   )
 }

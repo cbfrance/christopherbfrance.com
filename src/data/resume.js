@@ -1,6 +1,6 @@
 export const resumeData = `{
   "basics": {
-    "name": "Chris Gerald Blow",
+    "name": "Christopher Blow France",
     "label": "Design strategist",
     "picture": "none",
     "email": "cgblow@gmail.com",
@@ -24,11 +24,38 @@ export const resumeData = `{
       {
         "network": "Github",
         "username": "chrisblow",
-        "url": "https://github.com/chrisblow"
+        "url": "https://github.com/christopherfrance"
       }
     ]
   },
   "work": [
+    {
+      "company": "The Data Guild",
+      "position": "Lead Member",
+      "website": "http://thedataguild.com.com",
+      "startDate": "Jan 2019",
+      "endDate": "Current",
+      "summary": "As a lead member of our venture studio, I am responsible for a wide range activity in a data-intensive environment. I do partnerships, business process design, business development, hiring and client services. On a daily basis I focus on prototyping new technical capacity and creating production designs — from sketching and wireframing to JavaScript, pitch decks and business plans.",
+      "highlights": []
+    },
+    {
+      "company": "The Data Guild",
+      "position": "Senior Member",
+      "website": "http://thedataguild.com.com",
+      "startDate": "July 2018",
+      "endDate": "January 2019",
+      "summary": "I worked closely with other programmers and designers to create world-class products for clients and our portfolio companies. The Guild is a venture studio focused on health, life sciences, energy and climate.",
+      "highlights": []
+    },
+    {
+      "company": "Meedan Labs",
+      "position": "Co-founder",
+      "website": "http://meedan.com",
+      "startDate": "February 2014",
+      "endDate": "July 2018",
+      "summary": "Meedan Labs is a technology services company focused on translation and communication technology. We have a goal to create more meaning in the world. We consult with large social networks such as Facebook. I operated the design process and all aspects of our user research strategy. I remain active in an advisory capacity.",
+      "highlights": []
+    },
     {
       "company": "Meedan",
       "position": "Design Director",
@@ -107,7 +134,7 @@ export const resumeData = `{
     },
     {
       "company": "The North Carolina Law Review",
-      "position": "Web Developer, Office Manager",
+      "position": "Web Developer",
       "website": "http://scholarship.law.unc.edu/nclr/",
       "startDate": "August 2001",
       "endDate": "December 2003",
@@ -179,7 +206,7 @@ export const resumeData = `{
     }
   ],
   "speaking": {
-    "summary": "In the last few years I've given a variety of presentations at events like RightsCon, Global Fact, the Online News Association, DrupalCon, the International CrisisMappers Conference, SXSW, the African News Innovation Challenge, the Nonprofit Technology Conference, the NYU Interactive Telecommunications Program and the University of Hawaii."
+    "summary": "In the last few years I’ve given a variety of presentations at events like RightsCon, Global Fact, the Online News Association, DrupalCon, the International CrisisMappers Conference, SXSW, the African News Innovation Challenge, the Nonprofit Technology Conference, the NYU Interactive Telecommunications Program and Stanford."
   }
 }
 `
