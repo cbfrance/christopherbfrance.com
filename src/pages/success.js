@@ -49,7 +49,7 @@ const Success = () => (
       </Header>
       <Content>
         <h1>Your message was sent!</h1>
-        <p>I'll answer your request as quick as possible.</p>
+        <p>I'll answer your request as quickly as possible.</p>
       </Content>
     </Wrapper>
   </Layout>

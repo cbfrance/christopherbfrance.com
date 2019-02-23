@@ -28,6 +28,7 @@ module.exports = {
       resolve: 'gatsby-mdx',
       options: {
         gatsbyRemarkPlugins: [
+          {resolve: 'gatsby-remark-copy-linked-files'},
           {
             resolve: 'gatsby-remark-external-links',
             options: {
@@ -54,6 +55,7 @@ module.exports = {
         ],
       },
     },
+  
     'gatsby-plugin-catch-links',
     'gatsby-plugin-sitemap',
     'gatsby-plugin-lodash',
