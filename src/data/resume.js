@@ -61,7 +61,7 @@ export const resumeData = `{
       "position": "Design Director",
       "website": "http://meedan.com",
       "startDate": "March 2016",
-      "endDate": "Current",
+      "endDate": "July 2018",
       "summary": "I created graphic design, front-end code, design systems and strategies to support a product team creating new media projects.",
       "highlights": ["Launched award-winning product", "Managed designers and design process", "Developed style guides, defined best practices"]
     },

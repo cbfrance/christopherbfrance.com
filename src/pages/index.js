@@ -3,7 +3,36 @@ import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
 import styled from 'styled-components'
 
-import { Layout, Article, Wrapper, Button, SectionTitle } from '../components'
+import { Layout, Article, Wrapper, Button, SectionTitle } from 'components'
+
+import { Shaders, Node, GLSL } from 'gl-react'
+import { Surface } from 'gl-react-dom'
+
+const shaders = Shaders.create({
+  helloBlue: {
+    frag: GLSL`
+    precision highp float;
+    varying vec2 uv;
+    uniform float blue;
+    void main() {
+      gl_FragColor = vec4(uv.x, uv.y, blue, 1.0);
+    }`,
+  },
+})
+
+class HelloBlue extends React.Component {
+  render() {
+    const { blue } = this.props
+    return <Node shader={shaders.helloBlue} uniforms={{ blue }} />
+  }
+}
+
+const StyledSurface = styled(Surface)`
+  width: 100vh;
+  height: 100vh;
+  position: fixed;
+  z-index: -1;
+`
 
 const Content = styled.div`
   grid-column: 2;
@@ -43,14 +72,18 @@ const Hero = styled.div`
 
 const IndexPage = ({
   data: {
-    allMdx: { edges: postEdges }
-  }
+    allMdx: { edges: postEdges },
+  },
 }) => (
   <Layout>
+    <StyledSurface width="100%" height="100%">
+      <HelloBlue />
+    </StyledSurface>
     <Wrapper>
       <Hero>
         <h1>Hi.</h1>
         <p>I’m Christopher Blow France.</p>
+
         <Link to="/contact">
           <Button big>
             <svg
@@ -88,9 +121,9 @@ export default IndexPage
 IndexPage.propTypes = {
   data: PropTypes.shape({
     allMdx: PropTypes.shape({
-      edges: PropTypes.array.isRequired
-    })
-  }).isRequired
+      edges: PropTypes.array.isRequired,
+    }),
+  }).isRequired,
 }
 
 export const IndexQuery = graphql`
