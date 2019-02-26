@@ -8,25 +8,6 @@ import { Layout, Article, Wrapper, Button, SectionTitle } from 'components'
 import { Shaders, Node, GLSL } from 'gl-react'
 import { Surface } from 'gl-react-dom'
 
-const shaders = Shaders.create({
-  helloBlue: {
-    frag: GLSL`
-    precision highp float;
-    varying vec2 uv;
-    uniform float blue;
-    void main() {
-      gl_FragColor = vec4(uv.x, uv.y, blue, 1.0);
-    }`,
-  },
-})
-
-class HelloBlue extends React.Component {
-  render() {
-    const { blue } = this.props
-    return <Node shader={shaders.helloBlue} uniforms={{ blue }} />
-  }
-}
-
 const StyledSurface = styled(Surface)`
   width: 100vh;
   height: 100vh;
@@ -70,14 +51,73 @@ const Hero = styled.div`
   }
 `
 
+const shaders = Shaders.create({
+  blue: {
+    frag: GLSL`
+    precision highp float;
+    varying vec2 uv;
+    uniform float blue;
+    void main() {
+      gl_FragColor = vec4(uv.x, uv.y, blue, 1.0);
+    }`,
+  },
+})
+
+class HelloBlue extends React.Component {
+  render() {
+    const { blue } = this.props
+    return <Node shader={shaders.helloBlue} uniforms={{ blue }} />
+  }
+}
+
+// Simple animation loop
+// https://github.com/gre/gl-react/issues/178
+// eslint-disable-next-line react/no-multi-comp
+export class GradientsLoop extends React.Component {
+  animLoop = null
+
+  speed = 10
+
+  state = {
+    time: 0,
+  }
+
+  componentDidMount() {
+    this.loop()
+  }
+
+  componentWillUnmount() {
+    cancelAnimationFrame(this.animLoop)
+  }
+
+  loop = () => {
+    this.setState({
+      time: this.state.time + this.speed,
+    })
+    this.animLoop = requestAnimationFrame(this.loop)
+  }
+
+  render() {
+    const { time } = this.state
+    return (
+      <Node
+        shader={shaders.blue}
+        uniforms={{
+          blue: Math.cos(0.002 * time),
+        }}
+      />
+    )
+  }
+}
+
 const IndexPage = ({
   data: {
     allMdx: { edges: postEdges },
   },
 }) => (
   <Layout>
-    <StyledSurface width="100%" height="100%">
-      <HelloBlue />
+    <StyledSurface width={100} height={100}>
+      <GradientsLoop />
     </StyledSurface>
     <Wrapper>
       <Hero>
