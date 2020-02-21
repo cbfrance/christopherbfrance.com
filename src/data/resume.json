@@ -1,13 +1,12 @@
-export const resumeData = `{
+{
   "basics": {
     "name": "Christopher Blow France",
-    "label": "Design strategist",
-    "picture": "none",
-    "email": "cgblow@gmail.com",
+    "label": "Designer, programmer, strategist",
+    "email": "christopher@lightfield.ag",
     "phone": "(415) 309-7900",
-    "website": "https://unthinkingly.com",
+    "linkedin": "https://www.linkedin.com/in/christopher-blow-france-1b7774100/",
     "summary":
-      "Hello, I’m Chris. I’ve been a professional designer since 2003. I love being expressive in code to rapidly iterate. My work typically involves themes of international collaboration. I am passionate about human-centered design strategies for the improvement of civil society. I’ve designed large products and led accounts with clients such as Sony, Harvard Business Review, Facebook, Cambridge University and The Data Guild.",
+      "Hello, I’m Christopher. I am a designer, programmer and usability researcher. I am passionate about strategies for the improvement of civil society and environmental resilience. I’ve helped implement large digital products with organizations such as Sony, Facebook, Cambridge University and The Data Guild.",
     "location": {
       "address": "none",
       "postalCode": "94611",
@@ -23,29 +22,38 @@ export const resumeData = `{
       },
       {
         "network": "Github",
-        "username": "chrisblow",
+        "username": "christopherfrance",
         "url": "https://github.com/christopherfrance"
+      },
+      {
+        "network": "Linkedin",
+        "username": "christopher-blow-france",
+        "url": "https://www.linkedin.com/in/christopher-blow-france-1b7774100/"
       }
     ]
   },
   "work": [
     {
-      "company": "The Data Guild",
-      "position": "Lead Member",
-      "website": "http://thedataguild.com.com",
-      "startDate": "Jan 2019",
+      "company": "LightField",
+      "position": "Co-founder and Partner",
+      "website": "https://lightfield.ag",
+      "startDate": "March 2019",
       "endDate": "Current",
-      "summary": "As a lead member of our venture studio, I am responsible for a wide range activity in a data-intensive environment. I do partnerships, business process design, business development, hiring and client services. On a daily basis I focus on prototyping new technical capacity and creating production designs — from sketching and wireframing to JavaScript, pitch decks and business plans.",
-      "highlights": []
+      "summary": " LightField is using design and data strategy for regenerative agriculture, with a focus on innovation in financial products serving this sector. We are developing business partnerships around our data products with a goal of increasing the rate of regenerative transition through increased investment opportunities based on improved soil health.",
+      "highlights": ["Bootstrapping technology company"]
     },
     {
       "company": "The Data Guild",
-      "position": "Senior Member",
-      "website": "http://thedataguild.com.com",
+      "position": "Lead Member",
+      "website": "http://thedataguild.com",
       "startDate": "July 2018",
-      "endDate": "January 2019",
-      "summary": "I worked closely with other programmers and designers to create world-class products for clients and our portfolio companies. The Guild is a venture studio focused on health, life sciences, energy and climate.",
-      "highlights": []
+      "endDate": "Current",
+      "summary": "As a lead member of our venture studio, I am responsible for a wide range activity in a data-intensive environment. I do partnerships, business process design, business development, hiring and client services. My focus is prototyping new technical capacity and creating production designs — from sketching and wireframing to JavaScript, pitch decks and business plans.",
+      "highlights": [
+        "Developed research tools for evaluating social impact of startup concepts", 
+        "Led product research and development for portfolio companies", 
+        "Led a technical design, branding and profile effort for the Guild"
+      ]
     },
     {
       "company": "Meedan Labs",
@@ -54,7 +62,11 @@ export const resumeData = `{
       "startDate": "February 2014",
       "endDate": "July 2018",
       "summary": "Meedan Labs is a technology services company focused on translation and communication technology. We have a goal to create more meaning in the world. We consult with large social networks such as Facebook. I operated the design process and all aspects of our user research strategy. I remain active in an advisory capacity.",
-      "highlights": []
+      "highlights": [
+        "Led large user research project with Facebook", 
+        "Cofounded successful digital product consulting company", 
+        "Led frontend code, branding and design efforts"
+      ]
     },
     {
       "company": "Meedan",
@@ -63,7 +75,11 @@ export const resumeData = `{
       "startDate": "March 2016",
       "endDate": "July 2018",
       "summary": "I created graphic design, front-end code, design systems and strategies to support a product team creating new media projects.",
-      "highlights": ["Launched award-winning product", "Managed designers and design process", "Developed style guides, defined best practices"]
+      "highlights": [
+        "Launched award-winning product",
+        "Managed designers and design process",
+        "Developed style guides, defined best practices"
+      ]
     },
     {
       "company": "Meedan",
@@ -73,9 +89,8 @@ export const resumeData = `{
       "endDate": "March 2016",
       "summary": "I developed user experience research methods appropriate to a nimble product development process.",
       "highlights": [
-        "Managed a lab user research project for a large Facebook project",
-        "Managed a user research process for Cambridge University and other clients",
-        "Developed user remote research process"
+        "Managed user research process for Cambridge University and other clients",
+        "Defined a user remote research process"
       ]
     },
     {
@@ -139,7 +154,7 @@ export const resumeData = `{
       "startDate": "August 2001",
       "endDate": "December 2003",
       "summary": "I helped create a custom database for the Law Review, and I managed their website.",
-      "highlights": [" ", " "]
+      "highlights": ["Created back-office database to optimize internal process."]
     }
   ],
   "volunteer": [
@@ -162,51 +177,22 @@ export const resumeData = `{
       "institution": "University of North Carolina at Chapel Hill",
       "area": "Mass Communications",
       "studyType": "Bachelor of Arts",
-      "startDate": "June 2011",
-      "endDate": "January 2014"
+      "startDate": "June 2001",
+      "endDate": "January 2004"
     },
     {
       "institution": "University of North Carolina at Asheville",
       "area": "Humanities, music, literature",
-      "studyType": "Coursework",
+      "studyType": "Bachelor of Arts",
       "startDate": "August 1998",
       "endDate": "December 2001"
     }
   ],
-  "awards": [
-    {
-      "title": "Winner: Electionland • Planned News/Events (Large Newsroom)",
-      "date": "2017",
-      "awarder": "Online Journalism Award",
-      "summary": "Collaborative project for U.S. election media monitoring using Check."
-    },
-    {
-      "title": "Winner: CrossCheck • Planned News/Events (Small Newsroom),",
-      "date": "2017",
-      "awarder": "Online Journalism Award",
-      "summary": "Collaborative project for French election media monitoring using Check."
-    },
-    {
-      "title": "Winner: Check",
-      "date": "2017",
-      "awarder": "Innovate Africa Innovation Challenge",
-      "summary": "Collaborative workbench for the regional PesaCheck fact-checking network to improve news verification in three East African countries."
-    },
-    {
-      "title": "Winner: Checkdesk",
-      "date": "2014",
-      "awarder": "Knight News Challenge (Prototype)",
-      "summary": "Prototype funding for a tool that helps journalists quickly verify the accuracy of online media in deadline situations."
-    },
-    {
-      "title": "Winner: Checkdesk",
-      "date": "2012",
-      "awarder": "International Press Institute News Innovation Contest",
-      "summary": "Collaborative Workbench for Fact Checking Citizen Media."
-    }
-  ],
+  "awards": {
+    "summary": "A number of projects that I worked on have won awards recently, an Online Journalism Award (for Electionland, one of the largest journalistic collaborations in the U.S.), the International Press Institute News Innovation Contest, the Innovate Africa Innovation Challenge and the Knight News Challenge for Prototypes."
+  },
   "speaking": {
     "summary": "In the last few years I’ve given a variety of presentations at events like RightsCon, Global Fact, the Online News Association, DrupalCon, the International CrisisMappers Conference, SXSW, the African News Innovation Challenge, the Nonprofit Technology Conference, the NYU Interactive Telecommunications Program and Stanford."
   }
 }
-`
+

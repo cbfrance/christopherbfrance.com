@@ -183,6 +183,12 @@ const GlobalStyle = createGlobalStyle`
   [hidden] {
     display: none !important;
   }
+
+  @media print {
+    body {
+      background-color: transparent!important;
+    }
+  }
 `
 
 const Footer = styled.footer`
@@ -208,7 +214,7 @@ const Layout = ({ children, customSEO }) => (
           {!customSEO && <SEO buildTime={data.site.buildTime} />}
           <GlobalStyle />
           {children}
-          <Footer>
+          {/* <Footer>
             Version 11 &copy; 2004 — 2019 by Christopher Blow France
             <br />
             <a href="https://github.com/christopherfrance">
@@ -216,7 +222,7 @@ const Layout = ({ children, customSEO }) => (
             </a>{' '}
             <br />
             <span>Last build: {data.site.buildTime}</span>
-          </Footer>
+          </Footer> */}
         </React.Fragment>
       </ThemeProvider>
     )}
@@ -227,9 +233,9 @@ export default Layout
 
 Layout.propTypes = {
   children: PropTypes.oneOfType([PropTypes.array, PropTypes.node]).isRequired,
-  customSEO: PropTypes.bool
+  customSEO: PropTypes.bool,
 }
 
 Layout.defaultProps = {
-  customSEO: false
+  customSEO: false,
 }

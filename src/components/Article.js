@@ -30,43 +30,29 @@ const Title = styled.h2`
   }
 `
 
-const Initiale = styled.span`
-  position: absolute;
-  font-size: 7rem;
-  transform: translate(-50%, -50%);
-  opacity: 0.08;
-  user-select: none;
-  z-index: -1;
-`
-
 const Excerpt = styled.p`
   grid-column: -1 / 1;
   margin-top: 1rem;
   margin-bottom: 1rem;
 `
 
-const Article = ({ title, date, excerpt, slug, timeToRead, categories }) => {
-  const firstChar = title.charAt(0)
-
-  return (
-    <Post>
-      <Title>
-        <Initiale>{firstChar}</Initiale>
-        <Link to={slug}>{title}</Link>
-      </Title>
-      <Subline>
-        {date} &mdash; {timeToRead} Min Read &mdash; In{' '}
-        {categories.map((cat, i) => (
-          <React.Fragment key={cat}>
-            {!!i && ', '}
-            <Link to={`/categories/${kebabCase(cat)}`}>{cat}</Link>
-          </React.Fragment>
-        ))}
-      </Subline>
-      <Excerpt>{excerpt}</Excerpt>
-    </Post>
-  )
-}
+const Article = ({ title, date, excerpt, slug, timeToRead, categories }) => (
+  <Post>
+    <Title>
+      <Link to={slug}>{title}</Link>
+    </Title>
+    <Subline>
+      {date} &mdash; {timeToRead} Min Read &mdash; In{' '}
+      {categories.map((cat, i) => (
+        <React.Fragment key={cat}>
+          {!!i && ', '}
+          <Link to={`/categories/${kebabCase(cat)}`}>{cat}</Link>
+        </React.Fragment>
+      ))}
+    </Subline>
+    <Excerpt>{excerpt}</Excerpt>
+  </Post>
+)
 
 export default Article
 

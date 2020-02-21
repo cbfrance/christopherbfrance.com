@@ -144,9 +144,9 @@ const IndexPage = ({
   },
 }) => (
   <Layout>
-    <StyledSurface width={700} height={100}>
+    {/* <StyledSurface width={700} height={100}>
       <GradientsLoop />
-    </StyledSurface>
+    </StyledSurface> */}
     <Wrapper>
       <Hero>
         <h1>Hi.</h1>
