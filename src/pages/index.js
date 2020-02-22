@@ -6,47 +6,29 @@ import christopherImage from 'assets/christopher.jpg'
 import { Row } from 'styles/styles'
 import theme from 'theme'
 
-import { Layout, Wrapper, SectionTitle } from 'components'
+import { Layout, SectionTitle } from 'components'
 
 const Content = styled.div`
-  grid-column: 2;
   box-shadow: 0 4px 120px rgba(0, 0, 0, 0.1);
   border-radius: 1rem;
-
-  @media (max-width: ${props => props.theme.breakpoints.tablet}) {
-    padding: 3rem 2rem;
-  }
-  @media (max-width: ${props => props.theme.breakpoints.phone}) {
-    padding: 2rem 1.5rem;
-  }
   overflow: hidden;
+  max-width: 1000px;
+  margin: 0 auto;
 `
 
 const ContentInner = styled.div`
   padding: 3rem 6rem;
 `
 
-const PhotoFeatureStyles = styled.div`
+const PhotoFeatureStyles = styled(Row)`
   border-top-left-radius: 10px;
-  grid-column: 2;
   overflow: hidden;
   text-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
-
   background-color: white;
   margin-bottom: 3rem;
 
-  @media (max-width: ${props => props.theme.breakpoints.phone}) {
-    padding: 2rem 1rem 4rem 1rem;
-  }
-
-  h1 {
-    font-size: 3rem;
-    @media (max-width: ${props => props.theme.breakpoints.phone}) {
-      font-size: 1.25rem;
-    }
-    @media (max-width: ${props => props.theme.breakpoints.tablet}) {
-      font-size: 1.45rem;
-    }
+  @media all and (max-width: ${theme.breakpoints[1]}) {
+    padding: 3rem 6rem;
   }
 `
 
@@ -60,7 +42,7 @@ const PhotoBackground = styled.div`
 
 const PhotoFeature = ({ photo, children }) => (
   <PhotoFeatureStyles>
-    <Row>
+    <Row columnOnMobile>
       <PhotoBackground photo={photo} />
       {children}
     </Row>
@@ -76,7 +58,7 @@ const IndexPage = ({
     {/* <StyledSurface width={700} height={100}>
       <GradientsLoop />
     </StyledSurface> */}
-    <Wrapper style={{ marginTop: '3rem' }}>
+    <div style={{ marginTop: '3rem' }}>
       <Content>
         <PhotoFeature photo={christopherImage}>
           <div>
@@ -88,11 +70,11 @@ const IndexPage = ({
           <p>
             I lead teams, build companies and create award-winning digital
             applications. My goal is to expand human capacity through sensing
-            and sensemaking. My process focuses on design research, prototyping
-            and market testing. I have two decades' experience in design and
-            digital strategy, with an emphasis on social and civic technology. I
-            am currently focused on finding world-positive paths in the
-            commercial sector.
+            and sensemaking. My process utilizes design research, rapid
+            prototyping and market testing. I have two decades' experience in
+            design and digital strategy, with an emphasis on social and civic
+            technology. I am now focused on data strategy, climate and finding
+            world-positive paths in the commercial sector.
           </p>
 
           <SectionTitle>Work</SectionTitle>
@@ -145,7 +127,7 @@ const IndexPage = ({
         ))} */}
         </ContentInner>
       </Content>
-    </Wrapper>
+    </div>
   </Layout>
 )
 
