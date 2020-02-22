@@ -2,24 +2,17 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
 import styled from 'styled-components'
+import christopherImage from 'assets/christopher.jpg'
+import { Row } from 'styles/styles'
+import theme from 'theme'
 
-import { Layout, Article, Wrapper, Button, SectionTitle } from 'components'
-
-import { Shaders, Node, GLSL } from 'gl-react'
-import { Surface } from 'gl-react-dom'
-
-const StyledSurface = styled(Surface)`
-  width: 100vh;
-  height: 100vh;
-  position: fixed;
-  z-index: -1;
-`
+import { Layout, Wrapper, SectionTitle } from 'components'
 
 const Content = styled.div`
   grid-column: 2;
   box-shadow: 0 4px 120px rgba(0, 0, 0, 0.1);
   border-radius: 1rem;
-  padding: 3rem 6rem;
+
   @media (max-width: ${props => props.theme.breakpoints.tablet}) {
     padding: 3rem 2rem;
   }
@@ -29,19 +22,25 @@ const Content = styled.div`
   overflow: hidden;
 `
 
-const Hero = styled.div`
+const ContentInner = styled.div`
+  padding: 3rem 6rem;
+`
+
+const PhotoFeatureStyles = styled.div`
+  border-top-left-radius: 10px;
   grid-column: 2;
-  padding: 3rem 2rem 6rem 2rem;
+  overflow: hidden;
   text-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
-  color: ${props => props.theme.colors.grey.dark};
+
+  background-color: white;
+  margin-bottom: 3rem;
 
   @media (max-width: ${props => props.theme.breakpoints.phone}) {
     padding: 2rem 1rem 4rem 1rem;
   }
 
-  p {
-    font-size: 1.68rem;
-    margin-top: -1rem;
+  h1 {
+    font-size: 3rem;
     @media (max-width: ${props => props.theme.breakpoints.phone}) {
       font-size: 1.25rem;
     }
@@ -51,92 +50,22 @@ const Hero = styled.div`
   }
 `
 
-const shaders = Shaders.create({
-  test: {
-    frag: GLSL`
-    #ifdef GL_ES
-    precision mediump float;
-    #endif
+const PhotoBackground = styled.div`
+  background-image: url(${props => props.photo});
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 350px;
+  width: 400px;
+`
 
-    uniform float time;
-    uniform vec2 resolution;
-
-    vec2 rot(vec2 p, float a) {
-      float s = sin(a);
-      float c = cos(a);
-
-      return mat2(c, s, -s, c)*p;
-    }
-
-    void main( void ) {
-      vec2 p = (2.0*gl_FragCoord.xy - resolution)/resolution.y;
-
-      float s = 1000.0;
-      float c = 1000.0;
-      float z = 1000.0;
-
-      for(int i = 0; i < 4; i++) {
-        p = abs(p)/dot(p, p) - vec2(0.9, 0.7);
-        p = rot(p.yx, time);
-        s = min(s, abs(p.y));
-        c = min(c, abs(p.x));
-        if(i < 5) z = min(z, length(p));
-      }
-
-      vec3 col = mix(vec3(0.6, 0.34, 0.13), vec3(1.0), s);
-      col = mix(col, vec3(2.0), smoothstep(0.3, 1.0, z));
-
-
-
-      col=vec3(.020/(c*c))*col*col*col-0.4;
-      col = mix(col, vec3(18, 8, 0), smoothstep(0.1, 1.0, c))/4.0;
-      gl_FragColor = vec4(col, 1);
-
-    }
-`,
-  },
-})
-
-// Simple animation loop
-// https://github.com/gre/gl-react/issues/178
-// eslint-disable-next-line react/no-multi-comp
-export class GradientsLoop extends React.Component {
-  animLoop = null
-
-  speed = 0.001
-
-  state = {
-    time: 0,
-  }
-
-  componentDidMount() {
-    this.loop()
-  }
-
-  componentWillUnmount() {
-    cancelAnimationFrame(this.animLoop)
-  }
-
-  loop = () => {
-    this.setState({
-      time: this.state.time + this.speed,
-    })
-    this.animLoop = requestAnimationFrame(this.loop)
-  }
-
-  render() {
-    const { time } = this.state
-    return (
-      <Node
-        shader={shaders.test}
-        uniforms={{
-          time,
-          resolution: [1200, 300],
-        }}
-      />
-    )
-  }
-}
+const PhotoFeature = ({ photo, children }) => (
+  <PhotoFeatureStyles>
+    <Row>
+      <PhotoBackground photo={photo} />
+      {children}
+    </Row>
+  </PhotoFeatureStyles>
+)
 
 const IndexPage = ({
   data: {
@@ -147,27 +76,62 @@ const IndexPage = ({
     {/* <StyledSurface width={700} height={100}>
       <GradientsLoop />
     </StyledSurface> */}
-    <Wrapper>
-      <Hero>
-        <h1>Hi.</h1>
-        <p>I’m Christopher Blow France.</p>
-
-        <Link to="/contact">
-          <Button big>
-            <svg
-              width="1792"
-              height="1792"
-              viewBox="0 0 1792 1792"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path d="M1764 11q33 24 27 64l-256 1536q-5 29-32 45-14 8-31 8-11 0-24-5l-453-185-242 295q-18 23-49 23-13 0-22-4-19-7-30.5-23.5t-11.5-36.5v-349l864-1059-1069 925-395-162q-37-14-40-55-2-40 32-59l1664-960q15-9 32-9 20 0 36 11z" />
-            </svg>
-            Contact
-          </Button>
-        </Link>
-      </Hero>
+    <Wrapper style={{ marginTop: '3rem' }}>
       <Content>
-        <SectionTitle>Portfolio</SectionTitle>
+        <PhotoFeature photo={christopherImage}>
+          <div>
+            <h1>Christopher France</h1>
+            <h4>Designer, builder, strategist</h4>
+          </div>
+        </PhotoFeature>
+        <ContentInner>
+          <p>
+            I lead teams, build companies and create award-winning digital
+            applications. My goal is to expand human capacity through sensing
+            and sensemaking. My process focuses on design research, prototyping
+            and market testing. I have two decades' experience in design and
+            digital strategy, with an emphasis on social and civic technology. I
+            am currently focused on finding world-positive paths in the
+            commercial sector.
+          </p>
+
+          <SectionTitle>Work</SectionTitle>
+
+          <ul>
+            <li>
+              <a href="https://lightfield.ag">LightField</a> — Co-founder at
+              climate data startup.
+            </li>
+            <li>
+              <a href="https://thedataguild.com">The Data Guild</a> — Lead
+              member at startup studio in San Francisco.
+            </li>
+            <li>
+              <a href="https://meedan.com">Meedan</a> — Design director of
+              international technology company.
+            </li>
+            <li>
+              <a href="https://contain.ag">Contain</a> — Technology lead at
+              fintech startup.
+            </li>
+            <li>
+              <a href="https://www.litterati.org/">Healthmade</a> — Creative
+              technologist at healthcare design firm.
+            </li>
+            <li>
+              <a href="https://www.healthmadedesign.com/">Litterati</a> — Data
+              strategist at environmental startup.
+            </li>
+            <li>
+              <a href="https://ethn.io/">Ethnio</a> — Rails developer for user
+              experience research product.
+            </li>
+            <li>
+              <a href="https://ushahidi.com/">Ushahidi</a> — Design advisor for
+              civic media platform.
+            </li>
+          </ul>
+          {/* <SectionTitle>Technical writing</SectionTitle>
         {postEdges.map(post => (
           <Article
             title={post.node.frontmatter.title}
@@ -178,7 +142,8 @@ const IndexPage = ({
             categories={post.node.frontmatter.categories}
             key={post.node.fields.slug}
           />
-        ))}
+        ))} */}
+        </ContentInner>
       </Content>
     </Wrapper>
   </Layout>
