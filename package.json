@@ -46,7 +46,8 @@
     "rebass": "^3.2.2",
     "styled-components": "^4.4.1",
     "typeface-bitter": "^0.0.71",
-    "typeface-open-sans": "^0.0.54"
+    "typeface-open-sans": "^0.0.54",
+    "typeface-spectral": "0.0.72"
   },
   "keywords": [
     "gatsby",

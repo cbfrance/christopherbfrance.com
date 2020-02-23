@@ -1,106 +1,46 @@
-import chroma from 'chroma-js'
+import { lighten } from 'polished'
 
-export default {
-  breakpoints: ['500px', '760px', '1200px'],
-  fontSizes: [13, 15.16, 17.33, 21.13, 25.36, 35.93, 50.72, 60, 101.44],
-  fontWeights: [100, 200, 300, 400, 500, 600, 700, 800, 900],
-  lineHeights: {
-    solid: 1,
-    title: 1.25,
-    copy: 1.7,
+const blue = '#0000ff'
+const colors = {
+  primary: blue, // Color for buttons or links
+  primaryLight: lighten(0.05, blue),
+  bg: 'white', // Background color
+  grey: {
+    dark: 'rgba(0, 0, 0, 0.9)',
+    default: 'rgba(0, 0, 0, 0.7)',
+    light: 'rgba(0, 0, 0, 0.5)',
+    ultraLight: 'rgba(0, 0, 0, 0.25)',
   },
-  letterSpacings: {
-    normal: 'normal',
-    tracked: '0.1em',
-    tight: '-0.05em',
-    mega: '0.25em',
-  },
-  fonts: {
-    display: "'Work Sans', times, serif",
-    body: `'HK Grotesk', 'Roboto', "Segoe UI", 'Helvetica Neue', 'Helvetica', sans-serif`,
-    condensed: `"Roboto Condensed", 'Roboto', "Franklin Gothic Medium", Tahoma, sans-serif`,
-    mono: `"SF Mono", "Roboto Mono", "Monaco", "Inconsolata", "Fira Mono", "Droid Sans Mono", "Source Code Pro", monospace;`,
-  },
-  borders: [
-    0,
-    '1px solid',
-    '2px solid',
-    '4px solid',
-    '8px solid',
-    '16px solid',
-    '32px solid',
-  ],
-  radii: [0, 2, 4, 16, 9999, '100%'],
-
-  heights: [16, 32, 64, 128, 256],
-  maxWidths: [16, 32, 64, 128, 256, 512, 768, 1024, 1536],
-  minWidths: [16, 32, 64, 128, 256, 512, 768, 1024, 1536],
-  colors: {
-    black: '#000',
-    nearBlack: '#111',
-    darkGray: '#333',
-    midGray: '#555',
-    gray: ' #777',
-    gold: '#FFDC44',
-    orange: '#eeac51',
-    silver: '#999',
-    lightSilver: '#aaa',
-    moonGray: '#ccc',
-    lightGray: '#eee',
-    nearWhite: '#f4f4f4',
-    white: '#fff',
-    containGreen: '#72D18D',
-    transparent: 'transparent',
-    darkGuildBlue: 'hsl(208, 60%, 35%)',
-    guildBlue: 'hsl(221, 92%, 58%)',
-    guildYellow: 'hsl(56, 100%, 50%)',
-    guildGreen: 'hsl(97, 46%, 30%)',
-    guildPurple: 'hsl(272, 100%, 26%)',
-    ledPink: 'hsl(316, 53%, 45%)',
-    guildLightPurple: chroma('hsl(272, 100%, 26%)')
-      .brighten(1)
-      .hex(),
-    guildDarkPurple: chroma('hsl(272, 100%, 26%)')
-      .darken(1.5)
-      .hex(),
-    guildRed: 'hsl(16, 100%, 50%)',
-    blue: 'hsl(221, 92%, 58%)',
-    blacks: [
-      'rgba(0,0,0,.0125)',
-      'rgba(0,0,0,.025)',
-      'rgba(0,0,0,.05)',
-      'rgba(0,0,0,.1)',
-      'rgba(0,0,0,.2)',
-      'rgba(0,0,0,.3)',
-      'rgba(0,0,0,.4)',
-      'rgba(0,0,0,.5)',
-      'rgba(0,0,0,.6)',
-      'rgba(0,0,0,.7)',
-      'rgba(0,0,0,.8)',
-      'rgba(0,0,0,.9)',
-    ],
-    whites: [
-      'rgba(255,255,255,.0125)',
-      'rgba(255,255,255,.025)',
-      'rgba(255,255,255,.05)',
-      'rgba(255,255,255,.1)',
-      'rgba(255,255,255,.2)',
-      'rgba(255,255,255,.3)',
-      'rgba(255,255,255,.4)',
-      'rgba(255,255,255,.5)',
-      'rgba(255,255,255,.6)',
-      'rgba(255,255,255,.7)',
-      'rgba(255,255,255,.8)',
-      'rgba(255,255,255,.9)',
-    ],
-    vendor: '#72d18d',
-    lender: '#aa5aa6',
-    leaseApplication: '#FFDC44',
-  },
-  shadows: [
-    '0 9px 28px 0 rgba(0, 0, 0, 0.1)',
-    '0 9px 28px 0 rgba(0, 0, 0, 0.15)',
-  ],
-  // space: [0, 4, 8, 16, 32, 64, 128, 256, 512],
-  space: value => value * 8,
+  white: 'white',
 }
+
+const transitions = {
+  normal: '0.3s',
+}
+
+const fontSize = {
+  small: '0.9rem',
+}
+
+const fontFamily = {
+  serif: `spectral, times, georgia, serif`,
+  sans: `-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica', 'Arial', sans-serif`,
+  mono: `'SF Mono', 'Monaco', 'Inconsolata', 'Fira Mono', 'Droid Sans Mono', 'Source Code Pro', monospace`,
+}
+
+const breakpoints = {
+  tablet: '1200px',
+  phone: '600px',
+}
+
+const theme = {
+  colors,
+  transitions,
+  fontSize,
+  breakpoints,
+  fontFamily,
+  maxWidth: '1000px',
+  baseFontSize: '18px',
+}
+
+export default theme

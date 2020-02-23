@@ -2,9 +2,8 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { StaticQuery, graphql } from 'gatsby'
 import styled, { ThemeProvider, createGlobalStyle } from 'styled-components'
-
+import theme from 'theme'
 import SEO from './SEO'
-import theme from '../../config/theme'
 
 const GlobalStyle = createGlobalStyle`
   *,
@@ -22,9 +21,11 @@ const GlobalStyle = createGlobalStyle`
     background: ${props => props.theme.colors.primary};
   }
   html {
-    font-family: ${props => props.theme.fontFamily.sansSerif};
-    font-size: ${props => props.theme.baseFontSize};
+    /* font-family: ${props => props.theme.fontFamily.sansSerif}; */
+    font-family: ${theme.fontFamily.sans};
+
     h1 {
+    font-family: ${theme.fontFamily.serif};
       font-size: 3.052rem;
     }
     h2 {
@@ -212,7 +213,7 @@ const Layout = ({ children, customSEO }) => (
       <ThemeProvider theme={theme}>
         <React.Fragment>
           {!customSEO && <SEO buildTime={data.site.buildTime} />}
-          <GlobalStyle />
+          <GlobalStyle theme={theme} />
           {children}
           {/* <Footer>
             Version 11 &copy; 2004 — 2019 by Christopher Blow France

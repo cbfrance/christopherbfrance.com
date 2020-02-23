@@ -1,4 +1,6 @@
 import styled from 'styled-components'
+import 'typeface-spectral' // eslint-disable-line
+// import 'typeface-corben' // eslint-disable-line
 
 import theme from 'theme'
 
@@ -11,7 +13,7 @@ export const Row = styled.div`
     typeof props.flexWrap !== 'undefined' ? props.flexWrap : 'nowrap'};
 
   & > * {
-    margin-right: ${space(2)}px;
+    margin-right: 1rem;
     &:last-child {
       margin-right: 0;
     }

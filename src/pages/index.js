@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
 import styled from 'styled-components'
-import christopherImage from 'assets/christopher.jpg'
+import christopherImage from 'assets/christopher2.png'
 import { Row } from 'styles/styles'
 import theme from 'theme'
 
@@ -68,13 +68,13 @@ const IndexPage = ({
         </PhotoFeature>
         <ContentInner>
           <p>
-            I lead teams, build companies and create award-winning digital
-            applications. My goal is to expand human capacity through sensing
-            and sensemaking. My process utilizes design research, rapid
-            prototyping and market testing. I have two decades' experience in
-            design and digital strategy, with an emphasis on social and civic
-            technology. I am now focused on data strategy, climate and finding
-            world-positive paths in the commercial sector.
+            I lead teams, build companies and create digital applications. My
+            goal is to expand human capacity through sensing and sensemaking. My
+            process utilizes design research, rapid prototyping and market
+            testing. I've been working for a couple decades in design and
+            digital strategy, often with an emphasis on social and civic
+            technology. Lately I've been focused on data products, commercial
+            strategy and climate.
           </p>
 
           <SectionTitle>Work</SectionTitle>
@@ -90,7 +90,7 @@ const IndexPage = ({
             </li>
             <li>
               <a href="https://meedan.com">Meedan</a> — Design director of
-              international technology company.
+              award-winning technology company.
             </li>
             <li>
               <a href="https://contain.ag">Contain</a> — Technology lead at
