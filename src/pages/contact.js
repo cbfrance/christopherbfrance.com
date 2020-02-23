@@ -45,15 +45,15 @@ const Content = styled.div`
 const Contact = () => (
   <Layout>
     <Wrapper>
-      <Helmet title={`Contact | ${config.siteTitle}`} />
-      <Header>
+      <Helmet title="Contact Christopher France" />
+      {/* <Header>
         <Link to="/">{config.siteTitle}</Link>
-      </Header>
-      <Content>
-        <h1>Contact</h1>
+      </Header> */}
+      <Content style={{ marginTop: '5rem' }}>
+        <h1>Contact Christopher</h1>
         <p>
-          Super cool intro text to get people contacting me! It uses Netlify's
-          form feature.
+          For speaking engagments, consulting interest or general inquires,
+          please reach out.
         </p>
         <form
           name="contact-form"

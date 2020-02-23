@@ -42,14 +42,6 @@ export const FinePrint = styled.div`
   color: ${props => (props.color ? props.color : theme.colors.blacks[8])};
 `
 
-export const SectionTitle = styled.div`
-  font-size: ${theme.fontSize.small};
-  text-transform: uppercase;
-  position: relative;
-
-  margin: 4rem 0;
-`
-
 export const GlobalStyle = createGlobalStyle`
 
   *,
@@ -64,14 +56,6 @@ export const GlobalStyle = createGlobalStyle`
     margin: 0;
   }
 
-  ul {list-style-type: none; padding: 0;}
-  li {
-    padding: 0.5rem 0;
-    margin: 0;
-    a {
-      font-weight: 600;
-    }
-  }
 
   ::selection {
     color: ${theme.colors.bg};
@@ -128,13 +112,14 @@ export const GlobalStyle = createGlobalStyle`
 
   a {
     color: ${theme.colors.primary};
-    text-decoration: none;
     transition: all ${theme.transitions.normal};
+    text-decoration: none;
+      border-bottom: 1px solid ${theme.colors.primaryLight};
   }
 
   a:hover {
-    color: ${theme.colors.primaryLight};
     text-decoration: underline;
+    background-color: ${theme.colors.primaryLight};
   }  
 
   @media print {

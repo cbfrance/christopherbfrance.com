@@ -9,8 +9,11 @@ import SEO from './SEO'
 const Footer = styled.footer`
   text-align: center;
   padding: 3rem 1rem;
-  span {
-    font-size: 0.75rem;
+  font-size: 12px;
+
+  &,
+  a {
+    color: ${theme.colors.primaryMedium};
   }
 `
 
@@ -30,11 +33,15 @@ const Layout = ({ children, customSEO }) => (
           <GlobalStyle theme={theme} />
           {children}
           <Footer>
-            Version 13 &copy; 2004 — 2020 by Christopher Blow France
+            <p>
+              unthinkingly.com v13 <br />
+              &copy; 2004 — 2020 <br />
+              Christopher Blow France
+            </p>
             <br />
             <a href="https://github.com/christopherfrance">
-              Find the code on Github
-            </a>{' '}
+              Gatsby/React theme on Github
+            </a>
             <br />
             <span>Last build: {data.site.buildTime}</span>
           </Footer>

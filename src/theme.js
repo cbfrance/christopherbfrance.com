@@ -5,6 +5,7 @@ const cream = '#FFFAEC'
 const colors = {
   cream,
   primary: blue, // Color for buttons or links
+  primaryMedium: lighten(0.4, blue),
   primaryLight: lighten(0.6, blue),
   bg: cream, // Background color
 

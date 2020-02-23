@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { graphql } from 'gatsby'
+import { Link, graphql } from 'gatsby'
 import styled from 'styled-components'
 import christopherImage from 'assets/christopher2-overlay-213768.png'
 import { Row, Column } from 'styles/styles'
@@ -13,6 +13,10 @@ const HeadlineContent = styled.div`
   padding: 12vh 0;
   h1 {
     font-size: 3rem;
+
+    @media all and (max-width: ${theme.breakpoints.phone}) {
+      font-size: 2rem;
+    }
   }
 `
 
@@ -36,6 +40,15 @@ const PhotoFeatureStyles = styled(Row)`
   p {
     margin: 0;
     padding: 0;
+  }
+
+  line-height: 1.2;
+  h1 {
+    font-size: 2rem;
+    @media all and (max-width: ${theme.breakpoints.phone}) {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
   }
 `
 
@@ -83,11 +96,6 @@ const WorkList = styled.ul`
     a,
     strong {
       font-weight: 400;
-    }
-
-    a {
-      text-decoration: none;
-      border-bottom: 1px solid ${theme.colors.primaryLight};
     }
   }
 `
@@ -205,13 +213,18 @@ const IndexPage = ({
           NYU Interactive Telecommunications Program and Stanford University.
         </p>
 
+        <p>
+          I am sometimes available for talks, please{' '}
+          <Link to="/contact">get in touch</Link>.
+        </p>
+
         <SectionTitle>Consulting</SectionTitle>
 
         <p>
           I am not currently available for independent consulting engagements,
           but if your interest involves data for climate or environmental
           science, please reach out to my company{' '}
-          <a href="https://lightfield.ag">LightField</a>
+          <a href="https://lightfield.ag">LightField</a>.
         </p>
 
         {/* <SectionTitle>Technical writing</SectionTitle>
