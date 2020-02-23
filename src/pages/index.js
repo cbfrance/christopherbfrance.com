@@ -1,27 +1,42 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Link, graphql } from 'gatsby'
+import { graphql } from 'gatsby'
 import styled from 'styled-components'
-import christopherImage from 'assets/christopher2.png'
-
-import { Row, SectionTitle } from 'styles/styles'
+import christopherImage from 'assets/christopher2-overlay-213768.png'
+import { Row, Column } from 'styles/styles'
 import theme from 'theme'
 
 import { Layout } from 'components'
 
-const Content = styled.div``
+const HeadlineContent = styled.div`
+  background-color: ${theme.colors.white};
+  padding: 12vh 0;
+  h1 {
+    font-size: 3rem;
+  }
+`
+
+const MainContent = styled.div``
 
 const ContentInner = styled.div`
-  padding: 16px;
-  max-width: 912px;
-  margin: 4rem auto;
+  padding: 1rem 16px;
+  max-width: 35rem;
+  margin: 0 auto;
 `
 
 const PhotoFeatureStyles = styled(Row)`
   overflow: hidden;
-  text-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
-  background-color: white;
   margin-bottom: 3rem;
+  margin-top: -5vh;
+
+  p {
+    font-size: 1.2rem;
+  }
+  h1,
+  p {
+    margin: 0;
+    padding: 0;
+  }
 `
 
 const PhotoBackground = styled.div`
@@ -30,14 +45,6 @@ const PhotoBackground = styled.div`
   background-repeat: no-repeat;
   height: 200px;
   width: 200px;
-`
-
-const MainHeadlineSection = styled.div`
-  background-color: ${theme.colors.white};
-  border: 1px solid red;
-  h1 {
-    font-size: 3rem;
-  }
 `
 
 const PhotoFeature = ({ photo, children }) => (
@@ -51,7 +58,38 @@ const PhotoFeature = ({ photo, children }) => (
 
 const WelcomeNote = styled.div`
   font-family: ${theme.fontFamily.sans};
-  line-height: 1.6;
+  font-weight: 400;
+  line-height: 1.75;
+  font-size: 1.2rem;
+`
+
+export const SectionTitle = styled.div`
+  font-size: 1rem;
+  text-transform: uppercase;
+  position: relative;
+  margin: 6rem 0 2rem;
+`
+
+const WorkList = styled.ul`
+  list-style-type: none;
+  padding: 0;
+  font-size: 1.1rem;
+
+  li {
+    padding: 1rem 0;
+    margin: 0;
+    font-weight: 300;
+
+    a,
+    strong {
+      font-weight: 400;
+    }
+
+    a {
+      text-decoration: none;
+      border-bottom: 1px solid ${theme.colors.primaryLight};
+    }
+  }
 `
 
 const IndexPage = ({
@@ -60,20 +98,22 @@ const IndexPage = ({
   },
 }) => (
   <Layout>
-    <Content>
-      <MainHeadlineSection>
-        <ContentInner>
-          <h1>
-            Product strategy, design research and rapid prototyping for impact
-          </h1>
-        </ContentInner>
-      </MainHeadlineSection>
-      <PhotoFeature photo={christopherImage}>
-        <ContentInner>
-          <h1>Christopher France</h1>
-          <h5>Designer, builder, strategist</h5>
-        </ContentInner>
-      </PhotoFeature>
+    <HeadlineContent>
+      <ContentInner>
+        <h1>
+          Product strategy, design research and rapid prototyping for impact
+        </h1>
+      </ContentInner>
+    </HeadlineContent>
+    <MainContent>
+      <ContentInner>
+        <PhotoFeature photo={christopherImage}>
+          <Column style={{ justifyContent: 'center' }}>
+            <h1>Christopher France</h1>
+            <p>Designer, builder, strategist</p>
+          </Column>
+        </PhotoFeature>
+      </ContentInner>
       <ContentInner>
         <WelcomeNote>
           <p>
@@ -89,13 +129,13 @@ const IndexPage = ({
           <p>
             I often lead a design effort in collaboration with business and
             engineering teams. I am fortunate to often have wonderful
-            collaborators and to have helped build several successful companies.
-            My process utilizes design research, rapid prototyping and market
-            testing.
+            collaborators with whom I have helped build a number of successful
+            companies. My process utilizes design research, rapid prototyping
+            and market testing.
           </p>
 
           <p>
-            In an Engelbartian sense, I am trying to help expand human capacity
+            In an Engelbartian sense, I hope I can help expand human capacity
             through sensing and sensemaking. I am optimistic that we can
             meaningfully address major social problems through digital
             communication and collaboration.
@@ -104,7 +144,7 @@ const IndexPage = ({
 
         <SectionTitle>Recent work</SectionTitle>
 
-        <ul>
+        <WorkList>
           <li>
             <a href="https://lightfield.ag">LightField</a> — Co-founder at
             climate data startup
@@ -126,10 +166,10 @@ const IndexPage = ({
             <a href="https://www.healthmadedesign.com/">Litterati</a> — Data
             strategist at environmental startup
           </li>
-        </ul>
+        </WorkList>
 
         <SectionTitle>Previous</SectionTitle>
-        <ul>
+        <WorkList>
           <li>
             <a href="https://meedan.com">Meedan</a> — Design director of
             award-winning technology company
@@ -154,20 +194,25 @@ const IndexPage = ({
             <strong>Nonprofit design</strong> — Founder of design services
             company
           </li>
-        </ul>
+        </WorkList>
         <SectionTitle>Talks</SectionTitle>
 
         <p>
           I’m grateful to have been invited to speak at venues such as
           RightsCon, Global Fact, the Online News Association, DrupalCon, the
-          International CrisisMappers Conference, SXSW, the African News
-          Innovation Challenge, the Nonprofit Technology Conference, the NYU
-          Interactive Telecommunications Program and Stanford University.
+          International CrisisMappers Conference, the AIGA, SXSW, the African
+          News Innovation Challenge, the Nonprofit Technology Conference, the
+          NYU Interactive Telecommunications Program and Stanford University.
         </p>
 
         <SectionTitle>Consulting</SectionTitle>
 
-        <p>I am not currently available for consulting engagements.</p>
+        <p>
+          I am not currently available for independent consulting engagements,
+          but if your interest involves data for climate or environmental
+          science, please reach out to my company{' '}
+          <a href="https://lightfield.ag">LightField</a>
+        </p>
 
         {/* <SectionTitle>Technical writing</SectionTitle>
         {postEdges.map(post => (
@@ -182,7 +227,7 @@ const IndexPage = ({
           />
         ))} */}
       </ContentInner>
-    </Content>
+    </MainContent>
   </Layout>
 )
 

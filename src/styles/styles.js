@@ -45,7 +45,6 @@ export const FinePrint = styled.div`
 export const SectionTitle = styled.div`
   font-size: ${theme.fontSize.small};
   text-transform: uppercase;
-  color: ${theme.colors.grey.dark};
   position: relative;
 
   margin: 4rem 0;
@@ -122,7 +121,7 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    background: white;
+    background-color: ${theme.colors.cream};
     color: ${theme.colors.primary};
     font-family: ${theme.fontFamily.serif};
   }
