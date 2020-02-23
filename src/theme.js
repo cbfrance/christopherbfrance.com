@@ -1,17 +1,49 @@
 import { lighten } from 'polished'
 
-const blue = '#0000ff'
+const blue = '#18359A'
+const cream = '#F4F5F9'
 const colors = {
   primary: blue, // Color for buttons or links
   primaryLight: lighten(0.05, blue),
-  bg: 'white', // Background color
+  bg: cream, // Background color
+
   grey: {
     dark: 'rgba(0, 0, 0, 0.9)',
     default: 'rgba(0, 0, 0, 0.7)',
     light: 'rgba(0, 0, 0, 0.5)',
     ultraLight: 'rgba(0, 0, 0, 0.25)',
   },
-  white: 'white',
+
+  blacks: [
+    'rgba(0,0,0,.0125)',
+    'rgba(0,0,0,.025)',
+    'rgba(0,0,0,.05)',
+    'rgba(0,0,0,.1)',
+    'rgba(0,0,0,.2)',
+    'rgba(0,0,0,.3)',
+    'rgba(0,0,0,.4)',
+    'rgba(0,0,0,.5)',
+    'rgba(0,0,0,.6)',
+    'rgba(0,0,0,.7)',
+    'rgba(0,0,0,.8)',
+    'rgba(0,0,0,.9)',
+  ],
+  whites: [
+    'rgba(255,255,255,.0125)',
+    'rgba(255,255,255,.025)',
+    'rgba(255,255,255,.05)',
+    'rgba(255,255,255,.1)',
+    'rgba(255,255,255,.2)',
+    'rgba(255,255,255,.3)',
+    'rgba(255,255,255,.4)',
+    'rgba(255,255,255,.5)',
+    'rgba(255,255,255,.6)',
+    'rgba(255,255,255,.7)',
+    'rgba(255,255,255,.8)',
+    'rgba(255,255,255,.9)',
+  ],
+
+  white: '#ffffff',
 }
 
 const transitions = {

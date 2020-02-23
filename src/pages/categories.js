@@ -4,8 +4,9 @@ import Helmet from 'react-helmet'
 import { Link, graphql } from 'gatsby'
 import styled from 'styled-components'
 import kebabCase from 'lodash/kebabCase'
+import { SectionTitle } from 'styles/styles'
 
-import { Layout, Wrapper, Header, SectionTitle } from '../components'
+import { Layout, Wrapper, Header } from '../components'
 import config from '../../config'
 
 const Content = styled.div`

@@ -1,6 +1,5 @@
-import styled from 'styled-components'
+import styled, { ThemeProvider, createGlobalStyle } from 'styled-components'
 import 'typeface-spectral' // eslint-disable-line
-// import 'typeface-corben' // eslint-disable-line
 
 import theme from 'theme'
 
@@ -41,4 +40,107 @@ export const Column = styled.div`
 export const FinePrint = styled.div`
   font-size: 0.8em;
   color: ${props => (props.color ? props.color : theme.colors.blacks[8])};
+`
+
+export const SectionTitle = styled.div`
+  font-size: ${theme.fontSize.small};
+  text-transform: uppercase;
+  color: ${theme.colors.grey.dark};
+  position: relative;
+
+  margin: 4rem 0;
+`
+
+export const GlobalStyle = createGlobalStyle`
+
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
+  html,
+  body {
+    padding: 0;
+    margin: 0;
+  }
+
+  ul {list-style-type: none; padding: 0;}
+  li {
+    padding: 0.5rem 0;
+    margin: 0;
+    a {
+      font-weight: 600;
+    }
+  }
+
+  ::selection {
+    color: ${theme.colors.bg};
+    background: ${theme.colors.primary};
+  }
+
+  html {
+    /* font-family: ${theme.fontFamily.sansSerif}; */
+    font-family: ${theme.fontFamily.sans};
+    
+    h1 {
+      font-family: ${theme.fontFamily.serif};
+      font-size: 2rem;
+      font-weight: 300;
+    }
+    h2 {
+      font-size: 2.441rem;
+    }
+    h3 {
+      font-size: 1.953rem;
+    }
+    h4 {
+      font-size: 1.563rem;
+    }
+    h5 {
+      font-size: 1.25rem;
+    }
+
+    @media (max-width: ${theme.breakpoints.phone}) {
+      font-size: 16px;
+      h1 {
+        font-size: 2.488rem;
+      }
+      h2 {
+        font-size: 2.074rem;
+      }
+      h3 {
+        font-size: 1.728rem;
+      }
+      h4 {
+        font-size: 1.444rem;
+      }
+      h5 {
+        font-size: 1.2rem;
+      }
+    }
+  }
+
+  body {
+    background: white;
+    color: ${theme.colors.primary};
+    font-family: ${theme.fontFamily.serif};
+  }
+
+  a {
+    color: ${theme.colors.primary};
+    text-decoration: none;
+    transition: all ${theme.transitions.normal};
+  }
+
+  a:hover {
+    color: ${theme.colors.primaryLight};
+    text-decoration: underline;
+  }  
+
+  @media print {
+    body {
+      background-color: transparent!important;
+    }
+  }
 `

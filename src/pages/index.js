@@ -3,41 +3,41 @@ import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
 import styled from 'styled-components'
 import christopherImage from 'assets/christopher2.png'
-import { Row } from 'styles/styles'
+
+import { Row, SectionTitle } from 'styles/styles'
 import theme from 'theme'
 
-import { Layout, SectionTitle } from 'components'
+import { Layout } from 'components'
 
-const Content = styled.div`
-  box-shadow: 0 4px 120px rgba(0, 0, 0, 0.1);
-  border-radius: 1rem;
-  overflow: hidden;
-  max-width: 1000px;
-  margin: 0 auto;
-`
+const Content = styled.div``
 
 const ContentInner = styled.div`
-  padding: 3rem 6rem;
+  padding: 16px;
+  max-width: 912px;
+  margin: 4rem auto;
 `
 
 const PhotoFeatureStyles = styled(Row)`
-  border-top-left-radius: 10px;
   overflow: hidden;
   text-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
   background-color: white;
   margin-bottom: 3rem;
-
-  @media all and (max-width: ${theme.breakpoints[1]}) {
-    padding: 3rem 6rem;
-  }
 `
 
 const PhotoBackground = styled.div`
   background-image: url(${props => props.photo});
   background-size: contain;
   background-repeat: no-repeat;
-  height: 350px;
-  width: 400px;
+  height: 200px;
+  width: 200px;
+`
+
+const MainHeadlineSection = styled.div`
+  background-color: ${theme.colors.white};
+  border: 1px solid red;
+  h1 {
+    font-size: 3rem;
+  }
 `
 
 const PhotoFeature = ({ photo, children }) => (
@@ -49,85 +49,140 @@ const PhotoFeature = ({ photo, children }) => (
   </PhotoFeatureStyles>
 )
 
+const WelcomeNote = styled.div`
+  font-family: ${theme.fontFamily.sans};
+  line-height: 1.6;
+`
+
 const IndexPage = ({
   data: {
     allMdx: { edges: postEdges },
   },
 }) => (
   <Layout>
-    {/* <StyledSurface width={700} height={100}>
-      <GradientsLoop />
-    </StyledSurface> */}
-    <div style={{ marginTop: '3rem' }}>
-      <Content>
-        <PhotoFeature photo={christopherImage}>
-          <div>
-            <h1>Christopher France</h1>
-            <h4>Designer, builder, strategist</h4>
-          </div>
-        </PhotoFeature>
+    <Content>
+      <MainHeadlineSection>
         <ContentInner>
+          <h1>
+            Product strategy, design research and rapid prototyping for impact
+          </h1>
+        </ContentInner>
+      </MainHeadlineSection>
+      <PhotoFeature photo={christopherImage}>
+        <ContentInner>
+          <h1>Christopher France</h1>
+          <h5>Designer, builder, strategist</h5>
+        </ContentInner>
+      </PhotoFeature>
+      <ContentInner>
+        <WelcomeNote>
           <p>
-            I lead teams, build companies and create digital applications. My
-            goal is to expand human capacity through sensing and sensemaking. My
-            process utilizes design research, rapid prototyping and market
-            testing. I've been working for a couple decades in design and
-            digital strategy, often with an emphasis on social and civic
-            technology. Lately I've been focused on data products, commercial
-            strategy and climate.
+            Hello, I’m Christopher, a design director and entreprenuer based in
+            Oakland, California.
+          </p>
+          <p>
+            My practice involves digital strategy with an emphasis on social,
+            civic and environmental technology. Lately I've been focused on data
+            products, commercial strategy and climate.
           </p>
 
-          <SectionTitle>Work</SectionTitle>
+          <p>
+            I often lead a design effort in collaboration with business and
+            engineering teams. I am fortunate to often have wonderful
+            collaborators and to have helped build several successful companies.
+            My process utilizes design research, rapid prototyping and market
+            testing.
+          </p>
 
-          <ul>
-            <li>
-              <a href="https://lightfield.ag">LightField</a> — Co-founder at
-              climate data startup.
-            </li>
-            <li>
-              <a href="https://thedataguild.com">The Data Guild</a> — Lead
-              member at startup studio in San Francisco.
-            </li>
-            <li>
-              <a href="https://meedan.com">Meedan</a> — Design director of
-              award-winning technology company.
-            </li>
-            <li>
-              <a href="https://contain.ag">Contain</a> — Technology lead at
-              fintech startup.
-            </li>
-            <li>
-              <a href="https://www.litterati.org/">Healthmade</a> — Creative
-              technologist at healthcare design firm.
-            </li>
-            <li>
-              <a href="https://www.healthmadedesign.com/">Litterati</a> — Data
-              strategist at environmental startup.
-            </li>
-            <li>
-              <a href="https://ethn.io/">Ethnio</a> — Rails developer for user
-              experience research product.
-            </li>
-            <li>
-              <a href="https://ushahidi.com/">Ushahidi</a> — Design advisor for
-              civic media platform.
-            </li>
-          </ul>
-          {/* <SectionTitle>Technical writing</SectionTitle>
+          <p>
+            In an Engelbartian sense, I am trying to help expand human capacity
+            through sensing and sensemaking. I am optimistic that we can
+            meaningfully address major social problems through digital
+            communication and collaboration.
+          </p>
+        </WelcomeNote>
+
+        <SectionTitle>Recent work</SectionTitle>
+
+        <ul>
+          <li>
+            <a href="https://lightfield.ag">LightField</a> — Co-founder at
+            climate data startup
+          </li>
+          <li>
+            <a href="https://thedataguild.com">The Data Guild</a> — Lead member
+            at startup studio in San Francisco
+          </li>
+
+          <li>
+            <a href="https://contain.ag">Contain</a> — Technology lead at
+            fintech startup
+          </li>
+          <li>
+            <a href="https://www.litterati.org/">Healthmade</a> — Creative
+            technologist at healthcare design firm
+          </li>
+          <li>
+            <a href="https://www.healthmadedesign.com/">Litterati</a> — Data
+            strategist at environmental startup
+          </li>
+        </ul>
+
+        <SectionTitle>Previous</SectionTitle>
+        <ul>
+          <li>
+            <a href="https://meedan.com">Meedan</a> — Design director of
+            award-winning technology company
+          </li>
+          <li>
+            <a href="https://boltpeters.com/">Bolt | Peters</a> — Usability
+            researcher at user experience consultancy
+          </li>
+          <li>
+            <a href="https://ethn.io/">Ethnio</a> — Rails developer for user
+            experience research product
+          </li>
+          <li>
+            <a href="https://ushahidi.com/">Ushahidi</a> — iOS designer and
+            design advisor for civic media platform
+          </li>
+          <li>
+            <strong>Blast Internet</strong> — Linux systems administrator for
+            web services firm
+          </li>
+          <li>
+            <strong>Nonprofit design</strong> — Founder of design services
+            company
+          </li>
+        </ul>
+        <SectionTitle>Talks</SectionTitle>
+
+        <p>
+          I’m grateful to have been invited to speak at venues such as
+          RightsCon, Global Fact, the Online News Association, DrupalCon, the
+          International CrisisMappers Conference, SXSW, the African News
+          Innovation Challenge, the Nonprofit Technology Conference, the NYU
+          Interactive Telecommunications Program and Stanford University.
+        </p>
+
+        <SectionTitle>Consulting</SectionTitle>
+
+        <p>I am not currently available for consulting engagements.</p>
+
+        {/* <SectionTitle>Technical writing</SectionTitle>
         {postEdges.map(post => (
           <Article
-            title={post.node.frontmatter.title}
-            date={post.node.frontmatter.date}
-            excerpt={post.node.excerpt}
-            timeToRead={post.node.timeToRead}
-            slug={post.node.fields.slug}
-            categories={post.node.frontmatter.categories}
-            key={post.node.fields.slug}
+          title={post.node.frontmatter.title}
+          date={post.node.frontmatter.date}
+          excerpt={post.node.excerpt}
+          timeToRead={post.node.timeToRead}
+          slug={post.node.fields.slug}
+          categories={post.node.frontmatter.categories}
+          key={post.node.fields.slug}
           />
         ))} */}
-        </ContentInner>
-      </Content>
-    </div>
+      </ContentInner>
+    </Content>
   </Layout>
 )
 

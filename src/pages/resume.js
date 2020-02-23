@@ -1,8 +1,9 @@
 import React from 'react'
 import styled from 'styled-components'
+import { SectionTitle } from 'styles/styles'
 import { font, color } from '../styles/shared-deprecated'
 import resumeData from '../data/resume.json'
-import { Layout, Wrapper, SectionTitle } from '../components'
+import { Layout, Wrapper } from '../components'
 
 const borderWidth = '3px'
 
