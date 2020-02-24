@@ -122,26 +122,33 @@ const IndexPage = ({
         <WelcomeNote>
           <p>
             I'm a designer, programmer and usability researcher based in
-            Oakland, California. My practice involves digital strategy with an
-            emphasis on social, civic and environmental technology in a
-            commercial context.
+            Oakland, California. I focus on social, civic and environmental
+            themes in a commercial context.
           </p>
 
           <p>
-            I lead product design process in collaboration with business and
-            engineering teams. I serve as a cross-functional integrator who
-            speaks technical, design and business-strategic languages.
+            I lead product design process, usually in collaboration with
+            business and engineering teams. I serve as a full-spectrum,
+            cross-functional integrator who speaks technical, design and
+            business-strategic languages.
           </p>
 
           <p>
-            I hope to help expand human capacity through sensing and
-            sensemaking. I am optimistic that we can meaningfully address urgent
-            social problems through digital communication and collaboration.
+            My perspective is anchored in the practical craft of designing and
+            building applications — from writing APIs to creating detailed
+            interaction designs and conducting behavioral user research. I find
+            great joy in well-crafted user experiences that advance
+            higher-order, world-positive objectives.
+          </p>
+
+          <p>
+            With an energetic and creative sensibility my goal is to help expand
+            human capacity through sensing and sensemaking. I am optimistic that
+            we can meaningfully address urgent contemporary problems through
+            digital communication and collaboration.
           </p>
         </WelcomeNote>
-
         <SectionTitle>Recent work</SectionTitle>
-
         <WorkList>
           <li>
             <a href="https://lightfield.ag">LightField</a> — Co-founder at
@@ -165,7 +172,6 @@ const IndexPage = ({
             strategist at environmental startup
           </li>
         </WorkList>
-
         <SectionTitle>Previous</SectionTitle>
         <WorkList>
           <li>
@@ -193,8 +199,8 @@ const IndexPage = ({
             company
           </li>
         </WorkList>
-        <SectionTitle>Talks</SectionTitle>
 
+        <SectionTitle>Talks</SectionTitle>
         <p>
           I’m grateful to have been invited to speak at venues such as
           RightsCon, Global Fact, the Online News Association, DrupalCon, the
@@ -202,19 +208,28 @@ const IndexPage = ({
           News Innovation Challenge, the Nonprofit Technology Conference, the
           NYU Interactive Telecommunications Program and Stanford University.
         </p>
-
         <p>
           I am sometimes available for talks, please{' '}
           <Link to="/contact">get in touch</Link>.
         </p>
-
         <SectionTitle>Consulting</SectionTitle>
-
         <p>
           I am not currently available for independent consulting engagements,
           but if your interest involves data for climate or environmental
           science, please reach out to my company{' '}
           <a href="https://lightfield.ag">LightField</a>.
+        </p>
+        <SectionTitle>Contact</SectionTitle>
+
+        <p>
+          <em>
+            For more details please see my{' '}
+            <a href="https://www.linkedin.com/in/christopher-blow-france-1b7774100/">
+              LinkedIn page
+            </a>{' '}
+            or <a href="/Christopher-France-Resume.pdf">PDF resume</a>. I
+            welcome you to <Link to="/contact">contact me</Link>.
+          </em>
         </p>
 
         {/* <SectionTitle>Technical writing</SectionTitle>

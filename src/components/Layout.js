@@ -13,7 +13,7 @@ const Footer = styled.footer`
 
   &,
   a {
-    color: ${theme.colors.primaryMedium};
+    color: ${theme.colors.primary};
   }
 `
 
