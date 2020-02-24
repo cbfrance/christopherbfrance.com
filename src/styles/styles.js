@@ -42,6 +42,13 @@ export const FinePrint = styled.div`
   color: ${props => (props.color ? props.color : theme.colors.blacks[8])};
 `
 
+export const SectionTitle = styled.div`
+  font-size: 1rem;
+  text-transform: uppercase;
+  position: relative;
+  margin: 6rem 0 2rem;
+`
+
 export const GlobalStyle = createGlobalStyle`
 
   *,
@@ -114,11 +121,11 @@ export const GlobalStyle = createGlobalStyle`
     color: ${theme.colors.primary};
     transition: all ${theme.transitions.normal};
     text-decoration: none;
-      border-bottom: 1px solid ${theme.colors.primaryLight};
+    border-bottom: 1px solid ${theme.colors.primaryLight};
   }
 
   a:hover {
-    text-decoration: underline;
+    text-decoration: none;
     background-color: ${theme.colors.primaryLight};
   }  
 

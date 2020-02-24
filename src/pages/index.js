@@ -2,8 +2,8 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
 import styled from 'styled-components'
-import christopherImage from 'assets/christopher2-overlay-213768.png'
-import { Row, Column } from 'styles/styles'
+import christopherImage from 'assets/christopher3-overlay-213768.png'
+import { Row, Column, SectionTitle } from 'styles/styles'
 import theme from 'theme'
 
 import { Layout } from 'components'
@@ -34,8 +34,11 @@ const PhotoFeatureStyles = styled(Row)`
   margin-top: -5vh;
 
   p {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+    font-family: ${theme.fontFamily.sans};
+    letter-spacing: 1px;
   }
+
   h1,
   p {
     margin: 0;
@@ -76,13 +79,6 @@ const WelcomeNote = styled.div`
   font-size: 1.2rem;
 `
 
-export const SectionTitle = styled.div`
-  font-size: 1rem;
-  text-transform: uppercase;
-  position: relative;
-  margin: 6rem 0 2rem;
-`
-
 const WorkList = styled.ul`
   list-style-type: none;
   padding: 0;
@@ -108,9 +104,7 @@ const IndexPage = ({
   <Layout>
     <HeadlineContent>
       <ContentInner>
-        <h1>
-          Product strategy, design research and rapid prototyping for impact
-        </h1>
+        <h1>Design leadership for critical social and environmental issues</h1>
       </ContentInner>
     </HeadlineContent>
     <MainContent>
