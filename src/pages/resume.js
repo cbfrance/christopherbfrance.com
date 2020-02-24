@@ -16,6 +16,7 @@ const Content = styled.div`
   @media print {
     box-shadow: none;
     padding: 0;
+    font-size: 12px;
   }
   @media (max-width: ${props => props.theme.breakpoints.tablet}) {
     padding: 3rem 2rem;

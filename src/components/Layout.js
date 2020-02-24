@@ -17,7 +17,7 @@ const Footer = styled.footer`
   }
 `
 
-const Layout = ({ children, customSEO }) => (
+const Layout = ({ children, customSEO, location }) => (
   <StaticQuery
     query={graphql`
       query LayoutQuery {
@@ -32,19 +32,21 @@ const Layout = ({ children, customSEO }) => (
           {!customSEO && <SEO buildTime={data.site.buildTime} />}
           <GlobalStyle theme={theme} />
           {children}
-          <Footer>
-            <p>
-              unthinkingly.com v13 <br />
-              &copy; 2004 — 2020 <br />
-              Christopher Blow France
-            </p>
-            <br />
-            <a href="https://github.com/christopherfrance">
-              Gatsby/React theme on Github
-            </a>
-            <br />
-            <span>Last build: {data.site.buildTime}</span>
-          </Footer>
+          {location && location.pathname === '/' && (
+            <Footer>
+              <p>
+                unthinkingly.com v13 <br />
+                &copy; 2004 — 2020 <br />
+                Christopher Blow France
+              </p>
+              <br />
+              <a href="https://github.com/christopherfrance">
+                Gatsby/React theme on Github
+              </a>
+              <br />
+              <span>Last build: {data.site.buildTime}</span>
+            </Footer>
+          )}
         </React.Fragment>
       </ThemeProvider>
     )}

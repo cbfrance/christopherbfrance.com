@@ -97,11 +97,12 @@ const WorkList = styled.ul`
 `
 
 const IndexPage = ({
+  location,
   data: {
     allMdx: { edges: postEdges },
   },
 }) => (
-  <Layout>
+  <Layout location={location}>
     <HeadlineContent>
       <ContentInner>
         <h1>
