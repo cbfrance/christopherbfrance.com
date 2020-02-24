@@ -12,6 +12,7 @@ const Content = styled.div`
   box-shadow: 0 4px 120px rgba(0, 0, 0, 0.1);
   border-radius: 1rem;
   padding: 3rem 6rem;
+  color: black;
   @media print {
     box-shadow: none;
     padding: 0;
@@ -32,9 +33,13 @@ const Grid = styled.div`
     align-items: start;
     grid-template-areas:
       'A  A  A  01'
-      'B  B  C  D'
-      'B  B  E  E'
-      'B  B  02  02'
+      'B  B  0  0'
+      'B  B  0  0'
+      'B  B  0  0'
+      'D  D  0  0'
+      'E  E  0  0'
+      'C  C  0  0'
+      '02 02 0  0'
       'F  F  F  F';
   }
   padding: 1em 0;
@@ -93,7 +98,7 @@ const SubHeader = styled.div`
   font-weight: 100;
   line-height: 1;
   padding-top: 0.4rem;
-  color: ${color.monzaRed};
+  color: ${color.black};
   @media print {
     color: black;
   }
