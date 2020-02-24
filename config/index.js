@@ -7,7 +7,7 @@ module.exports = {
   siteUrl: 'https://unthinkingly.com', // Domain of your site. No trailing slash!
   siteLanguage: 'en', // Language Tag on <html> element
   siteHeadline: 'Design for social and environmental impact', // Headline for schema.org JSONLD
-  siteBanner: '/social/banner.jpg', // Your image for og:image tag. You can find it in the /static folder
+  siteBanner: '/social/banner.png', // Your image for og:image tag. You can find it in the /static folder
   favicon: 'src/favicon.png', // Your image for favicons. You can find it in the /src folder
   siteDescription: `Christopher France is a designer, builder and strategist based in Oakland.`,
   author: 'Christopher France', // Author for schemaORGJSONLD
@@ -21,6 +21,6 @@ module.exports = {
 
   // Manifest and Progress color
   // See: https://developers.google.com/web/fundamentals/web-app-manifest/
-  themeColor: '#0000ff',
+  themeColor: '#18359A',
   backgroundColor: '#ffffff',
 }
