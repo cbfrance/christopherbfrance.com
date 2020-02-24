@@ -104,7 +104,9 @@ const IndexPage = ({
   <Layout>
     <HeadlineContent>
       <ContentInner>
-        <h1>Design leadership for critical social and environmental issues</h1>
+        <h1>
+          Digital product strategy for critical social and environmental issues
+        </h1>
       </ContentInner>
     </HeadlineContent>
     <MainContent>
@@ -119,28 +121,22 @@ const IndexPage = ({
       <ContentInner>
         <WelcomeNote>
           <p>
-            Hello, I’m Christopher, a design director and entreprenuer based in
-            Oakland, California.
-          </p>
-          <p>
-            My practice involves digital strategy with an emphasis on social,
-            civic and environmental technology. Lately I've been focused on data
-            products, commercial strategy and climate.
+            I'm a designer, programmer and usability researcher based in
+            Oakland, California. My practice involves digital strategy with an
+            emphasis on social, civic and environmental technology in a
+            commercial context.
           </p>
 
           <p>
-            I often lead a design effort in collaboration with business and
-            engineering teams. I am fortunate to often have wonderful
-            collaborators with whom I have helped build a number of successful
-            companies. My process utilizes design research, rapid prototyping
-            and market testing.
+            I lead product design process in collaboration with business and
+            engineering teams. I serve as a cross-functional integrator who
+            speaks technical, design and business-strategic languages.
           </p>
 
           <p>
-            In an Engelbartian sense, I hope I can help expand human capacity
-            through sensing and sensemaking. I am optimistic that we can
-            meaningfully address major social problems through digital
-            communication and collaboration.
+            I hope to help expand human capacity through sensing and
+            sensemaking. I am optimistic that we can meaningfully address urgent
+            social problems through digital communication and collaboration.
           </p>
         </WelcomeNote>
 
@@ -153,7 +149,7 @@ const IndexPage = ({
           </li>
           <li>
             <a href="https://thedataguild.com">The Data Guild</a> — Lead member
-            at startup studio in San Francisco
+            at startup studio
           </li>
 
           <li>
@@ -162,7 +158,7 @@ const IndexPage = ({
           </li>
           <li>
             <a href="https://www.litterati.org/">Healthmade</a> — Creative
-            technologist at healthcare design firm
+            technologist at healthcare design studio
           </li>
           <li>
             <a href="https://www.healthmadedesign.com/">Litterati</a> — Data
@@ -173,16 +169,16 @@ const IndexPage = ({
         <SectionTitle>Previous</SectionTitle>
         <WorkList>
           <li>
-            <a href="https://meedan.com">Meedan</a> — Design director of
-            award-winning technology company
+            <a href="https://meedan.com">Meedan</a> — Design director and
+            co-founder of technology company
           </li>
           <li>
-            <a href="https://boltpeters.com/">Bolt | Peters</a> — Usability
-            researcher at user experience consultancy
+            <a href="https://boltpeters.com/">Bolt | Peters</a> — Interface
+            designer and researcher at UX consultancy
           </li>
           <li>
-            <a href="https://ethn.io/">Ethnio</a> — Rails developer for user
-            experience research product
+            <a href="https://ethn.io/">Ethnio</a> — Rails developer and designer
+            for usability research product
           </li>
           <li>
             <a href="https://ushahidi.com/">Ushahidi</a> — iOS designer and
@@ -193,7 +189,7 @@ const IndexPage = ({
             web services firm
           </li>
           <li>
-            <strong>Nonprofit design</strong> — Founder of design services
+            <strong>Nonprofit Design</strong> — Founder of design services
             company
           </li>
         </WorkList>
