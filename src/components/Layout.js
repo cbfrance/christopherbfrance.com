@@ -9,7 +9,7 @@ import SEO from './SEO'
 const Footer = styled.footer`
   text-align: center;
   padding: 3rem 1rem;
-  font-size: 12px;
+  font-size: 14px;
 
   &,
   a {
@@ -35,16 +35,15 @@ const Layout = ({ children, customSEO, location }) => (
           {location && location.pathname === '/' && (
             <Footer>
               <p>
-                unthinkingly.com v13 <br />
+                un·think′ing·ly adv. — Proceeding by undoing one's thinking. As
+                in Corlann Gee Bush,{' '}
+                <em>"to unthink and rethink technological myths</em>
+                ."
+              </p>
+              <p>
                 &copy; 2004 — 2020 <br />
                 Christopher Blow France
               </p>
-              <br />
-              <a href="https://github.com/christopherfrance">
-                Gatsby/React theme on Github
-              </a>
-              <br />
-              <span>Last build: {data.site.buildTime}</span>
             </Footer>
           )}
         </React.Fragment>
