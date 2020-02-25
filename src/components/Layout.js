@@ -35,10 +35,10 @@ const Layout = ({ children, customSEO, location }) => (
           {location && location.pathname === '/' && (
             <Footer>
               <p>
-                un·think′ing·ly adv. — Proceeding by undoing one's thinking. As
-                in Corlann Gee Bush,{' '}
-                <em>"to unthink and rethink technological myths</em>
-                ."
+                un·think′ing·ly adv. — (from v. <strong>to unthink</strong>)
+                proceeding by undoing one's thinking:{' '}
+                <em>...to unthink and rethink technological myths</em> (Corlann
+                Gee Bush)
               </p>
               <p>
                 &copy; 2004 — 2020 <br />
