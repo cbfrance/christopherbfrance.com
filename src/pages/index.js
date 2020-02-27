@@ -217,12 +217,12 @@ const IndexPage = ({
 
         <p>
           <em>
-            For more details please see my{' '}
+            For more details please reach out via my{' '}
             <a href="https://www.linkedin.com/in/christopher-blow-france-1b7774100/">
               LinkedIn page
             </a>{' '}
-            or <a href="/Christopher-France-Resume.pdf">PDF resume</a>. Or
-            <Link to="/contact">send me a message</Link>.
+            or <Link to="/contact">contact form</Link>. My resume and portfolio
+            are available by request.
           </em>
         </p>
 
