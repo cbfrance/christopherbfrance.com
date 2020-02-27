@@ -11,7 +11,7 @@ module.exports = {
   favicon: 'src/favicon.png', // Your image for favicons. You can find it in the /src folder
   siteDescription: `Christopher France is a designer, builder and strategist based in Oakland.`,
   author: 'Christopher France', // Author for schemaORGJSONLD
-  siteLogo: '/social/logo.png', // Image for schemaORGJSONLD
+  siteLogo: '/social/logo.png', // Image for schemaORGJSONLD relative to /static
 
   // siteFBAppID: '123456789', // Facebook App ID - Optional
   userTwitter: '@unthinkingly', // Twitter Username - Optional
