@@ -141,13 +141,6 @@ const IndexPage = ({
             great joy in well-crafted user experiences that advance
             higher-order, world-positive objectives.
           </p>
-
-          <p>
-            With an energetic and creative sensibility my goal is to help expand
-            human capacity through sensing and sensemaking. I am optimistic that
-            we can meaningfully address urgent contemporary problems through
-            digital communication and collaboration.
-          </p>
         </WelcomeNote>
         <SectionTitle>Recent work</SectionTitle>
         <WorkList>
@@ -228,8 +221,8 @@ const IndexPage = ({
             <a href="https://www.linkedin.com/in/christopher-blow-france-1b7774100/">
               LinkedIn page
             </a>{' '}
-            or <a href="/Christopher-France-Resume.pdf">PDF resume</a>. I
-            welcome you to <Link to="/contact">contact me</Link>.
+            or <a href="/Christopher-France-Resume.pdf">PDF resume</a>. Or
+            <Link to="/contact">send me a message</Link>.
           </em>
         </p>
 

@@ -37,8 +37,8 @@ const Layout = ({ children, customSEO, location }) => (
               <p>
                 un·think′ing·ly adv. — (from v. <strong>to unthink</strong>)
                 proceeding by undoing one's thinking:{' '}
-                <em>...to unthink and rethink technological myths</em> (Corlann
-                Gee Bush)
+                <em>to unthink and rethink technological myths</em> (Corlann Gee
+                Bush)
               </p>
               <p>
                 &copy; 2004 — 2020 <br />
