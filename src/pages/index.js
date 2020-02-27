@@ -106,7 +106,7 @@ const IndexPage = ({
     <HeadlineContent>
       <ContentInner>
         <h1>
-          Digital product strategy for critical social and environmental issues
+          Data product strategy for critical social and environmental issues
         </h1>
       </ContentInner>
     </HeadlineContent>
