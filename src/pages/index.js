@@ -75,8 +75,8 @@ const PhotoFeature = ({ photo, children }) => (
 const WelcomeNote = styled.div`
   font-family: ${theme.fontFamily.sans};
   font-weight: 400;
-  line-height: 1.75;
-  font-size: 1.2rem;
+  line-height: 2;
+  font-size: 1.1rem;
 `
 
 const WorkList = styled.ul`
