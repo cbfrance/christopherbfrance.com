@@ -63,6 +63,10 @@ export const GlobalStyle = createGlobalStyle`
     margin: 0;
   }
 
+  ul li {
+    line-height: 2;
+  }
+
 
   ::selection {
     color: ${theme.colors.bg};
