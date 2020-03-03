@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
 import styled from 'styled-components'
 import christopherImage from 'assets/christopher3-overlay-213768.png'
-import Article from 'components/Article'
+import PostCard from 'components/PostCard'
 import {
   Row,
   Column,
@@ -25,23 +25,18 @@ const PortfolioPage = ({
     <MainContent>
       <ContentInner>
         <SectionTitle>My Work</SectionTitle>
-        {postEdges
-          .filter(post => post.node.frontmatter.published !== false)
-          .map(post => {
-            console.log('post: ', post)
-            return (
-              <Article
-                title={post.node.frontmatter.title}
-                date={post.node.frontmatter.date}
-                excerpt={post.node.excerpt}
-                timeToRead={post.node.timeToRead}
-                slug={post.node.fields.slug}
-                categories={post.node.frontmatter.categories}
-                key={post.node.fields.slug}
-                cover={post.node.frontmatter.cover}
-              />
-            )
-          })}
+        {postEdges.map(post => (
+          <PostCard
+            title={post.node.frontmatter.title}
+            date={post.node.frontmatter.date}
+            excerpt={post.node.excerpt}
+            timeToRead={post.node.timeToRead}
+            slug={post.node.fields.slug}
+            categories={post.node.frontmatter.categories}
+            key={post.node.fields.slug}
+            cover={post.node.frontmatter.cover}
+          />
+        ))}
       </ContentInner>
     </MainContent>
   </Layout>
@@ -61,7 +56,6 @@ export const PortfolioQuery = graphql`
             title
             date(formatString: "MM/DD/YYYY")
             categories
-            published
             cover {
               publicURL
               childImageSharp {

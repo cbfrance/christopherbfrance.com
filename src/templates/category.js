@@ -5,7 +5,7 @@ import { Link, graphql } from 'gatsby'
 import styled from 'styled-components'
 import { SectionTitle } from 'styles/styles'
 
-import { Layout, Wrapper, Header, Subline, Article } from '../components'
+import { Layout, Wrapper, Header, Subline, PostCard } from '../components'
 import config from '../../config'
 
 const Content = styled.div`
@@ -43,7 +43,7 @@ const Category = ({ pageContext: { category }, data: { allMdx } }) => {
             {subline} (See <Link to="/categories">all categories</Link>)
           </Subline>
           {edges.map(post => (
-            <Article
+            <PostCard
               title={post.node.frontmatter.title}
               date={post.node.frontmatter.date}
               excerpt={post.node.excerpt}

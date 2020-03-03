@@ -70,8 +70,7 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   html {
-    /* font-family: ${theme.fontFamily.sansSerif}; */
-    font-family: ${theme.fontFamily.sans};
+    
     
     h1 {
       font-family: ${theme.fontFamily.serif};
@@ -113,9 +112,11 @@ export const GlobalStyle = createGlobalStyle`
 
   body {
     background-color: ${theme.colors.cream};
-    color: ${theme.colors.primary};
-    font-family: ${theme.fontFamily.serif};
+    color: ${theme.colors.blacks[9]};
+    font-family: ${theme.fontFamily.sans};
   }
+
+  
 
   a {
     color: ${theme.colors.primary};
@@ -144,4 +145,11 @@ export const ContentInner = styled.div`
   margin: 0 auto;
 `
 
-export const Article = styled.div``
+export const MetaData = styled.p`
+  font-size: 1rem;
+  color: ${theme.colors.blacks[5]};
+  a {
+    color: ${theme.colors.blacks[5]};
+    border-bottom-width: 0;
+  }
+`

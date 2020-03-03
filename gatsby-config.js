@@ -29,6 +29,7 @@ module.exports = {
       resolve: 'gatsby-mdx',
       options: {
         gatsbyRemarkPlugins: [
+          { resolve: 'gatsby-remark-unwrap-images' },
           { resolve: 'gatsby-remark-copy-linked-files' },
           {
             resolve: 'gatsby-remark-external-links',
@@ -43,7 +44,9 @@ module.exports = {
               maxWidth: 830,
               quality: 90,
               withWebp: true,
-              linkImagesToOriginal: false,
+              linkImagesToOriginal: true,
+              showCaptions: true,
+              markdownCaptions: true,
             },
           },
           // TODO: Replace with "mdx-component-autolink-headers"

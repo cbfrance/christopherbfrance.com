@@ -1,4 +1,4 @@
-import Article from './Article'
+import PostCard from './PostCard'
 import Button from './Button'
 import Header from './Header'
 import Layout from './Layout'
@@ -7,4 +7,4 @@ import SEO from './SEO'
 import Subline from './Subline'
 import Wrapper from './Wrapper'
 
-export { Article, Button, Header, Layout, PrevNext, SEO, Subline, Wrapper }
+export { PostCard, Button, Header, Layout, PrevNext, SEO, Subline, Wrapper }

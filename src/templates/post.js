@@ -4,16 +4,15 @@ import { Link, graphql } from 'gatsby'
 import styled from 'styled-components'
 import kebabCase from 'lodash/kebabCase'
 import MDXRenderer from 'gatsby-mdx/mdx-renderer'
+import Img from 'gatsby-image'
 
-import { Layout, Wrapper, Header, Subline, SEO, PrevNext } from '../components'
+import { MetaData } from 'styles/styles'
+import { Layout, Wrapper, Header, SEO, PrevNext } from '../components'
 import config from '../../config'
 
 const Content = styled.article`
   grid-column: 2;
-  box-shadow: 0 4px 120px rgba(0, 0, 0, 0.1);
-  max-width: 1000px;
-  border-radius: 1rem;
-  padding: 2rem 4.5rem;
+  max-width: 830px;
   background-color: ${props => props.theme.colors.bg};
   z-index: 9000;
   margin-top: -3rem;
@@ -23,12 +22,12 @@ const Content = styled.article`
   @media (max-width: ${props => props.theme.breakpoints.phone}) {
     padding: 2rem 1.5rem;
   }
+
   p {
-    font-size: 1.1rem;
+    font-size: 1.15rem;
     letter-spacing: -0.003em;
-    line-height: 1.58;
-    --baseline-multiplier: 0.179;
-    --x-height-multiplier: 0.35;
+    line-height: 1.7;
+
     @media (max-width: ${props => props.theme.breakpoints.phone}) {
       font-size: 1rem;
     }
@@ -39,6 +38,19 @@ const Content = styled.article`
     border-radius: 5px;
     margin-bottom: 1rem;
     font-size: 16px;
+    overflow-x: auto;
+  }
+
+  figure {
+    margin: 0 0 3rem 0;
+    padding: 0;
+    .gatsby-resp-image-wrapper {
+      margin: 0 !important;
+    }
+    .gatsby-resp-image-figcaption {
+      padding-top: 1rem;
+      font-size: 0.8rem;
+    }
   }
 `
 
@@ -65,7 +77,7 @@ const Post = ({
         </Header>
         <Content>
           <Title>{post.title}</Title>
-          <Subline>
+          <MetaData>
             {post.date} &mdash; {postNode.timeToRead} Min Read &mdash; In{' '}
             {post.categories.map((cat, i) => (
               <React.Fragment key={cat}>
@@ -73,11 +85,11 @@ const Post = ({
                 <Link to={`/categories/${kebabCase(cat)}`}>{cat}</Link>
               </React.Fragment>
             ))}
-          </Subline>
+          </MetaData>
+          <PrevNext prev={prev} next={next} />
           <PostContent>
             <MDXRenderer>{postNode.code.body}</MDXRenderer>
           </PostContent>
-          <PrevNext prev={prev} next={next} />
         </Content>
       </Wrapper>
     </Layout>

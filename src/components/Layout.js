@@ -1,5 +1,4 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 import { StaticQuery, graphql } from 'gatsby'
 import styled, { ThemeProvider } from 'styled-components'
 import theme from 'theme'
@@ -53,12 +52,3 @@ const Layout = ({ children, customSEO, location }) => (
 )
 
 export default Layout
-
-Layout.propTypes = {
-  children: PropTypes.oneOfType([PropTypes.array, PropTypes.node]).isRequired,
-  customSEO: PropTypes.bool,
-}
-
-Layout.defaultProps = {
-  customSEO: false,
-}
