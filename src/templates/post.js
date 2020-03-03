@@ -73,12 +73,13 @@ const Post = ({
       <Wrapper>
         <SEO postPath={slug} postNode={postNode} article />
         <Header>
-          <Link to="/">{config.siteTitle}</Link>
+          <Link to="/work">↑ All work</Link>
         </Header>
         <Content>
           <Title>{post.title}</Title>
           <MetaData>
-            {post.date} &mdash; {postNode.timeToRead} Min Read &mdash; In{' '}
+            {/* {post.date} &mdash;  */}
+            {postNode.timeToRead} Min Read &mdash; In{' '}
             {post.categories.map((cat, i) => (
               <React.Fragment key={cat}>
                 {!!i && ', '}

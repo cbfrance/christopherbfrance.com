@@ -39,11 +39,14 @@ const Excerpt = styled.p`
 `
 
 const ImgStyles = styled.div`
-  --ease-out-quad: cubic-bezier(0.25, 0.46, 0.45, 0.94);
-  box-shadow: 0 30px 60px -10px rgba(0, 0, 0, 0.3),
+  box-shadow: 0 30px 60px -10px rgba(0, 0, 0, 0.2),
     0 18px 36px -18px rgba(0, 0, 0, 0.33);
-  transition: transform 0.3s var(--ease-out-quad),
-    box-shadow 0.3s var(--ease-out-quad);
+  transition: box-shadow 0.4s;
+  &:hover {
+    box-shadow: 0 30px 90px -10px rgba(0, 0, 0, 0.3),
+      0 18px 36px -18px rgba(0, 0, 0, 0.33);
+    transition: box-shadow 0.4s;
+  }
 `
 
 const PostCard = ({
@@ -67,7 +70,8 @@ const PostCard = ({
       <Excerpt>
         {excerpt}
         <MetaData>
-          {date} &mdash; {timeToRead} Min Read &mdash; In{' '}
+          {/* {date} &mdash;  */}
+          {timeToRead} Min Read &mdash; In{' '}
           {categories.map((cat, i) => (
             <React.Fragment key={cat}>
               {!!i && ', '}

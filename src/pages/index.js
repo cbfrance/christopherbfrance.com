@@ -14,6 +14,17 @@ import theme from 'theme'
 
 import { Layout } from 'components'
 
+const Footer = styled.footer`
+  text-align: center;
+  padding: 3rem 1rem;
+  font-size: 14px;
+
+  &,
+  a {
+    color: ${theme.colors.primary};
+  }
+`
+
 const HeadlineContent = styled.div`
   background-color: ${theme.colors.white};
   padding: 12vh 0;
@@ -94,8 +105,12 @@ const WorkList = styled.ul`
   }
 `
 
+const WorkOverview = styled.div`
+  font-family: ${theme.fontFamily.serif};
+`
+
 const IndexPage = ({ location }) => (
-  <Layout location={location}>
+  <Layout location={location} style={{ backgroundColor: theme.colors.cream }}>
     <HeadlineContent>
       <ContentInner>
         <h1>
@@ -135,89 +150,104 @@ const IndexPage = ({ location }) => (
             higher-order, world-positive objectives.
           </p>
         </WelcomeNote>
-        <SectionTitle>Recent work</SectionTitle>
-        <WorkList>
-          <li>
-            <a href="https://lightfield.ag">LightField</a> — Co-founder at
-            climate data startup
-          </li>
-          <li>
-            <a href="https://thedataguild.com">The Data Guild</a> — Lead member
-            at startup studio
-          </li>
+        <WorkOverview>
+          <SectionTitle>Recent work</SectionTitle>
+          <WorkList>
+            <li>
+              <a href="https://lightfield.ag">LightField</a> — Co-founder at
+              climate data startup
+            </li>
+            <li>
+              <a href="https://thedataguild.com">The Data Guild</a> — Lead
+              member at startup studio
+            </li>
 
-          <li>
-            <a href="https://contain.ag">Contain</a> — Technology lead at
-            fintech startup
-          </li>
-          <li>
-            <a href="https://www.litterati.org/">Healthmade</a> — Creative
-            technologist at healthcare design studio
-          </li>
-          <li>
-            <a href="https://www.healthmadedesign.com/">Litterati</a> — Data
-            strategist at environmental startup
-          </li>
-        </WorkList>
-        <SectionTitle>Previous</SectionTitle>
-        <WorkList>
-          <li>
-            <a href="https://meedan.com">Meedan</a> — Design director and
-            co-founder of technology company
-          </li>
-          <li>
-            <a href="https://boltpeters.com/">Bolt | Peters</a> — Interface
-            designer and researcher at UX consultancy
-          </li>
-          <li>
-            <a href="https://ethn.io/">Ethnio</a> — Rails developer and designer
-            for usability research product
-          </li>
-          <li>
-            <a href="https://ushahidi.com/">Ushahidi</a> — iOS designer and
-            design advisor for civic media platform
-          </li>
-          <li>
-            <strong>Blast Internet</strong> — Linux systems administrator for
-            web services firm
-          </li>
-          <li>
-            <strong>Nonprofit Design</strong> — Founder of design services
-            company
-          </li>
-        </WorkList>
+            <li>
+              <a href="https://contain.ag">Contain</a> — Technology lead at
+              fintech startup
+            </li>
+            <li>
+              <a href="https://www.litterati.org/">Healthmade</a> — Creative
+              technologist at healthcare design studio
+            </li>
+            <li>
+              <a href="https://www.healthmadedesign.com/">Litterati</a> — Data
+              strategist at environmental startup
+            </li>
+          </WorkList>
+          <SectionTitle>Previous</SectionTitle>
+          <WorkList>
+            <li>
+              <a href="https://meedan.com">Meedan</a> — Design director and
+              co-founder of technology company
+            </li>
+            <li>
+              <a href="https://boltpeters.com/">Bolt | Peters</a> — Interface
+              designer and researcher at UX consultancy
+            </li>
+            <li>
+              <a href="https://ethn.io/">Ethnio</a> — Rails developer and
+              designer for usability research product
+            </li>
+            <li>
+              <a href="https://ushahidi.com/">Ushahidi</a> — iOS designer and
+              design advisor for civic media platform
+            </li>
+            <li>
+              <strong>Blast Internet</strong> — Linux systems administrator for
+              web services firm
+            </li>
+            <li>
+              <strong>Nonprofit Design</strong> — Founder of design services
+              company
+            </li>
+          </WorkList>
 
-        <SectionTitle>Talks</SectionTitle>
-        <p>
-          I’m grateful to have been invited to speak at venues such as
-          RightsCon, Global Fact, the Online News Association, DrupalCon, the
-          International CrisisMappers Conference, the AIGA, SXSW, the African
-          News Innovation Challenge, the Nonprofit Technology Conference, the
-          NYU Interactive Telecommunications Program and Stanford University.
-        </p>
-        <p>
-          I am sometimes available for talks, please{' '}
-          <Link to="/contact">get in touch</Link>.
-        </p>
-        <SectionTitle>Consulting</SectionTitle>
-        <p>
-          I am not currently available for independent consulting engagements,
-          but if your interest involves data for climate or environmental
-          science, please reach out to my company{' '}
-          <a href="https://lightfield.ag">LightField</a>.
-        </p>
-        <SectionTitle>Contact</SectionTitle>
+          <SectionTitle>Talks</SectionTitle>
+          <p>
+            I’m grateful to have been invited to speak at venues such as
+            RightsCon, Global Fact, the Online News Association, DrupalCon, the
+            International CrisisMappers Conference, the AIGA, SXSW, the African
+            News Innovation Challenge, the Nonprofit Technology Conference, the
+            NYU Interactive Telecommunications Program and Stanford University.
+          </p>
+          <p>
+            I am sometimes available for talks, please{' '}
+            <Link to="/contact">get in touch</Link>.
+          </p>
+          <SectionTitle>Consulting</SectionTitle>
+          <p>
+            I am not currently available for independent consulting engagements,
+            but if your interest involves data for climate or environmental
+            science, please reach out to my company{' '}
+            <a href="https://lightfield.ag">LightField</a>.
+          </p>
+          <SectionTitle>Contact</SectionTitle>
 
-        <p>
-          <em>
-            For more details please reach out via my{' '}
-            <a href="https://www.linkedin.com/in/christopher-blow-france-1b7774100/">
-              LinkedIn page
-            </a>{' '}
-            or <Link to="/contact">contact form</Link>. My resume and portfolio
-            are available by request.
-          </em>
-        </p>
+          <p>
+            <em>
+              For more details please reach out via my{' '}
+              <a href="https://www.linkedin.com/in/christopher-blow-france-1b7774100/">
+                LinkedIn page
+              </a>{' '}
+              or <Link to="/contact">contact form</Link>. My resume and
+              portfolio are available by request.
+            </em>
+          </p>
+
+          <Footer>
+            <p>
+              un·think′ing·ly adv. — (from v. <strong>to unthink</strong>)
+              proceeding by undoing one’s thinking:{' '}
+              <em>to unthink and rethink technological myths</em> (Corlann Gee
+              Bush)
+            </p>
+            <p>
+              &copy; 2004 — 2020 <br />
+              Christopher Blow France
+            </p>
+          </Footer>
+        </WorkOverview>
       </ContentInner>
     </MainContent>
   </Layout>

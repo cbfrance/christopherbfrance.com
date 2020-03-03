@@ -73,7 +73,6 @@ export const GlobalStyle = createGlobalStyle`
     background: ${theme.colors.primary};
   }
 
-  html {
     
     
     h1 {
@@ -112,10 +111,9 @@ export const GlobalStyle = createGlobalStyle`
         font-size: 1.2rem;
       }
     }
-  }
 
   body {
-    background-color: ${theme.colors.cream};
+    background-color: ${theme.colors.bg};
     color: ${theme.colors.blacks[9]};
     font-family: ${theme.fontFamily.sans};
   }

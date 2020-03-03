@@ -4,10 +4,10 @@ const blue = '#18359A'
 const cream = '#FFFAEC'
 const colors = {
   cream,
-  primary: blue, // Color for buttons or links
+  primary: 'black', // Color for buttons or links
   primaryMedium: lighten(0.4, blue),
   primaryLight: lighten(0.5, blue),
-  bg: cream, // Background color
+  bg: 'white', // Background color
 
   grey: {
     dark: 'rgba(0, 0, 0, 0.9)',

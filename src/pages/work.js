@@ -46,7 +46,7 @@ export default PortfolioPage
 
 export const PortfolioQuery = graphql`
   query PortfolioQuery {
-    allMdx(sort: { fields: [frontmatter___date], order: DESC }) {
+    allMdx(sort: { fields: [frontmatter___order], order: ASC }) {
       edges {
         node {
           fields {
