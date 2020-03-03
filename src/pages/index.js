@@ -3,7 +3,13 @@ import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
 import styled from 'styled-components'
 import christopherImage from 'assets/christopher3-overlay-213768.png'
-import { Row, Column, SectionTitle } from 'styles/styles'
+import {
+  Row,
+  Column,
+  SectionTitle,
+  MainContent,
+  ContentInner,
+} from 'styles/styles'
 import theme from 'theme'
 
 import { Layout } from 'components'
@@ -18,14 +24,6 @@ const HeadlineContent = styled.div`
       font-size: 2rem;
     }
   }
-`
-
-const MainContent = styled.div``
-
-const ContentInner = styled.div`
-  padding: 1rem 16px;
-  max-width: 35rem;
-  margin: 0 auto;
 `
 
 const PhotoFeatureStyles = styled(Row)`
@@ -96,12 +94,7 @@ const WorkList = styled.ul`
   }
 `
 
-const IndexPage = ({
-  location,
-  data: {
-    allMdx: { edges: postEdges },
-  },
-}) => (
+const IndexPage = ({ location }) => (
   <Layout location={location}>
     <HeadlineContent>
       <ContentInner>
@@ -225,51 +218,9 @@ const IndexPage = ({
             are available by request.
           </em>
         </p>
-
-        {/* <SectionTitle>Technical writing</SectionTitle>
-        {postEdges.map(post => (
-          <Article
-          title={post.node.frontmatter.title}
-          date={post.node.frontmatter.date}
-          excerpt={post.node.excerpt}
-          timeToRead={post.node.timeToRead}
-          slug={post.node.fields.slug}
-          categories={post.node.frontmatter.categories}
-          key={post.node.fields.slug}
-          />
-        ))} */}
       </ContentInner>
     </MainContent>
   </Layout>
 )
 
 export default IndexPage
-
-IndexPage.propTypes = {
-  data: PropTypes.shape({
-    allMdx: PropTypes.shape({
-      edges: PropTypes.array.isRequired,
-    }),
-  }).isRequired,
-}
-
-export const IndexQuery = graphql`
-  query IndexQuery {
-    allMdx(sort: { fields: [frontmatter___date], order: DESC }) {
-      edges {
-        node {
-          fields {
-            slug
-          }
-          frontmatter {
-            title
-            date(formatString: "MM/DD/YYYY")
-            categories
-          }
-          excerpt(pruneLength: 200)
-          timeToRead
-        }
-      }
-    }
-  }
-`

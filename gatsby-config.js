@@ -11,6 +11,7 @@ module.exports = {
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-styled-components',
     'gatsby-plugin-sharp',
+    'gatsby-transformer-sharp',
     {
       resolve: 'gatsby-source-filesystem',
       options: {
@@ -59,6 +60,7 @@ module.exports = {
     'gatsby-plugin-catch-links',
     'gatsby-plugin-sitemap',
     'gatsby-plugin-lodash',
+    'gatsby-plugin-netlify',
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
@@ -72,7 +74,7 @@ module.exports = {
         icon: config.favicon,
       },
     },
-    'gatsby-plugin-offline',
-    'gatsby-plugin-netlify',
+    // 'gatsby-plugin-offline',
+    'gatsby-plugin-remove-serviceworker',
   ],
 }

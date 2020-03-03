@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import styled from 'styled-components'
 import { Link } from 'gatsby'
 import kebabCase from 'lodash/kebabCase'
+import Img from 'gatsby-image'
 
 import Subline from './Subline'
 
@@ -36,7 +37,15 @@ const Excerpt = styled.p`
   margin-bottom: 1rem;
 `
 
-const Article = ({ title, date, excerpt, slug, timeToRead, categories }) => (
+const Article = ({
+  title,
+  date,
+  excerpt,
+  slug,
+  timeToRead,
+  categories,
+  cover,
+}) => (
   <Post>
     <Title>
       <Link to={slug}>{title}</Link>
@@ -50,17 +59,11 @@ const Article = ({ title, date, excerpt, slug, timeToRead, categories }) => (
         </React.Fragment>
       ))}
     </Subline>
+
+    {cover && <Img sizes={cover.childImageSharp.sizes} />}
+
     <Excerpt>{excerpt}</Excerpt>
   </Post>
 )
 
 export default Article
-
-Article.propTypes = {
-  title: PropTypes.string.isRequired,
-  date: PropTypes.string.isRequired,
-  excerpt: PropTypes.string.isRequired,
-  slug: PropTypes.string.isRequired,
-  timeToRead: PropTypes.number.isRequired,
-  categories: PropTypes.array.isRequired,
-}

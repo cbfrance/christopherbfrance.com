@@ -50,7 +50,10 @@ const PostContent = styled.div`
   margin-top: 4rem;
 `
 
-const Post = ({ pageContext: { slug, prev, next }, data: { mdx: postNode } }) => {
+const Post = ({
+  pageContext: { slug, prev, next },
+  data: { mdx: postNode },
+}) => {
   const post = postNode.frontmatter
 
   return (
@@ -83,17 +86,6 @@ const Post = ({ pageContext: { slug, prev, next }, data: { mdx: postNode } }) =>
 
 export default Post
 
-Post.propTypes = {
-  pageContext: PropTypes.shape({
-    slug: PropTypes.string.isRequired,
-    next: PropTypes.object,
-    prev: PropTypes.object,
-  }),
-  data: PropTypes.shape({
-    mdx: PropTypes.object.isRequired,
-  }).isRequired,
-}
-
 Post.defaultProps = {
   pageContext: PropTypes.shape({
     next: null,
@@ -112,6 +104,14 @@ export const postQuery = graphql`
         title
         date(formatString: "MM/DD/YYYY")
         categories
+        cover {
+          publicURL
+          childImageSharp {
+            sizes(maxWidth: 2000) {
+              ...GatsbyImageSharpSizes
+            }
+          }
+        }
       }
       timeToRead
       parent {

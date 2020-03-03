@@ -49,7 +49,7 @@ const Category = ({
             <Link to={`/categories/${kebabCase(category.fieldValue)}`}>
               {category.fieldValue}
             </Link>{' '}
-            {category.totalCount})
+            {category.totalCount}
           </Title>
         ))}
       </Content>

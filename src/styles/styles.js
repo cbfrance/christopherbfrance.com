@@ -135,3 +135,13 @@ export const GlobalStyle = createGlobalStyle`
     }
   }
 `
+
+export const MainContent = styled.div``
+
+export const ContentInner = styled.div`
+  padding: 1rem 16px;
+  max-width: 35rem;
+  margin: 0 auto;
+`
+
+export const Article = styled.div``

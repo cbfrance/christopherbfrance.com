@@ -1,6 +1,7 @@
 const _ = require('lodash')
 const path = require('path')
 
+// Convenience helper for import syntax
 exports.onCreateWebpackConfig = ({ actions }) => {
   actions.setWebpackConfig({
     resolve: {
