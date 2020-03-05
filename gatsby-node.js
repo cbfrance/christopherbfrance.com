@@ -61,6 +61,7 @@ exports.createPages = async ({ graphql, actions }) => {
               frontmatter {
                 title
                 categories
+                order
               }
             }
           }
@@ -72,7 +73,12 @@ exports.createPages = async ({ graphql, actions }) => {
   if (!error) {
     const posts = result.data.allMdx.edges
 
-    posts.forEach((edge, index) => {
+    const sortedPosts = posts.sort(
+      (a, b) =>
+        Number(b.node.frontmatter.order) - Number(a.node.frontmatter.order)
+    )
+
+    sortedPosts.forEach((edge, index) => {
       const next = index === 0 ? null : posts[index - 1].node
       const prev = index === posts.length - 1 ? null : posts[index + 1].node
 

@@ -12,14 +12,6 @@ const Wrapper = styled.header`
 const Content = styled.div`
   max-width: ${props => props.theme.maxWidth};
   margin: 0 auto;
-
-  a {
-    font-size: 1.2rem;
-    &:hover {
-      opacity: 0.85;
-      color: ${props => props.theme.colors.white};
-    }
-  }
 `
 
 const Header = ({ children }) => (

@@ -114,7 +114,8 @@ const IndexPage = ({ location }) => (
     <HeadlineContent>
       <ContentInner>
         <h1>
-          Data product strategy for critical social and environmental issues
+          Strategy, design and code for analysis, collaboration and decision
+          support
         </h1>
       </ContentInner>
     </HeadlineContent>
@@ -123,35 +124,51 @@ const IndexPage = ({ location }) => (
         <PhotoFeature photo={christopherImage}>
           <Column style={{ justifyContent: 'center' }}>
             <h1>Christopher France</h1>
-            <p>Designer, builder, strategist</p>
+            <p>Builder and strategist</p>
           </Column>
         </PhotoFeature>
       </ContentInner>
       <ContentInner>
         <WelcomeNote>
           <p>
-            I'm a designer, programmer and usability researcher based in
-            Oakland, California. I focus on social, civic and environmental
-            themes in a commercial context.
+            I'm a designer and programmer based in Oakland, California. I work
+            on critical social, civic and environmental themes in a commercial
+            context with a focus on decision support, visualization and work
+            coordination.
           </p>
 
           <p>
             I lead product design process, usually in collaboration with
             business and engineering teams. I serve as a full-spectrum,
             cross-functional integrator who speaks technical, design and
-            business-strategic languages.
+            business-strategic languages. I also have deep experience as a
+            behavioral usability researcher.
           </p>
 
           <p>
-            My perspective is anchored in the practical craft of designing and
-            building applications — from writing APIs to creating detailed
-            interaction designs and conducting behavioral user research. I find
-            great joy in well-crafted user experiences that advance
-            higher-order, world-positive objectives.
+            I have a technical design practice; my perspective is anchored in
+            the practical craft of delivering applications, not just imagining
+            them. I often find inspiration while writing APIs or implementing
+            error states.
+          </p>
+
+          <p>
+            My products strive to create increasing situational awareness
+            through intuitive visualization of current state and the
+            coordination of distributed work. I build user experiences that
+            advance a team’s emergent objectives by creating feedback loops that
+            reduce barriers to perception and increase organizational
+            self-awareness.
+          </p>
+
+          <p>
+            I am motivated by a sense of unrelalized human potential which is
+            captured by early internet theorists such as Doug Engelbart and Alan
+            Kay.
           </p>
         </WelcomeNote>
         <WorkOverview>
-          <SectionTitle>Recent work</SectionTitle>
+          <SectionTitle>Work</SectionTitle>
           <WorkList>
             <li>
               <a href="https://lightfield.ag">LightField</a> — Co-founder at
@@ -174,16 +191,14 @@ const IndexPage = ({ location }) => (
               <a href="https://www.healthmadedesign.com/">Litterati</a> — Data
               strategist at environmental startup
             </li>
-          </WorkList>
-          <SectionTitle>Previous</SectionTitle>
-          <WorkList>
+
             <li>
               <a href="https://meedan.com">Meedan</a> — Design director and
               co-founder of technology company
             </li>
             <li>
-              <a href="https://boltpeters.com/">Bolt | Peters</a> — Interface
-              designer and researcher at UX consultancy
+              <a href="https://boltpeters.com/">Bolt | Peters</a> — Designer and
+              UI researcher at UX consultancy
             </li>
             <li>
               <a href="https://ethn.io/">Ethnio</a> — Rails developer and
@@ -202,6 +217,13 @@ const IndexPage = ({ location }) => (
               company
             </li>
           </WorkList>
+
+          <SectionTitle>Portfolio</SectionTitle>
+
+          <p>
+            I’ve collected <Link to="/work">selections of my work</Link> with
+            reflections on my process.
+          </p>
 
           <SectionTitle>Talks</SectionTitle>
           <p>

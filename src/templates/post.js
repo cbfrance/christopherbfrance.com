@@ -16,6 +16,7 @@ const Content = styled.article`
   background-color: ${props => props.theme.colors.bg};
   z-index: 9000;
   margin-top: -3rem;
+  padding-bottom: 5rem;
   @media (max-width: ${props => props.theme.breakpoints.tablet}) {
     padding: 3rem 3rem;
   }
@@ -79,18 +80,19 @@ const Post = ({
           <Title>{post.title}</Title>
           <MetaData>
             {/* {post.date} &mdash;  */}
-            {postNode.timeToRead} Min Read &mdash; In{' '}
+            {/* {postNode.timeToRead} Min Read &mdash; In{' '}
             {post.categories.map((cat, i) => (
               <React.Fragment key={cat}>
                 {!!i && ', '}
                 <Link to={`/categories/${kebabCase(cat)}`}>{cat}</Link>
               </React.Fragment>
-            ))}
+            ))} */}
           </MetaData>
           <PrevNext prev={prev} next={next} />
           <PostContent>
             <MDXRenderer>{postNode.code.body}</MDXRenderer>
           </PostContent>
+          <PrevNext prev={prev} next={next} />
         </Content>
       </Wrapper>
     </Layout>
