@@ -10,6 +10,7 @@
     "babel-plugin-styled-components": "^1.10.7",
     "chroma-js": "^2.1.0",
     "gatsby": "^2.19.23",
+    "gatsby-background-image": "^0.10.2",
     "gatsby-image": "^2.2.42",
     "gatsby-mdx": "^0.3.6",
     "gatsby-plugin-catch-links": "^2.1.26",

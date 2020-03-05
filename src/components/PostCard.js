@@ -5,12 +5,13 @@ import kebabCase from 'lodash/kebabCase'
 import Img from 'gatsby-image'
 import theme from 'theme'
 import { MetaData } from 'styles/styles'
+import BackgroundImage from 'gatsby-background-image'
 
 const Card = styled.article`
   display: flex;
   flex-direction: column;
   margin-top: 3.5rem;
-  margin-bottom: 3.5rem;
+  margin-bottom: 1rem;
 
   @media (max-width: ${props => props.theme.breakpoints.phone}) {
     margin-top: 2rem;
@@ -38,10 +39,16 @@ const Excerpt = styled.p`
   color: ${theme.colors.blacks[7]};
 `
 
-const ImgStyles = styled.div`
+const StyledBackgroundImage = styled(BackgroundImage)`
   box-shadow: 0 30px 60px -10px rgba(0, 0, 0, 0.2),
     0 18px 36px -18px rgba(0, 0, 0, 0.33);
   transition: box-shadow 0.4s;
+  width: 100%;
+  height: 100%;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
   &:hover {
     box-shadow: 0 30px 90px -10px rgba(0, 0, 0, 0.3),
       0 18px 36px -18px rgba(0, 0, 0, 0.33);
@@ -60,11 +67,7 @@ const PostCard = ({
 }) => (
   <Link to={slug}>
     <Card>
-      {cover && (
-        <ImgStyles>
-          <Img sizes={cover.childImageSharp.sizes} />
-        </ImgStyles>
-      )}
+      {cover && <StyledBackgroundImage fluid={cover.childImageSharp.sizes} />}
 
       <Title>{title}</Title>
       <Excerpt>
