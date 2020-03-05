@@ -3,13 +3,7 @@ import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
 import styled from 'styled-components'
 import christopherImage from 'assets/christopher3-overlay-213768.png'
-import {
-  Row,
-  Column,
-  SectionTitle,
-  MainContent,
-  ContentInner,
-} from 'styles/styles'
+import { Row, Column, SectionTitle, MainContent } from 'styles/styles'
 import theme from 'theme'
 
 import { Layout } from 'components'
@@ -107,6 +101,12 @@ const WorkList = styled.ul`
 
 const WorkOverview = styled.div`
   font-family: ${theme.fontFamily.serif};
+`
+
+const ContentInner = styled.div`
+  padding: 1rem 16px;
+  max-width: 35rem;
+  margin: 0 auto;
 `
 
 const IndexPage = ({ location }) => (
