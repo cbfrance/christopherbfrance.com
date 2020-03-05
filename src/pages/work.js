@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
 import styled from 'styled-components'
-import christopherImage from 'assets/christopher3-overlay-213768.png'
+
 import PostCard from 'components/PostCard'
 import {
   Row,
@@ -10,10 +10,21 @@ import {
   SectionTitle,
   MainContent,
   ContentInner,
+  Title,
 } from 'styles/styles'
 import theme from 'theme'
 
-import { Layout } from 'components'
+import { Layout, Byline } from 'components'
+
+const PostCardGrid = styled.div`
+  & > a {
+    display: block;
+    border-bottom-width: 0;
+    &:hover {
+      background-color: transparent;
+    }
+  }
+`
 
 const PortfolioPage = ({
   location,
@@ -24,19 +35,25 @@ const PortfolioPage = ({
   <Layout location={location}>
     <MainContent>
       <ContentInner>
+        <Link to="/">
+          <Title>Christopher France</Title>
+        </Link>
+        <Byline />
         <SectionTitle>My Work</SectionTitle>
-        {postEdges.map(post => (
-          <PostCard
-            title={post.node.frontmatter.title}
-            date={post.node.frontmatter.date}
-            excerpt={post.node.excerpt}
-            timeToRead={post.node.timeToRead}
-            slug={post.node.fields.slug}
-            categories={post.node.frontmatter.categories}
-            key={post.node.fields.slug}
-            cover={post.node.frontmatter.cover}
-          />
-        ))}
+        <PostCardGrid>
+          {postEdges.map(post => (
+            <PostCard
+              title={post.node.frontmatter.title}
+              date={post.node.frontmatter.date}
+              excerpt={post.node.excerpt}
+              timeToRead={post.node.timeToRead}
+              slug={post.node.fields.slug}
+              categories={post.node.frontmatter.categories}
+              key={post.node.fields.slug}
+              cover={post.node.frontmatter.cover}
+            />
+          ))}
+        </PostCardGrid>
       </ContentInner>
     </MainContent>
   </Layout>

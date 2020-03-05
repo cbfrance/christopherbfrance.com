@@ -1,9 +1,17 @@
 import styled, { ThemeProvider, createGlobalStyle } from 'styled-components'
-import 'typeface-spectral' // eslint-disable-line
+import 'typeface-spectral'
 
 import theme from 'theme'
 
-const { space } = theme
+import { Link } from 'gatsby' // eslint-disable-line
+
+export const Title = styled.h1`
+  margin-bottom: 1rem;
+  font-weight: 600;
+  color: black;
+  font-size: 3.2rem;
+  margin-top: 2rem;
+`
 
 export const Row = styled.div`
   display: flex;
@@ -153,5 +161,27 @@ export const MetaData = styled.p`
   a {
     color: ${theme.colors.blacks[5]};
     border-bottom-width: 0;
+  }
+`
+
+export const NavButton = styled(Link)`
+  padding: 1rem;
+  min-width: 100px;
+  display: flex;
+  flex-direction: column;
+  background-color: ${theme.colors.blacks[1]};
+  border-radius: 4px;
+  transition: 0.3s;
+  align-items: center;
+  border-bottom-width: 0;
+  font-weight: bold;
+  &:hover {
+    transition: 0.3s;
+    background-color: ${theme.colors.blacks[2]};
+  }
+  span {
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    color: ${theme.colors.blacks[5]};
   }
 `

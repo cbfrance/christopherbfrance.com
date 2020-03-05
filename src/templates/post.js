@@ -2,25 +2,26 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
 import styled from 'styled-components'
-import kebabCase from 'lodash/kebabCase'
 import MDXRenderer from 'gatsby-mdx/mdx-renderer'
-import Img from 'gatsby-image'
 
-import { MetaData } from 'styles/styles'
-import { Layout, Wrapper, Header, SEO, PrevNext } from '../components'
-import config from '../../config'
+import { MetaData, NavButton, Title } from 'styles/styles'
+import theme from 'theme'
+import { Layout, Wrapper, Header, SEO, PrevNext, Byline } from '../components'
 
 const Content = styled.article`
   grid-column: 2;
-  max-width: 830px;
+
   background-color: ${props => props.theme.colors.bg};
   z-index: 9000;
-  margin-top: -3rem;
   padding-bottom: 5rem;
+
+  max-width: 630px;
+
   @media (max-width: ${props => props.theme.breakpoints.tablet}) {
     padding: 3rem 3rem;
   }
   @media (max-width: ${props => props.theme.breakpoints.phone}) {
+    margin: 0 auto;
     padding: 2rem 1.5rem;
   }
 
@@ -43,7 +44,11 @@ const Content = styled.article`
   }
 
   figure {
-    margin: 0 0 3rem 0;
+    margin: 8rem 0 5rem 0;
+
+    @media (min-width: ${props => props.theme.breakpoints.tablet}) {
+      margin: 8rem -200px 5rem 0;
+    }
     padding: 0;
     .gatsby-resp-image-wrapper {
       margin: 0 !important;
@@ -53,10 +58,6 @@ const Content = styled.article`
       font-size: 0.8rem;
     }
   }
-`
-
-const Title = styled.h1`
-  margin-bottom: 1rem;
 `
 
 const PostContent = styled.div`
@@ -74,10 +75,11 @@ const Post = ({
       <Wrapper>
         <SEO postPath={slug} postNode={postNode} article />
         <Header>
-          <Link to="/work">↑ All work</Link>
+          <NavButton to="/work">↑ All work</NavButton>
         </Header>
         <Content>
           <Title>{post.title}</Title>
+          <Byline />
           <MetaData>
             {/* {post.date} &mdash;  */}
             {/* {postNode.timeToRead} Min Read &mdash; In{' '}

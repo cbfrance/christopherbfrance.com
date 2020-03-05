@@ -113,10 +113,7 @@ const IndexPage = ({ location }) => (
   <Layout location={location} style={{ backgroundColor: theme.colors.cream }}>
     <HeadlineContent>
       <ContentInner>
-        <h1>
-          Strategy, design and code for analysis, collaboration and decision
-          support
-        </h1>
+        <h1>Strategic product execution for critical decision support</h1>
       </ContentInner>
     </HeadlineContent>
     <MainContent>
