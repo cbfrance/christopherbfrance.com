@@ -249,8 +249,8 @@ const IndexPage = ({ location }) => (
               <a href="https://www.linkedin.com/in/christopher-blow-france-1b7774100/">
                 LinkedIn page
               </a>{' '}
-              or <Link to="/contact">contact form</Link>. My resume and
-              portfolio are available by request.
+              or <Link to="/contact">contact form</Link>. You may also be
+              interested in my <a href="/resume">resume</a>.
             </em>
           </p>
 
