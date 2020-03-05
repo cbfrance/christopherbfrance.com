@@ -29,7 +29,7 @@ const HeadlineContent = styled.div`
   background-color: ${theme.colors.white};
   padding: 12vh 0;
   h1 {
-    font-size: 3rem;
+    font-size: 2.8rem;
 
     @media all and (max-width: ${theme.breakpoints.phone}) {
       font-size: 2rem;
@@ -113,7 +113,10 @@ const IndexPage = ({ location }) => (
   <Layout location={location} style={{ backgroundColor: theme.colors.cream }}>
     <HeadlineContent>
       <ContentInner>
-        <h1>Strategic product execution for critical decision support</h1>
+        <h1>
+          Building data products for collaboration, sensemaking and decision
+          support
+        </h1>
       </ContentInner>
     </HeadlineContent>
     <MainContent>
@@ -130,8 +133,8 @@ const IndexPage = ({ location }) => (
           <p>
             I'm a designer and programmer based in Oakland, California. I work
             on critical social, civic and environmental themes in a commercial
-            context with a focus on decision support, visualization and work
-            coordination.
+            context with a focus on decision support, collaboration and
+            sensemaking.
           </p>
 
           <p>
@@ -145,8 +148,8 @@ const IndexPage = ({ location }) => (
           <p>
             I have a technical design practice; my perspective is anchored in
             the practical craft of delivering applications, not just imagining
-            them. I often find inspiration while writing APIs or implementing
-            error states.
+            them. I always have my sketchbook, but I often find inspiration
+            while writing APIs or implementing error states.
           </p>
 
           <p>
