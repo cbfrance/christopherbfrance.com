@@ -4,7 +4,6 @@ import styled from 'styled-components'
 import christopherImage from 'assets/christopher3-overlay-213768.png'
 
 const Wrapper = styled.div`
-  max-width: 500px;
   display: flex;
   align-items: center;
   margin-top: 4rem;

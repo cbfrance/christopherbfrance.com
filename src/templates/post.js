@@ -15,7 +15,7 @@ const Content = styled.article`
   z-index: 9000;
   padding-bottom: 5rem;
 
-  max-width: 630px;
+  max-width: ${theme.mainColumnWidth};
 
   @media (max-width: ${props => props.theme.breakpoints.tablet}) {
     padding: 3rem 3rem;
@@ -26,11 +26,10 @@ const Content = styled.article`
   }
 
   p {
-    font-size: 1.15rem;
     letter-spacing: -0.003em;
     line-height: 1.7;
 
-    @media (max-width: ${props => props.theme.breakpoints.phone}) {
+    @media (max-width: ${theme.breakpoints.phone}) {
       font-size: 1rem;
     }
   }
@@ -46,7 +45,7 @@ const Content = styled.article`
   figure {
     margin: 8rem 0 5rem 0;
 
-    @media (min-width: ${props => props.theme.breakpoints.tablet}) {
+    @media (min-width: ${theme.breakpoints.tablet}) {
       margin: 8rem -200px 5rem 0;
     }
     padding: 0;
@@ -74,9 +73,6 @@ const Post = ({
     <Layout customSEO>
       <Wrapper>
         <SEO postPath={slug} postNode={postNode} article />
-        <Header>
-          <NavButton to="/work">↑ All work</NavButton>
-        </Header>
         <Content>
           <Title>{post.title}</Title>
           <Byline />

@@ -114,8 +114,7 @@ const IndexPage = ({ location }) => (
     <HeadlineContent>
       <ContentInner>
         <h1>
-          Building data products for collaboration, sensemaking and decision
-          support
+          Data products and sensemaking tools for critical decision support
         </h1>
       </ContentInner>
     </HeadlineContent>
@@ -132,17 +131,16 @@ const IndexPage = ({ location }) => (
         <WelcomeNote>
           <p>
             I'm a designer and programmer based in Oakland, California. I work
-            on critical social, civic and environmental themes in a commercial
-            context with a focus on decision support, collaboration and
-            sensemaking.
+            on social, civic and environmental themes in a commercial context
+            with a focus on decision support, collaboration and sensemaking.
           </p>
 
           <p>
-            I lead product design process, usually in collaboration with
-            business and engineering teams. I serve as a full-spectrum,
-            cross-functional integrator who speaks technical, design and
-            business-strategic languages. I also have deep experience as a
-            behavioral usability researcher.
+            I lead product design process for network-driven companies, usually
+            in collaboration with business and engineering teams. I serve as a
+            full-spectrum, cross-functional integrator who speaks technical,
+            design and business-strategic languages. I also have deep experience
+            as a behavioral usability researcher.
           </p>
 
           <p>

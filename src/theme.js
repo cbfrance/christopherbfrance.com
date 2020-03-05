@@ -73,6 +73,7 @@ const theme = {
   fontSize,
   breakpoints,
   fontFamily,
+  mainColumnWidth: '630px',
   maxWidth: '830px',
   baseFontSize: '18px',
 }

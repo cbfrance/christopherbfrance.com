@@ -83,42 +83,42 @@ export const GlobalStyle = createGlobalStyle`
 
     
     
+  h1 {
+    font-family: ${theme.fontFamily.serif};
+    font-size: 2rem;
+    font-weight: 300;
+  }
+  h2 {
+    font-size: 2.441rem;
+  }
+  h3 {
+    font-size: 1.953rem;
+  }
+  h4 {
+    font-size: 1.563rem;
+  }
+  h5 {
+    font-size: 1.25rem;
+  }
+
+  @media (max-width: ${theme.breakpoints.phone}) {
+    font-size: 16px;
     h1 {
-      font-family: ${theme.fontFamily.serif};
-      font-size: 2rem;
-      font-weight: 300;
+      font-size: 2.488rem;
     }
     h2 {
-      font-size: 2.441rem;
+      font-size: 2.074rem;
     }
     h3 {
-      font-size: 1.953rem;
+      font-size: 1.728rem;
     }
     h4 {
-      font-size: 1.563rem;
+      font-size: 1.444rem;
     }
     h5 {
-      font-size: 1.25rem;
+      font-size: 1.2rem;
     }
-
-    @media (max-width: ${theme.breakpoints.phone}) {
-      font-size: 16px;
-      h1 {
-        font-size: 2.488rem;
-      }
-      h2 {
-        font-size: 2.074rem;
-      }
-      h3 {
-        font-size: 1.728rem;
-      }
-      h4 {
-        font-size: 1.444rem;
-      }
-      h5 {
-        font-size: 1.2rem;
-      }
-    }
+  }
 
   body {
     background-color: ${theme.colors.bg};
@@ -143,6 +143,37 @@ export const GlobalStyle = createGlobalStyle`
   @media print {
     body {
       background-color: transparent!important;
+    }
+  }
+
+  aside {
+    position: relative;
+    line-height: 1.8;
+    
+    @media all and (max-width: ${theme.breakpoints.tablet}) {
+      margin-top: 4rem;
+      margin-bottom: 4rem;
+    }
+    
+    color: ${theme.colors.blacks[7]};
+    max-width: 600px;
+    border-left: 1px solid ${theme.colors.blacks[3]};
+    padding-left: 4rem;
+    
+    .content {
+      font-size: 0.8rem;
+      @media all and (min-width: ${theme.breakpoints.tablet}) {
+        width: 230px;
+        border-width: 0;
+        position: absolute;
+        right: -280px;
+        top: -300px;
+
+      }
+      h4 {
+        font-size: 1rem;
+        text-transform: uppercase;
+      }
     }
   }
 `
