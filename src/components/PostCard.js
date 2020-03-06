@@ -40,19 +40,33 @@ const Excerpt = styled.p`
 `
 
 const StyledBackgroundImage = styled(BackgroundImage)`
-  box-shadow: 0 30px 60px -10px rgba(0, 0, 0, 0.2),
-    0 18px 36px -18px rgba(0, 0, 0, 0.33);
-  transition: box-shadow 0.4s;
   width: 100%;
   height: 100%;
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
 
+  @media all and (max-width: ${theme.breakpoints.phone}) {
+    display: none;
+  }
+`
+const ShadowBox = styled.div`
+  box-shadow: 0 30px 60px -10px rgba(0, 0, 0, 0.2),
+    0 18px 36px -18px rgba(0, 0, 0, 0.33);
+  transition: box-shadow 0.4s;
+
   &:hover {
     box-shadow: 0 30px 90px -10px rgba(0, 0, 0, 0.3),
       0 18px 36px -18px rgba(0, 0, 0, 0.33);
     transition: box-shadow 0.4s;
+  }
+`
+const StyledImage = styled(Img)`
+  img {
+    object-fit: contain !important;
+  }
+  @media all and (min-width: ${theme.breakpoints.phone}) {
+    display: none;
   }
 `
 
@@ -67,13 +81,16 @@ const PostCard = ({
 }) => (
   <Link to={slug}>
     <Card>
-      {cover && <StyledBackgroundImage fluid={cover.childImageSharp.sizes} />}
+      <ShadowBox>
+        {cover && <StyledBackgroundImage fluid={cover.childImageSharp.sizes} />}
+        {cover && <StyledImage fluid={cover.childImageSharp.sizes} />}
+      </ShadowBox>
 
       <Title>{title}</Title>
       <Excerpt>
         {excerpt}
         <MetaData>
-          {/* {date} &mdash;  */}
+          {date} &mdash;
           {timeToRead} Min Read &mdash; In{' '}
           {categories.map((cat, i) => (
             <React.Fragment key={cat}>

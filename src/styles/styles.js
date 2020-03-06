@@ -149,16 +149,19 @@ export const GlobalStyle = createGlobalStyle`
   aside {
     position: relative;
     line-height: 1.8;
-    
-    @media all and (max-width: ${theme.breakpoints.tablet}) {
-      margin-top: 4rem;
-      margin-bottom: 4rem;
-    }
-    
     color: ${theme.colors.blacks[7]};
     max-width: 600px;
     border-left: 1px solid ${theme.colors.blacks[3]};
-    padding-left: 4rem;
+    padding-left: 2rem;
+    
+    
+    @media all and (min-width: ${theme.breakpoints.tablet}) {
+      border-width: 0px;
+      margin-top: 4rem;
+      margin-bottom: 4rem;
+      padding-left: 4rem;
+    }
+    
     
     .content {
       font-size: 0.8rem;

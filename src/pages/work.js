@@ -1,12 +1,9 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
 import styled from 'styled-components'
-
 import PostCard from 'components/PostCard'
-import { Row, Column, SectionTitle, MainContent, Title } from 'styles/styles'
+import { Title } from 'styles/styles'
 import theme from 'theme'
-
 import { Layout, Byline } from 'components'
 
 export const ContentInner = styled.div`
@@ -40,8 +37,9 @@ const PostCardGrid = styled.div`
     border-bottom-width: 0;
 
     div {
-      height: 500px;
-      @media all and (min-width: ${theme.maxWidth}) {
+      /* By default the height is intrinsic */
+      @media all and (min-width: ${theme.breakpoints.phone}) {
+        /* on larger screens, crop */
         height: 300px;
       }
     }
@@ -97,7 +95,7 @@ export const PortfolioQuery = graphql`
           }
           frontmatter {
             title
-            date(formatString: "MM/DD/YYYY")
+            date(formatString: "YYYY")
             categories
             cover {
               publicURL
