@@ -23,38 +23,45 @@ const Navigation = styled.div`
   }
 `
 
-const Layout = ({ children, customSEO, location, style }) => (
-  <StaticQuery
-    query={graphql`
-      query LayoutQuery {
-        site {
-          buildTime(formatString: "YYYY-MM-DD")
+const pagestWithoutNavigation = ['/resume/', '/resume']
+
+const Layout = ({ children, customSEO, location, style }) => {
+  console.log('location: ', location)
+  return (
+    <StaticQuery
+      query={graphql`
+        query LayoutQuery {
+          site {
+            buildTime(formatString: "YYYY-MM-DD")
+          }
         }
-      }
-    `}
-    render={data => (
-      <ThemeProvider theme={theme}>
-        <React.Fragment>
-          {!customSEO && <SEO buildTime={data.site.buildTime} />}
-          <GlobalStyle theme={theme} />
-          <div>
-            <Navigation>
-              <Link activeClassName="active" to="/">
-                Overview
-              </Link>{' '}
-              <Link activeClassName="active" to="/work">
-                My work
-              </Link>{' '}
-              <Link activeClassName="active" to="/contact">
-                Contact
-              </Link>
-            </Navigation>
-            <div style={style}>{children}</div>
-          </div>
-        </React.Fragment>
-      </ThemeProvider>
-    )}
-  />
-)
+      `}
+      render={data => (
+        <ThemeProvider theme={theme}>
+          <React.Fragment>
+            {!customSEO && <SEO buildTime={data.site.buildTime} />}
+            <GlobalStyle theme={theme} />
+            <div>
+              {!pagestWithoutNavigation.includes(location.pathname) && (
+                <Navigation>
+                  <Link activeClassName="active" to="/">
+                    Overview
+                  </Link>{' '}
+                  <Link activeClassName="active" to="/work">
+                    My work
+                  </Link>{' '}
+                  <Link activeClassName="active" to="/contact">
+                    Contact
+                  </Link>
+                </Navigation>
+              )}
+              <div style={style}>{children}</div>
+            </div>
+          </React.Fragment>
+        </ThemeProvider>
+      )}
+    />
+  )
+}
 
 export default Layout

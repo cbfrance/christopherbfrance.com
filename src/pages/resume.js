@@ -120,9 +120,9 @@ const Item = styled.div`
   }
 `
 
-export default function Resume({ data }) {
+export default function Resume({ data, location }) {
   return (
-    <Layout>
+    <Layout location={location}>
       <Wrapper>
         <Content>
           <Item area="X1">

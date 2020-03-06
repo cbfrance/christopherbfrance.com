@@ -131,9 +131,9 @@ const IndexPage = ({ location }) => (
       <ContentInner>
         <WelcomeNote>
           <p>
-            I'm a designer and developer based in Oakland, California. I work on
-            social, civic and environmental themes in a commercial context with
-            a focus on decision support, collaboration and sensemaking.
+            I'm a designer and developer based in Oakland, California. I focus
+            on decision support, collaboration and sensemaking in a commercial
+            context.
           </p>
 
           <p>
