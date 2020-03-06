@@ -1,7 +1,7 @@
 {
   "name": "unthinkingly.com",
   "description": "Portfolio of Christopher Blow France. Version 11. Since 2004.",
-  "version": "13.0.24",
+  "version": "13.0.25",
   "author": "Christopher France <cgblow@gmail.com> (https://unthinkingly.com)",
   "dependencies": {
     "@material-ui/core": "^4.9.5",
