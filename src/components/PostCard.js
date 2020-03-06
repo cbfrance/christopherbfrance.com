@@ -5,7 +5,6 @@ import kebabCase from 'lodash/kebabCase'
 import Img from 'gatsby-image'
 import theme from 'theme'
 import { MetaData } from 'styles/styles'
-import BackgroundImage from 'gatsby-background-image'
 
 const Card = styled.article`
   display: flex;
@@ -39,17 +38,6 @@ const Excerpt = styled.p`
   color: ${theme.colors.blacks[7]};
 `
 
-const StyledBackgroundImage = styled(BackgroundImage)`
-  width: 100%;
-  height: 100%;
-  background-position: top center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
-  @media all and (max-width: ${theme.breakpoints.phone}) {
-    display: none;
-  }
-`
 const ShadowBox = styled.div`
   box-shadow: 0 30px 60px -10px rgba(0, 0, 0, 0.2),
     0 18px 36px -18px rgba(0, 0, 0, 0.33);
@@ -66,7 +54,10 @@ const StyledImage = styled(Img)`
     object-fit: contain !important;
   }
   @media all and (min-width: ${theme.breakpoints.phone}) {
-    display: none;
+    img {
+      object-fit: cover !important;
+      object-position: center top !important;
+    }
   }
 `
 
@@ -82,7 +73,6 @@ const PostCard = ({
   <Link to={slug}>
     <Card>
       <ShadowBox>
-        {cover && <StyledBackgroundImage fluid={cover.childImageSharp.sizes} />}
         {cover && <StyledImage fluid={cover.childImageSharp.sizes} />}
       </ShadowBox>
 
