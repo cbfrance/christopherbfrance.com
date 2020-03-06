@@ -4,8 +4,8 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import { Link } from 'gatsby'
 import styled from 'styled-components'
+import theme from 'theme'
 import { Layout, Wrapper, Header, Button } from '../components'
-
 import config from '../../config'
 
 const Content = styled.div`
@@ -27,6 +27,14 @@ const Content = styled.div`
       label,
       input {
         display: block;
+      }
+
+      input,
+      textarea {
+        border-radius: 4px;
+        padding: 1rem;
+        border-width: 0;
+        background-color: ${theme.colors.blacks[2]};
       }
       input {
         min-width: 275px;

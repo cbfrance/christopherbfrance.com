@@ -81,8 +81,6 @@ export const GlobalStyle = createGlobalStyle`
     background: ${theme.colors.primary};
   }
 
-    
-    
   h1 {
     font-family: ${theme.fontFamily.serif};
     font-size: 2rem;
@@ -125,8 +123,6 @@ export const GlobalStyle = createGlobalStyle`
     color: ${theme.colors.blacks[9]};
     font-family: ${theme.fontFamily.sans};
   }
-
-  
 
   a {
     color: ${theme.colors.primary};

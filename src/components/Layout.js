@@ -8,7 +8,14 @@ import SEO from './SEO'
 
 const Navigation = styled.div`
   display: flex;
-  padding: 2rem;
+  padding: 0.5rem;
+  font-size: 0.8rem;
+
+  @media all and (min-width: ${theme.breakpoints.phone}) {
+    padding: 2rem;
+    font-size: 1rem;
+  }
+
   justify-content: flex-end;
   a {
     display: inline-block;
@@ -25,43 +32,40 @@ const Navigation = styled.div`
 
 const pagestWithoutNavigation = ['/resume/', '/resume']
 
-const Layout = ({ children, customSEO, location, style }) => {
-  console.log('location: ', location)
-  return (
-    <StaticQuery
-      query={graphql`
-        query LayoutQuery {
-          site {
-            buildTime(formatString: "YYYY-MM-DD")
-          }
+const Layout = ({ children, customSEO, location, style }) => (
+  <StaticQuery
+    query={graphql`
+      query LayoutQuery {
+        site {
+          buildTime(formatString: "YYYY-MM-DD")
         }
-      `}
-      render={data => (
-        <ThemeProvider theme={theme}>
-          <React.Fragment>
-            {!customSEO && <SEO buildTime={data.site.buildTime} />}
-            <GlobalStyle theme={theme} />
-            <div>
-              {!pagestWithoutNavigation.includes(location.pathname) && (
-                <Navigation>
-                  <Link activeClassName="active" to="/">
-                    Overview
-                  </Link>{' '}
-                  <Link activeClassName="active" to="/work">
-                    My work
-                  </Link>{' '}
-                  <Link activeClassName="active" to="/contact">
-                    Contact
-                  </Link>
-                </Navigation>
-              )}
-              <div style={style}>{children}</div>
-            </div>
-          </React.Fragment>
-        </ThemeProvider>
-      )}
-    />
-  )
-}
+      }
+    `}
+    render={data => (
+      <ThemeProvider theme={theme}>
+        <React.Fragment>
+          {!customSEO && <SEO buildTime={data.site.buildTime} />}
+          <GlobalStyle theme={theme} />
+          <div>
+            {!pagestWithoutNavigation.includes(location?.pathname) && (
+              <Navigation>
+                <Link activeClassName="active" to="/">
+                  Overview
+                </Link>{' '}
+                <Link activeClassName="active" to="/work">
+                  My work
+                </Link>{' '}
+                <Link activeClassName="active" to="/contact">
+                  Contact
+                </Link>
+              </Navigation>
+            )}
+            <div style={style}>{children}</div>
+          </div>
+        </React.Fragment>
+      </ThemeProvider>
+    )}
+  />
+)
 
 export default Layout
