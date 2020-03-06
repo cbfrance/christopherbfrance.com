@@ -132,7 +132,7 @@ export const GlobalStyle = createGlobalStyle`
     color: ${theme.colors.primary};
     transition: all ${theme.transitions.normal};
     text-decoration: none;
-    border-bottom: 1px solid ${theme.colors.primaryLight};
+    border-bottom: 1px solid ${theme.colors.blacks[4]};
   }
 
   a:hover {

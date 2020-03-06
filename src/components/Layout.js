@@ -43,7 +43,7 @@ const Layout = ({ children, customSEO, location, style }) => (
                 Overview
               </Link>{' '}
               <Link activeClassName="active" to="/work">
-                Portfolio
+                My work
               </Link>{' '}
               <Link activeClassName="active" to="/contact">
                 Contact

@@ -12,6 +12,17 @@ export const ContentInner = styled.div`
   max-width: ${theme.mainColumnWidth};
 `
 
+const WideHeader = styled.div`
+  margin: 2rem;
+  @media all and (min-width: ${theme.maxWidth}) {
+    margin: 0 auto;
+    width: 90%;
+    p {
+      max-width: 500px;
+    }
+  }
+`
+
 const PostCardGrid = styled.div`
   margin: 2rem;
   @media all and (min-width: ${theme.maxWidth}) {
@@ -58,12 +69,12 @@ const PortfolioPage = ({
 }) => (
   <Layout location={location}>
     <>
-      <ContentInner>
+      <WideHeader>
         <Link to="/">
           <Title>Christopher France</Title>
         </Link>
         <Byline />
-      </ContentInner>
+      </WideHeader>
 
       <PostCardGrid>
         {postEdges.map(post => (

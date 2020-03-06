@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
 import styled from 'styled-components'
-import christopherImage from 'assets/christopher3-overlay-213768.png'
+import christopherImage from 'assets/christopher4.png'
 import { Row, Column, SectionTitle, MainContent } from 'styles/styles'
 import theme from 'theme'
 
@@ -88,7 +88,7 @@ const WorkList = styled.ul`
   font-size: 1.1rem;
 
   li {
-    padding: 1rem 0;
+    padding: 0.8rem 0;
     margin: 0;
     font-weight: 300;
 
@@ -105,7 +105,7 @@ const WorkOverview = styled.div`
 
 const ContentInner = styled.div`
   padding: 1rem 16px;
-  max-width: 35rem;
+  max-width: ${theme.mainColumnWidth};
   margin: 0 auto;
 `
 
@@ -114,7 +114,8 @@ const IndexPage = ({ location }) => (
     <HeadlineContent>
       <ContentInner>
         <h1>
-          Data products and sensemaking tools for critical decision support
+          A full-spectrum designer and developer building critical data products
+          and experiences
         </h1>
       </ContentInner>
     </HeadlineContent>
@@ -130,9 +131,9 @@ const IndexPage = ({ location }) => (
       <ContentInner>
         <WelcomeNote>
           <p>
-            I'm a designer and programmer based in Oakland, California. I work
-            on social, civic and environmental themes in a commercial context
-            with a focus on decision support, collaboration and sensemaking.
+            I'm a designer and developer based in Oakland, California. I work on
+            social, civic and environmental themes in a commercial context with
+            a focus on decision support, collaboration and sensemaking.
           </p>
 
           <p>
