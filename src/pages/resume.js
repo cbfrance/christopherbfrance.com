@@ -34,13 +34,11 @@ const Grid = styled.div`
     align-items: start;
     grid-template-areas:
       'A  A  A  01'
-      'B  B  0  0'
-      'B  B  0  0'
-      'B  B  0  0'
-      'D  D  0  0'
-      'E  E  0  0'
-      'C  C  0  0'
-      '02 02 0  0'
+      'B  B  B  B'
+      'D  D  D  D'
+      'E  E  E  E'
+      'C  C  C  C'
+      '02 02 02 02'
       'F  F  F  F';
   }
   padding: 1em 0;

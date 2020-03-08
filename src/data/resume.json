@@ -39,35 +39,8 @@
       "website": "https://lightfield.ag",
       "startDate": "March 2019",
       "endDate": "Current",
-      "summary": " LightField is using design and data strategy for regenerative agriculture, with a focus on innovation in financial products serving this sector. We are developing business partnerships around our data products with a goal of increasing the rate of regenerative transition through increased investment opportunities based on improved soil health.",
+      "summary": "LightField is using design and data strategy for regenerative agriculture, with a focus on innovation in financial products serving this sector. We are developing business partnerships around our data products with a goal of increasing the rate of regenerative transition through increased investment opportunities based on improved soil health.",
       "highlights": ["Bootstrapping technology company"]
-    },
-    {
-      "company": "Healthmade",
-      "position": "Creative Data Technologist",
-      "website": "https://www.healthmadedesign.com/",
-      "startDate": "September 2019",
-      "endDate": "Current",
-      "summary": "At Healthmade I work to invent creative solutions to healthcare issues using web and mobile prototyping, UI design and data visualization. My focus is building tools to serve people living with chronic illness.",
-      "highlights": ["Created data visualizations", "Designed algorithms used in display of healthcare data", "Created full-stack mobile product"]
-    },
-    {
-      "company": "Contain",
-      "position": "Lead Technologist",
-      "website": "https://www.contain.ag/",
-      "startDate": "July 2019",
-      "endDate": "Current",
-      "summary": "At Contain I designed and built a fintech platform which algorithmically matches lenders and borrowers in contained agriculture, an emergent technique which uses approximately 10x less resources than conventional agriculture.",
-      "highlights": ["Created fintech platform"]
-    },
-    {
-      "company": "Litterati",
-      "position": "Data Product Strategist",
-      "website": "https://www.litterati.org",
-      "startDate": "May 2019",
-      "endDate": "Current",
-      "summary": "Litterati is an environmental startup that uses crowdsourced data derived from local litter cleanup activity to create a large commercial dataset of consumer packaging data. I help with partnership and commercial strategy by designing and prototyping data refinement tools used by the team.",
-      "highlights": ["Developed data pipelines and data refinement process", "Created data visualizations to guide analysis of packaging database"]
     },
     {
       "company": "The Data Guild",
@@ -77,10 +50,37 @@
       "endDate": "Current",
       "summary": "As a lead member of our venture studio, I am responsible for a wide range activity in a data-intensive environment. I do partnerships, business process design, business development, hiring and client services. My focus is prototyping new technical capacity and creating production designs — from sketching and wireframing to JavaScript, pitch decks and business plans.",
       "highlights": [
-        "Developed research tools for evaluating social impact of startup concepts", 
-        "Led product research and development for portfolio companies", 
+        "Developed research tools for evaluating social impact of startup concepts",
+        "Led product research and development for portfolio companies",
         "Led a technical design, branding and profile effort for the Guild"
       ]
+    },
+    {
+      "company": "Healthmade",
+      "position": "Creative Data Technologist",
+      "website": "https://www.healthmadedesign.com/",
+      "startDate": "September 2019",
+      "endDate": "March 2020",
+      "summary": "At Healthmade I have worked to invent creative solutions to healthcare issues using web and mobile prototyping, UI design and data visualization. My focus is building tools to serve people living with chronic illness.",
+      "highlights": ["Created data visualizations", "Designed algorithms used in display of healthcare data", "Created full-stack mobile product"]
+    },
+    {
+      "company": "Contain",
+      "position": "Lead Technologist",
+      "website": "https://www.contain.ag/",
+      "startDate": "July 2019",
+      "endDate": "March 2020",
+      "summary": "At Contain I designed and built a fintech platform which algorithmically matches lenders and borrowers in contained agriculture, an emergent technique which uses approximately 10x less resources than conventional agriculture.",
+      "highlights": ["Created fintech platform"]
+    },
+    {
+      "company": "Litterati",
+      "position": "Data Product Strategist",
+      "website": "https://www.litterati.org",
+      "startDate": "May 2019",
+      "endDate": "March 2020",
+      "summary": "I help with partnership and commercial strategy by designing and prototyping data refinement tools used by the team. Litterati is an environmental startup that uses crowdsourced data derived from local litter cleanup activity to create a large commercial dataset of consumer packaging data.",
+      "highlights": ["Developed data pipelines and data refinement process", "Created data visualizations to guide analysis of packaging database"]
     },
     {
       "company": "Meedan",
