@@ -2,9 +2,10 @@
   "basics": {
     "name": "Christopher Blow France",
     "label": "Design director, programmer, strategist",
-    "email": "christopher@lightfield.ag",
+    "email": "cgblow@gmail.com",
     "phone": "(415) 309-7900",
     "linkedin": "https://www.linkedin.com/in/christopher-blow-france-1b7774100/",
+    "website": "www.unthinkingly.com",
     "summary":
       "Hello, I’m Christopher. I am a designer, programmer and usability researcher. I’ve led large design contacts with companies like Sony, Facebook and Cambridge University, built products with companies like Meedan and The Data Guild, and founded my own companies. I lead digital product design process, usually in collaboration with business and engineering teams. I serve as a full-spectrum, cross-functional integrator who speaks technical, design and business-strategic languages. I also have deep experience as a behavioral usability researcher.",
     "location": {
@@ -125,19 +126,6 @@
       ]
     },
     {
-      "company": "Evaluation, Assessment and Policy Connections",
-      "position": "Web Developer, Program Assistant",
-      "website": "http://www.unc.edu/depts/ed/evap/",
-      "startDate": "May 2004",
-      "endDate": "March 2006",
-      "summary": "I developed applications for managing stakeholder data, creating educational surveys and gathering real-time feedback.",
-      "highlights": [
-        "Developed PHP application for generating surveys",
-        "Developed web-based feedback tool for evaluation process",
-        "Developed Microsoft Access database for central storage of stakeholder data"
-      ]
-    },
-    {
       "company": "Nonprofit Design",
       "position": "Web Developer, Founder",
       "website": "none",
@@ -149,15 +137,6 @@
         "Created logos and branding campaigns",
         "Created interactive CDs for educational department"
       ]
-    },
-    {
-      "company": "The North Carolina Law Review",
-      "position": "Web Developer",
-      "website": "http://scholarship.law.unc.edu/nclr/",
-      "startDate": "August 2001",
-      "endDate": "December 2003",
-      "summary": "I helped create a custom database for the Law Review, and I managed their website.",
-      "highlights": ["Created back-office database to optimize internal process."]
     }
   ],
   "volunteer": [

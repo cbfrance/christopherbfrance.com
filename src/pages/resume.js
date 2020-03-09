@@ -38,7 +38,6 @@ const Grid = styled.div`
       'D  D  D  D'
       'E  E  E  E'
       'C  C  C  C'
-      '02 02 02 02'
       'F  F  F  F';
   }
   padding: 1em 0;
@@ -174,14 +173,16 @@ export default function Resume({ data, location }) {
                 {resumeData.awards.summary}
               </Description>
             </Item>
-            <Item area="F">
+            <Item area="F" style={{ textAlign: 'center' }}>
+              <Description padTop="1rem">
+                {resumeData.basics.website}{' '}
+              </Description>
               <Description padTop="1rem">
                 {resumeData.basics.phone} • 
                 {resumeData.basics.email} • 
-                {resumeData.basics.location.postalCode} •{' '}
-                {resumeData.basics.location.city} • 
-                {resumeData.basics.location.region},{' '}
-                {resumeData.basics.location.countryCode}
+                {resumeData.basics.location.city}
+                {', '}
+                {resumeData.basics.location.region}
               </Description>
             </Item>
           </Grid>
