@@ -79,7 +79,8 @@ const PostCard = ({
       <Title>{title}</Title>
       <Excerpt>
         {excerpt}
-        <MetaData>
+
+        {/* <MetaData>
           {date} &mdash;
           {timeToRead} Min Read &mdash; In{' '}
           {categories.map((cat, i) => (
@@ -88,7 +89,7 @@ const PostCard = ({
               <Link to={`/categories/${kebabCase(cat)}`}>{cat}</Link>
             </React.Fragment>
           ))}
-        </MetaData>
+        </MetaData> */}
       </Excerpt>
     </Card>
   </Link>
