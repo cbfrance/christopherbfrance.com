@@ -161,9 +161,8 @@ const IndexPage = ({ location }) => (
           </p> */}
 
           <p>
-            I am motivated by a sense of unrelalized human potential which is
-            captured by early internet theorists such as Doug Engelbart and Alan
-            Kay.
+            I am motivated by a sense of unrealized human potential which is
+            captured by theorists such as Doug Engelbart and Alan Kay.
           </p>
         </WelcomeNote>
         <WorkOverview>
