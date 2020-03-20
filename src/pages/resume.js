@@ -34,7 +34,8 @@ const Grid = styled.div`
     align-items: start;
     grid-template-areas:
       'A  A  A  01'
-      'B  B  B  B'
+      'B1  B1  B1  B1'
+      'B2  B2  B2  B2'
       'D  D  D  D'
       'E  E  E  E'
       'C  C  C  C'
@@ -133,7 +134,12 @@ export default function Resume({ data, location }) {
               <Description>{resumeData.basics.summary}</Description>
             </Item>
 
-            <Item area="B">
+            <Item area="B1">
+              <SectionHeader>Portfolio</SectionHeader>
+              <SubHeader>{resumeData.basics.portfolio}</SubHeader>
+            </Item>
+
+            <Item area="B2">
               <SectionHeader>Work experience</SectionHeader>
               {resumeData.work.map((job, index) => (
                 <Item>
