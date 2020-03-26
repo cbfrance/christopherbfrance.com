@@ -135,8 +135,10 @@ export default function Resume({ data, location }) {
             </Item>
 
             <Item area="B1">
-              <SectionHeader>Portfolio</SectionHeader>
-              <SubHeader>{resumeData.basics.portfolio}</SubHeader>
+              <SectionHeader>Links</SectionHeader>
+              <SubHeader>Website: {resumeData.basics.website}</SubHeader>
+              <SubHeader>Portfolio: {resumeData.basics.portfolio}</SubHeader>
+              <SubHeader>LinkedIn: {resumeData.basics.linkedin}</SubHeader>
             </Item>
 
             <Item area="B2">
