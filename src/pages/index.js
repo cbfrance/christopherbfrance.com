@@ -150,20 +150,6 @@ const IndexPage = ({ location }) => (
             them. I always have my sketchbook, but I often find inspiration
             while writing APIs or implementing error states.
           </p>
-
-          {/* <p>
-            My products strive to create increasing situational awareness
-            through intuitive visualization of current state and the
-            coordination of distributed work. I build user experiences that
-            advance a team’s emergent objectives by creating feedback loops that
-            reduce barriers to perception and increase organizational
-            self-awareness.
-          </p> */}
-
-          <p>
-            I am motivated by a sense of unrealized human potential which is
-            captured by theorists such as Doug Engelbart and Alan Kay.
-          </p>
         </WelcomeNote>
         <WorkOverview>
           <SectionTitle>Work</SectionTitle>

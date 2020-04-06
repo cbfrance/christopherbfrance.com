@@ -1,6 +1,5 @@
 import React from 'react'
 import styled from 'styled-components'
-import { SectionTitle } from 'styles/styles'
 import { font, color } from '../styles/shared-deprecated'
 import resumeData from '../data/resume.json'
 import { Layout, Wrapper } from '../components'
@@ -33,7 +32,6 @@ const Grid = styled.div`
     grid-gap: 2em;
     align-items: start;
     grid-template-areas:
-      'A  A  A  01'
       'B1  B1  B1  B1'
       'B2  B2  B2  B2'
       'D  D  D  D'
@@ -57,11 +55,12 @@ export const DateStamp = styled.div`
   font: ${font.mono};
   text-transform: uppercase;
   line-height: 2rem;
-  font-size: 12px;
+  font-size: 11px;
+  color: rgba(0, 0, 0, 0.7);
 `
 
 const PageHeader = styled.h1`
-  font: ${font.display2};
+  font: ${font.display1};
   @media print {
     font: ${font.body2};
     font-weight: bold;
@@ -130,9 +129,9 @@ export default function Resume({ data, location }) {
             </TitleResume>
           </Item>
           <Grid>
-            <Item area="A">
+            {/* <Item area="A">
               <Description>{resumeData.basics.summary}</Description>
-            </Item>
+            </Item> */}
 
             <Item area="B1">
               <SectionHeader>Links</SectionHeader>
@@ -149,7 +148,7 @@ export default function Resume({ data, location }) {
             </Item>
 
             <Item area="B2">
-              <SectionHeader>Work experience</SectionHeader>
+              <SectionHeader>Experience</SectionHeader>
               {resumeData.work.map((job, index) => (
                 <Item>
                   <Header>{job.company}</Header>
