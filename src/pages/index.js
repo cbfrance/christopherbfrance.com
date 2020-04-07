@@ -131,24 +131,17 @@ const IndexPage = ({ location }) => (
       <ContentInner>
         <WelcomeNote>
           <p>
-            I'm a designer and developer based in Oakland, California. I focus
-            on decision support, collaboration and sensemaking in a commercial
-            context.
+            I'm a digital designer and technical architect based in Oakland,
+            California. I help build systems for decision support, collaboration
+            and sensemaking.
           </p>
 
           <p>
-            I lead product design process for network-driven companies, usually
-            in collaboration with business and engineering teams. I serve as a
-            full-spectrum, cross-functional integrator who speaks technical,
-            design and business-strategic languages. I also have deep experience
-            as a behavioral usability researcher.
-          </p>
-
-          <p>
-            I have a technical design practice; my perspective is anchored in
-            the practical craft of delivering applications, not just imagining
-            them. I always have my sketchbook, but I often find inspiration
-            while writing APIs or implementing error states.
+            I often lead product design process for network-driven companies,
+            usually in collaboration with business and engineering teams. I
+            serve as a full-spectrum, cross-functional integrator who speaks
+            technical, design and business-strategic languages. I have also
+            worked as a behavioral usability researcher.
           </p>
         </WelcomeNote>
         <WorkOverview>

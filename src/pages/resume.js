@@ -71,7 +71,6 @@ const Header = styled.div`
 `
 
 const SubHeader = styled.div`
-  font-weight: 100;
   line-height: 1;
   padding-top: 0.4rem;
 
