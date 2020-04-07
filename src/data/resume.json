@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Christopher Blow France",
-    "label": "Programmer, product designer, data strategist",
+    "label": "Digital product design, data strategy & technical architecture",
     "email": "cgblow@gmail.com",
     "phone": "(415) 309-7900",
     "linkedin": "https://www.linkedin.com/in/christopher-blow-france",
@@ -50,7 +50,7 @@
       "website": "http://thedataguild.com",
       "startDate": "July 2018",
       "endDate": "Current",
-      "summary": "I have focused on architecting new technical capacity and leading product design in concert with teams of data scientists and subject matter experts.",
+      "summary": "I focused on frontend architecture and product design serving data scientists and subject matter experts.",
       "highlights": [
         "Developed research tools for evaluating social impact of startup concepts",
         "Led product research and development for portfolio companies",
@@ -63,7 +63,7 @@
       "website": "https://www.healthmadedesign.com/",
       "startDate": "September 2019",
       "endDate": "March 2020",
-      "summary": "I have invented creative approaches to chronic healthcare issues, with a focus on data visualization and rule-based expert systems.",
+      "summary": "I invented creative approaches to chronic healthcare issues, with a focus on data visualization and rule-based expert systems.",
       "highlights": ["Created data visualizations", "Designed algorithms used in display of healthcare data", "Created full-stack mobile product"]
     },
     {

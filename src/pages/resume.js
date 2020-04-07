@@ -59,6 +59,14 @@ const SectionHeader = styled.div`
   }
 `
 
+const LinksItem = styled.div``
+
+const LinksItemTitle = styled.div`
+  display: inline-block;
+  width: 100px;
+  font-weight: 600;
+`
+
 const Header = styled.div`
   font-weight: 600;
   color: black;
@@ -74,11 +82,6 @@ const SubHeader = styled.div`
   font-weight: 100;
   line-height: 1;
   padding-top: 0.4rem;
-
-  strong {
-    display: inline-block;
-    width: 100px;
-  }
 
   @media print {
     color: black;
@@ -112,18 +115,18 @@ export default function Resume({ location }) {
 
           <Item>
             <SectionHeader>Links</SectionHeader>
-            <SubHeader>
-              <strong>Website</strong>
+            <LinksItem>
+              <LinksItemTitle>Website</LinksItemTitle>
               {resumeData.basics.website}
-            </SubHeader>
-            <SubHeader>
-              <strong>Portfolio</strong>
+            </LinksItem>
+            <LinksItem>
+              <LinksItemTitle>Portfolio</LinksItemTitle>
               {resumeData.basics.portfolio}
-            </SubHeader>
-            <SubHeader>
-              <strong>LinkedIn</strong>
+            </LinksItem>
+            <LinksItem>
+              <LinksItemTitle>LinkedIn</LinksItemTitle>
               {resumeData.basics.linkedin}
-            </SubHeader>
+            </LinksItem>
           </Item>
 
           <Item>
