@@ -14,6 +14,7 @@ export const ContentInner = styled.div`
 
 const WideHeader = styled.div`
   margin: 2rem;
+  max-width: 1200px;
   @media all and (min-width: ${theme.maxWidth}) {
     margin: 0 auto;
     width: 90%;
@@ -25,6 +26,7 @@ const WideHeader = styled.div`
 
 const PostCardGrid = styled.div`
   margin: 2rem;
+  max-width: 1200px;
   @media all and (min-width: ${theme.maxWidth}) {
     width: 90%;
     margin: 0 auto;
