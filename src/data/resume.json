@@ -41,7 +41,7 @@
       "website": "https://lightfield.ag",
       "startDate": "March 2019",
       "endDate": "Current",
-      "summary": "LightField is using design and data strategy for regenerative agriculture, with a focus on innovation in financial products serving this sector. I lead the product design and architecture.",
+      "summary": "I lead the product design and frontend architecture for a startup focused on investor-facing financial technology in agriculture.",
       "highlights": ["Bootstrapping technology company"]
     },
     {
@@ -50,7 +50,7 @@
       "website": "http://thedataguild.com",
       "startDate": "July 2018",
       "endDate": "Current",
-      "summary": "As a lead member of a venture studio, I have focused on architecting new technical capacity and leading product design in concert with teams of data scientists and subject matter experts.",
+      "summary": "I have focused on architecting new technical capacity and leading product design in concert with teams of data scientists and subject matter experts.",
       "highlights": [
         "Developed research tools for evaluating social impact of startup concepts",
         "Led product research and development for portfolio companies",
@@ -63,7 +63,7 @@
       "website": "https://www.healthmadedesign.com/",
       "startDate": "September 2019",
       "endDate": "March 2020",
-      "summary": "At Healthmade I have worked to invent creative solutions to healthcare issues using web and mobile prototyping, UI design and data visualization.",
+      "summary": "I have invented creative approaches to chronic healthcare issues, with a focus on data visualization and rule-based expert systems.",
       "highlights": ["Created data visualizations", "Designed algorithms used in display of healthcare data", "Created full-stack mobile product"]
     },
     {
@@ -72,7 +72,7 @@
       "website": "https://www.contain.ag/",
       "startDate": "July 2019",
       "endDate": "March 2020",
-      "summary": "At Contain have served as an architect, designer and builder. I developed a fintech platform which algorithmically matches lenders and borrowers.",
+      "summary": "I designed and built a fintech platform which algorithmically matches lenders and borrowers using a serverless architecture.",
       "highlights": ["Created fintech platform"]
     },
     {
@@ -81,16 +81,16 @@
       "website": "https://www.litterati.org",
       "startDate": "May 2019",
       "endDate": "April 2020",
-      "summary": "I design and build the data refinement tools used by the machine learning team. ",
+      "summary": "I designed and built the data refinement architecture used by the machine learning team for image recognition and crowdsourced data collection.",
       "highlights": ["Developed data pipelines and data refinement process", "Created data visualizations to guide analysis of packaging database"]
     },
     {
       "company": "Meedan",
-      "position": "Design Director",
+      "position": "Design & UX Director",
       "website": "http://meedan.com",
       "startDate": "March 2008",
       "endDate": "July 2018",
-      "summary": "I led the team responsible for frontend architecture, design systems and design strategies.",
+      "summary": "I led the team responsible for frontend architecture and design systems, serving clients such as Facebook and Cambridge University.",
       "highlights": [
         "Over ten years, I helped grow the company from a team of four people to a successful team on four continents.",
         "Led large user research projects with clients such as Facebook and Cambridge University", 
@@ -99,13 +99,13 @@
       ]
     },
     {
-      "company": "Bolt | Peters User Experience",
-      "position": "Researcher, Developer & Designer",
+      "company": "Bolt | Peters",
+      "position": "UX Researcher, Product Developer & Designer",
       "website": "https://www.crunchbase.com/organization/bolt-peters#section-overview",
       "startDate": "July 2007",
       "endDate": "September 2008",
       "summary":
-        "I was responsible for designing, conducting and analyzing usability studies, analyzing test results. I helped architect, design and build Ethnio, a digital product for the user experience industry.",
+        "I designed and conducted usability studies with clients like Sony and Electronic Arts while building Ethnio, a UX research product.",
       "highlights": [
         "Helped build Ethnio as a Rails developer",
         "Managed research for clients such as Sony and Harvard Business Review",
@@ -113,13 +113,13 @@
       ]
     },
     {
-      "company": "Blast Internet Services",
-      "position": "Director of Operations",
+      "company": "Blast Internet",
+      "position": "Linux sysadmin & Director of Operations",
       "website": "none",
       "startDate": "March 2006",
       "endDate": "July 2007",
       "summary":
-        "I implemented an Agile development methodology and the Rails stack while doubling quarterly revenue.",
+        "I implemented an Agile development methodology with the Rails stack while doing both Linux system administration and business development.",
       "highlights": [
         "Quadrupled sales in 6 months by winning clients such as Duke university and Burt's Bees",
         "Reduced email spam by 90% by implemented greylisting",
@@ -162,20 +162,13 @@
       "studyType": "Bachelor of Arts",
       "startDate": "June 2001",
       "endDate": "January 2004"
-    },
-    {
-      "institution": "University of North Carolina at Asheville",
-      "area": "Humanities, music, literature",
-      "studyType": "Bachelor of Arts",
-      "startDate": "August 1998",
-      "endDate": "December 2001"
     }
   ],
   "awards": {
-    "summary": "A number of projects that I worked on have won awards recently, an Online Journalism Award (for Electionland, one of the largest journalistic collaborations in the U.S.), the International Press Institute News Innovation Contest, the Innovate Africa Innovation Challenge and the Knight News Challenge for Prototypes."
+    "summary": "My products have won awards such as the Online Journalism Award (for Electionland, one of the largest journalistic collaborations in the U.S.), the International Press Institute News Innovation Contest, the Innovate Africa Innovation Challenge and the Knight News Challenge for Prototypes."
   },
   "speaking": {
-    "summary": "In the last few years I’ve given a variety of presentations at events like RightsCon, Global Fact, the Online News Association, DrupalCon, the International CrisisMappers Conference, SXSW, the African News Innovation Challenge, the Nonprofit Technology Conference, the NYU Interactive Telecommunications Program and Stanford."
+    "summary": "I have been invited to speak at RightsCon, Global Fact, the Online News Association, DrupalCon, the International CrisisMappers Conference, SXSW, the Nonprofit Technology Conference, and NYU ITP."
   }
 }
 
