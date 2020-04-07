@@ -11,7 +11,7 @@ const Content = styled.div`
   grid-column: 2;
   box-shadow: 0 4px 120px rgba(0, 0, 0, 0.1);
   border-radius: 1rem;
-  padding: 3rem 6rem;
+  padding: 2rem 5rem;
   color: black;
   @media print {
     box-shadow: none;
@@ -28,10 +28,7 @@ const Content = styled.div`
 
 const TitleResume = styled.div`
   color: black;
-  padding: 3rem 0;
-  @media print {
-    padding: 0;
-  }
+  padding: 1rem 0;
 `
 
 export const DateStamp = styled.div`
@@ -43,19 +40,15 @@ export const DateStamp = styled.div`
   color: rgba(0, 0, 0, 0.7);
 `
 
-const PageHeader = styled.h1`
-  @media print {
-    font-weight: bold;
-  }
-`
+const PageHeader = styled.h1``
 
 const SectionHeader = styled.div`
   font-weight: 600;
   border-bottom: ${borderWidth} solid black;
-  line-height: 3rem;
+  line-height: 2rem;
   margin-bottom: calc(1rem - ${borderWidth});
   @media print {
-    line-height: 3rem;
+    line-height: 2rem;
   }
 `
 
@@ -96,6 +89,7 @@ const Item = styled.div`
   padding: 1rem 0;
   line-height: 1.5;
   @media print {
+    font-size: 0.8rem;
     padding: 0.2rem 0 0.5rem;
   }
 `
@@ -161,12 +155,9 @@ export default function Resume({ location }) {
               {resumeData.speaking.summary} {resumeData.awards.summary}
             </Description>
           </Item>
-          <Item style={{ textAlign: 'center' }}>
+          <Item style={{ textAlign: 'center', fontSize: '0.7rem' }}>
             <Description padTop="1rem">
-              {resumeData.basics.website}{' '}
-            </Description>
-            <Description padTop="1rem">
-              {resumeData.basics.phone} • 
+              {resumeData.basics.website} • {resumeData.basics.phone} • 
               {resumeData.basics.email} • 
               {resumeData.basics.location.city}
               {', '}

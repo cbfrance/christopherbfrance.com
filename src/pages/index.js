@@ -237,7 +237,8 @@ const IndexPage = ({ location }) => (
                 LinkedIn page
               </a>{' '}
               or <Link to="/contact">contact form</Link>. You may also be
-              interested in my <a href="/resume">resume</a>.
+              interested in my resume: <a href="/resume">as HTML</a> or{' '}
+              <a href="/Christopher-France-Resume.pdf">as a PDF</a>.
             </em>
           </p>
 
