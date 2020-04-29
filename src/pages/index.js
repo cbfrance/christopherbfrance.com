@@ -226,7 +226,7 @@ const IndexPage = ({ location }) => (
           <p>
             <em>
               For more details please reach out via my{' '}
-              <a href="https://www.linkedin.com/in/christopher-blow-france-1b7774100/">
+              <a href="https://www.linkedin.com/in/christopher-blow-france/">
                 LinkedIn page
               </a>{' '}
               or <Link to="/contact">contact form</Link>. You may also be
