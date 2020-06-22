@@ -1,6 +1,5 @@
 import React from 'react'
-import PropTypes from 'prop-types'
-import { Link, graphql } from 'gatsby'
+import { Link } from 'gatsby'
 import styled from 'styled-components'
 import christopherImage from 'assets/christopher4.png'
 import { Row, Column, SectionTitle, MainContent } from 'styles/styles'
@@ -161,11 +160,11 @@ const IndexPage = ({ location }) => (
               fintech startup
             </li>
             <li>
-              <a href="https://www.litterati.org/">Healthmade</a> — Creative
-              technologist at healthcare design studio
+              <a href="https://www.healthmadedesign.com/">Healthmade</a>{' '}
+              — Creative technologist at healthcare design studio
             </li>
             <li>
-              <a href="https://www.healthmadedesign.com/">Litterati</a> — Data
+              <a href="https://www.litterati.org/">Litterati</a> — Data
               strategist at environmental startup
             </li>
 
@@ -214,13 +213,7 @@ const IndexPage = ({ location }) => (
             I am sometimes available for talks, please{' '}
             <Link to="/contact">get in touch</Link>.
           </p>
-          <SectionTitle>Consulting</SectionTitle>
-          <p>
-            I am not currently available for independent consulting engagements,
-            but if your interest involves data for climate or environmental
-            science, please reach out to my company{' '}
-            <a href="https://lightfield.ag">LightField</a>.
-          </p>
+
           <SectionTitle>Contact</SectionTitle>
 
           <p>
