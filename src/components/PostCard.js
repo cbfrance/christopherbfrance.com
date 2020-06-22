@@ -1,10 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Link } from 'gatsby'
-import kebabCase from 'lodash/kebabCase'
 import Img from 'gatsby-image'
 import theme from 'theme'
-import { MetaData } from 'styles/styles'
 
 const Card = styled.article`
   display: flex;
@@ -61,15 +59,7 @@ const StyledImage = styled(Img)`
   }
 `
 
-const PostCard = ({
-  title,
-  date,
-  excerpt,
-  slug,
-  timeToRead,
-  categories,
-  cover,
-}) => (
+const PostCard = ({ title, date, excerpt, slug, timeToRead, cover }) => (
   <Link to={slug}>
     <Card>
       <ShadowBox>
@@ -77,20 +67,7 @@ const PostCard = ({
       </ShadowBox>
 
       <Title>{title}</Title>
-      <Excerpt>
-        {excerpt}
-
-        {/* <MetaData>
-          {date} &mdash;
-          {timeToRead} Min Read &mdash; In{' '}
-          {categories.map((cat, i) => (
-            <React.Fragment key={cat}>
-              {!!i && ', '}
-              <Link to={`/categories/${kebabCase(cat)}`}>{cat}</Link>
-            </React.Fragment>
-          ))}
-        </MetaData> */}
-      </Excerpt>
+      <Excerpt>{excerpt}</Excerpt>
     </Card>
   </Link>
 )

@@ -86,7 +86,6 @@ const PortfolioPage = ({
             excerpt={post.node.excerpt}
             timeToRead={post.node.timeToRead}
             slug={post.node.fields.slug}
-            categories={post.node.frontmatter.categories}
             key={post.node.fields.slug}
             cover={post.node.frontmatter.cover}
           />
@@ -109,7 +108,6 @@ export const PortfolioQuery = graphql`
           frontmatter {
             title
             date(formatString: "YYYY")
-            categories
             cover {
               publicURL
               childImageSharp {

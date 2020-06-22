@@ -119,8 +119,8 @@ const IndexPage = ({ location }) => (
     <HeadlineContent>
       <ContentInner>
         <h1>
-          A full-spectrum designer and developer building critical data products
-          and experiences
+          A full-spectrum designer and developer building digital products for
+          social and environmental impact
         </h1>
       </ContentInner>
     </HeadlineContent>
@@ -129,51 +129,54 @@ const IndexPage = ({ location }) => (
         <PhotoFeature photo={christopherImage}>
           <Column style={{ justifyContent: 'center' }}>
             <h1>Christopher France</h1>
-            <p>Builder and strategist</p>
+            <p>Designer and coder</p>
           </Column>
         </PhotoFeature>
       </ContentInner>
       <ContentInner>
         <WelcomeNote>
           <p>
-            I'm a digital designer, user experience researcher and technical
-            architect based in Oakland, California. I help build systems for
-            decision support, collaboration and sensemaking. I often lead
-            product design process for network-driven companies, usually in
-            collaboration with business and engineering teams. I serve as a
-            full-spectrum, cross-functional integrator who speaks technical,
-            design and business-strategic languages.
+            👋 Hi, I'm a product hacker based in Oakland, California. I lead the
+            design process for web or mobile. (And often I help build the thing
+            too.) My niche is early- and mid-stage companies, where I help teams
+            learn how to make products better through strategic positioning and
+            world-class execution. My practice combines frontend development,
+            product design and user experience research.
           </p>
         </WelcomeNote>
         <WorkOverview>
-          <SectionTitle>Work</SectionTitle>
+          <SectionTitle>RECENT</SectionTitle>
           <WorkList>
             <li>
-              <a href="/lightfield">LightField</a> — Co-founder at climate data
-              startup
+              <a href="/light-field">LightField</a> — Co-founder at climate data
+              startup in agriculture
             </li>
             <li>
-              <a href="/guild">The Data Guild</a> — Lead member at startup
-              studio
+              <a href="/the-data-guild">The Data Guild</a> — Core member of a
+              startup studio for energy and health
             </li>
 
             <li>
-              <a href="/contain">Contain</a> — Technology lead at fintech
-              startup
+              <a href="/contain">Contain</a> — Lead technology architect at an
+              “alt-fintech” startup
             </li>
-            <li>
-              <a href="/healthmade">Healthmade</a> — Creative technologist at
-              healthcare design studio
-            </li>
+
             <li>
               <a href="/litterati">Litterati</a> — Data strategist at
               environmental startup
             </li>
 
             <li>
-              <a href="/meedan">Meedan</a> — Design director of an international
-              technology company
+              <a href="/meedan">Meedan</a> — Design lead at international tech
+              and design company
             </li>
+
+            <li>
+              <strong>Healthmade</strong> — Creative technologist at healthcare
+              design studio
+            </li>
+
+            <SectionTitle>PREVIOUS</SectionTitle>
 
             <li>
               <strong>Bolt | Peters</strong> — Designer and UI researcher at UX

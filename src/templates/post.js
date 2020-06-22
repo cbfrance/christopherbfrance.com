@@ -76,16 +76,6 @@ const Post = ({
         <Content>
           <Title>{post.title}</Title>
           <Byline />
-          <MetaData>
-            {/* {post.date} &mdash;  */}
-            {/* {postNode.timeToRead} Min Read &mdash; In{' '}
-            {post.categories.map((cat, i) => (
-              <React.Fragment key={cat}>
-                {!!i && ', '}
-                <Link to={`/categories/${kebabCase(cat)}`}>{cat}</Link>
-              </React.Fragment>
-            ))} */}
-          </MetaData>
           <PrevNext prev={prev} next={next} />
           <PostContent>
             <MDXRenderer>{postNode.code.body}</MDXRenderer>
@@ -116,7 +106,6 @@ export const postQuery = graphql`
       frontmatter {
         title
         date(formatString: "MM/DD/YYYY")
-        categories
         cover {
           publicURL
           childImageSharp {
