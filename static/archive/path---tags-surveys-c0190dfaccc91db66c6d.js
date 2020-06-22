@@ -1,2 +1,0 @@
-webpackJsonp([0xce5b082beb7f],{1421:function(e,t){e.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"Populi.net: a mobile phone-based research platform",path:"/2008/04/11/populinet-a-mobile-phone-based-research-platform"}}}]}},pathContext:{tag:"surveys"}}}});
-//# sourceMappingURL=path---tags-surveys-c0190dfaccc91db66c6d.js.map

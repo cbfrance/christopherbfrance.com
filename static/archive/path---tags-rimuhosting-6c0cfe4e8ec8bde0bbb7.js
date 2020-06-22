@@ -1,2 +1,0 @@
-webpackJsonp([0xb2537449ba93],{1393:function(t,a){t.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"Happy Hosting ",path:"/2008/02/21/happy-hosting"}}}]}},pathContext:{tag:"rimuhosting"}}}});
-//# sourceMappingURL=path---tags-rimuhosting-6c0cfe4e8ec8bde0bbb7.js.map

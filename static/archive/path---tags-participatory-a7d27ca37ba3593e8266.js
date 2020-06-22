@@ -1,2 +1,0 @@
-webpackJsonp([96774951815762],{1364:function(t,a){t.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"Participatory Design",path:"/2005/10/03/participatory-design"}}}]}},pathContext:{tag:"participatory"}}}});
-//# sourceMappingURL=path---tags-participatory-a7d27ca37ba3593e8266.js.map

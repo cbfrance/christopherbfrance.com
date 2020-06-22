@@ -1,2 +1,0 @@
-webpackJsonp([71039852825008],{1261:function(t,a){t.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"Beautiful Packaging, Ugly Statistics",path:"/2005/12/16/beautiful-packaging-ugly-statistics"}}}]}},pathContext:{tag:"gapminder"}}}});
-//# sourceMappingURL=path---tags-gapminder-9926a401ccf01c8d5faa.js.map

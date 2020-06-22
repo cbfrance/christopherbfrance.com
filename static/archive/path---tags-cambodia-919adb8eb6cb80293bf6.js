@@ -1,2 +1,0 @@
-webpackJsonp([0xe3cb20f56152],{1190:function(t,a){t.exports={data:{allMarkdownRemark:{totalCount:2,edges:[{node:{frontmatter:{title:"OpenStreetMap Cambodia",path:"/2009/06/30/openstreetmap-cambodia"}}},{node:{frontmatter:{title:"Sustainable Interaction Design in Cambodia",path:"/2009/06/29/sustainable-interaction-design-in-cambodia"}}}]}},pathContext:{tag:"cambodia"}}}});
-//# sourceMappingURL=path---tags-cambodia-919adb8eb6cb80293bf6.js.map

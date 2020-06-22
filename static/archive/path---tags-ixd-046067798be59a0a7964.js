@@ -1,2 +1,0 @@
-webpackJsonp([98093659832154],{1299:function(t,e){t.exports={data:{allMarkdownRemark:{totalCount:2,edges:[{node:{frontmatter:{title:"Instant Live Support for Everything Geek",path:"/2006/06/29/instant-live-support-for-everything-geek"}}},{node:{frontmatter:{title:"Visualizing Community News",path:"/2006/02/01/visualizing-community-news"}}}]}},pathContext:{tag:"ixd"}}}});
-//# sourceMappingURL=path---tags-ixd-046067798be59a0a7964.js.map

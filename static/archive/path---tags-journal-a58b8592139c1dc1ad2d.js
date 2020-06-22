@@ -1,2 +1,0 @@
-webpackJsonp([0xce9239ba4e7],{1301:function(t,a){t.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"Community Informatics",path:"/2005/06/01/community-informatics"}}}]}},pathContext:{tag:"journal"}}}});
-//# sourceMappingURL=path---tags-journal-a58b8592139c1dc1ad2d.js.map

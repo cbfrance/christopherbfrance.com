@@ -1,2 +1,0 @@
-webpackJsonp([70841653048723],{1265:function(a,t){a.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"Sign Your Name for Open Maps",path:"/2006/01/03/sign-your-name-for-open-maps"}}}]}},pathContext:{tag:"geodata"}}}});
-//# sourceMappingURL=path---tags-geodata-f32cb86c12dcd57eade9.js.map

@@ -1,2 +1,0 @@
-webpackJsonp([66009933398507],{1065:function(t,e){t.exports={data:{markdownRemark:{html:"<p>I'm posting again after a couple months absence though mostly I think I'll just be doing short excerpts from the stuff I'm reading. At any rate, comments are open again. Please indulge.</p>",frontmatter:{created_at:"June 09, 2006",path:"/2006/06/09/hi-im-alive",title:"Hi, I'm alive",tags:["meta"]}}},pathContext:{}}}});
-//# sourceMappingURL=path---2006-06-09-hi-im-alive-afc302bc2146173c4f1f.js.map

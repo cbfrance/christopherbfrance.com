@@ -1,2 +1,0 @@
-webpackJsonp([44505827885024],{1405:function(t,e){t.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"Instant Live Support for Everything Geek",path:"/2006/06/29/instant-live-support-for-everything-geek"}}}]}},pathContext:{tag:"servicedesign"}}}});
-//# sourceMappingURL=path---tags-servicedesign-e78157d22bbf6b1d2914.js.map

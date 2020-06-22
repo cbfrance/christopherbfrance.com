@@ -1,2 +1,0 @@
-webpackJsonp([91778633847092],{1270:function(t,a){t.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"ICT in Education",path:"/2005/09/25/ict-in-education"}}}]}},pathContext:{tag:"gov"}}}});
-//# sourceMappingURL=path---tags-gov-dceb8617aa63bc36b268.js.map

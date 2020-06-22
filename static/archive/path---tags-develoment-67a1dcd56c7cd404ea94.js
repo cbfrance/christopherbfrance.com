@@ -1,2 +1,0 @@
-webpackJsonp([0xd896d19cf727],{1228:function(t,a){t.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"What is ICT?",path:"/2005/01/06/what-is-ict"}}}]}},pathContext:{tag:"develoment"}}}});
-//# sourceMappingURL=path---tags-develoment-67a1dcd56c7cd404ea94.js.map

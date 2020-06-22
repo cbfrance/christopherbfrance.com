@@ -1,2 +1,0 @@
-webpackJsonp([0x6d63c6d93701],{1341:function(e,t){e.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"Kermit: bonafide-trueblue- guarantee- your- money- back visual thinker",path:"/2008/10/09/kermit-bonafide-trueblue-guarantee-your-money-back-visual-thinker"}}}]}},pathContext:{tag:"muppets"}}}});
-//# sourceMappingURL=path---tags-muppets-507d37b8352413e412bf.js.map

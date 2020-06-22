@@ -1,2 +1,0 @@
-webpackJsonp([0xa535ea119525],{1278:function(t,n){t.exports={data:{allMarkdownRemark:{totalCount:2,edges:[{node:{frontmatter:{title:"Dealing Lightning with Both Hands",path:"/2008/12/03/dealing-lightning-with-both-hands"}}},{node:{frontmatter:{title:'On being "unixy"',path:"/2008/05/20/on-the-quality-of-haveing-a-unixlike-interface"}}}]}},pathContext:{tag:"history"}}}});
-//# sourceMappingURL=path---tags-history-d610f565949a4d791409.js.map

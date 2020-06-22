@@ -1,2 +1,0 @@
-webpackJsonp([0xfb9272408105],{1466:function(t,a){t.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"Fear and Loathing in Tunis",path:"/2005/11/16/fear-and-loathing-in-tunis"}}}]}},pathContext:{tag:"WISIS"}}}});
-//# sourceMappingURL=path---tags-wisis-b4b8c0d00ac305c15791.js.map

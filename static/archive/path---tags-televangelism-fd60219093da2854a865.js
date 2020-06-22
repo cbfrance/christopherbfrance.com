@@ -1,2 +1,0 @@
-webpackJsonp([0x9f137938120a],{1434:function(t,a){t.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"Godcasting",path:"/2005/08/29/godcasting"}}}]}},pathContext:{tag:"televangelism"}}}});
-//# sourceMappingURL=path---tags-televangelism-fd60219093da2854a865.js.map

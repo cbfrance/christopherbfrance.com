@@ -1,2 +1,0 @@
-webpackJsonp([35236637556906],{1470:function(t,a){t.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"Thinking About The Search for Jim Gray",path:"/2007/02/04/thinking-about-the-search-for-jim-gray"}}}]}},pathContext:{tag:"worldchanging"}}}});
-//# sourceMappingURL=path---tags-worldchanging-fd979d682eece193e62c.js.map

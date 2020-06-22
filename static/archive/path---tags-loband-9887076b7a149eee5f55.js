@@ -1,2 +1,0 @@
-webpackJsonp([0x80206d2bc241],{1316:function(e,t){e.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"Low-Bandwidth user experience",path:"/2007/01/05/low-bandwidth-user-experice"}}}]}},pathContext:{tag:"loband"}}}});
-//# sourceMappingURL=path---tags-loband-9887076b7a149eee5f55.js.map

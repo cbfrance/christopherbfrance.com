@@ -1,2 +1,0 @@
-webpackJsonp([43912033808651],{1260:function(t,e){t.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"The Unevenly Distributed Future (of Mobile Application Design), Visualized",path:"/2008/06/13/the-unevenly-distributed-future-visualized"}}}]}},pathContext:{tag:"futurism"}}}});
-//# sourceMappingURL=path---tags-futurism-51cc378dd6328746bce0.js.map

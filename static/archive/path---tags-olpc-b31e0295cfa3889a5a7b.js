@@ -1,2 +1,0 @@
-webpackJsonp([0xe06ae018d005],{1355:function(t,a){t.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"More accounts of the 1-Laptop-Per-Child Laptop at MIT",path:"/2005/11/12/more-accounts-of-the-1-laptop-per-child-laptop-at-mit"}}}]}},pathContext:{tag:"olpc"}}}});
-//# sourceMappingURL=path---tags-olpc-b31e0295cfa3889a5a7b.js.map

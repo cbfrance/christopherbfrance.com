@@ -1,2 +1,0 @@
-webpackJsonp([0xba89b560285d],{1310:function(a,t){a.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"The Law and Blogging",path:"/2005/06/28/the-law-and-blogging"}}}]}},pathContext:{tag:"law"}}}});
-//# sourceMappingURL=path---tags-law-5a3da5bbffde4c0bc3e7.js.map

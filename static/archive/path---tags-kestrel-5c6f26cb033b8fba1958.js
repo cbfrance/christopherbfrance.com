@@ -1,2 +1,0 @@
-webpackJsonp([0xe39c4478a3dc],{1305:function(t,e){t.exports={data:{allMarkdownRemark:{totalCount:2,edges:[{node:{frontmatter:{title:"Kestrel update.",path:"/2008/02/20/kestrel-update"}}},{node:{frontmatter:{title:"Kestrel: A Simple Web App for Community Supported Agriculture ",path:"/2008/01/03/kestrel-a-simple-web-app-for-community-supported-agriculture"}}}]}},pathContext:{tag:"kestrel"}}}});
-//# sourceMappingURL=path---tags-kestrel-5c6f26cb033b8fba1958.js.map

@@ -1,2 +1,0 @@
-webpackJsonp([75739132471907],{1352:function(t,o){t.exports={data:{allMarkdownRemark:{totalCount:2,edges:[{node:{frontmatter:{title:"Audio Activism",path:"/2005/05/18/audio-activism"}}},{node:{frontmatter:{title:"For-Profit NTEN?",path:"/2005/05/03/for-profit-nten"}}}]}},pathContext:{tag:"nten"}}}});
-//# sourceMappingURL=path---tags-nten-ed8513c87cd008a8b6d4.js.map

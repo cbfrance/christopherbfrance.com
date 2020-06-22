@@ -2,7 +2,13 @@ import React from 'react'
 import { Link } from 'gatsby'
 import styled from 'styled-components'
 import christopherImage from 'assets/christopher4.png'
-import { Row, Column, SectionTitle, MainContent } from 'styles/styles'
+import {
+  Row,
+  Column,
+  SectionTitle,
+  SectionSubTitle,
+  MainContent,
+} from 'styles/styles'
 import theme from 'theme'
 
 import { Layout } from 'components'
@@ -78,7 +84,7 @@ const WelcomeNote = styled.div`
   font-family: ${theme.fontFamily.sans};
   font-weight: 400;
   line-height: 2;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
 `
 
 const WorkList = styled.ul`
@@ -130,59 +136,56 @@ const IndexPage = ({ location }) => (
       <ContentInner>
         <WelcomeNote>
           <p>
-            I'm a digital designer and technical architect based in Oakland,
-            California. I help build systems for decision support, collaboration
-            and sensemaking.
-          </p>
-
-          <p>
-            I often lead product design process for network-driven companies,
-            usually in collaboration with business and engineering teams. I
-            serve as a full-spectrum, cross-functional integrator who speaks
-            technical, design and business-strategic languages. I have also
-            worked as a behavioral usability researcher.
+            I'm a digital designer, user experience researcher and technical
+            architect based in Oakland, California. I help build systems for
+            decision support, collaboration and sensemaking. I often lead
+            product design process for network-driven companies, usually in
+            collaboration with business and engineering teams. I serve as a
+            full-spectrum, cross-functional integrator who speaks technical,
+            design and business-strategic languages.
           </p>
         </WelcomeNote>
         <WorkOverview>
           <SectionTitle>Work</SectionTitle>
           <WorkList>
             <li>
-              <a href="https://lightfield.ag">LightField</a> — Co-founder at
-              climate data startup
+              <a href="/lightfield">LightField</a> — Co-founder at climate data
+              startup
             </li>
             <li>
-              <a href="https://thedataguild.com">The Data Guild</a> — Lead
-              member at startup studio
-            </li>
-
-            <li>
-              <a href="https://contain.ag">Contain</a> — Technology lead at
-              fintech startup
-            </li>
-            <li>
-              <a href="https://www.healthmadedesign.com/">Healthmade</a>{' '}
-              — Creative technologist at healthcare design studio
-            </li>
-            <li>
-              <a href="https://www.litterati.org/">Litterati</a> — Data
-              strategist at environmental startup
+              <a href="/guild">The Data Guild</a> — Lead member at startup
+              studio
             </li>
 
             <li>
-              <a href="https://meedan.com">Meedan</a> — Design director and
-              co-founder of technology company
+              <a href="/contain">Contain</a> — Technology lead at fintech
+              startup
             </li>
             <li>
-              <a href="https://boltpeters.com/">Bolt | Peters</a> — Designer and
-              UI researcher at UX consultancy
+              <a href="/healthmade">Healthmade</a> — Creative technologist at
+              healthcare design studio
             </li>
             <li>
-              <a href="https://ethn.io/">Ethnio</a> — Rails developer and
-              designer for usability research product
+              <a href="/litterati">Litterati</a> — Data strategist at
+              environmental startup
+            </li>
+
+            <li>
+              <a href="/meedan">Meedan</a> — Design director of an international
+              technology company
+            </li>
+
+            <li>
+              <strong>Bolt | Peters</strong> — Designer and UI researcher at UX
+              consultancy
             </li>
             <li>
-              <a href="https://ushahidi.com/">Ushahidi</a> — iOS designer and
-              design advisor for civic media platform
+              <strong>Ethnio</strong> — Rails developer and designer for
+              usability research product
+            </li>
+            <li>
+              <strong>Ushahidi</strong> — iOS designer and design advisor for
+              civic media platform
             </li>
             <li>
               <strong>Blast Internet</strong> — Linux systems administrator for

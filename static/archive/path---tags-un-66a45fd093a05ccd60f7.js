@@ -1,2 +1,0 @@
-webpackJsonp([0xe1ad147a66d],{1451:function(t,e){t.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"The United Nations Report on Technology And Human Development",path:"/2004/07/06/the-united-nations-report-on-technology-and-human-development"}}}]}},pathContext:{tag:"un"}}}});
-//# sourceMappingURL=path---tags-un-66a45fd093a05ccd60f7.js.map

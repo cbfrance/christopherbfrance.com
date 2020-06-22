@@ -1,2 +1,0 @@
-webpackJsonp([0x6ab4d6a03a60],{1218:function(t,a){t.exports={data:{allMarkdownRemark:{totalCount:2,edges:[{node:{frontmatter:{title:"Genocide vs. Gadgets",path:"/2007/06/15/genocide-vs-gadgets"}}},{node:{frontmatter:{title:"The Darfur Wall",path:"/2006/12/17/the-darfur-wall"}}}]}},pathContext:{tag:"darfur"}}}});
-//# sourceMappingURL=path---tags-darfur-820f834990bb77c5ad15.js.map

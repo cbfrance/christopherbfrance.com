@@ -1,2 +1,0 @@
-webpackJsonp([63641765227107],{1445:function(t,e){t.exports={data:{allMarkdownRemark:{totalCount:2,edges:[{node:{frontmatter:{title:"The Wireless Internet Opportunity For Developing Countries",path:"/2005/11/17/the-wireless-internet-opportunity-for-developing-countries"}}},{node:{frontmatter:{title:"Fear and Loathing in Tunis",path:"/2005/11/16/fear-and-loathing-in-tunis"}}}]}},pathContext:{tag:"tunisia"}}}});
-//# sourceMappingURL=path---tags-tunisia-f7696bce3fa8e08ca472.js.map

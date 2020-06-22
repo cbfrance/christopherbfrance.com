@@ -36,15 +36,6 @@
   },
   "work": [
     {
-      "company": "LightField",
-      "position": "Co-founder and Partner",
-      "website": "https://lightfield.ag",
-      "startDate": "March 2019",
-      "endDate": "Current",
-      "summary": "I lead the product design and frontend architecture for a startup focused on investor-facing financial technology in agriculture.",
-      "highlights": ["Bootstrapping technology company"]
-    },
-    {
       "company": "The Data Guild",
       "position": "Lead Member",
       "website": "http://thedataguild.com",
@@ -58,12 +49,21 @@
       ]
     },
     {
+      "company": "LightField",
+      "position": "Co-founder and Partner",
+      "website": "https://lightfield.ag",
+      "startDate": "March 2019",
+      "endDate": "June 2020",
+      "summary": "I lead the product design and frontend architecture for a startup focused on investor-facing financial technology in agriculture.",
+      "highlights": ["Bootstrapping technology company"]
+    },
+    {
       "company": "Healthmade",
       "position": "Creative Data Technologist",
       "website": "https://www.healthmadedesign.com/",
       "startDate": "September 2019",
-      "endDate": "March 2020",
-      "summary": "I invented creative approaches to chronic healthcare issues, with a focus on data visualization and rule-based expert systems.",
+      "endDate": "Current",
+      "summary": "I invent creative approaches to chronic healthcare issues, with a focus on data visualization and rule-based expert systems.",
       "highlights": ["Created data visualizations", "Designed algorithms used in display of healthcare data", "Created full-stack mobile product"]
     },
     {

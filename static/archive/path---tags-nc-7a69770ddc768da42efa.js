@@ -1,2 +1,0 @@
-webpackJsonp([0xf46e07b2a88e],{1343:function(t,a){t.exports={data:{allMarkdownRemark:{totalCount:2,edges:[{node:{frontmatter:{title:"Triangle Blogger's Bash, Durham, November 15",path:"/2005/11/12/triangle-bloggers-bash-durham-november-15"}}},{node:{frontmatter:{title:"What if the Flood Was in Washington?",path:"/2005/09/10/what-if-the-flood-was-in-washington"}}}]}},pathContext:{tag:"nc"}}}});
-//# sourceMappingURL=path---tags-nc-7a69770ddc768da42efa.js.map

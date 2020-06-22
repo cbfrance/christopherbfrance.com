@@ -2,6 +2,7 @@ import React from 'react'
 import theme from 'theme'
 import styled from 'styled-components'
 import christopherImage from 'assets/christopher3-overlay-213768.png'
+import resume from 'data/resume.json'
 
 const Wrapper = styled.div`
   display: flex;
@@ -33,10 +34,17 @@ const Byline = () => (
     <BylineImageStyles>
       <img src={christopherImage} alt="Christopher France" />
     </BylineImageStyles>
-    <p>
-      Reflections on business and design strategy by Christopher France, a
-      digital product developer living in Oakland, CA.
-    </p>
+    <div>
+      <p>
+        Reflections on business and design strategy by Christopher France, a
+        digital product developer living in Oakland, CA.
+      </p>
+
+      <div style={{ marginTop: '0.5rem' }}>
+        <a href={resume.basics.linkedin}>LinkedIn</a> • 
+        <a href="/Christopher-France-Resume.pdf">Resume</a>
+      </div>
+    </div>
   </Wrapper>
 )
 

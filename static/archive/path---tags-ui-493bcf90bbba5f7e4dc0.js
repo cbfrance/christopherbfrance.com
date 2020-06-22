@@ -1,2 +1,0 @@
-webpackJsonp([69751821842947],{1450:function(e,t){e.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"Wanted: An open-source, user-centered touchscreen platform",path:"/2007/05/13/wanted-an-open-source-user-centered-touchscreen-platform"}}}]}},pathContext:{tag:"ui"}}}});
-//# sourceMappingURL=path---tags-ui-493bcf90bbba5f7e4dc0.js.map

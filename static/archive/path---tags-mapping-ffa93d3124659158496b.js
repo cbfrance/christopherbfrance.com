@@ -1,2 +1,0 @@
-webpackJsonp([0xf85477f31617],{1321:function(a,t){a.exports={data:{allMarkdownRemark:{totalCount:3,edges:[{node:{frontmatter:{title:"Mapping Bird Flu",path:"/2006/01/09/mapping-bird-flu"}}},{node:{frontmatter:{title:"Raising International Awareness Through Innovative Cartography",path:"/2005/09/14/raising-international-awareness-through-innovative-cartography"}}},{node:{frontmatter:{title:"GIS and Humanitarian Crisis",path:"/2005/09/02/gis-and-humanitarian-crisis"}}}]}},pathContext:{tag:"mapping"}}}});
-//# sourceMappingURL=path---tags-mapping-ffa93d3124659158496b.js.map

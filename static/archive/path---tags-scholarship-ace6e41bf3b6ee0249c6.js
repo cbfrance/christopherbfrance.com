@@ -1,2 +1,0 @@
-webpackJsonp([76177715092320],{1399:function(o,t){o.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"Online Resources for Evaluation Nonprofit Programs",path:"/2005/08/03/online-resources-for-evaluation-nonprofit-programs"}}}]}},pathContext:{tag:"scholarship"}}}});
-//# sourceMappingURL=path---tags-scholarship-ace6e41bf3b6ee0249c6.js.map

@@ -1,2 +1,0 @@
-webpackJsonp([73130396662073],{1371:function(t,a){t.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"Getting Real",path:"/2006/03/06/getting-real-its-not-just-an-80s-catch-phrase"}}}]}},pathContext:{tag:"pod"}}}});
-//# sourceMappingURL=path---tags-pod-7147a9686c921db52750.js.map

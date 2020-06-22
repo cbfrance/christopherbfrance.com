@@ -1,2 +1,0 @@
-webpackJsonp([0xa21a5b9a44a3],{1398:function(a,e){a.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"Low-Bandwidth user experience",path:"/2007/01/05/low-bandwidth-user-experice"}}}]}},pathContext:{tag:"rural"}}}});
-//# sourceMappingURL=path---tags-rural-8e117be8b7b5eefe36a9.js.map

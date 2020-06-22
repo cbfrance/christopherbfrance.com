@@ -1,2 +1,0 @@
-webpackJsonp([0x9053c608f825],{1213:function(t,a){t.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"Ushahidi for the iPhone",path:"/2008/09/18/ushahidi-designs"}}}]}},pathContext:{tag:"crowdsourcing"}}}});
-//# sourceMappingURL=path---tags-crowdsourcing-ca0f3ef21b0bfab86701.js.map

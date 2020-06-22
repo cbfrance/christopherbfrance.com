@@ -1,2 +1,0 @@
-webpackJsonp([76789386298029],{1222:function(t,n){t.exports={data:{allMarkdownRemark:{totalCount:3,edges:[{node:{frontmatter:{title:"What if the Flood Was in Washington?",path:"/2005/09/10/what-if-the-flood-was-in-washington"}}},{node:{frontmatter:{title:"GIS and Humanitarian Crisis",path:"/2005/09/02/gis-and-humanitarian-crisis"}}},{node:{frontmatter:{title:"Learning internet-think in Uzbekistan",path:"/2005/03/13/learning-internet-think-in-uzbekistan"}}}]}},pathContext:{tag:"DDN"}}}});
-//# sourceMappingURL=path---tags-ddn-0289003bdf1dcc61d87f.js.map

@@ -1,2 +1,0 @@
-webpackJsonp([0x79a0b86fb6eb],{1394:function(e,t){e.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"Book of the Month Club for Interface & Design Geeks",path:"/2008/05/31/books-of-the-month-for-interface-geeks"}}}]}},pathContext:{tag:"rosenfeld"}}}});
-//# sourceMappingURL=path---tags-rosenfeld-875f026c9b375a185e7e.js.map

@@ -1,2 +1,0 @@
-webpackJsonp([0x8242ff213fda],{1389:function(a,e){a.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"ReliefWeb Maps for Humanitarian Crisis",path:"/2006/02/25/reliefweb-maps-for-humanitarian-crisis"}}}]}},pathContext:{tag:"reliefweb"}}}});
-//# sourceMappingURL=path---tags-reliefweb-f461224c5127b3ebc18b.js.map

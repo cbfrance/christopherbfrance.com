@@ -1,2 +1,0 @@
-webpackJsonp([0xbd6ac06df0c6],{1446:function(t,e){t.exports={data:{allMarkdownRemark:{totalCount:2,edges:[{node:{frontmatter:{title:"Linux Overview",path:"/2006/06/24/linux-overview"}}},{node:{frontmatter:{title:"What The Hell Is RSS?",path:"/2005/05/05/what-the-hell-is-rss"}}}]}},pathContext:{tag:"tutorial"}}}});
-//# sourceMappingURL=path---tags-tutorial-864a2ed621e37eea2bbb.js.map

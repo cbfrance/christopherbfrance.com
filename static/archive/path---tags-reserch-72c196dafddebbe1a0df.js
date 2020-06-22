@@ -1,2 +1,0 @@
-webpackJsonp([54483477562881],{1392:function(t,a){t.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"Qualitative Analysis Software Reviews",path:"/2005/07/29/qualitative-analysis-software-reviews"}}}]}},pathContext:{tag:"reserch"}}}});
-//# sourceMappingURL=path---tags-reserch-72c196dafddebbe1a0df.js.map

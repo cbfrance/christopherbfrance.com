@@ -1,2 +1,0 @@
-webpackJsonp([19516276706191],{1223:function(t,e){t.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"An Open Source Strike?",path:"/2006/12/18/an-open-source-strike"}}}]}},pathContext:{tag:"debian"}}}});
-//# sourceMappingURL=path---tags-debian-ff2ffa1cbe664f6c7f08.js.map

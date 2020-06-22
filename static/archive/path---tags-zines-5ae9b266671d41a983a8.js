@@ -1,2 +1,0 @@
-webpackJsonp([0x9001369b6d5d],{1474:function(t,e){t.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"OK, Nevermind. Actually, The Future is in the Past",path:"/2007/12/21/ok-nevermind-actually-the-future-is-in-the-past"}}}]}},pathContext:{tag:"zines"}}}});
-//# sourceMappingURL=path---tags-zines-5ae9b266671d41a983a8.js.map

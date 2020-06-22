@@ -52,9 +52,14 @@ export const FinePrint = styled.div`
 
 export const SectionTitle = styled.div`
   font-size: 1rem;
+  font-weight: 600;
   text-transform: uppercase;
   position: relative;
   margin: 6rem 0 2rem;
+`
+
+export const SectionSubTitle = styled(SectionTitle)`
+  font-weight: 400;
 `
 
 export const GlobalStyle = createGlobalStyle`
@@ -150,17 +155,9 @@ export const GlobalStyle = createGlobalStyle`
     border-left: 1px solid ${theme.colors.blacks[3]};
     padding-left: 2rem;
     
-    
-    @media all and (min-width: ${theme.breakpoints.tablet}) {
-      border-width: 0px;
-      margin-top: 4rem;
-      margin-bottom: 4rem;
-      padding-left: 4rem;
-    }
-    
-    
     .content {
       font-size: 0.8rem;
+      margin-bottom: 2rem;
       @media all and (min-width: ${theme.breakpoints.tablet}) {
         width: 230px;
         border-width: 0;

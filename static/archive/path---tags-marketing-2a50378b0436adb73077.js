@@ -1,2 +1,0 @@
-webpackJsonp([0xbd4fabc3bb73],{1323:function(t,e){t.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:'How "Marketing" Can Help Eliminate Extreme Poverty',path:"/2005/06/25/how-marketing-can-help-eliminate-extreme-poverty"}}}]}},pathContext:{tag:"marketing"}}}});
-//# sourceMappingURL=path---tags-marketing-2a50378b0436adb73077.js.map

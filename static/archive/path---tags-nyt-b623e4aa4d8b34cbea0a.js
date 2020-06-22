@@ -1,2 +1,0 @@
-webpackJsonp([52230538271684],{1353:function(t,a){t.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"Godcasting",path:"/2005/08/29/godcasting"}}}]}},pathContext:{tag:"NYT"}}}});
-//# sourceMappingURL=path---tags-nyt-b623e4aa4d8b34cbea0a.js.map

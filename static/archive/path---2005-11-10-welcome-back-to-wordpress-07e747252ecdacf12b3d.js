@@ -1,2 +1,0 @@
-webpackJsonp([42284327923964],{998:function(e,o){e.exports={data:{markdownRemark:{html:"<p>Things are back in order here. Again, WordPress rocks. Thanks to all the good people there who work on this project and make a wholly excellent open source blogging platform.</p>",frontmatter:{created_at:"November 10, 2005",path:"/2005/11/10/welcome-back-to-wordpress",title:"Welcome Back to WordPress",tags:["wordpress","meta"]}}},pathContext:{}}}});
-//# sourceMappingURL=path---2005-11-10-welcome-back-to-wordpress-07e747252ecdacf12b3d.js.map

@@ -1,2 +1,0 @@
-webpackJsonp([0xae332fd1a6bf],{1269:function(t,a){t.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"Two favorite artists",path:"/2008/04/11/two-favorite-artists"}}}]}},pathContext:{tag:"gould"}}}});
-//# sourceMappingURL=path---tags-gould-c693ded7d71ec3471ce4.js.map

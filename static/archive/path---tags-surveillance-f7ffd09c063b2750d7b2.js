@@ -1,2 +1,0 @@
-webpackJsonp([40735691662708],{1419:function(t,n){t.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"The Panopticon. Now With An Improved Menu!",path:"/2007/01/20/the-panopticon-now-with-an-improved-menu"}}}]}},pathContext:{tag:"surveillance"}}}});
-//# sourceMappingURL=path---tags-surveillance-f7ffd09c063b2750d7b2.js.map

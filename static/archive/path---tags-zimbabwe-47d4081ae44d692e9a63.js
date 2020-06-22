@@ -1,2 +1,0 @@
-webpackJsonp([0xe4bebb61e416],{1473:function(t,a){t.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"Zimbabwe Election Watch Map",path:"/2008/04/11/zimbabwe-election-watch-map"}}}]}},pathContext:{tag:"zimbabwe"}}}});
-//# sourceMappingURL=path---tags-zimbabwe-47d4081ae44d692e9a63.js.map

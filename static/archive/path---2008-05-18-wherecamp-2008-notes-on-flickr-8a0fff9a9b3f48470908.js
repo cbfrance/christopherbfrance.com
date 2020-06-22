@@ -1,2 +1,0 @@
-webpackJsonp([0x8b72dd3be1ad],{1121:function(e,t){e.exports={data:{markdownRemark:{html:'<img src="/static/images/cyclone.jpg" alt="if i had more coffee it would have been better" title="notes from wherecamp2008" />',frontmatter:{created_at:"May 18, 2008",path:"/2008/05/18/wherecamp-2008-notes-on-flickr",title:"Wherecamp 2008 Notes on Flickr",tags:["wherecamp","geo","meedan"]}}},pathContext:{}}}});
-//# sourceMappingURL=path---2008-05-18-wherecamp-2008-notes-on-flickr-8a0fff9a9b3f48470908.js.map

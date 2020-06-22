@@ -1,2 +1,0 @@
-webpackJsonp([69005947305249],{1209:function(t,a){t.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"Thinking About The Search for Jim Gray",path:"/2007/02/04/thinking-about-the-search-for-jim-gray"}}}]}},pathContext:{tag:"cooperation"}}}});
-//# sourceMappingURL=path---tags-cooperation-31aae2fecf4a155c3789.js.map

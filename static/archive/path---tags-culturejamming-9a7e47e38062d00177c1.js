@@ -1,2 +1,0 @@
-webpackJsonp([0xb2ee913dd1de],{1217:function(e,t){e.exports={data:{allMarkdownRemark:{totalCount:1,edges:[{node:{frontmatter:{title:"Genocide vs. Gadgets",path:"/2007/06/15/genocide-vs-gadgets"}}}]}},pathContext:{tag:"culturejamming"}}}});
-//# sourceMappingURL=path---tags-culturejamming-9a7e47e38062d00177c1.js.map
