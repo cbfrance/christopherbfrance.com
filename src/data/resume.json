@@ -36,6 +36,16 @@
   },
   "work": [
     {
+      "company": "WeaveGrid",
+      "position": "Staff Software Engineer and UX Lead",
+      "website": "http://weavegrid.com",
+      "startDate": "July 2020",
+      "endDate": "Current",
+      "summary": "I am responsible for frontend architecture, product design and user experience research at a startup focused on increasing electric vehicle adoption.",
+      "highlights": [
+      ]
+    },
+    {
       "company": "The Data Guild",
       "position": "Lead Member",
       "website": "http://thedataguild.com",

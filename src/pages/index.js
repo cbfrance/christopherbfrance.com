@@ -136,16 +136,13 @@ const IndexPage = ({ location }) => (
       <ContentInner>
         <WelcomeNote>
           <p>
-            👋 Hi, I'm a product hacker based in Oakland, California. I lead the
-            design process for web or mobile. (And often I help build the thing
-            too.) My niche is early- and mid-stage companies, where I help teams
-            learn how to make products better through strategic positioning and
-            world-class execution. My practice combines frontend development,
-            product design and user experience research.
+            👋 Hi, I'm a digital product designer and programmer based in
+            Oakland, California. I create software at{' '}
+            <a href="https://weavegrid.com">WeaveGrid</a>.
           </p>
         </WelcomeNote>
         <WorkOverview>
-          <SectionTitle>RECENT</SectionTitle>
+          <SectionTitle>PREVIOUS</SectionTitle>
           <WorkList>
             <li>
               <a href="/light-field">LightField</a> — Co-founder at climate data
@@ -167,17 +164,15 @@ const IndexPage = ({ location }) => (
             </li>
 
             <li>
-              <a href="/meedan">Meedan</a> — Design lead at international tech
-              and design company
+              <a href="/meedan">Meedan</a> — Design lead and cofounder at
+              international tech and design company
             </li>
-
             <li>
-              <strong>Healthmade</strong> — Creative technologist at healthcare
-              design studio
+              <strong>
+                <a href="https://www.healthmadedesign.com">Healthmade</a>
+              </strong>{' '}
+              — Programmer and designer at healthcare design studio
             </li>
-
-            <SectionTitle>PREVIOUS</SectionTitle>
-
             <li>
               <strong>Bolt | Peters</strong> — Designer and UI researcher at UX
               consultancy
@@ -220,9 +215,9 @@ const IndexPage = ({ location }) => (
             <Link to="/contact">get in touch</Link>.
           </p>
 
-          <SectionTitle>Contact</SectionTitle>
+          {/* <SectionTitle>Contact</SectionTitle> */}
 
-          <p>
+          {/* <p>
             <em>
               For more details please reach out via my{' '}
               <a href="https://www.linkedin.com/in/christopher-blow-france/">
@@ -232,7 +227,7 @@ const IndexPage = ({ location }) => (
               interested in my resume: <a href="/resume">as HTML</a> or{' '}
               <a href="/Christopher-France-Resume.pdf">as a PDF</a>.
             </em>
-          </p>
+          </p> */}
 
           <Footer>
             <p>
