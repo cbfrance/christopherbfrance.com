@@ -1,7 +1,8 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import styled from 'styled-components'
-import christopherImage from 'assets/christopher4.png'
+import { SmallPrint } from 'cleo'
+
 import {
   Row,
   Column,
@@ -119,117 +120,22 @@ const IndexPage = ({ location }) => (
     <HeadlineContent>
       <ContentInner>
         <h1>
-          A full-spectrum designer and developer building digital products for
-          social and environmental impact
+          Hello.
         </h1>
       </ContentInner>
     </HeadlineContent>
     <MainContent>
       <ContentInner>
-        <PhotoFeature photo={christopherImage}>
-          <Column style={{ justifyContent: 'center' }}>
-            <h1>Christopher France</h1>
-            <p>Designer and coder</p>
-          </Column>
-        </PhotoFeature>
+        <small-print>This is a custom element.</small-print>
       </ContentInner>
       <ContentInner>
         <WelcomeNote>
-          <p>
-            👋 Hi, I'm a digital product designer and programmer based in
-            Oakland, California. I create software at{' '}
-            <a href="https://weavegrid.com">WeaveGrid</a>.
-          </p>
+          <p>👋 Hi!</p>
         </WelcomeNote>
-        <WorkOverview>
-          <SectionTitle>PREVIOUS</SectionTitle>
-          <WorkList>
-            <li>
-              <a href="/light-field">LightField</a> — Co-founder at climate data
-              startup in agriculture
-            </li>
-            <li>
-              <a href="/the-data-guild">The Data Guild</a> — Core member of a
-              startup studio for energy and health
-            </li>
-
-            <li>
-              <a href="/contain">Contain</a> — Lead technology architect at an
-              “alt-fintech” startup
-            </li>
-
-            <li>
-              <a href="/litterati">Litterati</a> — Data strategist at
-              environmental startup
-            </li>
-
-            <li>
-              <a href="/meedan">Meedan</a> — Design lead and cofounder at
-              international tech and design company
-            </li>
-            <li>
-              <strong>
-                <a href="https://www.healthmadedesign.com">Healthmade</a>
-              </strong>{' '}
-              — Programmer and designer at healthcare design studio
-            </li>
-            <li>
-              <strong>Bolt | Peters</strong> — Designer and UI researcher at UX
-              consultancy
-            </li>
-            <li>
-              <strong>Ethnio</strong> — Rails developer and designer for
-              usability research product
-            </li>
-            <li>
-              <strong>Ushahidi</strong> — iOS designer and design advisor for
-              civic media platform
-            </li>
-            <li>
-              <strong>Blast Internet</strong> — Linux systems administrator for
-              web services firm
-            </li>
-            <li>
-              <strong>Nonprofit Design</strong> — Founder of design services
-              company
-            </li>
-          </WorkList>
-
-          <SectionTitle>Portfolio</SectionTitle>
-
-          <p>
-            I’ve collected <Link to="/work">selections of my work</Link> with
-            reflections on my process.
-          </p>
-
-          <SectionTitle>Talks</SectionTitle>
-          <p>
-            I’m grateful to have been invited to speak at venues such as
-            RightsCon, Global Fact, the Online News Association, DrupalCon, the
-            International CrisisMappers Conference, the AIGA, SXSW, the African
-            News Innovation Challenge, the Nonprofit Technology Conference, the
-            NYU Interactive Telecommunications Program and Stanford University.
-          </p>
-          <p>
-            I am sometimes available for talks, please{' '}
-            <Link to="/contact">get in touch</Link>.
-          </p>
-
-          {/* <SectionTitle>Contact</SectionTitle> */}
-
-          {/* <p>
-            <em>
-              For more details please reach out via my{' '}
-              <a href="https://www.linkedin.com/in/christopher-blow-france/">
-                LinkedIn page
-              </a>{' '}
-              or <Link to="/contact">contact form</Link>. You may also be
-              interested in my resume: <a href="/resume">as HTML</a> or{' '}
-              <a href="/Christopher-France-Resume.pdf">as a PDF</a>.
-            </em>
-          </p> */}
-
-          <Footer>
+        <ContentInner>
+          <small-print>More small print!</small-print>
+        </ContentInner>
+        <Footer>
             <p>
               un·think′ing·ly adv. — (from v. <strong>to unthink</strong>)
               proceeding by undoing one’s thinking:{' '}
@@ -241,7 +147,6 @@ const IndexPage = ({ location }) => (
               Christopher Blow France
             </p>
           </Footer>
-        </WorkOverview>
       </ContentInner>
     </MainContent>
   </Layout>
