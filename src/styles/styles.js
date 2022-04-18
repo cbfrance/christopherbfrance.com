@@ -1,4 +1,4 @@
-import styled, { ThemeProvider, createGlobalStyle } from 'styled-components'
+import styled, { createGlobalStyle } from 'styled-components'
 import 'typeface-spectral'
 
 import theme from 'theme'
@@ -51,7 +51,7 @@ export const FinePrint = styled.div`
 `
 
 export const SectionTitle = styled.div`
-  font-size: 1rem;
+  font-size: 1.3rem;
   font-weight: 600;
   text-transform: uppercase;
   position: relative;
