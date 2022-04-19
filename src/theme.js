@@ -4,6 +4,7 @@ const blue = '#18359A'
 const cream = '#FFFAEC'
 const colors = {
   blue,
+  secondary: blue,
   cream,
   primary: 'black', // Color for buttons or links
   primaryMedium: lighten(0.4, blue),

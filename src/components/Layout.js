@@ -30,7 +30,7 @@ const Navigation = styled.div`
   }
 `
 
-const pagestWithoutNavigation = ['/resume/', '/resume']
+const pagestWithoutNavigation = ['/resume/', '/resume', '/']
 
 const Layout = ({ children, customSEO, location, style }) => (
   <StaticQuery
@@ -47,10 +47,10 @@ const Layout = ({ children, customSEO, location, style }) => (
           {!customSEO && <SEO buildTime={data.site.buildTime} />}
           <GlobalStyle theme={theme} />
           <div>
-            {/* {!pagestWithoutNavigation.includes(location?.pathname) && (
+            {!pagestWithoutNavigation.includes(location?.pathname) && (
               <Navigation>
                 <Link activeClassName="active" to="/">
-                  Overview
+                  ⟵
                 </Link>{' '}
                 <Link activeClassName="active" to="/work">
                   My work
@@ -59,7 +59,7 @@ const Layout = ({ children, customSEO, location, style }) => (
                   Contact
                 </Link>
               </Navigation>
-            )} */}
+            )}
             <div style={style}>{children}</div>
           </div>
         </React.Fragment>

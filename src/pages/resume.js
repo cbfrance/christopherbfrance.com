@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import theme from 'theme'
 import resumeData from '../data/resume.json'
 import { Layout, Wrapper } from '../components'
+import { Row } from '../styles/styles'
 
 const borderWidth = '2px'
 
@@ -38,6 +39,16 @@ export const DateStamp = styled.div`
   text-transform: uppercase;
   line-height: 2rem;
   color: rgba(0, 0, 0, 0.7);
+`
+
+const JobTitle = styled.div`
+  font-family: ${theme.fontFamily.mono};
+  font-size: 0.7rem;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  line-height: 2rem;
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: bold;
 `
 
 const PageHeader = styled.h1``
@@ -126,9 +137,13 @@ export default function Resume({ location }) {
             {resumeData.work.map((job, index) => (
               <Item>
                 <Header>{job.company}</Header>
-                <DateStamp>
-                  {job.position}: {job.startDate} - {job.endDate}
-                </DateStamp>
+
+                <Row>
+                  <JobTitle>{job.position}</JobTitle>
+                  <DateStamp>
+                    {job.startDate} - {job.endDate}
+                  </DateStamp>
+                </Row>
                 <Description>{job.summary}</Description>
               </Item>
             ))}
