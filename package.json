@@ -47,7 +47,6 @@
     "react-helmet": "^5.2.1",
     "react-hotkeys": "^1.1.4",
     "react-live": "^1.12.0",
-    "react-syntax-highlighter": "^10.3.5",
     "rebass": "^3.2.2",
     "styled-components": "^4.4.1",
     "typeface-bitter": "^0.0.71",
