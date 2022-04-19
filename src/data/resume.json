@@ -1,14 +1,13 @@
 {
   "basics": {
     "name": "Christopher Blow France",
-    "label": "Digital product design, data strategy & technical architecture",
-    "email": "cgblow@gmail.com",
+    "label": "Digital product design, UX resesarch and software development",
+    "email": "christopherbfrance@gmail.com",
     "phone": "(415) 309-7900",
     "linkedin": "https://www.linkedin.com/in/christopher-blow-france",
     "portfolio": "www.unthinkingly.com/work",
     "website": "www.unthinkingly.com",
-    "summary":
-      "I am a cross-functional technologist who speaks both design and business-strategic languages.",
+    "summary": "I am a cross-functional technologist who speaks both design and business-strategic languages.",
     "location": {
       "address": "none",
       "postalCode": "94611",
@@ -40,17 +39,20 @@
       "position": "Staff Software Engineer and UX Lead",
       "website": "http://weavegrid.com",
       "startDate": "July 2020",
-      "endDate": "Current",
-      "summary": "I am responsible for frontend architecture, product design and user experience research at a startup focused on increasing electric vehicle adoption.",
+      "endDate": "April 2022",
+      "summary": "I led frontend architecture, product design and user experience research at a startup focused on increasing electric vehicle adoption.",
       "highlights": [
+        "Administered and analyzed UX early stage qualitative feedback",
+        "Designed product UI and maintained visual specification",
+        "Built product frontend using web standards, with minimal dependencies"
       ]
     },
     {
       "company": "The Data Guild",
-      "position": "Lead Member",
+      "position": "Lead Member (Software and design)",
       "website": "http://thedataguild.com",
       "startDate": "July 2018",
-      "endDate": "Current",
+      "endDate": "July 2020",
       "summary": "I focused on frontend architecture and product design serving data scientists and subject matter experts.",
       "highlights": [
         "Developed research tools for evaluating social impact of startup concepts",
@@ -64,7 +66,7 @@
       "website": "https://lightfield.ag",
       "startDate": "March 2019",
       "endDate": "June 2020",
-      "summary": "I lead the product design and frontend architecture for a startup focused on investor-facing financial technology in agriculture.",
+      "summary": "I led the product design and frontend architecture for a startup focused on investor-facing financial technology in agriculture.",
       "highlights": ["Bootstrapping technology company"]
     },
     {
@@ -73,8 +75,12 @@
       "website": "https://www.healthmadedesign.com/",
       "startDate": "September 2019",
       "endDate": "Current",
-      "summary": "I invent creative approaches to chronic healthcare issues, with a focus on data visualization and rule-based expert systems.",
-      "highlights": ["Created data visualizations", "Designed algorithms used in display of healthcare data", "Created full-stack mobile product"]
+      "summary": "I helped develop new approaches to chronic healthcare issues, with a focus on data visualization and rule-based expert systems.",
+      "highlights": [
+        "Created data visualizations",
+        "Designed algorithms used in display of healthcare data",
+        "Created full-stack mobile product"
+      ]
     },
     {
       "company": "Contain",
@@ -82,7 +88,7 @@
       "website": "https://www.contain.ag/",
       "startDate": "July 2019",
       "endDate": "March 2020",
-      "summary": "I designed and built a fintech platform which algorithmically matches lenders and borrowers using a serverless architecture.",
+      "summary": "I designed and built a tool which algorithmically matches lenders and borrowers using a serverless architecture.",
       "highlights": ["Created fintech platform"]
     },
     {
@@ -91,8 +97,11 @@
       "website": "https://www.litterati.org",
       "startDate": "May 2019",
       "endDate": "April 2020",
-      "summary": "I designed and built the data refinement architecture used by the machine learning team for image recognition and crowdsourced data collection.",
-      "highlights": ["Developed data pipelines and data refinement process", "Created data visualizations to guide analysis of packaging database"]
+      "summary": "I designed and developed a process used by the machine learning team for image recognition and crowdsourced data collection.",
+      "highlights": [
+        "Developed data pipelines and data refinement process",
+        "Created data visualizations to guide analysis of packaging database"
+      ]
     },
     {
       "company": "Meedan",
@@ -103,9 +112,9 @@
       "summary": "I led the team responsible for frontend architecture and design systems, serving clients such as Facebook and Cambridge University.",
       "highlights": [
         "Over ten years, I helped grow the company from a team of four people to a successful team on four continents.",
-        "Led large user research projects with clients such as Facebook and Cambridge University", 
-        "I led the design of the Check platform, which was used for one of the world's largest journalistic collaborations",
-        "Developed style guides, and best practices as design manager responsible for global team"
+        "Led large user research projects with clients such as Facebook and Cambridge University",
+        "I led the design of the Check platform, a collaborative tool for annotation and verification",
+        "Developed style guides, and best practices as design manager responsible for global team while directly maintaining"
       ]
     },
     {
@@ -114,8 +123,7 @@
       "website": "https://www.crunchbase.com/organization/bolt-peters#section-overview",
       "startDate": "July 2007",
       "endDate": "September 2008",
-      "summary":
-        "I designed and conducted usability studies with clients like Sony and Electronic Arts while building Ethnio, a UX research product.",
+      "summary": "I designed and conducted usability studies with clients like Sony and Electronic Arts while building Ethnio, a UX research product.",
       "highlights": [
         "Helped build Ethnio as a Rails developer",
         "Managed research for clients such as Sony and Harvard Business Review",
@@ -128,8 +136,7 @@
       "website": "none",
       "startDate": "March 2006",
       "endDate": "July 2007",
-      "summary":
-        "I implemented an Agile development methodology with the Rails stack while doing both Linux system administration and business development.",
+      "summary": "I implemented an Agile development methodology with the Rails stack while doing both Linux system administration and business development.",
       "highlights": [
         "Quadrupled sales in 6 months by winning clients such as Duke university and Burt's Bees",
         "Reduced email spam by 90% by implemented greylisting",
@@ -181,4 +188,3 @@
     "summary": "I have been invited to speak at RightsCon, Global Fact, the Online News Association, DrupalCon, the International CrisisMappers Conference, SXSW, the Nonprofit Technology Conference, and NYU ITP."
   }
 }
-

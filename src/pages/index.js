@@ -20,6 +20,10 @@ const Footer = styled.footer`
   }
 `
 
+const SectionTitleSecondary = styled(SectionTitle)`
+  color: #11ac11;
+`
+
 const HeadlineContent = styled.div`
   background-color: ${theme.colors.white};
   padding: 12vh 0;
@@ -80,7 +84,9 @@ const WelcomeNote = styled.div`
   font-family: ${theme.fontFamily.sans};
   font-weight: 400;
   line-height: 2;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
+  padding-bottom: 3rem;
+  
 `
 
 const WorkList = styled.ul`
@@ -108,6 +114,7 @@ const ContentInner = styled.div`
   padding: 1rem 16px;
   max-width: ${theme.mainColumnWidth};
   margin: 0 auto;
+  font-size: 1.2rem;
 `
 
 const IndexPage = ({ location }) => (
@@ -128,16 +135,21 @@ const IndexPage = ({ location }) => (
       </ContentInner>
       <ContentInner>
         <WelcomeNote>
-          <p>My design practice is based in graphic and product design, qualitative user experience research and software engineering. I focus on data-driven products that improve communication and sensing. I have often focused on crowdsourcing and civic tech. Lately I have a particular interest in human health and climate. I like working on design systems and developer experience. I also love to have ideas and to help others think bigger.</p>
+          <p>My practice is based in digital product design, qualitative user experience research and software engineering. I build software that improves human communication and sensing, often starting with conceptualization, positioning and prototyping.</p>
 
-          <SectionTitle>Big questions I often return to: </SectionTitle>
+          <p>I have often focused on crowdsourcing and civic tech. Lately I have a particular interest in human health and climate.</p>
+
+          <p>I like working on design systems and developer experience. In general I love to have ideas and to help others think bigger, while also zooming in to reason about systems at multiple scales.</p>
+
+          <SectionTitleSecondary>Big questions I often return to: </SectionTitleSecondary>
 
           <p>How can we expand human capacity to help us deal with critical social and environmental problems?</p>
-          <p>What are the missing pieces in our system, how can we visualize our landscape to make better decisions within it?</p>
-          <p>How can I contribute from a cross-functional "design-engineering" perspective?</p>
+          <p>How can we manage complexity with ethical responsibility?</p>
+          <p>How can we visualize our landscape to make better decisions within it?</p>
+          <p>What are the missing pieces and overlooked opportunity in emerging system?</p>
           <p>How can we make our approach more inclusive, accessible and usable?</p>
 
-          <SectionTitle>Let's work together?</SectionTitle>
+          <SectionTitleSecondary>Let's work together?</SectionTitleSecondary>
 
           <p>👯‍♂️ I work with individuals, startups and nonprofits.</p>
           <p>🔧 I design web apps using native cross-platform features.</p>
@@ -150,6 +162,7 @@ const IndexPage = ({ location }) => (
         <WorkOverview>
           <SectionTitle>PREVIOUS</SectionTitle>
           <WorkList>
+            <li><a href="https://weavegrid.com">WeaveGrid</a> — Staff Software Engineer &amp; UX lead at climate tech startup</li>
             <li>
               <a href="/light-field">LightField</a> — Co-founder at climate data startup in agriculture
             </li>
@@ -170,9 +183,9 @@ const IndexPage = ({ location }) => (
             </li>
             <li>
               <strong>
-                <a href="https://www.healthmadedesign.com">Healthmade</a>
+                <a href="https://www.healthmadedesign.com">Healthmade</a> —
               </strong>{' '}
-              Programmer and designer at healthcare design studio
+              Visualizations and software design at healthcare design studio
             </li>
             <li>
               <strong>Bolt | Peters</strong> — Designer and UI researcher at UX consultancy
@@ -191,10 +204,8 @@ const IndexPage = ({ location }) => (
             </li>
           </WorkList>
 
-          <SectionTitle>Portfolio</SectionTitle>
-
           <p>
-            I’ve collected <Link to="/work">selections of my work</Link> with reflections on my process.
+            I’ve annotated <Link to="/work">some of my work</Link>.
           </p>
 
           <SectionTitle>Talks</SectionTitle>
@@ -207,9 +218,9 @@ const IndexPage = ({ location }) => (
             I am sometimes available for talks, please <Link to="/contact">get in touch</Link>.
           </p>
 
-          {/* <SectionTitle>Contact</SectionTitle> */}
+          <SectionTitle>Contact</SectionTitle>
 
-          {/* <p>
+          <p>
             <em>
               For more details please reach out via my{' '}
               <a href="https://www.linkedin.com/in/christopher-blow-france/">
@@ -219,7 +230,7 @@ const IndexPage = ({ location }) => (
               interested in my resume: <a href="/resume">as HTML</a> or{' '}
               <a href="/Christopher-France-Resume.pdf">as a PDF</a>.
             </em>
-          </p> */}
+          </p>
 
           <Footer>
             <p>
@@ -227,8 +238,7 @@ const IndexPage = ({ location }) => (
               <em>to unthink and rethink technological myths</em> (Corlann Gee Bush)
             </p>
             <p>
-              &copy; 2004 — 2020 <br />
-              Christopher Blow France
+              &copy; {new Date().getFullYear()} Christopher Blow France
             </p>
           </Footer>
         </WorkOverview>

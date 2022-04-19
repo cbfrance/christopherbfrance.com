@@ -3,6 +3,7 @@ import { lighten } from 'polished'
 const blue = '#18359A'
 const cream = '#FFFAEC'
 const colors = {
+  blue,
   cream,
   primary: 'black', // Color for buttons or links
   primaryMedium: lighten(0.4, blue),

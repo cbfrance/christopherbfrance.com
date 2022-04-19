@@ -35,10 +35,7 @@ const Byline = () => (
       <img src={christopherImage} alt="Christopher France" />
     </BylineImageStyles>
     <div>
-      <p>
-        Reflections on business and design strategy by Christopher France, a
-        digital product developer living in Oakland, CA.
-      </p>
+      <p>Portfolio of a primate.</p>
 
       <div style={{ marginTop: '0.5rem' }}>
         <a href={resume.basics.linkedin}>LinkedIn</a> • 
