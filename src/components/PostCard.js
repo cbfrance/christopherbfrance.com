@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Link } from 'gatsby'
-import Img from 'gatsby-image'
+import Img from 'gatsby-plugin-image'
 import theme from 'theme'
 
 const Card = styled.article`
