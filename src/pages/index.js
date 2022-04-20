@@ -3,6 +3,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 import styled from 'styled-components'
 import christopherImage from 'assets/christopher.jpg'
+import MyElement from 'bits-and-pieces'
 
 import { Row, Column, SectionTitle, MainContent } from 'styles/styles'
 import theme from 'theme'
@@ -118,6 +119,7 @@ const IndexPage = ({ location }) => (
   <Layout location={location} style={{ backgroundColor: theme.colors.cream }}>
     <HeadlineContent>
       <ContentInner>
+        <my-element>Testing!</my-element>
         <h1>
           Hi! I'm Chris. I make software for startups, nonprofits, science and
           the humanities.
@@ -148,9 +150,8 @@ const IndexPage = ({ location }) => (
           </p>
 
           <p>
-            I like working on design systems and developer experience. In
-            general I love to have ideas and to help others think bigger, while
-            also zooming in to reason about systems at multiple scales.
+            I like working on design systems and developer experience, to have
+            ideas and to help others think bigger
           </p>
 
           <SectionTitleSecondary>
