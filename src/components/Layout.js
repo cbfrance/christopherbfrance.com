@@ -30,7 +30,7 @@ const Navigation = styled.div`
   }
 `
 
-const pagestWithoutNavigation = ['/resume/', '/resume', '/']
+const pagestWithoutNavigation = ['/resume/', '/resume']
 
 const Layout = ({ children, customSEO, location, style }) => (
   <StaticQuery
@@ -49,9 +49,11 @@ const Layout = ({ children, customSEO, location, style }) => (
           <div>
             {!pagestWithoutNavigation.includes(location?.pathname) && (
               <Navigation>
-                <Link activeClassName="active" to="/">
-                  ⟵
-                </Link>{' '}
+                {location?.pathname !== '/' && (
+                  <Link activeClassName="active" to="/">
+                    ⟵
+                  </Link>
+                )}{' '}
                 <Link activeClassName="active" to="/work">
                   My work
                 </Link>{' '}
