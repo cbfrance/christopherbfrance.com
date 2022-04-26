@@ -119,7 +119,7 @@ const IndexPage = ({ location }) => (
     <HeadlineContent>
       <ContentInner>
         <h1>
-          Hi! I'm Chris. I make software for startups, nonprofits, science and
+          Hi! I’m Chris. I make software for startups, nonprofits, science and
           the humanities.
         </h1>
       </ContentInner>
@@ -138,8 +138,8 @@ const IndexPage = ({ location }) => (
           <p>
             My practice is based in digital product design, qualitative user
             experience research and software engineering. I build software that
-            improves human communication and sensing, often starting with
-            conceptualization, positioning and prototyping.
+            seeks to improve human communication and sensing, often starting
+            with conceptualization, positioning and prototyping.
           </p>
 
           <p>

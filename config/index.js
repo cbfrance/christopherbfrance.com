@@ -9,7 +9,7 @@ module.exports = {
   siteHeadline: 'Design for social and environmental impact', // Headline for schema.org JSONLD
   siteBanner: '/social/banner.png', // Your image for og:image tag. You can find it in the /static folder
   favicon: 'src/favicon.png', // Your image for favicons. You can find it in the /src folder
-  siteDescription: `Christopher France is a designer, builder and strategist based in Oakland.`,
+  siteDescription: `Christopher B. France is a designer, builder and strategist based in Oakland.`,
   author: 'Christopher France', // Author for schemaORGJSONLD
   siteLogo: '/social/logo.png', // Image for schemaORGJSONLD relative to /static
 
