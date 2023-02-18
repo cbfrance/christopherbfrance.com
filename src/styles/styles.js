@@ -56,6 +56,10 @@ export const SectionTitle = styled.div`
   text-transform: uppercase;
   position: relative;
   margin: 6rem 0 2rem;
+  em {
+    color: ${theme.colors.blacks[5]};
+    font-size: 1.1rem;
+  }
 `
 
 export const SectionSubTitle = styled(SectionTitle)`

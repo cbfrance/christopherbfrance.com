@@ -126,15 +126,11 @@ export default function Resume({ location }) {
               <LinksItemTitle>Portfolio</LinksItemTitle>
               {resumeData.basics.portfolio}
             </LinksItem>
-            <LinksItem>
-              <LinksItemTitle>LinkedIn</LinksItemTitle>
-              {resumeData.basics.linkedin}
-            </LinksItem>
           </Item>
 
           <Item>
             <SectionHeader>Experience</SectionHeader>
-            {resumeData.work.map((job, index) => (
+            {resumeData.work.map(job => (
               <Item>
                 <Header>{job.company}</Header>
 

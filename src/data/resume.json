@@ -4,10 +4,9 @@
     "label": "Digital product design, UX resesarch and software development",
     "email": "christopherbfrance@gmail.com",
     "phone": "(415) 309-7900",
-    "linkedin": "https://www.linkedin.com/in/christopher-blow-france",
     "portfolio": "www.unthinkingly.com/work",
     "website": "www.unthinkingly.com",
-    "summary": "I am a cross-functional technologist who speaks both design and business-strategic languages.",
+    "summary": "Hello, I’m a user experience researcher, developer and designer.",
     "location": {
       "address": "none",
       "postalCode": "94611",
@@ -25,27 +24,25 @@
         "network": "Github",
         "username": "christopherfrance",
         "url": "https://github.com/christopherfrance"
-      },
-      {
-        "network": "Linkedin",
-        "username": "christopher-blow-france",
-        "url": "https://www.linkedin.com/in/christopher-blow-france"
       }
     ]
   },
   "work": [
     {
+      "company": "Cypress",
+      "position": "Product design and design systems",
+      "website": "http://cypress.io",
+      "startDate": "May 2022",
+      "endDate": "Current",
+      "summary": "Technical product design for continuous integration with a MacOS/Cloud test automation platform."
+    },
+    {
       "company": "WeaveGrid",
-      "position": "Staff Software Engineer and UX Lead",
+      "position": "Software engineering and user experience",
       "website": "http://weavegrid.com",
       "startDate": "July 2020",
       "endDate": "April 2022",
-      "summary": "I led frontend architecture, product design and user experience research at a startup focused on increasing electric vehicle adoption.",
-      "highlights": [
-        "Administered and analyzed UX early stage qualitative feedback",
-        "Designed product UI and maintained visual specification",
-        "Built product frontend using web standards, with minimal dependencies"
-      ]
+      "summary": "Frontend development, product design at a startup focused on increasing electric vehicle adoption."
     },
     {
       "company": "The Data Guild",
@@ -53,21 +50,7 @@
       "website": "http://thedataguild.com",
       "startDate": "July 2018",
       "endDate": "July 2020",
-      "summary": "I focused on frontend architecture and product design serving data scientists and subject matter experts.",
-      "highlights": [
-        "Developed research tools for evaluating social impact of startup concepts",
-        "Led product research and development for portfolio companies",
-        "Led a technical design, branding and profile effort for the Guild"
-      ]
-    },
-    {
-      "company": "LightField",
-      "position": "Co-founder and Partner",
-      "website": "https://lightfield.ag",
-      "startDate": "March 2019",
-      "endDate": "June 2020",
-      "summary": "I led the product design and frontend architecture for a startup focused on investor-facing financial technology in agriculture.",
-      "highlights": ["Bootstrapping technology company"]
+      "summary": "Product design for venture studio serving subject matter experts using applied machine learning."
     },
     {
       "company": "Healthmade",
@@ -75,12 +58,7 @@
       "website": "https://www.healthmadedesign.com/",
       "startDate": "September 2019",
       "endDate": "Current",
-      "summary": "I helped develop new approaches to chronic healthcare issues, with a focus on data visualization and rule-based expert systems.",
-      "highlights": [
-        "Created data visualizations",
-        "Designed algorithms used in display of healthcare data",
-        "Created full-stack mobile product"
-      ]
+      "summary": "I helped develop health data approaches to chronic healthcare issues, with a focus on data visualization."
     },
     {
       "company": "Contain",
@@ -105,71 +83,19 @@
     },
     {
       "company": "Meedan",
-      "position": "Design & UX Director",
+      "position": "Researcher, Developer & Designer",
       "website": "http://meedan.com",
       "startDate": "March 2008",
       "endDate": "July 2018",
-      "summary": "I led the team responsible for frontend architecture and design systems, serving clients such as Facebook and Cambridge University.",
-      "highlights": [
-        "Over ten years, I helped grow the company from a team of four people to a successful team on four continents.",
-        "Led large user research projects with clients such as Facebook and Cambridge University",
-        "I led the design of the Check platform, a collaborative tool for annotation and verification",
-        "Developed style guides, and best practices as design manager responsible for global team while directly maintaining"
-      ]
+      "summary": "I led the team responsible for frontend architecture and design systems, serving clients such as Facebook and Cambridge University."
     },
     {
       "company": "Bolt | Peters",
-      "position": "UX Researcher, Product Developer & Designer",
+      "position": "Researcher, Developer & Designer",
       "website": "https://www.crunchbase.com/organization/bolt-peters#section-overview",
       "startDate": "July 2007",
       "endDate": "September 2008",
-      "summary": "I designed and conducted usability studies with clients like Sony and Electronic Arts while building Ethnio, a UX research product.",
-      "highlights": [
-        "Helped build Ethnio as a Rails developer",
-        "Managed research for clients such as Sony and Harvard Business Review",
-        "Expanded the company services to include design practice"
-      ]
-    },
-    {
-      "company": "Blast Internet",
-      "position": "Linux sysadmin & Director of Operations",
-      "website": "none",
-      "startDate": "March 2006",
-      "endDate": "July 2007",
-      "summary": "I implemented an Agile development methodology with the Rails stack while doing both Linux system administration and business development.",
-      "highlights": [
-        "Quadrupled sales in 6 months by winning clients such as Duke university and Burt's Bees",
-        "Reduced email spam by 90% by implemented greylisting",
-        "Managed successful development team transition from Perl to Ruby"
-      ]
-    },
-    {
-      "company": "Nonprofit Design",
-      "position": "Web Developer, Founder",
-      "website": "none",
-      "startDate": "May 2003",
-      "endDate": "March 2006",
-      "summary": "I operated a design consultancy with clients such as Duke University and the University of North Carolina at Chapel Hill.",
-      "highlights": [
-        "Designed and developed print material",
-        "Created logos and branding campaigns",
-        "Created interactive media for educational department"
-      ]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "Ushahidi",
-      "position": "Interaction Designer",
-      "website": "http://ushahidi.com/",
-      "startDate": "September 2008",
-      "endDate": "April 2010",
-      "summary": "Worked with Ushahidi, a crowdsourcing platform for crises.",
-      "highlights": [
-        "Helped design the initial Ushahidi iPhone app",
-        "Helped designed multiple hosted instances concept, later funded as crowdmap.com",
-        "Designed Swift, later funded as a multi-year project"
-      ]
+      "summary": "I designed and conducted usability studies with clients like Sony and Electronic Arts while building Ethnio, a UX research product."
     }
   ],
   "education": [
@@ -180,11 +106,5 @@
       "startDate": "June 2001",
       "endDate": "January 2004"
     }
-  ],
-  "awards": {
-    "summary": "I have contributed to award-winning products such as the Online Journalism Award (for Electionland, at the time one of the largest journalistic collaborations in the U.S.), the International Press Institute News Innovation Contest, the Innovate Africa Innovation Challenge and the Knight News Challenge for Prototypes."
-  },
-  "speaking": {
-    "summary": "I have given talks about design, user experience, software and journalism at RightsCon, Global Fact, the Online News Association, DrupalCon, the International CrisisMappers Conference, SXSW, the Nonprofit Technology Conference, and NYU ITP."
-  }
+  ]
 }

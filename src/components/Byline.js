@@ -2,7 +2,7 @@ import React from 'react'
 import theme from 'theme'
 import styled from 'styled-components'
 import christopherImage from 'assets/christopher.jpg'
-import resume from 'data/resume.json'
+// import resume from 'data/resume.json'
 
 const Wrapper = styled.div`
   display: flex;
@@ -40,8 +40,7 @@ const Byline = () => (
       <p>Christopher Blow France</p>
 
       <div style={{ marginTop: '0.5rem' }}>
-        <a href={resume.basics.linkedin}>LinkedIn</a> • 
-        <a href="/Christopher-France-Resume.pdf">Resume</a>
+         <a href="/Christopher-France-Resume.pdf">Resume</a>
       </div>
     </div>
   </Wrapper>

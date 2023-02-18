@@ -4,7 +4,16 @@ import { Link } from 'gatsby'
 import styled from 'styled-components'
 import christopherImage from 'assets/christopher.jpg'
 
-import { Row, Column, SectionTitle, MainContent } from 'styles/styles'
+import {
+  Row,
+  Column,
+  SectionTitle,
+  SectionSubTitle,
+  MainContent,
+} from 'styles/styles'
+
+import { IconArrowRight } from 'components/IconArrowRight'
+
 import theme from 'theme'
 
 import { Layout } from 'components'
@@ -119,8 +128,8 @@ const IndexPage = ({ location }) => (
     <HeadlineContent>
       <ContentInner>
         <h1>
-          Hi! I’m Chris. I make software for startups, nonprofits, science and
-          the humanities.
+          Hi! I’m Chris. How can we expand human capacity to help us deal with
+          critical social and environmental problems?
         </h1>
       </ContentInner>
     </HeadlineContent>
@@ -129,28 +138,18 @@ const IndexPage = ({ location }) => (
         <PhotoFeature photo={christopherImage}>
           <Column style={{ justifyContent: 'center' }}>
             <h1>Chris Blow France</h1>
-            <p>Designer-builder</p>
+            <p>Designer</p>
           </Column>
         </PhotoFeature>
       </ContentInner>
       <ContentInner>
         <WelcomeNote>
           <p>
-            My practice is based in digital product design, qualitative user
+            My practice is a combination of digital product design, user
             experience research and software engineering. I build software that
             seeks to improve human communication and sensing, often starting
-            with conceptualization, positioning and prototyping.
-          </p>
-
-          <p>
-            I have often focused on crowdsourcing and civic tech. Lately I have
-            a particular interest in human health and climate.
-          </p>
-
-          <p>
-            I like working on design systems and developer experience. In
-            general I love to have ideas and to help others think bigger, while
-            also zooming in to reason about systems at multiple scales.
+            with conceptualization, positioning and prototyping data products. I
+            have a strong interest in media, human health and climate.
           </p>
 
           <SectionTitleSecondary>
@@ -174,9 +173,23 @@ const IndexPage = ({ location }) => (
           <SectionTitleSecondary>Let's work together?</SectionTitleSecondary>
 
           <WorkList>
-            <li>⟶ I work with individuals, startups and nonprofits.</li>
-            <li>⟶ I often design native, cross-platform apps.</li>
-            <li>⟶ I typically lead early stage frontend UI &amp; UX.</li>
+            <li>
+              <Row>
+                <IconArrowRight />I work with individuals, startups and
+                nonprofits.
+              </Row>
+            </li>
+            <li>
+              <Row>
+                <IconArrowRight /> I often design native, cross-platform apps.
+              </Row>
+            </li>
+            <li>
+              <Row>
+                <IconArrowRight /> I typically lead early stage frontend UI
+                &amp; UX.
+              </Row>
+            </li>
           </WorkList>
         </WelcomeNote>
       </ContentInner>
@@ -186,6 +199,10 @@ const IndexPage = ({ location }) => (
         <WorkOverview>
           <SectionTitle>EXPERIENCE</SectionTitle>
           <WorkList>
+            <li>
+              <a href="https://cypress.io">Cypress</a> — UI designer for test
+              automation platform
+            </li>
             <li>
               <a href="https://weavegrid.com">WeaveGrid</a> — Software and UX at
               climate tech startup
@@ -217,6 +234,12 @@ const IndexPage = ({ location }) => (
               <a href="https://www.healthmadedesign.com">Healthmade</a> — Health
               data & visualizations healthcare design studio
             </li>
+          </WorkList>
+
+          <WorkList>
+            <SectionSubTitle>
+              More than 10 years ago <em>—  way back</em>
+            </SectionSubTitle>
             <li>
               <strong>Bolt | Peters</strong> — Designer and UI researcher at UX
               consultancy
@@ -257,10 +280,7 @@ const IndexPage = ({ location }) => (
           <p>
             <em>
               For more details please reach out via my{' '}
-              <a href="https://www.linkedin.com/in/christopher-blow-france/">
-                LinkedIn page
-              </a>{' '}
-              or <Link to="/contact">contact form</Link>. My resume is available{' '}
+              <Link to="/contact">contact form</Link>. My resume is available{' '}
               <a href="/resume">as HTML</a> or{' '}
               <a href="/Christopher-France-Resume.pdf">as a PDF</a>.
             </em>
