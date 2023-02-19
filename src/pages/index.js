@@ -37,6 +37,7 @@ const HeadlineContent = styled.div`
   padding: 12vh 0;
   h1 {
     font-size: 2.8em;
+    line-height: 1.3;
 
     @media all and (max-width: ${theme.breakpoints.phone}) {
       font-size: 2em;
@@ -128,8 +129,8 @@ const IndexPage = ({ location }) => (
     <HeadlineContent>
       <ContentInner>
         <h1>
-          Hi! I’m Chris. How can we expand human capacity to help us deal with
-          critical social and environmental problems?
+          Let’s use computers to address important social problems with urgency,
+          clarity and <em>creativity</em>.
         </h1>
       </ContentInner>
     </HeadlineContent>
@@ -138,18 +139,17 @@ const IndexPage = ({ location }) => (
         <PhotoFeature photo={christopherImage}>
           <Column style={{ justifyContent: 'center' }}>
             <h1>Chris Blow France</h1>
-            <p>Designer</p>
+            <p>Design and strategy</p>
           </Column>
         </PhotoFeature>
       </ContentInner>
       <ContentInner>
         <WelcomeNote>
           <p>
-            My practice is a combination of digital product design, user
-            experience research and software engineering. I build software that
-            seeks to improve human communication and sensing, often starting
-            with conceptualization, positioning and prototyping data products. I
-            have a strong interest in media, human health and climate.
+            I design and build data products in an attempt to improve human
+            communication and sensing. My focus is conceptualization,
+            positioning and prototyping products using applied machine learning,
+            data visualization and large datasets.
           </p>
 
           <SectionTitleSecondary>
@@ -166,28 +166,29 @@ const IndexPage = ({ location }) => (
           </p>
           <p>
             How can we visualize our landscape to make better decisions within
-            it? What are the missing pieces and overlooked opportunity in
+            it? What are the missing pieces and overlooked opportunity in the
             emerging system?
           </p>
 
-          <SectionTitleSecondary>Let's work together?</SectionTitleSecondary>
+          <SectionTitleSecondary>Working together</SectionTitleSecondary>
 
           <WorkList>
             <li>
               <Row>
-                <IconArrowRight />I work with individuals, startups and
+                <IconArrowRight />I work with scientists, startups and
                 nonprofits.
               </Row>
             </li>
             <li>
               <Row>
-                <IconArrowRight /> I often design native, cross-platform apps.
+                <IconArrowRight /> I design and build native, cross-platform
+                apps.
               </Row>
             </li>
             <li>
               <Row>
-                <IconArrowRight /> I typically lead early stage frontend UI
-                &amp; UX.
+                <IconArrowRight /> I help build business models in complex
+                domains.
               </Row>
             </li>
           </WorkList>
@@ -200,11 +201,11 @@ const IndexPage = ({ location }) => (
           <SectionTitle>EXPERIENCE</SectionTitle>
           <WorkList>
             <li>
-              <a href="https://cypress.io">Cypress</a> — UI designer for test
+              <a href="https://cypress.io">Cypress</a> — Designer for test
               automation platform
             </li>
             <li>
-              <a href="https://weavegrid.com">WeaveGrid</a> — Software and UX at
+              <a href="https://weavegrid.com">WeaveGrid</a> — Software at
               climate tech startup
             </li>
             <li>
@@ -212,17 +213,17 @@ const IndexPage = ({ location }) => (
               for climate
             </li>
             <li>
-              <a href="/the-data-guild">The Data Guild</a> — Designer at startup
-              studio for energy and health
+              <a href="/the-data-guild">The Data Guild</a> — Design and strategy
+              at a data product studio
             </li>
 
             <li>
-              <a href="/contain">Contain</a> — Tech lead at contained
+              <a href="/contain">Contain</a> — Software and design for an
               agriculture startup
             </li>
 
             <li>
-              <a href="/litterati">Litterati</a> — Data visualizations at
+              <a href="/litterati">Litterati</a> — Design (visualization) for
               environmental startup
             </li>
 
@@ -232,7 +233,7 @@ const IndexPage = ({ location }) => (
             </li>
             <li>
               <a href="https://www.healthmadedesign.com">Healthmade</a> — Health
-              data & visualizations healthcare design studio
+              data & visualizations for healthcare design studio
             </li>
           </WorkList>
 
@@ -251,10 +252,6 @@ const IndexPage = ({ location }) => (
             <li>
               <strong>Ushahidi</strong> — iOS designer and design advisor for
               civic media platform
-            </li>
-            <li>
-              <strong>Blast Internet</strong> — Linux systems administrator for
-              web services firm
             </li>
             <li>
               <strong>Nonprofit Design</strong> — Founder of design services
