@@ -66,7 +66,7 @@
       "website": "https://www.contain.ag/",
       "startDate": "July 2019",
       "endDate": "March 2020",
-      "summary": "I designed and built a tool which algorithmically matches lenders and borrowers using a serverless architecture.",
+      "summary": "I designed and built a fintech platform used by lenders and borrowers.",
       "highlights": ["Created fintech platform"]
     },
     {
@@ -75,11 +75,7 @@
       "website": "https://www.litterati.org",
       "startDate": "May 2019",
       "endDate": "April 2020",
-      "summary": "I designed and developed a process used by the machine learning team for image recognition and crowdsourced data collection.",
-      "highlights": [
-        "Developed data pipelines and data refinement process",
-        "Created data visualizations to guide analysis of packaging database"
-      ]
+      "summary": "I built a data analysis tool used by the machine learning team for image recognition and data cleaning."
     },
     {
       "company": "Meedan",
@@ -87,7 +83,7 @@
       "website": "http://meedan.com",
       "startDate": "March 2008",
       "endDate": "July 2018",
-      "summary": "I led the team responsible for frontend architecture and design systems, serving clients such as Facebook and Cambridge University."
+      "summary": "I led a team responsible for design services to media and technology clients."
     },
     {
       "company": "Bolt | Peters",
@@ -95,7 +91,7 @@
       "website": "https://www.crunchbase.com/organization/bolt-peters#section-overview",
       "startDate": "July 2007",
       "endDate": "September 2008",
-      "summary": "I designed and conducted usability studies with clients like Sony and Electronic Arts while building Ethnio, a UX research product."
+      "summary": "Conducted usability studies with clients like Sony and Electronic Arts. Built Ethnio.com."
     }
   ],
   "education": [

@@ -2,7 +2,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import styled from 'styled-components'
-import christopherImage from 'assets/christopher.jpg'
+import christopherImage from 'assets/christopher.png'
 
 import {
   Row,

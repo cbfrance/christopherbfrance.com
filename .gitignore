@@ -7,3 +7,5 @@ output.diff
 node_modules
 yarn-error.log
 public
+# Local Netlify folder
+.netlify

@@ -158,13 +158,6 @@ export default function Resume({ location }) {
               </Item>
             ))}
           </Item>
-
-          <Item>
-            <SectionHeader>Speaking and awards</SectionHeader>
-            <Description padTop="1rem">
-              {resumeData.speaking.summary} {resumeData.awards.summary}
-            </Description>
-          </Item>
           <Item style={{ textAlign: 'center', fontSize: '0.7rem' }}>
             <Description padTop="1rem">
               {resumeData.basics.website} • {resumeData.basics.phone} • 
