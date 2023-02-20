@@ -1,3 +1,5 @@
 {
-  "deepscan.enable": true
+  "deepscan.enable": true,
+  "spellright.language": ["en"],
+  "spellright.documentTypes": ["markdown", "latex", "plaintext", "javascript"]
 }

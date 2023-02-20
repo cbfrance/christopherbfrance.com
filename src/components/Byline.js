@@ -1,8 +1,10 @@
+/* eslint-disable no-restricted-globals */
 import React from 'react'
+import { Link } from 'gatsby'
 import theme from 'theme'
 import styled from 'styled-components'
 import christopherImage from 'assets/christopher.jpg'
-// import resume from 'data/resume.json'
+import { Row, Navigation } from 'styles/styles'
 
 const Wrapper = styled.div`
   display: flex;
@@ -31,6 +33,18 @@ const BylineImageStyles = styled.div`
   }
 `
 
+const NavigationSection = () =>
+  !['/resume/', '/resume'].includes(location?.pathname) && (
+    <Navigation>
+      {location?.pathname !== '/' && (
+        <Link activeClassName="active" to="/">
+          <Row>Home</Row>
+        </Link>
+      )}
+      <a href="/resume">Resume</a>
+    </Navigation>
+  )
+
 const Byline = () => (
   <Wrapper>
     <BylineImageStyles>
@@ -38,10 +52,7 @@ const Byline = () => (
     </BylineImageStyles>
     <div>
       <p>Christopher Blow France</p>
-
-      <div style={{ marginTop: '0.5rem' }}>
-         <a href="/Christopher-France-Resume.pdf">Resume</a>
-      </div>
+      <NavigationSection />
     </div>
   </Wrapper>
 )

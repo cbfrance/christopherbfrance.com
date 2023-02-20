@@ -15,6 +15,7 @@ export const ContentInner = styled.div`
 const WideHeader = styled.div`
   margin: 2rem;
   max-width: 1200px;
+  padding: 0 1rem;
   @media all and (min-width: ${theme.maxWidth}) {
     margin: 0 auto;
     width: 90%;
@@ -63,6 +64,22 @@ const PostCardGrid = styled.div`
   }
 `
 
+const Dots = styled.div`
+  width: 100%;
+  height: 100%
+  background-color: ${theme.colors.blacks[1]};
+  background-image: radial-gradient(
+      ${theme.colors.blacks[2]} 10%,
+      transparent 11%
+    ),
+    radial-gradient(${theme.colors.blacks[2]} 10%, transparent 11%);
+  background-size: 24px 24px;
+  background-position: 0 0, 24px 24px;
+  background-repeat: repeat;
+`
+
+const Canvas = ({ children }) => <Dots>{children}</Dots>
+
 const PortfolioPage = ({
   location,
   data: {
@@ -70,7 +87,7 @@ const PortfolioPage = ({
   },
 }) => (
   <Layout location={location}>
-    <>
+    <Canvas>
       <WideHeader>
         <Link to="/">
           <Title>Christopher France</Title>
@@ -91,7 +108,7 @@ const PortfolioPage = ({
           />
         ))}
       </PostCardGrid>
-    </>
+    </Canvas>
   </Layout>
 )
 

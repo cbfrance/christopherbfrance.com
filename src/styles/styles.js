@@ -64,6 +64,7 @@ export const SectionTitle = styled.div`
 
 export const SectionSubTitle = styled(SectionTitle)`
   font-weight: 400;
+  font-size: 1rem;
 `
 
 export const GlobalStyle = createGlobalStyle`
@@ -208,5 +209,28 @@ export const NavButton = styled(Link)`
     text-transform: uppercase;
     font-size: 0.8rem;
     color: ${theme.colors.blacks[5]};
+  }
+`
+
+export const Navigation = styled.div`
+  display: flex;
+  padding: 0.5rem 0;
+  font-size: 0.8rem;
+  justify-content: flex-end;
+
+  @media all and (min-width: ${theme.breakpoints.phone}) {
+    font-size: 1rem;
+  }
+
+  a {
+    display: inline-block;
+    background: ${theme.colors.blacks[2]};
+    margin-right: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 30px;
+    border-bottom-width: 0;
+    &.active {
+      font-weight: 700;
+    }
   }
 `

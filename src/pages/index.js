@@ -1,8 +1,9 @@
 /* eslint-disable prettier/prettier */
 import React from 'react'
-import { Link } from 'gatsby'
+import { Link, graphql } from 'gatsby'
 import styled from 'styled-components'
-import christopherImage from 'assets/christopher.png'
+import christopherImage from 'assets/christopher.jpg'
+import chroma from 'chroma-js'
 
 import {
   Row,
@@ -18,6 +19,83 @@ import theme from 'theme'
 
 import { Layout } from 'components'
 
+import PostCard from 'components/PostCard'
+
+const PostCardGrid = styled.div`
+  margin: 2rem;
+  max-width: 1200px;
+  @media all and (min-width: ${theme.maxWidth}) {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    & > a {
+      width: 35%;
+      margin: 1rem;
+      &:nth-of-type(1),
+      &:nth-of-type(4),
+      &:nth-of-type(5) {
+        width: 50%;
+      }
+    }
+  }
+
+  & > a {
+    display: block;
+    border-bottom-width: 0;
+
+    div {
+      /* By default the height is intrinsic */
+      @media all and (min-width: ${theme.breakpoints.phone}) {
+        /* on larger screens, crop */
+        height: 300px;
+      }
+    }
+
+    &:hover {
+      background-color: transparent;
+    }
+  }
+`
+
+const TagList = styled.ul``
+const Tag = styled.li`
+  background-color: ${props =>
+    chroma(props?.color || theme.colors.blue)
+      .darken(0.1)
+      .hex()};
+
+  color: ${props =>
+    chroma.contrast(props?.color || theme.colors.blue, 'white') > 4.5
+      ? 'white'
+      : 'black'};
+  padding: 0.5rem 1rem;
+  border-radius: 3px;
+  display: inline-block;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 0.8rem;
+  border: 1px solid black;
+`
+
+const Dots = styled.div`
+  width: 100%;
+  height: 100%
+  background-color: ${theme.colors.blacks[1]};
+  background-image: radial-gradient(
+      ${theme.colors.blacks[2]} 10%,
+      transparent 11%
+    ),
+    radial-gradient(${theme.colors.blacks[2]} 10%, transparent 11%);
+  background-size: 24px 24px;
+  background-position: 0 0, 24px 24px;
+  background-repeat: repeat;
+`
+
+// const Canvas = ({ children }) => <Dots>{children}</Dots>
+
 const Footer = styled.footer`
   text-align: center;
   padding: 3rem 1rem;
@@ -29,7 +107,8 @@ const Footer = styled.footer`
 `
 
 const SectionTitleSecondary = styled(SectionTitle)`
-  /* color: ${theme.colors.secondary}; */
+  color: ${theme.colors.blacks[6]};
+  font-size: 1.1rem;
 `
 
 const HeadlineContent = styled.div`
@@ -124,7 +203,12 @@ const ContentInner = styled.div`
   font-size: 1.2rem;
 `
 
-const IndexPage = ({ location }) => (
+const IndexPage = ({
+  location,
+  data: {
+    allMdx: { edges: postEdges },
+  },
+}) => (
   <Layout location={location} style={{ backgroundColor: theme.colors.cream }}>
     <HeadlineContent>
       <ContentInner>
@@ -146,28 +230,26 @@ const IndexPage = ({ location }) => (
       <ContentInner>
         <WelcomeNote>
           <p>
-            I design and build data products in an attempt to improve human
-            communication and sensing. My focus is conceptualization,
-            positioning and prototyping products using applied machine learning,
-            data visualization and large datasets.
+            I design and build data products to improve human sensemaking. My
+            focus is conceptualization, positioning and prototyping products
+            using applied machine learning, data visualization and large
+            datasets.
           </p>
 
-          <SectionTitleSecondary>
-            Big questions I often return to
-          </SectionTitleSecondary>
+          <SectionTitleSecondary>Big questions</SectionTitleSecondary>
 
           <p>
-            How can we expand human capacity to help us deal with critical
-            social and environmental problems?
+            How can we expand human capacity to better cope with critical social
+            and environmental problems?
+          </p>
+          <p></p>
+          <p>
+            How can we visualize data to make better decisions within it and
+            recognize opportunity?
           </p>
           <p>
-            How can we manage complexity with ethical responsibility? How can we
-            make our approach more inclusive, accountable and humane?
-          </p>
-          <p>
-            How can we visualize our landscape to make better decisions within
-            it? What are the missing pieces and overlooked opportunity in the
-            emerging system?
+            How can we manage complexity with ethical responsibility to make
+            powerful digital systems inclusive and accountable?
           </p>
 
           <SectionTitleSecondary>Working together</SectionTitleSecondary>
@@ -198,104 +280,121 @@ const IndexPage = ({ location }) => (
     <MainContent style={{ background: 'white' }}>
       <ContentInner>
         <WorkOverview>
-          <SectionTitle>EXPERIENCE</SectionTitle>
+          <SectionTitle>Experience</SectionTitle>
+          <SectionSubTitle>
+            Product leadership and platform design
+          </SectionSubTitle>
           <WorkList>
             <li>
-              <a href="https://cypress.io">Cypress</a> — Designer for test
-              automation platform
+              <em>Meedan</em> — Design lead for media and translation startup
             </li>
             <li>
-              <a href="https://weavegrid.com">WeaveGrid</a> — Software at
-              climate tech startup
+              <em>The Data Guild</em> —  Lead member at data product studio
             </li>
             <li>
-              <a href="/light-field">LightField</a> — Co-founder at data startup
-              for climate
+              <em>Contain</em> — Techology lead for fintech agriculture startup
             </li>
             <li>
-              <a href="/the-data-guild">The Data Guild</a> — Design and strategy
-              at a data product studio
-            </li>
-
-            <li>
-              <a href="/contain">Contain</a> — Software and design for an
-              agriculture startup
-            </li>
-
-            <li>
-              <a href="/litterati">Litterati</a> — Design (visualization) for
-              environmental startup
-            </li>
-
-            <li>
-              <a href="/meedan">Meedan</a> — Design lead and co-founder at
-              social tech organization
+              <em>LightField</em> — Design for agriculture and climate
             </li>
             <li>
-              <a href="https://www.healthmadedesign.com">Healthmade</a> — Health
-              data & visualizations for healthcare design studio
+              <em>WeaveGrid</em> — UX Lead for climate tech startup
             </li>
           </WorkList>
-
           <WorkList>
             <SectionSubTitle>
-              More than 10 years ago <em>—  way back</em>
+              Usability, graphics, UI, visualizations
             </SectionSubTitle>
             <li>
-              <strong>Bolt | Peters</strong> — Designer and UI researcher at UX
-              consultancy
+              <em>Cypress</em> — Design and code for automation platform
             </li>
             <li>
-              <strong>Ethnio</strong> — Rails developer and designer for
-              usability research product
+              <em>Litterati</em> — Design consultant for data prep and computer
+              vision.
             </li>
             <li>
-              <strong>Ushahidi</strong> — iOS designer and design advisor for
-              civic media platform
+              <em>Healthmade</em> — Data visualizations for chronic health.
             </li>
             <li>
-              <strong>Nonprofit Design</strong> — Founder of design services
-              company
+              <em>Ethnio</em> — UI development for usability research products
+            </li>
+            <li>
+              <em>Bolt | Peters</em> — Design and UI research consulting
+            </li>
+            <li>
+              <em>Ushahidi</em> — Design for civic media platform
+            </li>
+            <li>
+              <em>Nonprofit Design</em> — Founder of design services company
             </li>
           </WorkList>
-
-          <SectionTitle>Talks</SectionTitle>
-          <p>
-            I’m super grateful to have been invited to speak at venues such as
-            RightsCon, Global Fact, the Online News Association, DrupalCon, the
-            International CrisisMappers Conference, the AIGA, SXSW, the African
-            News Innovation Challenge, the Nonprofit Technology Conference, the
-            NYU Interactive Telecommunications Program and Stanford University.
-          </p>
-          <p>
-            I am sometimes available for talks, please{' '}
-            <Link to="/contact">get in touch</Link>.
-          </p>
-
-          <SectionTitle>Contact</SectionTitle>
-
-          <p>
-            <em>
-              For more details please reach out via my{' '}
-              <Link to="/contact">contact form</Link>. My resume is available{' '}
-              <a href="/resume">as HTML</a> or{' '}
-              <a href="/Christopher-France-Resume.pdf">as a PDF</a>.
-            </em>
-          </p>
-
-          <Footer>
-            <p>
-              un·think′ing·ly adv. — (from v. <strong>to unthink</strong>)
-              proceeding by undoing one’s thinking:{' '}
-              <em>to unthink and rethink technological myths</em> (Corlann Gee
-              Bush)
-            </p>
-            <p>&copy; {new Date().getFullYear()} Christopher Blow France</p>
-          </Footer>
         </WorkOverview>
+      </ContentInner>
+
+      <PostCardGrid>
+        {postEdges.map(post => (
+          <PostCard
+            title={post.node.frontmatter.title}
+            date={post.node.frontmatter.date}
+            excerpt={post.node.excerpt}
+            timeToRead={post.node.timeToRead}
+            slug={post.node.fields.slug}
+            key={post.node.fields.slug}
+            cover={post.node.frontmatter.cover}
+          />
+        ))}
+      </PostCardGrid>
+
+      <ContentInner>
+        <SectionTitle>Contact</SectionTitle>
+        <p>
+          <em>
+            For more details please reach out via my{' '}
+            <Link to="/contact">contact form</Link>. My resume is available{' '}
+            <a href="/resume">as HTML</a> or{' '}
+            <a href="/Christopher-France-Resume.pdf">as a PDF</a>.
+          </em>
+        </p>
+        <Footer>
+          <p>
+            un·think′ing·ly adv. — (from v. <strong>to unthink</strong>)
+            proceeding by undoing one’s thinking:{' '}
+            <em>to unthink and rethink technological myths</em> (Corlann Gee
+            Bush)
+          </p>
+          <p>&copy; {new Date().getFullYear()} Christopher Blow France</p>
+        </Footer>
       </ContentInner>
     </MainContent>
   </Layout>
 )
 
 export default IndexPage
+
+export const IndexPageQuery = graphql`
+  query IndexPageQuery {
+    allMdx(sort: { fields: [frontmatter___order], order: ASC }) {
+      edges {
+        node {
+          fields {
+            slug
+          }
+          frontmatter {
+            title
+            date(formatString: "YYYY")
+            cover {
+              publicURL
+              childImageSharp {
+                sizes(maxWidth: 2000) {
+                  ...GatsbyImageSharpSizes
+                }
+              }
+            }
+          }
+          excerpt(pruneLength: 200)
+          timeToRead
+        }
+      }
+    }
+  }
+`

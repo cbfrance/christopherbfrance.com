@@ -5,7 +5,7 @@ import theme from 'theme'
 
 const Wrapper = styled.div`
   display: flex;
-  margin: 6rem auto 0 auto;
+  /* margin: 6rem auto 0 auto; */
 `
 
 const Prev = styled(NavButton)`
