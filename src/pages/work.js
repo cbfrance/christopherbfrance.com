@@ -92,7 +92,7 @@ const PortfolioPage = ({
         <Link to="/">
           <Title>Christopher France</Title>
         </Link>
-        <Byline />
+        <Byline location={location} />
       </WideHeader>
 
       <PostCardGrid>

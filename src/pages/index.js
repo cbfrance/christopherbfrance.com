@@ -292,22 +292,25 @@ const IndexPage = ({
               <em>The Data Guild</em> —  Lead member at data product studio
             </li>
             <li>
+              <em>LightField</em> — Design for agriculture and climate
+            </li>
+          </WorkList>
+          <WorkList>
+            <SectionSubTitle>Software development</SectionSubTitle>
+            <li>
+              <em>WeaveGrid</em> — Frontend/UX lead for climate tech startup
+            </li>
+            <li>
               <em>Contain</em> — Techology lead for fintech agriculture startup
             </li>
             <li>
-              <em>LightField</em> — Design for agriculture and climate
-            </li>
-            <li>
-              <em>WeaveGrid</em> — UX Lead for climate tech startup
+              <em>Cypress</em> — Design and code for automation platform
             </li>
           </WorkList>
           <WorkList>
             <SectionSubTitle>
               Usability, graphics, UI, visualizations
             </SectionSubTitle>
-            <li>
-              <em>Cypress</em> — Design and code for automation platform
-            </li>
             <li>
               <em>Litterati</em> — Design consultant for data prep and computer
               vision.

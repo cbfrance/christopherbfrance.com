@@ -33,7 +33,7 @@ const BylineImageStyles = styled.div`
   }
 `
 
-const NavigationSection = () =>
+const NavigationSection = location =>
   !['/resume/', '/resume'].includes(location?.pathname) && (
     <Navigation>
       {location?.pathname !== '/' && (
@@ -45,14 +45,14 @@ const NavigationSection = () =>
     </Navigation>
   )
 
-const Byline = () => (
+const Byline = location => (
   <Wrapper>
     <BylineImageStyles>
       <img src={christopherImage} alt="Christopher France" />
     </BylineImageStyles>
     <div>
       <p>Christopher Blow France</p>
-      <NavigationSection />
+      <NavigationSection location={location} />
     </div>
   </Wrapper>
 )
