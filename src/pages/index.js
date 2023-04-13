@@ -301,7 +301,7 @@ const IndexPage = ({
               <em>WeaveGrid</em> — Frontend/UX lead for climate tech startup
             </li>
             <li>
-              <em>Contain</em> — Techology lead for fintech agriculture startup
+              <em>Contain</em> — Technology lead for fintech agriculture startup
             </li>
             <li>
               <em>Cypress</em> — Design and code for automation platform
