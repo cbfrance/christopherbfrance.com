@@ -1,8 +1,8 @@
 {
-  "name": "unthinkingly.com",
+  "name": "christopherbfrance.com",
   "description": "Portfolio of Christopher Blow France. Since 2004.",
   "version": "13.0.40",
-  "author": "Christopher France <cgblow@gmail.com> (https://unthinkingly.com)",
+  "author": "Christopher France <christopherbfrance@gmail.com> (https://christopherbfrance.com)",
   "dependencies": {
     "@mdx-js/mdx": "^0.17.5",
     "@mdx-js/tag": "^0.17.5",

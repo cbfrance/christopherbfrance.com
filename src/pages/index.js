@@ -289,7 +289,7 @@ const IndexPage = ({
               <em>Meedan</em> — Founder and design lead for translation startup
             </li>
             <li>
-              <em>The Data Guild</em> —  Lead member at data product studio
+              <em>The Data Guild</em> —  Lead Member at data product studio
             </li>
             <li>
               <em>LightField</em> — Design for agriculture and climate
@@ -347,24 +347,8 @@ const IndexPage = ({
           />
         ))}
       </PostCardGrid>
-
       <ContentInner>
-        <SectionTitle>Contact</SectionTitle>
-        <p>
-          <em>
-            For more details please reach out via my{' '}
-            <Link to="/contact">contact form</Link>. My resume is available{' '}
-            <a href="/resume">as HTML</a> or{' '}
-            <a href="/Christopher-France-Resume.pdf">as a PDF</a>.
-          </em>
-        </p>
         <Footer>
-          <p>
-            un·think′ing·ly adv. — (from v. <strong>to unthink</strong>)
-            proceeding by undoing one’s thinking:{' '}
-            <em>to unthink and rethink technological myths</em> (Corlann Gee
-            Bush)
-          </p>
           <p>&copy; {new Date().getFullYear()} Christopher Blow France</p>
         </Footer>
       </ContentInner>

@@ -4,8 +4,8 @@
     "label": "User experience research, software development, digital product design",
     "email": "christopherbfrance@gmail.com",
     "phone": "(415) 309-7900",
-    "portfolio": "www.unthinkingly.com/work",
-    "website": "www.unthinkingly.com",
+    "portfolio": "www.christopherbfrance.com/work",
+    "website": "www.christopherbfrance.com",
     "summary": "User experience research, design, and development.",
     "location": {
       "postalCode": "94611",
@@ -14,11 +14,6 @@
       "region": "California"
     },
     "profiles": [
-      {
-        "network": "Twitter",
-        "username": "unthinkingly",
-        "url": "https://twitter.com/unthinkingly"
-      },
       {
         "network": "Github",
         "username": "christopherfrance",
@@ -29,11 +24,11 @@
   "work": [
     {
       "company": "Cypress",
-      "position": "Product Design and Design Systems",
+      "position": "Product Design (Design Systems)",
       "website": "http://cypress.io",
       "startDate": "May 2022",
       "endDate": "Present",
-      "summary": "I work on technical product design for continuous integration in a MacOS/Cloud test automation platform."
+      "summary": "I'm a product designer for a test automation platform."
     },
     {
       "company": "WeaveGrid",
@@ -49,7 +44,7 @@
       "website": "http://thedataguild.com",
       "startDate": "July 2018",
       "endDate": "July 2020",
-      "summary": "I led UI for a venture studio serving subject matter experts using applied machine learning in the health and energy sectors."
+      "summary": "I led UI for a venture studio using applied machine learning in health and energy."
     },
     {
       "company": "Healthmade",
@@ -57,7 +52,7 @@
       "website": "https://www.healthmadedesign.com/",
       "startDate": "September 2019",
       "endDate": "March 2020",
-      "summary": "I designed predictive analytics solutions for healthcare."
+      "summary": "I designed wearables for predictive analytics in personal health."
     },
     {
       "company": "Contain",
@@ -65,7 +60,7 @@
       "website": "https://www.contain.ag/",
       "startDate": "July 2019",
       "endDate": "March 2020",
-      "summary": "I designed and developed a fintech platform utilized by lenders and borrowers."
+      "summary": "I designed and built a fintech platform matching lenders and borrowers."
     },
     {
       "company": "Litterati",
@@ -73,7 +68,7 @@
       "website": "https://www.litterati.org",
       "startDate": "May 2019",
       "endDate": "April 2020",
-      "summary": "I developed a data analysis tool that was used by the machine learning team for image recognition and data cleaning."
+      "summary": "I designed and built a data visualization pipeline for computer vision."
     },
     {
       "company": "Meedan",
@@ -81,7 +76,7 @@
       "website": "http://meedan.com",
       "startDate": "March 2008",
       "endDate": "July 2018",
-      "summary": "I led a team that provided design services to media and technology clients using machine translation technology."
+      "summary": "I co-founded a startup for machine translation."
     },
     {
       "company": "Bolt | Peters",
@@ -89,7 +84,7 @@
       "website": "https://www.crunchbase.com/organization/bolt-peters#section-overview",
       "startDate": "July 2007",
       "endDate": "September 2008",
-      "summary": "I conducted usability studies with clients like Sony and Electronic Arts and helped build Ethino, an app for UX researchers."
+      "summary": "I built an app for UX researchers."
     }
   ],
   "education": [
