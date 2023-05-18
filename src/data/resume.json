@@ -1,14 +1,13 @@
 {
   "basics": {
     "name": "Christopher Blow France",
-    "label": "Digital product design, UX resesarch and software development",
+    "label": "User experience research, software development, digital product design",
     "email": "christopherbfrance@gmail.com",
     "phone": "(415) 309-7900",
     "portfolio": "www.unthinkingly.com/work",
     "website": "www.unthinkingly.com",
-    "summary": "Hello, I’m a user experience researcher, developer and designer.",
+    "summary": "User experience research, design, and development.",
     "location": {
-      "address": "none",
       "postalCode": "94611",
       "city": "Oakland",
       "countryCode": "USA",
@@ -30,44 +29,43 @@
   "work": [
     {
       "company": "Cypress",
-      "position": "Product design and design systems",
+      "position": "Product Design and Design Systems",
       "website": "http://cypress.io",
       "startDate": "May 2022",
-      "endDate": "Current",
-      "summary": "Technical product design for continuous integration with a MacOS/Cloud test automation platform."
+      "endDate": "Present",
+      "summary": "I work on technical product design for continuous integration in a MacOS/Cloud test automation platform."
     },
     {
       "company": "WeaveGrid",
-      "position": "Software engineering and user experience",
+      "position": "User Experience Lead and Software Engineer",
       "website": "http://weavegrid.com",
       "startDate": "July 2020",
       "endDate": "April 2022",
-      "summary": "Frontend development, product design at a startup focused on increasing electric vehicle adoption."
+      "summary": "I led frontend development and product design at a startup aimed at promoting electric vehicle adoption."
     },
     {
       "company": "The Data Guild",
-      "position": "Lead Member (Software and design)",
+      "position": "Lead Member (Software and Design)",
       "website": "http://thedataguild.com",
       "startDate": "July 2018",
       "endDate": "July 2020",
-      "summary": "Product design for venture studio serving subject matter experts using applied machine learning."
+      "summary": "I led UI for a venture studio serving subject matter experts using applied machine learning in the health and energy sectors."
     },
     {
       "company": "Healthmade",
       "position": "Creative Data Technologist",
       "website": "https://www.healthmadedesign.com/",
       "startDate": "September 2019",
-      "endDate": "Current",
-      "summary": "Designed predictive analytics with large healthcare "
+      "endDate": "March 2020",
+      "summary": "I designed predictive analytics solutions for healthcare."
     },
     {
       "company": "Contain",
-      "position": "Platform developer and designer",
+      "position": "Platform Developer and Designer",
       "website": "https://www.contain.ag/",
       "startDate": "July 2019",
       "endDate": "March 2020",
-      "summary": "I designed and built a fintech platform used by lenders and borrowers.",
-      "highlights": ["Created fintech platform"]
+      "summary": "I designed and developed a fintech platform utilized by lenders and borrowers."
     },
     {
       "company": "Litterati",
@@ -75,15 +73,15 @@
       "website": "https://www.litterati.org",
       "startDate": "May 2019",
       "endDate": "April 2020",
-      "summary": "I built a data analysis tool used by the machine learning team for image recognition and data cleaning."
+      "summary": "I developed a data analysis tool that was used by the machine learning team for image recognition and data cleaning."
     },
     {
       "company": "Meedan",
-      "position": "Researcher, Developer & Designer",
+      "position": "Researcher, Developer, Designer, Founder",
       "website": "http://meedan.com",
       "startDate": "March 2008",
       "endDate": "July 2018",
-      "summary": "I led a team responsible for design services to media and technology clients using machine translation."
+      "summary": "I led a team that provided design services to media and technology clients using machine translation technology."
     },
     {
       "company": "Bolt | Peters",
@@ -91,7 +89,7 @@
       "website": "https://www.crunchbase.com/organization/bolt-peters#section-overview",
       "startDate": "July 2007",
       "endDate": "September 2008",
-      "summary": "Conducted usability studies with clients like Sony and Electronic Arts. Built Ethnio.com."
+      "summary": "I conducted usability studies with clients like Sony and Electronic Arts and helped build Ethino, an app for UX researchers."
     }
   ],
   "education": [

@@ -286,7 +286,7 @@ const IndexPage = ({
           </SectionSubTitle>
           <WorkList>
             <li>
-              <em>Meedan</em> — Design lead for media and translation startup
+              <em>Meedan</em> — Founder and design lead for translation startup
             </li>
             <li>
               <em>The Data Guild</em> —  Lead member at data product studio

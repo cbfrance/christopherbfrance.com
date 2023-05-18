@@ -38,7 +38,7 @@ export const DateStamp = styled.div`
   letter-spacing: 0.5px;
   text-transform: uppercase;
   line-height: 2rem;
-  color: rgba(0, 0, 0, 0.7);
+  color: rgba(0, 0, 0, 0.5);
 `
 
 const JobTitle = styled.div`
