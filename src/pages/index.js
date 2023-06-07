@@ -316,7 +316,7 @@ const IndexPage = ({
               vision.
             </li>
             <li>
-              <em>Healthmade</em> — Data visualizations for chronic health.
+              <em>Healthmade</em> — Data visualizations for health
             </li>
             <li>
               <em>Ethnio</em> — UI development for usability research products
