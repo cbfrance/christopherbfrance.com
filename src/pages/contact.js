@@ -60,7 +60,7 @@ const Contact = () => (
       <Content style={{ marginTop: '5rem' }}>
         <h1>Contact Christopher</h1>
         <p>
-          For speaking engagments, consulting interest or general inquires,
+          For speaking engagements, consulting interest or general inquiries,
           please reach out.
         </p>
         <form

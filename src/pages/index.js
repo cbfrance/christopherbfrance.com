@@ -242,7 +242,6 @@ const IndexPage = ({
             How can we expand human capacity to better cope with critical social
             and environmental problems?
           </p>
-          <p></p>
           <p>
             How can we visualize data to make better decisions within it and
             recognize opportunity?
@@ -289,7 +288,7 @@ const IndexPage = ({
               <em>Meedan</em> — Founder and design lead for translation startup
             </li>
             <li>
-              <em>The Data Guild</em> —  Lead Member at data product studio
+              <em>The Data Guild</em> — Lead member at data product studio
             </li>
             <li>
               <em>LightField</em> — Design for agriculture and climate
@@ -313,7 +312,7 @@ const IndexPage = ({
             </SectionSubTitle>
             <li>
               <em>Litterati</em> — Design consultant for data prep and computer
-              vision.
+              vision
             </li>
             <li>
               <em>Healthmade</em> — Data visualizations for health
